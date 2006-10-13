@@ -31,15 +31,16 @@ href="http://www.catb.org/~esr/faqs/smart-questions.html">helpful</a>.</p>
 # "Please note that mails to these addresses should be in english".
 #
 <ul>
-<li><tt>tor-ops</tt> gets to the people who manage the directory
+<li><tt>
+<a href="mailto:tor-ops&#64;freehaven.net">tor-ops</a></tt> gets to the people who manage the directory
 authorities. Use this if you run a Tor server and have a question or
 problem with your server.</li>
-<li><tt>tor-webmaster</tt> can fix typos on the website, change wrong
+<li><tt><a href="mailto:tor-webmaster&#64;freehaven.net">tor-webmaster</a></tt> can fix typos on the website, change wrong
 statements or directions on the website, and add new sections and
 paragraphs that you send us. You might want to make a draft of your new
 sections on <a href="http://wiki.noreply.org/noreply/TheOnionRouter">the
 Tor wiki</a> first.</li>
-<li><tt>tor-volunteer</tt> wants to hear about your documents, patches,
+<li><tt><a href="mailto:tor-volunteer&#64;freehaven.net">tor-volunteer</a></tt> wants to hear about your documents, patches,
 testing, experiences with supporting applications, and so forth inspired
 by our <a href="<page volunteer>">volunteer page</a> (or other problems
 you've fixed or documented about using Tor project). There's no need
@@ -48,7 +49,7 @@ Internet projects, we hear from a lot of excited people who vanish soon
 after, so we are most interested in hearing about actual progress.</li>
 <li><tt>tor-assistants</tt> is the catch-all address for press contacts
 and other comments and issues.</li>
-<li><tt>donations</tt> is for questions and comments about <a href="<page
+<li><tt><a href="mailto:donations&#64;freehaven.net">donations</a></tt> is for questions and comments about <a href="<page
 donate>">getting money to the Tor project, and associated work we commission</a>. 
 More donations means <a
 href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#Funding">more
