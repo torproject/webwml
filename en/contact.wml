@@ -1,22 +1,26 @@
 ## translation metadata
 # Revision: $Revision$
 
-#include "head.wmi" TITLE="Contact"
+#include "head.wmi" TITLE="Tor: Contact"
 
 <div class="main-column">
 
 <h2>Tor: Contact</h2>
 <hr />
 
-<p>First, if you have a problem or question about using Tor, go
+<p>First, if you have a problem or question about using Tor, please go
 look at the <a href="<page documentation>#Support">Support section</a>
-for how to proceed. We (the Tor developers) spend most of
-our time developing Tor, and we're even busier now that we <a
-href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#Funding">don't
-have funding</a>. There are no people devoted
-to user support, so try to help yourself before <a
+for how to proceed.
+</p><p>
+We (the Tor developers and staff) spend most of
+our time designing and implementing Tor, and we'll always be busy so long as we 
+<a href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#Funding">don't
+have full funding</a>. 
+</p><p>
+We have no staff devoted
+to user support, so we request that you try to help yourself before <a
 href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#SupportMail">politely
-trying to find a volunteer</a>.</p>
+contacting a volunteer</a> to assist you.</p>
 
 <p>If you really do need to reach us, here are some approaches. All
 of these addresses are @freehaven.net. Note that in practice all of
@@ -45,12 +49,13 @@ after, so we are most interested in hearing about actual progress.</li>
 <li><tt>tor-assistants</tt> is the catch-all address for press contacts
 and other comments and issues.</li>
 <li><tt>donations</tt> is for questions and comments about <a href="<page
-donate>">getting money to the developers</a>. More donations means <a
+donate>">getting money to the Tor project, and associated work we commission</a>. 
+More donations means <a
 href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#Funding">more
 Tor</a>. We're happy to help think about creative ways for you to
 contribute.</li>
 <li>If you absolutely need to mail us individually, you can find
-pointers to us on the <a href="<page people>">people page</a>.</li>
+pointers to us on the <a href="<page people>">staff page</a>.</li>
 </ul>
 
   </div><!-- #main -->
