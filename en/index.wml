@@ -1,7 +1,7 @@
 ## translation metadata
 # Revision: $Revision$
 
-#include "head.wmi" TITLE="An anonymous Internet communication system"
+#include "head.wmi" TITLE="Tor -- anonymity online"
 
 <!-- SIDEBAR (OPTIONAL) -->
 <div class="sidebar">
@@ -21,34 +21,13 @@
 
 <!-- PUT CONTENT AFTER THIS TAG -->
 
-<h2>Tor: An anonymous Internet communication system</h2>
+<h2>Tor: anonymity online</h2>
 
 <br />
 <p>
-NEWS: <a href="<page index>#News">see News below for German server story</a>
+NEWS: <a href="<page index>#News">see News below for Network Security podcast</a>
 </p>
 
-<p>
-Tor is a toolset for a wide range of organizations and people that want
-to improve their safety and security on the Internet. Using Tor can help
-you anonymize web browsing and publishing, instant messaging, IRC, SSH,
-and other applications that use the TCP protocol. Tor also provides a
-platform on which software developers can build new applications with
-built-in anonymity, safety, and privacy features.
-</p>
-
-<p>
-Tor aims to defend against <a href="<page overview>">traffic analysis</a>,
-a form of network surveillance that threatens personal
-anonymity and privacy, confidential business activities and relationships,
-and state security.
-Communications are bounced around a distributed network of servers called
-onion routers, <a
-href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#WhatProtections">protecting you</a>
-from websites that build profiles of your interests,
-local eavesdroppers that read your data or learn what sites you visit,
-and even the onion routers themselves.
-</p>
 
 <p>
 Tor's security is improved as its user base grows and as
