@@ -1,32 +1,65 @@
 ## translation metadata
 # Revision: $Revision$
 
-#include "head.wmi" TITLE="Overview"
+#include "head.wmi" TITLE="Tor: a technical overview"
 
 <div class="main-column">
 
-<h2>Tor: Overview</h2>
+<h2>Tor: a technical overview</h2>
 <hr />
+<p>
+Tor is a toolset for a wide range of organizations and people that want
+to improve their safety and security on the Internet. 
+</p>
 
 <p>
-Tor is a network of virtual tunnels that allows people and groups to
-improve their privacy and security on the Internet.  It also enables
-software developers to create new communication tools
-with built-in privacy features.  Tor provides the foundation for
+The Tor network is like a set of virtual tunnels that allows people and groups to
+improve their privacy and security on the Internet.  Tor provides the foundation for
 a range of applications that allow organizations and individuals
 to share information over public networks without compromising their
 privacy.
 </p>
 
+<p>Using the Tor client can help
+you anonymize web browsing and publishing, instant messaging, IRC, SSH,
+and other applications that use the TCP protocol. 
+</p>
 <p>
-Individuals use Tor to keep websites from tracking them and their family
+But Tor as a design specification, and as an open source project and ever-growing 
+software tool kit also provides a
+platform on which software developers can build new applications with
+built-in anonymity, safety, and privacy features.
+</p>
+<p>
+
+## does this really link to itself? !@SN
+
+Tor aims to defend against <a href="<page overview>">traffic analysis</a>,
+a form of network surveillance that threatens personal
+anonymity and privacy, confidential business activities and relationships,
+and state security.</p>
+<p>
+
+Communications are bounced around a distributed network of servers called
+onion routers, <a
+href="http://wiki.noreply.org/noreply/TheOnionRouter/TorFAQ#WhatProtections">protecting you</a>
+from websites that build profiles of your interests, from
+local eavesdroppers that read your data or learn what sites you visit,
+and even from the onion routers themselves as they pass your traffic to its destination.
+</p>
+
+
+<p>
+Individuals use Tor to keep cookies, malware, and websites from tracking them and their family
 members, or to connect to news sites, instant messaging services, or the
-like when these are blocked by their local Internet providers.  Tor's <a
-href="<page docs/tor-hidden-service>">hidden services</a>
-let users publish web sites and other services without needing to reveal
-the location of the site. Individuals also use Tor for socially sensitive
+like when these are blocked by their national firewall or local Internet providers.  
+Individuals also use Tor for socially sensitive
 communication: chat rooms and web forums for rape and abuse survivors,
 or people with illnesses.
+</p>
+<p>
+For a review of use cases for Tor for individuals, law enforcement, institutions, 
+companies, journalists, human rights workers, and many others see our <a href="<page use-cases>">uses</a> page.
 </p>
 
 <p>
@@ -59,12 +92,20 @@ and for security during sting operations.
 </p>
 
 <p>
+Tor's <a
+href="<page docs/tor-hidden-service>">hidden services</a>
+let users publish web sites and other services without needing to reveal
+the location of the site. 
+</p>
+
+<p>
 The variety of people who use Tor is actually <a
 href="http://freehaven.net/doc/fc03/econymics.pdf">part of what makes
 it so secure</a>.  Tor hides you among the other users on the network,
 so the more populous and diverse the user base for Tor is, the more your
 anonymity will be protected.
 </p>
+
 
 <h3>Why we need Tor</h3>
 
