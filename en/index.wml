@@ -1,7 +1,7 @@
 ## translation metadata
 # Revision: $Revision$
 
-#include "head.wmi" TITLE="Tor -- anonymity online"
+#include "head.wmi" TITLE="anonymity online"
 
 <!-- SIDEBAR (OPTIONAL) -->
 <div class="sidebar">
