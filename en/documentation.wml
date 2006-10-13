@@ -5,6 +5,14 @@
 
 <div class="main-column">
 
+<p>Tor documentation is spread across different servers, and maintained by
+various volunteers.  We encourage you to review the <a href="<page glossary>">glossary page</a> 
+before you plunge too far into the documentation.
+</p>
+<p>
+We would love your <a href="<page volunteer>">help</a> in making Tor's documentation more user friendly, 
+and are always in search of translator volunteers for the web site and documentation!
+</p>
 <a id="RunningTor"></a>
 <h2><a class="anchor" href="#RunningTor">Running Tor</a></h2>
 <ul>
