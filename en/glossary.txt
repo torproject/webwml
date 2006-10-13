@@ -1,0 +1,32 @@
+## translation metadata
+# Revision: $Revision: 7935 $
+
+#include "head.wmi" TITLE="Tor: a glossary"
+
+<div class="main-column">
+
+<h2>Tor: a glossary of terms</h2>
+<hr />
+When we talk about Tor, we will refer to several things:
+<ul>
+<li>The Tor network -- a complex of volunteer-run servers that relay anonymous traffic, 
+located on six continents.</li>
+<li>The Tor client -- a piece of software that runs on an individual's computer to allow
+them access to the Tor network</li>
+<li>The Tor bundle -- software we've chosen to distribute with our client, including the 
+Vidalia user interface and Privoxy, which protects you from intrusive marketing and helps 
+protect your anonymity.  We think these applications provide synergy with the client, and 
+we believe in the people who produce them.</li>
+<li>The Tor software -- the software we produce that runs the servers, 
+and provides individuals with a client program that connects to the Tor network</li>
+</ul>
+
+<p>
+Since we're a largely volunteer motivated project, you will find the term "Tor" used to mean 
+any or all of these things, sometimes in the same document!  We hope you'll be patient with us, 
+and we'd enjoy your <a href="<page volunteer>"help</a> in maintaining our documents and web site.
+</p>
+
+  </div><!-- #main -->
+
+#include <foot.wmi>
