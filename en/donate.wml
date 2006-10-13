@@ -1,7 +1,7 @@
 ## translation metadata
 # Revision: $Revision$
 
-#include "head.wmi" TITLE="Donate!"
+#include "head.wmi" TITLE="Tor: Donate!"
 
 <div class="main-column">
 
@@ -9,7 +9,8 @@
 <hr />
 
 <p>
-If you use Tor and would like to help support it, please consider making
+If you use Tor and would like to help support it, or if you support the principles of 
+privacy and freedom of information Tor protects, please consider making
 a donation to the Tor project.
 </p>
 
@@ -68,8 +69,12 @@ href="http://paypal.com/">PayPal</a> account):<br />
 
 <p>You can also make tax-deductible donations by <b>check or money
 order</b> made out to the Electronic Frontier Foundation, which has
-agreed to accept donations for the Tor project. Make sure to write
-"Tor donation" on the check <i>and</i> the envelope. EFF will send
+agreed to accept donations for the Tor project. 
+<blockquote>
+Please make sure to write
+"Tor donation" on the check <i>and</i> the envelope. 
+</blockquote>
+EFF will send
 an acknowledgement for your tax records if you provide a shipping
 address. For donations of $65 or more, EFF will throw in a <a
 href="http://tor.eff.org/tshirt.html">bright green Tor t-shirt</a>
