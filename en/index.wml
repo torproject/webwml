@@ -25,10 +25,29 @@
 
 <br />
 <p>
-NEWS: <a href="<page index>#News">see News below for Network Security podcast</a>
+Breaking: <a href="<page index>#News">see News below for Network Security podcast</a>
 </p>
-
-
+<p>
+Tor covers your tracks on the web.  When you connect to the internet from your 
+computer, you leave an return address that's like a calling card, everywhere you go. 
+ Even if you don't log into a site with a username and password, you leave information 
+on what IP you came from and when.
+</p><p>
+Since this is all the information that is usually needed to find out who was on the 
+other end of the wire, so to speak, marketers, governments, and other curious parties 
+can trace you by tracing the activity associated with your IP address.
+</p><p>
+Tor hides your IP address.  It's like blocking your caller ID.  If you keep Tor turned 
+on all the time, you won't be able to use some services on the Web.
+</p><p>
+Tor does not prevent you from connecting to a site and then logging on or otherwise 
+identifying yourself.  It simply hides the physical location of your originating 
+connection -- where your computer is, geographically.  Without fastidious care, you 
+can accidentally reveal your location even with the use of Tor, if you don't turn off 
+Javascript, Flash, and other browser plug-ins that are "leaky."  Similarly, adware and 
+spyware can reveal your location if you don't protect your machine from malware.  
+So Tor on its own is necessary, but not sufficient, to protect your privacy.
+</p>
 <p>
 Tor's security is improved as its user base grows and as
 more people volunteer to run servers.  Please consider
@@ -44,57 +63,43 @@ on the current Tor network if you really need strong anonymity.
 
 <ul>
 
-<li>Sep 11 2006:
-<p>
-Last week, a few Tor exit nodes were seized by the German police in a
-massive sting against child pornography.  From our friends on the ground in
-Germany, we hear that dozens and dozens of other computers unrelated
-to Tor may have been seized too.
-</p>
-
-<p>So far as we know, only six of those were Tor servers.  We have heard
-from the server operators.  None of them has been charged.  We hope that
-this is just a misunderstanding that can be solved by educating German
-law enforcement about Tor.
-</p>
-
-<p>
-<b>This is not a "crackdown on Tor"</b>, as has been widely reported.
-This seems to be part of a wide sweep on computers associated by IP address
-with a large child porn bust.  There does not seem to be any specific
-targeting of Tor &mdash; Tor is used by journalists, human rights
-activists, dissident bloggers, and a vast array of blameless users.
-</p>
-
-<p>
-We hope that the volunteer Tor server operators in Germany will get their
-equipment back after this has blown over, and there will be no action against
-Tor.
-</p>
-
-<p>
-Please contact <a href="mailto:shava@freehaven.net">Shava Nerad</a>
-for more press information.
-</p>
-
-<p>
-If you are a Tor server operator in Germany, please contact <a
-href="mailto:julius@ccc.de">Julius Mittenzwei</a> for more
-information.
-</p>
+<li>Oct 2006:  Shava Nerad, Tor executive director, featured on Martin McKeay's
+<a href="http://www.mckeay.net/secure/2006/10/network_security_podcast_episo_43.html">
+Network Security podcast</a>
 </li>
-
-<li>Feb 2006: The Tor network has grown to hundreds of thousands of
+<li>Oct 2006:  Nick Matthewson rejoins the Tor project staff -- welcome back, Nick!
+</li>
+<li>Sep 2006:  Roger Dingledine, Tor principle scientist, is awarded a 
+Technology Review TR35 award, in recognition of thirty-five outstanding
+innovators, globally, under the age of 35.
+</li>
+<li>Sep 2006:  German police seize a few Tor servers, state that Tor is 
+not their target.
+</li>
+<li>Aug 2006:  Tor is awarded an Omidyar Enzyme Grant, targeted to organizations
+catalyzing positive social change
+</li>
+<li>Aug 2006:  Tor is approved for a Americorp/VISTA position to create 
+curricula to help low income Americans use privacy measures to better engage
+in civic affairs.
+</li>
+<li>May 2006: Shava Nerad joins Tor project staff as executive director
+</li>
+<li>see <a href="<page oldnews>">news archives</a> for older news and some expansions
+of these items
+</li>
+</ul>
+<p>
+The Tor network has grown to hundreds of thousands of
 users. The developers can't do all the new features, bug fixes, and
-documentation. <a href="<page volunteer>">We need your help!</a></li>
-
-<li>Jan 2006: <b>We are now actively looking for new sponsors and funding.</b>
+documentation. <a href="<page volunteer>">We need your help!</a>
+</p><p>
+<b>We are now actively looking for new sponsors and funding.</b>
 If your organization has an interest in keeping the Tor network usable
 and fast, please <a href="<page contact>">contact us</a>. Sponsors of Tor
 also get personal attention, better support, publicity (if they want it),
-and get to influence the direction of our research and development.</li>
-
-</ul>
+and get to influence the direction of our research and development.
+</p>
 
   </div><!-- #main -->
 
