@@ -1,13 +1,9 @@
-
-
 ## translation metadata
 # Revision: $Revision: 7935 $
 
 #include "head.wmi" TITLE="Who uses Tor?"
 
 <div class="main-column">
-
-
 
 <h1>Who uses Tor?</h1>
 
@@ -16,35 +12,45 @@
 <ul>
 <li>	...protect their privacy from marketers </li>
 
-
-
-<p>Anonymity helps defeat marketing that doesn't have your permissions.  There are all kinds of unscrupulous marketing techniques that track your activity through cookies, web bugs, and malware by using your IP address to build marketing databases, often selling your private information without your permission.  Tor helps defeat a number of these violations of your privacy.</p>
-
-
+<p>Anonymity helps defeat marketing that doesn't have your permissions.
+There are all kinds of unscrupulous marketing techniques that track your
+activity through cookies, web bugs, and malware by using your IP address
+to build marketing databases, often selling your private information
+without your permission.  Tor helps defeat a number of these violations
+of your privacy.</p>
 
 <li>	...preserve their kids' safety online</li>
 
-
-
-<p>&ldquo;I'm proud my mom and dad let me stay alone at home now.&rdquo; You've told your kids they shouldn't share personally identifying information online, but they may be sharing their location simply by not concealing their IP address from predators.  Increasingly, IP numbers can be literally mapped to street locations, and in the US the government is pushing to get this mapping closer and closer to your street address.  What if a predator heard your child was alone, and called up the satellite view of your address to find the best approach from the back of the property?</p>
-
-
+<p>&ldquo;I'm proud my mom and dad let me stay alone at home now.&rdquo;
+You've told your kids they shouldn't share personally identifying
+information online, but they may be sharing their location simply
+by not concealing their IP address from predators.  Increasingly, IP
+numbers can be literally mapped to street locations, and in the US the
+government is pushing to get this mapping closer and closer to your
+street address.  What if a predator heard your child was alone, and
+called up the satellite view of your address to find the best approach
+from the back of the property?</p>
 
 <li>	...research sensitive topics</li>
 
-
-
-<p>There's a wealth of information available online.   Perhaps, in your country, access to information on AIDS, birth control, Tibetan culture, or world religions may be restricted inside a national firewall.  Or perhaps are you afraid that if you research a particular set of symptoms, at some later date an insurance company could establish that you had suspicions of a pre-existing condition?  Want to research airline security statistics or animal rights without the risk that your national security authorities are going to think you are a terrorist? </p>
-
-
-
-
+<p>There's a wealth of information available online.   Perhaps, in your
+country, access to information on AIDS, birth control, Tibetan culture,
+or world religions may be restricted inside a national firewall.
+Or perhaps are you afraid that if you research a particular set of
+symptoms, at some later date an insurance company could establish that
+you had suspicions of a pre-existing condition?  Want to research airline
+security statistics or animal rights without the risk that your national
+security authorities are going to think you are a terrorist? </p>
 
 <li>	...find out how other folks live</li>
 
-
-
-<p>Tor, in combination with Blossom, allows you to see the World Wide Web from a specific perspective.  Want to see Google come up in Polish?  If you ask to leave the Tor cloud at a Polish Tor server, you'll see what Poland sees online.  Want to check the differential pricing offered by an online retailer or wholesaler to folks in another country, compared to the pricing offered to you or your company?  Tor and Blossom can provide that window to the world, also.</p>
+<p>Tor, in combination with Blossom, allows you to see the World Wide
+Web from a specific perspective.  Want to see Google come up in Polish?
+If you ask to leave the Tor cloud at a Polish Tor server, you'll see what
+Poland sees online.  Want to check the differential pricing offered by
+an online retailer or wholesaler to folks in another country, compared
+to the pricing offered to you or your company?  Tor and Blossom can
+provide that window to the world, also.</p>
 
 </ul>
 
@@ -54,163 +60,171 @@
 
 <li>Reporters without Borders</li>
 
-
-
-<p><ahref="www.rsf.org>Reporters without Borders </a> advises journalists, sources, bloggers, and dissidents online to use Tor to ensure their privacy.  RSF tracks internet prisoners of conscience and jailed or harmed journalists all over the world.</p>
-
-
+<p><a href="www.rsf.org">Reporters without Borders </a> advises
+journalists, sources, bloggers, and dissidents online to use Tor to
+ensure their privacy.  RSF tracks internet prisoners of conscience and
+jailed or harmed journalists all over the world.</p>
 
 <li>	IBB/Voice of America/Radio Free Europe/Radio Free Asia</li>
 
-
-
-<p>IBB recommends Tor for Internet users in countries that can not get safe access to free media.  Tor not only protects freedom of expression, but preserves the ability of persons behind national firewalls or under the surveillance of repressive regimes to view information that gives a global perspective on democracy, economics, religion, and other vital topics to a full global perspective on culture.</p>
-
-
+<p>IBB recommends Tor for Internet users in countries that can not get
+safe access to free media.  Tor not only protects freedom of expression,
+but preserves the ability of persons behind national firewalls or under
+the surveillance of repressive regimes to view information that gives
+a global perspective on democracy, economics, religion, and other vital
+topics to a full global perspective on culture.</p>
 
 <li>	MediaGiraffe</li>
 
-
-
-<p>A conference for people in the media &ldquo;willing to stick their necks out&rdquo; recently asked Tor executive director, Shava Nerad, to lead a discussion of identity and anonymity for journalists online, and profiled <a href="http://www.mediagiraffe.org/wiki/index.php/Shava_Nerad">here.</a></p>
-
-
-
+<p>A conference for people in the media &ldquo;willing to
+stick their necks out&rdquo; recently asked Tor executive
+director, Shava Nerad, to lead a discussion of identity
+and anonymity for journalists online, and profiled <a
+href="http://www.mediagiraffe.org/wiki/index.php/Shava_Nerad">here.</a></p>
 
 <li>	Reporters in sensitive locations</li>
 
-
-
-<p>Reporters in sensitive environments can use Tor to be more secure in filing their stories.</p>
-
-
+<p>Reporters in sensitive environments can use Tor to be more secure in
+filing their stories.</p>
 
 <li>	sources</li>
 
-
-
-<p>Journalists' sources often use Tor to report sensitive information, or to discuss items with journalists from sensitive locations.</p>
-
-
+<p>Journalists' sources often use Tor to report sensitive information,
+or to discuss items with journalists from sensitive locations.</p>
 
 <li>	whistleblowers</li>
 
-
-
-<p>Likewise, whistleblowers use Tor to safely leave tips on governmental and corporate malfeasance.
-
-
+<p>Likewise, whistleblowers use Tor to safely leave tips on governmental
+and corporate malfeasance.
 
 <li>	citizen journalism</li>
 
-
-
-<p>Citizen journalists in China and &ldquo;other Internet black holes&rdquo; use Tor to write about local events and to encourage social change and political reform, more secure that there will not be a knock on their door at midnight.</p>
+<p>Citizen journalists in China and &ldquo;other Internet black
+holes&rdquo; use Tor to write about local events and to encourage social
+change and political reform, more secure that there will not be a knock
+on their door at midnight.</p>
 
 </ul>
 
 <h2>Human rights workers use Tor</h2>
 
-
-
-<p>Reporting human rights violations from within their country of origin is a task for peaceful warriors.  It takes courage and a good eye to risk mitigation.  Human rights activists use Tor to anonymously report from danger zones.  Internationally, labor rights workers use Tor and other forms of online and offline anonymity to organize workers in accordance with the Universal Declaration of Human Rights.  Are they within the law?  But, does that mean they are safe?</p>
-
-
+<p>Reporting human rights violations from within their country of origin
+is a task for peaceful warriors.  It takes courage and a good eye to risk
+mitigation.  Human rights activists use Tor to anonymously report from
+danger zones.  Internationally, labor rights workers use Tor and other
+forms of online and offline anonymity to organize workers in accordance
+with the Universal Declaration of Human Rights.  Are they within the law?
+But, does that mean they are safe?</p>
 
 <ul>
 
 <li>	Human Rights Watch</li>
 
-<p>In their report  	&ldquo;Race to the Bottom Corporate Complicity in Chinese Internet Censorship,&rdquo; a study co-author interviewed Roger Dingledine, Tor principal developer, on Tor use.  They cover Tor in the section on how to breach the  a href="http://www.hrw.org/reports/2006/china0806/3.htm#_Toc142395820">&ldquo;Great Firewall of China 	&rdquo;</a></p>
-
+<p>In their report &ldquo;Race to the Bottom Corporate
+Complicity in Chinese Internet Censorship,&rdquo; a study
+co-author interviewed Roger Dingledine, Tor principal developer,
+on Tor use.  They cover Tor in the section on how to breach the <a
+href="http://www.hrw.org/reports/2006/china0806/3.htm#_Toc142395820">&ldquo;Great
+Firewall of China &rdquo;</a></p>
 
 <a href="http://hrw.org/doc/?t=internet">web site</a>
 
+<p>Human Rights Watch recommends Tor for human rights workers throughout
+the globe for &ldquo;secure browsing and communications.&rdquo;</p>
 
-
-<p>Human Rights Watch recommends Tor for human rights workers throughout the globe for &ldquo;secure browsing and communications.&rdquo;</p>
-
-
-
-<p>Tor has been invited to create a training for HRW field agents to be delivered this fall in NYC.</p>
-
-
+<p>Tor has been invited to create a training for HRW field agents to be
+delivered this fall in NYC.</p>
 
 <li>	Amnesty International</li>
 
-
-
-<p>Tor has consulted and volunteered help to Amnesty International's recent corporate responsibility campaign, http://irrepressible.info/, see also their full report on China Internet issues at http://irrepressible.info/static/pdf/FOE-in-china-2006-lores.pdf</p>
-
+<p>Tor has consulted and volunteered help to Amnesty International's
+recent corporate responsibility campaign, http://irrepressible.info/,
+see also their full report on China Internet issues at
+http://irrepressible.info/static/pdf/FOE-in-china-2006-lores.pdf</p>
 
 <li>	Global Voices</li>
 
-
-
-<p>Global Voices can't stop recommending Tor throughout their <a href="http://www.google.com/search?hl=en&lr=&rls=DVFC,DVFC:1970--2,DVFC:en&q=+site:www.globalvoicesonline.org+global+voices+tor"> web site.</a></p>
-
-
-
+<p>Global Voices can't stop recommending Tor throughout their <a
+href="http://www.google.com/search?hl=en&lr=&rls=DVFC,DVFC:1970--2,DVFC:en&q=+site:www.globalvoicesonline.org+global+voices+tor">
+web site.</a></p>
 
 <li>	10% for corruption</li>
 
-
-
-<p>A contact of ours who works with a public health nonprofit in Africa reports that his nonprofit must budget 10% to cover various sorts of corruption, mostly bribes and such.  When that percentage rises steeply, not only can they not afford the money, but they can not afford to complain -- this is the point at which open objection can become dangerous.  So his nonprofit is trying to figure out how to use Tor to safely whistleblow on governmental corruption in order to continue their work more effectively and safely.</p>
-
-
+<p>A contact of ours who works with a public health nonprofit in
+Africa reports that his nonprofit must budget 10% to cover various
+sorts of corruption, mostly bribes and such.  When that percentage
+rises steeply, not only can they not afford the money, but they can
+not afford to complain -- this is the point at which open objection can
+become dangerous.  So his nonprofit is trying to figure out how to use
+Tor to safely whistleblow on governmental corruption in order to continue
+their work more effectively and safely.</p>
 
 <li>	Labor organizers in the US and overseas</li>
 
+<p>At a recent conference a Tor staffer ran into a woman who came from
+a  &ldquo;company town &rdquo; in a mountainous area of the
+eastern United States. She was attempting to blog anonymously to rally
+local residents to urge reform on the company that dominated the towns
+economic and governmental affairs, fully cognizant that the kind of
+organizing she was doing could lead to harm or &ldquo;fatal
+accidents.&rdquo;</p>
 
-
-<p>At a recent conference a Tor staffer ran into a woman who came from a  	&ldquo;company town 	&rdquo; in a mountainous area of the eastern United States.  She was attempting to blog anonymously to rally local residents to urge reform on the company that dominated the towns economic and governmental affairs, fully cognizant that the kind of organizing she was doing could lead to harm or  	&ldquo;fatal accidents.&rdquo;</p>
-
-
-
-<p>In east Asia, some labor organizers use anonymity to reveal information regarding sweatshops that produce goods for western countries and to organize local labor.</p>
+<p>In east Asia, some labor organizers use anonymity to reveal information
+regarding sweatshops that produce goods for western countries and to
+organize local labor.</p>
 
 </ul>
 
 <h2>People with high profile community roles use Tor</h2>
 
-
-
-<p>Does being in the public spotlight shut you off from having a private life, forever, online?  A rural lawyer in a small New England state keeps an anonymous blog because, with the diverse clientele at his prestigious law firm, his political beliefs are bound to offend someone.  Yet, he doesn't want to remain silent on issues he cares about.  Tor helps him feel secure that he can express his opinion without consequences to his public role.</p>
-
-
-
-
+<p>Does being in the public spotlight shut you off from having a private
+life, forever, online?  A rural lawyer in a small New England state keeps
+an anonymous blog because, with the diverse clientele at his prestigious
+law firm, his political beliefs are bound to offend someone.  Yet, he
+doesn't want to remain silent on issues he cares about.  Tor helps him
+feel secure that he can express his opinion without consequences to his
+public role.</p>
 
 <h2>	Poor people use Tor</h2>
 
-
-
-<p>People living in poverty often don't participate fully in civil society -- not out of ignorance or apathy, but out of fear.  If something you write were to get back to your boss, would you lose your job?  If your social worker read about your opinion of the system, would she treat you differently?  Anonymity gives a voice to the voiceless.</p>
+<p>People living in poverty often don't participate fully in civil society
+-- not out of ignorance or apathy, but out of fear.  If something you
+write were to get back to your boss, would you lose your job?  If your
+social worker read about your opinion of the system, would she treat
+you differently?  Anonymity gives a voice to the voiceless.</p>
 
 <ul>
 
 <li>	VISTA grant</li>
 
+<p>Tor has an open Americorps/VISTA position for 1/07-12/07.  This
+government grant will cover a full time stipend for a volunteer to create
+curricula to show low-income populations how to use anonymity online for
+safer civic engagement.  Although it's often said that the poor do not use
+online access for civic engagment, failing to act in their self-interests,
+it is our hypothesis (based on personal conversations and anecdotal
+information) that it is precisely the &ldquo;permanent record &rdquo;
+left online that keeps many of the poor from speaking out on the Internet.
+Where speaking out on social programs or job related issues might seem
+in their enlightened self interest, they see things closer to home.
+The boss or social worker or educational advisor virtually looking over
+their shoulder could put a fragile situation into a tailspin.</p>
 
-
-<p>Tor has an open Americorps/VISTA position for 1/07-12/07.  This government grant will cover a full time stipend for a volunteer to create curricula to show low-income populations how to use anonymity online for safer civic engagement.  Although it's often said that the poor do not use online access for civic engagment, failing to act in their self-interests, it is our hypothesis (based on personal conversations and anecdotal information) that it is precisely the  	&ldquo;permanent record &rdquo; left online that keeps many of the poor from speaking out on the Internet.  Where speaking out on social programs or job related issues might seem in their enlightened self interest, they see things closer to home.  The boss or social worker or educational advisor virtually looking over their shoulder could put a fragile situation into a tailspin.</p>
-
-
-
-<p>We hope to show people how to more safely engage online, and then at the end of the year, evaluate how online and offline civic engagement has changed, and how the population sees this continuing in clear channels and anonymously into the future.</p>
+<p>We hope to show people how to more safely engage online, and then at
+the end of the year, evaluate how online and offline civic engagement has
+changed, and how the population sees this continuing in clear channels
+and anonymously into the future.</p>
 
 </ul>
 
 <h2>	People who care about privacy, in general, increasingly use Tor</h2>
 
-
-
-<p>In the section below on recent media mentions of Tor, it becomes clear that the recent revelation of users' browsing patterns by AOL has piqued the conscience of the everyday Internet surfer in more privacy.  All over the net, Tor is being recommended to people newly concerned about their privacy in the face of increasing breaches and betrayals of private data.</p>
-
-
-
-
+<p>In the section below on recent media mentions of Tor, it becomes
+clear that the recent revelation of users' browsing patterns by AOL has
+piqued the conscience of the everyday Internet surfer in more privacy.
+All over the net, Tor is being recommended to people newly concerned
+about their privacy in the face of increasing breaches and betrayals of
+private data.</p>
 
 <h2>	Soldiers in the field use Tor</h2>
 
@@ -218,102 +232,95 @@
 
 <li>	Field agents</li>
 
-
-
-<p>How much, do you imagine, would the Iraqi insurgency pay to find out the location of every computer in Baghdad that logged into a military server in Maryland to read email?  Tor can protect military personnel in the field by hiding their location, and even by concealing the location of Command and Control servers.</p>
-
-
+<p>How much, do you imagine, would the Iraqi insurgency pay to find out
+the location of every computer in Baghdad that logged into a military
+server in Maryland to read email?  Tor can protect military personnel in
+the field by hiding their location, and even by concealing the location
+of Command and Control servers.</p>
 
 <li>	Hidden services</li>
 
 </ul>
 
-<p>When the Internet was designed by DARPA, its primary purpose was to be able to facilitate distributed, robust communications in case of local strikes.  However, some functions must be centralized, such as command and control sites.  It's the nature of the Internet protocols to reveal the geographic location of any server that is reachable online, however Tor's hidden services capacity allows military command and control to be physically secure from discovery and takedown.</p>
-
-
+<p>When the Internet was designed by DARPA, its primary purpose was to
+be able to facilitate distributed, robust communications in case of
+local strikes.  However, some functions must be centralized, such as
+command and control sites.  It's the nature of the Internet protocols to
+reveal the geographic location of any server that is reachable online,
+however Tor's hidden services capacity allows military command and
+control to be physically secure from discovery and takedown.</p>
 
 <h2>	Law enforcement officers use Tor</h2>
 
-
-
-<p>Undercover officers use Tor to conceal their IP of origin during sting operations.   	&ldquo;Anonymous tip lines&rdquo; may still preserve a log of IP origins, if the informant isn't using Tor.</p>
+<p>Undercover officers use Tor to conceal their IP of origin during
+sting operations. &ldquo;Anonymous tip lines&rdquo; may still
+preserve a log of IP origins, if the informant isn't using Tor.</p>
 
 <ul>
 
 <li>	online surveillance</li>
 
-
-
-<p>Tor allows officials to surf questionable web sites and services without leaving tell-tale tracks.  If the system administrator of an illegal gambling site, for example, were to see multiple connections from governmental or law enforcement computers in usage logs, investigations would be hampered.</p>
-
-
+<p>Tor allows officials to surf questionable web sites and services
+without leaving tell-tale tracks.  If the system administrator of an
+illegal gambling site, for example, were to see multiple connections from
+governmental or law enforcement computers in usage logs, investigations
+would be hampered.</p>
 
 <li>	sting operations</li>
 
-
-
-<p>Similarly, anonymity allows law officers to engage in online  	&ldquo;undercover 	&rdquo; operations.  Regardless of how good an undercover officer's  	&ldquo;street cred&rdquo; may be, if his or her email headers include nypd.nyc.ny.state.us, his or her cover is blown.</p>
-
-
+<p>Similarly, anonymity allows law officers to engage in online
+&ldquo;undercover &rdquo; operations.  Regardless of how good an
+undercover officer's &ldquo;street cred&rdquo; may be, if his or her
+email headers include nypd.nyc.ny.state.us, his or her cover is blown.</p>
 
 <li>	truly anonymous tip lines</li>
 
 </ul>
 
-<p>While online anonymous tip lines are popular, without anonymity software, they are far less useful.  Sophisticated sources understand that although a name or email address is not attached to information, server logs can identify them very quickly.  As a result, tip line web sites that do not encourage anonymity are limiting the sources of their tips.</p>
-
-
+<p>While online anonymous tip lines are popular, without anonymity
+software, they are far less useful.  Sophisticated sources understand that
+although a name or email address is not attached to information, server
+logs can identify them very quickly.  As a result, tip line web sites that
+do not encourage anonymity are limiting the sources of their tips.</p>
 
 <h2>	Whistleblowers use Tor</h2>
 
-
-
-<p>In the US, the Supreme Court recently stripped legal protections from government whistleblowers.  But whistleblowers working for governmental transparency or corporate accountability can use Tor to seek justice without personal repercussions.</p>
-
-
+<p>In the US, the Supreme Court recently stripped legal protections from
+government whistleblowers.  But whistleblowers working for governmental
+transparency or corporate accountability can use Tor to seek justice
+without personal repercussions.</p>
 
 <h2>	Bloggers use Tor</h2>
 
-
-
-<p>Every day we hear about bloggers who are sued or fired for saying perfectly legal things online, in their blog.  In addition to following the guidelines of EFF's Guide and RSF's guide, we recommend using Tor.</p>
-
-
+<p>Every day we hear about bloggers who are sued or fired for saying
+perfectly legal things online, in their blog.  In addition to following
+the guidelines of EFF's Guide and RSF's guide, we recommend using Tor.</p>
 
 <h2>	Citizens of repressive regimes use Tor</h2>
 
-
-
-<p>Whether to read information on censored topics (such as AIDS, Tibet, or democracy), or to write about controversial topics, people inside oppressive regimes can risk life and livelihood.  Tor helps cover the tracks of dissidents, foreign nationals, or even just people who want free accesss to information most of us take for granted.</p>
-
-
-
-
+<p>Whether to read information on censored topics (such as AIDS, Tibet,
+or democracy), or to write about controversial topics, people inside
+oppressive regimes can risk life and livelihood.  Tor helps cover the
+tracks of dissidents, foreign nationals, or even just people who want
+free accesss to information most of us take for granted.</p>
 
 <h2>	People organizing for change use Tor</h2>
 
 <ul>
 <li>	union organizers/labor activists</li>
 
-
-
 See mentions above
-
-
 
 <li>	democracy activists/dissidents</li>
 
-
-
 See mentions above
-
-
 
 <li>	peace/green activists</li>
 
-
-
-<p>When groups such as the Friends Service Committee and environmental groups are increasingly falling under surveillance in the United States under laws meant to protect against terrorism, many peaceful agents of change rely on Tor for basic privacy for legitimate activities.</p>
+<p>When groups such as the Friends Service Committee and environmental
+groups are increasingly falling under surveillance in the United States
+under laws meant to protect against terrorism, many peaceful agents of
+change rely on Tor for basic privacy for legitimate activities.</p>
 
 </ul>
 
@@ -322,34 +329,41 @@ See mentions above
 
 <li>	security breach information clearinghouses</li>
 
-
-
-<p>Say a financial institution participates in a security clearinghouse of information on Internet attacks.  Such a repository requires members to report breaches to a central group, who correlates attacks to detect coordinated patterns and send out alerts.  But if a specific bank in St. Louis is breached, they don't want an attacker watching the incoming traffic to such a repository to be able to track where information is coming from.  Even though every packet were encrypted, the Internet address would betray the location of a compromised system.  Tor allows such repositories of sensitive information to resist compromises.</p>
-
-
-
-
+<p>Say a financial institution participates in a security clearinghouse
+of information on Internet attacks.  Such a repository requires members
+to report breaches to a central group, who correlates attacks to detect
+coordinated patterns and send out alerts.  But if a specific bank in
+St. Louis is breached, they don't want an attacker watching the incoming
+traffic to such a repository to be able to track where information is
+coming from.  Even though every packet were encrypted, the Internet
+address would betray the location of a compromised system.  Tor allows
+such repositories of sensitive information to resist compromises.</p>
 
 <li>	seeing your competition as your market does</li>
 
-
-
-<p>If you try to check out a competitor's pricing, you may find no information or misleading information on their web site.  This is because their web server may be keyed to detect connections from competitors, and block or spread disinformation to your staff.  Tor allows a business to view their sector as the general public would view it.</p>
-
-
+<p>If you try to check out a competitor's pricing, you may find no
+information or misleading information on their web site.  This is because
+their web server may be keyed to detect connections from competitors,
+and block or spread disinformation to your staff.  Tor allows a business
+to view their sector as the general public would view it.</p>
 
 <li>	keeping strategies confidential</li>
 
-
-
-<p>An investment bank, for example, might not want industry snoopers to be able to track what web sites their analysts are watching.  The strategic importance of traffic patterns, and the vulnerability of the surveillance of such data, is starting to be more widely recognized in several areas of the business world.</p>
-
-
+<p>An investment bank, for example, might not want industry snoopers to be
+able to track what web sites their analysts are watching.  The strategic
+importance of traffic patterns, and the vulnerability of the surveillance
+of such data, is starting to be more widely recognized in several areas
+of the business world.</p>
 
 <li>	accountability
 
 </ul>
 
-<p>In an age when irresponsible and unreported corporate activity has undermined multi-billion dollar businesses, an executive exercising true stewardship wants the whole staff to feel free to disclose internal malfeasance.  Tor facilitates internal accountability before it turns into whistleblowing.</p>
+<p>In an age when irresponsible and unreported corporate activity has
+undermined multi-billion dollar businesses, an executive exercising true
+stewardship wants the whole staff to feel free to disclose internal
+malfeasance.  Tor facilitates internal accountability before it turns
+into whistleblowing.</p>
 
-  #include <foot.wmi>
+#include <foot.wmi>
+

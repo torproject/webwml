@@ -1,18 +1,34 @@
 ## translation metadata
 # Revision: $Revision: 7935 $
 
-
 #include "head.wmi" TITLE="Redirecting" REDIRECT="overview"
 
 <h1>What is Tor?</h1>
 
-<p>Tor covers your tracks on the web.  When you connect to the internet from your computer, you leave an return address that's like a calling card, everywhere you go.  Even if you don't log into a site with a username and password, you leave information on what IP you came from and when.</P>
+<p>Tor covers your tracks on the web.  When you connect to the internet
+from your computer, you leave an return address that's like a calling
+card, everywhere you go.  Even if you don't log into a site with a
+username and password, you leave information on what IP you came from
+and when.</P>
 
-<p>Since this is all the information that is usually needed to find out who was on the other end of the wire, so to speak, marketers, governments, and other curious parties can trace you by tracing the activity associated with your IP address.</P>
+<p>Since this is all the information that is usually needed to find out
+who was on the other end of the wire, so to speak, marketers, governments,
+and other curious parties can trace you by tracing the activity associated
+with your IP address.</P>
 
-<p>Tor hides your IP address.  It's like blocking your caller ID.  If you keep Tor turned on all the time, you won't be able to use some services on the Web.</P>
+<p>Tor hides your IP address.  It's like blocking your caller ID.
+If you keep Tor turned on all the time, you won't be able to use some
+services on the Web.</P>
 
-<p>Tor does not prevent you from connecting to a site and then logging on or otherwise identifying yourself.  It simply hides the physical location of your originating connection -- where your computer is, geographically.  Without fastidious care, you can accidentally reveal your location even with the use of Tor, if you don't turn off Javascript, Flash, and other browser plug-ins that are &ldquo;leaky.&rdquo;  Similarly, adware and spyware can reveal your location if you don't protect your machine from malware.  So Tor on its own is necessary, but not sufficient, to protect your privacy.</P>
+<p>Tor does not prevent you from connecting to a site and then logging on
+or otherwise identifying yourself.  It simply hides the physical location
+of your originating connection -- where your computer is, geographically.
+Without fastidious care, you can accidentally reveal your location
+even with the use of Tor, if you don't turn off Javascript, Flash,
+and other browser plug-ins that are &ldquo;leaky.&rdquo;  Similarly,
+adware and spyware can reveal your location if you don't protect your
+machine from malware.  So Tor on its own is necessary, but not sufficient,
+to protect your privacy.</P>
 
 #include <foot.wmi>
 
