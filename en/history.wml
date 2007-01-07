@@ -1,0 +1,168 @@
+## translation metadata
+# Revision: $Revision: 7935 $
+
+#include "head.wmi" TITLE="Brief History of Tor"
+
+<div class="main-column">
+
+#include "head.wmi" TITLE="Brief History of Tor"
+<BODY LANG="en-US" DIR="LTR">
+<H1>Brief Selected History</H1>
+<P>A more technical history is available at Paul Syverson's
+onion-router.net <A HREF="http://www.onion-router.net/History.html">history</A>
+page. 
+</P>
+<H2>1995:</H2>
+<P STYLE="margin-bottom: 0in">In 1995, Paul Syverson, at the US Naval
+Research Lab,  funded implementation of the initial specification for
+Onion Routing, the parent technology of Tor. 
+</P>
+<H2>1996:</H2>
+<P>Initial formal presentation and publication of Onion Routing
+<A HREF="Publications.html#or-infohiding">&quot;Hiding Routing
+Information&quot;</A> at the First Information Hiding Workshop, May
+31. Proof of concept prototype on Solaris 2.5.1/2.6 is deployed,
+consisting of a 5 node system running on a single machine at NRL with
+proxies for Web browsing with and without sanitization of the
+application protocol data. 
+</P>
+<P>General availability of the sourcecode is necessary because trust
+and incentive requirements for the system to have its intended
+security properties require that it be open source, although that
+term was not yet in common use in 1996. The generation 1 code that
+existed in May was approved for general public distribution in July.</P>
+<H2>1997:</H2>
+<P>In addition to ONR funding, robustness aspects of Onion Routing
+are funded by DARPA under High Confidence Networks Program. 
+</P>
+<P>The first paper is published proposing the use of Tor for mobile
+(cellular) services and private control of location information in
+active badges and other tracking devices. 
+</P>
+<P>Most of the gen1 design is published at the IEEE Symposium on
+Security and Privacy.</P>
+<H2>1998:</H2>
+<P>Several generation 0/1 networks are set up. We set up a
+distributed network of 13 nodes at NRL, NRAD, and UMD. Two
+independent test networks are set up using the proof-of-concept code
+with which we have no association besides providing the basic code
+and a little advice. One in the Canadian Ministry of Defence. 
+</P>
+<P>NRAD redirector is built: runs on Windows NT and redirects all TCP
+traffic to the Onion Routing network without the need for special
+proxies (but requires a locally running kernel mod). Several other
+proxies built include those for HTTP (anonymizing and nonanonymizing
+versions), FTP, SMTP, and rlogin. 
+</P>
+<P>We hit our maximum usage for the generation 0 prototype running on
+the local NRL testbed. An average of over 50,000 hits per day occured
+during the final months, or more than 1 million connections per
+month. Peak reported load of 84,022 connections occured on 12/31/98. 
+</P>
+<P>Zero Knowledge Systems announces the Freedom Network late in 1998.
+Freedom was a commercial network with many similarities to Onion
+Routing. Most notable differences are (1) Onion Routing runs over TCP
+while Freedom ran over UDP, (2) Freedom was commercially funded
+rather than volunteer based, and (3) Freedom included a pseudonym
+management scheme both to limit the network to paid subscribers and
+to allow persistent pseudonymous communication. (The Freedom Network
+was deployed from late 1999 till late 2001, when it was shut down
+because it was unable to acheive enough widespread acceptance to
+cover its costs.) 
+</P>
+<H2>1999:</H2>
+<P>Alan Berman Research Publication Award given for <A HREF="Publications.html#JSAC-1998">&quot;Anonymous
+Connections and Onion Routing&quot;</A>. This paper provides the most
+detailed specification published of generation 1 Onion Routing,
+although some features are added later. 
+</P>
+<P>Work on Onion Routing development is suspended. There is no new
+funding for it, plus most principals and all developers have left NRL
+for other pursuits. Nonetheless, research and analysis work
+continues. 
+</P>
+<H2>2000:</H2>
+<P>The generation 0 proof-of-concept network is shut down in January.
+</P>
+<P>During its operating period of roughly two years, over twenty
+million requests from more than sixty countries and all major US top
+level domains were processed by the initial prototype Onion Routing
+network. An average of over 50,000 hits per day occured during the
+final year. Peak reported load of 84,022 connections occured on
+12/31/98. 
+</P>
+<P>A <A HREF="Publications.html#WDIAU-2000">security analysis paper</A>
+is presented at the first Privacy Enhancing Technologies
+Workshop---where the seeds of future Tor development are unknowingly
+sown when Syverson meets Dingledine for the first time. (official
+title of the first workshop was <I>Design Issues in Anonymity and
+Unobservability</I> and the proceedings was titled <I>Designing
+Privacy Enhancing Technologies</I>). This paper is where the c^2/n^2
+analysis is set out. Analyses of strategies for picking route length
+and the effect on security are also made but not published in the
+final version of the paper. 
+</P>
+<P>Patent issued in July. 
+</P>
+<P><A HREF="http://anon.inf.tu-dresden.de/index_en.html">JAP</A>
+(Java Anon Proxy) Web Mixes goes online in autumn. This is a mix
+cascade based Web proxy organized through TU Dresden. Unlike the
+Freedom network mentioned above, this is not really a flavor of Onion
+Routing. The threat model and approach are more based on traffic from
+users in persistent groups and formal independence of mix operators,
+while Onion Routing includes elements of path and jurisdictional
+uncertainty on a per circuit basis. 
+</P>
+<H2>2001:</H2>
+<P>Work on OR development resumes, funded by DARPA under Fault
+Tolerant Networks Program with initial goal of making the generation
+1 code complete enough to run a beta network and the subsequent goal
+of adding fault tolerance and resource management. 
+</P>
+<P>Edison Invention Award presented to Paul Syverson for the
+invention of Onion Routing. 
+</P>
+<H2>2002:</H2>
+<P>Generation 1 code abandoned as too dated and crufty. Work on
+generation 2 (Tor) code begins building initially off of a codebase
+originally produced by Matej Pfajfar at Cambridge University for his
+undergraduate final-year project. However, by 2004, none of that code
+romains in the Tor codebase. 
+</P>
+<H2>2003:</H2>
+<P>Funding from ONR for generation 2 development and deployment,
+DARPA for building in resource management and fault tolerance, and
+NRL internal funding from ONR for building survivable hidden servers.
+</P>
+<P>In October, Tor network is deployed, and Tor code is released
+under the free and open 3-clause bsd license. Both the network and
+code development are managed through the original <A HREF="http://tor.freehaven.net/">Tor
+development site</A> on Roger Dingledine's freehaven project. By the
+end of 2003, the network has about a dozen volunteer nodes, mostly in
+the US with one in Germany.</P>
+<H2>2004:</H2>
+<P>Location hidden services are deployed in the spring when the
+hidden wiki is set up. 
+</P>
+<P>The <A HREF="Publications.html#tor-design">Tor design paper</A> is
+published at USENIX Security. 
+</P>
+<P>Funding from ONR and DARPA ends in Q4.<BR>Funding from EFF for
+continued Tor deployment and development begins. <BR>Internal NRL
+funding (from ONR) for work on location hidden servers continues. 
+</P>
+<P>The JAP team independently implements a client for Tor that
+functions with the Tor network. (see 2000) 
+</P>
+<P>By the end of 2004 there are over 100 Tor nodes on three
+continents.<BR>(As of mid May 2005, there are about 160 nodes on five
+continents. Sustained application traffic throughout the first half
+of 2005 is between five and ten megabytes/second from an
+indeterminate number of users estimated to be in the tens of
+thousands. [The network hides this information, even from us.]) 
+</P>
+<H2>2005:</H2>
+<P>In June, Tor is listed in PC World's Top 100 Products
+http://pcworld.com/article/id,120763-page,4/article.html</P>
+</BODY>
+#include <foot.wmi>
