@@ -1,0 +1,28 @@
+## translation metadata
+# Revision: $Revision: 7935 $
+
+#include "head.wmi" TITLE="board"
+
+<div class="main-column">
+
+<h2>The Tor Project is a US NGO!</h2>
+<hr />
+
+<p>
+We would like to welcome the Tor Project board members who are volunteering their time and advice to help us through our first years of operations as a nonprofit.
+</p><p>
+We have recruited a stellar <a href="<page board>"board</a>, and have opened an office in Somerville, very close by our friends in Cambridge, MA at MIT and Harvard.
+</p><p>
+<ul>
+<li><i>Roger Dingledine, President:</i>  Mr. Dingledine has four years of research and development experience directly related to the Organization's work.  He is a recognized expert in this field and is widely published.
+
+<li><i>Ian Goldberg:</i>  Dr. Goldberg is Assistant Professor of Computer Science at the University of Waterloo (Waterloo, ON, Canada), where he is a member of the Cryptography, Security, and Privacy group and the Centre for Applied Cryptographic Research.  He holds a PhD from the University of California, Berkeley and has over ten years' experience researching privacy-enhancing technologies, including technologies directly related to the Organization's work.
+
+<li><i>Andrew Lewman:</i>  Mr. Lewman has been volunteering for the unincorporated Tor program since 2004.  He is an IT manager for TechTarget, a local Boston company, since 1999.  He has founded several nonprofits and for-profit companies, where he has gained administrative experience.
+<li><i>Rebecca MacKinnon:</i>  Ms. MacKinnon is a former Bureau Chief for CNN’s Beijing and Tokyo offices.  She is the co-founder of Global Voices Online, an international free speech organization, a Fellow at the Berkman Center for Internet, Law and Society at Harvard University, and a faculty member at the University of Hong Kong.
+<li><i>Nick Mathewson, Vice President:</i>  Mr. Mathewson has been engaging in research directly related to the work of the Organization for three years.  He is a widely published and recognized expert in this field.
+<li><i>Shava Nerad, Treasurer and Clerk:</i>  Ms. Nerad has about 15 years of nonprofit management experience, including budgeting and financial oversight duties.  She is also the Organization's Executive Director.
+<li><i>Wendy Seltzer:</i>  Dr. Seltzer is a Visiting Professor of Law at Brooklyn Law School and led the Chilling Effects Clearinghouse, which helps Internet users understand their rights in response to cease and desist threats.  She is also a Fellow at the Berkman Center for Internet & Society at Harvard University.  
+<li><i>Fred von Lohmann:</i>  Mr. von Lohmann is a senior staff attorney with the Electronic Frontier Foundation and has been widely recognized as an expert in intellectual property and Internet law.  He has advised Mr. Dingledine, Mr. Mathewson and Ms. Nerad in connection with the unincorporated Tor program prior to formation of the Organization.</ul>
+
+#include <foot.wmi>
