@@ -1,0 +1,26 @@
+## translation metadata
+# Revision: $Revision: 7935 $
+
+#include "head.wmi" TITLE="Bad People"
+
+<div class="main-column">
+<h2>	Won't bad people use Tor?</h2>
+
+<p>Onion routing, a precursor to Tor, was originally developed for the US military, who use it to safeguard personnel in the field, and command and control facilities (see  http://www.onion-router.net/History.html and information below).  </p>
+
+<p>However, they realized that any anonymity network that was only used by military personnel was of little use at all.  An enemy would simply look for clients or servers running military anonymity software, and take them out.  So the Naval Research Lab released their onion routing (hence Tor for &ldquo;the onion router&rdquo;) to the world, and the open source community.</p>
+
+<p>If anyone can be anonymous, then by nature, anyone can be.  You can't restrict who can use the network.  Therefore, like the mail, like the phone networks, and like any public forum, Tor can be used by people who mean well, and people who mean to break the law.  </p>
+
+<p>However, people who wish to break the law have many other means of gaining anonymity at their disposal.  They don't have to use Tor.  A criminal can gain a greater level of security, whether stealing intellectual property or trafficking in child pornography, dealing drugs or plotting mayhem, through other -- highly illegal and more highly secure -- means of anonymity.</p>  
+
+<p>For example, criminals create infected &ldquo;botnets&rdquo; of &ldquo;zombies&rdquo; computers.  They steal identities.  They steal cell phones (or simply use throw-away cell chips).  They steal computers.  They don't have to use Tor, and it's more secure for them if they don't.</p>
+
+<p>These illegal means, which involve victims and theft, are not acceptable to Internet users who seek online privacy through Tor, as described below.</p>
+
+<p>Our goal is to provide a reasonably secure anonymity network for those people who need privacy but are not willing to victimize or steal to get it.</p>
+
+<p>There's a strong social assumption that people who can hide behind the shield of anonymity will be rude.  And it's true to some extent.  But there are also counter examples, such as the 2channel network in Japan, where anonymity allows a style of conversation which is liberating, self-policing, and generally polite.  However, anonymity online is not the end of civility, and the rude actions of a few &ldquo;trollss&rdquo; or "flamerss&rdquo; has not ruined online discourse yet.</p>
+ </div><!-- #main -->
+
+#include <foot.wmi>
