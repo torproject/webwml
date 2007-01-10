@@ -1,0 +1,43 @@
+## translation metadata
+# Revision: $Revision: 9323 $
+
+#include "head.wmi" TITLE="nonprofit status"
+
+<div class="main-column">
+
+<!-- PUT CONTENT AFTER THIS TAG -->
+
+<h2>The Tor Project, a US nonprofit</h2>
+<hr />
+<br />
+<p>
+In December 2006, Tor organized as a Massachusetts nonprofit corporation, 
+The Tor Project, Inc., and filed with the US IRS for our status as a 501[c][3] 
+public charity, a research/educational nonprofit.</p>
+<p>
+As of now, donations to The Tor Project can be deducted from US taxes by the 
+donor -- however, we will need personally identifying information in order to 
+process your donation.  Needless to say, we are developing a formal privacy policy
+to cover this!  We appreciate your patience.</p>
+<p>
+We have recruited a stellar <a href="[page board]"board</a>, and have opened an 
+office in Somerville, very close by our friends in Cambridge, MA at MIT and Harvard.
+</p>
+<p>
+Please mail donations by check to: <br>
+The Tor Project<br>
+56 Waterhouse Street #1<br>
+Somerville, MA  02144<br>
+ATTN: Shava Nerad, Executive Director<P>
+To be able to deduct your donation we must have your name, address, and email or phone contact information.  Due to government regulations we can make your donation anonymous in the sense of being unacknowledged, but we must have personally identifying information to comply with tax reporting requirements.</P>
+
+<p>Please watch the web site for more information on our <a href="[page board]">board</a>,
+donors, supporting grants, and other information!</p>  
+<p>We're very happy for the 
+continued administrative and other support offered to us by the <a href="http://www.eff.org/">Electronic 
+Frontier Foundation</a>, and expect our relationship with EFF to be strong and durable.</p
+
+
+  </div><!-- #main -->
+
+#include <foot.wmi>
