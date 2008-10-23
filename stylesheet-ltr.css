@@ -213,8 +213,11 @@ td.banner-middle {
 	padding-bottom: 10px;
 	color: white;
 	font-weight: bold;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	background-color: #00802B;
+	height: 79px;
+
+
 }
 
 td.banner-middle a, td.banner-middle a:visited {
@@ -236,6 +239,7 @@ td.banner-right {
 	width: 180px;
 	background-position: right;
 	padding-top: 8px;
+
 }
 
 .banner-middle a.current {
