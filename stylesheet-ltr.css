@@ -1,11 +1,11 @@
 body {
-    background-color: white;
-    margin-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    font-style: normal;
-    color: #000000;
-    padding-top: 0px;
+	background-color: white;
+	margin-top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-style: normal;
+	color: #000000;
+	padding-top: 0px;
 }
 
 /* images */
@@ -16,7 +16,8 @@ img {
 
 
 li {
-   margin: .2em .2em .2em 1em;
+	margin: 0.2em 2em 0.2em 1em;
+	text-align: justify;
 }
 
 /* this centers the page */
@@ -145,8 +146,9 @@ h5 {
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+	text-align: justify;
 }
 
 a:link {
@@ -205,14 +207,14 @@ td.banner-left {
 }
 
 td.banner-middle {
-    background-color: #00802B;
-    background-image: url("images/top-middle.png");
-    background-repeat: repeat-x;
-    vertical-align: bottom;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
+	background-image: url("images/top-middle.png");
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+	background-color: #00802B;
 }
 
 td.banner-middle a, td.banner-middle a:visited {
@@ -229,11 +231,11 @@ td.banner-middle a:hover {
 }
 
 td.banner-right {
-    background-image: url("images/top-right.png");
-    background-repeat: no-repeat;
-    width: 180px;
-    background-position: right;
-    padding-top: 8px;
+	background-image: url("images/top-right.png");
+	background-repeat: no-repeat;
+	width: 180px;
+	background-position: right;
+	padding-top: 8px;
 }
 
 .banner-middle a.current {
@@ -379,4 +381,3 @@ dt {
   font-weight: bolder;
   font-style: italic;
 }
-
