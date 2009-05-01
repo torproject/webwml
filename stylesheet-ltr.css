@@ -1,23 +1,29 @@
 body {
 	background-color: white;
 	margin-top: 0px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Lucida, verdana, "Bitstream Vera Sans", arial, helvetica, sans-serif;
+	font-size: 8pt;
 	font-style: normal;
 	color: #000000;
 	padding-top: 0px;
+	text-align: justify;
 }
 
 /* images */
 
 img {
-    border: 0;
+	border: 0;
+	z-index: 0;
 }
 
 
 li {
-	margin: 0.2em 2em 0.2em 1em;
 	text-align: justify;
+	list-style-type: square;
+	margin-left: -8px;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	margin-right: 2px;
 }
 
 /* this centers the page */
@@ -56,130 +62,163 @@ td.spacer {
 }
 
 div.banner {
-    text-align: center;
-    height: 79px;
-    margin-bottom: 10px;
-    width:100%;
+	height: 79px;
+	margin-bottom: 10px;
+	text-align: left;
 }
 
 table.table-banner {
     margin: 0 auto 0 auto;
-    background-image: url("images/tor_mast.gif");
+    background-image: url("/images/tor_mast.gif");
     background-repeat: no-repeat;
 }
 
 div.bottom {
-    font-size: 0.8em;
-    margin-top: 2cm;
-    margin-left: 1em;
-    margin-right: 1em;
-    text-align: right;
+	font-size: 7pt;
+	text-align: center;
+	margin: 10px;
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666666;
 }
 
 /* the sidebars */
 
 div.sidebar {
-    background-color: #e5e5e5;
-    float: right;
-    margin: 0 0 10px 10px;
-    /* border: 2px solid #666; */
-    padding: 10px;
-    width: 150px;
-    text-align: center;
+	float: right;
+	margin: 0 0 10px 20px;
+	width: auto;
+	text-align: center;
+	border: 1px solid #333;
+	padding: 5px 15px;
+	background-image: url(/images/sbbg.png);
+	font-size: 9pt;
+	background-color: #FFFFFF;
 }
 
 div.sidebar-left {
-    background-color: #e5e5e5;
-    float: right;
-    margin: 0 0 5px 5px;
-    /* border: 2px solid #666; */
-    padding: 5px;
-    width: 275px;
-    text-align: left;
+	float: right;
+	margin: 0 0 10px 20px;
+	padding: 0px 10px 5px;
+	width: auto;
+	text-align: left;
+	font-size: 9pt;
+	list-style-type: square;
+	border: 1px solid #333;
+	background-image: url(/images/sbbg.png);
+	background-color: #FFFFFF;
 }
-
-
 
 /* The main column (left text) */
 
 div.main-column {
-    padding: 15px 0 10px 10px;
-    text-indent: 0pt;
-    font-size: 1em;
-    direction: ltr;
-    text-align: left; 
+	padding: 0px 15 10px 15px;
+	text-indent: 0pt;
+	font-size: 9pt;
+	direction: ltr;
+	text-align: left;
+	margin: 0px 20px;
 }
 
 /* formatting styles */
 
 h1 {
-    font-size: 1.6em;
-    margin-bottom: 0.5em;
+    font-size: 12pt;
+    margin-bottom: 10px;
+    margin-top: 4px;
 }
 
 h2 {
-    font-size: 1.4em;
-    margin-bottom: 0em;
-    font-weight: bold;
-    margin-top: 0;
+	font-size: 11pt;
+	margin-bottom: 10px;
+	font-weight: bold;
+	margin-top: 30px;
+	background-image: url(/images/onion_medium.png);
+	background-repeat: no-repeat;
+	background-position: 2px 0px;
+	text-indent: 18pt;
+	padding: 10px 0px 6px;
+	line-height: 105%;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-bottom: 1px solid #666666;
+
+
 }
 
 h3 {
-    font-size: 1.2em;
-    margin-bottom: 0em;
-    font-weight: bold;
-    margin-top: 0;
+	font-size: 11pt;
+	margin-bottom: 10px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 
 h4 {
-    font-size: 1.1em;
-    margin-bottom: 0em;
+    font-size: 11pt;
+    margin-bottom: 8px;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 4px;
+	margin-bottom: 6px;
 }
 
 h5 {
-    font-size: 1.0em;
-    margin-bottom: 0em;
+    font-size: 10pt;
+    margin-bottom: 6px;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 4px;
+	margin-bottom: 6px;
 }
 
 p {
-	margin-top: 0;
-	margin-bottom: 1em;
+	margin-bottom: 12px;
 	text-align: justify;
+
 }
 
 a:link {
-    color: blue;
+    color: #005500;
     font-size: 1em;
 }
 
 a:visited {
-    color: purple;
-    font-size: 1em;
+	color: #005500;
+	font-size: 1em;
+	text-decoration: none;
+
 }
 
 a.anchor:link {
-    font-size: 1em;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
+	font-size: 11pt;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 4px;
+	margin-bottom: 8px;
 }
 
 a.anchor:visited {
-    font-size: 1em;
+    font-size: 11pt;
     color: black;
     font-weight: bold;
     text-decoration: none;
+    margin-top: 4px;
+	margin-bottom: 8px;
 }
 
 a.anchor {
-    font-size: 1em;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
+	font-size: 11pt;
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+    margin-top: 4px;
+	margin-bottom: 8px;
 }
 
 td {
@@ -187,94 +226,132 @@ td {
 }
 
 a.smalllink {
-    font-size: 0.8em;
+    font-size: 8pt;
 }
 
 /* the banner */
 
 table.banner {
-    width: 100%;
-    height: 79px;
-    margin-left: auto;
-    margin-right: auto;
+	height: 79px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	width: auto;
 }
 
 td.banner-left {
 	/* This is done with an <img> in the HTML so it can be clickable
-    background-image: url("images/top-left.png");
+    background-image: url("/images/top-left.png");
     background-repeat: no-repeat; */
     width: 193px;
 }
 
 td.banner-middle {
-	background-image: url("images/top-middle.png");
+	background-color: #00802B;
+	background-image: url("/images/top-middle.png");
 	background-repeat: repeat-x;
 	vertical-align: middle;
-	padding-bottom: 10px;
-	color: white;
-	font-weight: bold;
-	font-size: 0.9em;
-	background-color: #00802B;
-	height: 79px;
-
-
+	text-align: center;
+	padding-left: 10px;
+	min-width: 490px;
 }
 
 td.banner-middle a, td.banner-middle a:visited {
-    margin-right: 5px;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
+	margin-right: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 10pt;
+	vertical-align: middle;
+
 }
 
 td.banner-middle a:hover {
     color: #FF7F00;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 10pt;
 }
 
 td.banner-right {
-	background-image: url("images/top-right.png");
-	background-repeat: no-repeat;
-	width: 180px;
-	background-position: right;
-	padding-top: 8px;
-
+    background-image: url("/images/top-right.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    background-position: right;
+    padding-top: 8px;
+	min-width: 16px;
 }
 
 .banner-middle a.current {
-    text-decoration: none;	       
-    color: #FF7F00;
-    font-weight: bold;
-    font-size: 1em;
-    width: auto;
-    left: -50px;
+	text-decoration: none;
+	color: #FF7F00;
+	font-weight: bold;
+	font-size: 10pt;
+	width: auto;
+	left: -50px;
+	vertical-align: middle;
+
 }
 
 .donatebutton {
-        width: auto;
-        text-align: center;
+	width: 111px;
+	text-align: center;
+	height: 40px;
 }
 
 .donatebutton a {
-        margin: 10px 0 0 0;
-        font-weight: bold;
-        display: block;
-        padding: 6px;
-        background-color: #00802B;
-        border-top: 1px solid #00A838;
-        border-left: 1px solid #00A838;
-        border-bottom: 1px solid #00591E;
-        border-right: 1px solid #00591E;
-        color: #FFFFFF;
+	margin: 0px;
+	font-weight: bold;
+	display: block;
+	padding: 8px 10px 10px;
+	color: #FFFFFF;
+	text-align: right;
+	background-image: url(/images/button-donate.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-size: 8pt;
+
 }
 
 .donatebutton a:hover {
-        color: orange;
+	color: #F47A0E;
+	background-image: url(/images/button-donate-on.png);
+	background-repeat: no-repeat;
+	background-position: left top;
 }
 
 .donatebutton a:active {
-        color: orange;
+        color: #F47A0E;
+}
+
+.downloadbutton {
+	width: 111px;
+	text-align: center;
+	height: 32px;
+}
+
+.downloadbutton a {
+	margin: 0px;
+	font-weight: bold;
+	padding: 8px 10px 10px;
+	color: #FFFFFF;
+	display: block;
+	text-align: right;
+	background-image: url(/images/button-download.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-size: 8pt;
+
+
+}
+
+.downloadbutton a:hover {
+	color: green;
+	background-image: url(/images/button-download-on.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.donatebutton a:active {
+        color: green;
 }
 
 /* these styles are for the menu on the gui contest pages */
@@ -342,7 +419,7 @@ td.banner-right {
 }
 
 .guimenuinner {
-	      
+
 	      padding: 0 10px 0 10px;
 }
 
@@ -382,6 +459,58 @@ acronym {
 }
 
 dt {
-  font-weight: bolder;
-  font-style: italic;
+	font-weight: bolder;
+	font-style: italic;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+hr {
+	height: 1px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	background-color; 
+	margin-bottom: 10px;
+	line-height: 0px;
+	background-color: #000000;
+}
+.sitemap {
+	list-style-type: square;
+	list-style-position: outside;
+	color: #00aa00;
+	font-size: 7pt;
+	line-height: 104%;
+	vertical-align: middle;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #003300;
+	padding-left: 5px;
+	background-image: url(/images/sbbg.png);
+	background-repeat: repeat;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #003300;
+	margin: 0px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.inviz {
+	font-size: 1px;
+}
+/* autoflow for images */
+.imagefloat {
+	float: right;
+	font-size: 8pt;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+}
+ol {
+	margin-right: -18px;
+	margin-left: -18px;
 }
