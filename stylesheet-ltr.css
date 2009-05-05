@@ -491,27 +491,7 @@ hr {
 	font-size: 1px;
 	margin: 5px 0px -5px 0px;
 }
-.sitemap {
-	list-style-type: square;
-	list-style-position: outside;
-	color: #00aa00;
-	font-size: 7pt;
-	line-height: 104%;
-	vertical-align: middle;
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #003300;
-	padding-left: 5px;
-	background-image: url(/images/sbbg.png);
-	background-repeat: repeat;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #003300;
-	margin: 0px;
-	padding-right: 5px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
+
 .inviz {
 	font-size: 1px;
 }
