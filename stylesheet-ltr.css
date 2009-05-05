@@ -113,12 +113,12 @@ div.sidebar-left {
 /* The main column (left text) */
 
 div.main-column {
-	padding: 0px 15 10px 15px;
+	padding: 0px 20 10px 20px;
 	text-indent: 0pt;
 	font-size: 9pt;
 	direction: ltr;
 	text-align: left;
-	margin: 0px 20px;
+	margin: -10px 20px 0px;
 }
 
 /* formatting styles */
@@ -133,7 +133,7 @@ h2 {
 	font-size: 11pt;
 	margin-bottom: 10px;
 	font-weight: bold;
-	margin-top: 30px;
+	margin-top: 15px;
 	background-image: url(/images/onion_medium.png);
 	background-repeat: no-repeat;
 	background-position: 2px 0px;
@@ -177,7 +177,7 @@ h5 {
 }
 
 p {
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 	text-align: justify;
 
 }
@@ -226,7 +226,7 @@ td {
 }
 
 a.smalllink {
-    font-size: 8pt;
+    font-size: 7pt;
 }
 
 /* the banner */
@@ -298,28 +298,32 @@ td.banner-right {
 }
 
 .donatebutton a {
-	margin: 0px;
+	margin: 8px 0px 0px;
 	font-weight: bold;
 	display: block;
 	padding: 8px 10px 10px;
 	color: #FFFFFF;
 	text-align: right;
-	background-image: url(/images/button-donate.png);
+	background-image: url(/images/donate-rollover.png);
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: 0px 0px;
 	font-size: 8pt;
+	text-decoration: none;
 
 }
 
 .donatebutton a:hover {
 	color: #F47A0E;
-	background-image: url(/images/button-donate-on.png);
+	background-image: url(/images/donate-rollover.png);
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: 0px -32px;
 }
 
 .donatebutton a:active {
         color: #F47A0E;
+	background-image: url(/images/donate-rollover.png);
+	background-repeat: no-repeat;
+	background-position: 0px -64px;
 }
 
 .downloadbutton {
@@ -329,29 +333,40 @@ td.banner-right {
 }
 
 .downloadbutton a {
-	margin: 0px;
+	margin: 2px 0px 0px;
 	font-weight: bold;
 	padding: 8px 10px 10px;
 	color: #FFFFFF;
 	display: block;
 	text-align: right;
-	background-image: url(/images/button-download.png);
+	background-image: url(/images/download-rollover.png);
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: 0px 0px;
 	font-size: 8pt;
+	text-decoration: none;
 
 
 }
 
 .downloadbutton a:hover {
 	color: green;
-	background-image: url(/images/button-download-on.png);
+	background-image: url(/images/download-rollover.png);
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: 0px -32px;
+}
+
+.downloadbutton a:active {
+	color: #AA4400;
+	background-image: url(/images/download-rollover.png);
+	background-repeat: no-repeat;
+	background-position: 0px -64px;
 }
 
 .donatebutton a:active {
-        color: green;
+	color: green;
+	background-image: url(/images/donate-rollover.png);
+	background-repeat: no-repeat;
+	background-position: 0px -64px;
 }
 
 /* these styles are for the menu on the gui contest pages */
@@ -468,12 +483,13 @@ dt {
 }
 hr {
 	height: 1px;
-	color: #FFFFFF;
-	margin-top: 0px;
-	background-color; 
-	margin-bottom: 10px;
+	color: #666666;
+	style: noshade;
+	background-color;
 	line-height: 0px;
-	background-color: #000000;
+	background-color: #CCCCCC;
+	font-size: 1px;
+	margin: 5px 0px -5px 0px;
 }
 .sitemap {
 	list-style-type: square;
@@ -504,9 +520,9 @@ hr {
 	float: right;
 	font-size: 8pt;
 	margin: 0px;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-right: 0px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	padding-left: 20px;
 	background-color: #FFFFFF;
 }
