@@ -123,9 +123,11 @@ href="dist/tor-im-browser-<version-torimbrowserbundle>_zh-CN_split">简体中文
 </ul>
 
 
-<p>我们组件中的Firefox是从原版的<a href="http://www.mozilla.com/firefox/">Firefox</a>中<a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/">修改</a>的;
-我们正在与Mozilla基金会合作,如果他们需要区分这些名字.
+<p>Note that the Firefox in our bundle is <a
+href="<torbrowserrepo>/build-scripts/config/">modified</a> from the <a
+href="http://www.mozilla.com/firefox/">default Firefox</a>; we're currently
+working with Mozilla to see if they want us to change the name to make this
+clearer.
 </p>
 
 <a id="Extraction"></a>

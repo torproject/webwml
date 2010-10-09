@@ -74,14 +74,13 @@ Polipo με έκδοση τουλάχιστον 1.0.4, αφού οι παλαι�
 privoxy ή yum remove privoxy) για να μην υπάρχουν διενέξεις μεταξύ τους.
 </p>
 
-<p>Όταν εγκαταστήσετε το Polipo (είτε από πακέτο ή από τον πηγαίο κώδικα)
-<b>πρέπει να ρυθμίσετε το Polipo ώστε να χρησιμοποιεί το Tor</b>. Κατεβάστε
-τις <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/polipo.conf">τις
-ρυθμίσεις του Polipo για το Tor</a> και αντιγράψτε το στην τρέχουσα θέση του
-αρχείου ρυθμίσεων (π.χ., /etc/polipo/config ή ~/.polipo). Πρέπει να
-επανεκκινήσετε το Polipo για να εφαρμοστούν οι αλλαγές.  Για παράδειγμα: <br
-/> <tt>/etc/init.d/polipo restart</tt>.
+<p>Once you've installed Polipo (either from package or from source), <b>you
+will need to configure Polipo to use Tor</b>. Grab our <a
+href="<torbrowserrepo>/build-scripts/config/polipo.conf">Polipo
+configuration for Tor</a> and put it in place of your current polipo config
+file (e.g. /etc/polipo/config or ~/.polipo).  You'll need to restart Polipo
+for the changes to take effect. For example:<br /> <tt>/etc/init.d/polipo
+restart</tt>
 </p>
 
 <p>Αντί για το Polipo μπορείτε να χρησιμοποιήσετε το Privoxy με <a

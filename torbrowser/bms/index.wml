@@ -5,7 +5,7 @@
 
 
 ## translation metadata
-# Revision: $Revision: 23375 $
+# Revision: $Revision: 23458 $
 # Translation-Priority: 1-high
 #include "head.wmi" TITLE="Tor Browser Bundle" CHARSET="UTF-8"
 <div class="main-column">
@@ -410,16 +410,13 @@ style="font-size: 90%;">signature</a>)</li>
 
 
 
-<p><a href="<page verifying-signatures>">အစုအေဝး အမွတ္အသားမ်ား၏
-တိက်မွန္ကန္မႈကို ဘယ္လိုစမ္းသပ္မလဲ</a> ဟူေသာ ကြ်ႏု္ပ္တို႔၏
-လမ္းညႊန္သင္ၾကားမႈမ်ားကို ၾကည္႔ပါ။ ယင္းသည္ ကြ်ႏု္ပ္တို႔က သင့္ကို ရရွိေစလိုေသာ
-file အား သင္ download လုပ္ျပီးေၾကာင္း ေသခ်ာေစရန္ ျဖစ္သည္။ ထပ္မံသိေစလိုသည္မွာ
-Firefox အတြင္းရွိ ကြ်ႏု္ပ္တို ့၏  ေဆာ့ဝဲ အစုအေဝးသည္။<a
-href="http://www.mozilla.com/firefox/">default Firefox</a> မွ <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/">
-ျပဳျပင္မြမ္းမံထား</a>ျပီး ယခုေလာေလာဆယ္တြင္ ကြ်ႏု္ပ္တို ့သည္ Mozilla
-သံုးေနျပီး ပိုမို၍ ရွင္းလင္းေအာင္ သူတို႔လိုခ်င္ေသာ နာမည္မ်ားကို
-ေျပာင္းလဲေပးဖို႔ သိရွိေစႏိုင္ပါသည္။ 
+<p>See our instructions on <a href="<page verifying-signatures>">how to verify
+package signatures</a>, which allows you to make sure you've downloaded the
+file we intended you to get.  Also, note that the Firefox in our bundles is
+<a href="<torbrowserrepo>/build-scripts/config/">modified</a> from the <a
+href="http://www.mozilla.com/firefox/">default Firefox</a>; we're currently
+working with Mozilla to see if they want us to change the name to make this
+clearer.
 </p>
 
 <a id="Linux"></a>

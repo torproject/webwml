@@ -68,18 +68,20 @@ href = "<page torusers>"> Хто використовує Tor? </ A> для от
 Warning"> розуміти що Tor робить для вас, а що ні </ a>.</p>
 
 <p>
-Tor's security improves as its user base grows and as more people volunteer
-to <a href="<page docs/tor-doc-relay>">run relays</a>. (It isn't nearly as
-hard to set up as you might think, and can significantly <a
-href="<wiki>TorFAQ#RelayAnonymity"> enhance your own security</a>.)  If
-running a relay isn't for you, we need <a href="<page volunteer>">help with
-many other aspects of the project</a>, and we need funds to continue making
-the Tor network faster and easier to use while maintaining good security.</p>
+Безпека Tor підвищується із збільшенням кількості користувачів і зі
+збільшенням числа людей, які <a href = "<page docs/tor-doc-relay>">
+включають функцію ретранслятора </ a>. (Налаштувати ретранслятор зовсім не
+так складно, як ви, можливо, думаєте, і це може значно <a
+href="<wiki>TorFAQ#RelayAnonymity"> підвищити рівень вашої особистої безпеки
+</ a>.) Якщо надання ретранслятора не для вас, ви можете <a href = "<page
+volunteer>"> допомогти нам у багатьох інших аспектах проекту </ a>, і нам
+потрібні кошти для вдосконалення мережі Tor, підвищення її швидкості та
+спрощення забезпечення якісної безпеки.</p>
 
 <p>Tor є зареєстрованою 501 (c) (3) у США некомерційною організацією, чиєю
 місією є надання вам можливості захисту вашого Інтернет трафіку від
 аналізу. Будь ласка, зробіть <a href = "<page donate>"> неоподатковувані
-податком пожертвування. </ A>
+податком пожертвування. </a>
 </p>
 
 <a id="News"></a>
@@ -90,10 +92,10 @@ the Tor network faster and easier to use while maintaining good security.</p>
 <li>16 September 2010: Tor announces <a href="<page
 press/2010-09-16-ten-things-circumvention-tools>">Ten Things to Look for in
 a Circumvention Tool</a>.</li>
-<li>02 May 2010: Tor 0.2.1.26 released as stable.  Fixes yet more OpenSSL
-compatibility issues and lets relays defend themselves from connection
-floods.  Read the <a href="<blog>tor-02126-stable-released">full
-announcement</a> for the list of changes.</li>
+<li>21 травня 2010: Випущено стабільна версія Tor 0.2.1.26. Виправлення ще більш
+OpenSSL проблеми сумісності і дозволяє реле захистити себе від зв'язку
+повені. Прочитайте <a href="<blog>tor-02126-stable-released">повний
+анонс</a> список змін.</li>
 <li>29 березня 2010: Tor запускає кампанію і публікує план дій щодо підвищення
 продуктивності. Прочитайте <a href =
 "https://www.torproject.org/press/2010-03-25-tor-store-press-release.html.en">

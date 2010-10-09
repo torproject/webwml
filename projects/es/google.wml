@@ -1,0 +1,89 @@
+
+
+
+
+
+
+## translation metadata
+# Revision: $Revision: 21511 $
+# Translation-Priority: 4-optional
+#include "head.wmi" TITLE="Google Project: Secure Upgrade of Tor" CHARSET="UTF-8"
+<div class="main-column">
+
+
+
+<!-- PUT CONTENT AFTER THIS TAG -->
+<h2>Proyecto de Google: Actualización de Seguridad de Tor</h2>
+
+<hr />
+
+<p>
+
+
+</p>
+
+<p>
+Este proyecto es financiado generosamente por <a
+href="http://www.google.com">Google</a>.
+</p>
+
+<a id="Timetable"></a>
+<h2><a class="anchor" href="#Timetable">Calendario</a></h2>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+
+
+<!-- <thead>
+
+<tr bgcolor="#e5e5e5">
+<th>Deliverable</th>
+<th>Due Date</th>
+</tr>
+</thead> -->
+<tr bgcolor="#e5e5e5">
+  <td>
+    <b>Hito 1:</b> Vidalia Tor reconoce cuando necesita mejorar, y se entera de
+la nueva versión más adecuados y dónde encontrarlo.<br />
+<small><em>Buscando el consenso estado de la red de mayoría firmado para
+decidir cuándo y en qué actualizar la versión (Tor ya las listas de qué
+versiones se consideran seguros, en cada documento de estado de la
+red)</em></small>
+  </td>
+  <td>
+    15 de noviembre 2008
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <b>Hito 2:</b>Vidalia puede traer una nueva versión de Tor desde el sitio
+web de Tor y compruebe su firma.<br /> <small><em> Actualizar o bien a
+través de Tor a través del protocolo de la guía de actualización del espejo
+(propuesta 127) cuando sea posible, para mayor privacidad. Compruebe firmas
+de los paquetes para asegurar la validez del paquete.</em></small>
+  </td>
+  <td>
+    15 de noviembre 2008
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <b>Hito 3:</b>Vidalia tiene una interfaz para notificar al usuario acerca de
+las actualizaciones y ayudar a ponerlas al día.<br /> <small><em>Dar al
+usuario una interfaz para estas actualizaciones, incluyendo la opción de
+dejar su migrar de una versión principal de Tor a la
+siguiente. </em></small>
+  </td>
+  <td>
+    15 de noviembre 2008
+  </td>
+</tr>
+</table>
+
+<br />
+
+</div>
+
+
+
+#include <foot.wmi>

@@ -71,12 +71,13 @@ href="http://www.pps.jussieu.fr/~jch/software/polipo/">Polipo</a> с Вашег�
 privoxy) для предотвращения  несовместимостей программ.
 </p>
 
-<p>Установив Polipo (из пакета или из исходных кодов), <b>Вы должны настроить
-Polipo на работу с Tor</b>. Скачайте <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/polipo.conf">настройки
-Polipo для Tor</a> и перезапишите им конфигурационный файл Polipo (например,
-/etc/polipo/config or ~/.polipo).  Перезапустите Polipo для применения
-настроек. Например:<br /> <tt>/etc/init.d/polipo restart</tt>
+<p>Once you've installed Polipo (either from package or from source), <b>you
+will need to configure Polipo to use Tor</b>. Grab our <a
+href="<torbrowserrepo>/build-scripts/config/polipo.conf">Polipo
+configuration for Tor</a> and put it in place of your current polipo config
+file (e.g. /etc/polipo/config or ~/.polipo).  You'll need to restart Polipo
+for the changes to take effect. For example:<br /> <tt>/etc/init.d/polipo
+restart</tt>
 </p>
 
 <p>Если Вы хотите, Вы можете использовать Privoxy с <a

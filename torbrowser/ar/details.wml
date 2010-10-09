@@ -5,7 +5,7 @@
 
 
 ## translation metadata
-# Revision: $Revision: 21511 $
+# Revision: $Revision: 23458 $
 # Translation-Priority: 4-optional
 #include "head.wmi" TITLE="Tor Browser Bundle: Details" CHARSET="UTF-8"
 <div class="main-column">
@@ -30,14 +30,13 @@
 
 <h3 id="build">بناء الحزمة</h3>
 
-<p>لإعادة بناء الحزمة، نزّل <a
-href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz">توزيعة
-المصدر</a> (<a
-href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz.asc">التوقيع</a>).
-راجع <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/README">README</a>
-لسجل التغييرات ولشرح تقسيم الأدلة. يمكن أن تجد معلومات عن البناء في <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/INSTALL">build-scripts/INSTALL</a>.</p>
+<p>To re-build the bundle, download the <a
+href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz">source
+distribution</a> (<a
+href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz.asc">signature</a>).
+See <a href="<torbrowserrepo>/README">README</a> for the directory layout
+and changelog. Build instructions can be found in <a
+href="<torbrowserrepo>/build-scripts/INSTALL">build-scripts/INSTALL</a>.</p>
 
 </div>
 

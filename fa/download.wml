@@ -62,9 +62,9 @@ href="<package-win32-bundle-alpha-sig>">sig</a>)
     # Translators should link to the Browser Bundle for their language,
 # e.g. _ru.exe Russian, _de.exe for Deutsch, etc.
 <a
-href="torbrowser/dist/tor-browser-<version-torbrowserbundle>_en-fa.exe"><version-torbrowser-tor></a>
+href="torbrowser/dist/tor-browser-<version-torbrowserbundle>_en-US.exe"><version-torbrowser-tor></a>
 (<a
-href="torbrowser/dist/tor-browser-<version-torbrowserbundle>_en-fa.exe.asc">sig</a>)
+href="torbrowser/dist/tor-browser-<version-torbrowserbundle>_en-US.exe.asc">sig</a>)
   </td>  
   <td>
   </td>
@@ -84,9 +84,9 @@ href="torbrowser/dist/tor-browser-<version-torbrowserbundle>_en-fa.exe.asc">sig<
     # Translators should link to the IM Browser Bundle for their language,
 # e.g. _ru.exe Russian, _de.exe for Deutsch, etc.
 <a
-href="torbrowser/dist/tor-im-browser-<version-torimbrowserbundle>_en-fa.exe"><version-torbrowser-tor></a>
+href="torbrowser/dist/tor-im-browser-<version-torimbrowserbundle>_en-US.exe"><version-torbrowser-tor></a>
 (<a
-href="torbrowser/dist/tor-im-browser-<version-torimbrowserbundle>_en-fa.exe.asc">sig</a>)
+href="torbrowser/dist/tor-im-browser-<version-torimbrowserbundle>_en-US.exe.asc">sig</a>)
   </td>
   <td>
   </td>
@@ -253,7 +253,7 @@ href="https://wiki.torproject.org/noreply/TheOnionRouter/TorFAQ#ExitEavesdropper
 ترافيك بين شما و مقصد نهايي را رمزنگاري كند</a>. اگر شما اطلاعات حساسي را رد
 و بدل مي‌كنيد، بايد بيشتر مواظب باشيد درست مانند وقتي كه به صورت معمولي به
 اينترنت متصل مي‌شويد &mdash; از متدهاي رمزنگاري مانند <span
-dir="ltr">HTTPS</span> يا متدهاي ديگر رمزنگاري و تشخيص هويت نهايي استفاده
+dir='ltr">HTTPS</span> يا متدهاي ديگر رمزنگاري و تشخيص هويت نهايي استفاده
 كنيد.
 </li>
 

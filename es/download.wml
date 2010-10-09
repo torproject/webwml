@@ -1,0 +1,435 @@
+
+
+
+
+
+
+## translation metadata
+# Revision: $Revision: 23239 $
+# Translation-Priority: 1-high
+#include "head.wmi" TITLE="Tor: Download" CHARSET="UTF-8" ANNOUNCE_RSS="yes"
+<div class="main-column">
+
+<h2>Paquetes disponibles Tor</h2>
+
+<div class="warning">
+
+Advertencia: ¿Quieres que Tor realmente funcione? ... Entonces por favor no
+sólo lo instale y seguir adelante. Necesita cambiar algunos de sus hábitos,
+y reconfigurar su software! Tor por sí mismo no es todo lo que necesita para
+mantener su anonimato. Por favor, tenga tiempo para leer <a
+href="#Warning">alerta</a> para familiarizarse con las dificultades y los
+límites de Tor.
+</div>
+
+<div class="underline"></div>
+
+<table cellpadding="6" cellspacing="1" border="0" width="100%">
+<thead>
+<tr bgcolor="#009933" style="color: white; ">
+<th>Sistema Operativo</th>
+<th>Descargar versión estable</th>
+<th>Descargar versión inestable</th>
+<th>Instalación y configuración</th>
+</tr>
+</thead>
+
+<tr>
+  <td>
+    <img src="images/distros/windows.png" /> Windows<br /> <small><em>Windows 7,
+Vista, XP, 2003 Server</em></small>
+  </td>
+  <td>
+    <a href="<package-win32-bundle-stable>"><version-win32-bundle-stable></a>
+(<a href="<package-win32-bundle-stable-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<package-win32-bundle-alpha>"><version-win32-bundle-alpha></a> (<a
+href="<package-win32-bundle-alpha-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-windows>">Windows</a>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <img src="images/distros/windows.png" /> Tor Browser Bundle para Windows <br
+/> (Contiene Tor, Vidalia, Torbutton, Polipo y Firefox)
+  </td>
+  <td>
+
+
+    # Translators should link to the Browser Bundle for their language,
+# e.g. _ru.exe Russian, _de.exe for Deutsch, etc.
+<a
+href="torbrowser/dist/tor-browser-<version-torbrowserbundle>_en-US.exe"><version-torbrowser-tor></a>
+(<a
+href="torbrowser/dist/tor-browser-<version-torbrowserbundle>_en-US.exe.asc">sig</a>)
+  </td>  
+  <td>
+  </td>
+  <td>
+    <a href="<page torbrowser/index>">Windows Browser Bundle</a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <img src="images/distros/windows.png" /> Tor IM Browser Bundle para Windows
+<br />(Contiene Tor, Vidalia, Torbutton, Polipo, Firefox y Pidgin)
+  </td>
+  <td>
+
+
+    # Translators should link to the IM Browser Bundle for their language,
+# e.g. _ru.exe Russian, _de.exe for Deutsch, etc.
+<a
+href="torbrowser/dist/tor-im-browser-<version-torimbrowserbundle>_en-US.exe"><version-torbrowser-tor></a>
+(<a
+href="torbrowser/dist/tor-im-browser-<version-torimbrowserbundle>_en-US.exe.asc">sig</a>)
+  </td>
+  <td>
+  </td>
+  <td>
+    <a href="<page torbrowser/index>">Windows IM Browser Bundle</a>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <img src="images/distros/apple.png" /> Mac<br /> <small><em>Sólo
+Intel</em></small>
+  </td>
+  <td>
+    <a href="<package-osx-bundle-stable>"><version-osx-bundle-stable></a> (<a
+href="<package-osx-bundle-stable-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<package-osx-bundle-alpha>"><version-osx-bundle-alpha></a> (<a
+href="<package-osx-bundle-alpha-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-osx>">Mac OS X</a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+   <img src="images/distros/apple.png" /> Mac<br /> <small><em>Sólo
+PowerPC</em></small>
+  </td>
+  <td>
+    <a href="<package-oldosx-bundle-stable>"><version-oldosx-bundle-stable></a>
+(<a href="<package-oldosx-bundle-stable-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<package-oldosx-bundle-alpha>"><version-oldosx-bundle-alpha></a>
+(<a href="<package-oldosx-bundle-alpha-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-osx>">Mac OS X</a>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <img src="images/distros/generic.png" /> Paquetes Linux/Unix<br />
+<small><em>Redhat/CentOS, Fedora, Debian, Ubuntu, SUSE</em></small>
+  </td>
+  <td colspan="2">
+    <a href="<page download-unix>">Página de Descarga para Linux/Unix</a>
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a>
+  </td>
+</tr>
+</table>
+
+<div class="underline"></div>
+<div class="nb">
+<a id="packagediff"></a>
+<h2><a class="anchor" href="#packagediff">¿Cuál es la diferencia entre Estable e
+Inestable?</a></h2>
+
+<p>
+Paquetes Estables son aquellos que se liberan cuando creemos que las
+características y el código no cambiará por muchos meses.
+</p>
+<p>
+Paquetes inestables se liberan para que pueda ayudarnos a probar nuevas
+características y corrección de errores. A pesar de que tienen un número de
+versión más alto que las versiones estables listadas arriba, hay una
+probabilidad mucho mayor de fiabilidad y graves errores de seguridad en
+estas descargas. Por favor, esté preparado para <a
+href="https://bugs.torproject.org/">informe</a>.
+</p>
+</div>
+
+<div class="underline"></div>
+<div class="nb">
+<p>
+Tor se distribuye como <a href="http://www.fsf.org/">Software Libre</a> en
+el marco del <a href="<gitblob>LICENSE">licencia 3-clause BSD</a>. Los
+paquetes también incluyen <a href="<page vidalia/index>">Vidalia</a> y <a
+href="http://www.pps.jussieu.fr/~jch/software/polipo/">Polipo</a>, que son
+aplicaciones de soporte distribuídas bajo la GNU GPL.
+</p>
+<p>
+No hay que pagar para instalar Tor o usar la red Tor, pero si quieres que
+Tor sea más rápido y más fácil de usar por favor considera <a href="<page
+donate>">hacer una donación deducible de impuestos a la Proyecto Tor</a>.
+</p>
+</div>
+
+<div class="underline"></div>
+<div class="nb">
+<p>
+Para mantenerse informado de avisos de seguridad y nuevas versiones
+estables, suscríbase a la <a href="http://archives.seul.org/or/announce/">o
+bien anunciar la lista de correo </a> (Se le pedirá que confirme por correo
+electrónico). También puede a
+href="http://rss.gmane.org/gmane.network.onion-routing.announce">ver el feed
+RSS</a>.
+</p>
+
+<link rel="alternate" title="Tor Project OR-announce" href="http://rss.gmane.org/gmane.network.onion-routing.announce" type="application/rss+xml" />
+
+<form action="http://freehaven.net/cgi-bin/majordomo.cgi">
+<input type="hidden" name="mlist" value="or-announce"/> <input type="hidden"
+name="subscribe" value="1"/> <input type="hidden" name="host"
+value="freehaven.net"/> <input name="email" size="15"/> <input type="submit"
+value="subscribe to or-announce"/>
+</form>
+</div>
+
+<div class="underline"></div>
+<div class="warning">
+<a id="Warning"></a>
+<h2><a class="anchor" href="#Warning">Advertencia: ¿Quieres que Tor realmente
+funcione</a></h2>
+
+<p>
+... Entonces por favor no sólo lo instale y seguir adelante. Necesita
+cambiar algunos de sus hábitos, y reconfigurar su software! Tor por sí mismo
+<em> NO </ em> todo lo que necesita para mantener su anonimato. Hay varios
+escollos importantes a tener en cuenta:
+</p>
+
+<ol>
+<li>
+Tor sólo protege las aplicaciones de Internet que están configuradas para
+enviar su tráfico a través de Tor - no vuelve automáticamente anónimo todo
+su tráfico sólo por instalarlo. Le recomendamos que utilice <a
+href="http://www.mozilla.com/en-US/firefox/all-older.html">Firefox</a> con
+la extensión <a href="<page torbutton/index>">Torbutton</a>
+</li>
+
+<li>
+Los plugins del navegador como Java, Flash, ActiveX, RealPlayer, Quicktime,
+el plugin PDF de Adobe, entre otros: pueden ser manipulados para revelar su
+dirección IP. Por ejemplo, eso significa que Youtube está deshabilitada. Si
+realmente necesita el Youtube, puede <a href="<page
+torbutton/faq>#noflash">reconfigurar Torbutton</a> para permitir, pero ser
+conscientes de que usted se está abriendo a los ataques potenciales. Además,
+las extensiones de la barra de herramientas como Google buscan más
+información sobre los sitios web que usted escriba: que pueden evitar Tor y
+/ o enviar información confidencial. Algunas personas prefieren usar dos
+navegadores (uno para Tor, un seguro para la navegación).
+</li>
+
+<li>
+Tenga cuidado con las cookies: si alguna vez navega sin Tor y un sitio le da
+una cookie, esa cookie podría identificarle aunque empiece a usar Tor otra
+vez. Debería limpiar las cookies de forma segura. <a
+href="https://addons.mozilla.org/firefox/82/">CookieCuller</a> puede
+ayudarle a proteger las cookies que no desea perder.
+</li>
+
+<li>
+Tor anonimiza el origen de su tráfico, y lo encripta todo entre usted y la
+red Tor y todo dentro de la red Tor, pero <a
+href="<wiki>TorFAQ#SoImtotallyanonymousifIuseTor">no puede encriptar su
+tráfico entre la red Tor y su destino final.</a> Si está comunicando
+información confidencial, debe utilizar tanto cuidado como lo haría en la
+espeluznante Internet normal -. use HTTPS u otra encriptación de extremo a
+extremo y autenticación.
+</li>
+
+<li>
+Aunque Tor evita que los atacantes de tu red local descubran o influyan en
+tu destino, abre nuevos riesgos: nodos Tor maliciosos o mal configurado la
+salida puede enviarle la página errónea, o incluso enviar applets Java
+embebidos disfrazados como dominios de confianza. Tenga cuidado de abrir
+documentos o aplicaciones que hayas descargado a través de Tor, a menos que
+haya verificado su integridad.
+</li>
+
+<li>
+Tor tries to prevent attackers from learning what destinations you connect
+to. It doesn't prevent somebody watching your traffic from learning that
+you're using Tor. You can mitigate (but not fully resolve) the risk by using
+a <a href="<page bridges>">Tor bridge relay</a> rather than connecting
+directly to the public Tor network, but ultimately the best protection here
+is a social approach: the more Tor users there are near you and the more <a
+href="<page torusers>">diverse</a> their interests, the less dangerous it
+will be that you are one of them.
+</li>
+</ol>
+
+<br />
+<p>
+Sea listo y aprenda más. Entender lo que hace Tor y no ofrece. Esta lista de
+escollos no está completa, y necesitamos su ayuda <a href="<page
+volunteer>#Documentation">identificar y documentar todas las cuestiones</a>.
+</p>
+</div>
+
+<div class="underline"></div>
+<div class="nb">
+<p>
+Vea nuestro <a href = "<page verifying-signatures>">instrucciones sobre la
+verificación de firmas de paquetes</a>, que le permite asegurarse de que ha
+descargado el fichero que pretendíamos que consiguiera.
+</p>
+
+<p>
+Si a usted le gusta investigar cualquier versión anterior de fuentes de Tor,
+paquetes o binarios otras aplicaciones, vea <a
+href="http://archive.torproject.org/tor-package-archive/">el archivo</a>.
+</p>
+
+<p>
+Vea la <a href="<page documentation>#Developers">documentación para
+desarrolladores</a> para instrucciones sobre obtener Tor por Git para
+obtener la última versión de desarrollo de código fuente. También puede
+descargar el <a href="dist/">Privoxy fuente</a> or <a
+href="dist/vidalia-bundles/?C=M;O=D">Vidalia fuente</a>.
+</p>
+</div>
+
+<div class="underline"></div>
+<div class="nb">
+<p>
+Si tiene problemas para descargar Tor desde este sitio, aquí hay un <a
+href="<page mirrors>">lista de sitios de replicación de Tor</a>.
+</p>
+
+<a id="ChangeLog"></a> <a id="Stable"></a> <a id="Testing"></a>
+<p>
+Para obtener una lista de lo que ha cambiado en cada versión estable de Tor,
+vea la <a href="<gitblobstable>ReleaseNotes">ReleaseNotes</a> Para obtener
+una lista de los cambios en las versiones estables y el desarrollo, ver el
+<a href="<gitblob>ChangeLog">ChangeLog</a>.
+</p>
+</div>
+<div class="underline"></div>
+
+<a id="Dev"></a>
+<h2><a class="anchor" href="#Dev">Paquetes para expertos &amp; Código fuente</a></h2>
+
+<p>
+Los paquetes para expertos sólo contienen Tor. En todos los casos, debe
+configurar Tor por sí mismo.
+</p>
+
+<table cellpadding="6" cellspacing="1" border="0" width="100%">
+<thead>
+<tr bgcolor="#009933" style="color: white; ">
+<th>Sistema Operativo</th>
+<th>Descargar versión estable</th>
+<th>Descargar versión inestable</th>
+<th>Instalación y configuración</th>
+</tr>
+</thead>
+
+<tr>
+  <td>
+    <img src="images/ico-win.png" /> Windows (Contiene sólo Tor)<br />
+<small><em>Windows 7, Vista, XP, 2000, 2003 Server</em></small>
+  </td>
+  <td>
+    <a href="<package-win32-stable>"><version-win32-stable></a> (<a
+href="<package-win32-stable-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<package-win32-alpha>"><version-win32-alpha></a> (<a
+href="<package-win32-alpha-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-windows>">Windows</a>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <img src="images/ico-osx-uni.png" /> Mac (Contiene sólo Tor)<br />
+<small><em>Sólo Intel, sin Snow Leopard (10.6) de apoyo</em></small>
+  </td>
+  <td>
+    <a href="<package-osx-stable>"><version-osx-stable></a> (<a
+href="<package-osx-stable-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<package-osx-alpha>"><version-osx-alpha></a> (<a
+href="<package-osx-alpha-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-osx>">Mac OS X</a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Mac (Contiene sólo Tor)<br /> <small><em>Sólo PowerPC</em></small>
+  </td>
+  <td>
+    <a href="<package-oldosx-stable>"><version-oldosx-stable></a> (<a
+href="<package-oldosx-stable-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<package-oldosx-alpha>"><version-oldosx-alpha></a> (<a
+href="<package-oldosx-alpha-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-osx>">Mac OS X</a>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <img src="images/ico-tux.png" /> Linux/Unix paquetes (Contiene sólo Tor)<br
+/> <small><em>Redhat/CentOS, Fedora, Debian, Ubuntu, SUSE</em></small>
+  </td>
+  <td colspan="2">
+    <a href="<page download-unix>">Página de Descarga para Linux/Unix</a>
+  </td>
+  <td>
+    <a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Source tarballs<br /> <kbd>./configure &amp;&amp; make &amp;&amp;
+src/or/tor</kbd>
+  </td>
+  <td>
+    <a href="<package-source-stable>"><version-stable></a> (<a
+href="<package-source-stable-sig>">sig</a>)
+  </td>
+  <td>
+    <a href="<package-source-alpha>"><version-alpha></a> (<a
+href="<package-source-alpha-sig>">sig</a>)
+  </td>
+  <td>
+  </td>
+
+</tr>
+</table>
+
+</div>
+
+
+
+#include <foot.wmi>

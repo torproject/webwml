@@ -5,7 +5,7 @@
 
 
 ## translation metadata
-# Revision: $Revision$
+# Revision: $Revision: 23458 $
 # Translation-Priority: 1-high
 #include "head.wmi" TITLE="Tor Browser Bundle" CHARSET="UTF-8"
 <div class="main-column">
@@ -13,16 +13,15 @@
 
 
 <!-- PUT CONTENT AFTER THIS TAG -->
-<h2>Das Tor-Browser-Paket</h2>
+<h2>Tor Browser Bundle</h2>
 <hr/>
 
-<p>Die <strong>Tor</strong> Software schützt Sie, indem sie Ihre Kommunikation
-durch ein Netzwerk von weltweit verteilten Relais (von Freiwilligen
-betriebene Knoten) sendet: dies verunmöglicht es jedem, durch Beobachtung
-Ihrer Internetverbindung, herauszufinden, welche Seiten Sie besuchen. Es
-verunmöglicht ebenso den Betreibern einer Seite, herauszufinden, wo Sie sich
-physikalisch befinden, und es erlaubt Ihnen, Seiten zu besuchen, welche
-blockiert wurden.</p>
+<p>El software de <strong>Tor</strong>le protege transmitiendo sus
+comunicaciones en torno a una red distribuida de repetidores llevados por
+voluntarios de todo el mundo: evita que alguien que observa su conexión a
+Internet de aprender lo que los sitios que visita, evita que los sitios que
+visita aprendan su posición física, y que le permite acceder a sitios que
+están bloqueados.</p>
 
 <p>The <strong>Tor Browser Bundle</strong> lets you use Tor on Windows, Linux,
 or Mac OS X without needing to install any software.  It can run off a USB
@@ -42,171 +41,172 @@ video or one translated into your language? Let us know!</p>
 </div>
 
 <a id="Download"></a>
-<h3><a class="anchor" href="#Download">Laden Sie das Tor-Browser-Paket und das
-Tor-IM-Browser-Paket herunter</a></h3>
+<h3><a class="anchor" href="#Download">Descargar Tor Browser Bundle y Paquete
+Tor IM Browser</a></h3>
 
-<p>Um das Tor-Browser-Paket oder das Tor-IM-Browser-Paket zu benutzen, laden
-Sie die Datei in Ihrer bevorzugten Sprache herunter. Diese Datei können Sie
-speichern wo sie wollen, z. B. auf dem Desktop oder auf einem USB-Stick.</p>
+<p>Para empezar a usar el Tor Browser Bundle o Tor Browser Bundle IM, descargue
+el archivo en tu idioma preferido. Este archivo puede ser guardado siempre
+es conveniente, por ejemplo, el escritorio o una unidad flash USB.</p>
 
-<p>Haben Sie eine unzuverlässige Internet-Verbindung, ist es vielleicht
-einfacher für Sie, die Version herunterzuladen, die in kleinere Teile <a
-href="<page torbrowser/split>">aufgeteilt ist</a>.</p>
+<p>Si usted tiene una conexión a Internet fiable, puede ser más fácil para
+usted para descargar el paquete de edición que <a href="<page
+torbrowser/split>">se divide</a> en partes más. </p>
 
-<p id="Download-torbrowserbundle" style="font-size: 120%; margin: 5mm">Tor-Browser-Paket für Windows mit Firefox (version
+<p id="Download-torbrowserbundle" style="font-size: 120%; margin: 5mm">Tor Browser Bundle para Windows con Firefox (versión
 <version-torbrowserbundle>, 16 MB)</p>
 
 <ul>
 
-<li><a href="dist/tor-browser-<version-torbrowserbundle>_en-US.exe">English
+<li><a href="dist/tor-browser-<version-torbrowserbundle>_en-US.exe">Inglés
 (en-US)</a> (<a
 href="dist/tor-browser-<version-torbrowserbundle>_en-US.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-browser-<version-torbrowserbundle>_ar.exe">&#x0627;&#x0644;&#x0639;&#x0631;&#x0628;&#x064a;&#x0629;
 (ar)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_ar.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
-<li><a href="dist/tor-browser-<version-torbrowserbundle>_de.exe">Deutsch
-(de)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_de.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+<li><a href="dist/tor-browser-<version-torbrowserbundle>_de.exe">Alemán (de)</a>
+(<a href="dist/tor-browser-<version-torbrowserbundle>_de.exe.asc"
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-browser-<version-torbrowserbundle>_es-ES.exe">&#x0045;&#x0073;&#x0070;&#x0061;&#x00f1;&#x006f;&#x006c;
 (es-ES)</a> (<a
 href="dist/tor-browser-<version-torbrowserbundle>_es-ES.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-browser-<version-torbrowserbundle>_fa.exe">&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;
 (fa)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_fa.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-browser-<version-torbrowserbundle>_fr.exe">&#x0046;&#x0072;&#x0061;&#x006e;&#x00e7;&#x0061;&#x0069;&#x0073;
 (fr)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_fr.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a href="dist/tor-browser-<version-torbrowserbundle>_it.exe">Italiano
 (it)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_it.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a href="dist/tor-browser-<version-torbrowserbundle>_nl.exe">Nederlands
 (nl)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_nl.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
-<li><a href="dist/tor-browser-<version-torbrowserbundle>_pl.exe">Polish (pl)</a>
+<li><a href="dist/tor-browser-<version-torbrowserbundle>_pl.exe">Polaco (pl)</a>
 (<a href="dist/tor-browser-<version-torbrowserbundle>_pl.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-browser-<version-torbrowserbundle>_pt-PT.exe">&#x0050;&#x006f;&#x0072;&#x0074;&#x0075;&#x0067;&#x0075;&#x00ea;&#x0073;
 (pt-PT)</a> (<a
 href="dist/tor-browser-<version-torbrowserbundle>_pt-PT.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-browser-<version-torbrowserbundle>_ru.exe">&#x0420;&#x0443;&#x0441;&#x0441;&#x043a;&#x0438;&#x0439;
 (ru)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_ru.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
-<li><a href="dist/tor-browser-<version-torbrowserbundle>_vi.exe">Vietnamese
+<li><a href="dist/tor-browser-<version-torbrowserbundle>_vi.exe">Vietnamitas
 (vi)</a> (<a href="dist/tor-browser-<version-torbrowserbundle>_vi.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma/a>)</li>
 
 <li><a
 href="dist/tor-browser-<version-torbrowserbundle>_zh-CN.exe">&#x7b80;&#x4f53;&#x5b57;
 (zh-CN)</a> (<a
 href="dist/tor-browser-<version-torbrowserbundle>_zh-CN.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 </ul>
 
-<p id="Download-torimbrowserbundle" style="font-size: 120%; margin: 5mm">Tor-IM-Browser-Paket für Windows mit Firefox und Pidgin (version
+<p id="Download-torimbrowserbundle" style="font-size: 120%; margin: 5mm">Tor IM Browser Bundle para Windows con Firefox y Pidgin (versión
 <version-torimbrowserbundle>, 25 MB)</p>
 
 <ul>
 
-<li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_en-US.exe">English
+<li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_en-US.exe">Inglés
 (en-US)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_en-US.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_ar.exe">&#x0627;&#x0644;&#x0639;&#x0631;&#x0628;&#x064a;&#x0629;
 (ar)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_ar.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
-<li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_de.exe">Deutsch
+<li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_de.exe">Alemán
 (de)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_de.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_es-ES.exe">&#x0045;&#x0073;&#x0070;&#x0061;&#x00f1;&#x006f;&#x006c;
 (es-ES)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_es-ES.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_fa.exe">&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;
 (fa)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_fa.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_fr.exe">&#x0046;&#x0072;&#x0061;&#x006e;&#x00e7;&#x0061;&#x0069;&#x0073;
 (fr)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_fr.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_it.exe">Italiano
 (it)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_it.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_nl.exe">Nederlands
 (nl)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_nl.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
-<li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_pl.exe">Polish
+<li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_pl.exe">Polaco
 (pl)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_pl.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_pt-PT.exe">&#x0050;&#x006f;&#x0072;&#x0074;&#x0075;&#x0067;&#x0075;&#x00ea;&#x0073;
 (pt-PT)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_pt-PT.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_ru.exe">&#x0420;&#x0443;&#x0441;&#x0441;&#x043a;&#x0438;&#x0439;
 (ru)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_ru.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
-<li><a href="dist/tor-im-browser-<version-torimbrowserbundle>_vi.exe">Vietnamese
+<li><a
+href="dist/tor-im-browser-<version-torimbrowserbundle>_vi.exe">Vietnamitas
 (vi)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_vi.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 <li><a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_zh-CN.exe">&#x7b80;&#x4f53;&#x5b57;
 (zh-CN)</a> (<a
 href="dist/tor-im-browser-<version-torimbrowserbundle>_zh-CN.exe.asc"
-style="font-size: 90%;">Signatur</a>)</li>
+style="font-size: 90%;">firma</a>)</li>
 
 </ul>
 
-<p id="Download-torbrowserbundlelinux" style="font-size: 120%; margin: 5mm">BETA: Tor-Browser-Paket für Linux mit Firefox (version
+<p id="Download-torbrowserbundlelinux" style="font-size: 120%; margin: 5mm">BETA: Tor Browser Bundle para Linux con Firefox (versión
 <version-torbrowserbundlelinux>, 22 MB)</p>
 
 <ul>
-<li>English (en-US): <a
+<li>Inglés (en-US): <a
 href="dist/linux/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux>-dev-en-US.tar.gz">i386</a>
 (<a
 href="dist/linux/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux>-dev-en-US.tar.gz.asc"
@@ -226,7 +226,7 @@ href="dist/linux/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux>-de
 href="dist/linux/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux>-dev-ar.tar.gz.asc"
 style="font-size: 90%;">sig</a>)</li>
 
-<li>Deutsch (de): <a
+<li>Alemán (de): <a
 href="dist/linux/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux>-dev-de.tar.gz">i386</a>
 (<a
 href="dist/linux/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux>-dev-de.tar.gz.asc"
@@ -286,7 +286,7 @@ href="dist/linux/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux>-de
 href="dist/linux/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux>-dev-nl.tar.gz.asc"
 style="font-size: 90%;">sig</a>)</li>
 
-<li>Polish (pl): <a
+<li>Polaco (pl): <a
 href="dist/linux/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux>-dev-pl.tar.gz">i386</a>
 (<a
 href="dist/linux/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux>-dev-pl.tar.gz.asc"
@@ -409,27 +409,24 @@ style="font-size: 90%;">signature</a>)</li>
 
 
 
-<p>Bitte beachten Sie unsere Anleitung, <a href="<page
-verifying-signatures>">wie Signaturen überprüft werden können</a>. Damit
-können Sie sicher gehen, diejenige Datei heruntergeladen zu haben, die wir
-Ihnen anbieten wollten. Beachten Sie außerdem, dass die von uns angebotene
-Firefox-Version in den Paketen gegenüber dem <a
-href="http://www.mozilla.com/firefox/">Standard-Firefox</a> <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/">angepasst</a>
-wurde; Wir beraten derzeit mit Mozilla, ob wir den Namen ändern sollten, um
-dies deutlicher zu machen. 
+<p>See our instructions on <a href="<page verifying-signatures>">how to verify
+package signatures</a>, which allows you to make sure you've downloaded the
+file we intended you to get.  Also, note that the Firefox in our bundles is
+<a href="<torbrowserrepo>/build-scripts/config/">modified</a> from the <a
+href="http://www.mozilla.com/firefox/">default Firefox</a>; we're currently
+working with Mozilla to see if they want us to change the name to make this
+clearer.
 </p>
 
 <a id="Linux"></a>
-<h3><a class="anchor" href="#Linux">Anleitung für Linux</a></h3>
-<p>Laden Sie die entsprechende Datei für Ihre Rechnerarchitektur herunter und
-speichern es ab. Anschließend entpacken Sie es durch den Befehl <br />tar
--xvzf tor-browser-gnu-linux-<version-torbrowserbundlelinux>-dev-LANG.tar.gz
-(wobei LANG der im Dateinamen angegebenen Sprache entspricht). Durch einen
-Doppelklick, oder durch den Befehl cd in der Kommandozeile wechseln Sie in
-das entstandene Verzeichnis und führen das Skript
-<strong>start-tor-browser</strong> aus. Nun wird Vidalia gestartet, und -
-wenn eine Verbindung zu Tor aufgebaut wurde - anschließend Firefox. </p>
+<h3><a class="anchor" href="#Linux">Linux instrucciones</a></h3>
+<p>Descargar el archivo por encima de la arquitectura correspondiente,
+almacenar en algún lugar, a continuación, ejecute:<br /> tar -xvzf
+tor-browser-gnu-linux-<version-torbrowserbundlelinux>-dev-LANG.tar.gz (donde
+idioma es el idioma que figuran en el nombre del archivo), y, o bien haga
+doble clic en el directorio o cd en él, a continuación, ejecutar el
+<strong>start-tor-browser</strong> secuencia de comandos. Esto abrirá
+Vidalia y una vez que se conecta a Tor, que lanzará Firefox.</p>
 
 <a id="Mac OS X"></a>
 <h3><a class="anchor" href="#Linux">Mac OS X instructions</a></h3>
@@ -439,106 +436,102 @@ your chosen language (for example, TorBrowser_en-US.app). Click the file to
 launch Vidalia.  Once Vidalia connects to Tor, it will launch Firefox.</p>
 
 <a id="Extraction"></a>
-<h3><a class="anchor" href="#Extraction">Entpacken</a></h3>
+<h3><a class="anchor" href="#Extraction">Extracción</a></h3>
 
-<p>Laden Sie die obige Datei herunter, speichern sie irgendwo auf dem Rechner
-ab und Doppelklicken darauf. Klicken Sie den Button <strong>"..."</strong>
-(1), und wählen Sie ein Verzeichnis aus, wo das Paket gespeichert werden
-soll. Anschließend klicken Sie <strong>OK</strong> (2). In dem Verzeichnis
-müssen mindestens 50&nbsp;MB Speicher frei sein. Wenn Sie das Paket auf
-Ihrem Computer belassen wollen, ist der Desktop eine gute Wahl. Wollen Sie
-es auch auf einem anderen Computer benutzen (oder keine Spuren auf dem
-Rechner hinterlassen) speichern Sie es auf einem USB-Stick ab.ie</p>
+<p>Descargar el archivo de arriba, y guárdelo en algún lugar, a continuación,
+haga doble clic en él. Haga clic en el botón <strong>"..."</strong> (1) y
+seleccione la que desea guardar el paquete, a continuación, haz clic en
+<strong>OK</strong> (2). Al menos 50 MB de espacio libre debe estar
+disponible en la ubicación que seleccione. Si quiere dejar el paquete en el
+ordenador, guardarlo en el escritorio es una buena opción. Si quiere moverlo
+a otro ordenador o limitar los rastros que deja, guárdelo en un disco USB.</p>
 
-<p>Klicken Sie <strong>Extract</strong> (3) um das Entpacken zu starten. Dies
-kann ein paar Minuten in Anspruch nehmen. </p>
+<p>Haga clic en <strong>Extraer</strong> (3) para comenzar la extracción. Este
+proceso puede tardar unos minutos en completarse.</p>
 
-<p><img src="img/screenshot1.png" alt="Screenshot des Entpackens" /></p>
+<p><img src="img/screenshot1.png" alt="Screenshot of extraction process" /></p>
 
 <a id="Usage"></a>
-<h3><a class="anchor" href="#Usage">Benutzung</a></h3>
+<h3><a class="anchor" href="#Usage">Uso</a></h3>
 
-<p>Ist das Paket fertig entpackt, öffnen Sie den Ordner <strong>Tor
-Browser</strong> dort, wo er entpackt worden ist. </p>
+<p>Una vez que la extracción se ha completado, abra la carpeta <strong>Tor
+Browser</strong> desde la ubicación donde descargó el paquete.</p>
 
-<p>Doppelklicken Sie das Programm <strong>Start Tor Browser</strong> (4)
-(möglicherweise wird auf Ihrem System <strong>Start Tor Browser.exe</strong>
-angezeigt.)</p>
+<p>Haga doble clic en el <strong>Inicio del Navegador de Tor</strong> (4)
+solicitud (que puede ser llamado <strong>Start Tor Browser.exe</strong> en
+algunos sistemas.)</p>
 
-<p>Kurz danach wird das Vidalia Fenster erscheinen.</p>
+<p>La ventana de Vidalia aparecerá.</p>
 
-<p><img src="img/screenshot2.png" alt="Screenshot vom Start des
-Tor-Browser-Pakets" /></p>
+<p><img src="img/screenshot2.png" alt="Screenshot of bundle startup" /></p>
 
-<p>Wenn Tor bereit ist, wird automatisch Firefox gestartet. Nur durch den
-beinhalteten Firefox besuchte Webseiten werden durch Tor gesendet. Andere
-Webbrowser, wie der Internet Explorer, werden nicht berührt. Versichern Sie
-sich, dass in der unteren rechten Ecke <span style="color: #0a0">"Tor
-Enabled"</span> (5) angezeigt wird. Um Verwirrungen zu vermeiden, sollten
-Sie parallel keinen weiteren Firefox starten, und bereits geöffnete
-Firefox-Fenster schließen bevor Sie beginnen. </p>
+<p>Una vez que Tor está preparado, Firefox se abrirá automáticamente. Sólo las
+páginas web visitadas por el navegador Firefox incluído se enviarán via
+Tor. Otros navegadores web como Internet Explorer no se ven
+afectadas. Asegúrese de que dice <span style="color: #0a0">"Tor
+Enabled"</span> (5) en la esquina inferior derecha antes de usarlo. Para
+reducir el riesgo de confusión, no ejecute Firefox mientras se usa el Tor
+Browser Bundle, y cierre las ventanas de Firefox existentes antes de
+comenzar.</p>
 
-<p>Wenn Sie das Tor-IM-Browser-Paket installiert haben, wird auch das
-Chatprogramm Pidgin automatisch gestartet. </p>
+<p>Si ha instalado el Tor IM Browser Bundle, el cliente de mensajería
+instantánea Pidgin también se abre automáticamente.</p>
 
-<p>Wenn Sie ertig sind, schließen Sie alle geöffneten Firefox-Fenster, indem
-Sie auf <img src="img/close-button.png" alt="Close button (&times;)" /> (6)
-klicken. Um Ihre Privatspähre zu schützen werden die Liste der besuchten
-Webseiten und alle Cookies gelöscht. </p>
+<p>Una vez que haya terminado de navegar, cierre todas las ventanas abiertas de
+Firefox haciendo clic en el <img src="img/close-button.png" alt="Close
+button (&times;)" /> (6). Por razones de privacidad, la lista de las páginas
+web visitadas y las cookies serán eliminados.</p>
 
-<p><img src="img/screenshot3a.png" alt="Screenshot vom Firefox" /></p>
+<p><img src="img/screenshot3a.png" alt="Screenshot of Firefox" /></p>
 
-<p>Mit dem Tor-Browser-Paket werden auch Vidalia und Tor automatisch
-geschlossen. Nutzen Sie das Tor-IM-Browser-Paket, muss Pidgin geschlossen
-werden, indem Sie einen Rechtsklick auf das Pidgin Icon (7) machen, und
-Beenden wählen (8).</p>
+<p>Con el Tor Browser Bundle, Vidalia y Tor se cerrarán automáticamente. Con el
+paquete de Tor IM Browser debe cerrar también Pidgin, haga clic en el icono
+de Pidgin (7), y la elección de dejar de fumar (8).</p>
 
-<p><img src="img/screenshot3b.png" alt="Screenshot von Pidgin" /></p>
+<p><img src="img/screenshot3b.png" alt="Screenshot of Pidgin" /></p>
 
-<p>Um das Tor-Browser-Paket oder das Tor-IM-Browser-Paket erneut zu starten,
-wiederholen Sie einfach die Schritte unter <a href="#Usage">"Benutzung"</a>.</p>
+<p>Para usar el Tor Browser Bundle o Tor paquete de mensajería instantánea de
+nuevo, repita los pasos de <a href="#Usage">"Usage"</ a>.</p>
 
-<p>Beachten Sie, dass Tor die Herkunft Ihres Datenverkehrs anonymisiert, und
-innerhalb des Tor-Netzwerks verschlüsselt - es jedoch <a
-href="https://wiki.torproject.org/noreply/TheOnionRouter/TorFAQ#ExitEavesdroppers">nicht
-Ihre Daten zwischen dem Tor-Netzwerk und Ihrem Kommunikations-Ziel
-verschlüsseln kann</a>. Senden Sie sensible Daten, sollten Sie ebenso
-vorsichtig sein, wie sonst im normalen "beängstigenden" Internet &mdash;
-benutzen Sie HTTPS oder andere Ende-zu-Ende Verschlüsselung und
-Authentifizierung.
+<p>Recuerde que Tor anonimiza el origen de su tráfico, y lo encripta todo
+dentro de la red Tor, pero <a
+href="https://wiki.torproject.org/noreply/TheOnionRouter/TorFAQ#ExitEavesdroppers">no
+puede cifrar su el tráfico entre la red Tor y su destino final.</a> Si está
+comunicando información confidencial, debe utilizar tanto cuidado como lo
+haría en la espeluznante Internet normal -. use HTTPS u otra encriptación de
+extremo a extremo y autenticación.
 </p>
 
 <a id="Feedback"></a>
-<h3><a class="anchor" href="#Feedback">Kommentare und Vorschläge</a></h3>
+<h3><a class="anchor" href="#Feedback">Comentarios y sugerencias</a></h3>
 
-<p>Das Tor-Browser-Paket befindet sich in der Entwicklung und ist noch nicht
-komplett. Benutzen Sie bitte unsere <a
-href="http://archives.seul.org/or/talk/">or-talk</a> Mailingliste, um
-Verbesserungen zu diskutieren, oder Kommentare zu senden.</p>
+<p>El Tor Browser Bundle está en desarrollo y no ha terminado todavía. Para
+discutir mejoras y presentar sus comentarios, por favor use el <a
+href="http://archives.seul.org/or/talk/">or-talk</a>lista de correo.</p>
 
 <a id="More"></a>
-<h3><a class="anchor" href="#More">Weitere Informationen</a></h3>
+<h3><a class="anchor" href="#More">Más información</a></h3>
 
-<p><strong>Was ist Tor, und warum brauche ich das?</strong> Um mehr über Tor zu
-lernen, besuchen Sie die <a href="<page index>">Tor Projekt Webseite</a>.</p>
+<p><strong> ¿Qué es Tor y por qué lo necesito?</strong> Para saber más acerca
+de Tor, visite el <a href="<page index>">Web del proyecto Tor</a>.</p>
 
-<p><strong>Was ist im Tor-Browser-Paket enthalten?</strong> Es beinhaltet Tor,
-Vidalia, Polipo, Firefox, und Torbutton (<a href="<page
-torbrowser/details>#contents">mehr erfahren</a>).</p>
+<p><strong>¿Qué hay en el Tor Browser Bundle</strong> Contiene Tor, Vidalia,
+Privoxy, Firefox y Torbutton (<a href="<page torbrowser/details>
+#contents">Más información</a>) .</p>
 
-<p><strong>Was ist im Tor-IM-Browser-Paket enthalten?</strong> Es beinhaltet
-Tor, Vidalia, Polipo, Firefox, Torbutton, Pidgin und OTR (<a href="<page
-torbrowser/details>#contents">mehr erfahren</a>).</p>
+<p><strong>¿Qué hay en el Tor IM Browser Bundle</strong> Contiene Tor, Vidalia,
+Privoxy, Firefox, Torbutton, Pidgin y OTR (<a href="<page
+torbrowser/details>#contents">Más información</a>).</p>
 
-<p><strong>Wie erstelle ich mein eigenes Paket?</strong> Laden Sie den
-Quellcode herunter und lesen Sie die <a href="<page
-torbrowser/details>#build">Anleitung</a>, wie ein Paket zu erstellen ist.</p>
+<p><strong>¿Cómo puedo hacer mi propio paquete?</strong> Para descargar el
+código fuente y aprender cómo construir el paquete usted mismo, lea la <a
+href="<page torbrowser/details>#build">instrucciones de compilación</a>.</p>
 
-<p>Das Tor-Browser-Paket basiert teilweise auf <a
+<p>Tor Browser Bundle está parcialmente basado en <a
 href="http://portableapps.com/apps/internet/firefox_portable">Mozilla
-Firefox, Portable Edition</a> und <a
+Firefox, Portable Edition</a> y <a
 href="http://portableapps.com/apps/internet/pidgin_portable">Pidgin
-Portable</a> von <a href="http://portableapps.com/">PortableApps.com</a>.</p>
+Portable</a> de <a href="http://portableapps.com/">PortableApps.com</a>.</p>
 
 </div>
 

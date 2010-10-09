@@ -1,0 +1,216 @@
+
+
+
+
+
+
+## translation metadata
+# Revision: $Revision: 22653 $
+# Translation-Priority: 4-optional
+#include "head.wmi" TITLE="Tor Projects Page" CHARSET="UTF-8"
+<div class="main-column">
+
+
+
+<!-- PUT CONTENT AFTER THIS TAG -->
+<h2>Tor Panorama de los proyectos</h2>
+<hr/>
+
+<p>El ecosistema de Tor Proyecto consiste en una amplia gama de proyectos,
+algunos a cargo de los desarrolladores principales de Tor y algunos a cargo
+de voluntarios. Esta página trata de organizar y resumir los mismos, tanto
+para ayudar a los nuevos desarrolladores voluntarios obtener bootstrap, y
+para ayudar a asegurar que las personas no querer duplicar esfuerzos.</p>
+
+<p>En construcción! Por favor, tenga con nosotros a medida que limpiar la
+lista.</p>
+
+<a id="Controllers"></a>
+<h3><a class="anchor" href="#Controllers">Tor controladores</a></h3>
+<ul>
+<li><a href="<page vidalia/index>">Vidalia</a> es nuestra recomienda
+multiplataforma de Tor controlador de interfaz gráfica de usuario, mantenido
+por Matt Edman. Se incluye en la mayoría de los paquetes.</li>
+<li><a href="http://www.anonymityanywhere.com/tork/">Tork</a> es un controlador
+escrito por Robert Hogan para el entorno KDE (Linux). Tiene algunas
+características extra sobre Vidalia (como en la selección de ruta), pero es
+mucho más duro en los bordes.</li>
+<li><a href="http://www.atagar.com/arm/">brazo</a> es un controlador basado en
+curses (línea de comandos, sin interfaz gráfica de usuario) diseñado
+especialmente para resumir la operación del relé.</li>
+<li><a href="https://svn.torproject.org/svn/blossom/trunk/">Flor</a> es un
+controlador obsoleto y sin mantenimiento basado en la tesis Geoff Goodell en
+Harvard. Su objetivo era hacer que sea más conveniente para acceder a los
+recursos de la ubicación de red de su elección.</li>
+</ul>
+
+<a id="Applications"></a>
+<h3><a class="anchor" href="#Applications">Junto con las solicitudes</a></h3>
+<ul>
+<li><a href="<page torbutton/index>">Torbutton</a> es una extensión para Firefox
+que te ayuda a mantenerte seguro cuando se navega con Tor. En un principio
+sólo alternar la configuración del proxy y fuera, pero ahora se ocupa de <a
+href="https://www.torproject.org/torbutton/design/">una amplia gama</a> de
+riesgos para la intimidad de nivel de aplicación.</li>
+<li><a href="http://www.pps.jussieu.fr/~jch/software/polipo/">Polipo</a>  es un
+proxy http almacenamiento en caché que se ocupa de la canalización y
+http/1.1. Lo enviamos con Firefox y Torbutton principalmente porque Firefox
+todavía <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=280661">no
+puede manejar</a> proxies SOCKS directamente.</li>
+<li><a href="http://www.privoxy.org/">Privoxy</a> es otro proxy http multa que
+se puede utilizar entre Firefox y Tor. Cambiamos a Polipo por la htt/1.1 y
+apoyo keepalive.</li>
+<li><a href="http://code.google.com/p/torsocks/">torsocks</a> (en función de su
+predecesor tsocks <a href="http://tsocks.sourceforge.net/">tsocks</a>) es un
+sistema Linux / UNIX (pero no en OS X) envoltorio para sustituir de forma
+dinámica la conexión en red sistema de llamadas en su aplicación con los que
+el punto a través de Tor.</li>
+<li><a href="http://monkey.org/~dugsong/dsocks/">dsocks</a>es una alternativa a
+tsocks que funciona en OS X / BSD.</li>
+</ul>
+
+<a id="Installers"></a>
+<h3><a class="anchor" href="#Installers">Instaladores</a></h3>
+<ul>
+<li>El <a href="http://www.torproject.org/torbrowser/">Tor Browser Bundle</a>es
+una versión sin instalación de Tor que se puede ejecutar desde el escritorio
+o una unidad flash USB. Tenemos TBBS para Windows y Linux, y en algún
+momento habrá una EBT para Mac OS X.</li>
+<li><a href="<page download-unix>">Debian y RPM repositorios</a> contienen los
+paquetes de Debian y RPM. Recomendamos estos paquetes en la mayoría de la
+distribución, ya que se mantienen hasta la fecha.</li>
+<li>imagen osx</li>
+<li>torvm</li>
+<li>livecd's: <a href="https://amnesia.boum.org/">El sistema (amnésica)
+Incognito en vivo</a>, tor ramdisk</li>
+<li><a href="https://git.torproject.org/checkout/thandy/master/">Thandy</a>,
+nuestro aún el subdesarrollo de <a
+href="http://google-opensource.blogspot.com/2009/03/thandy-secure-update-for-tor.html">actualización
+segura</a>, está diseñado para ayudar a los usuarios mantenerse al día con
+sus versiones de Tor. Si bien las organizaciones comerciales comprar su
+propia bóveda de un banco de guardias armados para sus principales
+actualizaciones, Thandy tiene como objetivo hacer frente a la situación de
+más de desarrollo para sistemas distribuidos como Tor. Su valor principal en
+este momento es su revisión por pares de las <a
+href="https://git.torproject.org/checkout/thandy/master/specs/thandy-spec.txt">especificaciones</a>,
+pero también se puede ver en acción como parte de nuestra <a
+href="https://data.peertech.org/files/demo/updater/index.html">red de
+instalación</a>experimental.</li>
+</ul>
+
+<a id="Implementations"></a>
+<h3><a class="anchor" href="#Implementations">Suplente Tor implementaciones</a></h3>
+<ul>
+<li><a href="http://www.torproject.org/docs/android.html.en">Orbot</a> es una
+versión de Android de Tor que internamente depende de los binarios de Tor.</li>
+<li><a href="http://github.com/brl/JTor.git">JTor</a> es una aplicación cliente
+independiente de Tor escrito en Java.</li>
+<li><a href="http://onioncoffee.sourceforge.net/">OnionCoffee</a> es una
+aplicación obsoleta Tor cliente en Java.</li>
+<li>tortunnel</li>
+<li>jap?</li>
+</ul>
+
+<a id="Listings"></a>
+<h3><a class="anchor" href="#Listings">Listados de relé</a></h3>
+<ul>
+<li>torstatus</li>
+<li>xenobite's torstatus</li>
+<li><a href="https://check.torproject.org/">check.torproject.org</a> es un sitio
+web que pide TorDNSEL si un usuario está utilizando Tor.</li>
+<li>El The <a
+href="https://check.torproject.org/cgi-bin/TorBulkExitList.py">Salir a
+granel Tor Lista Exportador</a> es una herramienta que utiliza TorDNSEL para
+exportar una lista de posibles nodos Tor que podría ponerte en contacto con
+una dirección IP.</li>
+<li><a href="https://www.torproject.org/tordnsel/">TorDNSEL</a> es una prueba de
+activos, la lista de DNS basado en nodos de salida de Tor.</li>
+</ul>
+
+<a id="Monitoring"></a>
+<h3><a class="anchor" href="#Monitoring">Red de Monitoreo</a></h3>
+<ul>
+<li>el clima</li>
+<li><a href="http://metrics.torproject.org/">Proyecto de Indicadores: Medición
+de la Red Tor</a></li>
+<li>archivos</li>
+<li>https://svn.torproject.org/svn/projects/archives/trunk/exonerator/HOWTO</li>
+</ul>
+
+<a id="Performance"></a>
+<h3><a class="anchor" href="#Performance">Rendimiento de la red</a></h3>
+<ul>
+<li><a href="https://svn.torproject.org/svn/torperf/trunk/README">TorPerf</a> es
+una pequeña herramienta que mide el desempeño de Tor que los usuarios lo
+experimentan. TorPerf utiliza un cliente SOCKS trivial para descargar
+archivos de varios tamaños en la red Tor y observa cómo subpasos toma larga.</li>
+<li>whytorisslow</li>
+<li>torflow</li>
+<li>bwauthority</li>
+<li>exitscanner</li>
+<li>NLnet <a href="<page projects/hidserv>">Acelerar Servicios Ocultos</a></li>
+<li>udp-tor: joel, chris, ian, etc</li>
+<li>NLnet <a href="<page projects/lowbandwidth>">Tor para los clientes de bajo
+ancho de banda</a></li>
+</ul>
+
+<a id="Censorship"></a>
+<h3><a class="anchor" href="#Censorship">Censura Resistencia</a></h3>
+<ul>
+<li>gettor</li>
+<li>bridgedb</li>
+<li>estrategias de distribución de puente</li>
+<li>obfuscaTOR</li>
+</ul>
+
+<a id="Libraries"></a>
+<h3><a class="anchor" href="#Libraries">Controlador de Bibliotecas</a></h3>
+<ul>
+<li>torctl</li>
+<li>el c# y librerías Java controlador</li>
+</ul>
+
+<a id="Infrastructure"></a>
+<h3><a class="anchor" href="#Infrastructure">Infraestructura</a></h3>
+<ul>
+<li><a href="https://trac.torproject.org/projects/tor">Tor Bug Tracker &amp;
+Wiki</a> basado en Trac</li>
+<li><a href="https://blog.torproject.org/">El blog de Tor basado en Drupal</a></li>
+<li><a href="https://translation.torproject.org/">El Tor Portal de
+traducción</a> sobre la base de Pootle</li>
+<li>buildbot https://buildbot.vidalia-project.net/one_line_per_build</li>
+<li>https://data.peertech.org/torbld</li>
+<li><a href="http://www.torproject.org/mirrors.html.en">Tor Espejos</a></li>
+<li>rsync</li>
+<li>a nagios?</li>
+<li>git, svn</li>
+<li><a href="https://gitweb.torproject.org/">Tor Gitweb</a></li>
+</ul>
+
+<a id="HiddenServices"></a>
+<h3><a class="anchor" href="#HiddenServices">Servicios Ocultos</a></h3>
+<ul>
+<li>diagramas de cómo funcionan</li>
+<li>tor2web</li>
+<li>onioncat</li>
+<li>shallot</li>
+</ul>
+
+<a id="Other"></a>
+<h3><a class="anchor" href="#Other">Otro</a></h3>
+<ul>
+<li><a href="https://git.torproject.org/puppetor.git/README">PuppeTor</a> es un
+framework Java que facilita la creación de una red privada de Tor y el
+control de sus procesos de Tor.</li>
+<li>torwall</li>
+<li>topf</li>
+<li>nym</li>
+<li>nymble</li>
+<li>foebud de extensión de Firefox</li>
+</ul>
+
+</div>
+
+
+
+#include <foot.wmi>

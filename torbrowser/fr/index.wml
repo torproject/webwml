@@ -410,15 +410,13 @@ style="font-size: 90%;">signature</a>)</li>
 
 
 
-<p>Consultez nos instructions sur <a href="<page verifying-signatures>">la
-vérification des signatures de paquet</a> qui vous permettent d'être sûr que
-vous avez bien téléchargé le fichier que vous aviez l'intention de
-récupérer.  Notez également que le Firefox qui est inclus dans le Pack est
-<a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/">modifié</a>
-par rapport au <a href="http://www.mozilla.com/firefox/">Firefox par
-défaut</a>; nous travaillons actuellement avec Mozilla pour voir s'ils
-désirent que nous changions ce nom afin de rendre cela plus clair.
+<p>See our instructions on <a href="<page verifying-signatures>">how to verify
+package signatures</a>, which allows you to make sure you've downloaded the
+file we intended you to get.  Also, note that the Firefox in our bundles is
+<a href="<torbrowserrepo>/build-scripts/config/">modified</a> from the <a
+href="http://www.mozilla.com/firefox/">default Firefox</a>; we're currently
+working with Mozilla to see if they want us to change the name to make this
+clearer.
 </p>
 
 <a id="Linux"></a>

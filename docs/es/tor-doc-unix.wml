@@ -5,7 +5,7 @@
 
 
 ## translation metadata
-# Revision: $Revision: 21798 $
+# Revision: $Revision: 23458 $
 # Translation-Priority: 3-low
 #include "head.wmi" TITLE="Tor: Linux/BSD/Unix Install Instructions" CHARSET="UTF-8"
 <div class="center">
@@ -70,14 +70,13 @@ Tor. Usted debe desinstalar privoxy en este momento (por ejemplo, apt-get
 remove privoxy o yum remove privoxy), para que no entren en conflicto.
 </p>
 
-<p>Una vez que haya instalado Privoxy (o bien desde paquete o desde fuentes),
-<b> necesitará configurar Privoxy para usar Tor </ b>. ¡Apúntese a nuestro
-<a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/polipo.conf">Polipo
-de configuración de Tor</a> y lo puso en el lugar de su actual polipo
-archivo de configuración (por ejemplo, /etc/polipo/config o
-~/.polipo). Tendrá que reiniciar Privoxy para que los cambios surtan
-efecto. Por ejemplo:<br /> <tt>/etc/init.d/polipo restart</tt>
+<p>Once you've installed Polipo (either from package or from source), <b>you
+will need to configure Polipo to use Tor</b>. Grab our <a
+href="<torbrowserrepo>/build-scripts/config/polipo.conf">Polipo
+configuration for Tor</a> and put it in place of your current polipo config
+file (e.g. /etc/polipo/config or ~/.polipo).  You'll need to restart Polipo
+for the changes to take effect. For example:<br /> <tt>/etc/init.d/polipo
+restart</tt>
 </p>
 
 <p>Si lo prefiere, puede en lugar de utilizar Privoxy con <a

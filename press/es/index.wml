@@ -1,0 +1,62 @@
+
+
+
+
+
+
+## translation metadata
+# Revision: $Revision: 23204 $
+# Translation-Priority: 3-low
+#include "head.wmi" TITLE="Tor Press Page"
+<div class="main-column">
+
+
+
+<!-- PUT CONTENT AFTER THIS TAG -->
+<h2>Tor Prensa y de Información y Prensa</h2>
+<div class="underline"></div>
+
+
+<!-- BEGIN SIDEBAR -->
+<div class="sidebar">
+<h3>Contacto de Prensa</h3>
+<address>
+Andrew Lewman execdir@torproject.org +1-781-352-0568
+</address>
+</div>
+
+
+<!-- END SIDEBAR -->
+<h3>Notas de Prensa</h3>
+<ul>
+<li>16 September 2010.  Tor announces an article discussing <a href="<page
+press/2010-09-16-ten-things-circumvention-tools>">Ten Things to Look for in
+a Circumvention Tool</a>.</li>
+<li>25 marzo 2010. Tor y Printfection lanzamiento <a href="<page
+press/2010-03-25-tor-store-press-release>">La tienda de Tor</a>.</li>
+<li>12 de marzo 2009. Tor pone en marcha un <a href="<page
+press/2009-03-12-performance-roadmap-press-release>">rendimiento de hoja de
+ruta</a> y la campaña.</li>
+<li>19 de diciembre 2008. Tor anuncia 3 años <a href="<page
+press/2008-12-19-roadmap-press-release>">desarrollo de plan de trabajo</a>.</li>
+</ul>
+<br />
+<div class="nb">
+<h3>Enlaces rápidos para entender mejor Tor</h3>
+<ol>
+<li>¿Cómo es Tor <a href="<page faq>#Torisdifferent">diferentes que las
+soluciones proxy otros</a>?</li>
+<li><a href="/press/presskit/2009-General-Online-Anonymity-with-Tor.pdf">¿Por
+qué el anonimato y la privacidad en línea</a>?</li>
+<li><a
+href="/press/presskit/2009-General-Background-on-Tor-Project-Inc.pdf">¿Quién
+es el Proyecto Tor, Inc</a>?</li>
+<li><a href="https://blog.torproject.org/blog/circumvention-and-anonymity">Por
+qué es importante el anonimato por elusión</a>.</li>
+</ol>
+</div>
+</div>
+
+
+
+#include <foot.wmi>

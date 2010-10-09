@@ -1,0 +1,276 @@
+
+
+
+
+
+
+## translation metadata
+# Revision: $Revision: 22909 $
+# Translation-Priority: 2-medium
+#include "head.wmi" TITLE="Tor: Donate!" CHARSET="UTF-8"
+<div class="main-column">
+
+<h2>Gracias por tu apoyo!</h2>
+
+
+<!-- BEGIN SIDEBAR -->
+<div class="sidebar-left">
+<h3>Aceptamos donaciones de:</h3>
+<ul>
+<li><a href="#money">Dinero</a></li>
+<li><a href="#services">Servicios</a></li>
+<li><a href="#hardware">Hardware</a></li>
+<li><a href="#time">Tiempo</a></li>
+<li><a href="#outcome">¿Qué pasa con mi donación?</a></li>
+</ul>
+</div>
+
+
+<!-- END SIDEBAR -->
+<div class="underline"></div>
+
+<h3>Ofrecemos varias formas de apoyo a la privacidad en línea y el anonimato a
+través de donaciones. Usted puede donar <<a href="#money">dinero</a>, <a
+href="#services">servicios</a>, <a href="#hardware">hardware</a>, y <a
+href="#time">tiempo</a>. Su donación deducible de impuestos ayuda a
+garantizar el anonimato y la privacidad en línea siguen existiendo en el
+mundo.</h3>
+
+<br />
+
+<p>El proyecto Tor es una EE.UU. 501 [c] [3] sin fines de lucro dedicada a la
+investigación, el desarrollo y la educación de anonimato y privacidad en
+línea. Donaciones al Proyecto Tor pueden ser deducibles de impuestos a las
+personas que están en los EE.UU., o que paguen impuestos en países con
+reciprocidad con los EE.UU. en donaciones caritativas. Estamos encantados de
+aceptar donaciones vía PayPal, cheques, giros postales, las subvenciones de
+acciones u otras operaciones más sofisticadas. Si desea hacer una donación
+anónima, puede hacerlo de forma anónima. Contacte con nosotros en
+donations@torproject.org para más detalles.</p>
+
+<div class="underline"></div>
+<a id="relay"></a>
+<h3><a class="anchor" href="#relay">Ejecutar un relé</a></h3>
+<p>La forma más fácil, manera más eficaz de apoyo a la privacidad en línea y el
+anonimato en todo el mundo es correr un relé. Se inscribe en un conjunto de
+personas comprometidas en el mundo ya se está ejecutando un relé. La forma
+más fácil para acelerar Tor es añadir más enlaces a la red.  Ejecución de un
+relé es tan fácil como <a href="<page docs/tor-doc-relay>">hacer clic en un
+botón</a>.. Únete a la red. Apoye a su anonimato y privacidad en línea!</p>
+
+<div class="underline"></div>
+<a id="money"></a>
+<h3><a class="anchor" href="#money">Dona dinero</a></h3>
+<h3><a class="anchor" href="#paypal">Suscripción a través de Givv, o PayPal</a></h3>
+<p>Una de nuestras metas de recaudación de fondos principal es no molestar a
+los donantes con las reiteradas peticiones. Por lo tanto, abogamos por un
+enfoque basado en suscripción: simplemente regístrate para donaciones
+mensuales recurrentes. Las donaciones nos permiten preocuparnos menos de la
+recaudación de fondos y centrarse en mejorar el software y la red Tor. Usted
+puede cancelar su suscripción en cualquier momento. Hay dos maneras de
+donar:</p>
+
+<ol>
+<li>a través de nuestra <a
+href="http://givv.org/recipients/the-tor-project">cuenta Givv</a></li>
+<li>O a través de PayPal. Si PayPal, vea a continuación:</li>
+</ol>
+
+<form id="subscribe" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<br /> Seleccione su moneda: <select name="currency_code">
+<option value="USD" selected="selected">$</option>
+<option value="EUR">€</option>
+<option value="GBP">£</option>
+</select>
+
+<dl>
+<dt><input type="radio" name="a3" value="250.00" />250/mes</dt>
+<dt><input type="radio" name="a3" value="100.00" />100/mes</dt>
+<dt><input type="radio" name="a3" value="50.00" />50/mes</dt>
+<dt><input type="radio" name="a3" value="20.00" checked="checked" />20/mes</dt>
+<dt><input type="radio" name="a3" value="10.00" />10/mes</dt>
+<dt><input type="radio" name="a3" value="5.00" />5/mes</dt>
+</dl>
+
+<input type="hidden" name="p3" value="1" /> <input type="hidden" name="t3"
+value="M" /> <input type="hidden" name="sra" value="1" /> <input
+type="hidden" name="src" value="1" /> <input type="hidden"
+name="no_shipping" value="1" /> <input type="hidden" name="no_note"
+value="1" /> <input type="image" src="images/btn_donateCC_LG.gif"
+name="submit" alt="Make payments with PayPal - it's fast, free and
+secure!"/> <input type="hidden" name="cmd" value="_xclick-subscriptions" />
+<input type="hidden" name="business" value="donations@torproject.org" />
+<input type="hidden" name="item_name" value="Tor Project Membership" />
+<input type="hidden" name="return"
+value="https://www.torproject.org/donate#funds"/> <input type="hidden"
+name="cancel_return" value="https://www.torproject.org/donate"/>
+</form>
+
+<br />
+
+<h3><a class="anchor" href="#paypal">donación individual a través de Amazon o
+PayPal</a></h3>
+
+<ol>
+<li>Los pagos a través de Amazon:</li>
+<div style="width:20em;padding-left:10px;padding-top:10px;padding-right:10px;padding-bottom:10px;">
+	<table class="table" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
+	  <input type="hidden" name="immediateReturn" value="1" /> <input
+type="hidden" name="collectShippingAddress" value="0" /> <input
+type="hidden" name="signatureVersion" value="2" /> <input type="hidden"
+name="signatureMethod" value="HmacSHA256" /> <input type="hidden"
+name="minimumDonationAmount" value="USD 10" /> <input type="hidden"
+name="accessKey" value="11SEM03K88SD016FS1G2" /> <input type="hidden"
+name="signature" value="Q+R9ErF8Kcz7GFQ/CYw8aSEYlWa/otVLgxVACPvHcJM=" />
+<input type="hidden" name="isDonationWidget" value="1" /> <input
+type="hidden" name="description" value="Supporting Online Anonymity &amp;
+Privacy" /> <input type="hidden" name="amazonPaymentsAccountId"
+value="XGSROLNTXRNC3N1P4TXKMNK14LN1D6SZUD8SN1" /> <input type="hidden"
+name="returnUrl" value="https://www.torproject.org/donate.html.en#outcome"
+/> <input type="hidden" name="processImmediate" value="1" /> <input
+type="hidden" name="cobrandingStyle" value="logo" /> <input type="hidden"
+name="abandonUrl" value="https://www.torproject.org/donate.html.en#outcome"
+/>
+	  <td>&nbsp;</td>
+	  <td><input type="text" name="amount" size="8" value="10" /></td>
+	  <td>&nbsp;</td>
+	  <td><input type="image"
+src="http://g-ecx.images-amazon.com/images/G/01/asp/golden_small_donate_withmsg_whitebg.gif"
+border="0" /></td>
+	</form>
+	</tr>
+	</table>
+</div>
+
+<li>A través de PayPal:</li>
+<form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<p>También puede hacer una sola vez <b>donación</b> (a través de PayPal, pero
+no requiere tener una cuenta): <br /> <input type="radio" name="amount"
+value="100.00" />100 <input type="radio" name="amount" value="50.00" />50
+<input type="radio" name="amount" value="20.00" checked="checked" />20
+<input type="radio" name="amount" value="10.00" />10 <input type="radio"
+name="amount" value="" />otra cantidad <select name="currency_code">
+<option value="USD" selected="selected">$</option>
+<option value="EUR">€</option>
+<option value="GBP">£</option>
+</select> <input type="hidden" name="no_shipping" value="1" /> <input
+type="image" src="images/btn_donateCC_LG.gif" name="submit" alt="Make
+payments with PayPal - it's fast, free and secure!"/> <input type="hidden"
+name="cmd" value="_xclick" /> <input type="hidden" name="business"
+value="donations@torproject.org" /> <input type="hidden" name="item_name"
+value="Tor" /> <input type="hidden" name="return"
+value="https://www.torproject.org/donate#funds"/> <input type="hidden"
+name="cancel_return" value="https://www.torproject.org/donate"/>
+</p>
+</form>
+</ol>
+
+<p>Si desea enviar un cheque, giro postal o dinero en efectivo, por favor
+envíelo a:</p>
+
+<p>
+<address>
+El Proyecto Tor<br /> 969 Main Street, Suite 206<br /> Walpole, MA 02081 USA
+</address>
+</p>
+
+Si en Europa, siéntase libre de donar a la <a href="http://ccc.de/">Chaos
+Computer Club</a> en nombre de Tor:
+<p>
+<address>
+Wau Holland Stiftung<br /> IBAN DE03 5204 0021 0277 281202<br /> SWIFT BIC
+COBADEFF520
+</address>
+</p>
+
+<p>Si desea un recibo de donación para su no-PayPal, depósito no cuenta, por
+favor solicite específicamente una con su donación por correo.</p>
+
+<div class="underline"></div>
+<a id="services"></a>
+<h3><a class="anchor" href="#services">Dona Servicios</a></h3>
+<p>El Proyecto Tor está siempre en busca de servicios relacionados con las
+necesidades técnicas, como el ancho de banda, colocación, servicios de
+hospedaje, representación legal, o de consultoría.   Por los servicios de la
+donación, se une a nuestro <a href="<page sponsors>">muchos
+patrocinadores</a> en la prestación de privacidad en línea y el
+anonimato. En estos momentos estamos en busca de servicios de alojamiento
+escalable para las necesidades de información de grandes conjuntos de datos
+fiables y de alto ancho de banda de alojamiento. Es posible que haya
+hardware que le puede proporcionar por su donación de servicio.</p>
+
+<p>¿Se puede escribir el código? Siempre estamos buscando programadores
+inteligentes, motivados a cualquiera de Tor puerto para los sistemas
+operativos nuevos o viejos, o resolver difíciles problemas de anonimato en
+línea. Echa un vistazo a<a href="<page volunteer>#Coding">nuestros proyectos
+de codificación</a>.</p>
+
+<p>Si eres una persona creativa? ¿Tiene una idea fantástica para una campaña?
+Si eres alguien que puede llegar a obra de arte impresionante? Siempre
+estamos buscando nuevas formas de promover Tor y correr la voz que cada uno
+necesita su intimidad y anonimato en línea.</p>
+
+<p>¿Es su bufete de abogados dispuestos a defender Tor y sus voluntarios?
+¿Estás esperando que un caso interesante para defender la privacidad en
+línea y el anonimato?</p>
+
+<p>Si alguna de las ideas de servicio tocado una fibra sensible, contacte con
+nosotros en donations@torproject.org para más detalles.</p>
+
+<div class="underline"></div>
+<a id="hardware"></a>
+<h3><a class="anchor" href="#hardware">Dona Hardware</a></h3>
+
+<p>Estamos en general en busca de donaciones de hardware y servicios de apoyo
+que podrían ser utilizados para proporcionar la infraestructura que apoya
+las operaciones de Tor, incluidos los espejos web, servidores de base de
+datos, construir sistemas de hardware y legado para el apoyo a los paquetes
+en los sistemas operativos más antiguos, como el OS X 10.2, OS X 10.3,
+Windows XP, Windows 7, IRIX, Red Hat, CentOS, Fedora, Debian, etc Una serie
+de proveedores de servicios tienen una abundancia de la capacidad de ancho
+de banda, pero el hardware necesario para donar a nosotros. </p>
+
+<p>Mediante la donación de hardware, se está uniendo a nuestro <a href="<page
+sponsors>">muchos patrocinadores</a> en la prestación de privacidad en línea
+y el anonimato. Si quieres que Tor para trabajar en su arquitectura o de
+hardware, una buena manera de hacerlo es donar el hardware y sistema
+operativo para nosotros. Contacte con nosotros en donations@torproject.org
+para más detalles.</p>
+
+<div class="underline"></div>
+<a id="time"></a>
+<h3><a class="anchor" href="#time">Dona Tiempo</a></h3>
+
+<p>Siempre estamos buscando voluntarios entusiasmados de dar charlas o
+capacitaciones en las conferencias, barcamps, y otras reuniones donde la
+gente debe aprender acerca de privacidad y el anonimato en línea con
+Tor. Estamos encantados de trabajar con usted para ayudarle a mejor regalo
+de Tor y la privacidad en línea y el anonimato. Contacte con nosotros en
+donations@torproject.org para más detalles.</p>
+
+<div class="underline"></div>
+<a id="outcome"></a> <a id="funds"></a><a class="anchor" href="#funds"></a>
+<h3><a class="anchor" href="#outcome">¿Qué pasa con mi donación?</a></h3>
+
+<p>Si usted acaba de ganado, gracias por su donación. Sus fondos se depositan
+en nuestro fondo general. Se une a nuestro <a href="<page sponsors>">muchos
+patrocinadores</a> en la financiación del futuro de Tor y el anonimato en
+línea. En 2008, El Proyecto Tor gastado y recibido sus fondos de la
+siguiente manera: </p>
+
+<p>
+<img src="images/2008-funding-chart.png" alt="Who funds the Tor Project?" />
+<img src="images/2008-expenses-chart.png" alt="How is the money spent?" />
+</p>
+
+<div class="underline"></div>
+<strong>El Proyecto Tor respeta la confidencialidad de nuestros seguidores,
+cuando se le solicite. No prestar, alquilar, o vender nuestras listas de los
+donantes en cualquier momento.</Strong>
+
+</div>
+
+
+#include <foot.wmi>

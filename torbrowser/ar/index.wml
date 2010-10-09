@@ -5,7 +5,7 @@
 
 
 ## translation metadata
-# Revision: $Revision: 23375 $
+# Revision: $Revision: 23458 $
 # Translation-Priority: 1-high
 #include "head.wmi" TITLE="Tor Browser Bundle" CHARSET="UTF-8"
 <div class="main-column">
@@ -403,12 +403,13 @@ style="font-size: 90%;">signature</a>)</li>
 
 
 
-<p>راجع تعليمات <a href="<page verifying-signatures>">التحقق من تواقيع
-الحزم</a> لتتأكد من أن الملفات التي نزّلتها هي التي أردنا أن تحصل
-عليها. لاحظ أيضًا أن نسخة فيرفكس الموجودة في حزمنا <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/">مُعدّلة</a>
-عن <a href="http://www.mozilla.com/firefox/">نسخة فيرفكس المبدئية</a>؛ نعمل
-حاليًا مع موزيلا لنرى إن كانت تريد أن نغير الاسم ليكون ذلك أوضح.
+<p>See our instructions on <a href="<page verifying-signatures>">how to verify
+package signatures</a>, which allows you to make sure you've downloaded the
+file we intended you to get.  Also, note that the Firefox in our bundles is
+<a href="<torbrowserrepo>/build-scripts/config/">modified</a> from the <a
+href="http://www.mozilla.com/firefox/">default Firefox</a>; we're currently
+working with Mozilla to see if they want us to change the name to make this
+clearer.
 </p>
 
 <a id="Linux"></a>

@@ -5,7 +5,7 @@
 
 
 ## translation metadata
-# Revision: $Revision: 22082 $
+# Revision: $Revision: 23458 $
 # Translation-Priority: 1-high
 #include "head.wmi" TITLE="Tor Browser Bundle (split edition)" CHARSET="UTF-8"
 <div class="main-column">
@@ -128,10 +128,11 @@ href="dist/tor-im-browser-<version-torimbrowserbundle>_zh-CN_split">&#x7b80;&#x4
 </ul>
 
 
-<p> لاحظ أن نسخة فيرفكس الموجودة في حزمنا <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/">مُعدّلة</a>
-عن <a href="http://www.mozilla.com/firefox/">نسخة فيرفكس المبدئية</a>؛ نعمل
-حاليًا مع موزيلا لنرى إن كانت تريد أن نغير الاسم ليكون ذلك أوضح.
+<p>Note that the Firefox in our bundle is <a
+href="<torbrowserrepo>/build-scripts/config/">modified</a> from the <a
+href="http://www.mozilla.com/firefox/">default Firefox</a>; we're currently
+working with Mozilla to see if they want us to change the name to make this
+clearer.
 </p>
 
 <a id="Extraction"></a>

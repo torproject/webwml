@@ -1,0 +1,48 @@
+
+
+
+
+
+
+## translation metadata
+# Revision: $Revision: 21511 $
+# Translation-Priority: 3-low
+#include "head.wmi" TITLE="Tor: Mirrors" CHARSET="UTF-8"
+<div class="main-column">
+
+<h2>Tor: Espejos</h2>
+<hr />
+
+<p>
+La URL canónica de este sitio es <a
+href="https://www.torproject.org/">https://www.torproject.org/</a>, pero hay
+otros espejos de este sitio en otros lugares.
+</p>
+
+<p>
+Si usted quiere ejecutar una alternativa, por favor, <a href="<page
+running-a-mirror>">lea nuestras instrucciones para ejecutar una espejo</a>.
+</p>
+
+<table class="mirrors">
+<tr>
+  <th>País</th>
+  <th>Organización</th>
+  <th>Estado</th>
+  <th>ftp</th>
+  <th>http dist/</th>
+  <th>http website</th>
+  <th>https dist/</th>
+  <th>https website</th>
+  <th>rsync dist/</th>
+  <th>rsync website</th>
+</tr>
+
+#include <mirrors-table.wmi>
+
+</table>
+
+  </div>
+
+
+#include <foot.wmi>

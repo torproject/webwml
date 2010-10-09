@@ -1,0 +1,448 @@
+
+
+
+
+
+
+## translation metadata
+# Revision: $Revision: 22515 $
+# Translation-Priority: 4-optional
+#include "head.wmi" TITLE="NLnet Project: Speed Up Tor Hidden Services" CHARSET="UTF-8"
+<div class="main-column">
+
+
+
+<!-- PUT CONTENT AFTER THIS TAG -->
+<h2>Proyecto NLnet: acelerar los servicios ocultos de Tor</h2>
+<hr />
+
+<p>
+Servicios ocultos Tor permiten a los usuarios configurar los servicios de
+información anónima, como sitios web, que sólo se puede acceder a través de
+la red Tor, y están protegidos contra la identificación de la máquina que
+ejecuta los servicios. Las limitaciones más importantes de Tor Servicios
+ocultos son el tiempo que tarda hasta un servicio oculto está registrado en
+la red y la latencia de establecimiento de contacto cuando se accede por un
+usuario. Debido a problemas de diseño en el protocolo original de Tor, la
+conexión con un nuevo servicio oculto puede tardar varios minutos, lo que
+lleva la mayoría de los usuarios a abandonar antes de la conexión ha sido
+establecida. Usar Tor Servicios Ocultos para la comunicación interactiva
+directa de usuario a usuario (mensajería, por ejemplo) es casi imposible
+debido a la alta latencia de la instalación oculta del circuito de servicio.
+</p>
+
+<p>
+Este proyecto tiene por objeto acelerar Tor Servicios Ocultos por mejorar la
+forma en circuitos Tor se establecen entre el usuario y el Servicio de
+oculto, así como la forma en que un servicio oculto está registrado en la
+red Tor. En un primer paso diagnóstico preciso del comportamiento de los
+servicios ocultos en montajes de laboratorio y situaciones del mundo real se
+llevará a cabo para encontrar las causas de los efectos de un mal momento. A
+partir de estos diagnósticos, estrategias de optimización será diseñado y
+verificado por las consecuencias no deseadas para la seguridad y el
+anonimato de la red Tor. Las optimizaciones más prometedores a continuación,
+se llevará a cabo para lograr una notable mejora para los usuarios. métricas
+precisas éxito se desarrollará en la fase de diagnóstico, después se pone de
+manifiesto que el tiempo se pierde y qué mejoras son realistas. El objetivo
+final es que el protocolo de Servicios Ocultos producción cambia listo y
+propaga a los usuarios de Tor en un plazo de menos de 12 meses.
+</p>
+
+<p>
+Este proyecto es financiado generosamente por:
+</p>
+
+<p>
+<a href="http://www.nlnet.nl/news/2008/20080514-awards.html"> <img
+src="$(IMGROOT)/nlnet-160x60.png" alt="The NLnet foundation" /></a>
+</p>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<thead>
+<tr>
+<th><big>Proyecto</big></th>
+<th><big>Fecha de vencimientobig></th>
+</tr>
+</thead>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <b>Disponible A:</b> Análisis, mediciones y aclaración problema<br />
+<small><em>Como Tor Servicios ocultos no han sido aún más desarrollado
+activamente en el último año de desarrollo de Tor, determinados aspectos de
+los problemas que están sub-diagnosticada. Para identificar las fuentes
+exactas de la pérdida de latencia y el tiempo, un amplio análisis de las
+razones más profundas para ellos debe llevarse a cabo. Disponible A se
+requieren alrededor de un mes de trabajo. Los resultados del análisis
+influirá en las decisiones de diseño que deben adoptarse en Disponible
+B</em></small>
+  </td>
+  <td>
+    15 de junio 2008
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <b>Disponible B:</b>Diseño y evaluación de los cambios necesarios<br />
+<small><em>Los cambios a Tor Servicios Ocultos afecta al funcionamiento
+básico del protocolo y por lo tanto requieren una evaluación cuidadosa de
+las posibles repercusiones para la seguridad y el anonimato. Un plazo de dos
+meses está prevista para la fase de diseño y evaluación, que concluye con
+una extensa revisión por pares.</em></small>
+  </td>
+  <td>
+    15 de agosto 2008
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <b>Disponible C:</b> Aplicación<br /> <small><em>Después de diseño,
+evaluación y revisión por pares las modificaciones deben aplicarse e
+integrarse en la base de código actual Tor. La aplicación efectiva de los
+cambios necesarios tendrá una duración aproximada de dos meses.</em></small>
+  </td>
+  <td>
+    15 de octubre 2008
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <b>Disponible D:</b>Implementación y prueba del cambio para liberar el
+estado<br /> <small><em>La modificación es muy crítico para la seguridad y
+el anonimato de la red Tor, que requiere numerosas pruebas y depuración en
+el laboratorio y las condiciones de la vida real. Un plazo de tres meses se
+prevé para probar y depurar, donde el desarrollador responsable está
+comprometida con el esfuerzo de pruebas de 1 / 3 de su tiempo. Parte de la
+fase de prueba será un período de beta pública.</em></small> 
+  </td>
+  <td>
+    15 de enero 2009
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <b>Disponible E:</b>Lanzamiento<br /> <small><em>La puesta en marcha real de
+la red de servidores Tor se llevará a cabo de forma sincronizada con el
+calendario de lanzamientos regulares de Tor. Como este programa depende de
+una serie de factores externos, como la realización de otros proyectos de
+software que debe ir en la misma versión, el tiempo real de la liberación y
+el tiempo hasta que esta versión ha sido aceptada e instalado por la mayoría
+de los operadores de servidores Tor pueden variar. De la experiencia de un
+período de tres a cuatro meses se puede esperar.</em></small>
+  </td>
+  <td>
+    15 de mayo 2009
+  </td>
+</tr>
+</table>
+
+<br /> <a id="Reports"></a>
+<h2><a class="anchor" href="#Reports">Los informes mensuales de estado</a></h2>
+<p>
+Habrá un total de ocho informes mensuales de situación a partir de la
+primera entrega el 15 de junio de 2008 y que termina con la finalización de
+la ejecución y el trabajo de pruebas el 15 de enero de 2009.
+</p>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<thead>
+<tr>
+<th><big>Mes,</big></th>
+<th><big>Informe de situación</big></th>
+</tr>
+</thead>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <a id="Jun08"></a> <a class="anchor" href="#Jun08">Jun 08</a>
+  </td>
+  <td>
+    <small><em>El objetivo original de analizar los problemas que conducen a la
+desaceleración de Tor Ocultos Servicios se ha logrado. Parte de este
+análisis fue medir el retraso que experimenta un usuario al configurar o
+tener acceso a un servicio oculto. Además, los datos de medición a partir de
+abril de 2008 podría ser aprovechado para explorar los tiempos de subpasos
+internos de establecer una conexión con un servicio oculto. Los resultados
+de este análisis se incluyen en una de 22 páginas <a
+href="http://freehaven.net/~karsten/hidserv/perfanalysis-2008-06-15.pdf">informe</a>
+que se han hecho públicos en la <a
+href="http://archives.seul.org/or/dev/Jun-2008/msg00019.html">desarrollador
+lista de correo de Tor</a>.</em></small> <br/> <small><em>El análisis
+también reveló algunos errores que fueron responsables de parte de la demora
+en la toma de un servicio oculto disponibles para los clientes. Algunos
+errores han sido corregidos con posterioridad a los análisis, los demás se
+solucionará en breve. La evaluación también ha planteado varios enfoques
+posibles para mejorar el rendimiento de servicios ocultos de Tor. Algunas de
+estas ideas se pueden aplicar de inmediato, mientras que otros requieren un
+análisis más profundo y nuevas medidas. Por último, en el curso del
+análisis, descubrimos que algunas mejoras requieren más cambios en
+profundidad a Tor que no están directamente relacionados con los servicios
+ocultos. Estos cambios no pueden ser alcanzados en el marco de tiempo de
+este proyecto.</em></small>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <a id="Jul08"></a> <a class="anchor" href="#Jul08">Jul 08</a>
+  </td>
+  <td>
+    <small> <em> Todos los errores que se han encontrado en el análisis han sido
+corregidos. Esto incluye los dos errores que ya han sido fijados durante el
+análisis y 4 errores más que se fijaron en los últimos 30 días. Mientras que
+la corrección de errores no intencionales eliminar cuellos de botella de
+rendimiento debido a errores de programación, algunos de los cambios de
+diseño que han sido detectadas en el análisis anterior tiene efectos
+secundarios en el anonimato o la carga de la red global que es necesario
+evaluar los beneficios obtenidos por el desempeño individual.  Un <a
+href="http://freehaven.net/~karsten/hidserv/discussion-2008-07-15.pdf">informe</a>
+se ha publicado en el <a
+href="http://archives.seul.org/or/dev/Jul-2008/msg00034.html">desarrollador
+lista de correo</a>, entre ellas 7 posibles cambios de diseño que deben ser
+discutidos. Algunas evaluaciones (es decir, de bajo ancho de banda de
+medición y el Plan de Gran Escala) se han convertido en requerir más tiempo
+de lo esperado y tuvo que ser programada para un momento posterior en el
+proyecto que entrega B. El plan actual es llevar a cabo estas evaluaciones
+en el plazo hasta el 15 de enero y el trabajo con las hipótesis hasta que
+los resultados finales están disponibles. </em></small>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <a id="Aug08"></a> <a class="anchor" href="#Aug08">Ago 08</a>
+  </td>
+  <td>
+    <small><em>Durante los últimos 30 días los 7 diseños propuestos han sido aún
+evaluados y discutidos. Cuatro de ellos han demostrado ser aplicables en
+términos de los cambios necesarios en el código y las posibles implicaciones
+anonimato. Uno ha sido clasificado como error en lugar de cambiar el
+diseño. Dos tuvieron que ser excluidos, ya sea para los problemas de
+seguridad imprevistos, o la incertidumbre de las mejoras de rendimiento
+real.</em></small> <br/> <small> <em>Junto con los resultados del 15 de
+julio, la fase de diseño se ha celebrado . Las tareas para la próxima fase
+de ejecución son muy claros: Uno de los errores tiene que ser fijo y cuatro
+cambios en el diseño deben aplicarse. Además, las evaluaciones del diseño ha
+cambiado necesidad de llevar a cabo con el fin de comprobar su utilidad. Un
+<a
+href="http://freehaven.net/~karsten/hidserv/design-2008-08-15.pdf">informe</a>
+con los resultados de la fase de diseño se ha publicado en el <a
+href="http://archives.seul.org/or/dev/Aug-2008/msg00025.html">desarrollador
+lista de correo</a>.</em></small>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <a id="Sep08"></a> <a class="anchor" href="#Sep08">Sep 08</a>
+  </td>
+  <td>
+    <small> <em>Durante la primera mitad de la fase de ejecución de dos errores
+puede ser fijo que estaban relacionados con los servicios ocultos: la a
+href="https://trac.torproject.org/projects/tor/ticket/767">primera bug</a>
+ya ha sido identificado en la fase de diseño y fue responsable de una alta
+tasa de fallo inusual al hacer un servicio oculto disponibles en el sistema,
+la <a href="https://trac.torproject.org/projects/tor/ticket/814">secundo
+error</a> fue encontrado durante la fase de ejecución y fue responsable de
+la falta de conectarse a un servicio de trabajo oculto. Ambas correcciones
+se incluirán en la próxima versión inestable y probablemente se portado a
+una de las versiones estables siguiente.</em></small> <br/> <small><em>Los
+cuatro cambios de diseño que se propone como resultado de la fase de diseño
+se han aplicado en un <a
+href="https://tor-svn.freehaven.net/svn/tor/branches/hidserv-design-changes/">rama
+experimental</a>  del árbol de desarrollo inestable . Las primeras pruebas
+han demostrado que la función de estos cambios de trabajo y ofrecer un mejor
+(percibida) de rendimiento. Esto debe ser confirmado a lo largo de las
+próximas cuatro semanas en pruebas internas. El próximo objetivo es preparar
+un comunicado de esta rama experimental que puede ser entregado a los
+probadores beta a principios de la próxima fase de prueba.</em></small>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <a id="Oct08"></a> <a class="anchor" href="#Oct08">Oct 08</a>
+  </td>
+  <td>
+    <small><em>La fase de ejecución se ha celebrado. La corrección de errores
+que se encontraron en los últimos 30 días han sido puestos en libertad en
+desarrollador de la versión <a
+href="http://archives.seul.org/or/talk/Oct-2008/msg00093.html">0.2.1.6-alpha</a>.
+Los cuatro cambios de diseño que se identificaron en la fase de diseño se
+han especificado en la <a
+href="https://svn.torproject.org/svn/tor/trunk/doc/spec/proposals/155-four-hidden-service-improvements.txt">propuesta
+155</a>. Tres cambios en el diseño se han incluido en el código base del
+desarrollo y automáticamente se incluirán en la versión de desarrollo
+próximo. Los dos primeros cambios en el diseño de mejorar establecimiento de
+la conexión a un servicio oculto por la reducción de un tiempo de espera de
+60 a 30 segundos y al hacer un segundo intento en paralelo con un retraso de
+15 segundos. El cambio de diseño tercero afecta a la publicación de un
+servicio oculto en la red por la publicidad del servicio a las 5 en lugar de
+3 puntos de la red en paralelo y tener éxito tan pronto como 3 puntos se
+establecen. El cuarto cambio de diseño ha resultado ser bastante ineficaces,
+sino que agrega la complejidad del código considerable y fue despedido por
+lo tanto. Por ahora no hay corrección de errores más abierto o nuevos
+diseños. Todos los cambios están en el código base de desarrollo y se puede
+probar en la siguiente fase.</em></small>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <a id="Nov08"></a> <a class="anchor" href="#Nov08">Nov 08</a>
+  </td>
+  <td>
+    <small><em>Las mejoras de rendimiento que se implementaron en la última fase
+se han publicado en la versión de Tor 0.2.1.7-alpha. Los usuarios pueden
+descargar esta versión de desarrollo de la página web de Tor y probar las
+mejoras con el mínimo esfuerzo. Además, dos correcciones de errores (<a
+href="https://trac.torproject.org/projects/tor/ticket/767">1</a>, <a
+href="https://trac.torproject.org/projects/tor/ticket/814">2</a>) que se
+encontraron en el curso de este proyecto han sido portados a la rama estable
+y se incluirá en la próxima versión estable 0.2.0.32.</em></small> <br/>
+<small><em>El objetivo principal de los últimos 31 días fue para llevar a
+cabo nuevas mediciones para comprobar si las mejoras son efectivas o no. Las
+mediciones se llevaron a cabo durante dos días en el tiempo de 6 a 8
+noviembre. Por desgracia, la red Tor sufrido un grave problema en este
+momento: un certificado de autoridad de la guía de vencimiento producido
+enormes cantidades de tráfico en la red Tor que <a
+href="http://archives.seul.org/or/talk/Nov-2008/msg00053.html">obligó a
+muchos operadores a cerrar sus enlaces</a>. Una segunda medición se realizó
+entre el 13 y 15. Los datos brutos se encuentran disponibles <a
+href="http://freehaven.net/~karsten/hidserv/perfdata-2008-11-13.tar.gz">aquí</a>
+(40 MB). Pero los resultados muestran que el rendimiento de la red global es
+todavía peor que en junio de 2008, cuando las primeras medidas ocultas de
+servicios se han realizado. Esto se hace visible cuando se comparan las
+solicitudes de los directorios de Tor que no han sido afectados por las
+mejoras de rendimiento y que presentan un rendimiento significativamente
+peor que antes. Los efectos de las mejoras en el rendimiento son visibles,
+pero los valores absolutos no son comparables en este momento. Nueva
+medición se llevará a cabo en diciembre en la esperanza de que los efectos
+de este problema han mitigado. </em></small> <br/> <small><em>Además, podría
+haber un <a
+href="https://trac.torproject.org/projects/tor/ticket/847">error</a> en la
+forma en Tor descarga de información de la guía durante bootstrapping. A
+pesar de que esto no está relacionado con los servicios ocultos, una mejora
+podría beneficiar a la publicación de servicio oculto, también. Parte del
+trabajo durante la próxima 30 días serán para investigar este error.
+</em></small>
+  </td>
+</tr>
+
+<tr bgcolor="#e5e5e5">
+  <td>
+    <a id="Dec08"></a> <a class="anchor" href="#Dec08">Dec 08</a>
+  </td>
+  <td>
+    <small><em>Parte de los últimos 30 días se ha utilizado para corregir los
+errores que han influido en las mediciones anteriores ocultos servicio. La
+primera <a
+href="http://archives.seul.org/or/cvs/Nov-2008/msg00100.html">orrección de
+errores</a>c corrige un fallo de segmentación posible que era muy probable
+responsable de un número de corridas de medición no. Otro <a
+href="https://trac.torproject.org/projects/tor/ticket/847">error</a> se
+podría explicar que llevan un retraso considerable en bootstrapping: Muy
+lento autoridades de la guía de programa previo clientes ocupados por un
+largo tiempo antes de los clientes, finalmente se rindió y bootstrap con
+otra autoridad. Como resultado, más lenta de las dos autoridades de la guía
+han dedicado más ancho de banda a sus nodos, de modo que el efecto es
+mitigado. Un <a
+href="https://trac.torproject.org/projects/tor/ticket/874">error</a> tercero
+se ha introducido con las mejoras de rendimiento de servicios ocultos en
+noviembre, el efecto era que Tor procesos que se ejecutan los servicios
+ocultos que dejan de anunciar su servicio a cargar su configuración. Además,
+este error ha descubierto que Tor ha vuelto a establecer sus puntos de
+introducción a la recarga, lo que podría haber afectado a la estabilidad de
+servicio oculto. Este error se ha corregido y se incluirá en la próxima
+versión 0.2.1.9-alpha.</em></small> <br/> <small><em>Además de arreglar
+errores, nuevas mediciones se han realizado entre diciembre de 8 y 10. Estos
+es muy factible que las medidas finales para comparar el rendimiento de
+servicio oculto ahora con el inicio del proyecto. Los datos no han sido
+completamente evaluadas, por lo que es difícil hacer una declaración acerca
+de las mejoras en este punto. Sin embargo, una <a
+href="http://freehaven.net/~karsten/hidserv/prelimreport-2008-12-15.pdf">evaluación
+preliminar</a>  muestra que los tiempos de servicio de publicación han
+mejorado significativamente. Este es el resultado de los clientes Tor
+bootstrap más rápido y de las mejoras de rendimiento agregó en noviembre. En
+contraste con esto, los resultados para establecer una conexión con un
+servicio oculto son menos prometedoras. Si bien las mejoras agregó en
+noviembre parecen tener un efecto positivo en el rendimiento, algunos pasos
+secundarios muestran un rendimiento significativamente peor. Un ejemplo es
+ir a buscar los descriptores ocultos de servicios con el fin de contactar
+con un servicio oculto. Una posible explicación es que el aumento repentino
+en el número de nodos ocultos servicio de directorio en septiembre ha tenido
+un efecto negativo en el rendimiento. Parte de la labor en los últimos 31
+días será evaluar estos datos con más detalle y hacer una conclusión final
+sobre los logros de este proyecto. </em></small>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <a id="Jan09"></a> <a class="anchor" href="#Jan09">Jan 09</a>
+  </td>
+  <td>
+    <small><em>La fase de prueba ha finalizado. La prueba se realizó en una fase
+de beta pública con todos los cambios a los servicios que se oculta parte de
+la serie 0.2.1.x-alfa. El resultado de la fase de beta pública es un par de
+errores identificados que ya se podía fijar. </em></small> <br/> <small><em>
+Otra parte de la prueba fue un segundo conjunto de medidas que se realizó en
+diciembre. Un <a
+href="http://freehaven.net/~karsten/hidserv/comparison-2009-01-15.pdf">comparación</a>
+de las mediciones realizadas en junio y diciembre, ha revelado que los
+cambios de este proyecto son eficaces. Horario de atención publicación puede
+ser más de la mitad de 2:12 minutos a 58 segundos en la media. Esta mejora
+es mucho mejor de lo esperado. Con esta mejora puede ser que incluso
+merecería la pena pensar en reducir el tiempo de estabilización de 30
+segundos a un valor menor en el futuro. Sin embargo, el establecimiento de
+la conexión se mantiene en aproximadamente 56 segundos entre su interés en
+un servicio oculto de haber establecido una conexión con el servidor
+oculto. La principal razón de que faltan mejoras es el cambio de la
+centralizada a una descentralizada de almacenamiento para los descriptores
+de servicio oculto. Este efecto de deterioro de la distribución del servicio
+de directorio oculto no se esperaba antes. El trabajo futuro debe centrarse
+en la mejora de las descargas desde el directorio de servicio distribuido
+ocultos, por ejemplo, paralelización de las solicitudes.</em></small> <br/>
+<small><em>Este informe concluye la serie de actualizaciones de estado
+mensual. El lanzamiento de la serie 0.2.1.x incluyendo las mejoras de
+rendimiento oculto de servicios va a tener lugar en las próximas semanas o
+meses.</em></small>
+  </td>
+</tr>
+</table>
+
+<!-- Do we want a people section? If so, would it make sense to write what
+these people will be doing? And what exactly are these people going to
+do? :)
+<a id="People">
+</a>
+<h2><a class="anchor" href="#People">People</a></h2>
+<ul>
+<li><a href="<page people>#Core">Karsten Loesing</a></li>
+<li><a href="<page people>#Core">Steven Murdoch</a></li>
+</ul>
+-->
+<br /> <a id="Links"></a>
+<h2><a class="anchor" href="#Links">Enlaces</a></h2>
+<ul>
+<li>Trabajo de investigación sobre <b>la Evaluación del Rendimiento y
+Estadísticas de la Tor Servicios Ocultos</b> (<a
+href="http://www.uni-bamberg.de/fileadmin/uni/fakultaeten/wiai_lehrstuehle/praktische_informatik/Dateien/Publikationen/loesing2008performance.pdf">PDF</a>)Tor
+por Karsten Loesing, Werner Sandmann, Wilms cristiana, y Wirtz Guido. En las
+Actas del Simposio Internacional 2008 sobre aplicaciones e Internet (SAN),
+Turku, Finlandia, julio de 2008.</li>
+
+
+
+<!-- In the future, put links to proposal, preliminary results, etc. here -->
+</ul>
+
+</div>
+
+
+
+#include <foot.wmi>

@@ -31,16 +31,13 @@ Tor-IM-Browser-Paket)</li>
 
 <h3 id="build">Das Paket kompilieren</h3>
 
-<p>Um das Paket zu kompilieren, müssen Sie zunächst den <a
-href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz">Quelltext</a>
-(<a
-href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz.asc">Signatur</a>)
-herunterladen. In der Datei <a
-href="https://tor-svn.freehaven.net/svn/torbrowser/trunk/README">README (auf
-englisch)</a> finden Sie Informationen über die Verzeichnisstruktur und die
-Liste der Änderungen. Eine Anleitung zum Kompilieren finden Sie im
-Verzeichnis <a
-href="https://tor-svn.freehaven.net/svn/torbrowser/trunk/build-scripts/INSTALL">build-scripts/INSTALL</a>.</p>
+<p>To re-build the bundle, download the <a
+href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz">source
+distribution</a> (<a
+href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz.asc">signature</a>).
+See <a href="<torbrowserrepo>/README">README</a> for the directory layout
+and changelog. Build instructions can be found in <a
+href="<torbrowserrepo>/build-scripts/INSTALL">build-scripts/INSTALL</a>.</p>
 
 </div>
 

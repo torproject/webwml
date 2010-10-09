@@ -16,4 +16,3 @@ ssh vescum chmod g+w -R /srv/www-master.torproject.org/htdocs
 
 echo "Forcing mirror update"
 ssh vescum '/home/mirroradm/bin/trigger-mirrors'
-

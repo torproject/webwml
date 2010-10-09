@@ -69,13 +69,13 @@ Torem. Powinieneś/aś teraz usunąć Privoxy (np. apt-get remove privoxy lub
 yum remove privoxy), by nie było konfliktów.
 </p>
 
-<p>Po instalacji Polipo (z paczki lub źródeł)  <b>musisz skonfigurować Polipo,
-by używało Tora</b>. Pobierz naszą <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/polipo.conf">konfigurację
-Polipo dla Tora</a> i umieść go zamiast swojego bieżącego pliku
-konfiguracyjnego Polipo (np. /etc/polipo/config lub ~/.polipo). Musisz
-ponownie uruchomić Polipo, by zmiany odniosły skutek. Na przykład:<br />
-<tt>/etc/init.d/polipo restart</tt>
+<p>Once you've installed Polipo (either from package or from source), <b>you
+will need to configure Polipo to use Tor</b>. Grab our <a
+href="<torbrowserrepo>/build-scripts/config/polipo.conf">Polipo
+configuration for Tor</a> and put it in place of your current polipo config
+file (e.g. /etc/polipo/config or ~/.polipo).  You'll need to restart Polipo
+for the changes to take effect. For example:<br /> <tt>/etc/init.d/polipo
+restart</tt>
 </p>
 
 <p>Jeśli wolisz, możesz używać Privoxy z <a

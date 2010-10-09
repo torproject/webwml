@@ -5,7 +5,7 @@
 
 
 ## translation metadata
-# Revision: $Revision: 21798 $
+# Revision: $Revision: 23458 $
 # Translation-Priority: 3-low
 #include "head.wmi" TITLE="Tor: Linux/BSD/Unix Install Instructions" CHARSET="UTF-8"
 <div class="center">
@@ -24,7 +24,7 @@ relay</a> ညႊန္ၾကားခ်က္အား ဖတ္ရူပါ</b
 </p>
 
 <hr /> <a id="installing"></a>
-<h2><a class="anchor" href="#installing">အဆင္႔တစ္: Tor အားေဒါင္းလုပ္ခ်၍ Install
+<h2><a class="anchor" href="#installing\>အဆင္႔တစ္: Tor အားေဒါင္းလုပ္ခ်၍ Install
 ျပဳလုပ္ပါ</a></h2>
 <br />
 
@@ -77,16 +77,13 @@ Polipo 1.0.4 ကိုရယူဖို႔ေတာ့ပါသည္ ထို
 privoxy), ထိုအခါမွသာ သူတို႔ conflict မျဖစ္က်မွာျဖစ္ပါသည္။
 </p>
 
-<p>Polipo ကို သင္သြင္းေနခ်ိန္အတြင္း ( Package မွာ တဆင့္ သို႔မပာုတ္ Socrce
-တဆင့္) သြင္းယူေနခ်ိန္တြင္ <b>Tor အသံုးျပဳရန္အတြက္ Polipo ကို
-ေျပာင္းလြဲမႈမ်ားျပဳလုပ္ရပါမည္။</b><a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/config/polipo.conf">Polipo
-configuration for Tor</a> မွတဆင့္ ကြ်နု္ပ္တို႕ လမ္းညႊန္ခ်က္မ်ား နဲ႔အတူ
-သင္လက္ရွိအသံုးျပဳေနေသာ Polipo Config file (e.g. /etc/polipo/config or
-~/.polipo) မွာ ပါ၀င္ေသာ ျပဳျပင္ေျပာင္းလြဲျခင္းမ်ားကို လဲ ဖတ္ရူနိုင္ပါသည္။
-Polipo ျပဳျပင္ေျပာင္းလြဲျခင္းလုပ္ေဆာင္ျပီးလွ်င္လဲ သင့္အေနျဖင့္ Polipo
-ေျပာင္းလြဲမႈ သက္ေရာက္ေအာင္ Polipo အား Restart ခ်ဖို႔ လုိအပ္ပါမည္။ <br />
-ဥပမာအားျဖင့္ <tt>/etc/init.d/polipo restart</tt>
+<p>Once you've installed Polipo (either from package or from source), <b>you
+will need to configure Polipo to use Tor</b>. Grab our <a
+href="<torbrowserrepo>/build-scripts/config/polipo.conf">Polipo
+configuration for Tor</a> and put it in place of your current polipo config
+file (e.g. /etc/polipo/config or ~/.polipo).  You'll need to restart Polipo
+for the changes to take effect. For example:<br /> <tt>/etc/init.d/polipo
+restart</tt>
 </p>
 
 <p><a

@@ -30,13 +30,13 @@
 
 <h3 id="build">构建套件</h3>
 
-<p>要重新构建套件，下载 <a
-href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz">源代码</a> (<a
-href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz.asc">数字签名</a>)。见
-<a href="https://svn.torproject.org/svn/torbrowser/trunk/README">README</a>
-为目录布局和更新日志。构建指令可以在 <a
-href="https://svn.torproject.org/svn/torbrowser/trunk/build-scripts/INSTALL">build-scripts/INSTALL</a>
-找到、</p>
+<p>To re-build the bundle, download the <a
+href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz">source
+distribution</a> (<a
+href="dist/tor-browser-<version-torbrowserbundle>-src.tar.gz.asc">signature</a>).
+See <a href="<torbrowserrepo>/README">README</a> for the directory layout
+and changelog. Build instructions can be found in <a
+href="<torbrowserrepo>/build-scripts/INSTALL">build-scripts/INSTALL</a>.</p>
 
 </div>
 
