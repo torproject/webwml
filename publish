@@ -2,7 +2,7 @@
 set -e # stop if we encounter an error
 
 svn update
-make
+make -j3
 
 # Update a timestamp so we can check whether each mirror is
 # up to date.
@@ -11,14 +11,9 @@ date -u > project/trace/www.torproject.org
 
 # don't copy over stuff with permissions that make it useless
 chmod a+r * -R
-
-## I'm not comfortable having arbitrary people use --delete yet,
-## since if they screw up it'll blow away arbitrary things.
-#rsync -Prvz --delete . tor.eff.org:directory/
-
-rsync --exclude .svn --exclude .deps --exclude svn --exclude dist --exclude releases --exclude torbutton-current.xpi -Prvz --delete . byblos:/var/www/www.torproject.org/htdocs/
-ssh byblos chmod g+w -R /var/www/www.torproject.org/htdocs
+rsync --exclude .svn --exclude .deps --exclude svn --exclude dist --exclude releases --exclude torbutton-current.xpi -Prvz --delete . vescum:/srv/www-master.torproject.org/htdocs
+ssh vescum chmod g+w -R /srv/www-master.torproject.org/htdocs
 
 echo "Forcing mirror update"
-ssh byblos '/var/lib/mirror-tor/trigger-sync'
+ssh vescum '/home/mirroradm/bin/trigger-mirrors'
 
