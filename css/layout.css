@@ -396,7 +396,7 @@ td { padding: 12px; }
 
 table td img,
 table tr img {
-	border: 1px solid #cac8a7;
+	border: none;
 	float: left;
 	margin-right: 10px;
 }
