@@ -1382,7 +1382,7 @@ improve the security and reliability of the hidden service system.
 
     <p>
 This is a big project: see
-<a href="https://gitweb.torproject.org/torspec.git/blob_plain/refs/heads/master:/proposals/224-rend-spec-ng.txt">proposal
+<a href="https://gitweb.torproject.org/torspec.git/tree/proposals/224-rend-spec-ng.txt">proposal
 224</a> for the latest design.  Are you interested in implementing some
 part of that?
     </p>
@@ -1391,7 +1391,7 @@ part of that?
 This is a very ambitious project, so we're deliberately not suggesting
 particular sub-topics.  If you're interested in participating, try to
 read and understand the <a
-href="https://gitweb.torproject.org/torspec.git/blob_plain/refs/heads/master:/rend-spec.txt">existing
+href="https://gitweb.torproject.org/torspec.git/tree/rend-spec.txt">existing
 design</a> and the design proposal for the new design, and then talk to
 us about what part you want to work on.
     </p>
@@ -1419,7 +1419,7 @@ addresses, and to fetch PTR records.  But DNS can do so much more!
 
     <p>
 <a
-href="https://gitweb.torproject.org/torspec.git/blob_plain/refs/heads/master:/proposals/219-expanded-dns.txt">Proposal
+href="https://gitweb.torproject.org/torspec.git/tree/proposals/219-expanded-dns.txt">Proposal
 219</a> describes some new cell types that Tor could use to support
 more types of DNS over Tor.
     </p>
