@@ -48,7 +48,7 @@
 	  'txt' =>  'Executive Director',
 	  },
           {'url'  => 'about/jobs-execadmin',
-           'txt'  => 'Exec administrator',
+           'txt'  => 'Executive Administrator',
           }]
       },
 
