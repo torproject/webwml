@@ -229,6 +229,14 @@ meetings around the world.</li>
       </tr>
 
       <tr>
+        <td><a href="#project-chutney">Chutney</a></td>
+        <td>Simulator</td>
+        <td>Python</td>
+        <td>Light</td>
+        <td>nickm</td>
+      </tr>
+
+      <tr>
         <td><a href="#project-stem">Stem</a></td>
         <td>Library</td>
         <td>Python</td>
@@ -547,6 +555,16 @@ meetings around the world.</li>
     <p>
     Pluggable transport using proxies running in web browsers to defeat
     address-based blocking.
+    </p>
+
+    <a id="project-chutney"></a>
+    <h3>Chutney (<a href="https://gitweb.torproject.org/chutney.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Chutney">bug
+    tracker</a>)</h3>
+
+    <p>
+    Integration test suite that spawns a local tor network, checking the
+    interactions of its components.
     </p>
 
     <a id="project-shadow"></a>
