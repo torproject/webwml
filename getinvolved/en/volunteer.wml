@@ -698,10 +698,9 @@ meetings around the world.</li>
     href="https://github.com/NullHypothesis/exitmap/issues">bug tracker</a>)</h3>
 
     <p>
-    <a href="http://n0where.net/tor-exit-relay-scanner-exitmap/">Scanner for
-    the Tor network</a> by Philipp Winter to detect malicious and misconfigured
-    exits. For more information about how it works see his <a
-    href="http://www.cs.kau.se/philwint/spoiled_onions/techreport.pdf">Spoiled
+    Scanner for the Tor network by Philipp Winter to detect malicious and
+    misconfigured exits. For more information about how it works see his <a
+    href="http://www.cs.kau.se/philwint/spoiled_onions/pets2014.pdf">Spoiled
     Onions</a> research paper.
     </p>
 
