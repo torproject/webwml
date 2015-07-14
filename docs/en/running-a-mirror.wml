@@ -131,7 +131,7 @@ text/html                             en html htm shtml;
     <p>
     In order to add your mirror, please send a
     single, comma delimited line of text based on <a
-    href="https://svn.torproject.org/svn/website/trunk/include/tor-mirrors.csv">this
+    href="https://gitweb.torproject.org/project/web/webwml.git/plain/include/tor-mirrors.csv">this
     file</a> to the mirrors list. Your mirror will then be added manually
     if it passes availability testing and your provided information is
     confirmed. Some general pointers on mirrors are:
