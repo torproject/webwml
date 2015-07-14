@@ -293,6 +293,14 @@ meetings around the world.</li>
       </tr>
 
       <tr>
+        <td><a href="#project-exitmap">ExitMap</a></td>
+        <td>Backend Service</td>
+        <td>Python</td>
+        <td>Moderate</td>
+        <td>phw</td>
+      </tr>
+
+      <tr>
         <td><a href="#project-doctor">DocTor</a></td>
         <td>Backend Service</td>
         <td>Python</td>
@@ -664,6 +672,19 @@ meetings around the world.</li>
     <p>
     Onionoo is a JSON based protocol to learn information about currently
     running Tor relays and bridges.
+    </p>
+
+    <a id="project-exitmap"></a>
+    <h3><a href="http://www.cs.kau.se/philwint/spoiled_onions/">ExitMap</a> (<a
+    href="https://github.com/NullHypothesis/exitmap">code</a>, <a
+    href="https://github.com/NullHypothesis/exitmap/issues">bug tracker</a>)</h3>
+
+    <p>
+    <a href="http://n0where.net/tor-exit-relay-scanner-exitmap/">Scanner for
+    the Tor network</a> by Philipp Winter to detect malicious and misconfigured
+    exits. For more information about how it works see his <a
+    href="http://www.cs.kau.se/philwint/spoiled_onions/techreport.pdf">Spoiled
+    Onions</a> research paper.
     </p>
 
     <a id="project-doctor"></a>
