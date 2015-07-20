@@ -16,7 +16,8 @@
 
 <h2>Video About Tor</h2>
 <p>
-	A two-minute video explaining what Tor is and how it works. 
+	Click on the image below for
+	a two-minute video explaining what Tor is and how it works.
 	This video is available for <a href="https://media.torproject
 	.org/video/2015-03-animation/">download</a> and streaming 
 	both on Tor Project <a href="https://blog.torproject.org/blog/
@@ -26,22 +27,18 @@
 </p>
 <div style="text-align:center;">
 
-<video width="500" height="281" controls preload="none" poster="https://people.torproject.org/~nima/03-2015-Tor-Animation/Screen-Shot.jpg">
-	<source src="https://media.torproject.org/video/2015-03-animation/HQ/Tor_Animation_en.webm" type="video/webm">
-	<track label="English" kind="captions" src="https://people.torproject.org/~nima/03-2015-Tor-Animation/subs/vtt/en.vtt" srclang="en" default>
-</video>
+<a href="<page press/video>">
+	<img width="500" height="282" src="$(IMGROOT)/tor-animation.jpg" alt="The Tor Animation">
+</a>
 </div>
 
 <h2>Media Appearances</h2>
 <p>Major news organizations including the New York Times, Forbes, Al
 Jazeera, Washington Post, Le Monde, NPR, BBC, and more have sought out
-or quoted Tor Project members due to their expertise on anonymity,
-privacy, and Internet censorship issues.</p>
-<p>Since Tor is widely used throughout the world, it is mentioned
-regularly in the press.  This list is not comprehensive, but illustrates
+or quoted Tor Project members due to our expertise in anonymity,
+privacy, and Internet censorship issues. A sample of such media
+appearances is below. This list is not comprehensive, but illustrates
 some of the significant Tor-related stories that have popped up.</p>
-<p>A sample of such media appearances and mentions is below in order of
-newest to oldest: </p>
 
 <table width="100%" cellpadding="3" cellspacing="0">
 

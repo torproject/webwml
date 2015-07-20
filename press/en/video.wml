@@ -1,0 +1,44 @@
+## translation metadata
+# Revision: $Revisions$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Tor Animation"
+<div id="content" class="clearfix">
+  <div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page press/press>">Press</a>
+  </div>
+<div id="maincol">
+    <!-- PUT CONTENT AFTER THIS TAG -->
+<h1>Tor Tor Animation</h1>
+
+<br>
+
+<p>
+	A two-minute video explaining what Tor is and how it works.?
+	This video is available for <a href="https://media.torproject
+	.org/video/2015-03-animation/">download</a> and streaming?
+	both on Tor Project <a href="https://blog.torproject.org/blog/
+	releasing-tor-animation">website</a> and via <a href="https://www
+	.youtube.com/playlist?list=PLwyU2dZ3LJErtu3GGElIa7VyORE2B6H1H">
+	YouTube</a> in many different languages.
+</p>
+<div style="text-align:center;">
+
+<video width="500" height="281" controls preload="none" poster="images/tor-animation.jpg">
+	<source src="https://media.torproject.org/video/2015-03-animation/HQ/Tor_Animation_en.webm" type="video/webm">
+	<track label="English" kind="captions" src="https://people.torproject.org/~nima/03-2015-Tor-Animation/subs/vtt/en.vtt" srclang="en" default>
+</video>
+</div>
+
+</div>
+<!-- END MAINCOL -->
+<div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
+
