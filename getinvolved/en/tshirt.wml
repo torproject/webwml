@@ -43,24 +43,34 @@
 
     <p>
     If you get such a mail, or you've done something else cool,
-    email us at tshirt@torproject.org with the details. There's no need
-    to include a mailing address yet, you'll receive a link where you
-    can enter your shipping information.
+    email us at tshirt@torproject.org with the details.
     </p>
 
     <p>
-    You can choose between the traditional black and our conversation-starting
-    bright green. You can also see the shirts
-    <a href="<wiki>doc/TorShirt">in
-    action</a> &mdash; add your own photos there too.
+    The nice people at torservers.net
+    are handling the tshirt requests. They have <a
+    href="https://www.torservers.net/wiki/ttshirt/index">a variety of
+    colors, shapes, and sizes</a>, using the great new "roots" design
+    that Leiah Jansen made for us.
     </p>
 
     <div style="text-align: center">
-    <a href="$(IMGROOT)/black-tor-tshirt.png"><img
-    src="$(IMGROOT)/black-tor-tshirt.png"></a>
-    <a href="$(IMGROOT)/green-tor-tshirt.png"><img
-    src="$(IMGROOT)/green-tor-tshirt.png"></a>
+    <a href="$(IMGROOT)/torshirtsob.jpg"><img
+    src="$(IMGROOT)/torshirtsob.jpg"></a>
     </div>
+
+    <p>
+    In the past, you could choose between the traditional <a
+    href="$(IMGROOT)/black-tor-tshirt.png">black</a> and our <a
+    href="$(IMGROOT)/green-tor-tshirt.png">conversation-starting bright
+    green</a>. We'll bring those shirts back one day too.
+    </p>
+
+    <p>
+    You can see the shirts <a href="<wiki>doc/TorShirt">in
+    action</a> &mdash; add your own photos there too.
+    </p>
+
   </div>
   <!-- END MAINCOL -->
   <div id = "sidecol">
@@ -71,3 +81,4 @@
 </div>
 <!-- END CONTENT -->
 #include <foot.wmi>
+
