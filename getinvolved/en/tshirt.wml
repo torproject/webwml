@@ -37,13 +37,14 @@
     The <a href="https://weather.torproject.org/">Tor Weather</a>
     system watches all of the relays. If you have a valid email address
     (lightly obfuscated is acceptable) in your ContactInfo field,
-    we'll automatically email you when your relay earns you a free
-    t-shirt.
+    we'll automatically email you when your relay earns you a t-shirt.
     </p>
 
     <p>
-    If you get such a mail, or you've done something else cool,
-    email us at tshirt@torproject.org with the details.
+    If you get such a mail, or you've done something else cool, email
+    us at tshirt@torproject.org with the details. (We want to make sure
+    our shirts help outreach happen all around the world, so please
+    understand if we can't send you 5 shirts for your 5 excellent relays.)
     </p>
 
     <p>
