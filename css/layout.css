@@ -278,7 +278,7 @@ body {
 	margin-left: 20px;
 }
 
-	#torusers, #helpus { margin: 0 0 27px; }
+	#torusers { margin: 0 0 27px; }
 		.user {
 			margin: 0 0 12px;
 			height: auto;
