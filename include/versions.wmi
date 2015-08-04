@@ -22,7 +22,7 @@
 <define-tag version-torbrowserbundlebetadir whitespace=delete>5.0a4</define-tag>
 
 <define-tag version-torbrowserbundle whitespace=delete>4.5.3</define-tag>
-<define-tag version-torbrowserbundlebeta whitespace=delete>5.0a4/define-tag>
+<define-tag version-torbrowserbundlebeta whitespace=delete>5.0a4</define-tag>
 <define-tag version-torbrowser-tor whitespace=delete>0.2.4.19</define-tag>
 <define-tag version-torbrowser-tor-components whitespace=delete>libevent-2.0.21-stable, zlib-1.2.8, openssl-1.0.1e</define-tag>
 <define-tag version-torbrowser-firefox whitespace=delete>24.2.0esr</define-tag>
