@@ -40,6 +40,8 @@ enabled=1
 baseurl=https://deb.torproject.org/torproject.org/rpm/DISTRIBUTION/$basearch/
 gpgcheck=1
 gpgkey=https://deb.torproject.org/torproject.org/rpm/RPM-GPG-KEY-torproject.org.asc
+       https://deb.torproject.org/torproject.org/rpm/RPM-GPG-KEY-torproject.org.2012.asc
+repo_gpgcheck=1
 
 [tor-source]
 name=Tor source repo
@@ -48,12 +50,15 @@ autorefresh=0
 baseurl=https://deb.torproject.org/torproject.org/rpm/DISTRIBUTION/SRPMS
 gpgcheck=1
 gpgkey=https://deb.torproject.org/torproject.org/rpm/RPM-GPG-KEY-torproject.org.asc
+       https://deb.torproject.org/torproject.org/rpm/RPM-GPG-KEY-torproject.org.2012.asc
+repo_gpgcheck=1
 </pre>
     <p>
-    The keys's fingerprint should be (for RPM-GPG-KEY-torproject.org.asc above,
-    yum will ask about the fingerprint):
+    The keys' fingerprint should be (for RPM-GPG-KEY-torproject.org*asc above,
+    yum will ask about the fingerprint, first one is the newer one):
     </p>
-<pre>3B9E EEB9 7B1E 827B CF0A  0D96 8AF5 653C 5AC0 01F1</pre>
+<pre>E273 44C4 BD24 BEDF E4F4  C741 803F EFB7 F4B8 5E0F
+3B9E EEB9 7B1E 827B CF0A  0D96 8AF5 653C 5AC0 01F1</pre>
 
     <h3>Name clash warning</h3>
 
