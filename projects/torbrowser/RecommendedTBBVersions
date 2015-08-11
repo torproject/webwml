@@ -3,8 +3,16 @@
 "4.5.3-Linux",
 "4.5.3-MacOS",
 "4.5.3-Windows",
+"5.0",
+"5.0-Linux",
+"5.0-MacOS",
+"5.0-Windows",
 "5.0a4",
 "5.0a4-Linux",
 "5.0a4-MacOS",
-"5.0a4-Windows"
+"5.0a4-Windows",
+"5.5a1",
+"5.5a1-Linux",
+"5.5a1-MacOS",
+"5.5a1-Windows"
 ]
