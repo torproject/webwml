@@ -163,6 +163,8 @@
     sub   4096R/AC3A821D 2013-07-30 [expires: 2014-07-30]
     sub   4096R/A97A53DC 2014-07-08 [expires: 2015-07-08]
     sub   4096R/E5AE3C98 2014-07-08 [expires: 2015-07-08]
+    sub   4096R/24690903 2015-07-20 [expires: 2016-07-19]
+    sub   4096R/631602F4 2015-07-20 [expires: 2016-07-19]
 
     pub   4096R/D0220E4B 2014-03-19
           Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
@@ -187,12 +189,11 @@ uid                      Nicolas Vigier (TBB Builds Signing Key) &lt;boklm@torpr
      sub   3072R/611B45DE2517F1BA 2014-06-27 [expires: 2015-06-27]
      sub   3072R/035D7A9A67D22BC0 2014-06-27 [expires: 2015-06-27]
 
-     pub   4096R/0x4E2C6E8793298290 2014-12-15
+     pub   4096R/0x4E2C6E8793298290 2014-12-15 [expires: 2020-08-24]
            Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
      uid   Tor Browser Developers (signing key) &lt;torbrowser@torproject.org&gt;
-     sub   4096R/0x2E1AC68ED40814E0 2014-12-15
-     sub   4096R/0x7017ADCEF65C2036 2014-12-15
-     sub   4096R/0x2D000988589839A3 2014-12-15
+     sub   4096R/0x2E1AC68ED40814E0 2014-12-15 [expires: 2017-08-25]
+     sub   4096R/0x7017ADCEF65C2036 2014-12-15 [expires: 2017-08-25]
 
      pub   2048R/0x42E86A2A11F48D36 2011-05-11 [expires: 2016-05-09]
      uid                            David Goulet &lt;dgoulet@ev0ke.net&gt;
