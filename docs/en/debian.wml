@@ -20,8 +20,7 @@ var software = {
                      'saucy':   [ 'saucy'],
                      'trusty':  [ 'trusty'],
                      'utopic':  [ 'utopic'] },
-         'experimental-0.2.6.x':    { 'squeeze': [ 'squeeze' ],
-                     'wheezy':  [ 'wheezy' ],
+         'experimental-0.2.7.x':    { 'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'sid':     [ 'sid' ],
                      'lucid':   [ 'lucid'],
@@ -39,8 +38,7 @@ var software = {
                      'saucy':   [ 'saucy'],
                      'trusty':  [ 'trusty'],
                      'utopic':  [ 'utopic'] },
-         'experimental-0.2.6.x':    { 'squeeze': [ 'squeeze' ],
-                     'wheezy':  [ 'wheezy' ],
+         'experimental-0.2.7.x':    { 'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'sid':     [ 'sid' ],
                      'lucid':   [ 'lucid'],
@@ -228,7 +226,7 @@ For Ubuntu, ask <a href="https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#T
 <blockquote>
 I run
 <select id="distrib" onchange="update()">
-<option value="squeeze">Debian oldstable (Squeeze)</option>
+<option value="squeeze">Debian oldoldstable (Squeeze)</option>
 <option value="wheezy">Debian oldstable (Wheezy)</option>
 <option value="jessie" selected="selected">Debian (Jessie)</option>
 <option value="sid">Debian unstable (sid)</option>
