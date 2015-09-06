@@ -62,9 +62,6 @@
       Tor the non-profit corporation: trademark questions, affiliation
       and coordination, major gifts, contract inquiries, licensing and
       certification, etc.</li>
-      <li><i>bad-relays@lists.torproject.org</i> is for reporting exit relays
-      observed to be misconfigured or malicious. (This is not the same as bad
-      users!)</li>
     </ul>
 
     <a id="irc"></a>
