@@ -1,6 +1,23 @@
      
 <tr>
 
+         <td>UA</td>
+
+         <td>IP-Connect LLC</td>
+
+         <td>Up to date</td>
+
+    <td><a href="ftp://torproject.ip-connect.vn.ua/mirror/torproject/">ftp</a></td>
+    <td><a href="http://torproject.ip-connect.vn.ua/dist">http</a></td>
+    <td><a href="http://torproject.ip-connect.vn.ua">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td><a href="rsync://torproject.ip-connect.vn.ua/torproject/dist">rsync</a></td>
+    <td><a href="rsync://torproject.ip-connect.vn.ua/torproject">rsync</a></td>
+</tr>
+     
+<tr>
+
          <td>DE</td>
 
          <td>TB-ITF</td>
@@ -97,6 +114,23 @@
     <td><a href="http://199.175.55.215/">http</a></td>
     <td><a href="https://199.175.55.215/dist/">https</a></td>
     <td><a href="https://199.175.55.215/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>EE</td>
+
+         <td>CyberSIDE</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://cyberside.net.ee/tor/">http</a></td>
+    <td><a href="http://cyberside.planet.ee/tor/">http</a></td>
+    <td> - </td>
+    <td> - </td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -409,23 +443,6 @@
      
 <tr>
 
-         <td>DE</td>
-
-         <td>Tor Supporter</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.euve33747.vserver.de/dist">http</a></td>
-    <td><a href="http://tor.euve33747.vserver.de/">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
          <td>NL</td>
 
          <td>sky-ip.org</td>
@@ -439,6 +456,23 @@
     <td> - </td>
     <td> - </td>
     <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
+         <td>ITsn</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.pajonzeck.de/dist/">http</a></td>
+    <td><a href="http://tor.pajonzeck.de/">http</a></td>
+    <td><a href="https://tor.pajonzeck.de/dist/">https</a></td>
+    <td><a href="https://tor.pajonzeck.de/">https</a></td>
+    <td><a href="rsync://tor.pajonzeck.de/tor/dist">rsync</a></td>
+    <td><a href="rsync://tor.pajonzeck.de/tor">rsync</a></td>
 </tr>
      
 <tr>
@@ -615,23 +649,6 @@
 
          <td>US</td>
 
-         <td>SamWhited.com</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://mirrors.samwhited.net/tor/dist">http</a></td>
-    <td><a href="http://mirrors.samwhited.net/tor">http</a></td>
-    <td><a href="https://mirrors.samwhited.net/tor/dist">https</a></td>
-    <td><a href="https://mirrors.samwhited.net/tor">https</a></td>
-    <td><a href="rsync://mirrors.samwhited.net/tor-dist">rsync</a></td>
-    <td><a href="rsync://mirrors.samwhited.net/tor">rsync</a></td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
          <td>Department of CS at USU</td>
 
          <td>Up to date</td>
@@ -749,6 +766,23 @@
      
 <tr>
 
+         <td>TW</td>
+
+         <td>Department of CSE. Yuan Ze University</td>
+
+         <td>Up to date</td>
+
+    <td><a href="ftp://ftp.yzu.edu.tw/torproject.org/">ftp</a></td>
+    <td><a href="http://ftp.yzu.edu.tw/torproject.org/dist/">http</a></td>
+    <td><a href="http://ftp.yzu.edu.tw/torproject.org/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/dist/">rsync</a></td>
+    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/">rsync</a></td>
+</tr>
+     
+<tr>
+
          <td>XX</td>
 
          <td>TvdW</td>
@@ -828,23 +862,6 @@
     <td><a href="http://sela.io/mirrors/torproject.org/">http</a></td>
     <td><a href="https://sela.io/mirrors/torproject.org/dist/">https</a></td>
     <td><a href="https://sela.io/mirrors/torproject.org/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>NL</td>
-
-         <td>Justaguy</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://services.justaguy.pw/dist">http</a></td>
-    <td><a href="http://services.justaguy.pw/">http</a></td>
-    <td><a href="https://services.justaguy.pw/dist">https</a></td>
-    <td><a href="https://services.justaguy.pw/">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
