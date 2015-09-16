@@ -6,7 +6,7 @@
 #use "versions.wmi"
 #use "sidenav.wmi"
 <div class="img-shadow">
-  <div id="sidenav">
+<!--  <div id="sidenav">
     <h2>Help another way:</h2>
     <:
       # recursively search menu structure to see if it contains a given page
@@ -86,7 +86,7 @@
       my $page = $WML_SRC_BASENAME; 
       printNavMenu($sidenav, $path.'/'.$page, $lang);
     :>
-  </div>
+  </div> -->
   <!-- END SIDENAV -->
 </div>
 <!-- END IMG-SHADOW -->

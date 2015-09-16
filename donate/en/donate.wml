@@ -18,19 +18,6 @@
    charitable donations. Our tax ID number is 20-8096820. We are listed on
   <a href="http://www2.guidestar.org/organizations/20-8096820/tor-project.aspx">GuideStar</a>.</p>
 
-   <p>We're happy to have you shop and indirectly support us via 
-<a href="http://smile.amazon.com/ch/20-8096820">Amazon Smile</a>. A
-portion of your purchase is donated to help keep us working.</p>
-
-   We're happy to accept direct donations via:</p>
-  <ul class="hlist">
-    <li><a href="#paypal">Paypal</a></li>
-    <li><a href="#amazon">Amazon Payments</a></li>
-    <li><a href="#dwolla">Dwolla</a></li>
-    <li><a href="#bitcoin">Bitcoins</a></li>
-    <li class="last"><a href="#cash">checks, money orders, or bank transfers</a></li>
-  </ul>
-    <p>Contact us at donations@torproject.org for more donation details.</p>
 <!-- BEGIN PAYPAL -->
 <script type="text/javascript" src="$(DOCROOT)/js/jquery.min.js"></script>
 <script type="text/javascript">
@@ -72,9 +59,9 @@ jQuery(function(){
 </script>
 
   <div class="hundred toptwenty">
-	<div class="dbox donate">
     <a name="paypal"></a>
-		<h3>Donate via PayPal</h3>
+		<h2>Donate via PayPal</h2>
+	<div class="dbox donate">
 	   <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 		  <p class="type">
 			<label for="type">Donation Type:</label>
@@ -87,6 +74,18 @@ Account</small>
 		  </p>
 	      <div class="drow">
 	 		 <div>
+	       <input style="float: right;" type="image" src="$(IMGROOT)/paypal-donate-button.gif" name="submit" alt="Subscribe to Tor with PayPal - it's fast, free and secure!"> 
+			  <ul class="amounts">
+		      <li><input type="radio" class="radio" name="amount" value="5.00"><label for="5">5</label></li>
+		      <li><input type="radio" class="radio" name="amount" value="10.00"><label for="10">10&nbsp;</label></li>
+		      <li><input type="radio" class="radio" name="amount" value="20.00"><label for="20">20&nbsp;</label></li>
+		      <li><input type="radio" class="radio" name="amount" value="50.00"><label for="50">50&nbsp;</label></li>
+		      <li><input type="radio" class="radio" name="amount" value="100.00" checked="checked"><label for="100">100&nbsp;</label></li><br>
+		      <li><input type="radio" class="radio" name="amount" value="250.00"><label for="250">250</label></li>
+		      <li><input type="radio" class="radio" name="amount" value="500.00"><label for="500">500</label></li>
+	  	      <li><input type="radio" class="radio" name="amount" value="1000.00"><label for="1000">1000</label></li>
+		      <li><input type="text" id="amount" class="amount" name="amount"></li>
+              <li>
 	        <span>
 		      <select name="currency_code" class="cur">
 			    <option value="USD" selected="selected">$</option>
@@ -95,23 +94,12 @@ Account</small>
 			    <option value="YEN">&yen;</option>
 			   </select>
 			  </span>
-			  <ul class="amounts">
-		      <li><input type="radio" class="radio" name="amount" value="2000.00"><label for="2000">2000</label></li>
-	  	      <li><input type="radio" class="radio" name="amount" value="1000.00"><label for="1000">1000</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="500.00"><label for="500">500</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="250.00"><label for="250">250</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="100.00" checked="checked"><label for="100">100</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="50.00"><label for="50">50</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="20.00"><label for="20">20</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="10.00"><label for="10">10</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="5.00"><label for="5">5</label></li>
+            </li>
 		    </ul>
 		   </div>
 		   <div>
-		    <label for="custom">or enter a donation amount:</label><input type="text" id="amount" class="amount" name="amount">
 			 <input type="hidden" id="a3" name="a3" value="0">
 <!--			 <input class="donate-btn" type="submit" name="donate" value="Donate" alt="Subscribe to Tor with PayPal - it's fast, free and secure!"> -->
-	       <input type="image" src="$(IMGROOT)/paypal-donate-button.gif" name="submit" alt="Subscribe to Tor with PayPal - it's fast, free and secure!"> 
 		   </div>
 		     <input type="hidden" id="p3" name="p3" value="1">
 		     <input type="hidden" name="sra" value="1">
@@ -129,158 +117,9 @@ Account</small>
   </div>
 <!-- END PAYPAL -->
   <div class="hundred toptwenty">
-<!-- BEGIN AMAZON -->
-    <a name="amazon"></a>
-	 <div class="dbox dsmall">
-		<h3>Donate via Amazon Payments</h3>
-	    <form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
-	      <div class="drow toppad">
-		    <div>
-		     <label for="amazon">&#x24;</label>
-		     <input type="text" name="amount" size="6" value="20">
-			  <input class="donate-btn" type="image" src="$(IMGROOT)/golden_small_donate_withmsg_whitebg.gif">
-		    </div>
-		    <input type="hidden" name="immediateReturn" value="1">
-		    <input type="hidden" name="collectShippingAddress" value="0">
-		    <input type="hidden" name="minimumDonationAmount" value="USD 5">
-		    <input type="hidden" name="isDonationWidget" value="1">
-		    <input type="hidden" name="description" value="Supporting Online Anonymity &amp; Privacy">
-		    <input type="hidden" name="amazonPaymentsAccountId" value="XGSROLNTXRNC3N1P4TXKMNK14LN1D6SZUD8SN1">
-		    <input type="hidden" name="returnUrl" value="https://www.torproject.org/donate/thankyou.html">
-		    <input type="hidden" name="processImmediate" value="1">
-		    <input type="hidden" name="cobrandingStyle" value="logo">
-		    <input type="hidden" name="abandonUrl" value="https://www.torproject.org/donate/donate.html">
-		  </div>
-		</form>
-		<small>Requires an Amazon Account</small>
-	 </div>
-<!-- END AMAZON -->
-<!-- BEGIN DWOLLA -->
-    <a id="dwolla"></a>
-    <div class="dbox dsmall dwolla">
-      <h3>Donate via Dwolla</h3>
-      <p>Dwolla is a peer to peer payment platform which allows users to
-exchange money quickly, safely, at a lower cost.</p>
-      <p style="text-align:center;"><strong><a
-href="https://www.dwolla.com/hub/thetorproject">Continue to Dwolla
-&raquo;</a></strong></p>
-    </div>
-<!-- END DWOLLA -->
-<!-- BEGIN BITCOIN -->
-   <a id="bitcoin"></a>
-   <div class="hundred toptwenty">
-    <div class="dbox donate">
-    <h3>Bitcoins</h3>
-    <p>Please consider a donation to
-    <a href="https://www.torservers.net/donate.html">Torservers.net</a>,
-    <a href="http://noisetor.net/#bitcoin">NoiseTor</a>,
-    or <a href="https://tails.boum.org/contribute/how/donate/#bitcoin">Tails</a>
-    which will turn your bitcoin donation into a faster, larger Tor
-    Network for all.</p>
-  <p>If you are committed to donating bitcoins to Tor, please complete the form below.</p>
-  <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
-        <input name="action" type="hidden" value="checkout">
-        <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
-          <ul>
-            <li id="orderID" class="control-group">
-              <label class="control-label" style="width: 40px">Email:</label>
-              <div class="controls" style="margin-left: 60px">
-                <input name="orderID" type="email" class="input input-xlarge" placeholder="Email address (optional)" maxlength=50 autocapitalize=off autocorrect=off><br>
-              </div>
-            </li>
-            <li id="price" class="control-group">
-              <label class="control-label" style="width: 40px">Amount:</label>
-              <div class="controls" style="margin-left: 60px">
-                <input name="price" type="number" class="noscroll" value="10.00" placeholder="Amount" maxlength="10" min="0.01" step="0.01" style="width: 39%"  />
-                <select name="currency" value="" style="width: 49%" >
-                  <option value="USD" selected="selected">USD</option>
-                  <option value="BTC">BTC</option>
-                  <option value="EUR">EUR</option>
-                  <option value="GBP">GBP</option>
-                  <option value="AUD">AUD</option>
-                  <option value="BGN">BGN</option>
-                  <option value="BRL">BRL</option>
-                  <option value="CAD">CAD</option>
-                  <option value="CHF">CHF</option>
-                  <option value="CNY">CNY</option>
-                  <option value="CZK">CZK</option>
-                  <option value="DKK">DKK</option>
-                  <option value="HKD">HKD</option>
-                  <option value="HRK">HRK</option>
-                  <option value="HUF">HUF</option>
-                  <option value="IDR">IDR</option>
-                  <option value="ILS">ILS</option>
-                  <option value="INR">INR</option>
-                  <option value="JPY">JPY</option>
-                  <option value="KRW">KRW</option>
-                  <option value="LTL">LTL</option>
-                  <option value="LVL">LVL</option>
-                  <option value="MXN">MXN</option>
-                  <option value="MYR">MYR</option>
-                  <option value="NOK">NOK</option>
-                  <option value="NZD">NZD</option>
-                  <option value="PHP">PHP</option>
-                  <option value="PLN">PLN</option>
-                  <option value="RON">RON</option>
-                  <option value="RUB">RUB</option>
-                  <option value="SEK">SEK</option>
-                  <option value="SGD">SGD</option>
-                  <option value="THB">THB</option>
-                  <option value="TRY">TRY</option>
-                  <option value="ZAR">ZAR</option>
-                </select/>
-              </div>
-            </li>
-          </ul>
-          <br>
-          <input type="hidden" name="data" value="iH+sCoKQo5J52hkEzWcMi8+PRt78/89lcSU9GnapWfWL6thyubtDCahTUqa2JTlj6RQrQySkZAoFvK05yifMwfx5V87JJuoaDlHUsZR9ppzkklmzHpKJ4TG5M0zNVcKfNBfyopdfTFbzpOXM2FDppqmU7njsRUF1EZPa0K7SIxpv4lNKSPn1PyjVKVxjnpFE0AZ1Qa75VwZnS+rBNNfwxPsgSz+Oa2Twe226FmJJrLtPuBteFfHAIWh6QS5JnpOn4ScMFph0zjixutmunMAjKw==">
-          <div style="margin: auto; width: 100%; text-align: center">
-            <input name="submit" src="$(IMGROOT)/bitpay-donate-md.png" type="image" style="width: auto" alt="BitPay" border="0">
-          </div>
-        </fieldset>
-      </form>
-    </div>
-   </div>
-<!-- END BITCOIN -->
-   </div>
-<!-- BEGIN CHECK -->
-   <a id="cash"></a>
-   <div class="hundred toptwenty">
-     <div class="dbox donate">
-       <h3>Donate via Check, Cash, Money Order, Bank Transfer</h3>
-       <h4>You can send checks or money orders to:</h4>
-	    <p>The Tor Project, Inc<br>
-        7 Temple Street, Suite A<br>
-        Cambridge, MA 02139-2403 USA</p>
-<!-- END CHECK -->
-<!-- BEGIN TRANSFER -->
-    	<h3 style="margin-top:20px;">Donate via European Bank Transfer</h3>
-	<p><em>For European bank transfers, we have an arrangement with
-        <a href="http://www.ccc.de/">CCC in Germany</a> to provide
-        tax-deductible donations for Europeans:</em></p>
-        <p>Wau Holland Stiftung<br>
-        Commerzbank Kassel<br>
-        BLZ: 52040021<br>
-        Konto: 2772812-02<br>
-        IBAN: DE03 5204 0021 0277 2812 02<br>
-        BIC: COBADEFF520 *or* COBADEFFXXX</p>
-        <ul>
-          <li>Residents from any of the 31 <a
-          href="http://en.wikipedia.org/wiki/Single_Euro_Payments_Area">SEPA</a>
-          member states can wire up to 50.000 Euro at the cost of
-          a domestic transaction (i.e., usually free if submitted
-          electronically).</li>
-          <li>European citizens can make a charitable contribution that
-          is tax-deductible to a certain degree (Germany: max 20% of total income).
-          </li>
-          <li>Corporate entities can deduct donations up to 4/1000 of
-          their combined turnovers, wages and salaries. WHS issues
-          a donation receipt upon request (if provided with address
-          information).</li>
-        </ul>
-     </div>
-   </div>
-<!-- END TRANSFER -->
+		<h2>Other options</h2>
+        We have many other donation and sponsorship <a href="<page donate/donate-options>">options</a> available.
+  </div>
 <!-- END MAINCOL -->
 </div>
   <div id = "sidecol">
