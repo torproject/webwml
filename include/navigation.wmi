@@ -14,6 +14,11 @@
         '<blog>'                      , 'Blog',
         'about/contact'               , 'Contact',
     );
+    my @donatenav = (
+        'index'                        , 'Home',
+        'about/overview'              , 'About Tor',
+        'about/contact'               , 'Contact',
+    );
     my @calltoaction = (
         'download/download-easy'           , 'Download',
         'getinvolved/volunteer'            , 'Get Involved',

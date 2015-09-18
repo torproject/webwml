@@ -1,0 +1,105 @@
+#! /usr/bin/wml
+<: use strict; :>
+<: use warnings; :>
+#use "perl-globals.wmi"
+#use "links.wmi"
+#use "versions.wmi"
+#use "navigation.wmi"
+
+<!DOCTYPE html>
+ <html>
+ <head>
+
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="author" content="The Tor Project, Inc.">
+   <meta name="keywords" content="anonymity online, tor, tor project, censorship circumvention, traffic analysis, anonymous communications research">
+   <meta property="og:image" content="https://www.torproject.org/images/tor-logo.jpg">
+
+   <title>$(TITLE)</title>
+
+   <link rel="icon" href="$(IMGROOT)/favicon.ico">
+   <ifneq "$(REDIRECT)" "" "<meta http-equiv="refresh" content="0;url=$(DOCROOT)/$(REDIRECT)">">
+   <ifneq "$(REDIRECT_GLOBAL)" "" "<meta http-equiv="refresh" content="0;url=$(REDIRECT_GLOBAL)">">
+
+   # begin WML to generate css/js paths 
+   <ifneq "$(STYLESHEET)" "" "<link href="$(DOCROOT)/$(STYLESHEET)" rel="stylesheet">">
+   <ifeq "$(STYLESHEET)" "" "<link href="$(DOCROOT)/css/master.css" rel="stylesheet">">
+
+   #<link href="css/master.css" rel="stylesheet">
+   <!--[if lte IE 8]>
+   <link href="$(DOCROOT)/css/ie8-and-down.css" rel="stylesheet">
+   <![endif]-->
+   <!--[if lte IE 7]>
+   <link href="$(DOCROOT)/css/ie7-and-down.css" rel="stylesheet">
+   <![endif]-->
+   <!--[if IE 6]>
+   <link href="$(DOCROOT)/css/ie6.css" rel="stylesheet">
+   <![endif]-->
+ #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
+   # end WML to generate css/js paths 
+ 
+</head>
+<body>
+<div id="wrap">
+  <div id="header">
+    <h1 id="logo"><a href="<page index>">Tor</a></h1>
+      # navigation menu generation
+      <div id="nav">
+        <ul>
+        <:{
+            # create a hash and maintain order of keys
+            my %donatenav;
+            my @keys;
+            while (@donatenav) {
+              my $key = shift @donatenav;
+              my $val = shift @donatenav;
+              push @keys, $key;
+              $donatenav{$key} = $val;
+            }
+
+            my $page = $WML_SRC_BASENAME;
+            my $lang = "$(LANG)";
+
+            for my $key (@keys) {
+              my ($dir, $base) = $key =~ m,^(?:(.*)/)?(.*?)$,;  
+
+              # in directory of active link, set class active 
+              my $class;
+              if ((defined $dir) and ($WML_SRC_DIRNAME =~/$dir/) or ($WML_SRC_BASENAME eq $base)) {
+                $class = 'class="active"';
+              } else {
+                $class = '';
+              }
+
+	            $dir = '.' unless defined $dir;
+                
+              # translated version
+              if (-e "$(DOCROOT)/$dir/$lang/$base.wml") {
+                  printf '<li><a '.$class.' href="%s">%s</a></li>'."\n",
+                         stripDotSlashs("$(DOCROOT)/$dir/$base.html.$(LANG)"),$donatenav{$key};
+              } 
+              # english version
+              elsif (-e "$(DOCROOT)/$dir/en/$base.wml") {
+              	printf '<li><a '.$class.' href="%s">%s</a></li>'."\n",
+                  stripDotSlashs("$(DOCROOT)/$dir/$base.html"), $donatenav{$key};
+              }
+              # full url
+              elsif ($key =~/^http/) {
+                printf '<li><a href="%s">%s</a></li>'."\n", $key, $donatenav{$key};
+              } else {
+                warn "$WML_SRC_FILENAME has a [page $key] (parses to
+docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml), but that doesn't exist.";
+              }
+            }
+        }:>
+        </ul>
+      </div>
+      <!-- END NAV -->
+     # end navigation generation
+  </div>
+  <!-- END HEADER -->
+
+#<ifneq "$(REDIRECT)" "" "Redirecting to <a href="$(DOCROOT)/$(REDIRECT)">$(DOCROOT)/$(REDIRECT)</a>.">
+#<ifneq "$(REDIRECT_GLOBAL)" "" "Redirecting to <a href="$(REDIRECT_GLOBAL)">$(REDIRECT_GLOBAL)</a>.">
