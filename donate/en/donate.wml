@@ -109,7 +109,7 @@ Account</small>
 		     <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
 		  </div>
           <div style="text-align: center;">
-	       <input type="image" src="$(IMGROOT)/paypal_logo.gif" name="submit" alt="Subscribe to Tor with PayPal - it's fast, free and secure!"> 
+	       <input type="image" src="$(IMGROOT)/paypal_logo.jpg" height="55" name="submit" alt="Subscribe to Tor with PayPal - it's fast, free and secure!"> 
           </div>
 	 </form>
 	</div>
