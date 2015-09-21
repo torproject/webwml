@@ -81,7 +81,6 @@ Account</small>
 			    <option value="USD" selected="selected">$</option>
 			    <option value="EUR">&euro;</option>
 			    <option value="GBP">&pound;</option>
-			    <option value="YEN">&yen;</option>
 			   </select>
              </li>
 		      <li><input type="radio" class="radio" name="amount" value="5.00"><label for="5">5&nbsp;</label></li>
