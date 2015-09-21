@@ -25,7 +25,7 @@ portion of your purchase is donated to help keep us working.</p>
    We're happy to accept direct donations via:</p>
   <ul class="hlist">
     <li><a href="<page donate/donate>">Paypal</a></li>
-    <li><a href="#amazon">Amazon Payments</a></li>
+    <!-- <li><a href="#amazon">Amazon Payments</a></li> -->
     <li><a href="#dwolla">Dwolla</a></li>
     <li><a href="#bitcoin">Bitcoins</a></li>
     <li class="last"><a href="#cash">checks, money orders, or bank transfers</a></li>
@@ -33,7 +33,7 @@ portion of your purchase is donated to help keep us working.</p>
     <p>Contact us at donations@torproject.org for more donation details.</p>
   <div class="hundred toptwenty">
 <!-- BEGIN AMAZON -->
-    <a name="amazon"></a>
+    <!-- <a name="amazon"></a>
 	 <div class="dbox dsmall">
 		<h3>Donate via Amazon Payments</h3>
 	    <form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
@@ -56,7 +56,7 @@ portion of your purchase is donated to help keep us working.</p>
 		  </div>
 		</form>
 		<small>Requires an Amazon Account</small>
-	 </div>
+	 </div> -->
 <!-- END AMAZON -->
 <!-- BEGIN DWOLLA -->
     <a id="dwolla"></a>
