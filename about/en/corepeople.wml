@@ -26,10 +26,6 @@
 
 <h1>Core Tor People</h1>
 <dl>
-          <dt>Sherief Alaa, Support</dt>
-          <dd>Arabic translator, works on videos and documentation, and
-          helps answer all the users who contact the support desk.</dd>
-
           <dt>Jacob Appelbaum, Advocate, Security Researcher, and
           Developer</dt>
           <dd>Speaks at conferences and gives
@@ -41,6 +37,11 @@
           DNSEL</a>, and <a href="https://weather.torproject.org">Tor
           weather</a> site. Runs one of the directory authorities.</dd>
 
+          <dt>Isabela Bagueros, Project Manager</dt>
+          <dd>Coordinates Tor's development teams and helps them define
+          their road maps, keeps track of priorities, and ensures that
+          Tor is always thinking “user first” while building things.</dd>
+
           <dt>Moritz Bartl, Advocate</dt>
           <dd>Manages <a href="https://torservers.net">Zwiebelfreunde</a>
           (a German non-profit to run exit relays), and coordinates
@@ -48,10 +49,10 @@
           countries. Speaks and organizes in support of Tor and freedoms
           in Europe and world-wide.</dd>
 
-          <dt>Caspar Bowden, Director</dt>
-          <dd>Advocate for Tor in Europe, and specialist in data
-          protection policy, EU and US surveillance law, PET research,
-          identity management, and information ethics and philosophy.</dd>
+          <dt>Katherine Bergeron, Executive Administrator</dt>
+          <dd>Katherine is streamlining our operations, including
+          fundraising, merchandise management, travel, and other
+          projects.</dd>
 
           <dt>Griffin Boyce, Developer</dt>
           <dd>Works on <a href="http://cupcakebridge.com/">Cupcake</a>,
@@ -136,12 +137,6 @@
           <dd>Develops OONI, and has helped with Torflow and other Tor
           services.</dd>
 
-          <dt>Melissa Gilroy, CFO and Internal Audit</dt>
-          <dd>With a strong background in non-profit accounting and
-          auditing, Melissa is in charge of Tor's finances, audit
-          compliance, and keeping Tor's financial operations moving
-          along.</dd>
-
           <dt>Dr. Ian Goldberg, Director, Researcher</dt>
           <dd>Cryptographer, privacy expert,
           and professor; one of the designers of <a
@@ -207,6 +202,10 @@
           <dd>Works on Tor Browser, Torbutton, and our build
           automation.</dd>
 
+          <dt>Kate Krauss, Director of Communications and Public Policy</dt>
+          <dd>Plans Tor's communications strategy and evaluates Tor's
+          possible role in pubic discussions about Tor-related issues.</dd>
+
           <dt>Pepijn Le Heux, Advocate</dt>
           <dd>Tireless advocate and Tor enthusiast in the Netherlands.</dd>
 
@@ -219,13 +218,6 @@
           <dd>Lead developer of
           <a href="http://www.subgraph.com/orchid.html">Orchid</a>,
           a Tor client in Java.</dd>
-
-          <dt>Andrew Lewman, Former Executive Director</dt>
-          <dd>Managed the business operations of The Tor Project, Inc.
-          Played roles of finance, advocacy, project management,
-          strategy, press, law enforcement liason, and victim of
-          domestic violence advocate. He is currently aiding Roger in
-          the Executive Director transition.</dd>
 
           <dt>Dr. Karsten Loesing, Metrics Researcher and Developer</dt>
           <dd>Primary researcher and developer into
@@ -253,11 +245,6 @@
 
           <dt>Ondrej Mikle, Developer</dt>
           <dd>Maintains our RPM packages.</dd>
-
-          <dt>Kelley Misata, Outreach and Communications</dt>
-          <dd>Helps handle press, coordinates Tor talks and outreach,
-          helps with trainings, helps with annual reports, and generally
-          works on community-facing activities.</dd>
 
           <dt>Dr. Steven Murdoch, Researcher and Developer</dt>
           <dd>Researcher at University College London who works
@@ -298,11 +285,6 @@
           <dt>Leif Ryge, Developer</dt>
           <dd>Works on security analysis, designer of "bananaphone"
           transport, and part of the pluggable transports team.</dd>
-
-          <dt>Runa A. Sandvik, Advocate</dt>
-          <dd>Maintained the Tor Translation Portal and the translations
-          for projects such as Vidalia, Torbutton and the
-          website.</dd>
 
           <dt>Christian Schulz, Developer</dt>
           <dd>Developer and maintainer of <a

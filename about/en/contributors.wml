@@ -11,6 +11,9 @@
 	<div id="maincol">
   	<h1>Past Contributors</h1>
 <dl>
+<dt>Sherief Alaa, Support</dt>
+<dd>Arabic translator, worked on videos and documentation and helped
+respond to users who contacted the support desk.</dd>
 <dt>Alexandre Allaire, Developer</dt>
 <dd>Helped develop and package Flash Proxy.</dd>
 <dt>Carolyn Anhalt</dt><dd>Coordinated translations and translators for
@@ -25,6 +28,15 @@ part of Google Summer of Code 2008.</dd>
 <dt>Benedikt Boss</dt><dd>Worked during the 2007 Google Summer of Code on <a
 href="https://svn.torproject.org/svn/topf/trunk/README">TOPF</a>,
 a fuzzer for Tor; mentored by Roger.</dd>
+<dt>Caspar Bowden, Director (1961 - 2015)</dt>
+<dd>Caspar was an advocate for Tor in Europe and a specialist in data
+protection policy, EU and US surveillance law, PET research, identity
+management, and information ethics and philosophy. He was formerly the
+chief privacy advisor at Microsoft. He believed that people in every
+country deserved the right to privacy irrespective of national
+borders. He predicted US mass surveillance programs such as PRISM
+and was vindicated after the Snowden revelations. We miss him
+deeply.</dd>
 <dt>Ren Bucholz</dt><dd>Our fine logo and images.</dd>
 <dt>Fallon Chen</dt><dd> Worked on
 Improving Tor Path Selection (<a
@@ -42,6 +54,9 @@ bufferevent code.</dd>
 <dt>Matt Edman</dt>
 <dd>Original developer for Vidalia,
 a cross-platform Tor Graphical User Interface included in the bundles.</dd>
+<dt>Melissa Gilroy, CFO and Internal Audit</dt>
+<dd>Melissa was formerly in charge of Tor's finances, audit compliance, and
+keeping Tor's financial operations moving along.</dd>
 <dt>Geoff Goodell</dt><dd>Started the <a
 href="https://svn.torproject.org/svn/blossom/trunk/">Blossom project</a>
 which uses Tor as its overlay network; also helped motivate Tor's control
@@ -67,6 +82,14 @@ script formerly run on nighteffect.</dd>
 <dt>Adam Langley</dt><dd>Our fine eventdns code.</dd>
 <dt>Rebecca MacKinnon</dt><dd>Former Director of Tor.  Co-Founder of <a
 href="http://www.globalvoicesonline.org/">Global Voices Online</a>.</dd>
+<dt>Andrew Lewman, Former Executive Director</dt>
+<dd>Managed the business operations of The Tor Project, Inc. Played
+roles of finance, advocacy, project management, strategy, press, law
+enforcement liaison, and domestic violence advocacy.</dd>
+<dt>Kelley Misata</dt>
+<dd>Kelley formerly handled press, coordinated Tor talks and outreach,
+helped with trainings, helped with annual reports, and generally worked
+on community-facing activities.</dd>
 <dt>Chris Palmer</dt><dd>Our liaison and tech guy with EFF while EFF
 was funding us. Also helped advocate and write end-user docs.</dd>
 <dt>Martin Peck</dt><dd>Worked on a VM-based transparent
@@ -81,6 +104,9 @@ Code on modifying <a
 href="https://svn.torproject.org/svn/torflow/trunk/README">TorFlow</a>
 to measure various properties of the Tor network; mentored by Mike
 Perry.</dd>
+<dt>Runa A. Sandvik, Advocate</dt>
+<dd>Maintained the Tor Translation Portal and the translations for
+projects such as Vidalia, Torbutton and the website.</dd>
 <dt>Scott Squires</dt><dd>The original developer of <a
 href="<page docs/torbutton/index>">Torbutton</a>.</dd>
 <dt>tup (a pseudonym)</dt><dd>Added new features for
