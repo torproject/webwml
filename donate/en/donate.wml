@@ -83,7 +83,7 @@ Account</small>
 			    <option value="GBP">&pound;</option>
 			   </select>
              </li>
-		      <li><input type="radio" class="radio" name="amount" value="5.00"><label for="5">5&nbsp;</label></li>
+		      <li><input type="radio" class="radio" name="amount" value="10.00"><label for="10">10&nbsp;</label></li>
 		      <li><input type="radio" class="radio" name="amount" value="23.00"><label for="23">23&nbsp;</label></li>
 		      <li><input type="radio" class="radio" name="amount" value="100.00" checked="checked"><label for="100">100&nbsp;</label></li>
 		      <li><input type="radio" class="radio" name="amount" value="256.00"><label for="256">256</label></li>
