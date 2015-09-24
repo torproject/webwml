@@ -26,6 +26,9 @@
 
 <h1>Core Tor People</h1>
 <dl>
+          <dt>Sherief Alaa, Support</dt>
+          <dd>Arabic translator, worked on videos and documentation and helps
+          respond to users who contacted the support desk.</dd>
           <dt>Jacob Appelbaum, Advocate, Security Researcher, and
           Developer</dt>
           <dd>Speaks at conferences and gives
@@ -137,6 +140,10 @@
           <dd>Develops OONI, and has helped with Torflow and other Tor
           services.</dd>
 
+          <dt>Melissa Gilroy, CFO and Internal Audit</dt>
+          <dd>Melissa is in charge of Tor's finances, audit compliance, and keeping
+          Tor's financial operations moving along.</dd>
+
           <dt>Dr. Ian Goldberg, Director, Researcher</dt>
           <dd>Cryptographer, privacy expert,
           and professor; one of the designers of <a
@@ -246,6 +253,11 @@
           <dt>Ondrej Mikle, Developer</dt>
           <dd>Maintains our RPM packages.</dd>
 
+          <dt>Kelley Misata</dt>
+          <dd>Kelley handles press, coordinates Tor talks and outreach,
+          helps with trainings, helps with annual reports, and generally works
+          on community-facing activities.</dd>
+
           <dt>Dr. Steven Murdoch, Researcher and Developer</dt>
           <dd>Researcher at University College London who works
           on security, performance, and usability of Tor. Creator
@@ -285,6 +297,10 @@
           <dt>Leif Ryge, Developer</dt>
           <dd>Works on security analysis, designer of "bananaphone"
           transport, and part of the pluggable transports team.</dd>
+
+          <dt>Runa A. Sandvik, Advocate</dt>
+          <dd>Maintains the Tor Translation Portal and the translations for
+          projects such as Vidalia, Torbutton and the website.</dd>
 
           <dt>Christian Schulz, Developer</dt>
           <dd>Developer and maintainer of <a
