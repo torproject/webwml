@@ -1271,7 +1271,7 @@ So we need better unit tests, and we need better integration tests too.
     </p>
 
     <p>
-Improving unit tests would would involve refactoring functions to be more
+Improving unit tests would involve refactoring functions to be more
 testable, and writing a bunch of unit tests.
     </p>
 
