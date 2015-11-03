@@ -54,7 +54,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	  </form>
 
 	  <h2>Tor Browser</h2>
-	  <em>Version <version-torbrowserbundle> - Windows 8, 7, Vista, and XP</em>
+	  <em>Version <version-torbrowserbundle> - Windows 10, 8, 7, Vista, and XP</em>
 	  <p>Everything you need to safely browse the Internet. <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	</div>
 <!-- EXPERT BUNDLE -->
@@ -67,7 +67,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	  </div>
 
 	  <h2>Expert Bundle</h2>
-	  <em>Windows 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE</em>
+	  <em>Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE</em>
 	  <p>Contains just Tor and nothing else. You'll need to configure Tor and all of your applications manually. This installer must be run as Administrator.</p>
 	</div>
       </div>
