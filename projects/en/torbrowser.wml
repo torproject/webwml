@@ -525,6 +525,30 @@
         </table>
       </div>
       </div>
+    <hr>
+    <p></p>
+    <div id="downloads-hardened" class="anchor"></div>
+    <center><h3>Hardened Tor Browser</h3></center>
+     <div class="pjtext">
+      <div class="dltable" style="margin-top: -35px;">
+        <table>
+          <thead>
+        <tr>
+          <th><br>Language</th>
+          <th>Linux<br><em>(<version-torbrowserbundlelinux64beta>-hardened)</em></th>
+        </tr>
+          </thead>
+          <tbody>
+        <tr class="alt">
+          <td>All</td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundlebetadir>-hardened/tor-browser-linux64-<version-torbrowserbundlelinux64beta>-hardened_ALL.tar.xz">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebetadir>-hardened/tor-browser-linux64-<version-torbrowserbundlelinux64beta>-hardened_ALL.tar.xz.asc">sig</a>)</em>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
     </div>
       </div>
 
