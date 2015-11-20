@@ -1,0 +1,52 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "donatehead.wmi" TITLE="Donate to keep Tor alive!" CHARSET="UTF-8"
+<div class="donation">
+    <div class="container"> 
+    <div class="row">
+          <a href="<page donate/donate>" class="btn btn-primary btn-lg active" role="button">Support Tor!</a>
+          <div class="col-md-12 col-md-offset-0">
+              <h2 style="padding:2px; margin-bottom:10px;" class="text-justify">Donor FAQ</h2>
+                    <ol>
+          <li>
+            <p><strong>Lorem ipsum dolor sit amet, nibh scelerisque adipiscing facilisis, ut turpis aenean quam?</strong></p>
+            <p>Lorem ipsum dolor sit amet, turpis ipsum rhoncus odio, pharetra egestas sapien pulvinar, donec cursus in dictum curabitur. Erat dolor massa nonummy nulla, quasi lorem ipsum integer in. Interdum in tellus eu sodales, enim sed esse cursus, nam vestibulum donec leo amet. Sed maecenas eu pharetra orci, quis magnis metus felis, mauris vel ut lacus. Quis erat ipsum integer, pharetra vel congue montes, non adipiscing lacus ac senectus. Tortor eget sit dapibus in, vivamus eu nunc donec, erat phasellus quam tincidunt. At nulla neque nullam proin, nec sapien nec commodo eligendi, mauris mi nunc rutrum consectetuer.</p>
+          </li>
+          <li>
+            <p><strong>Lorem ipsum dolor sit amet, nibh scelerisque adipiscing facilisis, ut turpis aenean quam?</strong></p>
+            <p>Lorem ipsum dolor sit amet, turpis ipsum rhoncus odio, pharetra egestas sapien pulvinar, donec cursus in dictum curabitur. Erat dolor massa nonummy nulla, quasi lorem ipsum integer in. Interdum in tellus eu sodales, enim sed esse cursus, nam vestibulum donec leo amet. Sed maecenas eu pharetra orci, quis magnis metus felis, mauris vel ut lacus. Quis erat ipsum integer, pharetra vel congue montes, non adipiscing lacus ac senectus. Tortor eget sit dapibus in, vivamus eu nunc donec, erat phasellus quam tincidunt. At nulla neque nullam proin, nec sapien nec commodo eligendi, mauris mi nunc rutrum consectetuer.</p>
+          </li>
+          <li>
+            <p><strong>Lorem ipsum dolor sit amet, nibh scelerisque adipiscing facilisis, ut turpis aenean quam?</strong></p>
+            <p>Lorem ipsum dolor sit amet, turpis ipsum rhoncus odio, pharetra egestas sapien pulvinar, donec cursus in dictum curabitur. Erat dolor massa nonummy nulla, quasi lorem ipsum integer in. Interdum in tellus eu sodales, enim sed esse cursus, nam vestibulum donec leo amet. Sed maecenas eu pharetra orci, quis magnis metus felis, mauris vel ut lacus. Quis erat ipsum integer, pharetra vel congue montes, non adipiscing lacus ac senectus. Tortor eget sit dapibus in, vivamus eu nunc donec, erat phasellus quam tincidunt. At nulla neque nullam proin, nec sapien nec commodo eligendi, mauris mi nunc rutrum consectetuer.</p>
+          </li>
+          <li>
+            <p><strong>Lorem ipsum dolor sit amet, nibh scelerisque adipiscing facilisis, ut turpis aenean quam?</strong></p>
+            <p>Lorem ipsum dolor sit amet, turpis ipsum rhoncus odio, pharetra egestas sapien pulvinar, donec cursus in dictum curabitur. Erat dolor massa nonummy nulla, quasi lorem ipsum integer in. Interdum in tellus eu sodales, enim sed esse cursus, nam vestibulum donec leo amet. Sed maecenas eu pharetra orci, quis magnis metus felis, mauris vel ut lacus. Quis erat ipsum integer, pharetra vel congue montes, non adipiscing lacus ac senectus. Tortor eget sit dapibus in, vivamus eu nunc donec, erat phasellus quam tincidunt. At nulla neque nullam proin, nec sapien nec commodo eligendi, mauris mi nunc rutrum consectetuer.</p>
+          </li>
+          <li>
+            <p><strong>Lorem ipsum dolor sit amet, nibh scelerisque adipiscing facilisis, ut turpis aenean quam?</strong></p>
+            <p>Lorem ipsum dolor sit amet, turpis ipsum rhoncus odio, pharetra egestas sapien pulvinar, donec cursus in dictum curabitur. Erat dolor massa nonummy nulla, quasi lorem ipsum integer in. Interdum in tellus eu sodales, enim sed esse cursus, nam vestibulum donec leo amet. Sed maecenas eu pharetra orci, quis magnis metus felis, mauris vel ut lacus. Quis erat ipsum integer, pharetra vel congue montes, non adipiscing lacus ac senectus. Tortor eget sit dapibus in, vivamus eu nunc donec, erat phasellus quam tincidunt. At nulla neque nullam proin, nec sapien nec commodo eligendi, mauris mi nunc rutrum consectetuer.</p>
+          </li>
+          <li>
+            <p><strong>Lorem ipsum dolor sit amet, nibh scelerisque adipiscing facilisis, ut turpis aenean quam?</strong></p>
+            <p>Lorem ipsum dolor sit amet, turpis ipsum rhoncus odio, pharetra egestas sapien pulvinar, donec cursus in dictum curabitur. Erat dolor massa nonummy nulla, quasi lorem ipsum integer in. Interdum in tellus eu sodales, enim sed esse cursus, nam vestibulum donec leo amet. Sed maecenas eu pharetra orci, quis magnis metus felis, mauris vel ut lacus. Quis erat ipsum integer, pharetra vel congue montes, non adipiscing lacus ac senectus. Tortor eget sit dapibus in, vivamus eu nunc donec, erat phasellus quam tincidunt. At nulla neque nullam proin, nec sapien nec commodo eligendi, mauris mi nunc rutrum consectetuer.</p>
+          </li>
+          <li>
+            <p><strong>Lorem ipsum dolor sit amet, nibh scelerisque adipiscing facilisis, ut turpis aenean quam?</strong></p>
+            <p>Lorem ipsum dolor sit amet, turpis ipsum rhoncus odio, pharetra egestas sapien pulvinar, donec cursus in dictum curabitur. Erat dolor massa nonummy nulla, quasi lorem ipsum integer in. Interdum in tellus eu sodales, enim sed esse cursus, nam vestibulum donec leo amet. Sed maecenas eu pharetra orci, quis magnis metus felis, mauris vel ut lacus. Quis erat ipsum integer, pharetra vel congue montes, non adipiscing lacus ac senectus. Tortor eget sit dapibus in, vivamus eu nunc donec, erat phasellus quam tincidunt. At nulla neque nullam proin, nec sapien nec commodo eligendi, mauris mi nunc rutrum consectetuer.</p>
+          </li>
+          </ol>
+
+            </div>
+      <div class="col-md-12 col-md-offset-0">
+          <a href="<page donate/donate>" class="btn btn-primary btn-lg active" role="button">Support Tor!</a>
+      </div>
+          <!-- Add the extra clearfix for only the required viewport -->
+          <div class="clearfix visible-xs-block"></div>
+      </div>
+    </div>
+</div>
+# include <foot.wmi>
