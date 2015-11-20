@@ -10,8 +10,7 @@
   </div>
 <div id="maincol">
 
-<script async
-src="https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js"></script>
+<script async src="https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js"></script>
 <div
     data-ap-widget-type="expressDonationWidget"
     data-ap-widget-theme="ap-light"
@@ -20,24 +19,11 @@ src="https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js"><
     data-ap-signature="%2B6UiARhqtXOPGLHP%2F6DrD3zH68ZHxmA9tBLjfjJ3jYU%3D"
     data-ap-seller-id="A3KD3XX49657E7"
     data-ap-access-key="AKIAISELZYVMUQ7F5M7Q"
-
-data-ap-lwa-client-id="amzn1.application-oa2-client.b0b3efe8eb6841ed800ff2cc45b12dba"
+    data-ap-lwa-client-id="amzn1.application-oa2-client.b0b3efe8eb6841ed800ff2cc45b12dba"
     data-ap-return-url="https://www.torproject.org/donate/thankyou"
     data-ap-currency-code="USD"
     data-ap-amount="0"
-    data-ap-note="Thank you for your donation to The Tor Project. The
-Tor Project is a 501c3 organization, and our federal tax ID number is
-20-8096820. Your gift is tax deductible in the United States as allowed
-by law. The Tor Project respects the confidentiality of its supporters,
-and we do not lend, rent, or sell our lists of donors at any time. Your
-donation enables Tor developers to focus on making Tor better, including
-scalability, user support and better documentation, usability and
-incentives, and research into better privacy approaches. If you would
-like to keep in touch or get more involved, please visit us at
-www.torproject.org. Our mission is to advance human rights and freedoms
-by creating and deploying free and open anonymity and privacy
-technologies, supporting their unrestricted availability and use, and
-furthering their scientific and popular understanding. "
+    data-ap-note="Thank you for your donation to The Tor Project. The Tor Project is a 501c3 organization, and our federal tax ID number is 20-8096820. Your gift is tax deductible in the United States as allowed by law. The Tor Project respects the confidentiality of its supporters, and we do not lend, rent, or sell our lists of donors at any time. Your donation enables Tor developers to focus on making Tor better, including scalability, user support and better documentation, usability and incentives, and research into better privacy approaches. If you would like to keep in touch or get more involved, please visit us at www.torproject.org. Our mission is to advance human rights and freedoms by creating and deploying free and open anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding. "
     data-ap-shipping-address-required="false"
     data-ap-payment-action="AuthorizeAndCapture"
 >
