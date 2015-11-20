@@ -11,7 +11,7 @@
               <div class="row col-md-offset-0">
               <h2 style="padding:2px; margin-bottom:10px;" class="text-justify">This is what a Tor supporter looks like:</h2>
         <div class="col-md-4" style="padding:10px;">
-           <img src="img/laura_poitras.jpg" class="class=img-rounded img-responsive" alt="Laura Poitras">
+           <img src="$(IMGROOT)/laura_poitras.jpg" class="class=img-rounded img-responsive" alt="Laura Poitras">
         </div>
                 <div class="col-md-8">
                     <h1><small>Laura Poitras</small></h1>
