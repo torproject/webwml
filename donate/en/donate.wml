@@ -8,12 +8,13 @@
     <div class="container"> 
         <div class="row">
             <div class="col-md-6">
-              <div class="row col-md-offset-0">
+              
               <h2 style="padding:2px; margin-bottom:10px;" class="text-justify">This is what a Tor supporter looks like:</h2>
+              <div class="row col-md-offset-0">
         <div class="col-md-4" style="padding:10px;">
            <img src="$(IMGROOT)/laura_poitras.jpg" class="class=img-rounded img-responsive" alt="Laura Poitras">
         </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-md-offset-0">
                     <h1><small>Laura Poitras</small></h1>
                     <blockquote style="padding:5px;">"Edward Snowden would not have been able to contact me without Tor and other free software encryption projects. Journalists need Tor to protect their sources and to research freely. It is an essential tool, and it needs our support."</blockquote>
                 </div>
@@ -30,14 +31,13 @@
                     <div style="padding-bottom:5px;" class="col-md-4"><button id="amount1" name="amnt" type="button" class="btn btn-default btn-lg btn-block">10</button></div>
                     <div style="padding-bottom:5px;" class="col-md-4"><button id="amount2" name="amnt" type="button" class="btn btn-default btn-lg btn-block active" data-toggle="tooltip" data-placement="bottom" title="For this amount you get a tshirt!">100</button></div>
                     <div style="padding-bottom:5px;" class="col-md-4" ><button id="amount3" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="For this amount you get a tshirt!">256</button></div>
-          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount4" name="amnt" type="button" class="btn btn-default btn-lg btn-block">23</button></div>
+          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount4" name="amnt" type="button" class="btn btn-default btn-lg btn-block">50</button></div>
           <div style="padding-bottom:5px;" class="col-md-4"><button id="amount5" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="For this amount you get a tshirt!">500</button></div>
                     <div class="row form-group-lg">
                         <label class="sr-only" for="exampleInputAmount">1</label>
                             <div class="input-group">
                                 <div class="input-group-addon">$</div>
-                                    <input type="text" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="1000+?">
-                                <div class="input-group-addon">.00</div>
+                                    <input type="text" name="custom_amnt" class="form-control" id="exampleInputAmount">
                             </div>
                     </div>
         </div>
