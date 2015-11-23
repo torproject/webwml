@@ -36,7 +36,7 @@
                         <label class="sr-only" for="exampleInputAmount">1</label>
                             <div class="input-group">
                                 <div class="input-group-addon">$</div>
-                                    <input type="text" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="1000!?">
+                                    <input type="text" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="1000+?">
                                 <div class="input-group-addon">.00</div>
                             </div>
                     </div>
@@ -82,7 +82,7 @@ function displayVals() {
         amount = $( this ).filter("input").val();
         if (amount == null) {
             amount = 100;
-        } else {
+        } else if (this.id == "exampleInputAmount") {
             $( "button" ).removeClass('active');
             $( this ).addClass('active');
         }
