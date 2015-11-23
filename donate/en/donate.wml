@@ -97,7 +97,7 @@ function displayVals() {
 
 jQuery(function(){
  	jQuery("button[name='amnt']").click(displayVals);
- 	jQuery("input[name='cmd']").click(displayVals);
+	//jQuery("input[name='cmd']").click(displayVals);
  	jQuery("#exampleInputAmount").click(displayVals);
  	jQuery("#exampleInputAmount").change(displayVals);
  	displayVals();
