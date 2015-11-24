@@ -29,10 +29,10 @@
 
                 <div style="margin-top:20px;" class="btn-group btn-group-lg" role="group">
                     <div style="padding-bottom:5px;" class="col-md-4"><button id="amount1" name="amnt" type="button" class="btn btn-default btn-lg btn-block">10</button></div>
-                    <div style="padding-bottom:5px;" class="col-md-4"><button id="amount2" name="amnt" type="button" class="btn btn-default btn-lg btn-block active" data-toggle="tooltip" data-placement="bottom" title="For this amount you get a tshirt!">100</button></div>
-                    <div style="padding-bottom:5px;" class="col-md-4" ><button id="amount3" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="For this amount you get a tshirt!">256</button></div>
-          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount4" name="amnt" type="button" class="btn btn-default btn-lg btn-block">50</button></div>
-          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount5" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="For this amount you get a tshirt!">500</button></div>
+                    <div style="padding-bottom:5px;" class="col-md-4"><button id="amount2" name="amnt" type="button" class="btn btn-default btn-lg btn-block active" data-toggle="tooltip" data-placement="bottom" title="You get a tshirt!">100</button></div>
+                    <div style="padding-bottom:5px;" class="col-md-4" ><button id="amount3" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="You get a tshirt!">256</button></div>
+          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount4" name="amnt" type="button" class="btn btn-default btn-lg btn-block" title="You get a sticker!">23</button></div>
+          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount5" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="You get a hoody!">500</button></div>
                     <div class="row form-group-lg">
                         <label class="sr-only" for="exampleInputAmount">1</label>
                             <div class="input-group">

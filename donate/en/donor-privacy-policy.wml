@@ -7,7 +7,7 @@
     <div class="container"> 
     <div class="row text-justify">
       <div class="col-md-12 col-md-offset-0">
-          <a href="donate.html.en" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
+          <a href="<page donate/donate>" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
       </div>
           <div class="col-md-12 col-md-offset-0">
               <h2 style="padding:2px; margin-bottom:10px;">Donor Privacy Policy</h2>
@@ -19,7 +19,7 @@
               <p><strong>The Tor Project very much appreciates all its donors. Thank you for supporting Tor.</strong></p>
             </div>
       <div class="col-md-12 col-md-offset-0">
-          <a href="donate.html.en" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
+          <a href="<page donate/donate>" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
       </div>
           <!-- Add the extra clearfix for only the required viewport -->
           <div class="clearfix visible-xs-block"></div>

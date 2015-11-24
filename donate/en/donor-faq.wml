@@ -7,7 +7,7 @@
     <div class="container"> 
     <div class="row text-justify">
       <div class="col-md-12 col-md-offset-0">
-          <a href="donate.html.en" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
+          <a href="<page donate/donate>" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
       </div>
           <div class="col-md-12 col-md-offset-0">
               <h2 style="padding:2px; margin-bottom:10px;" class="text-justify">Donor FAQ</h2>
@@ -18,7 +18,7 @@
           </li>
           <li>
             <p><strong>Who works for the Tor Project, and what do they do?</strong></p>
-            <p>Thousands of people around the world actively support the work of the Tor Project, including developers, designers,  relay operators, researchers, cryptographers, computer scientists, and privacy advocates. Most are not paid by the Tor Project; even our very small staff includes many volunteers. You can read about the core contributors to the Tor Project on our <a href="https://www.torproject.org/about/corepeople.html.en" target="_blank">Core People page</a>.</p>
+            <p>Thousands people around the world actively support the work of the Tor Project, including developers, designers, relay operators, researchers, cryptographers, computer scientists, and privacy advocates, and most are not paid by the Tor Project. The paid staff of the Tor Project is very small: about 20 people in total. You can read about the core contributors to the Tor Project on our <a href="https://www.torproject.org/about/corepeople.html.en" target="_blank">Core People page</a>.</p>
           </li>
           <li>
             <p><strong>Who uses Tor?</strong></p>
@@ -78,7 +78,12 @@
           </li>
           <li>
             <p><strong>Can I donate while using the Tor browser?</strong></p>
-            <p>Maybe! In our testing, some people had no problem donating via PayPal while using the Tor browser. But, some people couldn't complete the donation process, and one person had their PayPal account temporarily frozen. We recommend not using the Tor browser to donate via PayPal unless you're willing to risk some difficulties with PayPal.</p>
+            <p>Maybe! In our testing, we saw two scenarios related to Paypal + Tor browser:<br />
+            <ol>
+              <li>Sometimes you get an error after clicking on the 'Donate' button. If this is happening to you, you should change your circuit and try again.</li>
+              <li>For users logging in to Paypal: some people had no problem donating via PayPal while using the Tor browser. But, some people couldn't complete the donation process, and one person had their PayPal account temporarily frozen. We recommend not using the Tor browser to donate using your PayPal account, unless you're willing to risk some difficulties with PayPal.
+              </li>
+              </ol></p>
           </li>
           <li>
             <p><strong>How can I donate via debit or credit card?</strong></p>
@@ -187,7 +192,7 @@
           </ol>
           </div>
      <div class="col-md-12 col-md-offset-0">
-          <a href="donate.html.en" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
+          <a href="<page donate/donate>" class="btn btn-primary btn-md active" role="button">Back to donate page!</a>
       </div>
           <!-- Add the extra clearfix for only the required viewport -->
           <div class="clearfix visible-xs-block"></div>
