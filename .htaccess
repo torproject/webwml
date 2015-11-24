@@ -50,3 +50,11 @@ RewriteRule ^easy-download(.*) /download/download-easy$1 [R=301,L]
 
 # Relays
 RewriteRule ^relays(.*) /getinvolved/relays [R=301,L]
+
+# Donation campagin
+RewriteRule ^donate/donate-twitter(.*) /donate/donate$1 [R=302,L]
+RewriteRule ^donate/donate-hp(.*) /donate/donate$1 [R=302,L]
+RewriteRule ^donate/donate-tbb(.*) /donate/donate$1 [R=302,L]
+RewriteRule ^donate/donate-banner(.*) /donate/donate$1 [R=302,L]
+RewriteRule ^donate/donate-download(.*) /donate/donate$1 [R=302,L]
+RewriteRule ^donate/donate-button(.*) /donate/donate$1 [R=302,L]

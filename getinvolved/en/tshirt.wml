@@ -17,8 +17,7 @@
     Tor project. There are three primary ways of contributing:</p>
 
     <ol>
-    <li>A large enough ($65+) <a href="<page
-    donate/donate>">donation</a> to the Tor Project.</li>
+    <li>During our end-of-the-year (2015) fundraising campaign, you can get a special, campaign t-shirt or other <a href="<page donate/campaign-swag>">cool swag</a> by <a href="<page donate/donate>">donating</a> to the Tor Project.</li>
     <li>Operate a fast <a href="<page docs/tor-doc-relay>">Tor relay</a>
     that's been running for the past two months: you are eligible if you
     allow exits to port 80 and you average 250 KBytes/s traffic, or if you're

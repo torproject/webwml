@@ -2,128 +2,105 @@
 # Revision: $Revision$
 # Translation-Priority: 3-low
 
-#include "donatehead.wmi" TITLE="Tor Project: Donate to Tor" CHARSET="UTF-8"
-<div id="content" class="clearfix">
-<!--  <div id="breadcrumbs">
-    <a href="<page index>">Home &raquo; </a>
-    <a href="<page donate/donate>">Donate</a>
-  </div> -->
-<div id="maincol">
-  <h1>Make A Donation</h1>
-   <p><strong>Your support is critical to our success.</strong> The
-   Tor Project is a US non-profit organization dedicated to research,
-   development, and education about online anonymity and privacy.
-  </p>
+#include "donatehead.wmi" TITLE="Donate to keep Tor alive!" CHARSET="UTF-8"
+
+<div class="donation">
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-6">
+              
+              <h2 style="padding:2px; margin-bottom:10px;" class="text-justify">This is what a Tor supporter looks like:</h2>
+              <div class="row col-md-offset-0">
+        <div class="col-md-4" style="padding:10px;">
+           <img src="$(IMGROOT)/laura_poitras.jpg" class="class=img-rounded img-responsive" alt="Laura Poitras">
+        </div>
+                <div class="col-md-8 col-md-offset-0">
+                    <h1><small>Laura Poitras</small></h1>
+                    <blockquote style="padding:5px;">"Edward Snowden would not have been able to contact me without Tor and other free software encryption projects. Journalists need Tor to protect their sources and to research freely. It is an essential tool, and it needs our support."</blockquote>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+        <div style="margin-left:20px;">
+          <h2 class="text-justify">Donate!</h2>
+        </div>
+
+       <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <div style="margin-top:20px;" class="btn-group btn-group-lg" role="group">
+                    <div style="padding-bottom:5px;" class="col-md-4"><button id="amount1" name="amnt" type="button" class="btn btn-default btn-lg btn-block">10</button></div>
+                    <div style="padding-bottom:5px;" class="col-md-4"><button id="amount2" name="amnt" type="button" class="btn btn-default btn-lg btn-block active" data-toggle="tooltip" data-placement="bottom" title="You get a tshirt!">100</button></div>
+                    <div style="padding-bottom:5px;" class="col-md-4" ><button id="amount3" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="You get a tshirt!">256</button></div>
+          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount4" name="amnt" type="button" class="btn btn-default btn-lg btn-block" title="You get a sticker!">23</button></div>
+          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount5" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="You get a hoody!">500</button></div>
+                    <div class="row form-group-lg">
+                        <label class="sr-only" for="exampleInputAmount">1</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">$</div>
+                                    <input type="text" name="custom_amnt" class="form-control" id="exampleInputAmount">
+                            </div>
+                    </div>
+        </div>
+                  <div style="padding:10px;" class="row col-md-offset-0">
+                      <label>
+                         <input type="radio" name="cmd" id="blankRadio1" value="_donations" aria-label="one_time"> One-time Donation
+                      </label>
+
+                      <label>
+                         <input type="radio" name="cmd" id="blankRadio2" value="_xclick-subscriptions" aria-label="monthly"  checked> Monthly Donation
+                      </label>
+                 </div>
+        <div class="row col-md-offset-0">
+                    <button class="btn btn-primary btn-lg btn-block" style="padding:10px; margin:5px;">Donate</button>
+          <h4><a href="<page donate/donate-options>">other ways to donate</a></h4>
+        </div>
+          <!-- Add the extra clearfix for only the required viewport -->
+          <div class="clearfix visible-xs-block"></div>
+      </div>
+        <input type="hidden" id="amount" name="amount" value="100">
+        <input type="hidden" id="a3" name="a3" value="0">
+        <input type="hidden" id="p3" name="p3" value="1">
+        <input type="hidden" id="t3" name="t3" value="M">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="business" value="donations@torproject.org">
+        <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
+        <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
+        <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
+      </form>
+    </div>
+</div>
 
 <!-- BEGIN PAYPAL -->
 <script type="text/javascript" src="$(DOCROOT)/js/jquery.min.js"></script>
 <script type="text/javascript">
 function displayVals() {
-		var radioVal = jQuery('input[@name="amount"]:checked').val();
-      if (radioVal == 'other') {
-        jQuery('#amount').show();
-      } else {
-        jQuery('#amount').val("");
-        jQuery('#amount').hide();
-      }
-      var t3 = jQuery('#t3').val();
-      var amount = jQuery('#amount').val();
-      if(t3 != 0){
-       if( !amount ) {
-		    jQuery('#a3').val(radioVal);
-		 }else{
-		    jQuery('#a3').val(amount);
-		 }
-	    jQuery('#p3').val(1);
-		 jQuery('#cmd').val('_xclick-subscriptions');
-		 jQuery('#item_name').val('Tor Project Membership');
-		 jQuery('#ppinfo').replaceWith('<small id="ppinfo">Requires a PayPal Account</small>');
-	  }else{
-  	  	jQuery('#a3').val(0);
-	  	jQuery('#p3').val(0);
-		jQuery('#cmd').val('_donations');
-   	jQuery('#item_name').val('Donation to the Tor Project');
-		jQuery('#ppinfo').replaceWith('<small id="ppinfo">Does Not Require a PayPal Account</small>');
-	  }
-	  if( !t3 ) {
-      jQuery('#cmd').val('_donations');
-   	jQuery('#item_name').val('Donation to the Tor Project');
-		jQuery('#ppinfo').replaceWith('<small id="ppinfo">Does Not Require a PayPal Account</small>');
-     }
+    var amount = $( this ).filter(":button").html();
+    if (amount == null) {
+        amount = $( this ).filter("input").val();
+        if (amount == null) {
+            amount = 100;
+        } else if (this.id == "exampleInputAmount") {
+            $( "button" ).removeClass('active');
+            $( this ).addClass('active');
+        }
+    } else {
+        $( "button" ).removeClass('active');
+        $( this ).addClass('active');
+        jQuery('#amount').val(amount);
+    }
+    jQuery('#amount').val(amount);
+    jQuery('#a3').val(amount);
 }
 
 jQuery(function(){
- 	jQuery("input[@name='amount']:checked").change(displayVals);
- 	jQuery("input[name='amount']").click(displayVals);
- 	jQuery("#amount").change(displayVals);
- 	jQuery("#t3").change(displayVals);
+ 	jQuery("button[name='amnt']").click(displayVals);
+	//jQuery("input[name='cmd']").click(displayVals);
+ 	jQuery("#exampleInputAmount").click(displayVals);
+ 	jQuery("#exampleInputAmount").change(displayVals);
  	displayVals();
-
 });
 </script>
-
-  <div class="hundred toptwenty">
-	<div class="dbox donate" style="text-align: center;">
-	   <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-		  <p class="type">
-			<select id="t3" name="t3">
-			 <option value="0">One-time Donation</option>
-			 <option value="M">Monthly Subscription</option>
-			</select>
-			<small id="ppinfo">Does Not Require a PayPal
-Account</small>
-		  </p>
-	      <div class="drow" style="text-align: center;">
-	 		 <div style="text-align: center;">
-			  <ul class="amounts">
-              <li>
-		      <select name="currency_code" class="cur">
-			    <option value="USD" selected="selected">$</option>
-			    <option value="EUR">&euro;</option>
-			    <option value="GBP">&pound;</option>
-			   </select>
-             </li>
-		      <li><input type="radio" class="radio" name="amount" value="10.00"><label for="10">10&nbsp;</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="23.00"><label for="23">23&nbsp;</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="100.00" checked="checked"><label for="100">100&nbsp;</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="256.00"><label for="256">256</label></li>
-		      <li><input type="radio" class="radio" name="amount" value="500.00"><label for="500">500</label></li>
-		      <li><input id="other" type="radio" class="radio" name="amount" value="other"><label for="other">other</label></li>
-		      <li><input style="display: none;" type="text" id="amount" class="amount" name="amount"></li>
-		    </ul>
-		   </div>
-		   <div style="text-align: center;">
-			 <input type="hidden" id="a3" name="a3" value="0">
-<!--			 <input class="donate-btn" type="submit" name="donate" value="Donate" alt="Subscribe to Tor with PayPal - it's fast, free and secure!"> -->
-		   </div>
-		     <input type="hidden" id="p3" name="p3" value="1">
-		     <input type="hidden" name="sra" value="1">
-		     <input type="hidden" name="src" value="1">
-		     <input type="hidden" name="no_shipping" value="1">
-		     <input type="hidden" name="no_note" value="1">
-		     <input type="hidden" id="cmd" name="cmd" value="_donations">
-		     <input type="hidden" name="business" value="donations@torproject.org">
-		     <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
-		     <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
-		     <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
-		  </div>
-          <div style="text-align: center;">
-	       <input type="image" src="$(IMGROOT)/paypal_logo.jpg" height="55" name="submit" alt="Subscribe to Tor with PayPal - it's fast, free and secure!"> 
-          </div>
-	 </form>
-	</div>
-  </div>
-<!-- END PAYPAL -->
-  <div class="hundred toptwenty" style="text-align: center;">
-        <a href="<page donate/donate-options>">Other ways to donate</a>
-  </div>
-<!-- END MAINCOL -->
-</div>
-<!--  <div id = "sidecol"> -->
-# include "side-donate.wmi"
-# include "info.wmi"
-<!--  </div> -->
-  <!-- END SIDECOL -->
-<!-- END CONTENT -->
-</div>
-# include <foot.wmi>
+#include <donatefoot.wmi>

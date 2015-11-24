@@ -1,0 +1,10 @@
+    </div>
+    <footer class="container footer">
+            <div class="col-md-12">
+                    <p class="text-center">The Tor Project is a 501(c)(3) US non-profit organization dedicated to research, development, and education about online anonymity and privacy.<br />
+          <a href="<page donate/donor-privacy-policy>">Privacy Policy</a> & <a href="<page donate/donor-faq>">Donor FAQ</a></p>
+            </div>
+    </footer>
+
+  </body>
+</html>
