@@ -62,9 +62,9 @@
   <div class="container">
       <img src="$(IMGROOT)/tor-logo.jpg" alt="Tor Project">
       <ul class="nav navbar-nav navbar-right" style="margin-top:50px; ">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="<page index>">Home</a></li>
+          <li><a href="<page about/overview>">About</a></li>
+          <li><a href="<page about/contact>">Contact</a></li>
       </ul>
       <hr style="margin-top:0;">
   </div>
