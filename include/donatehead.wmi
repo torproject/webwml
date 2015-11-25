@@ -32,7 +32,7 @@
     }
 
     body {
-      margin-bottom: 60px;
+      margin-bottom: 65px;
     }
 
     .footer {
@@ -40,7 +40,7 @@
       bottom: 0;
       width: 100%;
       /* Set the height of the footer here */
-      height: auto;
+      height: 65px;
       padding-top: 10px;
       padding-bottom: 10px;
       background-color: #f5f5f5;
