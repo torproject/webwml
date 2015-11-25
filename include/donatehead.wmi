@@ -12,7 +12,7 @@
 
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
    <meta name="author" content="The Tor Project, Inc.">
    <meta name="keywords" content="anonymity online, tor, tor project, censorship circumvention, traffic analysis, anonymous communications research">
    <meta property="og:image" content="https://www.torproject.org/images/tor-logo.jpg">
