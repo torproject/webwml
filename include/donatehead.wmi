@@ -60,7 +60,7 @@
 </head>
 <body>
   <div class="container">
-      <img src="$(IMGROOT)/tor-logo.jpg" alt="Tor Project">
+     <a href="<page index>"><img src="$(IMGROOT)/tor-logo.jpg" alt="Tor Project Home"></a>
 <!--
       <ul class="nav navbar-nav navbar-right" style="margin-top:50px; ">
           <li><a href="<page index>">Home</a></li>

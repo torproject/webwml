@@ -45,6 +45,7 @@
     <li><a href="https://smile.amazon.com/ch/20-8096820">Amazon Smile</a></li>
     <li><a href="https://www.dwolla.com/hub/thetorproject">Dwolla</a></li>
     <li><a href="<page donate/donate>">Paypal</a></li>
+    <li><a href="#eubanks">EU Bank Transfer</a></li>
     <li class="last"><a href="#cash">Checks or Money Orders</a></li>
   </ul>
   <div class="hundred toptwenty">
@@ -152,8 +153,25 @@ exchange money quickly, safely, at a lower cost.</p>
 &raquo;</a></strong></p>
     </div>
 <!-- END DWOLLA -->
+<!-- BEGIN TRANSFER -->
+    <a id="eubanks"></a>
+    <div class="">
+       <h3 style="margin-top:20px;">Donate via European Bank Transfer</h3>
+       <p>For European bank transfers, we have an arrangement with
+        the Renewable Freedom Foundation to provide tax-deductible donations for
+        Europeans. They will issue a donation receipt upon request. The
+account information is as follows:</p>
+
+  <p>Renewable Freedom Foundation<br>
+     IBAN: DE17721500000053693701<br>
+     BIC:  BYLADEM1ING<br>
+     Sparkasse Ingolstadt<br>
+     Rathausplatz 6<br>
+     85049 Ingolstadt)<br>
+
+     </div>
    </div>
-   </div>
+<!-- END TRANSFER -->
 <!-- BEGIN CHECK -->
    <a id="cash"></a>
    <div class="hundred toptwenty">
@@ -163,8 +181,10 @@ exchange money quickly, safely, at a lower cost.</p>
 	    <p>The Tor Project, Inc<br>
         7 Temple Street, Suite A<br>
         Cambridge, MA 02139-2403 USA</p>
-<!-- END CHECK -->
+    </div>
+  </div>
 
+<!-- END CHECK -->
   <p>Contact us at donations@torproject.org for more donation details.</p>
  </div>
 <!-- END CONTENT -->
