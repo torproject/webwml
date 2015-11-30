@@ -2,85 +2,65 @@
 # Revision: $Revision$
 # Translation-Priority: 3-low
 
-#include "head.wmi" TITLE="Tor Project: Donate to Tor" CHARSET="UTF-8"
-<div id="content" class="clearfix">
-  <div id="breadcrumbs">
-    <a href="<page index>">Home &raquo; </a>
-    <a href="<page donate/donate>">Donate</a>
-  </div>
+#include "donatehead.wmi" TITLE="Tor Project: Donate to Tor" CHARSET="UTF-8"
+
+<style>
+.hlist {
+    padding: 0px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    list-style: outside none none;
+    margin: 0px 0px 18px;
+}
+
+.hlist li {
+    display: inline-block;
+    border-right: 1px solid #444;
+    margin-left: -4px;
+}
+.hlist a {
+    display: block;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 8px;
+}
+
+.hlist li.last {
+    border-right: 0px solid #444;
+}
+</style>
+
+<div id="content" class="container">
 <div id="maincol">
-  <h1>Make A Donation</h1>
-   <p><strong>Your support is critical to our success.</strong> The
-   Tor Project is a US 501(c)(3) non-profit dedicated to research,
-   development, and education about online anonymity and privacy. Donations
-   to The Tor Project may be tax deductible to persons who are in the
-   US; or who pay taxes in countries with reciprocity with the US on
-   charitable donations. Our tax ID number is 20-8096820. We are listed on
-  <a href="http://www2.guidestar.org/organizations/20-8096820/tor-project.aspx">GuideStar</a>.</p>
-
-   <p>We're happy to have you shop and indirectly support us via 
-<a href="http://smile.amazon.com/ch/20-8096820">Amazon Smile</a>. A
-portion of your purchase is donated to help keep us working.</p>
-
-   We're happy to accept direct donations via:</p>
+  <h1>Ways to Donate to Tor</h1>
+  <p>The Tor Project offers the following donation methods:</p>
   <ul class="hlist">
-    <li><a href="<page donate/donate>">Paypal</a></li>
-    <!-- <li><a href="#amazon">Amazon Payments</a></li> -->
-    <li><a href="#dwolla">Dwolla</a></li>
     <li><a href="#bitcoin">Bitcoins</a></li>
-    <li class="last"><a href="#cash">checks, money orders, or bank transfers</a></li>
+    <li><a href="<page donate/donate-amazon>">Amazon Payments</a></li>
+    <li><a href="https://smile.amazon.com/ch/20-8096820">Amazon Smile</a></li>
+    <li><a href="https://www.dwolla.com/hub/thetorproject">Dwolla</a></li>
+    <li><a href="<page donate/donate>">Paypal</a></li>
+    <li class="last"><a href="#cash">Checks or Money Orders</a></li>
   </ul>
-    <p>Contact us at donations@torproject.org for more donation details.</p>
   <div class="hundred toptwenty">
-<!-- BEGIN AMAZON -->
-    <!-- <a name="amazon"></a>
-	 <div class="dbox dsmall">
-		<h3>Donate via Amazon Payments</h3>
-	    <form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
-	      <div class="drow toppad">
-		    <div>
-		     <label for="amazon">&#x24;</label>
-		     <input type="text" name="amount" size="6" value="20">
-			  <input class="donate-btn" type="image" src="$(IMGROOT)/golden_small_donate_withmsg_whitebg.gif">
-		    </div>
-		    <input type="hidden" name="immediateReturn" value="1">
-		    <input type="hidden" name="collectShippingAddress" value="0">
-		    <input type="hidden" name="minimumDonationAmount" value="USD 5">
-		    <input type="hidden" name="isDonationWidget" value="1">
-		    <input type="hidden" name="description" value="Supporting Online Anonymity &amp; Privacy">
-		    <input type="hidden" name="amazonPaymentsAccountId" value="XGSROLNTXRNC3N1P4TXKMNK14LN1D6SZUD8SN1">
-		    <input type="hidden" name="returnUrl" value="https://www.torproject.org/donate/thankyou.html">
-		    <input type="hidden" name="processImmediate" value="1">
-		    <input type="hidden" name="cobrandingStyle" value="logo">
-		    <input type="hidden" name="abandonUrl" value="https://www.torproject.org/donate/donate.html">
-		  </div>
-		</form>
-		<small>Requires an Amazon Account</small>
-	 </div> -->
 <!-- END AMAZON -->
-<!-- BEGIN DWOLLA -->
-    <a id="dwolla"></a>
-    <div class="dbox dsmall dwolla">
-      <h3>Donate via Dwolla</h3>
-      <p>Dwolla is a peer to peer payment platform which allows users to
-exchange money quickly, safely, at a lower cost.</p>
-      <p style="text-align:center;"><strong><a
-href="https://www.dwolla.com/hub/thetorproject">Continue to Dwolla
-&raquo;</a></strong></p>
-    </div>
-<!-- END DWOLLA -->
 <!-- BEGIN BITCOIN -->
    <a id="bitcoin"></a>
    <div class="hundred toptwenty">
     <div class="dbox donate">
     <h3>Bitcoins</h3>
-    <p>Please consider a donation to
-    <a href="https://www.torservers.net/donate.html">Torservers.net</a>,
+    <p>In order to comply with US 501(c)(3) non-profit regulations, our Bitcoin transaction limit is currently $10,000 USD per day.
+    If you wish to avoid transaction limits, please consider a direct Bitcoin donation to
+    <a href="https://www.torservers.net/donate.html#cryptocurrencies">Torservers.net</a>,
     <a href="http://noisetor.net/#bitcoin">NoiseTor</a>,
-    or <a href="https://tails.boum.org/contribute/how/donate/#bitcoin">Tails</a>
-    which will turn your bitcoin donation into a faster, larger Tor
-    Network for all.</p>
-  <p>If you are committed to donating bitcoins to Tor, please complete the form below.</p>
+    <a href="https://www.oniontip.com/">OnionTip</a>,
+    or <a href="https://tails.boum.org/contribute/how/donate/#bitcoin">Tails</a>.</p>
+  <p>If this transaction limit is not an issue for you, please complete the form below:</p>
   <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
         <input name="action" type="hidden" value="checkout">
         <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
@@ -145,24 +125,49 @@ href="https://www.dwolla.com/hub/thetorproject">Continue to Dwolla
     </div>
    </div>
 <!-- END BITCOIN -->
+<!-- BEGIN AMAZON -->
+   <div class="hundred toptwenty">
+    <div class="dbox dsmall dwolla">
+      <h3>Donate via Amazon</h3>
+      <p>Amazon Payments allows you to donate to Tor via several different
+mechanisms using an Amazon account.</p>
+      <p style="text-align:center;"><strong><a
+href="<page donate/donate-amazon>">Donate via Amazon Payments
+&raquo;</a></strong></p>
+    </div>
+    <div class="dbox dsmall dwolla">
+      <h3>Donate via Amazon Smile</h3>
+      <p>Amazon Smile allows you to donate 0.5% of your Amazon purchases to the Tor Project.</p>
+      <p style="text-align:center;"><strong><a href="https://smile.amazon.com/ch/20-8096820">Donate with Amazon Smile
+&raquo;</a></strong></p>
+    </div>
+<!-- END AMAZON -->
+<!-- BEGIN DWOLLA -->
+    <a id="dwolla"></a>
+    <div class="dbox dsmall dwolla">
+      <h3>Donate via Dwolla</h3>
+      <p>Dwolla is a peer to peer payment platform which allows users to
+exchange money quickly, safely, at a lower cost.</p>
+      <p style="text-align:center;"><strong><a href="https://www.dwolla.com/hub/thetorproject">Donate via Dwolla
+&raquo;</a></strong></p>
+    </div>
+<!-- END DWOLLA -->
+   </div>
    </div>
 <!-- BEGIN CHECK -->
    <a id="cash"></a>
    <div class="hundred toptwenty">
      <div class="dbox donate">
-       <h3>Donate via Check, Cash, Money Order, Bank Transfer</h3>
+       <h3>Donate via Check or Money Order</h3>
        <h4>You can send checks or money orders to:</h4>
 	    <p>The Tor Project, Inc<br>
         7 Temple Street, Suite A<br>
         Cambridge, MA 02139-2403 USA</p>
 <!-- END CHECK -->
-<!-- END MAINCOL -->
-</div>
-  <div id = "sidecol">
-#include "side-donate.wmi"
-#include "info.wmi"
-  </div>
-  <!-- END SIDECOL -->
+
+  <p>Contact us at donations@torproject.org for more donation details.</p>
+ </div>
 <!-- END CONTENT -->
 </div>
-#include <foot.wmi>
+</div>
+#include <donatefoot.wmi>
