@@ -59,3 +59,5 @@ RewriteRule ^donate/donate-banner(.*) /donate/donate$1 [R=302,L]
 RewriteRule ^donate/donate-download(.*) /donate/donate$1 [R=302,L]
 RewriteRule ^donate/donate-button(.*) /donate/donate$1 [R=302,L]
 RewriteRule ^donate/giving-tue-blog(.*) /donate/donate$1 [R=302,L]
+RewriteRule ^donate/donate-roger(.*) /donate/donate$1 [R=302,L]
+
