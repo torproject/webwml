@@ -158,9 +158,12 @@ exchange money quickly, safely, at a lower cost.</p>
     <div class="">
        <h3 style="margin-top:20px;">Donate via European Bank Transfer</h3>
        <p>For European bank transfers, we have an arrangement with
-        the Renewable Freedom Foundation to provide tax-deductible donations for
-        Europeans. They will issue a donation receipt upon request. The
-account information is as follows:</p>
+        the Renewable Freedom Foundation to provide
+<a href="http://www.solicitorsjournal.com/news/private-client/charities/gifts-foreign-charities-are-tax-deductible-ecj-rules">tax-deductible</a>
+        donations for
+        Europeans. They will issue a donation receipt <a
+        href="https://renewablefreedom.org/contact/">upon request</a>. The
+        account information is as follows:</p>
 
   <p>Renewable Freedom Foundation<br>
      IBAN: DE17721500000053693701<br>
@@ -191,3 +194,4 @@ account information is as follows:</p>
 </div>
 </div>
 #include <donatefoot.wmi>
+
