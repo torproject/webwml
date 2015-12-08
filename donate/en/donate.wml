@@ -92,7 +92,7 @@
               <button id="donate-btn" class="btn btn-primary btn-lg btn-block" style="padding:10px;">Donate</button>
               <h5 class="error-msg">Please enter an amount above $5</h5>
               <h5>via PayPal (doesn't require an account)</h5>
-              <h4><a href="../donate/donate-options.html.en">Other Ways to Donate</a></h4>
+              <h4><a href="<page donate/donate-options>">Other Ways to Donate</a></h4>
             </div>
             <input type="hidden" id="amount" name="amount" value="">
             <input type="hidden" id="a3" name="a3" value="0">
