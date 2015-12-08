@@ -84,13 +84,13 @@
                 <label class="sr-only" for="exampleInputAmount">1</label>
                 <div class="input-group">
                   <div class="input-group-addon">$</div>
-                  <input type="number" min="5" step="1" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="other (minimum $5)">
+                  <input type="number" min="5" step="1" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="other amount">
                 </div>
               </div>
             </div>
             <div style="padding: 0 15px;">
+              <h5 class="error-msg">The minimum donation amount is $5</h5>
               <button id="donate-btn" class="btn btn-primary btn-lg btn-block" style="padding:10px;">Donate</button>
-              <h5 class="error-msg">Please enter an amount above $5</h5>
               <h5>via PayPal (doesn't require an account)</h5>
               <h4><a href="<page donate/donate-options>">Other Ways to Donate</a></h4>
             </div>
