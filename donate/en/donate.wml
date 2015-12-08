@@ -5,102 +5,200 @@
 #include "donatehead.wmi" TITLE="Donate to keep Tor alive!" CHARSET="UTF-8"
 
 <div class="donation">
-    <div class="container"> 
-        <div class="row">
-            <div class="col-md-6">
-              
-              <h2 style="padding:2px; margin-bottom:10px;" class="text-justify">This is what a Tor supporter looks like:</h2>
-              <div class="row col-md-offset-0">
-        <div class="col-md-4" style="padding:10px;">
-           <img src="$(IMGROOT)/laura_poitras.jpg" class="class=img-rounded img-responsive" alt="Laura Poitras">
-        </div>
-                <div class="col-md-8 col-md-offset-0">
-                    <h1><small>Laura Poitras</small></h1>
-                    <blockquote style="padding:5px;">"Edward Snowden would not have been able to contact me without Tor and other free software encryption projects. Journalists need Tor to protect their sources and to research freely. It is an essential tool, and it needs our support."</blockquote>
+          
+      <div class="quote-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3 img-section">
+                  <img src="$(IMGROOT)/roger.png" class="img-thumbnail img-responsive champion" alt="Roger Dingledine">
                 </div>
+
+                <div class="col-sm-9 col-xs-offset-0">
+                  <blockquote>
+      Tor has millions of users around the globe, and many people making donations can create a sustainable Tor.
+      Your contributions in our first ever fundraising campaign will form a strong foundation and inspire others to give to Tor.
+                    <footer class="pull-right source-quote"><cite title="Source Title">Roger Dingledine</cite></footer>
+                  </blockquote>
+                </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-7">
+          <h2 class="main-text">Your support is critical to our success</h2>
+          <hr>
+          <p style="text-align:left;">Donate $23+, get one of this swags, take a picture with it and share it with us via <code><a href="https://twitter.com/search?q=%23SupportTor" target="_blank">#supportTor</a></code> hashtag.</p>
+          
+          <noscript class="perks">
+            <h4 style="text-align:left; padding-top:10px;"><b>Perks</b></h4>
+            <p style="text-align:left;">Donate $23+ to get a <b>pack of stickers</b></p>
+            <p style="text-align:left;">Donate $100+ to get a <b>Tor supporter tshirt</b></p>
+            <p style="text-align:left;">Donate $500+ to get a <b>hoodie</b></p>
+          </noscript>
+
+          <h4 style="text-align:left; padding-top:10px;"><b>Perks</b></h4>
+          <div class="col-sm-4 no-padding"><img id="stickers" class="img-responsive half-opacity" src="$(IMGROOT)/swag-stickers-lg.png" alt="stickers"></div>
+          <div class="col-sm-4 no-padding"><img id="tshirt" class="img-responsive half-opacity" src="$(IMGROOT)/swag-tees-lg.png" alt="tshirt"></div>
+          <div class="col-sm-4 no-padding"><img id="hoody" class="img-responsive half-opacity" src="$(IMGROOT)/swag-hoody-lg.png" alt="hoody"></div>
+
+        </div>
+        <div class="donate-section col-sm-5">
+          <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <div class="row col-md-offset-0 combined-input">
+                <div class="left col-xs-6 btn btn-default btn-lg active">
+                  <label class="choiceLabel">
+                    <input class="sr-only" name="cmd" id="blankRadio1" type="radio" value="_donations" aria-label="one_time"checked >
+                    <span>One-time</span>
+                  </label>
+                </div>
+                <div class="right col-xs-6 btn btn-default btn-lg ">
+                  <label class="choiceLabel">
+                    <input class="sr-only" name="cmd" id="blankRadio2" type="radio" value="_xclick-subscriptions" aria-label="monthly">
+                    <span>Monthly</span>
+                  </label>
                 </div>
             </div>
-            <div class="col-md-6">
-        <div style="margin-left:20px;">
-          <h2 class="text-justify">Donate!</h2>
-        </div>
 
-       <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <div class="btn-group btn-group-lg" role="group" style="margin-bottom: 30px;">
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="10" id="amount10" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn">$10</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="23" id="amount23" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a sticker!">$23</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="100" id="amount100" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a tshirt!">$100</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="256" id="amount256" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a tshirt!">$256</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="500" id="amount500" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a hoody!">$500</button>
+              </div>
+              <div class="col-xs-6 form-group-lg">
+                <label class="sr-only" for="exampleInputAmount">1</label>
+                <div class="input-group">
+                  <div class="input-group-addon">$</div>
+                  <input type="number" min="5" step="1" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="other (minimum $5)">
+                </div>
+              </div>
+            </div>
+            <div style="padding: 0 15px;">
+              <button id="donate-btn" class="btn btn-primary btn-lg btn-block" style="padding:10px;">Donate</button>
+              <h5 class="error-msg">Please enter an amount above $5</h5>
+              <h5>via PayPal (doesn't require an account)</h5>
+              <h4><a href="../donate/donate-options.html.en">Other Ways to Donate</a></h4>
+            </div>
+            <input type="hidden" id="amount" name="amount" value="">
+            <input type="hidden" id="a3" name="a3" value="0">
+            <input type="hidden" id="p3" name="p3" value="1">
+            <input type="hidden" id="t3" name="t3" value="M">
+            <input type="hidden" name="sra" value="1">
+            <input type="hidden" name="src" value="1">
+            <input type="hidden" name="no_shipping" value="1">
+            <input type="hidden" name="no_note" value="1">
+            <input type="hidden" name="business" value="donations@torproject.org">
+            <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
+            <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
+            <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
 
-                <div style="margin-top:20px;" class="btn-group btn-group-lg" role="group">
-                    <div style="padding-bottom:5px;" class="col-md-4"><button id="amount1" name="amnt" type="button" class="btn btn-default btn-lg btn-block">10</button></div>
-                    <div style="padding-bottom:5px;" class="col-md-4"><button id="amount2" name="amnt" type="button" class="btn btn-default btn-lg btn-block active" data-toggle="tooltip" data-placement="bottom" title="You get a tshirt!">100</button></div>
-                    <div style="padding-bottom:5px;" class="col-md-4" ><button id="amount3" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="You get a tshirt!">256</button></div>
-          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount4" name="amnt" type="button" class="btn btn-default btn-lg btn-block" title="You get a sticker!">23</button></div>
-          <div style="padding-bottom:5px;" class="col-md-4"><button id="amount5" name="amnt" type="button" class="btn btn-default btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="You get a hoody!">500</button></div>
-                    <div class="row form-group-lg">
-                        <label class="sr-only" for="exampleInputAmount">1</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">$</div>
-                                    <input type="text" name="custom_amnt" class="form-control" id="exampleInputAmount">
-                            </div>
-                    </div>
-        </div>
-                  <div style="padding:10px;" class="row col-md-offset-0">
-                      <label>
-                         <input type="radio" name="cmd" id="blankRadio1" value="_donations" aria-label="one_time"> One-time Donation
-                      </label>
 
-                      <label>
-                         <input type="radio" name="cmd" id="blankRadio2" value="_xclick-subscriptions" aria-label="monthly"  checked> Monthly Donation
-                      </label>
-                 </div>
-        <div class="row col-md-offset-0">
-                    <button class="btn btn-primary btn-lg btn-block" style="padding:10px; margin:5px;">Donate</button>
-          <h4><a href="<page donate/donate-options>">other ways to donate</a></h4>
+          </form>
         </div>
-          <!-- Add the extra clearfix for only the required viewport -->
-          <div class="clearfix visible-xs-block"></div>
       </div>
-        <input type="hidden" id="amount" name="amount" value="100">
-        <input type="hidden" id="a3" name="a3" value="0">
-        <input type="hidden" id="p3" name="p3" value="1">
-        <input type="hidden" id="t3" name="t3" value="M">
-        <input type="hidden" name="sra" value="1">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="no_shipping" value="1">
-        <input type="hidden" name="no_note" value="1">
-        <input type="hidden" name="business" value="donations@torproject.org">
-        <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
-        <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
-        <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
-      </form>
     </div>
-</div>
+  
 
-<!-- BEGIN PAYPAL -->
-<script type="text/javascript" src="$(DOCROOT)/js/jquery.min.js"></script>
-<script type="text/javascript">
-function displayVals() {
-    var amount = $( this ).filter(":button").html();
+
+  </div>
+
+
+  <!-- PAYPAL -->
+  <script type="text/javascript" src="$(DOCROOT)/js/jquery.min.js"></script>
+  <script type="text/javascript">
+  function displayVals() {
+    var amount = $( this ).filter(".amnt-btn").val();
     if (amount == null) {
-        amount = $( this ).filter("input").val();
-        if (amount == null) {
-            amount = 100;
-        } else if (this.id == "exampleInputAmount") {
-            $( "button" ).removeClass('active');
-            $( this ).addClass('active');
-        }
-    } else {
+      amount = $("#exampleInputAmount").val();
+      if ($('#amount').val() == "") {
+        amount = 23
+        $( "#amount23" ).addClass('active');
+      } else if (this.id == "exampleInputAmount") {
         $( "button" ).removeClass('active');
         $( this ).addClass('active');
-        jQuery('#amount').val(amount);
+      }
+    } else {
+      $( ".amnt-btn" ).removeClass('active');
+      $( this ).addClass('active');
+      $('#amount').val(amount);
     }
-    jQuery('#amount').val(amount);
-    jQuery('#a3').val(amount);
-}
+    $('#amount').val(amount);
+    $('#a3').val(amount);
+    
+    $("button[name='amnt']").click(function () {
+      $(".form-control").val(null);
+      $(".error-msg").css("display","none");
+    });
 
-jQuery(function(){
- 	jQuery("button[name='amnt']").click(displayVals);
-	//jQuery("input[name='cmd']").click(displayVals);
- 	jQuery("#exampleInputAmount").click(displayVals);
- 	jQuery("#exampleInputAmount").change(displayVals);
- 	displayVals();
-});
-</script>
+    if (23 <= parseInt($("#amount").val()) && parseInt($("#amount").val()) < 100) {
+      $("#stickers").css("opacity","1");
+      $("#tshirt").css("opacity","0.5");
+      $("#hoody").css("opacity","0.5");
+    }else if (100 <= parseInt($("#amount").val()) && parseInt($("#amount").val()) < 500) {
+      $("#tshirt").css("opacity","1");
+      $("#stickers").css("opacity","0.5");
+      $("#hoody").css("opacity","0.5");
+    }else if (500 <= parseInt($("#amount").val())) {
+      $("#hoody").css("opacity","1");
+      $("#stickers").css("opacity","0.5");
+      $("#tshirt").css("opacity","0.5");
+    }else{
+      $("#hoody").css("opacity","0.5");
+      $("#stickers").css("opacity","0.5");
+      $("#tshirt").css("opacity","0.5");
+    }
+
+  }
+  $( document ).ready(function() {
+    $("button[name='amnt']").click(displayVals);
+    $("#exampleInputAmount").click(displayVals);
+    $("#exampleInputAmount").change(displayVals);
+    displayVals();
+
+    $("#exampleInputAmount").change(function(){
+      if ($("#amount").val() == "" || parseInt($("#amount").val()) < 5) {
+        $(".error-msg").css("display","block");
+      } else{
+        $(".error-msg").css("display","none");
+      }
+    });
+
+    $("#donate-btn").click(function(event){
+      if ($("#amount").val() == "" || parseInt($("#amount").val()) < 5) {
+        event.preventDefault();
+        $(".error-msg").css("display","block");
+      } else{
+        $(".error-msg").css("display","none");
+      }
+    });
+
+    $(".left").click(function(){
+      $(".left").addClass('active');
+      $(".right").removeClass('active');
+    });
+    $(".right").click(function(){
+      $(".right").addClass('active');
+      $(".left").removeClass('active');
+    });
+    
+  });
+
+
+  </script>
+
 #include <donatefoot.wmi>
