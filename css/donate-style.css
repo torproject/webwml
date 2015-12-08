@@ -1,0 +1,357 @@
+/* Some primery changes for bootstrap */
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+a:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+      outline: none;
+}
+.form-control:focus {
+	border-color: #875ca4;
+	outline: 0;
+	-webkit-box-shadow: none;
+        	box-shadow: none;
+}
+.btn-default:active,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default {
+    color: #fff;
+    background: #875ca4;
+    border-color: #875ca4;
+}
+.btn:active, .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a {
+    color: #875ca4;
+}
+a:hover, a:focus {
+    color: #663987;
+    text-decoration: none;
+}
+.btn-primary:hover {
+    background-color: #784B96;
+    border-color: #784B96;
+}
+.btn-primary {
+    background-color: #875ca4;
+    border-color: #875ca4;
+}
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus{
+    background-color: #663987;
+    border-color: #663987;
+}
+.navbar-brand {
+    height: auto;
+    padding: 0;
+}
+.navbar-default {
+    background: white;
+    border: none;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+float: right!important;
+}
+
+
+.navbar-header {
+float: left;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav{
+	margin: 0;
+}
+.img-thumbnail {
+  padding: 1px;
+  background-color: #794d9a;
+  border: 1px solid #794d9a;
+  -webkit-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+#navbar {
+    margin-top: 28px;
+}
+.logo{
+    width: 120px;
+}
+.donation{
+	text-align: center;
+	margin-bottom: 125px;
+}
+.main-text{
+	margin-top: 50px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	border-bottom: 3px solid #794d9a;
+}
+.donate-section{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.no-padding{
+	padding: 0;
+}
+.half-opacity{
+	opacity: 0.5;
+}
+.combined-input{
+	margin: 0 15px 35px 15px;
+}
+.left.btn-lg, .btn-group-lg > .btn{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.right.btn-lg, .btn-group-lg > .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.right{
+    border-left-width: 0px !important;
+}
+.choiceLabel{
+    cursor: pointer !important;
+    margin: 0px !important;
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+}
+.combined-input > .btn-lg,
+.combined-input > .btn {
+	padding: 0;
+	min-height: 44px;
+	line-height: 44px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type=number] {
+	-moz-appearance: textfield;
+}
+.error-msg{
+	color: red;
+	display: none;
+}
+.quote-section{
+	background-color:#663987;
+	padding: 20px 0;
+}
+.champion{
+	width: 100%;
+}
+.source-quote{
+	margin-top: 30px;
+	color: white;
+}
+blockquote {
+	text-align: justify;
+	display: block;
+	padding: 5px 0px 5px 45px;
+	margin: 20px 0 0 0;
+	position: relative;
+	font-size: 20px;
+	border-left: 5px solid #794d9a;
+    color: #ffffff;
+}
+blockquote::before {
+	content: "\201C";
+	position: absolute;
+	left: 10px;
+	top: -20px;
+	font-size: 80px;
+}
+blockquote footer{
+	color: rgb(240,240,240);
+}
+footer.footer{
+	margin-top: 20px;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the height of the footer here */
+    /*height: 65px;*/
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+}
+@media (max-width: 991px) {
+	blockquote {
+		margin: 30px 0 0 0;
+		font-size: 18px;
+	}
+	.champion{
+		width: 140px;
+	}
+	.source-quote{
+		margin-top: 20px;
+	}
+}
+@media (max-width: 767px)  {
+	.main-text{
+		font-size: 28px;
+	}
+	blockquote {
+		margin: 2% 0 0 0;
+		font-size: 16px;
+		border: none;
+	}
+	.img-section{
+		width: 20%;
+		float: left;
+	}
+	blockquote::before {
+		display: none;
+	}
+
+}
+@media (max-width: 659px)  {
+	.main-text{
+		font-size: 26px;
+	}
+	blockquote {
+		font-size: 17px;
+		margin: 0;
+	}
+	.img-section{
+		width: 30%;
+	}
+	.champion{
+		width: 100%;
+	}
+}
+@media (max-width: 549px)  {
+	.main-text{
+		font-size: 24px;
+	}
+	blockquote {
+		font-size: 15px;
+	}
+}
+@media (max-width: 449px)  {
+	.main-text{
+		font-size: 22px;
+	}
+	blockquote {
+		font-size: 14px;
+		padding: 0;
+	}
+
+}
+
+@media (max-width: 399px)  {
+	.logo {
+	    text-align: center;
+	    width: 25%;
+	    float: none;
+	}
+	.navbar-header{
+		width: 100%;
+	    text-align: center;	
+	}
+	.navbar-brand > img {
+    	display: initial;
+	}
+	.navbar-brand {
+    	float: initial;
+	}
+	.container > .navbar-header,
+	.container-fluid > .navbar-header,
+	.container > .navbar-collapse,
+		.container-fluid > .navbar-collapse {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+	.navbar-nav.navbar-right:last-child {
+	    margin-right: 0 !important;
+	}
+	#navbar{
+		width: 100%;
+		margin: 0;
+		height: 53px;
+	}
+	#navbar > li {
+	    width: 33.3%;
+	    text-align: center;
+	}
+	.main-text{
+		font-size: 20px;
+	}
+	#donate > .btn-group > .col-xs-6 {
+    width: 100%;
+	}
+	blockquote {
+		font-size: 14px;
+		padding: 0;
+	}
+	.img-section{
+		width: 35%;
+	}
+	footer.footer {
+	    margin-top: 10px;
+	    margin-bottom: 0px;
+	}
+	footer.footer > p {
+	    font-size: 12px;
+	}
+
+}
+
