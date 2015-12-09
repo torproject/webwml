@@ -33,7 +33,7 @@
             by the Tor Project. The paid staff of the Tor Project
             is very small: about 20 people in total. You can read
             about the core contributors to the Tor Project on our <a
-            href="https://www.torproject.org/about/corepeople.html.en"
+            href="<page about/corepeople>"
             target="_blank">Core People page</a>.</p>
           </li>
           <li>
@@ -48,14 +48,14 @@
             <p><strong>Can anyone use Tor?</strong></p>
             <p>Yes! Tor is free, and anyone can
             use it. To get started, you will need to <a
-            href="https://www.torproject.org/projects/torbrowser.html.en"
+            href="<page projects/torbrowser>"
             target="_blank">download the Tor browser</a>. We
             offer instructions on how to download for <a
-            href="https://www.torproject.org/projects/torbrowser.html.en#windows"
+            href="<page projects/torbrowser>#windows"
             target="_blank">Windows</a>, <a
-            href="https://www.torproject.org/projects/torbrowser.html.en#macosx"
+            href="<page projects/torbrowser>#macosx"
             target="_blank">Mac OS X</a> and <a
-            href="https://www.torproject.org/projects/torbrowser.html.en#linux"
+            href="<page projects/torbrowser>#linux"
             target="_blank">Linux</a>.</p>
           </li>
           <li>
@@ -83,13 +83,13 @@
             from finding out what sites you are visiting. It also
             prevents sites you visit from finding out where you're
             located. You can read more about how Tor works on our <a
-            href="https://www.torproject.org/about/overview.html.en"
+            href="<page about/overview>"
             target="_blank">overview page</a>.</p>
           </li>
           <li>
             <p><strong>I would like to know more about how Tor works,
             what hidden services are, or how to run a relay.</strong></p>
-            <p><a href="https://www.torproject.org/docs/faq.html.en"
+            <p><a href="<page docs/faq>"
             target="_blank">This Tor Project FAQ</a> has answers to all
             those questions, and more.</p>
           </li>
@@ -127,7 +127,7 @@
             <p><strong>Where can I find out more about the Tor Project,
             especially financial information?</strong></p>
             <p>Here are the Tor Project's <a
-            href="https://www.torproject.org/about/financials.html.en"
+            href="<page about/financials>"
             target="_blank">financial statements, and its Form
             990</a>.</p>
           </li>
@@ -140,8 +140,8 @@
             from people like you. The exact percentage varies by year,
             but in any given year, 80-90% of the Tor Project's funding
             comes from United States government funding sources. See
-            <a href="https://www.torproject.org/about/sponsors.html.en"
-            target="_blank">https://www.torproject.org/about/sponsors.html.en</a>
+            <a href="<page about/sponsors>"
+            target="_blank">https://www.torproject.org/about/sponsors</a>
             for more.</p>
           </li>
           <li>
@@ -252,7 +252,7 @@
           <li>
             <p><strong>Can I donate via bitcoin?</strong></p>
             <p>Yes! We accept <a
-            href="https://www.torproject.org/donate/donate-options.html.en"
+            href="<page donate/donate-options>"
             target="_blank">bitcoin via BitPay</a>.</p>
           </li>  
           <li>
@@ -305,7 +305,7 @@
             in a different country, let us know and we will
             try to offer tax-deductibility in your country in
             future.  Or, if you are in Germany, France or Sweden, <a
-            href="https://www.torproject.org/docs/faq.html.en#RelayDonations"
+            href="<page docs/faq>#RelayDonations"
             target="_blank">these organizations support the Tor
             network</a> and may be able to offer you tax-deductibility
             for your donation.</p>
@@ -314,13 +314,13 @@
             <p><strong>What if I don't want to use PayPal? Is there
             another way I can donate? </strong></p>
             <p>Yes! Here is a list of <a
-            href="https://www.torproject.org/donate/donate-options.html.en"
+            href="<page donate/donate-options>"
             target="_blank">other ways you can donate</a>.</p>
           </li>
           <li>
             <p><strong>What is your donor privacy policy?</strong></p>
             <p>Here is the Tor Project <a
-            href="donor-privacy-policy.html.en" target="_blank">donor
+            href="<page donate/donor-privacy-policy>" target="_blank">donor
             privacy policy</a>.</p>
           </li>
           <li>
@@ -406,7 +406,7 @@
           <li>
             <p><strong>Can I donate my time?</strong></p>
             <p>Yes. Here's a <a
-            href="https://www.torproject.org/getinvolved/volunteer.html.en"
+            href="<page getinvolved/volunteer>"
             target="_blank">list of areas where we would love your
             help</a>.</p>
           </li>
@@ -418,7 +418,7 @@
             company may operate a corporate foundation that
             gives out grants, and if so, you should encourage it
             to fund us. Maybe your company would be willing to <a
-            href="https://www.torproject.org/docs/faq.html.en#HowDoIDecide"
+            href="<page docs/faq>#HowDoIDecide"
             target="_blank">operate a Tor relay</a>. If your company
             sells cloud services, perhaps it could donate these to Tor:
             We use them in some anti-censorship projects.</p>
