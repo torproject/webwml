@@ -35,7 +35,7 @@
 }
 </style>
 
-<div id="content" class="container">
+<div id="content" class="container" style="padding-bottom: 85px">
 <div id="maincol">
   <h1>Ways to Donate to Tor</h1>
   <p>The Tor Project offers the following donation methods:</p>
