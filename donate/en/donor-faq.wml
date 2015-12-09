@@ -14,128 +14,331 @@
           <ol>
           <li>
             <p><strong>What is the Tor Project and what does it do?</strong></p>
-            <p>The Tor Project’s mission is to advance human rights and freedoms by creating and deploying free and open anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding. The main product of the Tor Project is the Tor Browser, which enables people to browse the internet anonymously.  The Tor Project is a 501(c)3 tax-exempt non-profit organization based in Boston, Massachusetts. It was founded in 2006.</p>
+            <p>The Tor Project’s mission is to advance human rights
+            and freedoms by creating and deploying free and open
+            anonymity and privacy technologies, supporting their
+            unrestricted availability and use, and furthering their
+            scientific and popular understanding. The main product of
+            the Tor Project is the Tor Browser, which enables people
+            to browse the internet anonymously.  The Tor Project is a
+            501(c)3 tax-exempt non-profit organization based in Boston,
+            Massachusetts. It was founded in 2006.</p>
           </li>
           <li>
             <p><strong>Who works for the Tor Project, and what do they do?</strong></p>
-            <p>Thousands people around the world actively support the work of the Tor Project, including developers, designers, relay operators, researchers, cryptographers, computer scientists, and privacy advocates, and most are not paid by the Tor Project. The paid staff of the Tor Project is very small: about 20 people in total. You can read about the core contributors to the Tor Project on our <a href="https://www.torproject.org/about/corepeople.html.en" target="_blank">Core People page</a>.</p>
+            <p>Thousands people around the world actively support the
+            work of the Tor Project, including developers, designers,
+            relay operators, researchers, cryptographers, computer
+            scientists, and privacy advocates, and most are not paid
+            by the Tor Project. The paid staff of the Tor Project
+            is very small: about 20 people in total. You can read
+            about the core contributors to the Tor Project on our <a
+            href="https://www.torproject.org/about/corepeople.html.en"
+            target="_blank">Core People page</a>.</p>
           </li>
           <li>
             <p><strong>Who uses Tor?</strong></p>
-            <p>The vast majority of Tor users are ordinary people who want control of their privacy online or people whose internet use is censored. Other Tor users are journalists, human rights defenders, domestic violence survivors, policymakers, diplomats, and academic and research institutions.</p>
+            <p>The vast majority of Tor users are ordinary people who
+            want control of their privacy online or people whose internet
+            use is censored. Other Tor users are journalists, human
+            rights defenders, domestic violence survivors, policymakers,
+            diplomats, and academic and research institutions.</p>
           </li>
           <li>
             <p><strong>Can anyone use Tor?</strong></p>
-            <p>Yes! Tor is free, and anyone can use it. To get started, you will need to <a href="https://www.torproject.org/projects/torbrowser.html.en" target="_blank">download the Tor browser</a>. We offer instructions on how to download for <a href="https://www.torproject.org/projects/torbrowser.html.en#windows" target="_blank">Windows</a>, <a href="https://www.torproject.org/projects/torbrowser.html.en#macosx" target="_blank">Mac OS X</a> and <a href="https://www.torproject.org/projects/torbrowser.html.en#linux" target="_blank">Linux</a>.</p>
+            <p>Yes! Tor is free, and anyone can
+            use it. To get started, you will need to <a
+            href="https://www.torproject.org/projects/torbrowser.html.en"
+            target="_blank">download the Tor browser</a>. We
+            offer instructions on how to download for <a
+            href="https://www.torproject.org/projects/torbrowser.html.en#windows"
+            target="_blank">Windows</a>, <a
+            href="https://www.torproject.org/projects/torbrowser.html.en#macosx"
+            target="_blank">Mac OS X</a> and <a
+            href="https://www.torproject.org/projects/torbrowser.html.en#linux"
+            target="_blank">Linux</a>.</p>
           </li>
           <li>
             <p><strong>What kinds of people support Tor?</strong></p>
-            <p>All kinds of people. Thousands of individuals have donated to support the Tor Project, and we have also received funding from a wide range of organizations including Google, the Ford Foundation, the Knight Foundation, Reddit, the U.S. National Science Foundation, the Electronic Frontier Foundation, Human Rights Watch, the Swedish International Development Cooperation Agency, the Federal Foreign Office of Germany, the U.S. Naval Research Laboratory, Omidyar Network, SRI International, and Radio Free Asia. People also support Tor in non-financial ways, for example by running Tor relays and exit nodes. In addition, everybody who uses Tor is helping to keep other users safe and anonymous, because the more people using Tor, the harder it is to identify any single individual</p>
+            <p>All kinds of people. Thousands of individuals have donated
+            to support the Tor Project, and we have also received funding
+            from a wide range of organizations including Google, the Ford
+            Foundation, the Knight Foundation, Reddit, the U.S. National
+            Science Foundation, the Electronic Frontier Foundation,
+            Human Rights Watch, the Swedish International Development
+            Cooperation Agency, the Federal Foreign Office of Germany,
+            the U.S. Naval Research Laboratory, Omidyar Network, SRI
+            International, and Radio Free Asia. People also support Tor in
+            non-financial ways, for example by running Tor relays and exit
+            nodes. In addition, everybody who uses Tor is helping to keep
+            other users safe and anonymous, because the more people using
+            Tor, the harder it is to identify any single individual</p>
           </li>
           <li>
             <p><strong>How does the Tor software work to protect people's anonymity?</strong></p>
-            <p>Tor protects you by bouncing your communications around the Tor network, which is a distributed network of relays run by volunteers all around the world. If someone is watching your internet connection, Tor prevents them from finding out what sites you are visiting. It also prevents sites you visit from finding out where you're located. You can read more about how Tor works on our <a href="https://www.torproject.org/about/overview.html.en" target="_blank">overview page</a>.</p>
+            <p>Tor protects you by bouncing your communications around
+            the Tor network, which is a distributed network of relays
+            run by volunteers all around the world. If someone is
+            watching your internet connection, Tor prevents them
+            from finding out what sites you are visiting. It also
+            prevents sites you visit from finding out where you're
+            located. You can read more about how Tor works on our <a
+            href="https://www.torproject.org/about/overview.html.en"
+            target="_blank">overview page</a>.</p>
           </li>
           <li>
-            <p><strong>I would like to know more about how Tor works, what hidden services are, or how to run a relay.</strong></p>
-            <p><a href="https://www.torproject.org/docs/faq.html.en" target="_blank">This Tor Project FAQ</a> has answers to all those questions, and more.</p>
+            <p><strong>I would like to know more about how Tor works,
+            what hidden services are, or how to run a relay.</strong></p>
+            <p><a href="https://www.torproject.org/docs/faq.html.en"
+            target="_blank">This Tor Project FAQ</a> has answers to all
+            those questions, and more.</p>
           </li>
           <li>
             <p><strong>Does the Tor software work?</strong></p>
-            <p>We believe Tor is the best solution available today, and we know that it does a better job of keeping you safely anonymous than other options such as VPNs, proxychains, or browser "private browsing" modes. We know that both the Russian government and the NSA have tried in the past to crack Tor, and failed. The Electronic Frontier Foundation says that Tor offers "<a href="https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor" target="_blank">some of the strongest anonymity software that exists</a>, and in his book Data and Goliath, security expert Bruce Schneier wrote "The current best tool to protect your anonymity when browsing the web is Tor."</p>
+            <p>We believe Tor is the best solution available today,
+            and we know that it does a better job of keeping you
+            safely anonymous than other options such as VPNs,
+            proxychains, or browser "private browsing" modes. We
+            know that both the Russian government and the NSA
+            have tried in the past to crack Tor, and failed. The
+            Electronic Frontier Foundation says that Tor offers "<a
+            href="https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor"
+            target="_blank">some of the strongest anonymity software
+            that exists</a>, and in his book Data and Goliath, security
+            expert Bruce Schneier wrote "The current best tool to protect
+            your anonymity when browsing the web is Tor."</p>
           </li>
           <li>
-            <p><strong>Is what Tor does legal? Can I get in trouble for using it?</strong></p>
-            <p>Downloading the Tor browser or using the Tor network is legal in nearly every country. A few web sites occasionally block Tor, but that doesn't mean you're doing anything wrong. Usually it means that site has had difficulties with visitors who've been using Tor in the past, or that they misunderstand what Tor is and how it works (we’re working to change this). But it is not illegal to use Tor, and you shouldn't get in trouble for doing it. You can find more information about Tor's legal status <a href="https://www.eff.org/torchallenge/faq.html" target="_blank">on the EFF site</a>.</p>
+            <p><strong>Is what Tor does legal? Can I get in trouble for
+            using it?</strong></p>
+            <p>Downloading the Tor browser or using the Tor network
+            is legal in nearly every country. A few web sites
+            occasionally block Tor, but that doesn't mean you're
+            doing anything wrong. Usually it means that site has had
+            difficulties with visitors who've been using Tor in the
+            past, or that they misunderstand what Tor is and how it
+            works (we’re working to change this). But it is not
+            illegal to use Tor, and you shouldn't get in trouble for
+            doing it. You can find more information about Tor's legal
+            status <a href="https://www.eff.org/torchallenge/faq.html"
+            target="_blank">on the EFF site</a>.</p>
           </li>
           <li>
-            <p><strong>Where can I find out more about the Tor Project, especially financial information?</strong></p>
-            <p>Here are the Tor Project's <a href="https://www.torproject.org/about/financials.html.en" target="_blank">financial statements, and its Form 990</a>.</p>
+            <p><strong>Where can I find out more about the Tor Project,
+            especially financial information?</strong></p>
+            <p>Here are the Tor Project's <a
+            href="https://www.torproject.org/about/financials.html.en"
+            target="_blank">financial statements, and its Form
+            990</a>.</p>
           </li>
           <li>
-            <p><strong>Where does the Tor Project's money come from?</strong></p>
-            <p>Tor is supported by United States government funding agencies, NGOs, private foundations, research institutions, private companies, and nearly 8,000 personal donations from people like you. The exact percentage varies by year, but in any given year, 80-90% of the Tor Project's funding comes from United States government funding sources. See <a href="https://www.torproject.org/about/sponsors.html.en" target="_blank">https://www.torproject.org/about/sponsors.html.en</a> for more.</p>
+            <p><strong>Where does the Tor Project's money come
+            from?</strong></p>
+            <p>Tor is supported by United States government funding
+            agencies, NGOs, private foundations, research institutions,
+            private companies, and nearly 8,000 personal donations
+            from people like you. The exact percentage varies by year,
+            but in any given year, 80-90% of the Tor Project's funding
+            comes from United States government funding sources. See
+            <a href="https://www.torproject.org/about/sponsors.html.en"
+            target="_blank">https://www.torproject.org/about/sponsors.html.en</a>
+            for more.</p>
           </li>
           <li>
-            <p><strong>How much money does the Tor Project spend annually, and what is it used for?</strong></p>
-            <p>The Tor Project spends about $2.5 million annually. About 80% of the Tor Project's spending goes on staffing, mostly software engineers. About 10% goes towards administrative costs such as accounting and legal costs and bank fees. The remaining 10% is spent on travel, meetings and conferences, which are important for Tor because the Tor community is global.</p>
+            <p><strong>How much money does the Tor Project spend annually,
+            and what is it used for?</strong></p>
+            <p>The Tor Project spends about $2.5 million annually. About
+            80% of the Tor Project's spending goes on staffing, mostly
+            software engineers. About 10% goes towards administrative
+            costs such as accounting and legal costs and bank fees. The
+            remaining 10% is spent on travel, meetings and conferences,
+            which are important for Tor because the Tor community is
+            global.</p>
           </li>
           <li>
             <p><strong>Is my donation tax-deductible?</strong></p>
-            <p>If you pay taxes in the United States, your donation to Tor is tax deductible to the full extent required by law. The tax ID number for the Tor Project is 20-8096820.</p>
+            <p>If you pay taxes in the United States, your donation to
+            Tor is tax deductible to the full extent required by law. The
+            tax ID number for the Tor Project is 20-8096820.</p>
           </li>
           <li>
-            <p><strong>If I am not in the United States, can I still donate?</strong></p>
-            <p>Yes, definitely. Your donation probably isn't tax-deductible (unless you pay taxes on U.S. income) but we would very much appreciate your support. </p>
+            <p><strong>If I am not in the United States, can I still
+            donate?</strong></p>
+            <p>Yes, definitely. Your donation probably isn't
+            tax-deductible (unless you pay taxes on U.S. income) but we
+            would very much appreciate your support. </p>
           </li>
           <li>
-            <p><strong>Am I right that the Tor Project has never asked for donations before?</strong></p>
-            <p>Yes! We've had a donate button on the site for years, and so far nearly 8,000 people have given money to the Tor Project. But this is the first time we've actively sought donations. To date, much of Tor Project funding has come from United States federal funding sources, such as the U.S. independent agency the International Broadcasting Bureau (IBB) and the U.S. Department of State's Bureau of Democracy, Human Rights, and Labor (DRL). While we are grateful for this funding, we don't want the Tor Project to become too dependent on any single type of funding. Crowdfunding is unrestricted--It allows us to spend the money on the projects we think are most important and respond quickly to changing events.  And so, we are asking you to help financially support us, to increase the Tor Project's independence and ensure the sustainability of the products and services we provide.</p>
+            <p><strong>Am I right that the Tor Project has never asked
+            for donations before?</strong></p>
+            <p>Yes! We've had a donate button on the site for years,
+            and so far nearly 8,000 people have given money to the Tor
+            Project. But this is the first time we've actively sought
+            donations. To date, much of Tor Project funding has come
+            from United States federal funding sources, such as the
+            U.S. independent agency the International Broadcasting Bureau
+            (IBB) and the U.S. Department of State's Bureau of Democracy,
+            Human Rights, and Labor (DRL). While we are grateful for
+            this funding, we don't want the Tor Project to become too
+            dependent on any single type of funding. Crowdfunding is
+            unrestricted--It allows us to spend the money on the projects
+            we think are most important and respond quickly to changing
+            events.  And so, we are asking you to help financially support
+            us, to increase the Tor Project's independence and ensure the
+            sustainability of the products and services we provide.</p>
           </li>
           <li>
-            <p><strong>Can I donate to a specific project, or restrict my donation to a particular purpose?</strong></p>
-            <p>No, sorry. If we accept a donation from someone who has specified how they want it used, we're required by the IRS to track and report separately on that money. That would be a big administrative burden for a small organization, and we don't think it's a good idea for us. However, we would be very happy to hear your ideas and feedback about our work. If you're donating using a mechanism that allows for comments, feel free to send your thoughts that way.</p>
+            <p><strong>Can I donate to a specific project, or restrict
+            my donation to a particular purpose?</strong></p>
+            <p>No, sorry. If we accept a donation from someone who has
+            specified how they want it used, we're required by the IRS
+            to track and report separately on that money. That would
+            be a big administrative burden for a small organization,
+            and we don't think it's a good idea for us. However, we
+            would be very happy to hear your ideas and feedback about
+            our work. If you're donating using a mechanism that allows
+            for comments, feel free to send your thoughts that way.</p>
           </li>
           <li>
             <p><strong>Can I donate while using the Tor browser?</strong></p>
-            <p>Maybe! In our testing, we saw two scenarios related to Paypal + Tor browser:<br />
+            <p>Maybe! In our testing, we saw two scenarios related to
+            Paypal + Tor browser:<br />
             <ol>
-              <li>Sometimes you get an error after clicking on the 'Donate' button. If this is happening to you, you should change your circuit and try again.</li>
-              <li>For users logging in to Paypal: some people had no problem donating via PayPal while using the Tor browser. But, some people couldn't complete the donation process, and one person had their PayPal account temporarily frozen. We recommend not using the Tor browser to donate using your PayPal account, unless you're willing to risk some difficulties with PayPal.
-              </li>
+              <li>Sometimes you get an error after clicking on the
+              'Donate' button. If this is happening to you, you should
+              change your circuit and try again.</li>
+              <li>For users logging in to Paypal: some people had
+              no problem donating via PayPal while using the Tor
+              browser. But, some people couldn't complete the donation
+              process, and one person had their PayPal account temporarily
+              frozen. We recommend not using the Tor browser to donate
+              using your PayPal account, unless you're willing to risk
+              some difficulties with PayPal.</li>
               </ol></p>
           </li>
           <li>
             <p><strong>How can I donate via debit or credit card?</strong></p>
-            <p>To donate using a major credit card or debit card (VISA, MasterCard, Discover or American Express) or via PayPal, please visit our donate page. You do not need to have a PayPal account to donate via credit card.</p>
+            <p>To donate using a major credit card or debit card (VISA,
+            MasterCard, Discover or American Express) or via PayPal,
+            please visit our donate page. You do not need to have a
+            PayPal account to donate via credit card.</p>
           </li>
           <li>
-            <p><strong>Why do you ask for my address and similar information?</strong></p>
-            <p>If you donate by credit card, you will be asked for some information that's required to process your credit card payment, including your billing address. This allows our payment processor to verify your identity, process your payment, and prevent fraudulent charges to your credit card. We don't ask for information beyond what's required by the payment processor.</p>
+            <p><strong>Why do you ask for my address and similar
+            information?</strong></p>
+            <p>If you donate by credit card, you will be asked for some
+            information that's required to process your credit card
+            payment, including your billing address. This allows our
+            payment processor to verify your identity, process your
+            payment, and prevent fraudulent charges to your credit
+            card. We don't ask for information beyond what's required
+            by the payment processor.</p>
           </li>
           <li>
             <p><strong>Why is there a minimum donation?</strong></p>
-            <p>People who have stolen credit card information often donate to nonprofits as a way of testing whether the card works. These people typically use a very small amount for their testing, and we've found that setting a $1 minimum donation seems to deter them.</p>
+            <p>People who have stolen credit card information often
+            donate to nonprofits as a way of testing whether the card
+            works. These people typically use a very small amount for
+            their testing, and we've found that setting a $1 minimum
+            donation seems to deter them.</p>
           </li>  
           <li>
             <p><strong>Is there a maximum donation?</strong></p>
-            <p>No, no, no! More funding from you means we can do more things we are excited to do, like hire a person to monitor the Tor network full time, or research, test, and  implement ideas we have for making  the Tor network even stronger.</p>
+            <p>No, no, no! More funding from you means we can do more
+            things we are excited to do, like hire a person to monitor
+            the Tor network full time, or research, test, and  implement
+            ideas we have for making  the Tor network even stronger.</p>
           </li>
           <li>
             <p><strong>Can I donate via bitcoin?</strong></p>
-            <p>Yes! We accept <a href="https://www.torproject.org/donate/donate-options.html.en" target="_blank">bitcoin via BitPay</a>.</p>
+            <p>Yes! We accept <a
+            href="https://www.torproject.org/donate/donate-options.html.en"
+            target="_blank">bitcoin via BitPay</a>.</p>
           </li>  
           <li>
-            <p><strong>If I want my donation to be anonymous, what is the best way for me to donate?</strong></p>
-            <p>You can donate by mailing cash to the Tor Project. Our address is The Tor Project, Inc., 7 Temple Street Suite A, Cambridge MA 02139-2403 USA. You can donate via bitcoin if you have bitcoin set up in a way that preserves your anonymity. You can buy cash gift cards and mail them to us. There are probably other ways to donate anonymously that we haven't thought of-- maybe you will :)</p>
+            <p><strong>If I want my donation to be anonymous, what is
+            the best way for me to donate?</strong></p>
+            <p>You can donate by mailing cash to the Tor Project. Our
+            address is The Tor Project, Inc., 7 Temple Street Suite A,
+            Cambridge MA 02139-2403 USA. You can donate via bitcoin
+            if you have bitcoin set up in a way that preserves your
+            anonymity. You can buy cash gift cards and mail them to
+            us. There are probably other ways to donate anonymously that
+            we haven't thought of-- maybe you will :)</p>
           </li>
           <li>
-            <p><strong>Is the Tor Project required to identify me as a donor to the United States government, or to any other authority?</strong></p>
-            <p>If you donate $5,000 or more to the Tor Project in a single year, we are required to report the donation amount and your name and address (if we have it) to the IRS, on Schedule B of the Form 990, which is filed annually. However,  it's normal for nonprofits to redact individual donor information from the copy of the 990 that's made publicly-available, and that's what we do. We are not required to identify donors to any other organization or authority, and we do not. (Also, if  you wanted, you could give us $4,999 in late 2015 and $4,999 in early 2016 ;)</p>
+            <p><strong>Is the Tor Project required to identify me as
+            a donor to the United States government, or to any other
+            authority?</strong></p>
+            <p>If you donate $5,000 or more to the Tor Project in a single
+            year, we are required to report the donation amount and your
+            name and address (if we have it) to the IRS, on Schedule
+            B of the Form 990, which is filed annually. However,  it's
+            normal for nonprofits to redact individual donor information
+            from the copy of the 990 that's made publicly-available, and
+            that's what we do. We are not required to identify donors to
+            any other organization or authority, and we do not. (Also,
+            if  you wanted, you could give us $4,999 in late 2015 and
+            $4,999 in early 2016 ;)</p>
           </li>
           <li>
-            <p><strong>In your privacy policy, you say you will never publicly identify me as a donor without my permission. What does that mean?</strong></p>
-            <p>Yes, that's right. If you donate to the Tor Project, there will be some people at the Tor Project who know about your donation. However, we will never publicly identify you as a donor, unless you have given us permission to do so. That means we won't post your name on our website, thank you on Twitter, or do anything else that would publicly identify you as someone who has donated. If we decide we would like to publicly name you as a donor, we will ask you first, and will not do it until and unless you say it's okay.</p>
+            <p><strong>In your privacy policy, you say you will never
+            publicly identify me as a donor without my permission. What
+            does that mean?</strong></p>
+            <p>Yes, that's right. If you donate to the Tor Project, there
+            will be some people at the Tor Project who know about your
+            donation. However, we will never publicly identify you as
+            a donor, unless you have given us permission to do so. That
+            means we won't post your name on our website, thank you on
+            Twitter, or do anything else that would publicly identify
+            you as someone who has donated. If we decide we would like
+            to publicly name you as a donor, we will ask you first,
+            and will not do it until and unless you say it's okay.</p>
           </li>
           <li>
-            <p><strong>It's important to me that my donation be tax-deductible, but I don't pay taxes in the United States. </strong></p>
-            <p>Right now, we can only offer tax-deductibility to donors who pay taxes in the United States. If it's important to you that your donations be tax-deductible in a different country, let us know and we will try to offer tax-deductibility in your country in future.  Or, if you are in Germany, France or Sweden, <a href="https://www.torproject.org/docs/faq.html.en#RelayDonations" target="_blank">these organizations support the Tor network</a> and may be able to offer you tax-deductibility for your donation.</p>
+            <p><strong>It's important to me that my donation be
+            tax-deductible, but I don't pay taxes in the United
+            States. </strong></p>
+            <p>Right now, we can only offer tax-deductibility to
+            donors who pay taxes in the United States. If it's
+            important to you that your donations be tax-deductible
+            in a different country, let us know and we will
+            try to offer tax-deductibility in your country in
+            future.  Or, if you are in Germany, France or Sweden, <a
+            href="https://www.torproject.org/docs/faq.html.en#RelayDonations"
+            target="_blank">these organizations support the Tor
+            network</a> and may be able to offer you tax-deductibility
+            for your donation.</p>
           </li>
           <li>
-            <p><strong>What if I don't want to use PayPal? Is there another way I can donate? </strong></p>
-            <p>Yes! Here is a list of <a href="https://www.torproject.org/donate/donate-options.html.en" target="_blank">other ways you can donate</a>.</p>
+            <p><strong>What if I don't want to use PayPal? Is there
+            another way I can donate? </strong></p>
+            <p>Yes! Here is a list of <a
+            href="https://www.torproject.org/donate/donate-options.html.en"
+            target="_blank">other ways you can donate</a>.</p>
           </li>
           <li>
             <p><strong>What is your donor privacy policy?</strong></p>
-            <p>Here is the Tor Project <a href="donor-privacy-policy.html.en" target="_blank">donor privacy policy</a>.</p>
+            <p>Here is the Tor Project <a
+            href="donor-privacy-policy.html.en" target="_blank">donor
+            privacy policy</a>.</p>
           </li>
           <li>
             <p><strong>What is your refund policy?</strong></p>
-            <p>If you want your donation refunded, please tell us by emailing donations(at)torproject.org. To process your refund we'll need to know the date of your donation, the amount you donated, your full name, the payment method you used and your country of origin. Please also tell us why you're asking for a refund. Please note that some payment methods won't support refunds, or require them to be made in a specific way, so we may need additional information from you in order to process yours.</p>
+            <p>If you want your donation refunded, please tell us
+            by emailing donations(at)torproject.org. To process your
+            refund we'll need to know the date of your donation, the
+            amount you donated, your full name, the payment method you
+            used and your country of origin. Please also tell us why
+            you're asking for a refund. Please note that some payment
+            methods won't support refunds, or require them to be made
+            in a specific way, so we may need additional information
+            from you in order to process yours.</p>
           </li>
           <li>
             <p><strong>Can I donate by mail?</strong></p>
-            <p>Yes. Our mailing address is The Tor Project, 7 Temple Street Suite A, Cambridge MA 02139-2403 USA.</p>
+            <p>Yes. Our mailing address is The Tor Project, 7 Temple
+            Street Suite A, Cambridge MA 02139-2403 USA.</p>
           </li>
           <li>
             <p><strong>Do you accept cash donations?</strong></p>
@@ -143,51 +346,102 @@
           </li>
           <li>
             <p><strong>Can I donate stock?</strong></p>
-            <p>Yes! Many companies --such as Google, Microsoft, eBay, PayPal, Apple, Verizon, Red Hat, many universities, and others-- will match donations made by their employees. The fastest way to find out if your company matches donations is usually by checking with your HR department, or you can search for your company name at <a href="https://www.matchinggifts.com/rit/" target="_blank">https://www.matchinggifts.com/rit/</a>. If your company isn't currently set up to match donations to the Tor Project, we would be happy to help with the paperwork. If you want help figuring out the process, write us at donations(at)torproject.org.</p>
-          </li>                
+            <p>Yes! Many companies --such as Google, Microsoft, eBay,
+            PayPal, Apple, Verizon, Red Hat, many universities,
+            and others-- will match donations made by their
+            employees. The fastest way to find out if your company
+            matches donations is usually by checking with your
+            HR department, or you can search for your company
+            name at <a href="https://www.matchinggifts.com/rit/"
+            target="_blank">https://www.matchinggifts.com/rit/</a>. If
+            your company isn't currently set up to match donations
+            to the Tor Project, we would be happy to help with the
+            paperwork. If you want help figuring out the process, write
+            us at donations(at)torproject.org.</p>
+          </li>
           <li>
             <p><strong>Can I become a Tor Project member?</strong></p>
-            <p>Right now, we don't have a membership program, but we may set one up in the future. If you want to get involved with the Tor Project, <a href="<page getinvolved/volunteer>">this is a good place to start</a>.</p>
+            <p>Right now, we don't have a membership program, but we may
+            set one up in the future. If you want to get involved with
+            the Tor Project, <a href="<page getinvolved/volunteer>">this
+            is a good place to start</a>.</p>
           </li>
           <li>
             <p><strong>How can I get a Tor t-shirt or stickers?</strong></p>
-            <p>If you donate $23 or more, you will get stickers we created just for this campaign. And if you donate $100 or more, you will get a special 'Tor supporter' t-shirt!</p>
+            <p>If you donate $23 or more, you will get stickers we
+            created just for this campaign. And if you donate $100 or
+            more, you will get a special 'Tor supporter' t-shirt!</p>
           </li>
           <li>
-            <p><strong>If I want to stay in touch with the Tor Project, what's the best way for me to do that?</strong></p>
-            <p>You can sign up to receive  the <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-news" target="_blank">Tor weekly newsletter</a>, read the <a href="https://blog.torproject.org/" target="_blank">Tor blog</a>, or <a href="https://twitter.com/torproject" target="_blank">follow us on Twitter</a>.</p>
+            <p><strong>If I want to stay in touch with the Tor Project,
+            what's the best way for me to do that?</strong></p>
+            <p>You can sign up to receive the <a
+            href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-news"
+            target="_blank">Tor weekly newsletter</a>, read the <a
+            href="https://blog.torproject.org/" target="_blank">Tor
+            blog</a>, or <a href="https://twitter.com/torproject"
+            target="_blank">follow us on Twitter</a>.</p>
           </li>
           <li>
-            <p><strong>Does the Tor Project participate in the Combined Federal Campaign program?</strong></p>
-            <p>No, Tor doesn't currently participate in the CFC program. If you'd like to get Tor added to the CFC program in your location, that would be great: please let us know if you need any help. </p>
+            <p><strong>Does the Tor Project participate in the Combined
+            Federal Campaign program?</strong></p>
+            <p>No, Tor doesn't currently participate in the CFC
+            program. If you'd like to get Tor added to the CFC program
+            in your location, that would be great: please let us know
+            if you need any help. </p>
           </li>
           <li>
-            <p><strong>Can I donate my airline miles, flight vouchers, or hotel points?</strong></p>
-            <p>No, sorry. We would like to accept your miles, vouchers and hotel points, and in the future we may be able to.</p>
+            <p><strong>Can I donate my airline miles, flight vouchers,
+            or hotel points?</strong></p>
+            <p>No, sorry. We would like to accept your miles, vouchers
+            and hotel points, and in the future we may be able to.</p>
           </li>
           <li>
             <p><strong>Can I donate hardware?</strong></p>
-            <p>Typically no, we don't encourage people to donate hardware. But if you want to make a hardware donation that you think might be especially useful for us, please mail donations(at)torproject.org.</p>
+            <p>Typically no, we don't encourage people to donate
+            hardware. But if you want to make a hardware donation that
+            you think might be especially useful for us, please mail
+            donations(at)torproject.org.</p>
           </li>
           <li>
             <p><strong>Can I donate my time?</strong></p>
-            <p>Yes. Here's a <a href="https://www.torproject.org/getinvolved/volunteer.html.en" target="_blank">list of areas where we would love your help</a>.</p>
+            <p>Yes. Here's a <a
+            href="https://www.torproject.org/getinvolved/volunteer.html.en"
+            target="_blank">list of areas where we would love your
+            help</a>.</p>
           </li>
           <li>
-            <p><strong>I would like my company to support Tor. What can we do to help?</strong></p>
-            <p>Your company could match donations made by its employees to the Tor Project--that would be wonderful. Your company may operate a corporate foundation that gives out grants, and if so, you should encourage it to fund us. Maybe your company would be willing to <a href="https://www.torproject.org/docs/faq.html.en#HowDoIDecide" target="_blank">operate a Tor relay</a>. If your company sells cloud services, perhaps it could donate these to Tor:  We use them in some anti-censorship projects.</p>
+            <p><strong>I would like my company to support Tor. What can
+            we do to help?</strong></p>
+            <p>Your company could match donations made by its employees
+            to the Tor Project--that would be wonderful. Your
+            company may operate a corporate foundation that
+            gives out grants, and if so, you should encourage it
+            to fund us. Maybe your company would be willing to <a
+            href="https://www.torproject.org/docs/faq.html.en#HowDoIDecide"
+            target="_blank">operate a Tor relay</a>. If your company
+            sells cloud services, perhaps it could donate these to Tor:
+            We use them in some anti-censorship projects.</p>
           </li>
           <li>
-            <p><strong>You don't support my preferred way to donate. Can I recommend a new donation method to you?</strong></p>
+            <p><strong>You don't support my preferred way to donate. Can
+            I recommend a new donation method to you?</strong></p>
             <p>Sure. Just mail us at donations(at)torproject.org.</p>
           </li>
           <li>
-            <p><strong>Will the Tor Project accept donations from anybody, or do you reserve the right to reject support from specific organizations or individuals?</strong></p>
-            <p>We do reserve the right to reject a donation. To date though, we haven't exercised that right. We are happy that a broad range of people use and support Tor.</p>
+            <p><strong>Will the Tor Project accept donations from anybody,
+            or do you reserve the right to reject support from specific
+            organizations or individuals?</strong></p>
+            <p>We do reserve the right to reject a donation. To date
+            though, we haven't exercised that right. We are happy that
+            a broad range of people use and support Tor.</p>
           </li>
           <li>
-            <p><strong>I have more questions. How can I get answers?</strong></p>
-            <p>Feel free to send questions to donations(at)torproject.org. We will try to answer you, and we'll also post your question (and the answer) here.</p>
+            <p><strong>I have more questions. How can I get
+            answers?</strong></p>
+            <p>Feel free to send questions to
+            donations(at)torproject.org. We will try to answer you,
+            and we'll also post your question (and the answer) here.</p>
           </li>
           </ol>
           </div>
@@ -200,3 +454,4 @@
     </div>
 </div>
 #include <donatefoot.wmi>
+
