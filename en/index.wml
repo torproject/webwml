@@ -151,15 +151,6 @@
       </div>
       <!-- END MAINCOL -->
       <div id="sidecol">
-      <div id="helpus">
-          <h2>A Call for Help</h2>
-      <div class="fauxhead"></div>
-          <div class="user">
-            <h3>
-              <a href="https://blog.torproject.org/blog/tor-project-launches-world-wide-search-new-executive-director">Tor needs a new Executive Directory</a>
-            </h3>
-          </div>
-      </div>
       <!-- BLOG WIDGET -->
 #include <blog-recent.wmi>
       <!-- END BLOG WIDGET -->
