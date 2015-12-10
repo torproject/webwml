@@ -216,7 +216,7 @@ table h2,
 #home-our-projects h2,
 #home-announcements h2,
 #home-users h2,
-#home-helpus h2 {
+#home-helpus h2, {
 	background: url(../images/table-head.jpg) left top repeat-x;
 	color: #f6f6ed;
 	padding-left: 10px;
