@@ -34,8 +34,8 @@
       </div>      
       <ul id="navbar" class="nav navbar-nav navbar-right">
         <li><a href="<page index>">Home</a></li>
-        <li><a href="<page index>/about">About</a></li>
-        <li><a href="<page index>/contact">Contact</a></li>
+        <li><a href="<page about/overview>">About</a></li>
+        <li><a href="<page about/contact>">Contact</a></li>
       </ul>
     </div>
   </nav>
