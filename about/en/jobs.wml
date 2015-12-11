@@ -12,16 +12,14 @@
 	<div id="maincol">
 <h1>The Tor Project is always looking for more great people to join our team!</h1>
 
-#<p>At the moment, we don't have any official open positions. Please check back
-#soon, though! In the meantime, you may want to glance at our
-#<a href="<page getinvolved/volunteer>">volunteers</a> page.
+<p>At the moment, we don't have any official open positions. Please check back
+soon, though! In the meantime, you may want to glance at our
+<a href="<page getinvolved/volunteer>">volunteers</a> page.
 
-<p>Specifically, we're looking for the following people currently:
-</p>
-<ul>
-<li><a href="http://data01.wentco.com/openreq/Requisition.aspx?ReqID=67528129">Executive Director</a> (<a href="https://blog.torproject.org/blog/tor-project-launches-world-wide-search-new-executive-director">blog post</a>)</li>
-<li><a href="<page about/jobs-execadmin>">Executive Administrator</a></li>
-</ul>
+#<p>Specifically, we're looking for the following people currently:
+#</p>
+#<ul>
+#</ul>
 
 <p>In the past, we looked for the following people:</p>
 
@@ -33,6 +31,8 @@
 <li>Lead Automation Engineer</li>
 <li>Firefox/Thunderbird Extension Developer</li>
 <li>Director of Communications</li>
+<li>Executive Director</li>
+<li>Executive Administrator</li>
 </ul>
 
 <p>
