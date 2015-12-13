@@ -120,23 +120,6 @@
      
 <tr>
 
-         <td>EE</td>
-
-         <td>CyberSIDE</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://cyberside.net.ee/tor/">http</a></td>
-    <td><a href="http://cyberside.planet.ee/tor/">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
          <td>IS</td>
 
          <td>torproject.is</td>
@@ -252,23 +235,6 @@
     <td> - </td>
     <td> - </td>
     <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>RU</td>
-
-         <td>Soviet Anonymous</td>
-
-         <td>Up to date</td>
-
-    <td><a href="ftp://creep.im/mirrors/tor">ftp</a></td>
-    <td><a href="http://creep.im/tor/dist/">http</a></td>
-    <td><a href="http://creep.im/tor">http</a></td>
-    <td><a href="https://creep.im/tor/dist/">https</a></td>
-    <td><a href="https://creep.im/tor">https</a></td>
-    <td><a href="rsync://creep.im/tor-dist">rsync</a></td>
-    <td><a href="rsync://creep.im/tor">rsync</a></td>
 </tr>
      
 <tr>
@@ -522,23 +488,6 @@
     <td><a href="http://torproject.hactar.bz">http</a></td>
     <td> - </td>
     <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
-         <td>The Calyx Institute</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.calyxinstitute.org/dist/">http</a></td>
-    <td><a href="http://tor.calyxinstitute.org">http</a></td>
-    <td><a href="https://tor.calyxinstitute.org/dist/">https</a></td>
-    <td><a href="https://tor.calyxinstitute.org">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -800,23 +749,6 @@
      
 <tr>
 
-         <td>FR</td>
-
-         <td>Tor Supporter</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://onionphysics.com/dist/">http</a></td>
-    <td><a href="http://onionphysics.com">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
          <td>US</td>
 
          <td>Matthew Hoover</td>
@@ -885,17 +817,102 @@
      
 <tr>
 
-         <td>NL</td>
+         <td>CA</td>
 
-         <td>CCC</td>
+         <td>Tor Supporter</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td><a href="http://tor.ccc.de/dist/">http</a></td>
-    <td><a href="http://tor.ccc.de/">http</a></td>
-    <td><a href="https://tor.ccc.de/dist/">https</a></td>
-    <td><a href="https://tor.ccc.de">https</a></td>
+    <td><a href="http://goodeid.com/mirrors/tor-project.org/dist/">http</a></td>
+    <td><a href="http://goodeid.com/mirrors/tor-project.org/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>FR</td>
+
+         <td>Alenan e.V.</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tormirror.xyz/dist">http</a></td>
+    <td><a href="http://tormirror.xyz">http</a></td>
+    <td><a href="https://tormirror.xyz/dist">https</a></td>
+    <td><a href="https://tormirror.xyz">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>FR</td>
+
+         <td>Unixcorn</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.unixcorn.org/dist/">http</a></td>
+    <td><a href="http://tor.unixcorn.org">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
+         <td>Tor Supporter</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.project.127001.ovh/dist/">http</a></td>
+    <td><a href="http://tor.project.127001.ovh/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>AT</td>
+
+         <td>datensicherhe.it</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://datensicherhe.it/torproject/dist/">http</a></td>
+    <td><a href="http://datensicherhe.it/torproject">http</a></td>
+    <td><a href="https://datensicherhe.it/torproject/dist/">https</a></td>
+    <td><a href="https://datensicherhe.it/torproject">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td></td>
+
+         <td>Freedom of the Press Foundation</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.freedom.press/dist/">http</a></td>
+    <td><a href="http://tor.freedom.press">http</a></td>
+    <td><a href="https://tor.freedom.press/dist/">https</a></td>
+    <td><a href="https://tor.freedom.press">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
