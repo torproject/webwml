@@ -10,14 +10,13 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-3 img-section">
-                  <img src="$(IMGROOT)/roger.png" class="img-thumbnail img-responsive champion" alt="Roger Dingledine">
+                  <img src="$(IMGROOT)/shari.png" class="img-thumbnail img-responsive champion" alt="Shari Steele">
                 </div>
 
                 <div class="col-sm-9 col-xs-offset-0">
                   <blockquote>
-      Tor has millions of users around the globe, and many people making donations can create a sustainable Tor.
-      Your contributions in our first ever fundraising campaign will form a strong foundation and inspire others to give to Tor.
-                    <footer class="pull-right source-quote"><cite title="Source Title">Roger Dingledine</cite></footer>
+Tor is an essential part of the Internet freedom infrastructure, and I'm looking forward to working with the Tor Project to continue to grow the movement.
+                    <footer class="pull-right source-quote"><cite title="Source Title">Shari Steele</cite></footer>
                   </blockquote>
                 </div>
 
