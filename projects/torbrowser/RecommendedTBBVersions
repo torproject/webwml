@@ -16,5 +16,7 @@
 "5.5a5-MacOS",
 "5.5a5-Windows",
 "5.5a4-hardened",
-"5.5a4-hardened-Linux"
+"5.5a4-hardened-Linux",
+"5.5a5-hardened",
+"5.5a5-hardened-Linux"
 ]
