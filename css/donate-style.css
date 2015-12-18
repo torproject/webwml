@@ -165,6 +165,9 @@ html {
 .right{
     border-left-width: 0px !important;
 }
+.left{
+    border-right-width: 0px !important;
+}
 .choiceLabel{
     cursor: pointer !important;
     margin: 0px !important;
