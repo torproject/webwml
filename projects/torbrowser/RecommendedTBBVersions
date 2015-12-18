@@ -1,8 +1,4 @@
 [
-"5.0.4",
-"5.0.4-Linux",
-"5.0.4-MacOS",
-"5.0.4-Windows",
 "5.0.5",
 "5.0.5-Linux",
 "5.0.5-MacOS",
@@ -15,6 +11,10 @@
 "5.5a4-Linux",
 "5.5a4-MacOS",
 "5.5a4-Windows",
+"5.5a5",
+"5.5a5-Linux",
+"5.5a5-MacOS",
+"5.5a5-Windows",
 "5.5a4-hardened",
 "5.5a4-hardened-Linux"
 ]
