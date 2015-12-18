@@ -44,7 +44,7 @@ a {
     color: #875ca4;
 }
 a:hover, a:focus {
-    color: #663987;
+    color: #67467D;
     text-decoration: none;
 }
 .btn-primary:hover {
@@ -69,8 +69,8 @@ a:hover, a:focus {
 .btn-primary:active.focus,
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus{
-    background-color: #663987;
-    border-color: #663987;
+    background-color: #67467D;
+    border-color: #67467D;
 }
 .navbar-brand {
     height: auto;
@@ -113,8 +113,8 @@ float: left;
 }
 .img-thumbnail {
   padding: 1px;
-  background-color: #794d9a;
-  border: 1px solid #794d9a;
+  background-color: #785291;
+  border: 1px solid #785291;
   -webkit-transition: none;
        -o-transition: none;
           transition: none;
@@ -139,7 +139,7 @@ html {
 }
 .nav > li > a:hover, .nav > li > a:focus {
 	text-decoration: none;
-	border-bottom: 3px solid #794d9a;
+	border-bottom: 3px solid #785291;
 }
 .donate-section{
 	margin-top: 50px;
@@ -195,7 +195,7 @@ input[type=number] {
 	display: none;
 }
 .quote-section{
-	background-color:#663987;
+	background-color:#67467D;
 	padding: 20px 0;
 }
 .champion{
@@ -212,7 +212,7 @@ blockquote {
 	margin: 20px 0 0 0;
 	position: relative;
 	font-size: 20px;
-	border-left: 5px solid #794d9a;
+	border-left: 5px solid #785291;
     color: #ffffff;
 }
 blockquote::before {
@@ -237,24 +237,16 @@ footer.footer{
     background-color: #f5f5f5;
 }
 .donate-button {
-	background-color: #5CA462;
-	border-color: #47A24E;
+	background-color: #4FAB76;
+	border-color: #47996A;
 }
-.donate-button:hover{
-	background-color: #2F8E38;
-	border-color: #47A24E; 
-}
-.donate-button:focus{
-	background-color: #2F8E38;
-	border-color: #47A24E; 
-}
-.donate-button:active{
-	background-color: #2F8E38;
-	border-color: #47A24E; 
-}
-.donate-button:active:hover{
-	background-color: #2F8E38;
-	border-color: #47A24E; 
+.donate-button:hover,
+.donate-button:focus,
+.donate-button:active,
+.donate-button:active:hover,
+.donate-button:active:focus{
+	background-color: #47996A;
+	border-color: #47996A; 
 }
 @media (max-width: 991px) {
 	blockquote {
