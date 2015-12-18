@@ -2,6 +2,30 @@
 # Revision: $Revision$
 # Translation-Priority: 1-high
 
+<!-- Donation banner for fundraising campaign. -->
+<div id="donation-banner">
+  <a href="donate/donate-hpbanner.html.en">
+    <noscript>
+      <!-- We don't have JavaScript, so show our default champion. -->
+      <img id="donation-banner-image-noscript" src="images/homepage-banner-ss.jpg" />
+    </noscript>
+    <!-- Placeholder for the champion banner image that will be added
+         by JavaScript. -->
+    <img id="donation-banner-image"" />
+   </a>
+  <a href="donate/donate-hpbanner.html.en">
+     <div id="donate-button">Please Donate!</div>
+  </a>
+</div>
+
+<script>
+  <!-- Show a different champion at random. -->
+  var alternates = ["cd", "lp", "rd", "rr", "ss"];
+  var alternate = alternates[Math.floor(Math.random() * alternates.length)];
+  var image = document.getElementById("donation-banner-image");
+  image.src = "images/homepage-banner-" + alternate + ".jpg";
+</script>
+
 #include "head.wmi" TITLE="Tor Project: Anonymity Online" CHARSET="UTF-8"
 
 <div id="home">
