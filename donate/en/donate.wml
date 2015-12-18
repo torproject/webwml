@@ -4,35 +4,33 @@
 
 #include "donatehead.wmi" TITLE="Donate to keep Tor alive!" CHARSET="UTF-8"
 
-<div class="donation">
-          
-      <div class="quote-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-3 img-section">
-                  <img src="$(IMGROOT)/shari.png" class="img-thumbnail img-responsive champion" alt="Shari Steele">
-                </div>
+  <div class="donation">
 
-                <div class="col-sm-9 col-xs-offset-0">
-                  <blockquote>
-Tor is an essential part of the Internet freedom infrastructure, and I'm looking forward to working with the Tor Project to continue to grow the movement.
-                    <footer class="pull-right source-quote"><cite title="Source Title">Shari Steele</cite></footer>
-                  </blockquote>
-                </div>
-
+    <div class="quote-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 img-section">
+              <img src="$(IMGROOT)/shari.png" class="img-thumbnail img-responsive champion" alt="Shari Steele">
           </div>
+
+          <div class="col-sm-9 col-xs-offset-0">
+            <blockquote>
+              Tor is an essential part of the Internet freedom infrastructure, and I'm looking forward to working with the Tor Project to continue to grow the movement.
+              <footer class="pull-right source-quote"><cite title="Source Title">Shari Steele</cite></footer>
+            </blockquote>
+          </div>
+
         </div>
       </div>
-
+    </div>
 
     <div class="container">
-
       <div class="row">
         <div class="col-sm-7">
           <h2 class="main-text">Your support is critical to our success</h2>
           <hr>
           <p style="text-align:left;">Donate $23 or more, get swag, take a picture and share it with us via <code><a href="https://twitter.com/search?q=%23SupportTor" target="_blank">#supportTor</a></code> hashtag.</p>
-          
+            
           <noscript class="perks">
             <h4 style="text-align:left; padding-top:10px;"><b>Perks</b></h4>
             <p style="text-align:left;">Donate $23+ to get a <b>pack of stickers</b></p>
@@ -44,23 +42,23 @@ Tor is an essential part of the Internet freedom infrastructure, and I'm looking
           <div class="col-sm-4 no-padding"><img id="stickers" class="img-responsive half-opacity" src="$(IMGROOT)/swag-stickers-lg.png" alt="stickers"></div>
           <div class="col-sm-4 no-padding"><img id="tshirt" class="img-responsive half-opacity" src="$(IMGROOT)/swag-tees-lg.png" alt="tshirt"></div>
           <div class="col-sm-4 no-padding"><img id="hoody" class="img-responsive half-opacity" src="$(IMGROOT)/swag-hoody-lg.png" alt="hoody"></div>
-
         </div>
+        
         <div class="donate-section col-sm-5">
           <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <div class="row col-md-offset-0 combined-input">
-                <div class="left col-xs-6 btn btn-default btn-lg active">
-                  <label class="choiceLabel">
-                    <input class="sr-only" name="cmd" id="blankRadio1" type="radio" value="_donations" aria-label="one_time"checked >
-                    <span>One-time</span>
-                  </label>
-                </div>
-                <div class="right col-xs-6 btn btn-default btn-lg ">
-                  <label class="choiceLabel">
-                    <input class="sr-only" name="cmd" id="blankRadio2" type="radio" value="_xclick-subscriptions" aria-label="monthly">
-                    <span>Monthly</span>
-                  </label>
-                </div>
+              <div class="left col-xs-6 btn btn-default btn-lg active">
+                <label class="choiceLabel">
+                  <input class="sr-only" name="cmd" id="blankRadio1" type="radio" value="_donations" aria-label="one_time"checked >
+                  <span>One-time</span>
+                </label>
+              </div>
+              <div class="right col-xs-6 btn btn-default btn-lg ">
+                <label class="choiceLabel">
+                  <input class="sr-only" name="cmd" id="blankRadio2" type="radio" value="_xclick-subscriptions" aria-label="monthly">
+                  <span>Monthly</span>
+                </label>
+              </div>
             </div>
 
             <div class="btn-group btn-group-lg" role="group" style="margin-bottom: 30px;">
@@ -93,27 +91,25 @@ Tor is an essential part of the Internet freedom infrastructure, and I'm looking
               <h5>via PayPal (doesn't require an account)</h5>
               <h4><a href="<page donate/donate-options>">Other Ways to Donate</a></h4>
             </div>
-            <input type="hidden" id="amount" name="amount" value="">
-            <input type="hidden" id="a3" name="a3" value="0">
-            <input type="hidden" id="p3" name="p3" value="1">
-            <input type="hidden" id="t3" name="t3" value="M">
-            <input type="hidden" name="sra" value="1">
-            <input type="hidden" name="src" value="1">
-            <input type="hidden" name="no_shipping" value="1">
-            <input type="hidden" name="no_note" value="1">
-            <input type="hidden" name="business" value="donations@torproject.org">
-            <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
-            <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
-            <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
-
+            
+              <input type="hidden" id="amount" name="amount" value="">
+              <input type="hidden" id="a3" name="a3" value="0">
+              <input type="hidden" id="p3" name="p3" value="1">
+              <input type="hidden" id="t3" name="t3" value="M">
+              <input type="hidden" name="sra" value="1">
+              <input type="hidden" name="src" value="1">
+              <input type="hidden" name="no_shipping" value="1">
+              <input type="hidden" name="no_note" value="1">
+              <input type="hidden" name="business" value="donations@torproject.org">
+              <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
+              <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
+              <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
 
           </form>
         </div>
       </div>
     </div>
-  
-
-
+    
   </div>
 
 
