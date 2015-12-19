@@ -66,3 +66,6 @@ RewriteRule ^donate/donate-hpbanner(.*) /donate/donate$1 [R=302,L]
 #keep prefixes of other entries down here...
 RewriteRule ^donate/donate-hp(.*) /donate/donate$1 [R=302,L]
 
+# yuck, https://twitter.com/torproject/status/677928074630049793
+RewriteRule ^Donate/Donate-Twitter(.*) /donate/donate$1 [R=302,L]
+
