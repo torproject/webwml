@@ -244,20 +244,20 @@
 
               <div class="dsmall col-sm-4">
                 <a href="../donate/donate-amazon.html.en">
-                  <img class="img-responsive img-thumbnail other-ways-img" src="../images/amazon.jpg">
+                  <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/amazon.jpg">
                 </a>
               </div>
               
               <div class="dsmall col-sm-4">
                 <a href="https://smile.amazon.com/ch/20-8096820">
-                  <img class="img-responsive img-thumbnail other-ways-img" src="../images/amazon-smile.jpg">
+                  <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/amazon-smile.jpg">
                 </a>
               </div>
 
               <div class="dsmall col-sm-4">
                 <a id="dwolla"></a>
                 <a href="https://smile.amazon.com/ch/20-8096820">
-                  <img class="img-responsive img-thumbnail other-ways-img" src="../images/dwolla.jpg">
+                  <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/dwolla.jpg">
                 </a>
               </div>
             </div>
