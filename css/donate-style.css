@@ -111,7 +111,7 @@ float: left;
 .navbar-nav{
 	margin: 0;
 }
-.img-thumbnail {
+.img-thumbnail.champion {
   padding: 1px;
   background-color: #785291;
   border: 1px solid #785291;
