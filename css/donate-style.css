@@ -129,6 +129,7 @@ html {
 }
 .logo{
     height: 81px;
+    width: auto;
 }
 .donation{
 	text-align: center;
