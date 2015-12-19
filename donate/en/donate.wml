@@ -240,21 +240,21 @@
             </div><!-- row-eqheight -->
               
               
-            <div class="col-sm-12 even-more">
+            <div class="col-xs-12 even-more">
 
-              <div class="dsmall col-sm-4">
+              <div class="dsmall col-xs-4">
                 <a href="../donate/donate-amazon.html.en">
                   <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/amazon.jpg">
                 </a>
               </div>
               
-              <div class="dsmall col-sm-4">
+              <div class="dsmall col-xs-4">
                 <a href="https://smile.amazon.com/ch/20-8096820">
                   <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/amazon-smile.jpg">
                 </a>
               </div>
 
-              <div class="dsmall col-sm-4">
+              <div class="dsmall col-xs-4">
                 <a id="dwolla"></a>
                 <a href="https://smile.amazon.com/ch/20-8096820">
                   <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/dwolla.jpg">

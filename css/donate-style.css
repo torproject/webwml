@@ -278,7 +278,7 @@ blockquote footer{
 	background-color: #FAFAFA;
 }
 .dsmall{
-	padding: 0 100px;
+	padding: 0 8%;
 }
 .other-ways-img{
 	width: 100%;
@@ -335,6 +335,9 @@ footer.footer{
 	}
 	blockquote::before {
 		display: none;
+	}
+	.dsmall{
+		padding: 0 5%;
 	}
 
 }
@@ -419,6 +422,9 @@ footer.footer{
 	}
 	.img-section{
 		width: 35%;
+	}
+	.dsmall{
+		padding: 0 3%;
 	}
 	footer.footer {
 	    margin-bottom: 0px;
