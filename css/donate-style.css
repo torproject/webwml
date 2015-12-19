@@ -128,7 +128,7 @@ html {
     margin-top: 28px;
 }
 .logo{
-    width: 120px;
+    height: 81px;
 }
 .donation{
 	text-align: center;
@@ -377,7 +377,7 @@ footer.footer{
 @media (max-width: 399px)  {
 	.logo {
 	    text-align: center;
-	    width: 25%;
+	    height: 60px;
 	    float: none;
 	}
 	.navbar-header{
