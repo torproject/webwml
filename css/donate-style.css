@@ -225,6 +225,84 @@ blockquote::before {
 blockquote footer{
 	color: rgb(240,240,240);
 }
+.donate-button {
+	background-color: #4FAB76;
+	border-color: #47996A;
+}
+.donate-button:hover,
+.donate-button:focus,
+.donate-button:active,
+.donate-button:active:hover,
+.donate-button:active:focus{
+	background-color: #47996A;
+	border-color: #47996A; 
+}
+#other-ways-section > .container-fluid{
+	padding: 0;
+}
+.hundred.toptwenty{
+	text-align: justify;
+	margin-top: 0;
+}
+.row-eqheight{
+    overflow: hidden; 
+    padding-bottom: 20px
+}
+.row-eqheight > [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.bitcoin{
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #F6F6F6;
+}
+#bitpayDonation > .well > .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+#bitpayDonation > .well {
+	box-shadow: none;
+	border-radius: 7px;
+	margin-bottom: 0;
+}
+.check-eutransfer{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #F0F0F0;
+}
+.even-more{
+	padding: 25px 0;
+	background-color: #FAFAFA;
+}
+.dsmall{
+	padding: 0 100px;
+}
+.other-ways-img{
+	width: 100%;
+}
+.img-thumbnail.other-ways-img {
+	padding: 1px;
+	transition: none 0s ease 0s;
+	border: 2px solid rgb(221, 221, 221);
+}
+.get-in-touch{
+	background-color: #35734F;
+	color: #fff;
+}
+.title {
+    min-height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: 3px solid #3D855B;
+    padding-top: 25px;
+}
+.detail {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
 footer.footer{
 	margin-top: 20px;
 	position: absolute;
