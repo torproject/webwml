@@ -113,6 +113,174 @@
         </div><!-- row -->
       </div><!-- container -->
     </div><!-- paypal-donate -->
+
+        <div id="other-ways-section">
+      <div class="container-fluid">
+        <div id="maincol">
+          <div class="hundred toptwenty">
+          
+            <div class="row-eqheight">
+              
+              <!-- BEGIN BITCOIN -->
+              <div class="col-sm-6 bitcoin">
+                <a id="bitcoin"></a>
+                <h3><strong>Bitcoins</strong></h3>
+                <p>In order to comply with US 501(c)(3) non-profit regulations, our Bitcoin transaction limit is currently $10,000 USD per day.
+                  If you wish to avoid transaction limits, please consider a direct Bitcoin donation to
+                  <a href="https://www.torservers.net/donate.html#cryptocurrencies">Torservers.net</a>,
+                  <a href="http://noisetor.net/#bitcoin">NoiseTor</a>,
+                  <a href="https://www.oniontip.com/">OnionTip</a>,
+                  or <a href="https://tails.boum.org/contribute/how/donate/#bitcoin">Tails</a>.
+                </p>
+                <p>If this transaction limit is not an issue for you, please complete the form below:</p>
+                <form id="bitpayDonation" class="form" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#bitpayDonation'));">
+                  <input name="action" type="hidden" value="checkout">
+                  <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
+                    <div class="form-group">
+                      <label for="bitcoinEmail" class="input-group control-label" style="padding:0;">Email address</label>
+                      <input id="bitcoinEmail" name="orderID" type="email" class="form-control" placeholder="Email address (optional)" maxlength="50" autocapitalize="off" autocorrect="off">
+                    </div>
+                        
+                    <div class="form-group row">
+                      <label for="bitcoinAmount" class="input-group control-label">Amount</label>
+                      <div class="col-sm-8" style="padding:0;">
+                        <input name="price" type="number" class="form-control" id="bitcoinAmount" value="43.00" placeholder="Amount" maxlength="10" min="5">
+                      </div>
+                      
+                      <div class="col-sm-4" style="padding:0;">
+                        <select name="currency" value="" class="form-control">
+                          <option value="USD" selected="selected">USD</option>
+                          <option value="BTC">BTC</option>
+                          <option value="EUR">EUR</option>
+                          <option value="GBP">GBP</option>
+                          <option value="AUD">AUD</option>
+                          <option value="BGN">BGN</option>
+                          <option value="BRL">BRL</option>
+                          <option value="CAD">CAD</option>
+                          <option value="CHF">CHF</option>
+                          <option value="CNY">CNY</option>
+                          <option value="CZK">CZK</option>
+                          <option value="DKK">DKK</option>
+                          <option value="HKD">HKD</option>
+                          <option value="HRK">HRK</option>
+                          <option value="HUF">HUF</option>
+                          <option value="IDR">IDR</option>
+                          <option value="ILS">ILS</option>
+                          <option value="INR">INR</option>
+                          <option value="JPY">JPY</option>
+                          <option value="KRW">KRW</option>
+                          <option value="LTL">LTL</option>
+                          <option value="LVL">LVL</option>
+                          <option value="MXN">MXN</option>
+                          <option value="MYR">MYR</option>
+                          <option value="NOK">NOK</option>
+                          <option value="NZD">NZD</option>
+                          <option value="PHP">PHP</option>
+                          <option value="PLN">PLN</option>
+                          <option value="RON">RON</option>
+                          <option value="RUB">RUB</option>
+                          <option value="SEK">SEK</option>
+                          <option value="SGD">SGD</option>
+                          <option value="THB">THB</option>
+                          <option value="TRY">TRY</option>
+                          <option value="ZAR">ZAR</option>
+                        </select>
+                      </div>
+                      
+                    </div>
+                    <br>
+                    <input type="hidden" name="data" value="iH+sCoKQo5J52hkEzWcMi8+PRt78/89lcSU9GnapWfWL6thyubtDCahTUqa2JTlj6RQrQySkZAoFvK05yifMwfx5V87JJuoaDlHUsZR9ppzkklmzHpKJ4TG5M0zNVcKfNBfyopdfTFbzpOXM2FDppqmU7njsRUF1EZPa0K7SIxpv4lNKSPn1PyjVKVxjnpFE0AZ1Qa75VwZnS+rBNNfwxPsgSz+Oa2Twe226FmJJrLtPuBteFfHAIWh6QS5JnpOn4ScMFph0zjixutmunMAjKw==">
+                    <div style="margin: auto; width: 100%; text-align: center">
+                      <input name="submit" src="https://www.torproject.org/images/bitpay-donate-md.png" type="image" style="width: auto" alt="BitPay" border="0">
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+              <!-- END BITCOIN -->
+
+
+
+
+
+              <div class="col-sm-6 check-eutransfer">
+
+                <!-- BEGIN CHECK -->
+                <a id="cash"></a>
+                <h4><strong>Check or Money Order</strong></h4>
+                <p>You can send checks or money orders to:</p>
+                <p>The Tor Project, Inc<br>
+                  7 Temple Street, Suite A<br>
+                  Cambridge, MA 02139-2403 USA
+                </p>
+                <!-- END CHECK -->
+
+                <!-- BEGIN TRANSFER -->
+                <a id="eubanks"></a>
+                <h4 style="margin-top:20px;"><strong>European Bank Transfer</strong></h4>
+                <p>For European bank transfers, we have an arrangement with
+                  the Renewable Freedom Foundation to provide
+                  <a href="http://www.solicitorsjournal.com/news/private-client/charities/gifts-foreign-charities-are-tax-deductible-ecj-rules">tax-deductible</a>
+                  donations for Europeans. (They don't actually pass the money
+                  through to us, but rather we trust them to spend it in Tor's
+                  interest.) They will issue a donation receipt <a
+                  href="https://renewablefreedom.org/contact/">upon request</a>. The
+                  account information is as follows:
+                </p>
+                <p>Renewable Freedom Foundation<br>
+                  IBAN: DE17721500000053693701<br>
+                  BIC: BYLADEM1ING<br>
+                  Sparkasse Ingolstadt<br>
+                  Rathausplatz 6<br>
+                  85049 Ingolstadt<br>
+                </p>
+                <!-- END TRANSFER -->
+
+              </div><!-- check-eutransfer -->
+
+            </div><!-- row-eqheight -->
+              
+              
+            <div class="col-sm-12 even-more">
+
+              <div class="dsmall col-sm-4">
+                <a href="../donate/donate-amazon.html.en">
+                  <img class="img-responsive img-thumbnail other-ways-img" src="../images/amazon.jpg">
+                </a>
+              </div>
+              
+              <div class="dsmall col-sm-4">
+                <a href="https://smile.amazon.com/ch/20-8096820">
+                  <img class="img-responsive img-thumbnail other-ways-img" src="../images/amazon-smile.jpg">
+                </a>
+              </div>
+
+              <div class="dsmall col-sm-4">
+                <a id="dwolla"></a>
+                <a href="https://smile.amazon.com/ch/20-8096820">
+                  <img class="img-responsive img-thumbnail other-ways-img" src="../images/dwolla.jpg">
+                </a>
+              </div>
+            </div>
+
+          </div> <!-- hundred toptwenty -->
+        </div> <!-- maincol row -->
+      </div> <!-- fluid-container -->
+      
+    </div><!-- other-ways-section -->
+
+    <div class="get-in-touch">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <h3 class="title"><strong>Get in touch.</strong></h3> 
+          </div>
+          <div class="col-xs-8">
+            <p class="detail">Contact us at donations@torproject.org for more donation details.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     
   </div><!-- donation -->
 
