@@ -91,7 +91,7 @@
                 <h5 class="error-msg">The minimum donation amount is $5</h5>
                 <button id="donate-btn" class="btn btn-primary btn-lg btn-block donate-button" style="padding:10px;">Donate</button>
                 <h5>via PayPal (doesn't require an account)</h5>
-                <h4><a href="<page donate/donate-options>">Other Ways to Donate</a></h4>
+                <h4><a id="link" href="#other-ways-section">Other Ways to Donate</a></h4>
               </div>
               
               <!-- PAYPAL ESSENTIAL INPUTS -->
@@ -370,6 +370,14 @@
       $(".left").removeClass('active');
     });
     
+
+    $("#link").on('click',function(event){
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: $("#other-ways-section").offset().top
+      }, 200);
+    });
+
   });
 
 
