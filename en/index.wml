@@ -18,15 +18,24 @@
   </a>
 </div>
 
+#include "head.wmi" TITLE="Tor Project: Anonymity Online" CHARSET="UTF-8"
+
+<!-- Script for populating the donation banner. -->
 <script>
   <!-- Show a different champion at random. -->
   var alternates = ["cd", "lp", "rd", "rr", "ss"];
+  var altTexts = {
+     "cd" : '"Privacy and anonymity matter to all of us." -- Cory Doctorow, Novelist, Technology Activist, Co-Editor of Boing Boing',
+     "lp" : '"Edward Snowden would not have been able to contact me without Tor and other free software encryption projects. Tor is an essential tool, and it needs our support." -- Laura Poitras, Oscar-winning Documentary Filmmaker, Citizenfour',
+     "rd" : '"Please help the strongest privacy tool in the world become more sustainable!" -- Roger Dingledine, Founder, The Tor Project',
+     "rr" : '"The internet cannot heal itself in the face of tyrants. Tor is the salve that heals that wound; Tor is what allows us to route around Tyranny." -- Rabbi Rob Thomas, Director of The Tor Project',
+     "ss" : '"Tor is an essential part of the internet freedom infrastructure." -- Shari Steele, Executive Director of the Tor Project',
+  };
   var alternate = alternates[Math.floor(Math.random() * alternates.length)];
   var image = document.getElementById("donation-banner-image");
   image.src = "images/homepage-banner-" + alternate + ".jpg";
+  image.alt = altTexts[alternate];
 </script>
-
-#include "head.wmi" TITLE="Tor Project: Anonymity Online" CHARSET="UTF-8"
 
 <div id="home">
     <div id="content" class="clearfix">
