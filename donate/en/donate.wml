@@ -41,9 +41,9 @@
             </noscript>
 
             <h4 style="text-align:left; padding-top:10px;"><b>Perks</b></h4>
-            <div class="col-sm-4 no-padding"><img id="stickers" class="img-responsive half-opacity" src="$(IMGROOT)/swag-stickers-lg.png" alt="stickers"></div>
-            <div class="col-sm-4 no-padding"><img id="tshirt" class="img-responsive half-opacity" src="$(IMGROOT)/swag-tees-lg.png" alt="tshirt"></div>
-            <div class="col-sm-4 no-padding"><img id="hoody" class="img-responsive half-opacity" src="$(IMGROOT)/swag-hoody-lg.png" alt="hoody"></div>
+            <div class="col-xs-4 no-padding"><img id="stickers" class="img-responsive half-opacity" src="$(IMGROOT)/swag-stickers-lg.png" alt="stickers"></div>
+            <div class="col-xs-4 no-padding"><img id="tshirt" class="img-responsive half-opacity" src="$(IMGROOT)/swag-tees-lg.png" alt="tshirt"></div>
+            <div class="col-xs-4 no-padding"><img id="hoody" class="img-responsive half-opacity" src="$(IMGROOT)/swag-hoody-lg.png" alt="hoody"></div>
           </div>
           
           <div class="donate-section col-sm-5">

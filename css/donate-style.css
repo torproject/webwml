@@ -147,6 +147,7 @@ html {
 }
 .no-padding{
 	padding: 0;
+	margin-bottom: 20px;
 }
 .half-opacity{
 	opacity: 0.5;
@@ -335,6 +336,9 @@ footer.footer{
 	}
 	blockquote::before {
 		display: none;
+	}
+	#bitpayDonation > .well {
+	    margin-bottom: 30px;
 	}
 	.dsmall{
 		padding: 0 5%;
