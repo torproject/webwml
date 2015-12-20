@@ -195,6 +195,9 @@ input[type=number] {
 	color: red;
 	display: none;
 }
+#donate > .btn-group {
+    margin-bottom: 30px;
+}
 .quote-section{
 	background-color:#67467D;
 	padding: 20px 0;
@@ -336,6 +339,12 @@ footer.footer{
 	}
 	blockquote::before {
 		display: none;
+	}
+	.combined-input {
+	    margin: 0 15px 15px 15px;
+	}
+	#donate > .btn-group {
+	    margin-bottom: 15px;
 	}
 	#bitpayDonation > .well {
 	    margin-bottom: 30px;

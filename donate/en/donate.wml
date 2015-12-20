@@ -63,7 +63,7 @@
                 </div>
               </div>
 
-              <div class="btn-group btn-group-lg" role="group" style="margin-bottom: 30px;">
+              <div class="btn-group btn-group-lg" role="group">
                 <div style="padding-bottom:5px;" class="col-xs-6">
                   <button value="10" id="amount10" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn">$10</button>
                 </div>
