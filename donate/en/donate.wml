@@ -256,7 +256,7 @@
 
               <div class="dsmall col-xs-4">
                 <a id="dwolla"></a>
-                <a href="https://smile.amazon.com/ch/20-8096820">
+                <a href="https://www.dwolla.com/hub/thetorproject">
                   <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/dwolla.jpg">
                 </a>
               </div>
