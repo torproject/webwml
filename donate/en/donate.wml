@@ -114,9 +114,10 @@
       </div><!-- container -->
     </div><!-- paypal-donate -->
 
-        <div id="other-ways-section">
-      <div class="container-fluid">
-        <div id="maincol">
+    <div id="other-ways-section">
+      <div class="main-other-ways">
+        <div class="container">
+          <div id="maincol">
           <div class="hundred toptwenty">
           
             <div class="row-eqheight">
@@ -238,8 +239,13 @@
               </div><!-- check-eutransfer -->
 
             </div><!-- row-eqheight -->
-              
-              
+            </div> <!-- hundred toptwenty -->
+          </div> <!-- maincol row -->
+        </div> <!-- container -->
+      </div> <!-- main-other-ways -->
+            
+      <div class="minor-other-ways">
+        <div class="container">              
             <div class="col-xs-12 even-more">
 
               <div class="dsmall col-xs-4">
@@ -262,9 +268,8 @@
               </div>
             </div>
 
-          </div> <!-- hundred toptwenty -->
-        </div> <!-- maincol row -->
-      </div> <!-- fluid-container -->
+        </div> <!-- container -->
+      </div> <!-- minor-other-ways -->
       
     </div><!-- other-ways-section -->
 
