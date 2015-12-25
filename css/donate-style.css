@@ -280,6 +280,7 @@ blockquote footer{
 	padding-top: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
+	border-left: 1px dashed #e3e3e3;
 }
 .minor-other-ways{
 	background-color: #FAFAFA;
@@ -352,6 +353,10 @@ footer.footer{
 	}
 	#donate > .btn-group {
 	    margin-bottom: 15px;
+	}
+	.check-eutransfer{
+		border-left: none;
+		border-top: 1px dashed #e3e3e3;
 	}
 	#bitpayDonation > .well {
 	    margin-bottom: 30px;
