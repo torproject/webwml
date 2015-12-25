@@ -373,10 +373,12 @@
 
     $("#link").on('click',function(event){
       event.preventDefault();
+      $("#other-ways-section").show();
       $('html, body').animate({
         scrollTop: $("#other-ways-section").offset().top
       }, 200);
     });
+
 
   });
 

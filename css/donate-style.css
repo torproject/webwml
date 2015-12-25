@@ -241,6 +241,9 @@ blockquote footer{
 	background-color: #47996A;
 	border-color: #47996A; 
 }
+#other-ways-section{
+	display: none;
+}
 #other-ways-section > .container-fluid{
 	padding: 0;
 }
