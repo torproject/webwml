@@ -124,7 +124,7 @@
               <!-- BEGIN BITCOIN -->
               <div class="col-sm-6 bitcoin">
                 <a id="bitcoin"></a>
-                <h3><strong>Bitcoins</strong></h3>
+                <h4><strong>Bitcoins</strong></h4>
                 <p>In order to comply with US 501(c)(3) non-profit regulations, our Bitcoin transaction limit is currently $10,000 USD per day.
                   If you wish to avoid transaction limits, please consider a direct Bitcoin donation to
                   <a href="https://www.torservers.net/donate.html#cryptocurrencies">Torservers.net</a>,
