@@ -262,6 +262,17 @@ blockquote footer{
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
+.other-ways-title{
+	margin: 10px 0;
+}
+.other-ways-title > h3{
+	display: inline;
+}
+.other-ways-icon{
+	background: transparent;
+	margin-top: -10px;
+	margin-right: 5px;
+}
 .bitcoin{
 	padding-top: 10px;
 	padding-left: 30px;

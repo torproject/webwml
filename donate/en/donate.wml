@@ -125,7 +125,10 @@
               <!-- BEGIN BITCOIN -->
               <div class="col-sm-6 bitcoin">
                 <a id="bitcoin"></a>
-                <h4><strong>Bitcoins</strong></h4>
+                <div class="other-ways-title">
+                  <img class="img-thumbnail other-ways-icon" src="../images/bitcoin.png" width="40" height="40">
+                  <h3><strong>Bitcoins</strong></h3>
+                </div>
                 <p>In order to comply with US 501(c)(3) non-profit regulations, our Bitcoin transaction limit is currently $10,000 USD per day.
                   If you wish to avoid transaction limits, please consider a direct Bitcoin donation to
                   <a href="https://www.torservers.net/donate.html#cryptocurrencies">Torservers.net</a>,
@@ -207,7 +210,10 @@
 
                 <!-- BEGIN CHECK -->
                 <a id="cash"></a>
-                <h4><strong>Check or Money Order</strong></h4>
+                <div class="other-ways-title">
+                  <img class="img-thumbnail other-ways-icon" src="../images/bank48.png" width="40" height="40">
+                  <h3><strong>Check or Money Order</strong></h3>
+                </div>
                 <p>You can send checks or money orders to:</p>
                 <p>The Tor Project, Inc<br>
                   7 Temple Street, Suite A<br>
@@ -217,7 +223,10 @@
 
                 <!-- BEGIN TRANSFER -->
                 <a id="eubanks"></a>
-                <h4 style="margin-top:20px;"><strong>European Bank Transfer</strong></h4>
+                <div style="margin-top:30px;" class="other-ways-title">
+                  <img class="img-thumbnail other-ways-icon" src="../images/pantheon1.png" width="40" height="40">
+                  <h3><strong>European Bank Transfer</strong></h3>
+                </div>
                 <p>For European bank transfers, we have an arrangement with
                   the Renewable Freedom Foundation to provide
                   <a href="http://www.solicitorsjournal.com/news/private-client/charities/gifts-foreign-charities-are-tax-deductible-ecj-rules">tax-deductible</a>
