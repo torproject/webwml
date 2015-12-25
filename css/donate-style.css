@@ -289,11 +289,9 @@ blockquote footer{
 	padding: 25px 0;
 	background-color: #FAFAFA;
 }
-.dsmall{
-	padding: 0 8%;
-}
 .other-ways-img{
 	width: 100%;
+	max-width: 160px;
 }
 .img-thumbnail.other-ways-img {
 	padding: 1px;
