@@ -281,20 +281,6 @@
       </div> <!-- minor-other-ways -->
       
     </div><!-- other-ways-section -->
-
-    <div class="get-in-touch">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3 class="title"><strong>Get in touch.</strong></h3> 
-          </div>
-          <div class="col-sm-8">
-            <p class="detail">Contact us at donations@torproject.org for more donation details.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     
   </div><!-- donation -->
 
