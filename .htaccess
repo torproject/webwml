@@ -70,6 +70,7 @@ RewriteRule ^donate/donate-blog-alison(.*) /donate/donate$1 [R=302,L]
 RewriteRule ^donate/donate-snowden(.*) /donate/donate$1 [R=302,L]
 RewriteRule ^donate/donate-chaos(.*) /donate/donate$1 [R=302,L]
 RewriteRule ^donate/donate-blog-nanni(.*) /donate/donate$1 [R=302,L]
+RewriteRule ^donate/donate-blog-landau(.*) /donate/donate$1 [R=302,L]
 #keep prefixes of other entries down here...
 RewriteRule ^donate/donate-hp(.*) /donate/donate$1 [R=302,L]
 
