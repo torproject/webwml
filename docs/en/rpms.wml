@@ -67,6 +67,7 @@ repo_gpgcheck=1
     
     <p>E.g. you may exclude EPEL's Tor package by putting the mentioned exclude
     line under [epel] section in <tt>/etc/yum.repos.d/epel.repo</tt>.
+    For Fedora, you usually need that exclude in fedora-updates.repo file.
     </p>
     
     <h3>Package installation and running</h3>
