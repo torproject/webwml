@@ -157,7 +157,7 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-arm">Arm</a></td>
+        <td><a href="#project-nyx">Nyx</a></td>
         <td>User Interface</td>
         <td>Python, Curses</td>
         <td>Light</td>
@@ -450,14 +450,14 @@ meetings around the world.</li>
     more secure.
     </p>
 
-    <a id="project-arm"></a>
-    <h3><a href="https://www.atagar.com/arm/">Arm</a> (<a
-    href="https://gitweb.torproject.org/arm.git">code</a>, <a
+    <a id="project-nyx"></a>
+    <h3><a href="https://www.atagar.com/arm/">Nyx</a> (<a
+    href="https://gitweb.torproject.org/nyx.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=arm&order=priority">bug
     tracker</a>)</h3>
 
     <p>
-    The anonymizing relay monitor (arm) is a terminal status monitor for Tor,
+    Nyx (previously <i>arm</i>) is a terminal status monitor for Tor
     intended for command-line aficionados, ssh connections, and anyone with a
     tty terminal. This works much like top does for system usage, providing
     real time statistics for bandwidth, resource usage, connections, and quite
