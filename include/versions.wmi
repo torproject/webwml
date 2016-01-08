@@ -19,10 +19,10 @@
 <define-tag version-osx-ppc-alpha whitespace=delete>0.2.4.17-rc</define-tag>
 
 <define-tag version-torbrowserbundledir whitespace=delete>5.0.7</define-tag>
-<define-tag version-torbrowserbundlebetadir whitespace=delete>5.5a5</define-tag>
+<define-tag version-torbrowserbundlebetadir whitespace=delete>5.5a6</define-tag>
 
 <define-tag version-torbrowserbundle whitespace=delete>5.0.7</define-tag>
-<define-tag version-torbrowserbundlebeta whitespace=delete>5.5a5</define-tag>
+<define-tag version-torbrowserbundlebeta whitespace=delete>5.5a6</define-tag>
 <define-tag version-torbrowser-tor whitespace=delete>0.2.4.19</define-tag>
 <define-tag version-torbrowser-tor-components whitespace=delete>libevent-2.0.21-stable, zlib-1.2.8, openssl-1.0.1e</define-tag>
 <define-tag version-torbrowser-firefox whitespace=delete>24.2.0esr</define-tag>
@@ -33,8 +33,8 @@
 
 <define-tag version-torbrowserbundlelinux32 whitespace=delete>5.0.7</define-tag>
 <define-tag version-torbrowserbundlelinux64 whitespace=delete>5.0.7</define-tag>
-<define-tag version-torbrowserbundlelinux32beta whitespace=delete>5.5a5</define-tag>
-<define-tag version-torbrowserbundlelinux64beta whitespace=delete>5.5a5</define-tag>
+<define-tag version-torbrowserbundlelinux32beta whitespace=delete>5.5a6</define-tag>
+<define-tag version-torbrowserbundlelinux64beta whitespace=delete>5.5a6</define-tag>
 <define-tag version-gnu-torbrowser-tor whitespace=delete>0.2.4.19</define-tag>
 <define-tag version-gnu-torbrowser-tor-components whitespace=delete>libevent-2.0.21-stable, zlib-1.2.8, openssl-1.0.0k</define-tag>
 <define-tag version-gnu-torbrowser-firefox whitespace=delete>24.2.0esr</define-tag>
@@ -42,7 +42,7 @@
 
 <define-tag version-torbrowserbundleosx32 whitespace=delete>5.0.7</define-tag>
 <define-tag version-torbrowserbundleosx64 whitespace=delete>5.0.7</define-tag>
-<define-tag version-torbrowserbundleosx64beta whitespace=delete>5.5a5</define-tag>
+<define-tag version-torbrowserbundleosx64beta whitespace=delete>5.5a6</define-tag>
 <define-tag version-osx-torbrowser-tor whitespace=delete>0.2.4.19</define-tag>
 <define-tag version-osx-torbrowser-firefox whitespace=delete>24.2.0esr</define-tag>
 <define-tag version-osx-torbrowser-torbutton whitespace=delete>1.5.2</define-tag>
