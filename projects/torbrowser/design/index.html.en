@@ -39,7 +39,7 @@ Instantbird, and XULRunner.
 To help protect against potential Tor Exit Node eavesdroppers, we include
 <a class="ulink" href="https://www.eff.org/https-everywhere" target="_top">HTTPS-Everywhere</a>. To
 provide users with optional defense-in-depth against Javascript and other
-potential exploit vectors, we also include <a class="ulink" href="http://noscript.net/" target="_top">NoScript</a>. We also modify <a class="ulink" href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/linux/Data/Browser/profile.default/preferences/extension-overrides.js" target="_top">several
+potential exploit vectors, we also include <a class="ulink" href="https://noscript.net/" target="_top">NoScript</a>. We also modify <a class="ulink" href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/linux/Data/Browser/profile.default/preferences/extension-overrides.js" target="_top">several
 extension preferences</a> from their defaults.
 
    </p><p>
