@@ -16,5 +16,7 @@
 "6.0a1-MacOS",
 "6.0a1-Windows",
 "5.5a6-hardened",
-"5.5a6-hardened-Linux"
+"5.5a6-hardened-Linux",
+"6.0a1-hardened",
+"6.0a1-hardened-Linux"
 ]
