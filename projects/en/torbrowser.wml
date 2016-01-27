@@ -181,6 +181,19 @@
           &bull; <a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_it.tar.xz">64-bit</a> 
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_it.tar.xz.asc">sig</a>)</em></td>
         </tr>
+        <tr>
+          <td>&#26085;&#26412;&#35486; (ja)</td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_ja.exe">32/64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_ja.exe.asc">sig</a>)</em></td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_ja.dmg">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_ja.dmg.asc">sig</a>)</em>
+          <!-- EC &bull; <a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx-x86_64-ja.zip">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx-x86_64-ja.zip.asc">sig</a>)</em></td> -->
+          <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_ja.tar.xz">32-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_ja.tar.xz.asc">sig</a>)</em>
+          &bull; <a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_ja.tar.xz">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_ja.tar.xz.asc">sig</a>)</em></td>
+        </tr>
         <tr class="alt">
           <td>Korean (ko)</td>
           <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_ko.exe">32/64-bit</a> 
