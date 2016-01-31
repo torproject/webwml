@@ -1310,36 +1310,3 @@ p.blogDate {
 }
 /* End hide from IE-mac */
 
-#donation-banner {
-  display: block;
-  height: 200px;
-  margin: auto;
-  margin-bottom: 5px;
-  position: relative;
-  width: 700px;
-}
-
-#donation-banner > a {
-  display: block;
-}
-
-#donation-banner > img {
-  display: block;
-}
-
-#donate-button {
-  background-color: green;
-  border-radius: 5px;
-  bottom: 15px;
-  color: white;
-  font-family: sans-serif;
-  font-size: 20px;
-  padding: 14px 14px;
-  position: absolute;
-  right: 15px;
-  text-align: center;
-}
-
-#donate-button:hover {
-  filter: brightness(1.2);
-}
