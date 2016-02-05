@@ -176,14 +176,6 @@ custom configurations. All an apt-get or yum install away.</p>
 	  <h2>Android Bundle</h2>
 	  <p>Our software is available for Android-based phones, tablets, and computers from the <a href="https://guardianproject.info/">Guardian Project</a> in their <a href= "https://guardianproject.info/2012/03/15/our-new-f-droid-app-repository/">F-Droid Repository</a> or the <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play Store</a>.</p>
 	</div>
-<!-- Nokia -->
-	<div class="package" style="border-bottom: 0px;">
-	  <div class="downloads">
-	    <a class="additional" style="font-weight: bold;" href="<page docs/N900>">Experimental Instructions</a>
-	  </div>
-
-	  <h2>Nokia Maemo/N900</h2>
-	</div>
       </div>
 <!-- END SMARTPHONES -->
 <!-- BEGIN SOURCE -->
