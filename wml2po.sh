@@ -32,7 +32,7 @@ copyright="The Tor Project, Inc"
 # in website/include/versions.wmi. Tags that people usually forget to close,
 # as well as tags that are not defined in versions.wmi, have been added.
 # See: https://svn.torproject.org/svn/website/trunk/include/versions.wmi
-customtag=`echo $(cat "$wmldir/include/versions.wmi" | awk '{ printf "<%s> " , $2 }' | sed 's/<>//g') "<svnsandbox> <svnwebsite> <svnprojects> <input> <hr> <br> <img> <gitblob> <package-androidbundle-alpha> <version-androidbundle-tor> <video controls> <wiki>"`
+customtag=`echo $(cat "$wmldir/include/versions.wmi" | awk '{ printf "<%s> " , $2 }' | sed 's/<>//g') "<svnsandbox> <svnwebsite> <svnprojects> <input> <hr> <br> <img> <gitblob> <video controls> <wiki>"`
 
 # We also need to use the nodefault option of po4a; space separated list
 # of tags that the module should not try to set by default in any
