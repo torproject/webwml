@@ -662,8 +662,8 @@
       <a
       href="https://www.torproject.org/projects/torbrowser/design/">design
       document</a>, the <a
-      href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt?h=maint-4.0">ChangeLog
-      for the 4.0 branch</a>, and the <a
+      href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt?h=<version-torbrowserdevelopbranch>">ChangeLog
+      for the branch <version-torbrowserdevelopbranch></a>, and the <a
       href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt">ChangeLog
       for the alpha branch</a>.
       </p>
