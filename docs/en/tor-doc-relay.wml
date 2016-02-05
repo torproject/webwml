@@ -23,8 +23,8 @@
     </p>
 
     <p>You can run a Tor relay on pretty much any operating system. Tor relays
-    work best on Linux, OS X Lion or later, FreeBSD 5.x+, NetBSD 5.x+, and
-    Windows Server 2003 or later.
+    work best on current distributions of Linux, FreeBSD, NetBSD, and
+    Windows Server or later.
     </p>
 
     <p>
@@ -37,15 +37,6 @@
     with those operating systems.
     </p>
 
-    <p>Alas, since Vidalia (a graphical interface for Tor) is <a
-    href="<page docs/faq>#WhereDidVidaliaGo">no longer included</a>
-    in Tor Browser, there are currently no
-    easy relay packages for Windows and OS X users. One option might be to run
-    Debian in a VM, or use a different means of getting a Tor binary on
-    your system (Expert Bundle, Homebrew, Macports). Please help make
-    this process easier!
-    </p>
-
     <hr>
     <a id="torrc"></a>
     <h2><a class="anchor" href="#torrc">Configure Tor by editing the torrc file</a></h2>
@@ -53,10 +44,9 @@
 
     <p>
     Tor's
-    configuration file is named 'torrc'. In the Tor Browser folder, it's
-    located at</p>
-    <pre>Data\Tor\torrc</pre>
-    <p>Open the file with a text editor and add the following lines:</p>
+    configuration file is named 'torrc'.</p>
+    <p>Locate the file on your system, open it with a text editor and add the
+    following lines:</p>
 
     <pre>
     ORPort 443
