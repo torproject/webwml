@@ -27,7 +27,7 @@
 
 <video width="500" height="281" controls preload="none" poster="$(IMGROOT)/tor-animation.jpg">
 	<source src="https://media.torproject.org/video/2015-03-animation/HQ/Tor_Animation_en.webm" type="video/webm">
-	<track label="English" kind="captions" src="https://people.torproject.org/~nima/03-2015-Tor-Animation/subs/vtt/en.vtt" srclang="en" default>
+	<track label="English" kind="captions" src="https://media.torproject.org/video/2015-03-animation/subs/vtt/en.vtt" srclang="en" default>
 </video>
 </div>
 
