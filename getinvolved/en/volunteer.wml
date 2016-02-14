@@ -160,7 +160,7 @@ meetings around the world.</li>
         <td><a href="#project-nyx">Nyx</a></td>
         <td>User Interface</td>
         <td>Python, Curses</td>
-        <td>Light</td>
+        <td>Heavy</td>
         <td>atagar</td>
       </tr>
 
@@ -208,7 +208,7 @@ meetings around the world.</li>
         <td><a href="#project-obfsproxy">Obfsproxy</a></td>
         <td>Client Add-on</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>None</td>
         <td>asn</td>
       </tr>
 
@@ -240,7 +240,7 @@ meetings around the world.</li>
         <td><a href="#project-stem">Stem</a></td>
         <td>Library</td>
         <td>Python</td>
-        <td>Moderate</td>
+        <td>Heavy</td>
         <td>atagar</td>
       </tr>
 
@@ -256,7 +256,7 @@ meetings around the world.</li>
         <td><a href="#project-tlsdate">Tlsdate</a></td>
         <td>Utility</td>
         <td>C</td>
-        <td>Light</td>
+        <td>None</td>
         <td>ioerror</td>
       </tr>
 
@@ -264,7 +264,7 @@ meetings around the world.</li>
         <td><a href="#project-metrics">Metrics</a></td>
         <td>Client Service</td>
         <td>Java</td>
-        <td>Light</td>
+        <td>Moderate</td>
         <td>karsten</td>
       </tr>
 
@@ -304,7 +304,7 @@ meetings around the world.</li>
         <td><a href="#project-exitmap">ExitMap</a></td>
         <td>Backend Service</td>
         <td>Python</td>
-        <td>Moderate</td>
+        <td>Light</td>
         <td>phw</td>
       </tr>
 
@@ -312,7 +312,7 @@ meetings around the world.</li>
         <td><a href="#project-doctor">DocTor</a></td>
         <td>Backend Service</td>
         <td>Python</td>
-        <td>None</td>
+        <td>Light</td>
         <td>atagar</td>
       </tr>
 
@@ -328,8 +328,8 @@ meetings around the world.</li>
         <td><a href="#project-gettor">GetTor</a></td>
         <td>Client Service</td>
         <td>Python</td>
-        <td>None</td>
-        <td>kaner</td>
+        <td>Light</td>
+        <td>ilv</td>
       </tr>
 
       <tr>
@@ -344,7 +344,7 @@ meetings around the world.</li>
         <td><a href="#project-bridgedb">BridgeDB</a></td>
         <td>Backend Service</td>
         <td>Python</td>
-        <td>Heavy</td>
+        <td>Light</td>
         <td>isis</td>
       </tr>
 
@@ -352,7 +352,7 @@ meetings around the world.</li>
         <td><a href="#project-ooni-probe">Ooni Probe</a></td>
         <td>Scanner</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>Moderate</td>
         <td>hellais, aagbsn</td>
       </tr>
 
@@ -384,7 +384,7 @@ meetings around the world.</li>
         <td><a href="#project-tor2web">Tor2web</a></td>
         <td>Client Service</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>Heavy</td>
         <td>evilaliv3, hellais</td>
       </tr>
 
@@ -395,7 +395,6 @@ meetings around the world.</li>
         <td>Light</td>
         <td>arma, nickm</td>
       </tr>
-
     </table>
 
     <sub>
@@ -631,7 +630,6 @@ meetings around the world.</li>
     <a id="project-metrics"></a>
     <h3><a href="https://metrics.torproject.org/">Metrics</a> (code: <a
     href="https://gitweb.torproject.org/metrics-db.git">db</a>, <a
-    href="https://gitweb.torproject.org/metrics-utils.git">utils</a>, <a
     href="https://gitweb.torproject.org/metrics-web.git">web</a>)</h3>
 
     <p>
