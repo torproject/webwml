@@ -595,7 +595,6 @@ meetings around the world.</li>
     <p>
     <b>Project Ideas:</b><br />
     <i><a href="#txtorcon-stemIntegration">Txtorcon/Stem Integration</a></i><br />
-    <i><a href="#relayWebPanel">Relay Web Status Panel</a></i><br />
     </p>
 
     <a id="project-txtorcon"></a>
@@ -894,54 +893,6 @@ meetings around the world.</li>
     mentor txtorcon changes, and Damian (atagar) can help with Stem.</p>
     <p>It would help if you're already familiar with event-based programming,
     bonus points if it's Twisted.</p>
-    </li>
-
-    <a id="relayWebPanel"></a>
-    <li>
-    <b>Relay Web Status Dashboard</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Damian (atagar)</i>
-    <p>
-    Relay operators presently have a good option for monitoring the status
-    of their relay:
-    <a href="https://www.atagar.com/arm/">arm</a> which uses
-    curses. This project would be to make a new kind of monitor specifically
-    for relay operators that provides a status dashboard site on localhost.
-    </p>
-    <p>
-    The interface will likely <a
-    href="https://www.atagar.com/arm/screenshots.php">borrow heavily from
-    arm</a>, except of course in areas where we can improve upon it. Two
-    important design constraints is that a localhost controller provides a
-    bigger attack surface than guis or curses, so we should be a little more
-    wary of what it does. This should be a read-only controller (ie, you can't
-    *do* anything to the relay) and by default not surface any sensitive
-    information (such as arm's connection panel). Also take a peek at <a
-    href="http://www.ntop.org/products/ntop/">ntop</a> for ideas on what we can
-    do with a web interface.
-    </p>
-    <p>
-    This project will likely include two parts: an AJAX site and a localhost
-    daemon to fulfill those requests. <a
-    href="https://stem.torproject.org/">Stem</a> is the backend of arm, and can
-    be used to get everything you see in arm's interface (making it a natural
-    choice for the daemon). That said, this project might entail some Stem
-    improvements if we run across any gaps.
-    </p>
-    <p>
-    Applicants should be familiar with Python, JavaScript, and learn about
-    <a href="https://stem.torproject.org/">Stem</a>. <b>As part of your
-    application for this project please make both mockups of the interface and
-    a proof of concept demo application using JS to surface something with
-    Stem. <a
-    href="https://trac.torproject.org/projects/tor/wiki/doc/stem/bugs">Involvement
-    with Stem development</a> during the application process is also a big
-    plus.</b>
-    </p>
     </li>
 
     <a id="torCleanup"></a>
