@@ -5,19 +5,19 @@
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-5.5</define-tag>
 <define-tag version-torbrowserbundledir whitespace=delete>5.5.2</define-tag>
-<define-tag version-torbrowserbundlebetadir whitespace=delete>6.0a1</define-tag>
+<define-tag version-torbrowserbundlebetadir whitespace=delete>6.0a2</define-tag>
 
 <define-tag version-torbrowserbundle whitespace=delete>5.5.2</define-tag>
-<define-tag version-torbrowserbundlebeta whitespace=delete>6.0a1</define-tag>
+<define-tag version-torbrowserbundlebeta whitespace=delete>6.0a2</define-tag>
 
 <define-tag version-torbrowserbundlelinux32 whitespace=delete>5.5.2</define-tag>
 <define-tag version-torbrowserbundlelinux64 whitespace=delete>5.5.2</define-tag>
-<define-tag version-torbrowserbundlelinux32beta whitespace=delete>6.0a1</define-tag>
-<define-tag version-torbrowserbundlelinux64beta whitespace=delete>6.0a1</define-tag>
+<define-tag version-torbrowserbundlelinux32beta whitespace=delete>6.0a2</define-tag>
+<define-tag version-torbrowserbundlelinux64beta whitespace=delete>6.0a2</define-tag>
 
 <define-tag version-torbrowserbundleosx32 whitespace=delete>5.5.2</define-tag>
 <define-tag version-torbrowserbundleosx64 whitespace=delete>5.5.2</define-tag>
-<define-tag version-torbrowserbundleosx64beta whitespace=delete>6.0a1</define-tag>
+<define-tag version-torbrowserbundleosx64beta whitespace=delete>6.0a2</define-tag>
 
 <define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundledir>/tor-win32-<version-win32-stable>.zip</define-tag>
 
