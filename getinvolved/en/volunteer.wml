@@ -764,7 +764,6 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#censorshipAnalyzer">Develop a Censorship Analyzer</a></i><br />
     <i><a href="#ooniprobePcapsSupport">Add Support for Reporting Pcaps to OoniBackend and OoniProbe</a></i>
     </p>
 
@@ -1007,43 +1006,6 @@ meetings around the world.</li>
     and <a href="http://curvecp.org/">CurveCP</a>. Initially these transport
     protocols will be examined in isolation, but if the project progresses well
     one or more could be integrated in Tor.
-    </p>
-    </li>
-
-    <a id="censorshipAnalyzer"></a>
-    <li>
-    <b>Develop a Censorship Analyzer</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium to High (depends on the implemented tests)</i>
-    <br>
-    Likely Mentors: <i>Philipp (phw)</i>
-    <p>
-Tor is documented to be blocked in <a
-href="https://censorshipwiki.torproject.org">several countries</a>. Analyzing
-these censorship incidents can be a tedious task; especially without access to
-machines inside the censoring networks. To make analysis easier, it would be
-great to have a lightweight analysis tool which can be run by censored users.
-This tool would conduct a number of networking tests and figure out if and how
-Tor could be blocked. The tool's final report should then somehow make it back
-to the Tor project.
-    </p>
-
-    <p>
-The theory behind this tool is already <a
-href="http://www.cs.kau.se/philwint/pdf/foci2013.pdf">documented
-in a research paper</a>. What we now need is code! Implementing it would first
-mean getting familiar with <a href="https://ooni.torproject.org">OONI</a> and
-<a href="http://twistedmatrix.com/trac/">Twisted</a>. After that, the tool
-should be implemented as a number of OONI-specific networking tests.
-    </p>
-
-    <p>
-Applicants should be familiar with Python and asynchronous programming,
-e.g., as it is used in Twisted.  As part of your application for this
-project please contribute a patch for a bug in <a
-href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Ooni">OONI</a>.
     </p>
     </li>
 
