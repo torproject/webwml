@@ -373,14 +373,6 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td>*<a href="#project-torbel">TorBEL</a></td>
-        <td>Backend Service</td>
-        <td>Python</td>
-        <td>None</td>
-        <td>Sebastian</td>
-      </tr>
-
-      <tr>
         <td><a href="#project-tor2web">Tor2web</a></td>
         <td>Client Service</td>
         <td>Python</td>
@@ -799,21 +791,6 @@ meetings around the world.</li>
     actively developed in the Summer of 2010, and the Bandwidth Scanners a few
     months later. Both have been under active use since then, but development
     has stopped.
-    </p>
-
-    <a id="project-torbel"></a>
-    <h3><a
-    href="https://blog.torproject.org/blog/torbel-tor-bulk-exit-list-tools">TorBEL</a> (<a
-    href="https://gitweb.torproject.org/torbel.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=TorDNSEL/TorBEL&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    The Tor Bulk Exitlist provides a method of identifying if IPs belong to
-    exit nodes or not. This is a replacement for TorDNSEL which is a stable
-    (though unmaintained) Haskell application for this purpose. The initial
-    version of TorBEL was started in GSOC 2010 but since then the project has
-    been inactive.
     </p>
 
     <a id="project-tor2web"></a>
