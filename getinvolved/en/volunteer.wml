@@ -1027,40 +1027,32 @@ meetings around the world.</li>
 TorBirdy is an extension that configures Thunderbird to make connections over
 the Tor anonymity network. TorBirdy has been under development for quite a
 while but there are two known leaks that prevent it from being used by a wider
-audience. As part of this project, you will be working on plugging the known
-leaks and implementing a HTTP proxy.
+audience. As part of this project, you will be working on implementing a HTTP
+proxy.
     </p>
 
     <p>
-<b>Part 1:</b> There are two patches pending with Mozilla that will plug the two known
-leaks in Thunderbird where the local time is disclosed through the date and the
-message-ID header. As part of your project, you will work on getting these
-patches finished/reimplemented and getting them merged with Mozilla. Please
-look at tickets <a
-href="https://trac.torproject.org/projects/tor/ticket/6314">#6314</a> and <a
-href="https://trac.torproject.org/projects/tor/ticket/6315">#6315</a> for more
-information.
-    </p>
 
     <p>
-<b>Part 2:</b> TorBirdy needs a HTTP proxy or a HTTP -&gt; SOCKS5 shim. Please look at
+<b>HTTP Proxy</b> TorBirdy needs a HTTP proxy or a HTTP -&gt; SOCKS5 shim. Please look at
 ticket <a href="https://trac.torproject.org/projects/tor/ticket/6958">#6958</a>
-for more information. Note: this has to be done using JavaScript and not using
+for more information. Note: this has to be done using JavaScript and without using
 an external proxy.
     </p>
 
     <p>
 If time permits and you are awesome enough to finish the above two tasks, you
-will be working on the remaining TorBirdy tickets.
+will be working on the <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=TorBirdy">
+remaining TorBirdy tickets</a>.
     </p>
 
     <p>
-Applicants should be familiar with C++ and JavaScript. As part of your
-application for this project, please submit code samples for previous C++ and
-JavaScript projects that you have developed or point us to projects you have
-been involved with (links to a public Git/GitHub repository preferred). Prior
-extension development is a big plus and will be given preference during
-application ranking.
+Applicants should be familiar with JavaScript (and preferably C++ as well). As
+part of your application for this project, please submit code samples for
+previous JavaScript projects that you have developed, or point us to projects
+you have been involved with (links to a public Git/GitHub repository
+preferred).  Prior extension development is a big plus and will be given
+preference during application ranking.
     </p>
 
     <p>
