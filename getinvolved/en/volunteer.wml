@@ -1371,6 +1371,78 @@ tampering.  Third, unit tests should be added for existing and new code
 in order to make the code base more robust.
     </p>
     </li>
+
+    <a id="coniks_in_messenger"></a>
+    <li>
+    <b>Implement and Integrate CONIKS for Tor Messenger</b>
+    <br>
+    Effort Level: <i>Medium</i>
+    <br>
+    Skill Level: <i>Medium</i>
+    <br>
+    Likely Mentors: <i>Marcela, Arlo (arlolra)</i>
+    <p>
+CONIKS is an end-user key management and verification system for end-to-end
+secure communication services, which improves upon existing key management
+systems by providing both strong security and better usability using a model
+called key transparency. CONIKS does this by requiring providers to manage
+tamper-evident, publicly-auditable key directories, which contain mappings from
+usernames to public keys, on behalf of their users. This design makes it easier
+for users (both "default" users and power users) to establish trust since they
+don't have to worry about or even see keys, but users also don't have to
+trust the provider to be well-behaved because the CONIKS client can run as
+part of the secure messaging app and automatically check that the service
+provider doesn’t map spurious keys to their users' usernames, and it can
+verify that observed name-to-key mappings are consistent with what other
+clients in the system are seeing. Unlike existing key transparency solutions,
+CONIKS also provides strong privacy guarantees by employing cryptographic
+primitives for robust data obfuscation.
+    </p>
+
+    <p>
+The CONIKS system design, protocols, and proof-of-concept are described in
+great detail in the <a
+href="https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-melara.pdf">CONIKS
+research paper</a>, and basic reference implementations of a CONIKS key server
+and a CONIKS client are avialable on <a
+href="https://github.com/coniks-sys/coniks-ref-implementation">Github</a>.
+    </p>
+
+    <p>
+This project has two main components: (1) designing and implementing a CONIKS
+key server tailored to Tor Messenger users, and (2) building a CONIKS client
+which integrates with the Tor Messenger client. One challenge the applicant
+will face is ensuring that the key server design is efficient and scalable for
+large volumes of users, concurrent traffic and guarantees this scalability even
+as Tor Messenger's user base grows. On the client side, the main challenges
+will be to focus on space efficiency as well as minimizing computational
+overhead when implementing the CONIKS consistency checks, and determining how
+to best communicate CONIKS consistency check results to users in the UI. Since
+Tor Messenger does not hand out online identities per se, as most online
+communication services do (like, say, Twitter, in which each user has a unique
+handle), the CONIKS key server for Tor Messenger will have to map usernames
+from third-party communication services to the encryption keys used in Tor
+Messenger. One additional important challenge that the applicant will have to
+help address is ensuring that each such third-party username remains unique in
+the Tor Messenger space and that such external, third-party identities are
+indeed controlled by the expected user of that third-party communication
+service.
+    </p>
+
+    <p>
+Some design and implementation questions have been discussed in <a
+href="https://trac.torproject.org/projects/tor/ticket/17961">Ticket #17961</a>.
+    </p>
+
+    <p>
+The applicant should have some familiarity with well-known crypto primitives
+and algorithms, as well as have a basic understanding of the key transparency
+model. Client side integration will require some basic use of JavaScript.
+Consider submitting a patch for <a
+href="https://github.com/arlolra/ctypes-otr/issues">one of the open key
+verification issues</a> as part of the application process.
+    </p>
+    </li>
 <!--
     <a id=""></a>
     <li>
