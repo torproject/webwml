@@ -197,6 +197,14 @@ meetings around the world.</li>
       </tr>
 
       <tr>
+        <td><a href="#project-tormessenger">Tor Messenger</a></td>
+        <td>Bundle</td>
+        <td>JavaScript, XUL, Scripting</td>
+        <td>Heavy</td>
+        <td>arlolra, boklm, sukhe</td>
+      </tr>
+
+      <tr>
         <td><a href="#project-torbirdy">TorBirdy</a></td>
         <td>Browser Add-on</td>
         <td>JavaScript</td>
@@ -505,9 +513,18 @@ meetings around the world.</li>
     otherwise feature complete.
     </p>
 
+    <a id="project-tormessenger"></a>
+    <h3><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a> (<a
+    href="https://gitweb.torproject.org/tor-messenger-build.git">code</a>, <a
+    href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Tor+Messenger">bug tracker</a>)</h3>
+
+    <p>
+    Tor Messenger is a cross-platform chat program that aims to be secure by default and sends all of its traffic over Tor.
+    </p>
+
     <a id="project-torbirdy"></a>
     <h3>TorBirdy (<a
-    href="https://github.com/ioerror/torbirdy">code</a>, <a
+    href="https://gitweb.torproject.org/torbirdy.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/wiki/torbirdy/dev">bug
     tracker</a>)</h3>
 
