@@ -600,11 +600,6 @@ meetings around the world.</li>
     Tor.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#txtorcon-stemIntegration">Txtorcon/Stem Integration</a></i><br />
-    </p>
-
     <a id="project-txtorcon"></a>
     <h3><a href="https://txtorcon.readthedocs.org">Txtorcon</a> (<a
     href="https://github.com/meejah/txtorcon">code</a>, <a
@@ -614,11 +609,6 @@ meetings around the world.</li>
     Twisted-based asynchronous Tor control protocol implementation. Includes
     unit-tests, examples, state-tracking code and configuration abstraction.
     Used by OONI and APAF.
-    </p>
-
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#txtorcon-stemIntegration">Txtorcon/Stem Integration</a></i>
     </p>
 
     <a id="project-tlsdate"></a>
@@ -855,41 +845,6 @@ meetings around the world.</li>
     </p>
 
     <ol>
-
-    <a id="txtorcon-stemIntegration"></a>
-    <li>
-    <b>Txtorcon/Stem Integration</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>meejah, Damian (atagar)</i>
-    <p>Txtorcon is a Twisted-based Python controller library, and Stem is a
-    synchronous (threaded) one, also in Python. There is no need to have
-    two implementations of (at least) the protocol parsing code. This
-    project would entail eliminating duplication by leveraging Stem's
-    parsing in txtorcon while keeping txtorcon's API the same (or at least
-    close).</p>
-    <p>Besides this you should identify some additional tasks to improve our
-    controller space across these two libraries. Some ideas are...</p>
-    <ul>
-      <li>Write a tutorial for <a
-      href="https://stem.torproject.org/tutorials.html">stem's tutorial
-      page</a> demonstrating cross txtorcon/stem usage.</li>
-      <li>Expand the txtorcon API to include functionality of <a
-      href="https://gitweb.torproject.org/stem.git/tree/stem/control.py">stem's
-      controller</a> that would be of interest to twisted users. All additions
-      should include tests!</li>
-      <li>Come up with some ideas of your own! We'd love to discuss them with
-      you.</li>
-    </ul>
-    <p>This would very likely involve changes to both libraries, although
-    most would be expected to be in txtorcon. meejah is available to
-    mentor txtorcon changes, and Damian (atagar) can help with Stem.</p>
-    <p>It would help if you're already familiar with event-based programming,
-    bonus points if it's Twisted.</p>
-    </li>
 
     <a id="torCleanup"></a>
     <li>
