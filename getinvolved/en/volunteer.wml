@@ -1005,32 +1005,6 @@ meetings around the world.</li>
     </b>
     </p>
 
-    <a id="profileUDPTransport"></a>
-    <li>
-    <b>Profile UDP transport protocols</b>
-    <br>
-    Effort Level: <i>Medium to High</i>
-    <br>
-    Skill Level: <i>High</i>
-    <br>
-    Likely Mentors: <i>Yawning</i>
-    <p>
-    There are <a
-    href="https://research.torproject.org/techreports/datagram-comparison-2011-11-07.pdf">lots
-    of options</a> as to how Tor could send its data over UDP rather than TCP,
-    and some will likely perform significantly better than others. This project
-    will evaluate these options, so as to decide which should be used in future
-    versions of Tor. A first step will be to benchmark the various transport
-    protocols being considered, in terms of performance and also code quality,
-    including userspace TCP, <a
-    href="https://github.com/bittorrent/libutp">&mu;TP</a>, <a
-    href="http://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol">SCTP</a>
-    and <a href="http://curvecp.org/">CurveCP</a>. Initially these transport
-    protocols will be examined in isolation, but if the project progresses well
-    one or more could be integrated in Tor.
-    </p>
-    </li>
-
     <a id="makeTorbirdyBetter"></a>
     <li>
     <b>Make TorBirdy Better</b>
