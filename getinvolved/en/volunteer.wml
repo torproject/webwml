@@ -1292,64 +1292,6 @@ the codebase that you want to work on.
     </p>
     </li>
 
-    <a id="ahmiaSearch"></a>
-    <li>
-    <b>Ahmia - Hidden Service Search</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Juha Nurmi (numes), George (asn)</i>
-    <p>
-Ahmia is open-source search engine software for Tor hidden service deep dark web sites. You can test the running search engine at ahmia.fi. For more information see our <a href="https://blog.torproject.org/category/tags/ahmiafi">blog post about Ahmia's GSoC2014 development</a>.
-    </p>
-
-    <p>
-Ahmia is a working search engine that indexes, searches, and catalogs content published on Tor Hidden Services. Furthermore, it is an environment to share meaningful insights, statistics, insights, and news about the Tor network itself. In this context, there is a lot of work to do.
-    </p>
-
-    <p>
-The Ahmia web service is written using the Django web framework. As a result, the server-side language is Python. On the client-side, most of the pages are plain HTML. There are some pages that require JavaScript, but the search itself works without client-side JavaScript.
-    </p>
-
-    <p>
-There are several possible directions for this project, including...
-    </p>
-
-    <ol>
-      <li>Improving the search results (very important)<br />
-        <ul>
-          <li>Tweaking search algorithms</li>
-          <li>Adjust Apache Solr</li>
-          <li>Enrich the data that is used to rank the search results</li>
-        </ul>
-      </li>
-      <li>Improving UX and UI (very important)<br />
-        <ul>
-          <li>Showing relevant knowledge</li>
-          <li>Design the navigation and information architecture</li>
-          <li>HTML5, CSS and Django development</li>
-        </ul>
-      </li>
-      <li>Review code and infrastructure<br />
-        <ul>
-          <li>Review code and fix bugs</li>
-          <li>Writing Django test cases</li>
-          <li>Linux configurations, automatizations</li>
-        </ul>
-      </li>
-      <li>Gather statistics over time and publish them<br />
-        <ul>
-          <li>Gather different kind of stats about Hidden Services</li>
-          <li>Publish these stats using HTTP REST API</li>
-          <li>Using this API show meaningful tables, charts and visualizations</li>
-        </ul>
-      </li>
-    </ol>
-    </p>
-    </li>
-
     <a id="exitmap_improvements"></a>
     <li>
     <b>Exitmap Improvements</b>
