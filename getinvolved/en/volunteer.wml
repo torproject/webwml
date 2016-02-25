@@ -899,7 +899,7 @@ meetings around the world.</li>
     <br>
     Skill Level: <i>Medium to High</i>
     <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
+    Likely Mentors: <i>David (dgoulet)</i>
     <p>
     The Tor code is more than 10 years old in places, and we haven't always had
     enough time or wisdom to write things as well as we could have.  Our unit
@@ -1111,7 +1111,7 @@ information see ticket 7416.</a></b>
     <br>
     Skill Level: <i>Medium</i>
     <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
+    Likely Mentors: <i>David (dgoulet)</i>
     <p>
 Right now, our unit test coverage with the tests we ship is around 30%
 -- only 30% of the executable lines in our source are reached by the
@@ -1177,7 +1177,7 @@ easy to test.)
     <br>
     Skill Level: <i>Medium</i>
     <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
+    Likely Mentors: <i>David (dgoulet)</i>
     <p>
 Right now, if you run a busy Tor server on a multicore computer, most of
 the cores are mostly unused.  We have a "cpuworker" mechanism to move
@@ -1227,7 +1227,7 @@ the codebase that you want to work on.
     <br>
     Skill Level: <i>Medium</i>
     <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet), George (asn)</i>
+    Likely Mentors: <i>David (dgoulet), George (asn)</i>
     <p>
 We're working on a revamp of the entire Tor hidden service design to
 improve the security and reliability of the hidden service system.
@@ -1264,7 +1264,7 @@ the codebase that you want to work on.
     <br>
     Skill Level: <i>Medium</i>
     <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
+    Likely Mentors: <i>David (dgoulet)</i>
     <p>
 Right now, you can only use Tor's DNS support to look up IPv4 and IPv6
 addresses, and to fetch PTR records.  But DNS can do so much more!
