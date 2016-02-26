@@ -840,13 +840,12 @@ meetings around the world.</li>
     You may find some of these projects to be good ideas for <a href="<page
     about/gsoc>">Google Summer of Code</a> and the <a
     href="https://live.gnome.org/OutreachProgramForWomen">Outreach Program for
-    Women</a>. We have labelled each idea with how much work we expect it would
-    be (effort level), how much clue you should start with (skill level),
-    and which of our <a href="<page about/corepeople>">core developers</a>
-    would be good mentors. If one or more of these ideas looks promising to
-    you, please <a href="<page about/contact>">contact us</a> to discuss your
-    plans rather than sending blind applications. You may also want to propose
-    your own project idea &mdash; which often results in the best applications.
+    Women</a>. We have labelled each idea with which of our <a href="<page
+    about/corepeople>">core developers</a> would be good mentors. If one or
+    more of these ideas looks promising to you, please <a href="<page
+    about/contact>">contact us</a> to discuss your plans rather than sending
+    blind applications. You may also want to propose your own project idea
+    &mdash; which often results in the best applications.
     </p>
 
     <ol>
@@ -855,11 +854,10 @@ meetings around the world.</li>
     <li>
     <b>Tor Codebase Cleanup</b>
     <br>
-    Effort Level: <i>Low to High, depending on subproject chosen</i>
-    <br>
-    Skill Level: <i>Medium to High</i>
+    Language: <i>C</i>
     <br>
     Likely Mentors: <i>David (dgoulet)</i>
+    <br><br>
     <p>
     The Tor code is more than 10 years old in places, and we haven't always had
     enough time or wisdom to write things as well as we could have.  Our unit
@@ -898,11 +896,10 @@ meetings around the world.</li>
     <li>
     <b>Build Better Pluggable Transports</b>
     <br>
-    Effort Level: <i>Medium to High</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>C, Python</i>
     <br>
     Likely Mentors: <i>Ximin (infinity0)</i>
+    <br><br>
     <p>
     For Tor users in censored countries, we have a <a
     href="<page docs/pluggable-transports>">
@@ -969,11 +966,10 @@ meetings around the world.</li>
     <li>
     <b>Make TorBirdy Better</b>
     <br>
-    Effort Level: <i>High</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>JavaScript, C++</i>
     <br>
     Likely Mentors: <i>Sukhbir Singh (sukhe), Jacob Appelbaum (ioerror)</i>
+    <br><br>
     <p>
 TorBirdy is an extension that configures Thunderbird to make connections over
 the Tor anonymity network. TorBirdy has been under development for quite a
@@ -981,8 +977,6 @@ while but there are two known leaks that prevent it from being used by a wider
 audience. As part of this project, you will be working on implementing a HTTP
 proxy.
     </p>
-
-    <p>
 
     <p>
 <b>HTTP Proxy</b> TorBirdy needs a HTTP proxy or a HTTP -&gt; SOCKS5 shim. Please look at
@@ -1015,11 +1009,10 @@ You may contact the mentors on IRC for more information. (sukhe on #tor-dev, #to
     <li>
     <b>Add Support for Reporting Pcaps to OoniBackend and OoniProbe</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>Python</i>
     <br>
     Likely Mentors: <i>Arturo (hellais)</i>
+    <br><br>
     <p>
 The feature should also add support for including only packet capture data that
 is relevant to the test being run. This means that the pcap should not contain
@@ -1041,11 +1034,10 @@ information see ticket 7416.</a></b>
     <li>
     <b>Improve test coverage in Tor</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>C, Python</i>
     <br>
     Likely Mentors: <i>David (dgoulet)</i>
+    <br><br>
     <p>
 Right now, our unit test coverage with the tests we ship is around 30%
 -- only 30% of the executable lines in our source are reached by the
@@ -1107,11 +1099,10 @@ easy to test.)
     <li>
     <b>Have the Tor daemon use more cores</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>C</i>
     <br>
     Likely Mentors: <i>David (dgoulet)</i>
+    <br><br>
     <p>
 Right now, if you run a busy Tor server on a multicore computer, most of
 the cores are mostly unused.  We have a "cpuworker" mechanism to move
@@ -1157,11 +1148,10 @@ the codebase that you want to work on.
     <li>
     <b>Help improve Tor hidden services</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>C</i>
     <br>
     Likely Mentors: <i>David (dgoulet), George (asn)</i>
+    <br><br>
     <p>
 We're working on a revamp of the entire Tor hidden service design to
 improve the security and reliability of the hidden service system.
@@ -1194,11 +1184,10 @@ the codebase that you want to work on.
     <li>
     <b>Improved DNS support for Tor</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>C</i>
     <br>
     Likely Mentors: <i>David (dgoulet)</i>
+    <br><br>
     <p>
 Right now, you can only use Tor's DNS support to look up IPv4 and IPv6
 addresses, and to fetch PTR records.  But DNS can do so much more!
@@ -1230,11 +1219,10 @@ the codebase that you want to work on.
     <li>
     <b>Exitmap Improvements</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>Python</i>
     <br>
     Likely Mentors: <i>Philipp (phw)</i>
+    <br><br>
     <p>
 The Tor Project makes use of the Python tool <a
 href="https://gitweb.torproject.org/user/phw/exitmap.git/">Exitmap</a> to
@@ -1266,11 +1254,10 @@ in order to make the code base more robust.
     <li>
     <b>Expand Nyx</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>Python</i>
     <br>
     Likely Mentors: <i>Damian (atagar)</i>
+    <br><br>
     <p>
 Nyx (previously known as <a href="https://www.atagar.com/arm/">arm</a>) is an
 ncurses monitor that provides Tor relay operators...
@@ -1312,11 +1299,10 @@ get ya started...
     <li>
     <b>Implement and Integrate CONIKS for Tor Messenger</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>C, JavaScript</i>
     <br>
     Likely Mentors: <i>Marcela, Arlo (arlolra)</i>
+    <br><br>
     <p>
 CONIKS is an end-user key management and verification system for end-to-end
 secure communication services, which improves upon existing key management
@@ -1384,11 +1370,10 @@ verification issues</a> as part of the application process.
     <li>
     <b></b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>Python</i>
     <br>
     Likely Mentors: <i>Damian (atagar)</i>
+    <br><br>
     <p>
 
     </p>
