@@ -616,6 +616,12 @@ meetings around the world.</li>
     Used by OONI and APAF.
     </p>
 
+    <p>
+    <b>Project Ideas:</b><br />
+    <i><a href="#txtorcon_use_txaio">Convert txtorcon to use txaio</a></i><br />
+    <i><a href="#txtorcon_use_pytest">Convert txtorcon to py.test</a></i>
+    </p>
+
     <a id="project-tlsdate"></a>
     <h3>Tlsdate (<a href="https://github.com/ioerror/tlsdate">code</a>)</h3>
 
@@ -1292,6 +1298,60 @@ get ya started...
 
     <p>
     <b>As part of your application for this project please get your hands wet with the codebase by contributing patches for <a href="https://gitweb.torproject.org/nyx.git">Nyx</a> and <a href="https://stem.torproject.org/faq.html#how-do-i-get-started">Stem</a>!</b>
+    </p>
+    </li>
+
+    <a id="txtorcon_use_txaio"></a>
+    <li>
+    <b>Convert txtorcon to use txaio</b>
+    <br>
+    Language: <i>Python, asyncio, Twisted</i>
+    <br>
+    Likely Mentors: <i>meejah</i>
+    <br><br>
+    <p>
+    txtorcon is currently supports only Twisted users. Re-working txtorcon
+    to use the txaio library would allow users to choose between Twisted and
+    asyncio for the client code.
+    </p>
+
+    <p>
+    This would involve fairly extensive refactoring to txtorcon, as it
+    currently makes heavy use of @inlineCallbacks which doesn't work with
+    txaio. A prospective student should be very familiar with event-based
+    programming in general, and be familiar with one of Twisted or asyncio.
+    See also: https://github.com/meejah/txtorcon/issues/135
+    </p>
+    </li>
+
+    <a id="txtorcon_use_pytest"></a>
+    <li>
+    <b>Convert txtorcon to py.test</b>
+    <br>
+    Language: <i>Python, Twisted</i>
+    <br>
+    Likely Mentors: <i>meejah</i>
+    <br><br>
+    <p>
+    Currently txtorcon uses the built-in "unittest" module, as well as
+    Twisted's Deferred-respecting extensions on top. However, meejah has
+    found py.test's "fixture" approach to be much more powerful in other
+    situations.
+    </p>
+
+    <p>
+    This project would be to port at least part of txtorcon's test-suite to
+    use py.test style tests and fixtures and evaluate: are the tests easier
+    to read? are there fewer lines of code? If so, the rest of the suite
+    should be ported and txtorcon switched over to use py.test exclusively.
+    </p>
+
+    <p>
+    As some of txtorcon's tests aren't very well-written, this would take a
+    prospective student who is very strong in unit-testing knowledge. As
+    txtorcon is event-based, familiarity with that style of programming
+    (preferrably with Twisted) is ideal.
+    See also: https://github.com/meejah/txtorcon/issues/136
     </p>
     </li>
 
