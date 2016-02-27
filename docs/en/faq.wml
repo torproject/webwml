@@ -188,6 +188,8 @@ be?</a></li>
     relay?</a></li>
     <li><a href="#UpgradeOrMove">I want to upgrade/move my relay. How do I
     keep the same key?</a></li>
+    <li><a href="#OfflineED25519">How do offline ed25519 identity keys work?
+    What do I need to know?</a></li>
     <li><a href="#MultipleRelays">I want to run more than one
 relay.</a></li>
     <li><a href="#NTService">How do I run my Tor relay as an NT service?
@@ -2733,18 +2735,82 @@ lots
 How do I keep the same key?</a></h3>
 
 <p>
- When upgrading your Tor relay, or running it on a different computer,
- the important part is to keep the same identity key (stored in
- "keys/secret_id_key" in your DataDirectory).
+When upgrading your Tor relay, or moving it on a different computer, the
+important part is to keep the same identity keys (stored in
+"keys/ed25519_master_id_secret_key" and "keys/secret_id_key" in your
+DataDirectory). Keeping backups of the identity keys so you can restore
+a relay in the future is the recommended way to ensure the reputation of
+the relay won't be wasted.
 </p>
+
 <p>
 This means that if you're upgrading your Tor relay and you keep the same
 torrc and the same DataDirectory, then the upgrade should just work and
 your relay will keep using the same key. If you need to pick a new
-DataDirectory, be sure to copy your old keys/secret_id_key over.
+DataDirectory, be sure to copy your old
+keys/ed25519_master_id_secret_key and keys/secret_id_key over.
 </p>
 
+<p>
+Note: As of Tor 0.2.7 we are using new generation identities for relays
+based on ed25519 elliptic curve cryptography. Eventually they will
+replace the old RSA identities, but that will happen in time, to ensure
+compatibility with older versions. Until then, each relay will have both
+an ed25519 identity (identity key file:
+keys/ed25519_master_id_secret_key) and a RSA identity (identity key
+file: keys/secret_id_key). You need to copy / backup both of them in
+order to restore your relay, change your DataDirectory or migrate the
+relay on a new computer.
+</p>
+
+
     <hr>
+
+<a id="OfflineED25519"></a>
+<h3><a class="anchor" href="#OfflineED25519">How do offline ed25519
+identity keys work? What do I need to know?</a></h3>
+
+<p>
+As of Tor 0.2.7 offline ed25519 identity keys are supported. In simple words, it works like this:
+<ul>
+<li>there is a master ed25519 identity secret key file named
+"ed25519_master_id_secret_key". This is the most important one, so make
+sure you keep a backup in a secure place - the file is sensitive and
+should be protected. Tor could encrypt it for you if you generate it
+manually and enter a password when asked.</li>
+
+<li>a medium term signing key named "ed25519_signing_secret_key" is
+generated for Tor to use. Also, a certificate is generated named
+"ed25519_signing_cert" which is signed by the master identity secret key
+and confirms that the medium term signing key is valid for a certain
+period of time. The default validity is 30 days, but this can be
+customized by setting "SigningKeyLifetime N days|weeks|months" in
+torrc.</li>
+<li>there is also a master public key named
+"ed25519_master_id_public_key, which is the actual identity of the relay
+advertised in the network. This one is not sensitive and can be easily
+computed from "ed5519_master_id_secret_key".</li>
+</ul>
+Tor will only need access to the medium term signing key and certificate
+as long as they are valid, so the master identity secret key can be kept
+outside DataDirectory/keys, on a storage media or a different computer.
+You'll have to manually renew the medium term signing key and
+certificate before they expire otherwise the Tor process on the relay
+will exit upon expiration.
+</p>
+
+<p>
+This feature is optional, you don't need to use it unless you want to.
+If you want your relay to run unattended for longer time without having
+to manually do the medium term signing key renewal on regular basis,
+best to leave the master identity secret key in DataDirectory/keys, just
+make a backup in case you'll need to reinstall it.  If you want to use
+this feature, you can consult our <a
+href="https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys">more
+detailed guide</a> on the topic.
+</p>
+
+<hr>
 
 <a id="NTService"></a>
 <h3><a class="anchor" href="#NTService">How do I run my Tor relay as an NT
