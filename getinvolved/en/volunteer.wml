@@ -416,11 +416,7 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#torCleanup">Tor Codebase Cleanup</a></i><br />
-    <i><a href="#improveTorTestCoverage">Improve test coverage in Tor</a></i><br />
-    <i><a href="#useMoreCores">Have the Tor daemon use more cores</a></i><br />
-    <i><a href="#improveHiddenServices">Help improve Tor hidden services</a></i><br />
-    <i><a href="#improvedDnsSupport">Improved DNS support for Tor</a></i>
+    <i><a href="#improveHiddenServices">Help improve Tor hidden services</a></i>
     </p>
 
     <a id="project-torbrowser"></a>
@@ -556,12 +552,6 @@ meetings around the world.</li>
     <p>
     A proxy that shapes Tor traffic, making it harder for censors to detect and
     block Tor. This has both a C and python implementation.
-    </p>
-
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#Helpneeded">Various coding tasks</a></i> <br/>
-    <i><a href="#betterPluggableTransports">Build Better Pluggable Transports</a></i>
     </p>
 
     <a id="project-flash-proxy"></a>
@@ -795,11 +785,6 @@ meetings around the world.</li>
     content.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#ooniprobePcapsSupport">Add Support for Reporting Pcaps to OoniBackend and OoniProbe</a></i>
-    </p>
-
     <a id="project-torps"></a>
     <h3>TorPS</a> (<a href="https://github.com/torps/torps">code</a>)</h3>
 
@@ -866,125 +851,13 @@ meetings around the world.</li>
 
     <ol>
 
-    <a id="torCleanup"></a>
-    <li>
-    <b>Tor Codebase Cleanup</b>
-    <br>
-    Language: <i>C</i>
-    <br>
-    Likely Mentors: <i>David (dgoulet)</i>
-    <br><br>
-    <p>
-    The Tor code is more than 10 years old in places, and we haven't always had
-    enough time or wisdom to write things as well as we could have.  Our unit
-    test coverage is shamefully low, and the dependency graph of our modules is
-    shamefully convoluted . We could use refactoring and unit tests!  Please
-    look through the Tor source code and look for ugly or tricky code or
-    dependencies -- the uglier and trickier the better -- and think about how
-    you could make the code look better, read better, and (subject to testing)
-    work better.
-    </p>
-
-    <p>
-    If this is for a fun side-project, it would be great for you to work on
-    anything that can be made better and more tested.  For an internship-level
-    position, we'd hope that you could find a number of particularly tricky or
-    knotty piece of the code to clean up, and aim for resolving the ugliest
-    problems, not necessarily the easiest.
-    </p>
-
-    <p>
-    For a big project here, it would be great to pick one of the major
-    "submodules" of Tor -- path selection, node discovery, directory authority
-    operations, directory service -- and refactor its interface completely, to
-    minify and codify its points of contact with the rest of Tor.
-    </p>
-
-    <p>
-    <b>As part of your application for this project please identify one of the
-    thorniest Tor functions and submit a patch refactoring it to be better. If
-    you find this to be difficult then this likely isn't the project for
-    you.</b>
-    </p>
-    </li>
-
-    <a id="betterPluggableTransports"></a>
-    <li>
-    <b>Build Better Pluggable Transports</b>
-    <br>
-    Language: <i>C, Python</i>
-    <br>
-    Likely Mentors: <i>Ximin (infinity0)</i>
-    <br><br>
-    <p>
-    For Tor users in censored countries, we have a <a
-    href="<page docs/pluggable-transports>">
-    pluggable transports</a> framework that uses external programs to bypass
-    censorship in different ways. Each of these have their own strengths and
-    weaknesses.
-    </p>
-
-    <p>
-    We have deployed <a
-    href="<page projects/obfsproxy>">obfsproxy</a>, 
-    <a href="http://crypto.stanford.edu/flashproxy/">flashproxy</a>, 
-    <a href="http://www.cs.kau.se/philwint/scramblesuit/">scramblesuit</a>, 
-    <a href="https://trac.torproject.org/projects/tor/wiki/doc/meek">meek</a>,
-    and <a href="https://fteproxy.org/about">FTE</a> bridges into the main 
-    Tor Browser.</a>
-    </p>
-
-    <p>
-    There are several possible directions for this project. Ideas include:
-      <ol>
-        <li>Address gaps or weaknesses in our existing pluggable transports
-          <ul>
-            <li>Flashproxy: Add WebRTC support to traverse NATs.</li>
-            <li>Flashproxy: Improve the facilitator's resistance against DoS
-            and poisoning attacks.</li>
-          </ul>
-        </li>
-        <li>Finish and release our pluggable transport combiner, that chains
-        several transports together to take advantage of orthogonal types of
-        blocking resistance.</li>
-        <li>Improve the UX for selecting the appropriate pluggable transport in
-        the new Tor Browser, whilst maintaining user security.</li>
-        <li>Implement a new pluggable transport that resists blocking in a
-        novel way.
-        <ul>
-          <li>Impersonate a voice-over-IP protocol</li>
-          <li>Impersonate HTTP <a
-          href="http://www.cs.utexas.edu/~amir/papers/parrot.pdf">sufficiently
-          well</a> that traffic will go through a HTTP-only proxy</li>
-          <li>Implement <a
-          href="http://cacr.uwaterloo.ca/techreports/2011/cacr2011-21.pdf">scanning
-          resistance</a></li>
-        </ul>
-        </li>
-      </ol>
-    </p>
-
-    <p>
-    Applicants should be familiar with asynchronous/reactive programming, in
-    particular the <a href="https://twistedmatrix.com/">Twisted framework</a>
-    or something related. Most of the existing code is written in Python, with
-    some parts in JavaScript and Go, so you should know at least one of these.
-    You are invited to talk to us and ask questions, via our mailing lists
-    or IRC. <b>As part of your application, please contribute a patch that
-    implements a small feature or fixes a bug related to this area, e.g. <a
-    href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Pluggable+transport">1</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Obfsproxy">2</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Flashproxy">3</a>.
-    </b>
-    </p>
-
     <a id="makeTorbirdyBetter"></a>
     <li>
     <b>Make TorBirdy Better</b>
     <br>
     Language: <i>JavaScript, C++</i>
     <br>
-    Likely Mentors: <i>Sukhbir Singh (sukhe), Jacob Appelbaum (ioerror)</i>
+    Likely Mentors: <i>Sukhbir Singh (sukhe)</i>
     <br><br>
     <p>
 TorBirdy is an extension that configures Thunderbird to make connections over
@@ -1021,152 +894,13 @@ You may contact the mentors on IRC for more information. (sukhe on #tor-dev, #to
     </p>
     </li>
 
-    <a id="ooniprobePcapsSupport"></a>
-    <li>
-    <b>Add Support for Reporting Pcaps to OoniBackend and OoniProbe</b>
-    <br>
-    Language: <i>Python</i>
-    <br>
-    Likely Mentors: <i>Arturo (hellais)</i>
-    <br><br>
-    <p>
-The feature should also add support for including only packet capture data that
-is relevant to the test being run. This means that the pcap should not contain
-all the data sniffed on the users machine, but only that which was generated
-and intended to be received by ooniprobe.
-    </p>
-
-    <p>
-This can probably be implemented by setting up a tun/tap device and routing all
-the ooniprobe traffic through it and only capturing data sent and received from
-that device. The task for the student will also be that of doing research into
-what are possible strategies for doing this. <b><a
-href="https://trac.torproject.org/projects/tor/ticket/7416">For more
-information see ticket 7416.</a></b>
-    </p>
-    </li>
-
-    <a id="improveTorTestCoverage"></a>
-    <li>
-    <b>Improve test coverage in Tor</b>
-    <br>
-    Language: <i>C, Python</i>
-    <br>
-    Likely Mentors: <i>David (dgoulet)</i>
-    <br><br>
-    <p>
-Right now, our unit test coverage with the tests we ship is around 30%
--- only 30% of the executable lines in our source are reached by the
-unit tests.  Improving this test coverage could make Tor development
-much more reliable.
-    </p>
-
-    <p>
-So we need better unit tests, and we need better integration tests too.
-    </p>
-
-    <p>
-Improving unit tests would involve refactoring functions to be more
-testable, and writing a bunch of unit tests.
-    </p>
-
-    <p>
-Improving integration tests would involve refactoring and improving
-the "chutney" program that launches a test tor network, and writing a
-bunch of tests to see what works and what doesn't work on such a
-network.  It could also involve writing tests using the library "<a
-href="https://stem.torproject.org/">stem</a>" to script individual clients on a
-Chutney network.
-    </p>
-
-    <p>
-To get a feel for how testing works in Tor today, download Tor and
-Chutney, and make sure you can build Tor and use Chutney.  See how the
-unit tests work by skimming some of the test code in the src/test
-subdirectory.  Try computing test coverage (according to the
-instructions in the doc/HACKING file.
-    </p>
-
-    <p>
-Also, have a look at the one current integration test that works on
-chutney today: it is a shell script distributed with Tor as
-src/test/test-tor-network.sh .  We probably don't want to have all of
-our integration tests be written as shell scripts, but it's interesting
-to see how one works.
-    </p>
-
-    <p>
-If working on designs for an improved or refactored Chutney, watch out for <a
-href="http://www.joelonsoftware.com/articles/fog0000000018.html">"archicture
-astronautics"</a>: while it's important that we have a well-designed and
-maintainable Chutney architecture, it wouldn't be very useful if a good
-architecture were the <em>only</em> outcome here: we need tests too.
-    </p>
-
-    <p>
-As part of the application process, please contribute a patch that makes
-a non-trivial improvement to chutney, and/or include a new test for some
-interesting Tor function. (Please pick a function that isn't completely
-easy to test.)
-    </p>
-    </li>
-
-    <a id="useMoreCores"></a>
-    <li>
-    <b>Have the Tor daemon use more cores</b>
-    <br>
-    Language: <i>C</i>
-    <br>
-    Likely Mentors: <i>David (dgoulet)</i>
-    <br><br>
-    <p>
-Right now, if you run a busy Tor server on a multicore computer, most of
-the cores are mostly unused.  We have a "cpuworker" mechanism to move
-expensive computations into worker threads, but that mechanism is
-currently only used for a small fraction of our cryptography.  Moving
-more work into the worker threads could improve performance immensely.
-    </p>
-
-    <p>
-So it would be great to parallelize our cryptography more in order to
-better handle more cores.  See
-<a href="https://trac.torproject.org/projects/tor/wiki/org/projects/Tor/MultithreadedCrypto">MultithreadedCrypto</a>
-for some background info, and
-<a href="https://trac.torproject.org/projects/tor/ticket/7572">ticket 7572</a> for some subtickets
-on our tracker.
-    </p>
-
-    <p>
-(If you're reading through the code to see how it works today, you will
-also want to have a look at the new implementation for cpuworkers
-described in <a href="https://trac.torproject.org/projects/tor/ticket/9682">9682</a>.)
-    </p>
-
-    <p>
-Completing the implementation of ticket #7572 --which would move our
-circuit crypto onto separate threads-- could be a good summer project.
-Alternatively, moving all of the signature generation and verification
-code onto the cpuworkers could be fun.  In either case, you will have
-some important architectural decisions to make about how to minimize
-shared data between the main thread and the workers, how to avoid
-race conditions between them, and how to test it all to make sure it has
-no hidden failure cases.
-    </p>
-
-    <p>
-As part of the application process for this project, please contribute a
-nontrivial patch to Tor -- ideally, one that will affect some part of
-the codebase that you want to work on.
-    </p>
-    </li>
-
     <a id="improveHiddenServices"></a>
     <li>
     <b>Help improve Tor hidden services</b>
     <br>
     Language: <i>C</i>
     <br>
-    Likely Mentors: <i>David (dgoulet), George (asn)</i>
+    Likely Mentors: <i>George (asn)</i>
     <br><br>
     <p>
 We're working on a revamp of the entire Tor hidden service design to
@@ -1187,41 +921,6 @@ read and understand the <a
 href="https://gitweb.torproject.org/torspec.git/tree/rend-spec.txt">existing
 design</a> and the design proposal for the new design, and then talk to
 us about what part you want to work on.
-    </p>
-
-    <p>
-As part of the application process for this project, please contribute a
-nontrivial patch to Tor -- ideally, one that will affect some part of
-the codebase that you want to work on.
-    </p>
-    </li>
-
-    <a id="improvedDnsSupport"></a>
-    <li>
-    <b>Improved DNS support for Tor</b>
-    <br>
-    Language: <i>C</i>
-    <br>
-    Likely Mentors: <i>David (dgoulet)</i>
-    <br><br>
-    <p>
-Right now, you can only use Tor's DNS support to look up IPv4 and IPv6
-addresses, and to fetch PTR records.  But DNS can do so much more!
-    </p>
-
-    <p>
-<a
-href="https://gitweb.torproject.org/torspec.git/tree/proposals/219-expanded-dns.txt">Proposal
-219</a> describes some new cell types that Tor could use to support
-more types of DNS over Tor.
-    </p>
-
-    <p>
-To see how Tor implements its existing DNS lookups, start by tracing the
-the connection_exit_begin_resolve() function in src/or/connection_edge.c ,
-and see how we pass these requests downwards through src/or/dns.c to the
-underlying resolver.  It's not too complicated, but there are some
-tricky parts to understand.
     </p>
 
     <p>
