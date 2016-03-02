@@ -142,11 +142,15 @@
     <div class="package" style="padding-top: 13px; border-top: 0px;">
       <div class="desc">
         <h2>Orbot - Tor for Android</h2>
-        <p>Our software is available for Android-based phones, tablets, and computers from the <a href="https://guardianproject.info/">Guardian Project</a> in their <a href= "https://guardianproject.info/2012/03/15/our-new-f-droid-app-repository/">F-Droid Repository</a> or the <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play Store</a>.</p>
-        <a href="https://www.torproject.org/docs/android.html.en">Learn more &raquo;</a></p>
+        <p>Our software is available for Android-based phones, tablets,
+        and computers from the <a href="https://guardianproject.info/">Guardian Project</a> in
+        their <a href= "https://guardianproject.info/fdroid/">F-Droid Repository</a> or
+        the <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google
+        Play Store</a>. <a href="<page docs/android>">Learn more &raquo;</a>
+        </p>
       </div>
       <form class="downloads">
-        <a class="button lin-orbot" href="https://guardianproject.info/apps/orbot/?src=tbb_download"><span class="strong">Download</span><span class="normal">Orbot</span></a>
+        <a class="button" href="https://guardianproject.info/apps/orbot/?src=tbb_download"><span class="strong">Download</span><span class="normal">Orbot</span></a>
       </form>
     </div>
       </div>
