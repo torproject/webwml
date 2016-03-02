@@ -137,6 +137,19 @@
 	  <p class="alt-dl">Not Using GNU/Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
 	</div>
       </div>
+<!-- START Orbot -->
+      <div id="android" class="easy android">
+    <div class="package" style="padding-top: 13px; border-top: 0px;">
+      <div class="desc">
+        <h2>Orbot - Tor for Android</h2>
+        <p>Our software is available for Android-based phones, tablets, and computers from the <a href="https://guardianproject.info/">Guardian Project</a> in their <a href= "https://guardianproject.info/2012/03/15/our-new-f-droid-app-repository/">F-Droid Repository</a> or the <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play Store</a>.</p>
+        <a href="https://www.torproject.org/docs/android.html.en">Learn more &raquo;</a></p>
+      </div>
+      <form class="downloads">
+        <a class="button lin-orbot" href="https://guardianproject.info/apps/orbot/?src=tbb_download"><span class="strong">Download</span><span class="normal">Orbot</span></a>
+      </form>
+    </div>
+      </div>
       <p class="all-dl">Looking For Something Else? <a href="<page download/download>">View All Downloads</a></p>
 		<!-- END DOWNLOADS --><br>
 </div> <!-- END dow-don-left -->
@@ -322,6 +335,7 @@ are blocked.</p>
 <li class="dropdown"><a href="#windows">Microsoft Windows</a></li>
 <li class="dropdown"><a href="#mac">Apple OS X</a></li>
 <li class="dropdown"><a href="#linux">Linux/Unix</a></li>
+<li class="dropdown"><a href="#android">Android</a></li>
 <li class="dropdown"><a href="<page download/download>">All Downloads</a></li>
 </ul>
 </div>
