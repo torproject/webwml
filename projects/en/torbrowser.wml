@@ -680,10 +680,13 @@ href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking">Tor
 Browser Hacking</a> intro document useful for learning about the build system
 and our development processes.
 </p>
-
+      <p><strong><em>What else can I get Tor Browser?</em></strong>
+      <br>In some countries the Tor Project website is blocked or censored and it is not possible to download
+        Tor directly. The Tor Project also hosts a mirror of <a href="https://github.com/TheTorProject/gettorbrowser">Tor Browser Bundle on Github</a>.</p>
+      <p>The <a href="https://www.torproject.org/projects/gettor">GetTor</a> service can also be used to download Tor Browser when the Project website and mirrors are blocked.</p>
     </div>
       </div>
-    </div>    
+    </div>
   </div>
   <!-- END MAINCOL -->
 </div>
