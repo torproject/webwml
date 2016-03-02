@@ -300,10 +300,15 @@ use Tor, too!</p>
 This list of pitfalls isn't complete, and we need your help <a href="<page
 getinvolved/volunteer>#Documentation">identifying and documenting all
 the issues</a>.</p><br />
-<h2><a class="anchor" href="#mirror">What else can I get Tor?</a></h2>
-<p>In some countries the Tor Project website is blocked or censored and it is not possible to download
- Tor directly. The Tor Project also hosts a mirror of <a href="https://github.com/TheTorProject/gettorbrowser">Tor Browser Bundle on Github</a>.</p><br />
-<p>The <a href="https://www.torproject.org/projects/gettor">GetTor</a> service can also be used to download Tor Browser when the Project website and mirrors are blocked.</p>
+<h2><a class="anchor" href="#mirror">Where else can I get Tor?</a></h2>
+<p>In some countries the Tor Project website is blocked or censored and
+it is not possible to download Tor directly. The Tor Project hosts a
+Tor Browser <a
+href="https://github.com/TheTorProject/gettorbrowser">mirror on Github</a>.</p><br />
+<p>Using the <a
+href="https://www.torproject.org/projects/gettor">GetTor</a> service is
+another way to download Tor Browser when the Project website and mirrors
+are blocked.</p>
 
 </div>
 <!-- END WARNING -->
