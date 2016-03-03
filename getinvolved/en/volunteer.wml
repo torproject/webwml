@@ -76,30 +76,17 @@ meetings around the world.</li>
     different languages as conversation starter.</li>
     </ol>
 
-<!--
     <a id="gsoc"></a>
     <h2><a class="anchor" href="#gsoc">Google Summer of Code</a></h2>
 
     <p>
     Tor is also taking part in this year's <a
-    href="https://www.google-melange.com/gsoc/homepage/google/gsoc2013">Google
-    Summer of Code</a>! The criteria for this is a little different - either
-    gender can apply but you need to be either <a
-    href="https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page#2._Whos_eligible_to_participate_as_a">a
-    present student or just graduated</a>.
+    href="https://summerofcode.withgoogle.com/">Google
+    Summer of Code</a>! To apply but you need to be either <a
+    href="https://developers.google.com/open-source/gsoc/faq#what_are_the_eligibility_requirements_for_participation">a
+    present student or just graduated</a>. <b>See our page for <a href="<page
+    about/gsoc>">Google Summer of Code</a> for more information.</b>
     </p>
-
-    <p>
-    As mentioned above if you're eligible for either program then please apply
-    for both! Google Summer of Code is a far, far larger program for us than
-    OPW so your chances of being applied that way are considerably better.
-    </p>
-
-    <p>
-    <b>See our page for <a href="<page about/gsoc>">Google Summer of Code</a>
-    for more information.</b>
-    </p>
--->
 
     <a id="Projects"></a>
     <h2><a class="anchor" href="#Projects">Projects</a></h2>
