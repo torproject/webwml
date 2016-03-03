@@ -17,17 +17,9 @@
     <p>
     The Tor Project, in collaboration with <a href="https://www.eff.org/">The
     Electronic Frontier Foundation</a>, have taken part in Google Summer of Code
-    for 2007 through 2014, mentoring the total of 53 students.
-    In 2015, Tor <a href="https://lists.torproject.org/pipermail/tor-dev/2015-March/008358.html">was not accepted</a> into GSoC (along with many other established organizations). Instead we ran our own program that summer:
-<a href="https://trac.torproject.org/projects/tor/wiki/org/TorSoP">the Summer of Privacy</a>!
-    <!--
-    Now google has
+    for 2007 through 2014, mentoring the total of 57 students. Now google has
     announced that we'll be taking part again for <a
-    href="https://www.google-melange.com/gsoc/homepage/google/gsoc2015">Google
-    Summer of Code 2016</a>!
-    -->
-    We have applied to GSoC 2016, and we should know at the end of February
-    whether we are in this year.
+    href="https://summerofcode.withgoogle.com/">Google Summer of Code 2016</a>!
     </p>
     
     <p>
