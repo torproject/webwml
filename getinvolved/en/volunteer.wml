@@ -1390,7 +1390,7 @@ implementation.
       <li>Improving the search results (very important)<br />
         <ul>
           <li>Tweaking search algorithms</li>
-          <li>Adjust Apache Solr</li>
+          <li>Adjust Elasticsearch</li>
           <li>Enrich the data that is used to rank the search results</li>
         </ul>
       </li>
