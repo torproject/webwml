@@ -990,6 +990,7 @@ get ya started...
       <li>Unit testing! Nyx has <a href="https://gitweb.torproject.org/nyx.git/tree/test">started adding tests</a> but it's still very minimal. Achieving any substantial code coverage will require us to figure out how to unit test curses components.</li>
       <li>Onionoo provides additional relay information that could enrich our connection panel such as geoip and rdns. Trick is that at present we can only query it on a per-relay basis which would leak our connections (no-go for security). However, if we could get information about all relays in bulk it would sidestep this. For some old thoughts on this see <a href="https://trac.torproject.org/projects/tor/wiki/doc/arm#CircuitDetails">here</a>.</li>
       <li>Relay setup wizard. Our last release had this (screenshots: <a href="https://www.atagar.com/transfer/tmp/arm_wizard1.png">1</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard2.png">2</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard3.png">3</a>). This has been removed because including it directly in Nyx confused users, but we might want to resurrect it as a separate <i>setup-tor-relay</i> command.</li>
+      <li><a href="https://trac.torproject.org/projects/tor/ticket/18499">Improved dialog</a> for selecting events to log.</li>
       <li>... and more! Again, don't hesitate to propose ideas of your own.</li>
     </ul>
 
