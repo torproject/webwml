@@ -1453,6 +1453,46 @@ implementation.
       </li>
     </ol>
     </li>
+
+    <a id="ipHijacking"></a>
+    <li>
+    <b>IP hijacking detection for the Tor Network</b>
+    <br>
+    Likely Mentors: <i>Aaron Gibson (aagbsn)</i>
+    <br><br>
+    <p>
+    <a href="https://en.wikipedia.org/wiki/IP_hijacking">IP hijacking</a>
+    occurs when a bad actor creates false routing information to redirect
+    Internet traffic to or through themselves. This activity is straightforward
+    to detect, because the Internet routing tables are public information, but
+    currently there are no public services that monitor the Tor network. The
+    Tor Network is a dynamic set of relays, so monitoring must be Tor-aware in
+    order to keep the set of monitored relays accurate. Additionally, consensus
+    archives and historical Internet routing table snapshots are publicly
+    available, and this analysis can be performed retroactively.
+    </p>
+
+    <p>
+    The implications of IP hijacking are that Tor traffic can be redirected
+    through a network that an attacker controls, even if the attacker does not
+    normally have this capability - i.e. they are not in the network path. For
+    example, an adversary could hijack the prefix of a Tor Guard relay, in
+    order to learn who its clients are, or hijack a Tor Exit relay to tamper
+    with requests or name resolution.
+    </p>
+
+    <p>
+    This project comprises building a service that compares network prefixes of
+    relays in the consensus with present and historic routing table snapshots
+    from looking glass services such as <a
+    href="http://routeviews.org">Routeviews</a>, or aggregators such as <a
+    href="https://bgpstream.caida.org">Caida BGPStream</a> and then issues
+    email alerts to the contact-info in the relay descriptor and a mailing
+    list. Network operators are responsive to route injections, and these
+    alerts can be used to notify network operators to take immediate action, as
+    well as collect information about the occurrence of these type of attacks.
+    </p>
+    </li>
 <!--
     <a id=""></a>
     <li>
