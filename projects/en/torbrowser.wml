@@ -181,6 +181,19 @@
           &bull; <a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_it.tar.xz">64-bit</a> 
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_it.tar.xz.asc">sig</a>)</em></td>
         </tr>
+        <tr>
+          <td>&#26085;&#26412;&#35486; (ja)</td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_ja.exe">32/64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_ja.exe.asc">sig</a>)</em></td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_ja.dmg">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_ja.dmg.asc">sig</a>)</em>
+          <!-- EC &bull; <a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx-x86_64-ja.zip">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx-x86_64-ja.zip.asc">sig</a>)</em></td> -->
+          <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_ja.tar.xz">32-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_ja.tar.xz.asc">sig</a>)</em>
+          &bull; <a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_ja.tar.xz">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_ja.tar.xz.asc">sig</a>)</em></td>
+        </tr>
         <tr class="alt">
           <td>Korean (ko)</td>
           <td><a href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_ko.exe">32/64-bit</a> 
@@ -649,8 +662,8 @@
       <a
       href="https://www.torproject.org/projects/torbrowser/design/">design
       document</a>, the <a
-      href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt?h=maint-4.0">ChangeLog
-      for the 4.0 branch</a>, and the <a
+      href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt?h=<version-torbrowserdevelopbranch>">ChangeLog
+      for the branch <version-torbrowserdevelopbranch></a>, and the <a
       href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt">ChangeLog
       for the alpha branch</a>.
       </p>
@@ -667,10 +680,13 @@ href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking">Tor
 Browser Hacking</a> intro document useful for learning about the build system
 and our development processes.
 </p>
-
+      <p><strong><em>Where else can I get Tor Browser?</em></strong>
+      <br>In some countries the Tor Project website is blocked or censored and it is not possible to download
+        Tor directly. The Tor Project also hosts a mirror of <a href="https://github.com/TheTorProject/gettorbrowser">Tor Browser Bundle on Github</a>.</p>
+      <p>The <a href="https://www.torproject.org/projects/gettor">GetTor</a> service can also be used to download Tor Browser when the Project website and mirrors are blocked.</p>
     </div>
       </div>
-    </div>    
+    </div>
   </div>
   <!-- END MAINCOL -->
 </div>

@@ -207,7 +207,13 @@
     HiddenServicePort 22 127.0.0.1:22
     </pre>
 
-    <p>There are some anonymity issues you should keep in mind too:
+    <p>Hidden services operators need to practice proper operational security
+    and system administration to maintain security. For some security
+    suggestions please make sure you read over Riseup's <a
+    href="https://help.riseup.net/en/security/network-security/tor/onionservices-best-practices">"Tor
+    hidden services best practices" document</a>. Also, here are some more
+    anonymity issues you should keep in mind:
+
     </p>
     <ul>
     <li>As mentioned above, be careful of letting your web server reveal
@@ -230,6 +236,12 @@
     href="https://blog.torproject.org/blog/facebook-hidden-services-and-https-certs">post</a>
     on the Tor Blog to learn more about these issues.
     </p>
+
+    <p>Finally, feel free to use the <a
+    href="https://lists.torproject.org/pipermail/tor-onions/">[tor-onions]
+    mailing list</a> to discuss the secure administration and operation of
+    Tor hidden services.</p>
+
   </div>
   <!-- END MAINCOL -->
   <div id = "sidecol">

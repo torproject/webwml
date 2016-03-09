@@ -17,6 +17,8 @@ function OScheck() {
     $('.easy.windows').css('display', 'block');
   }else if(clientos == "Mac"){
     $('.easy.mac').css('display', 'block');
+  }else if(clientos == "Android"){
+    $('.easy.android').css('display', 'block');
   }else{
     $('.easy').css('display', 'block');
   }
@@ -63,7 +65,7 @@ $(document).ready(function () {
       var url = $.param.fragment();
 
       // Toggle the '.easy' divs to off
-      if(url == 'windows'|url == 'mac'|url == 'linux'){
+      if(url == 'windows'|url == 'mac'|url == 'linux'|url == 'android'){
 
 	  $('.easy').css('display', 'none');
       }
@@ -74,6 +76,8 @@ $(document).ready(function () {
 	$('.easy.mac').css('display', 'block');
       } else if(url == 'linux'){
 	$('.easy.linux').css('display', 'block');
+      } else if(url == 'android'){
+  $('.easy.android').css('display', 'block');
       } else {
 	  $('.easy').css('display', 'none');
 	  $(function(){OScheck();});

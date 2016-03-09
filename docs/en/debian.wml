@@ -14,38 +14,38 @@ var software = {
 'tor': { '_stable': { 'squeeze': [ 'squeeze' ],
                      'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
+                     'stretch': [ 'stretch' ],
                      'sid':     [ 'sid' ],
                      'lucid':   [ 'lucid'],
                      'precise': [ 'precise'],
                      'saucy':   [ 'saucy'],
-                     'trusty':  [ 'trusty'],
-                     'utopic':  [ 'utopic'] },
+                     'trusty':  [ 'trusty'], },
          'experimental-0.2.7.x':    { 'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
+                     'stretch': [ 'stretch' ],
                      'sid':     [ 'sid' ],
                      'lucid':   [ 'lucid'],
                      'precise': [ 'precise'],
                      'saucy':   [ 'saucy'],
-                     'trusty':  [ 'trusty'],
-                     'utopic':  [ 'utopic'] },
+                     'trusty':  [ 'trusty'], },
        },
 'tor (from source)': { '_stable': { 'squeeze': [ 'squeeze' ],
                      'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
+                     'stretch': [ 'stretch' ],
                      'sid':     [ 'sid' ],
                      'lucid':   [ 'lucid'],
                      'precise': [ 'precise'],
                      'saucy':   [ 'saucy'],
-                     'trusty':  [ 'trusty'],
-                     'utopic':  [ 'utopic'] },
+                     'trusty':  [ 'trusty'], },
          'experimental-0.2.7.x':    { 'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
+                     'stretch': [ 'stretch' ],
                      'sid':     [ 'sid' ],
                      'lucid':   [ 'lucid'],
                      'precise': [ 'precise'],
                      'saucy':   [ 'saucy'],
-                     'trusty':  [ 'trusty'],
-                     'utopic':  [ 'utopic'] },
+                     'trusty':  [ 'trusty'], },
        },
 };
 
@@ -234,7 +234,6 @@ I run
 <option value="precise">Ubuntu Precise Pangolin</option>
 <option value="saucy">Ubuntu Saucy Salamander</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
-<option value="utopic">Ubuntu Utopic Unicorn</option>
 </select>
 and want
 <select id="package" onchange="update()"></select>

@@ -76,30 +76,17 @@ meetings around the world.</li>
     different languages as conversation starter.</li>
     </ol>
 
-<!--
     <a id="gsoc"></a>
     <h2><a class="anchor" href="#gsoc">Google Summer of Code</a></h2>
 
     <p>
     Tor is also taking part in this year's <a
-    href="https://www.google-melange.com/gsoc/homepage/google/gsoc2013">Google
-    Summer of Code</a>! The criteria for this is a little different - either
-    gender can apply but you need to be either <a
-    href="https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page#2._Whos_eligible_to_participate_as_a">a
-    present student or just graduated</a>.
+    href="https://summerofcode.withgoogle.com/">Google
+    Summer of Code</a>! To apply but you need to be either <a
+    href="https://developers.google.com/open-source/gsoc/faq#what_are_the_eligibility_requirements_for_participation">a
+    present student or just graduated</a>. <b>See our page for <a href="<page
+    about/gsoc>">Google Summer of Code</a> for more information.</b>
     </p>
-
-    <p>
-    As mentioned above if you're eligible for either program then please apply
-    for both! Google Summer of Code is a far, far larger program for us than
-    OPW so your chances of being applied that way are considerably better.
-    </p>
-
-    <p>
-    <b>See our page for <a href="<page about/gsoc>">Google Summer of Code</a>
-    for more information.</b>
-    </p>
--->
 
     <a id="Projects"></a>
     <h2><a class="anchor" href="#Projects">Projects</a></h2>
@@ -157,10 +144,10 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-arm">Arm</a></td>
+        <td><a href="#project-nyx">Nyx</a></td>
         <td>User Interface</td>
         <td>Python, Curses</td>
-        <td>Light</td>
+        <td>Heavy</td>
         <td>atagar</td>
       </tr>
 
@@ -197,6 +184,14 @@ meetings around the world.</li>
       </tr>
 
       <tr>
+        <td><a href="#project-tormessenger">Tor Messenger</a></td>
+        <td>Bundle</td>
+        <td>JavaScript, XUL, Scripting</td>
+        <td>Heavy</td>
+        <td>arlolra, boklm, sukhe</td>
+      </tr>
+
+      <tr>
         <td><a href="#project-torbirdy">TorBirdy</a></td>
         <td>Browser Add-on</td>
         <td>JavaScript</td>
@@ -208,7 +203,7 @@ meetings around the world.</li>
         <td><a href="#project-obfsproxy">Obfsproxy</a></td>
         <td>Client Add-on</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>None</td>
         <td>asn</td>
       </tr>
 
@@ -240,7 +235,7 @@ meetings around the world.</li>
         <td><a href="#project-stem">Stem</a></td>
         <td>Library</td>
         <td>Python</td>
-        <td>Moderate</td>
+        <td>Heavy</td>
         <td>atagar</td>
       </tr>
 
@@ -256,7 +251,7 @@ meetings around the world.</li>
         <td><a href="#project-tlsdate">Tlsdate</a></td>
         <td>Utility</td>
         <td>C</td>
-        <td>Light</td>
+        <td>None</td>
         <td>ioerror</td>
       </tr>
 
@@ -264,7 +259,7 @@ meetings around the world.</li>
         <td><a href="#project-metrics">Metrics</a></td>
         <td>Client Service</td>
         <td>Java</td>
-        <td>Light</td>
+        <td>Moderate</td>
         <td>karsten</td>
       </tr>
 
@@ -304,7 +299,7 @@ meetings around the world.</li>
         <td><a href="#project-exitmap">ExitMap</a></td>
         <td>Backend Service</td>
         <td>Python</td>
-        <td>Moderate</td>
+        <td>Light</td>
         <td>phw</td>
       </tr>
 
@@ -312,7 +307,7 @@ meetings around the world.</li>
         <td><a href="#project-doctor">DocTor</a></td>
         <td>Backend Service</td>
         <td>Python</td>
-        <td>None</td>
+        <td>Light</td>
         <td>atagar</td>
       </tr>
 
@@ -328,8 +323,8 @@ meetings around the world.</li>
         <td><a href="#project-gettor">GetTor</a></td>
         <td>Client Service</td>
         <td>Python</td>
-        <td>None</td>
-        <td>kaner</td>
+        <td>Light</td>
+        <td>ilv</td>
       </tr>
 
       <tr>
@@ -344,7 +339,7 @@ meetings around the world.</li>
         <td><a href="#project-bridgedb">BridgeDB</a></td>
         <td>Backend Service</td>
         <td>Python</td>
-        <td>Heavy</td>
+        <td>Light</td>
         <td>isis</td>
       </tr>
 
@@ -352,7 +347,7 @@ meetings around the world.</li>
         <td><a href="#project-ooni-probe">Ooni Probe</a></td>
         <td>Scanner</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>Moderate</td>
         <td>hellais, aagbsn</td>
       </tr>
 
@@ -373,18 +368,10 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td>*<a href="#project-torbel">TorBEL</a></td>
-        <td>Backend Service</td>
-        <td>Python</td>
-        <td>None</td>
-        <td>Sebastian</td>
-      </tr>
-
-      <tr>
         <td><a href="#project-tor2web">Tor2web</a></td>
         <td>Client Service</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>Heavy</td>
         <td>evilaliv3, hellais</td>
       </tr>
 
@@ -395,7 +382,6 @@ meetings around the world.</li>
         <td>Light</td>
         <td>arma, nickm</td>
       </tr>
-
     </table>
 
     <sub>
@@ -417,11 +403,7 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#torCleanup">Tor Codebase Cleanup</a></i><br />
-    <i><a href="#improveTorTestCoverage">Improve test coverage in Tor</a></i><br />
-    <i><a href="#useMoreCores">Have the Tor daemon use more cores</a></i><br />
-    <i><a href="#improveHiddenServices">Help improve Tor hidden services</a></i><br />
-    <i><a href="#improvedDnsSupport">Improved DNS support for Tor</a></i>
+    <i><a href="#improveHiddenServices">Help improve Tor hidden services</a></i>
     </p>
 
     <a id="project-torbrowser"></a>
@@ -438,6 +420,11 @@ meetings around the world.</li>
     privacy and security issues in mainline version.
     </p>
 
+    <p>
+    <b>Project Ideas:</b><br />
+    <i><a href="#panopticlick">Panopticlick</a></i><br />
+    </p>
+
     <a id="project-httpseverywhere"></a>
     <h3><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> (<a
     href="https://gitweb.torproject.org/https-everywhere.git">code</a>, <a
@@ -450,18 +437,23 @@ meetings around the world.</li>
     more secure.
     </p>
 
-    <a id="project-arm"></a>
-    <h3><a href="https://www.atagar.com/arm/">Arm</a> (<a
-    href="https://gitweb.torproject.org/arm.git">code</a>, <a
+    <a id="project-nyx"></a>
+    <h3><a href="https://www.atagar.com/arm/">Nyx</a> (<a
+    href="https://gitweb.torproject.org/nyx.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=arm&order=priority">bug
     tracker</a>)</h3>
 
     <p>
-    The anonymizing relay monitor (arm) is a terminal status monitor for Tor,
+    Nyx (previously <i>arm</i>) is a terminal status monitor for Tor
     intended for command-line aficionados, ssh connections, and anyone with a
     tty terminal. This works much like top does for system usage, providing
     real time statistics for bandwidth, resource usage, connections, and quite
     a bit more.
+    </p>
+
+    <p>
+    <b>Project Ideas:</b><br />
+    <i><a href="#expand_nyx">Expand Nyx</a></i>
     </p>
 
     <a id="project-orbot"></a>
@@ -514,9 +506,18 @@ meetings around the world.</li>
     otherwise feature complete.
     </p>
 
+    <a id="project-tormessenger"></a>
+    <h3><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a> (<a
+    href="https://gitweb.torproject.org/tor-messenger-build.git">code</a>, <a
+    href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Tor+Messenger">bug tracker</a>)</h3>
+
+    <p>
+    Tor Messenger is a cross-platform chat program that aims to be secure by default and sends all of its traffic over Tor.
+    </p>
+
     <a id="project-torbirdy"></a>
     <h3>TorBirdy (<a
-    href="https://github.com/ioerror/torbirdy">code</a>, <a
+    href="https://gitweb.torproject.org/torbirdy.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/wiki/torbirdy/dev">bug
     tracker</a>)</h3>
 
@@ -538,12 +539,6 @@ meetings around the world.</li>
     <p>
     A proxy that shapes Tor traffic, making it harder for censors to detect and
     block Tor. This has both a C and python implementation.
-    </p>
-
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#Helpneeded">Various coding tasks</a></i> <br/>
-    <i><a href="#betterPluggableTransports">Build Better Pluggable Transports</a></i>
     </p>
 
     <a id="project-flash-proxy"></a>
@@ -594,8 +589,7 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#txtorcon-stemIntegration">Txtorcon/Stem Integration</a></i><br />
-    <i><a href="#relayWebPanel">Relay Web Status Panel</a></i><br />
+    <i><a href="#descriptor_parsing_in_go">Stem Descriptor Parsing in Go</a></i>
     </p>
 
     <a id="project-txtorcon"></a>
@@ -611,7 +605,8 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#txtorcon-stemIntegration">Txtorcon/Stem Integration</a></i>
+    <i><a href="#txtorcon_use_txaio">Convert txtorcon to use txaio</a></i><br />
+    <i><a href="#txtorcon_use_pytest">Convert txtorcon to py.test</a></i>
     </p>
 
     <a id="project-tlsdate"></a>
@@ -632,7 +627,6 @@ meetings around the world.</li>
     <a id="project-metrics"></a>
     <h3><a href="https://metrics.torproject.org/">Metrics</a> (code: <a
     href="https://gitweb.torproject.org/metrics-db.git">db</a>, <a
-    href="https://gitweb.torproject.org/metrics-utils.git">utils</a>, <a
     href="https://gitweb.torproject.org/metrics-web.git">web</a>)</h3>
 
     <p>
@@ -704,6 +698,11 @@ meetings around the world.</li>
     Onions</a> research paper.
     </p>
 
+    <p>
+    <b>Project Ideas:</b><br />
+    <i><a href="#exitmap_improvements">Exitmap Improvements</a></i>
+    </p>
+
     <a id="project-doctor"></a>
     <h3>DocTor (<a
     href="https://gitweb.torproject.org/doctor.git">code</a>, <a
@@ -773,12 +772,6 @@ meetings around the world.</li>
     content.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#censorshipAnalyzer">Develop a Censorship Analyzer</a></i><br />
-    <i><a href="#ooniprobePcapsSupport">Add Support for Reporting Pcaps to OoniBackend and OoniProbe</a></i>
-    </p>
-
     <a id="project-torps"></a>
     <h3>TorPS</a> (<a href="https://github.com/torps/torps">code</a>)</h3>
 
@@ -802,21 +795,6 @@ meetings around the world.</li>
     actively developed in the Summer of 2010, and the Bandwidth Scanners a few
     months later. Both have been under active use since then, but development
     has stopped.
-    </p>
-
-    <a id="project-torbel"></a>
-    <h3><a
-    href="https://blog.torproject.org/blog/torbel-tor-bulk-exit-list-tools">TorBEL</a> (<a
-    href="https://gitweb.torproject.org/torbel.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=TorDNSEL/TorBEL&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    The Tor Bulk Exitlist provides a method of identifying if IPs belong to
-    exit nodes or not. This is a replacement for TorDNSEL which is a stable
-    (though unmaintained) Haskell application for this purpose. The initial
-    version of TorBEL was started in GSOC 2010 but since then the project has
-    been inactive.
     </p>
 
     <a id="project-tor2web"></a>
@@ -848,326 +826,52 @@ meetings around the world.</li>
 
     <p>
     You may find some of these projects to be good ideas for <a href="<page
-    about/gsoc>">Google Summer of Code</a> and the <a
-    href="https://live.gnome.org/OutreachProgramForWomen">Outreach Program for
-    Women</a>. We have labelled each idea with how much work we expect it would
-    be (effort level), how much clue you should start with (skill level),
-    and which of our <a href="<page about/corepeople>">core developers</a>
-    would be good mentors. If one or more of these ideas looks promising to
-    you, please <a href="<page about/contact>">contact us</a> to discuss your
-    plans rather than sending blind applications. You may also want to propose
-    your own project idea &mdash; which often results in the best applications.
+    about/gsoc>">Google Summer of Code</a>. We have labelled each idea with
+    which of our <a href="<page about/corepeople>">core developers</a> would be
+    good mentors. If one or more of these ideas looks promising to you, please
+    <a href="<page about/contact>">contact us</a> to discuss your plans rather
+    than sending blind applications. You may also want to propose your own
+    project idea &mdash; which often results in the best applications.
     </p>
 
     <ol>
-
-    <a id="txtorcon-stemIntegration"></a>
-    <li>
-    <b>Txtorcon/Stem Integration</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>meejah, Damian (atagar)</i>
-    <p>Txtorcon is a Twisted-based Python controller library, and Stem is a
-    synchronous (threaded) one, also in Python. There is no need to have
-    two implementations of (at least) the protocol parsing code. This
-    project would entail eliminating duplication by leveraging Stem's
-    parsing in txtorcon while keeping txtorcon's API the same (or at least
-    close).</p>
-    <p>Besides this you should identify some additional tasks to improve our
-    controller space across these two libraries. Some ideas are...</p>
-    <ul>
-      <li>Write a tutorial for <a
-      href="https://stem.torproject.org/tutorials.html">stem's tutorial
-      page</a> demonstrating cross txtorcon/stem usage.</li>
-      <li>Expand the txtorcon API to include functionality of <a
-      href="https://gitweb.torproject.org/stem.git/tree/stem/control.py">stem's
-      controller</a> that would be of interest to twisted users. All additions
-      should include tests!</li>
-      <li>Come up with some ideas of your own! We'd love to discuss them with
-      you.</li>
-    </ul>
-    <p>This would very likely involve changes to both libraries, although
-    most would be expected to be in txtorcon. meejah is available to
-    mentor txtorcon changes, and Damian (atagar) can help with Stem.</p>
-    <p>It would help if you're already familiar with event-based programming,
-    bonus points if it's Twisted.</p>
-    </li>
-
-    <a id="relayWebPanel"></a>
-    <li>
-    <b>Relay Web Status Dashboard</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Damian (atagar)</i>
-    <p>
-    Relay operators presently have a good option for monitoring the status
-    of their relay:
-    <a href="https://www.atagar.com/arm/">arm</a> which uses
-    curses. This project would be to make a new kind of monitor specifically
-    for relay operators that provides a status dashboard site on localhost.
-    </p>
-    <p>
-    The interface will likely <a
-    href="https://www.atagar.com/arm/screenshots.php">borrow heavily from
-    arm</a>, except of course in areas where we can improve upon it. Two
-    important design constraints is that a localhost controller provides a
-    bigger attack surface than guis or curses, so we should be a little more
-    wary of what it does. This should be a read-only controller (ie, you can't
-    *do* anything to the relay) and by default not surface any sensitive
-    information (such as arm's connection panel). Also take a peek at <a
-    href="http://www.ntop.org/products/ntop/">ntop</a> for ideas on what we can
-    do with a web interface.
-    </p>
-    <p>
-    This project will likely include two parts: an AJAX site and a localhost
-    daemon to fulfill those requests. <a
-    href="https://stem.torproject.org/">Stem</a> is the backend of arm, and can
-    be used to get everything you see in arm's interface (making it a natural
-    choice for the daemon). That said, this project might entail some Stem
-    improvements if we run across any gaps.
-    </p>
-    <p>
-    Applicants should be familiar with Python, JavaScript, and learn about
-    <a href="https://stem.torproject.org/">Stem</a>. <b>As part of your
-    application for this project please make both mockups of the interface and
-    a proof of concept demo application using JS to surface something with
-    Stem. <a
-    href="https://trac.torproject.org/projects/tor/wiki/doc/stem/bugs">Involvement
-    with Stem development</a> during the application process is also a big
-    plus.</b>
-    </p>
-    </li>
-
-    <a id="torCleanup"></a>
-    <li>
-    <b>Tor Codebase Cleanup</b>
-    <br>
-    Effort Level: <i>Low to High, depending on subproject chosen</i>
-    <br>
-    Skill Level: <i>Medium to High</i>
-    <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
-    <p>
-    The Tor code is more than 10 years old in places, and we haven't always had
-    enough time or wisdom to write things as well as we could have.  Our unit
-    test coverage is shamefully low, and the dependency graph of our modules is
-    shamefully convoluted . We could use refactoring and unit tests!  Please
-    look through the Tor source code and look for ugly or tricky code or
-    dependencies -- the uglier and trickier the better -- and think about how
-    you could make the code look better, read better, and (subject to testing)
-    work better.
-    </p>
-
-    <p>
-    If this is for a fun side-project, it would be great for you to work on
-    anything that can be made better and more tested.  For an internship-level
-    position, we'd hope that you could find a number of particularly tricky or
-    knotty piece of the code to clean up, and aim for resolving the ugliest
-    problems, not necessarily the easiest.
-    </p>
-
-    <p>
-    For a big project here, it would be great to pick one of the major
-    "submodules" of Tor -- path selection, node discovery, directory authority
-    operations, directory service -- and refactor its interface completely, to
-    minify and codify its points of contact with the rest of Tor.
-    </p>
-
-    <p>
-    <b>As part of your application for this project please identify one of the
-    thorniest Tor functions and submit a patch refactoring it to be better. If
-    you find this to be difficult then this likely isn't the project for
-    you.</b>
-    </p>
-    </li>
-
-    <a id="betterPluggableTransports"></a>
-    <li>
-    <b>Build Better Pluggable Transports</b>
-    <br>
-    Effort Level: <i>Medium to High</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Ximin (infinity0)</i>
-    <p>
-    For Tor users in censored countries, we have a <a
-    href="<page docs/pluggable-transports>">
-    pluggable transports</a> framework that uses external programs to bypass
-    censorship in different ways. Each of these have their own strengths and
-    weaknesses.
-    </p>
-
-    <p>
-    We have deployed <a
-    href="<page projects/obfsproxy>">obfsproxy</a>, 
-    <a href="http://crypto.stanford.edu/flashproxy/">flashproxy</a>, 
-    <a href="http://www.cs.kau.se/philwint/scramblesuit/">scramblesuit</a>, 
-    <a href="https://trac.torproject.org/projects/tor/wiki/doc/meek">meek</a>,
-    and <a href="https://fteproxy.org/about">FTE</a> bridges into the main 
-    Tor Browser.</a>
-    </p>
-
-    <p>
-    There are several possible directions for this project. Ideas include:
-      <ol>
-        <li>Address gaps or weaknesses in our existing pluggable transports
-          <ul>
-            <li>Flashproxy: Add WebRTC support to traverse NATs.</li>
-            <li>Flashproxy: Improve the facilitator's resistance against DoS
-            and poisoning attacks.</li>
-          </ul>
-        </li>
-        <li>Finish and release our pluggable transport combiner, that chains
-        several transports together to take advantage of orthogonal types of
-        blocking resistance.</li>
-        <li>Improve the UX for selecting the appropriate pluggable transport in
-        the new Tor Browser, whilst maintaining user security.</li>
-        <li>Implement a new pluggable transport that resists blocking in a
-        novel way.
-        <ul>
-          <li>Impersonate a voice-over-IP protocol</li>
-          <li>Impersonate HTTP <a
-          href="http://www.cs.utexas.edu/~amir/papers/parrot.pdf">sufficiently
-          well</a> that traffic will go through a HTTP-only proxy</li>
-          <li>Implement <a
-          href="http://cacr.uwaterloo.ca/techreports/2011/cacr2011-21.pdf">scanning
-          resistance</a></li>
-        </ul>
-        </li>
-      </ol>
-    </p>
-
-    <p>
-    Applicants should be familiar with asynchronous/reactive programming, in
-    particular the <a href="https://twistedmatrix.com/">Twisted framework</a>
-    or something related. Most of the existing code is written in Python, with
-    some parts in JavaScript and Go, so you should know at least one of these.
-    You are invited to talk to us and ask questions, via our mailing lists
-    or IRC. <b>As part of your application, please contribute a patch that
-    implements a small feature or fixes a bug related to this area, e.g. <a
-    href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Pluggable+transport">1</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Obfsproxy">2</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Flashproxy">3</a>.
-    </b>
-    </p>
-
-    <a id="profileUDPTransport"></a>
-    <li>
-    <b>Profile UDP transport protocols</b>
-    <br>
-    Effort Level: <i>Medium to High</i>
-    <br>
-    Skill Level: <i>High</i>
-    <br>
-    Likely Mentors: <i>Yawning</i>
-    <p>
-    There are <a
-    href="https://research.torproject.org/techreports/datagram-comparison-2011-11-07.pdf">lots
-    of options</a> as to how Tor could send its data over UDP rather than TCP,
-    and some will likely perform significantly better than others. This project
-    will evaluate these options, so as to decide which should be used in future
-    versions of Tor. A first step will be to benchmark the various transport
-    protocols being considered, in terms of performance and also code quality,
-    including userspace TCP, <a
-    href="https://github.com/bittorrent/libutp">&mu;TP</a>, <a
-    href="http://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol">SCTP</a>
-    and <a href="http://curvecp.org/">CurveCP</a>. Initially these transport
-    protocols will be examined in isolation, but if the project progresses well
-    one or more could be integrated in Tor.
-    </p>
-    </li>
-
-    <a id="censorshipAnalyzer"></a>
-    <li>
-    <b>Develop a Censorship Analyzer</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium to High (depends on the implemented tests)</i>
-    <br>
-    Likely Mentors: <i>Philipp (phw)</i>
-    <p>
-Tor is documented to be blocked in <a
-href="https://censorshipwiki.torproject.org">several countries</a>. Analyzing
-these censorship incidents can be a tedious task; especially without access to
-machines inside the censoring networks. To make analysis easier, it would be
-great to have a lightweight analysis tool which can be run by censored users.
-This tool would conduct a number of networking tests and figure out if and how
-Tor could be blocked. The tool's final report should then somehow make it back
-to the Tor project.
-    </p>
-
-    <p>
-The theory behind this tool is already <a
-href="http://www.cs.kau.se/philwint/pdf/foci2013.pdf">documented
-in a research paper</a>. What we now need is code! Implementing it would first
-mean getting familiar with <a href="https://ooni.torproject.org">OONI</a> and
-<a href="http://twistedmatrix.com/trac/">Twisted</a>. After that, the tool
-should be implemented as a number of OONI-specific networking tests.
-    </p>
-
-    <p>
-Applicants should be familiar with Python and asynchronous programming,
-e.g., as it is used in Twisted.  As part of your application for this
-project please contribute a patch for a bug in <a
-href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Ooni">OONI</a>.
-    </p>
-    </li>
 
     <a id="makeTorbirdyBetter"></a>
     <li>
     <b>Make TorBirdy Better</b>
     <br>
-    Effort Level: <i>High</i>
+    Language: <i>JavaScript, C++</i>
     <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Sukhbir Singh (sukhe), Jacob Appelbaum (ioerror)</i>
+    Likely Mentors: <i>Sukhbir Singh (sukhe)</i>
+    <br><br>
     <p>
 TorBirdy is an extension that configures Thunderbird to make connections over
 the Tor anonymity network. TorBirdy has been under development for quite a
 while but there are two known leaks that prevent it from being used by a wider
-audience. As part of this project, you will be working on plugging the known
-leaks and implementing a HTTP proxy.
+audience. As part of this project, you will be working on implementing a HTTP
+proxy.
     </p>
 
     <p>
-<b>Part 1:</b> There are two patches pending with Mozilla that will plug the two known
-leaks in Thunderbird where the local time is disclosed through the date and the
-message-ID header. As part of your project, you will work on getting these
-patches finished/reimplemented and getting them merged with Mozilla. Please
-look at tickets <a
-href="https://trac.torproject.org/projects/tor/ticket/6314">#6314</a> and <a
-href="https://trac.torproject.org/projects/tor/ticket/6315">#6315</a> for more
-information.
-    </p>
-
-    <p>
-<b>Part 2:</b> TorBirdy needs a HTTP proxy or a HTTP -&gt; SOCKS5 shim. Please look at
+<b>HTTP Proxy</b> TorBirdy needs a HTTP proxy or a HTTP -&gt; SOCKS5 shim. Please look at
 ticket <a href="https://trac.torproject.org/projects/tor/ticket/6958">#6958</a>
-for more information. Note: this has to be done using JavaScript and not using
+for more information. Note: this has to be done using JavaScript and without using
 an external proxy.
     </p>
 
     <p>
 If time permits and you are awesome enough to finish the above two tasks, you
-will be working on the remaining TorBirdy tickets.
+will be working on the <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=TorBirdy">
+remaining TorBirdy tickets</a>.
     </p>
 
     <p>
-Applicants should be familiar with C++ and JavaScript. As part of your
-application for this project, please submit code samples for previous C++ and
-JavaScript projects that you have developed or point us to projects you have
-been involved with (links to a public Git/GitHub repository preferred). Prior
-extension development is a big plus and will be given preference during
-application ranking.
+Applicants should be familiar with JavaScript (and preferably C++ as well). As
+part of your application for this project, please submit code samples for
+previous JavaScript projects that you have developed, or point us to projects
+you have been involved with (links to a public Git/GitHub repository
+preferred).  Prior extension development is a big plus and will be given
+preference during application ranking.
     </p>
 
     <p>
@@ -1175,206 +879,14 @@ You may contact the mentors on IRC for more information. (sukhe on #tor-dev, #to
     </p>
     </li>
 
-    <a id="ooniprobePcapsSupport"></a>
-    <li>
-    <b>Add Support for Reporting Pcaps to OoniBackend and OoniProbe</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Arturo (hellais)</i>
-    <p>
-The feature should also add support for including only packet capture data that
-is relevant to the test being run. This means that the pcap should not contain
-all the data sniffed on the users machine, but only that which was generated
-and intended to be received by ooniprobe.
-    </p>
-
-    <p>
-This can probably be implemented by setting up a tun/tap device and routing all
-the ooniprobe traffic through it and only capturing data sent and received from
-that device. The task for the student will also be that of doing research into
-what are possible strategies for doing this. <b><a
-href="https://trac.torproject.org/projects/tor/ticket/7416">For more
-information see ticket 7416.</a></b>
-    </p>
-    </li>
-
-<!--
-    <a id="orbotVPN"></a>
-    <li>
-    <b>Orbot Android VPN</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>High</i>
-    <br>
-    Likely Mentors: <i>Nathan (n8fr8)</i>
-    <p>
-Android offers the ability for any application to establish a
-VPNService through which all traffic on the device is sent. We want to
-implement this type of service in order to route all traffic through
-the Tor network. This is a feature that will be implemented directly
-into Orbot: Tor for Android if successfully implemented.
-    </p>
-
-    <p>
-The deliverables for the project will be a working Android VPN
-implementation that routes traffic through Tor, and integration of VPN
-code into the Orbot app. There must also be time made for reporting on
-the project through blog posts, network auditing of tracking to ensure
-leakage is not occurring.
-    </p>
-
-    <p>
-Useful links and documentation to study:
-    </p>
-
-    <ul>
-      <li><a href="https://gitweb.torproject.org/orbot.git">Orbot</a></li>
-      <li><a href="http://developer.android.com/reference/android/net/VpnService.html">Android VPNService API</a></li>
-      <li><a href="https://github.com/guardianproject/OrbotVPN">Existing work on Orbot VPN</a></li>
-    </ul>
-
-    <p>
-Applicant should have the ability to build Orbot application from
-source using Android SDK and NDK tools. A solid understanding of IP
-routing, iptables, netfilter and VPN protocols would also be very
-helpful. The ability to use Wireshark or other network monitoring
-software to test and verify solution is something that can be taught,
-but if you already know how, bonus! Finally, understanding how the
-exiting Tor software can be used with various transparent proxying
-configurations is a good first step to understanding this problem.
-    </p>
-    </li>
--->
-
-    <a id="improveTorTestCoverage"></a>
-    <li>
-    <b>Improve test coverage in Tor</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
-    <p>
-Right now, our unit test coverage with the tests we ship is around 30%
--- only 30% of the executable lines in our source are reached by the
-unit tests.  Improving this test coverage could make Tor development
-much more reliable.
-    </p>
-
-    <p>
-So we need better unit tests, and we need better integration tests too.
-    </p>
-
-    <p>
-Improving unit tests would involve refactoring functions to be more
-testable, and writing a bunch of unit tests.
-    </p>
-
-    <p>
-Improving integration tests would involve refactoring and improving
-the "chutney" program that launches a test tor network, and writing a
-bunch of tests to see what works and what doesn't work on such a
-network.  It could also involve writing tests using the library "<a
-href="https://stem.torproject.org/">stem</a>" to script individual clients on a
-Chutney network.
-    </p>
-
-    <p>
-To get a feel for how testing works in Tor today, download Tor and
-Chutney, and make sure you can build Tor and use Chutney.  See how the
-unit tests work by skimming some of the test code in the src/test
-subdirectory.  Try computing test coverage (according to the
-instructions in the doc/HACKING file.
-    </p>
-
-    <p>
-Also, have a look at the one current integration test that works on
-chutney today: it is a shell script distributed with Tor as
-src/test/test-tor-network.sh .  We probably don't want to have all of
-our integration tests be written as shell scripts, but it's interesting
-to see how one works.
-    </p>
-
-    <p>
-If working on designs for an improved or refactored Chutney, watch out for <a
-href="http://www.joelonsoftware.com/articles/fog0000000018.html">"archicture
-astronautics"</a>: while it's important that we have a well-designed and
-maintainable Chutney architecture, it wouldn't be very useful if a good
-architecture were the <em>only</em> outcome here: we need tests too.
-    </p>
-
-    <p>
-As part of the application process, please contribute a patch that makes
-a non-trivial improvement to chutney, and/or include a new test for some
-interesting Tor function. (Please pick a function that isn't completely
-easy to test.)
-    </p>
-    </li>
-
-    <a id="useMoreCores"></a>
-    <li>
-    <b>Have the Tor daemon use more cores</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
-    <p>
-Right now, if you run a busy Tor server on a multicore computer, most of
-the cores are mostly unused.  We have a "cpuworker" mechanism to move
-expensive computations into worker threads, but that mechanism is
-currently only used for a small fraction of our cryptography.  Moving
-more work into the worker threads could improve performance immensely.
-    </p>
-
-    <p>
-So it would be great to parallelize our cryptography more in order to
-better handle more cores.  See
-<a href="https://trac.torproject.org/projects/tor/wiki/org/projects/Tor/MultithreadedCrypto">MultithreadedCrypto</a>
-for some background info, and
-<a href="https://trac.torproject.org/projects/tor/ticket/7572">ticket 7572</a> for some subtickets
-on our tracker.
-    </p>
-
-    <p>
-(If you're reading through the code to see how it works today, you will
-also want to have a look at the new implementation for cpuworkers
-described in <a href="https://trac.torproject.org/projects/tor/ticket/9682">9682</a>.)
-    </p>
-
-    <p>
-Completing the implementation of ticket #7572 --which would move our
-circuit crypto onto separate threads-- could be a good summer project.
-Alternatively, moving all of the signature generation and verification
-code onto the cpuworkers could be fun.  In either case, you will have
-some important architectural decisions to make about how to minimize
-shared data between the main thread and the workers, how to avoid
-race conditions between them, and how to test it all to make sure it has
-no hidden failure cases.
-    </p>
-
-    <p>
-As part of the application process for this project, please contribute a
-nontrivial patch to Tor -- ideally, one that will affect some part of
-the codebase that you want to work on.
-    </p>
-    </li>
-
     <a id="improveHiddenServices"></a>
     <li>
     <b>Help improve Tor hidden services</b>
     <br>
-    Effort Level: <i>Medium</i>
+    Language: <i>C</i>
     <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet), George (asn)</i>
+    Likely Mentors: <i>George (asn), David Goulet (dgoulet)</i>
+    <br><br>
     <p>
 We're working on a revamp of the entire Tor hidden service design to
 improve the security and reliability of the hidden service system.
@@ -1382,7 +894,7 @@ improve the security and reliability of the hidden service system.
 
     <p>
 This is a big project: see
-<a href="https://gitweb.torproject.org/torspec.git/blob_plain/refs/heads/master:/proposals/224-rend-spec-ng.txt">proposal
+<a href="https://gitweb.torproject.org/torspec.git/tree/proposals/224-rend-spec-ng.txt">proposal
 224</a> for the latest design.  Are you interested in implementing some
 part of that?
     </p>
@@ -1391,7 +903,7 @@ part of that?
 This is a very ambitious project, so we're deliberately not suggesting
 particular sub-topics.  If you're interested in participating, try to
 read and understand the <a
-href="https://gitweb.torproject.org/torspec.git/blob_plain/refs/heads/master:/rend-spec.txt">existing
+href="https://gitweb.torproject.org/torspec.git/tree/rend-spec.txt">existing
 design</a> and the design proposal for the new design, and then talk to
 us about what part you want to work on.
     </p>
@@ -1403,109 +915,14 @@ the codebase that you want to work on.
     </p>
     </li>
 
-    <a id="improvedDnsSupport"></a>
-    <li>
-    <b>Improved DNS support for Tor</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Nick (nickm), David (dgoulet)</i>
-    <p>
-Right now, you can only use Tor's DNS support to look up IPv4 and IPv6
-addresses, and to fetch PTR records.  But DNS can do so much more!
-    </p>
-
-    <p>
-<a
-href="https://gitweb.torproject.org/torspec.git/blob_plain/refs/heads/master:/proposals/219-expanded-dns.txt">Proposal
-219</a> describes some new cell types that Tor could use to support
-more types of DNS over Tor.
-    </p>
-
-    <p>
-To see how Tor implements its existing DNS lookups, start by tracing the
-the connection_exit_begin_resolve() function in src/or/connection_edge.c ,
-and see how we pass these requests downwards through src/or/dns.c to the
-underlying resolver.  It's not too complicated, but there are some
-tricky parts to understand.
-    </p>
-
-    <p>
-As part of the application process for this project, please contribute a
-nontrivial patch to Tor -- ideally, one that will affect some part of
-the codebase that you want to work on.
-    </p>
-    </li>
-
-    <a id="ahmiaSearch"></a>
-    <li>
-    <b>Ahmia - Hidden Service Search</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>Juha Nurmi (numes), George (asn)</i>
-    <p>
-Ahmia is open-source search engine software for Tor hidden service deep dark web sites. You can test the running search engine at ahmia.fi. For more information see our <a href="https://blog.torproject.org/category/tags/ahmiafi">blog post about Ahmia's GSoC2014 development</a>.
-    </p>
-
-    <p>
-Ahmia is a working search engine that indexes, searches, and catalogs content published on Tor Hidden Services. Furthermore, it is an environment to share meaningful insights, statistics, insights, and news about the Tor network itself. In this context, there is a lot of work to do.
-    </p>
-
-    <p>
-The Ahmia web service is written using the Django web framework. As a result, the server-side language is Python. On the client-side, most of the pages are plain HTML. There are some pages that require JavaScript, but the search itself works without client-side JavaScript.
-    </p>
-
-    <p>
-There are several possible directions for this project, including...
-    </p>
-
-    <ol>
-      <li>Improving the search results (very important)<br />
-        <ul>
-          <li>Tweaking search algorithms</li>
-          <li>Adjust Apache Solr</li>
-          <li>Enrich the data that is used to rank the search results</li>
-        </ul>
-      </li>
-      <li>Improving UX and UI (very important)<br />
-        <ul>
-          <li>Showing relevant knowledge</li>
-          <li>Design the navigation and information architecture</li>
-          <li>HTML5, CSS and Django development</li>
-        </ul>
-      </li>
-      <li>Review code and infrastructure<br />
-        <ul>
-          <li>Review code and fix bugs</li>
-          <li>Writing Django test cases</li>
-          <li>Linux configurations, automatizations</li>
-        </ul>
-      </li>
-      <li>Gather statistics over time and publish them<br />
-        <ul>
-          <li>Gather different kind of stats about Hidden Services</li>
-          <li>Publish these stats using HTTP REST API</li>
-          <li>Using this API show meaningful tables, charts and visualizations</li>
-        </ul>
-      </li>
-    </ol>
-    </p>
-    </li>
-
     <a id="exitmap_improvements"></a>
     <li>
     <b>Exitmap Improvements</b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>Python</i>
     <br>
     Likely Mentors: <i>Philipp (phw)</i>
+    <br><br>
     <p>
 The Tor Project makes use of the Python tool <a
 href="https://gitweb.torproject.org/user/phw/exitmap.git/">Exitmap</a> to
@@ -1532,116 +949,557 @@ tampering.  Third, unit tests should be added for existing and new code
 in order to make the code base more robust.
     </p>
     </li>
-<!--
-    <a id="improveStegotorus"></a>
+
+    <a id="expand_nyx"></a>
     <li>
-    <b>Improve Stegotorus</b>
+    <b>Expand Nyx</b>
     <br>
-    Effort Level: <i>Medium</i>
+    Language: <i>Python</i>
     <br>
-    Skill Level: <i>Medium</i>
-    <br>
-    Likely Mentors: <i>vmon</i>
+    Likely Mentors: <i>Damian (atagar)</i>
+    <br><br>
     <p>
-Stegotorus is a fork of obfsproxy which helps developers to write more intelligent pluggable transports which can hide easier from deep packet inspector (DPI) system.
-    </p>
-
-    <p>
-For example, Stegotorus is equipped with a "chopper module" which takes care of following aspects:
-    </p>
-
-    <ol>
-      <li>It randomize the packet size so it is harder for the DPI system to detect the traffic base on the distribution of the packet size.</li>
-      <li>It makes sure that it only handle as much (or as less) information as the transport module can handle.</li>
-      <li>Chopper is equipped with it is own acknowledge/retransmit protocol. If the censor trying to disturb the connection by dropping or disturbing some of packets, it can recover the data by sending them many times.</li>
-    </ol>
-
-    <p>
-More importantly, Stegotorus is coming with its own HTTP transport module which obfuscates Tor or any other encrypted traffic in HTTP content such as Javascript code or images. HTTP transport module is also written in a way which new module developers can easily add new obfuscation modules for new contents or improve current obfuscation algorithms without the need of dealing with networking aspect of the problem.
-    </p>
-
-    <p>
-Stegotorus is written in C++. you can find the latest code <a href="https://github.com/zackw/stegotorus/tree/tor-improve">here</a>.
-    </p>
-
-    <p>
-In this regard, Stegotorus is offering one of the most complete and sophisticated platforms for writing stealthy pluggable transports.
-    </p>
-
-    <p>
-If you know C++ and interested in Stegotorus and excited about battling censorship, there are many ways that you can contribute to Stegotorus. Here are few important tasks. Your proposal might contain a good number of them:
-    </p>
-
-    <ol>
-      <li>Currently Stegotorus handshake is encrypted using the symmetric secret key of the Stegotorus bridge. However, we would like to implement a totally random handshake and considering that some transports suffer badly from "bandwidth shortage", our best choice currently is to implement <a href="http://elligator.cr.yp.to/">this algorithm</a>.</li>
-      <li>Stegotorus defense against active probing is to authenticate the header of the received packet. If the authentication fails Stegotorus turns into a transparent proxy. The capability of Stegotorus as a transparent proxy needs improvement and further testing.</li>
-      <li>Stegotorus has a new framework for writing Steg module. However some of the Steg modules (PDF, SWF and JS) are written in the old framework, we need to refactor their code in the new framework.</li>
-      <li>As writting new Steg modules in python is easier and safer, it is desirable to write an Steg module interface for Stegotorus which can accept and interact with Steg modules written in python/cython.</li>
-      <li>To make detection of anomalies in the traffic harder, Stegotorus hands a noise-to-signal ratio to each Steg modules. Steg modules' algorithms need to use more intelligent way of embedding to use this ratio.</li>
-      <li>Stegotorus has several parameters to tweak its behavior. Currently all these parameters are given in command line. We would like to have a config file to store these parameters as an alternative method.</li>
-      <li>The general security of the code needs to be reviewed and audited for buffer overflow, memory leak etc.</li>
-      <li>Steg modules for new file format for the HTTP transport are always welcome to reflect the actual traffic of the Internet.</li>
-      <li>Packaging Stegotorus for windows.</li>
-      <li>There is a parallel efforts to improve Stegotorus at SRI. We would like to merge the useful feature developed by SRI in our branch of Stegotorus.</li>
-      <li>Stegotorus needs to support SOCKS protocol to be able to receive the initial parameters from Tor through SOCKS handshake.</li>
-    </ol>
-
-    <p>
-You can find a list of open issues concerning Stegotorus <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Stegotorus&order=priority">here</a>.
-    </p>
-
-    <p>
-You also can think of lots of other awesome creative ways of improving Stegotorus and include those in your proposal.
-    </p>
-    </li>
--->
-
-<!--
-    <a id="newBridgedbDistributor"></a>
-    <li>
-    <b>New BridgeDB Distributor</b>
-    <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium to High</i>
-    <br>
-    Likely Mentors: <i>isis, sysrqb</i>
-    <p>
-BridgeDB is a Twisted Python system which runs a number of servers, in order
-to distribute Tor bridge relays to users in potentially censored regions. Each
-of BridgeDB's Distributors uses some unique channel to communicate bridge
-addresses to users, currently there is an <a href="https://bridges.torproject.org">
-HTTPS Distributor</a>, and an Email Distributor. This project would involve
-designing and creating a new Distributor for BridgeDB. Some ideas for new
-Distributors:
+Nyx (previously known as <a href="https://www.atagar.com/arm/">arm</a>) is an
+ncurses monitor that provides Tor relay operators...
     </p>
 
     <ul>
-      <li>A Twitter bot which interacts with Chinese and Farsi speaking Twitter users through PMs.</li>
-      <li>A distributor which uses XMPP+OTR to give bridges to users.</li>
+      <li><a href="https://www.atagar.com/arm/images/screenshot_page1_full.png">bandwidth graphs and event log</a></li>
+      <li><a href="https://www.atagar.com/arm/images/screenshot_page2_full.png">connections</a></li>
+      <li><a href="https://www.atagar.com/arm/images/screenshot_page3_full.png">user's torrc</a></li>
+      <li><a href="https://www.atagar.com/arm/images/screenshot_configPanel_full.png">config editor</a></li>
     </ul>
 
     <p>
-It's helpful if you already have some knowledge of Twisted. As part of your
-application, please submit a design for a Distributor, as well as supply a
-patch for a ticket which demonstrates knowledge of Twisted and Python ―
-preferably for BridgeDB, see the
-<a href="https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~bridgedb-gsoc-application">
-'bridgedb-gsoc-application' Trac tag</a> for some examples of good tickets to
-try, or contact isis or sysrqb on IRC to ask for ticket suggestions or advice.
+Nyx is presently under development in preparation for its next release. If you
+like python, terminals, and collaborating on an active codebase this just might
+be the project for you!
+    </p>
+
+    <p>
+Proposals should involve a grab-bag of moderately small improvements you'd like
+to make. You're encouraged to brainstorm ideas of their own but here's a few to
+get ya started...
+    </p>
+
+    <ul>
+      <li>Bring back the <a href="https://www.atagar.com/arm/images/screenshot_interpretor_full.png">interpreter panel</a>. This panel was dropped when refactoring Nyx, but it would be a neat component to bring back. You can <a href="https://gitweb.torproject.org/nyx.git/tree/src/cli/interpretorPanel.py?h=release">find old code for it in the history</a> and Stem (the library backing Nyx) has a much improved <a href="https://stem.torproject.org/tutorials/down_the_rabbit_hole.html">variant of this we can leverage</a>. This task would involve writing the curses code around Stem's interpreter functions.</li>
+      <li>Windows support. Like most curses applications Nyx doesn't run natively on Windows. We've had dozens of users request this and <a href="https://trac.torproject.org/projects/tor/wiki/doc/arm#Windows">it should be possible</a>. This would involve supporting PDCurses and expanding Stem to be able to query the cpu/memory usage of the tor process.</li>
+      <li>Unit testing! Nyx has <a href="https://gitweb.torproject.org/nyx.git/tree/test">started adding tests</a> but it's still very minimal. Achieving any substantial code coverage will require us to figure out how to unit test curses components.</li>
+      <li>Onionoo provides additional relay information that could enrich our connection panel such as geoip and rdns. Trick is that at present we can only query it on a per-relay basis which would leak our connections (no-go for security). However, if we could get information about all relays in bulk it would sidestep this. For some old thoughts on this see <a href="https://trac.torproject.org/projects/tor/wiki/doc/arm#CircuitDetails">here</a>.</li>
+      <li>Relay setup wizard. Our last release had this (screenshots: <a href="https://www.atagar.com/transfer/tmp/arm_wizard1.png">1</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard2.png">2</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard3.png">3</a>). This has been removed because including it directly in Nyx confused users, but we might want to resurrect it as a separate <i>setup-tor-relay</i> command.</li>
+      <li><a href="https://trac.torproject.org/projects/tor/ticket/18499">Improved dialog</a> for selecting events to log.</li>
+      <li>... and more! Again, don't hesitate to propose ideas of your own.</li>
+    </ul>
+
+    <p>
+    <b>As part of your application for this project please get your hands wet with the codebase by contributing patches for <a href="https://gitweb.torproject.org/nyx.git">Nyx</a> and <a href="https://stem.torproject.org/faq.html#how-do-i-get-started">Stem</a>!</b>
     </p>
     </li>
--->
+
+    <a id="descriptor_parsing_in_go"></a>
+    <li>
+    <b>Stem Descriptor Parsing in Go</b>
+    <br>
+    Language: <i>Go, Python</i>
+    <br>
+    Likely Mentors: <i>Damian (atagar), Philipp (phw)</i>
+    <br><br>
+    <p>
+    Tor consists of two parts: the application and a distributed network of a
+    few thousand volunteer relays. Information about these relays is public,
+    and made up of documents called <b><a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#what-is-a-descriptor">descriptors</a></b>. We have
+    <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#are-there-any-other-parsing-libraries">three libraries capable of reading these documents</a>...
+    </p>
+
+    <ul>
+      <li><b><a href="https://stem.torproject.org/">Stem</a></b> (Python)</li>
+      <li><b><a href="https://gitweb.torproject.org/metrics-lib.git/">Metrics-lib</a></b> (Java)</li>
+      <li><b><a href="https://gitweb.torproject.org/user/phw/zoossh.git/">Zoossh</a></b> (Go)</li>
+    </ul>
+
+    <p>
+    Stem is the most feature rich but slowest, and conversely Zoossh is fastest
+    but limited. But what if Stem used CFFI bindings to do the heavy lifting in
+    Go? Could we unify these libraries, getting the feature set of Stem with
+    the performance of Zoossh?
+    </p>
+
+    <p>
+    <b>Applicants should be familiar with both Python and Go. As part of your
+    application for this project please write a demo CFFI binding for Stem as a
+    proof of concept.</b> Bonus points if you <a
+    href="https://stem.torproject.org/faq.html#how-do-i-get-started">get your
+    hands wet by contributing patches</a>!
+    </p>
+    </li>
+
+    <a id="txtorcon_use_txaio"></a>
+    <li>
+    <b>Convert txtorcon to use txaio</b>
+    <br>
+    Language: <i>Python, asyncio, Twisted</i>
+    <br>
+    Likely Mentors: <i>meejah</i>
+    <br><br>
+    <p>
+    txtorcon is currently supports only Twisted users. Re-working txtorcon
+    to use the txaio library would allow users to choose between Twisted and
+    asyncio for the client code.
+    </p>
+
+    <p>
+    This would involve fairly extensive refactoring to txtorcon, as it
+    currently makes heavy use of @inlineCallbacks which doesn't work with
+    txaio. A prospective student should be very familiar with event-based
+    programming in general, and be familiar with one of Twisted or asyncio.
+    See also: https://github.com/meejah/txtorcon/issues/135
+    </p>
+    </li>
+
+    <a id="txtorcon_use_pytest"></a>
+    <li>
+    <b>Convert txtorcon to py.test</b>
+    <br>
+    Language: <i>Python, Twisted</i>
+    <br>
+    Likely Mentors: <i>meejah</i>
+    <br><br>
+    <p>
+    Currently txtorcon uses the built-in "unittest" module, as well as
+    Twisted's Deferred-respecting extensions on top. However, meejah has
+    found py.test's "fixture" approach to be much more powerful in other
+    situations.
+    </p>
+
+    <p>
+    This project would be to port at least part of txtorcon's test-suite to
+    use py.test style tests and fixtures and evaluate: are the tests easier
+    to read? are there fewer lines of code? If so, the rest of the suite
+    should be ported and txtorcon switched over to use py.test exclusively.
+    </p>
+
+    <p>
+    As some of txtorcon's tests aren't very well-written, this would take a
+    prospective student who is very strong in unit-testing knowledge. As
+    txtorcon is event-based, familiarity with that style of programming
+    (preferrably with Twisted) is ideal.
+    See also: https://github.com/meejah/txtorcon/issues/136
+    </p>
+    </li>
+
+    <a id="coniks_in_messenger"></a>
+    <li>
+    <b>Implement and Integrate CONIKS for Tor Messenger</b>
+    <br>
+    Language: <i>C, JavaScript</i>
+    <br>
+    Likely Mentors: <i>Marcela (masomel), Arlo (arlolra)</i>
+    <br><br>
+    <p>
+CONIKS is an end-user key management and verification system for end-to-end
+secure communication services, which improves upon existing key management
+systems by providing both strong security and better usability using a model
+called key transparency. CONIKS does this by requiring providers to manage
+tamper-evident, publicly-auditable key directories, which contain mappings from
+usernames to public keys, on behalf of their users. This design makes it easier
+for users (both "default" users and power users) to establish trust since they
+don't have to worry about or even see keys, but users also don't have to
+trust the provider to be well-behaved because the CONIKS client can run as
+part of the secure messaging app and automatically check that the service
+provider doesn’t map spurious keys to their users' usernames, and it can
+verify that observed name-to-key mappings are consistent with what other
+clients in the system are seeing. Unlike existing key transparency solutions,
+CONIKS also provides strong privacy guarantees by employing cryptographic
+primitives for robust data obfuscation.
+    </p>
+
+    <p>
+The CONIKS system design, protocols, and proof-of-concept are described in
+great detail in the <a
+href="https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-melara.pdf">CONIKS
+research paper</a>, and basic reference implementations of a CONIKS key server
+and a CONIKS client are avialable on <a
+href="https://github.com/coniks-sys/coniks-ref-implementation">Github</a>.
+    </p>
+
+    <p>
+This project has two main components: (1) designing and implementing a CONIKS
+key server tailored to Tor Messenger users, and (2) building a CONIKS client
+which integrates with the Tor Messenger client. One challenge the applicant
+will face is ensuring that the key server design is efficient and scalable for
+large volumes of users, concurrent traffic and guarantees this scalability even
+as Tor Messenger's user base grows. On the client side, the main challenges
+will be to focus on space efficiency as well as minimizing computational
+overhead when implementing the CONIKS consistency checks, and determining how
+to best communicate CONIKS consistency check results to users in the UI. Since
+Tor Messenger does not hand out online identities per se, as most online
+communication services do (like, say, Twitter, in which each user has a unique
+handle), the CONIKS key server for Tor Messenger will have to map usernames
+from third-party communication services to the encryption keys used in Tor
+Messenger. One additional important challenge that the applicant will have to
+help address is ensuring that each such third-party username remains unique in
+the Tor Messenger space and that such external, third-party identities are
+indeed controlled by the expected user of that third-party communication
+service.
+    </p>
+
+    <p>
+Some design and implementation questions have been discussed in <a
+href="https://trac.torproject.org/projects/tor/ticket/17961">Ticket #17961</a>.
+    </p>
+
+    <p>
+The applicant should have some familiarity with well-known crypto primitives
+and algorithms, as well as have a basic understanding of the key transparency
+model. Client side integration will require some basic use of JavaScript.
+Consider submitting a patch for <a
+href="https://github.com/arlolra/ctypes-otr/issues">one of the open key
+verification issues</a> as part of the application process.
+    </p>
+    </li>
+
+    <a id="panopticlick"></a>
+    <li>
+    <b>Panopticlick</b>
+    <br>
+    Likely Mentors: <i>Georg (GeKo)</i>
+    <p>
+
+The <a href="https://panopticlick.eff.org">Panopticlick project by the EFF</a>
+revolutionized how people think about <a
+href="https://panopticlick.eff.org/browser-uniqueness.pdf">browser
+fingerprinting</a>, both by developing tests and metrics to measure browser
+fingerprintability, and by crowdsourcing the evaluation and contribution of
+individual browser features to overall fingerprintability.
+
+    </p>
+    <p>
+
+Unfortunately, the way Panopticlick is designed <a
+href="https://blog.torproject.org/blog/effs-panopticlick-and-torbutton">makes
+it difficult</a> to evaluate defenses to browser fingerprinting, especially
+for browsers with a relatively small userbase such as Tor Browser. This is
+because any approach we take to reduce fingerprinting automatically makes our
+users more distinct from the previous users who submitted their fingerprint
+data to the EFF. Indeed, it is also impossible to ever expect that users of
+one browser will ever be able to blend in with users of another browser
+(Chrome users will always be distinguishable from Firefox users for example,
+based on feature set alone).
+
+   </p>
+   <p>
+
+To address this, we would like to have <a
+href="https://trac.torproject.org/projects/tor/ticket/6119">our own
+fingerprint test suite</a> to evaluate the fingerprintability of each browser
+feature for users running a specific Tor Browser version. There are also <a
+href="https://trac.torproject.org/projects/tor/query?keywords=~tbb-fingerprinting">additional
+fingerprinting tests</a> we can add beyond those deployed by Panopticlick.
+   </p>
+   <p>
+
+For this project, the student would develop a website that users can
+voluntarily visit to test and record their Tor Browser fingerprint.  The user
+should get feedback on how she performed and the test results should be
+available in a machine readable format (e.g. JSON), broken down by Tor Browser
+version.  In a second step one could think about adding more sophisticated
+tests or supporting other browser vendors that might want to test the
+uniformity amongst their userbase as well. Of course, results from each
+browser would also need to be broken down by both browser implementation and
+version, so that results would only reflect the population of that specific
+implementation.
+
+    </p>
+    </li>
+
+    <a id="stegotorus"></a>
+    <li>
+    <b>Make Stegotorus deployment ready</b>
+    <br>
+    Language: <i>C++</i>
+    <br>
+    Likely Mentors: <i>vmon</i>
+    <br><br>
+    <p>
+    <a
+    href="https://github.com/TheTorProject/stegotorus/tree/master/src">Stegotorus</a>
+    is a PT framework which streamline the development stealthier pluggable
+    transport. An HTTP pluggable transport is already implemented in Stegotorus
+    framework and can be used when encrypted payloads are throttled and only
+    ephemeral connections are tolerated.
+    </p>
+
+    <p>
+    The majority of work on Stegotorus is done and it can be deployed with a relatively minor improvements including:
+    </p>
+
+    <ul>
+      <li><b>#8098 A config file file for Stegotorus</b>
+        <p>
+        Stegotorus needs many configuration settings specially on the bridge
+        side. This include also the configuration required by each steg module.
+        Currently the configuration is fed to Stegotorus as command line
+        arguments but a file like torrc is needed so all tweaking can be read
+        from there.
+        </p>
+
+        <p><i>
+        Current Status and work needed to be done: The code for reading the
+        config file is written by SRI but it is not yet used in the Stegotorus
+        to read the config.
+        </i></p>
+      </li>
+
+      <li><b>#8101 Debugging the transparent proxy</b>
+        <p>
+        Stegotorus http module uses other websites payload to hide and serve
+        censored traffic. As such it needs to decide if the request is
+        genuinely to the auxiliary website, in that case becomes a transparent
+        proxy and serves the website content as requested, or if the request is
+        actually a request to serve censored material which should be delivered
+        to steg modules.
+        </p>
+
+        <p><i>
+        Current Status: This is completely implemented. However, the transparent proxy sometimes crashes and need to be triaged, debugged and fixed.
+        </i></p>
+      </li>
+
+      <li><b>#11337 refactoring the steg module code</b>
+        <p>
+        The http steg module code, although not essentials to the core of the
+        Stegotorus. needs some improvement and clean up. The solution is to
+        refactor the steg modules as children of FileStegMod.
+        </p>
+
+        <p><i>
+        Current status and work needed to be done: This has already been done
+        but still needs testing and refactoring before it can be reliably merge
+        to the master branch.
+        </i></p>
+      </li>
+
+      <li><b>#8089 Adding Elligator to Stegotorus handshake and test</b>
+        <p>
+        The current Stegotorus handshake is distinguishable from random byte
+        string, which can be used to flag and detect Stegotorus traffic
+        deterministically and need to be implemented similar to
+        ScrambleSuite. Also because the capacity of client to server channel
+        might be slim depending on the choice of steg module it is desirable
+        to be implemented using Elliptic curve crypto. Hence, Elligator
+        protocol is ideal solution for this situation. All we need is to replace Stegotorus handshake by Elligator.
+        </p>
+
+        <p><i>
+        Current Status and work needed to be done: Elligator handshake code is
+        included in stegotorus code base, it is only needed to be called by
+        instead of the current handshake and be tested.
+        </i></p>
+      </li>
+
+      <li><b>Make Stegotorus memory safe by using shared pointers</b>
+        <p>
+        Stegotorus has large code base and it is not written in a memory safe
+        languages. To facilitate its audit, we need to replace (almost all) use
+        of pointers to shared pointers.
+        </p>
+
+        <p><i>
+        Current Status: No progress has not been done.
+        </i></p>
+      </li>
+
+      <li><b>Security Audit and writing more unit test</b>
+        <p>
+        To be able to deploy Stegotorus for real world use we need to audit the
+        code and write more unit test covering new aspects of the Stegotorus
+        (new http transport, proxy server, Elligator handshake)
+        </p>
+
+        <p><i>
+        Current Status: No progress has been done.
+        </i></p>
+      </li>
+
+      <li><b>SRI branch merging</b>
+        <p>
+        Stegotorus has been forked from the initial development from SRI. Now
+        that SRI is hosting Stegotorus publicly it is desirable to merge the
+        two branches so we can benefit from both developments.
+        </p>
+
+        <p><i>
+        Current Status: No progress has been done.
+        </i></p>
+      </li>
+
+      <li><b>#8099 deterministic build</b>
+        <p>
+        To make deterministic build possible we need to build many of
+        Stegotorus dependency from scratch. Boost library is a a huge
+        dependency for Stegotorus to access the file system. As we are only
+        planning to deploy Stegotorus bridges on Linux machines we can simplify
+        such access without that dependency. By dropping such dependency, it
+        should be straight forward to have deterministic build for Stegotorus.
+        </p>
+
+        <p><i>
+        Current Status: No progress has been done.
+        </i></p>
+      </li>
+    </ul>
+    </li>
+
+    <a id="letsEncryptClient"></a>
+    <li>
+    <b>Expand the OS and Server Support of the Let's Encrypt Client</b>
+    <br>
+    Language: <i>Python, Bash</i>
+    <br>
+    Likely Mentors: <i>Brad Warren (bmw)</i>
+    <br><br>
+    <p>
+    <a href="https://letsencrypt.org/">Let's Encrypt</a> is a free and open
+    certificate authority that allows its users to setup HTTPS on their web
+    server in a matter of seconds. The project uses a new protocol called ACME
+    to automatically perform domain validation and certificate issuance.
+    </p>
+
+    <p>
+    The Let's Encrypt client currently works on most Unix-like OSes and is
+    able to automatically set up HTTPS on many Apache configurations. The
+    purpose of this project is to expand Let's Encrypt support to new
+    systems.
+    </p>
+
+    <p>
+    Potential targets include:
+    </p>
+
+    <ul>
+      <li>Better OS X support including a port or Homebrew package</li>
+      <li>A Let's Encrypt client for Windows / IIS</li>
+      <li>Handling of more obscure Apache configurations</li>
+      <li>Automated HTTPS configuration for other web servers such as Nginx or lighttpd</li>
+      <li>Improved support people using shared hosting who are unable to use the full Let's Encrypt client on their server</li>
+    </ul>
+    </li>
+
+    <a id="ahmiaSearch"></a>
+    <li>
+    <b>Ahmia - Hidden Service Search</b>
+    <br>
+    Language: <i>Python, Django</i>
+    <br>
+    Likely Mentors: <i>Juha Nurmi (numes), George (asn)</i>
+    <br><br>
+    <p>
+    Ahmia is open-source search engine software for Tor hidden service deep
+    dark web sites. You can test the running search engine at ahmia.fi. For
+    more information see our <a
+    href="https://blog.torproject.org/category/tags/ahmiafi">blog post about
+    Ahmia's GSoC2014 development</a>.
+    </p>
+
+    <p>
+    Ahmia is a working search engine that indexes, searches, and catalogs
+    content published on Tor Hidden Services. Furthermore, it is an environment
+    to share meaningful insights, statistics, insights, and news about the Tor
+    network itself. In this context, there is a lot of work to do.
+    </p>
+
+    <p>
+    The Ahmia web service is written using the Django web framework. As a
+    result, the server-side language is Python. On the client-side, most of the
+    pages are plain HTML. There are some pages that require JavaScript, but the
+    search itself works without client-side JavaScript.
+    </p>
+
+    <p>
+    There are several possible directions for this project, including...
+    </p>
+
+    <ol>
+      <li>Improving the search results (very important)<br />
+        <ul>
+          <li>Tweaking search algorithms</li>
+          <li>Adjust Elasticsearch</li>
+          <li>Enrich the data that is used to rank the search results</li>
+        </ul>
+      </li>
+      <li>Improving UX and UI (very important)<br />
+        <ul>
+          <li>Showing relevant knowledge</li>
+          <li>Design the navigation and information architecture</li>
+          <li>HTML5, CSS and Django development</li>
+        </ul>
+      </li>
+      <li>Review code and infrastructure<br />
+        <ul>
+          <li>Review code and fix bugs</li>
+          <li>Writing Django test cases</li>
+          <li>Linux configurations, automatizations</li>
+        </ul>
+      </li>
+      <li>Gather statistics over time and publish them<br />
+        <ul>
+          <li>Gather different kind of stats about Hidden Services</li>
+          <li>Publish these stats using HTTP REST API</li>
+          <li>Using this API show meaningful tables, charts and visualizations</li>
+        </ul>
+      </li>
+    </ol>
+    </li>
+
+    <a id="ipHijacking"></a>
+    <li>
+    <b>IP hijacking detection for the Tor Network</b>
+    <br>
+    Likely Mentors: <i>Aaron Gibson (aagbsn)</i>
+    <br><br>
+    <p>
+    <a href="https://en.wikipedia.org/wiki/IP_hijacking">IP hijacking</a>
+    occurs when a bad actor creates false routing information to redirect
+    Internet traffic to or through themselves. This activity is straightforward
+    to detect, because the Internet routing tables are public information, but
+    currently there are no public services that monitor the Tor network. The
+    Tor Network is a dynamic set of relays, so monitoring must be Tor-aware in
+    order to keep the set of monitored relays accurate. Additionally, consensus
+    archives and historical Internet routing table snapshots are publicly
+    available, and this analysis can be performed retroactively.
+    </p>
+
+    <p>
+    The implications of IP hijacking are that Tor traffic can be redirected
+    through a network that an attacker controls, even if the attacker does not
+    normally have this capability - i.e. they are not in the network path. For
+    example, an adversary could hijack the prefix of a Tor Guard relay, in
+    order to learn who its clients are, or hijack a Tor Exit relay to tamper
+    with requests or name resolution.
+    </p>
+
+    <p>
+    This project comprises building a service that compares network prefixes of
+    relays in the consensus with present and historic routing table snapshots
+    from looking glass services such as <a
+    href="http://routeviews.org">Routeviews</a>, or aggregators such as <a
+    href="https://bgpstream.caida.org">Caida BGPStream</a> and then issues
+    email alerts to the contact-info in the relay descriptor and a mailing
+    list. Network operators are responsive to route injections, and these
+    alerts can be used to notify network operators to take immediate action, as
+    well as collect information about the occurrence of these type of attacks.
+    </p>
+    </li>
 <!--
     <a id=""></a>
     <li>
     <b></b>
     <br>
-    Effort Level: <i>Medium</i>
-    <br>
-    Skill Level: <i>Medium</i>
+    Language: <i>Python</i>
     <br>
     Likely Mentors: <i>Damian (atagar)</i>
+    <br><br>
     <p>
 
     </p>

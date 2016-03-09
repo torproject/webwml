@@ -55,7 +55,7 @@
 <tr class="beige">
 <td align="center"><img src="$(IMGROOT)/distros/freebsd.png" alt="FreeBSD"></td>
 <td>FreeBSD</td>
-<td colspan="2"><kbd>portinstall -s security/tor</kbd></td>
+<td colspan="2"><kbd>pkg install tor</kbd></td>
 <td><a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a></td>
 </tr>
 

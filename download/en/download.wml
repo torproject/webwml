@@ -54,7 +54,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	  </form>
 
 	  <h2>Tor Browser</h2>
-	  <em>Version <version-torbrowserbundle> - Windows 10, 8, 7, Vista, and XP</em>
+	  <em>Version <version-torbrowserbundle> (<releasedate-torbrowserbundle>) - Windows 10, 8, 7, Vista, and XP</em>
 	  <p>Everything you need to safely browse the Internet. <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	</div>
 <!-- EXPERT BUNDLE -->
@@ -107,7 +107,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	  </form>
 
 	  <h2>Tor Browser</h2>
-	  <em>Version <version-torbrowserbundleosx64> - OS X Intel</em>
+	  <em>Version <version-torbrowserbundleosx64> (<releasedate-torbrowserbundleosx64>)- OS X Intel</em>
 	  <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run. <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	</div>
   </div>
@@ -144,7 +144,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	  </form>
 
 	  <h2>Tor Browser</h2>
-	  <em>Version <version-torbrowserbundlelinux32> - Linux, BSD, and Unix</em>
+	  <em>Version <version-torbrowserbundlelinux32> (<releasedate-torbrowserbundlelinux32>) - Linux, BSD, and Unix</em>
 	  <p>Everything you need to safely browse the Internet. This
 package requires no installation. Just extract it and run. <a
 href="<page projects/torbrowser>">Learn more &raquo;</a></p>
@@ -175,14 +175,6 @@ custom configurations. All an apt-get or yum install away.</p>
 
 	  <h2>Android Bundle</h2>
 	  <p>Our software is available for Android-based phones, tablets, and computers from the <a href="https://guardianproject.info/">Guardian Project</a> in their <a href= "https://guardianproject.info/2012/03/15/our-new-f-droid-app-repository/">F-Droid Repository</a> or the <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play Store</a>.</p>
-	</div>
-<!-- Nokia -->
-	<div class="package" style="border-bottom: 0px;">
-	  <div class="downloads">
-	    <a class="additional" style="font-weight: bold;" href="<page docs/N900>">Experimental Instructions</a>
-	  </div>
-
-	  <h2>Nokia Maemo/N900</h2>
 	</div>
       </div>
 <!-- END SMARTPHONES -->
