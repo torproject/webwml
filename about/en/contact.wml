@@ -22,6 +22,7 @@
     <li><a href="#security">Security Issues</a></li>
     </ul>
 
+    <!--
     <a id="support"></a>
     <h3><a class="anchor" href="#support">Support</a></h3>
 
@@ -38,12 +39,13 @@
       <li><i>help-fr@rt.torproject.org</i> for French</li>
       <li><i>help-zh@rt.torproject.org</i> for Mandarin</li>
     </ul>
+    -->
 
     <a id="email"></a>
     <h3><a class="anchor" href="#email">Email</a></h3>
-    Please email <ew>help@rt.torproject.org</em> for general questions.
+    <!-- Please email <ew>help@rt.torproject.org</em> for general questions.
 
-    A few other addresses are more specific:
+    A few other addresses are more specific: -->
 
     <ul>
       <li><i>tor-talk@lists.torproject.org</i> is for all discussion
@@ -79,8 +81,6 @@
       <li><i>#tor-project</i> - Organization discussions unrelated to 
       software development. A great place to discuss Tor community events, 
       outreach, translation, or website improvements.</li>
-      <li><i>#nottor</i> - This is where Tor people hang out to talk about
-      stuff that is not related to Tor.</li>
     </ul>
 
     <a id="twitter"></a>
@@ -99,8 +99,6 @@
     the call. Please do not call for technical support. Instead, email
     <em>help@rt.torproject.org</em>. Technical support phone calls are not
     returned.</p>
-
-    <p>For press inquiries only, please call +1-617-902-0208.</p>
 
     <a id="mail"></a>
     <h3><a class="anchor" href="#mail">Mailing Address</a></h3>
