@@ -1,4 +1,0 @@
-#include "head.wmi" TITLE="Redirecting" REDIRECT="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger"
-
-#include <foot.wmi>
-

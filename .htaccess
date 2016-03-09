@@ -29,6 +29,7 @@ RewriteRule ^press/index.html(.*) /press/press.html$1 [R=301,L]
 
 # Projects
 RewriteRule ^projects/$ /projects/projects [R=301,L]
+RewriteRule ^projects/tormessenger(.*)$ https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger [R=301,L]
 
 # GetInvolved
 RewriteRule ^getinvolved/$ /getinvolved/volunteer [R=301,L]
