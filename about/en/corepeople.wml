@@ -26,9 +26,13 @@
 
 <h1>Core Tor People</h1>
 <dl>
-          <dt>Sherief Alaa, Support</dt>
-          <dd>Arabic translator, worked on videos and documentation and helps
-          respond to users who contacted the support desk.</dd>
+          <dt>Sue Abt, Accountant and Finance</dt>
+          <dd>Sue runs Tor's finances and audit compliance.</dd>
+
+          <dt>Micah Anderson</dt>
+          <dd>Helps with tracking bad relays. Runs one of the directory
+          authorities.</dd>
+
           <dt>Jacob Appelbaum, Advocate, Security Researcher, and
           Developer</dt>
           <dd>Speaks at conferences and gives
@@ -52,16 +56,13 @@
           countries. Speaks and organizes in support of Tor and freedoms
           in Europe and world-wide.</dd>
 
-          <dt>Katherine Bergeron, Executive Administrator</dt>
-          <dd>Katherine is streamlining our operations, including
-          fundraising, merchandise management, travel, and other
-          projects.</dd>
-
           <dt>Griffin Boyce, Developer</dt>
           <dd>Works on <a href="http://cupcakebridge.com/">Cupcake</a>,
           a set of browser extensions to let people volunteer to become
           a <a href="https://crypto.stanford.edu/flashproxy/">Flash
-          Proxy</a> for censored users.</dd>
+          Proxy</a> for censored users. Also develops <a
+          href="https://github.com/glamrock/satori">Satori</a>, an app to
+          help people safely download Tor Browser and related tools.</dd>
 
           <dt>Kathleen Brade, Developer</dt>
           <dd>Part of the Tor Browser team &mdash; develops
@@ -71,7 +72,14 @@
           <dd>Rewrote <a href="https://check.torproject.org/">Tor
           Check</a> so now it can handle all our users, and helps with
           Flash Proxy and other pluggable transport work. Also working
-          on the Tor Instant Messaging Bundle.</dd>
+          on <a
+          href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor
+          Messenger</a>, and on Snowflake.</dd>
+
+          <dt>John Brooks, Ricochet Developer</dt>
+          <dd>Leads <a href="https://ricochet.im/">Ricochet</a>, a
+          decentralized chat system where every user is an onion service.
+          Also a core contributor to Tor onion service development.</dd>
 
           <dt>Colin Childs, Translation Coordinator and Support</dt>
           <dd>Helps wrangle <a
@@ -79,37 +87,32 @@
           for us, and also helps answer all the users who contact the
           support desk.</dd>
 
-          <dt>Erinn Clark, Packaging and Build Automation</dt>
-          <dd>Erinn is tackling the growing needs for easy to install
-          and configure packages on a variety of operating systems.
-          Also working on automating the build system and producing
-          nightly builds for all operating systems we support. Erinn is
-          also doing some advocacy by talking to audiences at FSCONS,
-          CodeBits.eu, and various European universites.</dd>
+          <dt>Erinn Clark</dt>
+          <dd>Erinn used to be our build and automation engineer. Now she
+          has a day job at First Look Media, and remains active in the
+          general privacy space.</dd>
 
-          <dt>Roger Dingledine, Project Leader, Director, Researcher, Interim Executive Director</dt>
+          <dt>Roger Dingledine, Project Leader, Director, Research Director</dt>
           <dd>Original developer of Tor along with Nick Mathewson and Paul
           Syverson. Leading researcher in the anonymous communications
           field. Frequent speaker at conferences to advocate Tor and
           explain what Tor is and can do. Helps coordinate academic
-          researchers. Runs one of the directory authorities. Roger is serving as the Interim Executive Director while Tor searches for a new one to step in.</dd>
+          researchers. Runs one of the directory authorities.</dd>
 
-          <dt>Kevin Dyer, Developer, Researcher</dt>
-          <dd>Main developer of <a
-          href="https://fteproxy.org/">fteproxy</a>, and part of the
-          pluggable transports team. Grad student at Portland State.</dd>
-
-          <dt>Nima Fatemi, Support, Advocate</dt>
-          <dd>Farsi team; helps answer all the users who contact
-          the support desk, does training and outreach and works on usability.</dd>
+          <dt>Nima Fatemi, Advocate</dt>
+          <dd>Usability team, Farsi advocate, <a
+          href="https://libraryfreedomproject.org/">Library Freedom
+          Project</a> developer.</dd>
 
           <dt>David Fifield, Developer, Researcher</dt>
           <dd>Developer and co-inventor of <a
-          href="https://crypto.stanford.edu/flashproxy/">Flash Proxy</a>,
-          and part of the pluggable transports team. Grad student at
+          href="https://crypto.stanford.edu/flashproxy/">Flash Proxy</a>
+          and <a
+          href="https://trac.torproject.org/projects/tor/wiki/doc/meek">meek</a>.
+          Helps lead the pluggable transports team. Grad student at
           Berkeley.</dd>
 
-          <dt>Arturo Filastò, Developer</dt>
+          <dt>Arturo Filastò, OONI Leader</dt>
           <dd>Project leader for <a
           href="https://ooni.torproject.org/">OONI</a>, has helped
           with <a href="http://tor2web.org/">tor2web</a>, wrote <a
@@ -117,9 +120,9 @@
           helps to evaluate and improve security.</dd>
 
           <dt>Matt Finkel, Developer</dt>
-          <dd>Helps maintain and develop <a
-          href="https://bridges.torproject.org/">BridgeDB</a>, has helped
-          with OONI, and generally helps on many projects.</dd>
+          <dd>Has helped maintain and develop <a
+          href="https://bridges.torproject.org/">BridgeDB</a>, OONI,
+          and many other projects.</dd>
 
           <dt>Nathan Freitas, Mobile phone hacker</dt>
           <dd>The driving force behind <a
@@ -131,46 +134,31 @@
           href="https://guardianproject.info/apps/orweb/">Orweb: A
           privacy-enhanced mobile browser</a>.</dd>
 
-          <dt>Christian Fromme, Developer</dt>
-          <dd>Helped with many Python projects, such as the
-          get-tor email auto-responder, check.torproject.org, bridge db,
-          tor weather, tor controller, tor flow, etc.</dd>
-
           <dt>Aaron Gibson, Developer</dt>
-          <dd>Develops OONI, and has helped with Torflow and other Tor
-          services.</dd>
-
-          <dt>Melissa Gilroy, CFO and Internal Audit</dt>
-          <dd>Melissa is in charge of Tor's finances, audit compliance, and keeping
-          Tor's financial operations moving along.</dd>
+          <dd>Used to develop OONI, and now works on Torflow.</dd>
 
           <dt>Dr. Ian Goldberg, Director, Researcher</dt>
           <dd>Cryptographer, privacy expert,
           and professor; one of the designers of <a
-          href="http://www.cypherpunks.ca/otr/">Off-the-Record
+          href="https://otr.cypherpunks.ca/">Off-the-Record
           Messaging</a>.</dd>
 
           <dt>David Goulet, Developer</dt>
-          <dd>Lead developer of Torsocks 2.0.</dd>
+          <dd>Onion services developer, core member of Tor development
+          team, and lead developer of Torsocks 2.0.</dd>
 
-          <dt>Sathyanarayanan Gunasekaran, Developer</dt>
-          <dd>Worked on Orbot in Google
-          Summer of Code 2011. Currently develops <a
-          href="https://compass.torproject.org/">Compass</a>,
-          and is a grad student at Georgia Tech.</dd>
+          <dt>Marie Gutbub, Advocate</dt>
+          <dd>Helps educate the world about the value of Tor, especially
+          in Europe.</dd>
 
-          <dt>Sebastian Hahn, Developer, Advocate</dt>
-          <dd>Improves build and testing automation for TBB. Develops
-          Tor itself. Helps people around the world use and understand
+          <dt>Sebastian Hahn, Developer</dt>
+          <dd>Helps people around the world use and understand
           Tor better. Generally helps everything run smoothly. Runs one
           of the directory authorities.</dd>
 
-          <dt>Harmony, Support, Advocate</dt>
-          <dd>Writes for <a href="<wiki>TorWeeklyNews/">Tor Weekly
-          News</a>, the help desk, and the browser manual.</dd>
-
-          <dt>Dr. Nick Hopper, Researcher</dt>
-          <dd>Cryptographer, privacy expert, and professor.</dd>
+          <dt>Serene Han, Developer</dt>
+          <dd>Develops Snowflake, a WebRTC-enabled Flash Proxy design.
+          Part of the pluggable transport team.</dd>
 
           <dt>intrigeri, Developer</dt>
           <dd>Our main interface with the <a
@@ -180,6 +168,10 @@
           <dd>Lead maintainer and developer on <a
           href="https://bridges.torproject.org/">BridgeDB</a>. Used to
           work on OONI.</dd>
+
+          <dt>Leiah Jansen, Designer</dt>
+          <dd>Helps make all of our cool logos, designs, stickers, graphics,
+          and so on. Invented the awesome new "roots" Tor logo.</dd>
 
           <dt>Dr. Rob Jansen, Researcher</dt>
           <dd>Lead developer for <a
@@ -201,9 +193,9 @@
           library for interacting with Tor.</dd>
 
           <dt>asn, Developer</dt>
-          <dd>Developer of Obfsproxy, the Tor side of pluggable
-          transports, and researcher on bridge scanning resistance. Part
-          of the pluggable transports team.</dd>
+          <dd>Onion services developer, core member of Tor development
+          team, Obfsproxy developer, and researcher on bridge scanning
+          resistance.</dd>
 
           <dt>Georg Koppen, Developer</dt>
           <dd>Works on Tor Browser, Torbutton, and our build
@@ -213,54 +205,72 @@
           <dd>Plans Tor's communications strategy and evaluates Tor's
           possible role in pubic discussions about Tor-related issues.</dd>
 
+          <dt>Jens Kubieziel, Sysadmin</dt>
+          <dd>Helps keep our core infrastructure going.</dd>
+
           <dt>Pepijn Le Heux, Advocate</dt>
           <dd>Tireless advocate and Tor enthusiast in the Netherlands.</dd>
+
+          <dt>Tom Leckrone</dt>
+          <dd>Helps make sure everything runs smoothly. Coordinates
+          logistics and people and everything in between.</dd>
 
           <dt>Andreas Lehner, Advocate</dt>
           <dd>Operates a directory authority in Germany with the CCC,
           and does talks and discussions in support of privacy around
           Europe.</dd>
 
-          <dt>Bruce Leidl</dt>
-          <dd>Lead developer of
-          <a href="http://www.subgraph.com/orchid.html">Orchid</a>,
-          a Tor client in Java.</dd>
+          <dt>Israel Leiva, Developer</dt>
+          <dd>Develops <a
+          href="https://www.torproject.org/projects/gettor">GetTor</a>,
+          a service that provides alternative methods to download Tor
+          Browser.</dd>
 
           <dt>Dr. Karsten Loesing, Metrics Researcher and Developer</dt>
           <dd>Primary researcher and developer into
           <a href="https://metrics.torproject.org/">anonymous metrics</a>
           which started as a National Science Foundation grant.</dd>
 
-          <dt>Lunar, Support Coordinator and Developer</dt>
-          <dd>In addition to leading the support team and helping with
-          Debian packaging, he also helps lead the Tor Weekly News
-          issues.</dd>
+          <dt>Lunar</dt>
+          <dd>Originally helped lead the support team,
+          Debian packaging, and Tor Weekly News issues. Now working on
+          <a href="https://reproducible-builds.org/">Reproducible
+          Builds</a>.</dd>
 
-          <dt>Ximin Luo, Developer</dt>
-          <dd>Flash Proxy developer, and member of the pluggable transports
-          team. Helps with Debian packaging.</dd>
+          <dt>Ximin Luo</dt>
+          <dd>Helps with Debian packaging.</dd>
 
-          <dt>Nick Mathewson, Chief Architect, Vice President, Researcher, Director, Interim Deputy Executive Director</dt>
-          <dd>One of the three original designers of Tor; does a lot
+          <dt>Alison Macrina, Advocate</dt>
+          <dd>Leads the <a
+          href="https://libraryfreedomproject.org/">Library Freedom
+          Project</a>: helps the world understand the value of Tor,
+          and also helps strengthen the network with exit relays at
+          libraries.</dd>
+
+          <dt>Nick Mathewson, Chief Architect, Vice President, Researcher, Director</dt>
+          <dd>One of the three original designers of Tor&mdash;does a lot
           of the ongoing design work, and coordinates and leads ongoing
-          development. He's helping Roger while he serves as Interim Executive Director.</dd>
+          development.</dd>
 
           <dt>meejah, Developer</dt>
           <dd>Author of <a
           href="https://github.com/meejah/txtorcon">txtorcon</a>, a Tor
           controller library in Twisted.</dd>
 
-          <dt>Ondrej Mikle, Developer</dt>
+          <dt>Ondrej Mikle</dt>
           <dd>Maintains our RPM packages.</dd>
 
-          <dt>Kelley Misata</dt>
-          <dd>Kelley handles press, coordinates Tor talks and outreach,
-          helps with trainings, helps with annual reports, and generally works
-          on community-facing activities.</dd>
+          <dt>Kelley Misata, Advocate</dt>
+          <dd>Teaches many people about the value of privacy,
+          especially in the contexts of domestic violence and cyber
+          stalking.</dd>
+
+          <dt>Julius Mittenzwei, Director</dt>
+          <dd>Germany-based lawyer and Internet activist.</dd>
 
           <dt>Dr. Steven Murdoch, Researcher and Developer</dt>
           <dd>Researcher at University College London who works
-          on security, performance, and usability of Tor. Creator
+          on security, performance, and usability of Tor. Original creator
           of the <a href="<page projects/torbrowser>">Tor Browser
           Bundle</a> (now just called the Tor Browser). You can find
           out more about his work on his
@@ -269,18 +279,17 @@
 
           <dt>Linus Nordberg, Advocate, Developer</dt>
           <dd>Swedish advocate for Tor, anonymous communications research,
-          and employee at <a href="http://nordu.net">NORDUnet</a>. Works
+          and employee at <a href="http://nordu.net/">NORDUnet</a>. Works
           on implementing IPv6 in Tor, and helps with build
           automation. Runs one of the directory authorities.</dd>
 
-          <dt>Matt Pagan, Support</dt>
-          <dd>Maintains the FAQ, works on documentation, and helps answer
-          all the users who contact the support desk.</dd>
+          <dt>Donncha O'Cearbhaill, Developer</dt>
+          <dd>Onion services developer, OnionBalance developer,
+          hunter of bad relays.</dd>
 
           <dt>Peter Palfrader, Sysadmin and Developer</dt>
           <dd>Manages the Debian packages, runs one of the directory
-          authorities, runs the website and the wiki, and generally helps
-          out a lot.</dd>
+          authorities, and generally helps out a lot.</dd>
 
           <dt>Mike Perry, Tor Browser and Tor Performance
           Developer</dt> <dd>Lead developer on Tor Browser, developer
@@ -288,24 +297,23 @@
           href="https://gitweb.torproject.org/torflow.git/tree/README">TorFlow</a>.
           Runs one of the directory authorities.</dd>
 
+          <dt>Fabio Pietrosanti, Advocate and Developer</dt>
+          <dd>Originally involved with Tor2Web, and is now our connection
+          to the Globaleaks project.</dd>
+
+          <dt>Amogh Pradeep, Developer</dt>
+          <dd>Leads the development of <a
+          href="https://play.google.com/store/apps/details?id=info.guardianproject.orfox">Orfox</a>,
+          which is shaping up to be the Tor Browser equivalent for
+          Android.</dd>
+
           <dt>Sina Rabbani, Advocate</dt>
-          <dd>Developer and maintainer of <a
-          href="https://cloud.torproject.org/">Tor Cloud</a>, and
-          does trainings and outreach. Runs one of the directory
+          <dd>Does trainings and outreach. Runs one of the directory
           authorities.</dd>
 
           <dt>Leif Ryge, Developer</dt>
           <dd>Works on security analysis, designer of "bananaphone"
           transport, and part of the pluggable transports team.</dd>
-
-          <dt>Runa A. Sandvik, Advocate</dt>
-          <dd>Maintains the Tor Translation Portal and the translations for
-          projects such as Vidalia, Torbutton and the website.</dd>
-
-          <dt>Christian Schulz, Developer</dt>
-          <dd>Developer and maintainer of <a
-          href="https://globe.torproject.org/">Globe</a>, which is on
-          its way to replacing Atlas and eventually Compass.</dd>
 
           <dt>Wendy Seltzer, Director</dt>
           <dd>Lawyer, cyberlaw professor, and founder of <a
@@ -316,8 +324,9 @@
 
           <dt>Sukhbir Singh, Developer</dt>
           <dd>Develops and maintains TorBirdy (Torbutton for Thunderbird).
-          Rewrote and maintains Gettor. Working on the Tor Instant
-          Messaging Bundle.</dd>
+          Rewrote and maintains Gettor. Working on <a
+          href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor
+          Messenger</a>.</dd>
 
           <dt>Mark Smith, Developer</dt>
           <dd>Part of the Tor Browser team &mdash; develops
@@ -347,32 +356,28 @@
           <dd>Shares his experience with smoothly running non-profits, and
           also serves as our Internet governance bureaucracy guru.</dd>
 
-          <dt>Jeremy Todaro, Illustration &amp; Design</dt>
-          <dd>Works on the artwork and design for various projects,
-          annual reports, and brochures. His other work can be found at
-          <a href="http://jmtodaro.com/">http://jmtodaro.com/</a>.</dd>
+          <dt>Juris Vetra</dt>
+          <dd>Helps run torservers.net, and also volunteers distributing
+          Tor shirts and other swag.</dd>
 
           <dt>Nicolas Vigier, Developer</dt>
           <dd>Working on build automation, particularly around the Tor
           Browser.</dd>
 
-          <dt>vmon, Support, Developer</dt>
-          <dd>Farsi translator; helps answer all the users who contact
-          the support desk. Also working on Stegotorus, and part of the
-          pluggable transports team.</dd>
+          <dt>Tim Wilson-Brown, Developer</dt>
+          <dd>Onion services developer, and core member of Tor development
+          team.</dd>
 
           <dt>Philipp Winter, Researcher</dt>
           <dd>Understands how to manipulate and circumvent Tor network
           censorship attempts. Main developer of <a
           href="http://www.cs.kau.se/philwint/scramblesuit/">ScrambleSuit</a>,
-          and part of the pluggable transports team. Grad student at
-          Karlstad University in Sweden.</dd>
+          and part of the pluggable transports team. Post-doc at
+          Princeton.</dd>
 
           <dt>Yawning, Developer</dt>
-          <dd>Lead developer on <a
-          href="https://github.com/yawning/obfsclient">obfsclient</a>,
-          a C++ implementation of obfs2, obfs3, and ScrambleSuit. Part
-          of the pluggable transports team.</dd>
+          <dd>Lead developer on obfs4proxy and other pluggable transports.
+          Part of the pluggable transports team.</dd>
 
 </dl>
   </div>
