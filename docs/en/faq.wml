@@ -301,25 +301,22 @@ things?</a></li>
     </p>
 
     <p>
-    The Tor software is a program you can run on your computer that
-helps keep
-    you safe on the Internet. Tor protects you by bouncing your
-communications
+    Tor is a program you can run on your computer that helps keep
+    you safe on the Internet. It protects you by bouncing your communications
     around a distributed network of relays run by volunteers all around
-    the world: it prevents somebody watching your Internet connection
-from
+    the world: it prevents somebody watching your Internet connection from
     learning what sites you visit, and it prevents the sites you visit
-    from learning your physical location. This set of volunteer relays
-is
-    called the Tor network. You can read more about how Tor works on the
-<a
-    href="<page about/overview>">overview page</a>.
+    from learning your physical location.
+    This set of volunteer relays is called the <b>Tor network</b>.
+    The way most people use Tor is with <b>Tor Browser</b>,
+    which is a version of Firefox that fixes many privacy issues.
+    You can read more about how Tor works on the <a href="<page
+    about/overview>">overview page</a>.
     </p>
 
     <p>
-    The Tor Project is a non-profit (charity) organization that
-maintains
-    and develops the Tor software.
+    The <b>Tor Project</b> is a non-profit (charity) organization that
+    maintains and develops the Tor software.
     </p>
 
     <hr>
@@ -342,47 +339,38 @@ install anything.  You just have to point your browser at their proxy
 server.
 Simple proxy providers are fine solutions if you do not want protections
 for
-your privacy and anonymity online and you trust the provider from doing
+your privacy and anonymity online and you trust the provider to not do
 bad
 things.  Some simple proxy providers use SSL to secure your connection
-to them.
-This may protect you against local eavesdroppers, such as those at a
-cafe with
-free wifi Internet.
+to them, which protects you against local eavesdroppers, such as those at a
+cafe with free wifi Internet.
     </p>
     <p>
     Simple proxy providers also create a single point of failure.  The
 provider
-knows who you are and where you browse on the Internet.  They can see
+knows both who you are and what you browse on the Internet.  They can see
 your
 traffic as it passes through their server.  In some cases, they can even
 see
 inside your
 encrypted traffic as they relay it to your banking site or to ecommerce
 stores.
-You have to trust the provider isn't doing any number of things, such as
+You have to trust the provider isn't
 watching your traffic, injecting their own advertisements into your
 traffic
-stream, and recording your personal details.
+stream, or recording your personal details.
     </p>
     <p>
     Tor passes your traffic through at least 3 different servers before
 sending
 it on to the destination. Because there's a separate layer of encryption
 for
-each of the three relays, Tor does not modify, or even know, what you
-are
-sending into it.  It merely relays your traffic, completely encrypted
-through
-the Tor network and has it pop out somewhere else in the world,
-completely
-intact.  The Tor client is required because we assume you trust your
-local
-computer.  The Tor client manages the encryption and the path chosen
-through
-the network.  The relays located all over the world merely pass
-encrypted
-packets between themselves.</p>
+each of the three relays, somebody watching your Internet connection
+can't modify, or read, what you are
+sending into the Tor network. Your traffic is encrypted between the Tor
+client (on your computer) and where it pops out somewhere else in the
+world.
+</p>
     <p>
     <dl>
     <dt>Doesn't the first server see who I am?</dt><dd>Possibly. A bad
@@ -395,18 +383,16 @@ merely sees
 world, so
 using Tor by itself is fine.  You are still protected from this node
 figuring
-out who you are and where you are going on the Internet.</dd>
+out both who you are and where you are going on the Internet.</dd>
     <dt>Can't the third server see my traffic?</dt><dd>Possibly.  A bad
 third
 of three servers can see the traffic you sent into Tor.  It won't know
 who sent
-this traffic.  If you're using encryption, such as visiting a bank or
-e-commerce website, or encrypted mail connections, etc, it will only
-know the
-destination.  It won't be able to see the data inside the traffic
-stream.  You
-are still protected from this node figuring out who you are and if using
-encryption, what data you're sending to the destination.</dd>
+this traffic.  If you're using encryption (like
+HTTPS), it will only know the destination. See <a
+href="https://www.eff.org/pages/tor-and-https">this visualization of
+Tor and HTTPS</a> to understand how Tor and HTTPS interact.
+</dd>
     </dl>
     </p>
 
