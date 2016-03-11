@@ -22,10 +22,10 @@
     <li><a href="#security">Security Issues</a></li>
     </ul>
 
-    <!--
     <a id="support"></a>
     <h3><a class="anchor" href="#support">Support</a></h3>
 
+    <!--
      <p><i>help@rt.torproject.org</i> is the address to use for
     questions about all things Tor, volunteering, and offering
     resources. This is best effort service with no guarantees. We
@@ -41,19 +41,29 @@
     </ul>
     -->
 
+    <p>If you have questions about using Tor:</p>
+    <ol>
+    <li>Read through the <a href="<page docs/faq>">FAQ</a> and the
+    <a href="<page docs/documentation>">documentation</a>.</li>
+    <li>See if your question is asked or answered on our
+    <a href="https://tor.stackexchange.com/">StackExchange page</a>.</li>
+    <li>Join the <a href="#irc">#tor irc channel</a>, state the issue,
+    and wait patiently for help.</li>
+    <li>Read through the archives of the
+    <a href="<page docs/documentation>#MailingLists">mailing lists</a>
+    to see if anybody else has raised your issue recently. Note that
+    you need to subscribe to the mailing lists before you can post.</li>
+    </ol>
+
+    <p>If you find your answer, please stick around to contribute back
+    and help others who were once in your position.</p>
+
     <a id="email"></a>
     <h3><a class="anchor" href="#email">Email</a></h3>
-    <!-- Please email <ew>help@rt.torproject.org</em> for general questions.
-
-    A few other addresses are more specific: -->
+    <p>If you have Tor questions, please try to help yourself via the
+    above support venues.</p>
 
     <ul>
-      <li><i>tor-talk@lists.torproject.org</i> is for all discussion
-      about theory, design, development, and use of Onion Routing.
-      <i>tor-dev@lists.torproject.org</i> is for Tor research and
-      development. For both of these <a href="<page
-      docs/documentation>#MailingLists">mailing lists</a>,
-      you must subscribe before you can post.</li>
       <li><i>donations@torproject.org</i> is for questions and comments about <a
       href="<page donate/donate>">getting money to the developers</a>. More
       donations means <a href="<page docs/faq>#Funding">more
@@ -92,6 +102,7 @@
 	</ul>
     </p>
 
+<!--
     <a id="phone"></a>
     <h3><a class="anchor" href="#phone">Telephone</a></h3>
     <p>Please be aware that your
@@ -99,6 +110,7 @@
     the call. Please do not call for technical support. Instead, email
     <em>help@rt.torproject.org</em>. Technical support phone calls are not
     returned.</p>
+-->
 
     <a id="mail"></a>
     <h3><a class="anchor" href="#mail">Mailing Address</a></h3>
