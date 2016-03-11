@@ -404,16 +404,17 @@ Tor and HTTPS</a> to understand how Tor and HTTPS interact.
 can I use with Tor?</a></h3>
 
     <p>
-    If you want to use Tor with a web browser, we provide the Tor Browser,
+    Most people use Tor Browser,
     which includes everything you need to browse the web safely using
-    Tor. If you want to use another web browser with Tor, see <a
-    href="#TBBOtherBrowser">Other web browsers</a>.
+    Tor. Using other browsers is <a href="#TBBOtherBrowser">dangerous
+    and not recommended</a>.
     </p>
     <p>
     There are plenty of other programs you can use with Tor,
     but we haven't researched the application-level anonymity
     issues on all of them well enough to be able to recommend a safe
-    configuration. Our wiki has a list of instructions for <a
+    configuration. Our wiki has a community-maintained list of
+    instructions for <a
     href="<wiki>doc/TorifyHOWTO">Torifying
     specific applications</a>.
     Please add to these lists and help us keep them accurate!
@@ -464,6 +465,9 @@ Tor?</a></h3>
     </p>
 
     <p>
+    We will <a
+    href="https://media.ccc.de/v/31c3_-_6251_-_en_-_saal_1_-_201412301400_-_state_of_the_onion_-_jacob_-_arma">never</a>
+    put a backdoor in Tor.
     We think that putting a backdoor in Tor would be tremendously
     irresponsible to our users, and a bad precedent for security
     software in general. If we ever put a deliberate backdoor in our
@@ -534,43 +538,14 @@ Tor?</a></h3>
     our <a href="<page docs/trademark-faq>">trademark FAQ</a> for details.
     </p>
 
-    <p>
-    Lastly, you should realize that we release new versions of the
-    Tor software frequently, and sometimes we make backward incompatible
-    changes. So if you distribute a particular version of the Tor software, it
-    may not be supported &mdash; or even work &mdash; six months later. This
-    is a fact of life for all security software under heavy development.
-    </p>
-
     <hr>
 
     <a id="SupportMail"></a>
     <h3><a class="anchor" href="#SupportMail">How can I get
 support?</a></h3>
 
-    <p>Your best bet is to first try the following:</p>
-    <ol>
-    <li>Read through this <a href="<page docs/faq>">FAQ</a>.</li>
-    <li>Read through the <a href="<page
-docs/documentation>">documentation</a>.</li>
-    <li>Read through the <a
-
-href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk">
-tor-talk
-    archives</a> and see if your question is already answered.</li>
-    <li>Join our <a href="ircs://irc.torproject.org#tor">irc channel</a>
-and
-    state the issue and wait for help.</li>
-    <li>Send an email to <a
-
-href="mailto:help@rt.torproject.org">help@rt.torproject.org</a>.</li>
-    <li>If all else fails, try <a href="<page about/contact>">contacting
-us</a> directly.</li>
-    </ol>
-
-    <p>If you find your answer, please stick around on the IRC channel
-or the
-    mailing list to help others who were once in your position.</p>
+    <p>See the <a href="<page about/contact>#support">Support section
+    on the contact page</a>.
 
     <hr>
 
