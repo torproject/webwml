@@ -82,14 +82,14 @@
     href="http://www.oftc.net/oftc/">OFTC</a>:</p>
 
     <ul>
-      <li><i>#tor</i> - User and relay operation discussions. Having trouble
-      running Tor or a question for other Tor users? Then this is the spot for
-      you.</li>
+      <li><i>#tor</i> - For questions about using Tor (as a client, as
+      a relay, as an onion service). Having trouble running Tor or have
+      a question for other Tor users? Then this is the spot for you.</li>
       <li><i>#tor-dev</i> - Channel for people who want to do development.
       Discussions about Tor-related coding, protocols, and <a href="<page
       getinvolved/volunteer>">project ideas</a> are all welcome.</li>
-      <li><i>#tor-project</i> - Organization discussions unrelated to 
-      software development. A great place to discuss Tor community events, 
+      <li><i>#tor-project</i> - Organization discussions unrelated to
+      software development. A great place to discuss Tor community events,
       outreach, translation, or website improvements.</li>
     </ul>
 
