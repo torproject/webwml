@@ -14,20 +14,6 @@
     <h1>Tor FAQ</h1>
     <hr>
 
-    <p><a href="#General">General questions:</a><br />
-    <a href="#CompilationAndInstallation">Compilation and Installation:</a><br />
-    <a href="#TBBGeneral">Tor Browser (general):</a><br />
-    <a href="#TBB3.x">Tor Browser (3.x and later):</a><br />
-    <a href="#AdvancedTorUsage">Advanced Tor usage:</a><br />
-    <a href="#RunningATorRelay">Running a Tor relay:</a><br />
-    <a href="#TorHiddenServices">Tor hidden services:</a><br />
-    <a href="#Development">Development:</a><br />
-    <a href="#AnonymityAndSecurity">Anonymity and Security:</a><br />
-    <a href="#AlternateDesigns">Alternate designs that we don't do (yet):</a><br />
-    <a href="#Abuse">Abuse:</a></p>
-
-<hr>
-
     <p>General questions:</p>
     <ul>
     <li><a href="#WhatIsTor">What is Tor?</a></li>
