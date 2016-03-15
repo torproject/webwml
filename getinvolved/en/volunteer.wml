@@ -48,15 +48,15 @@
     <a id="Advocacy"></a>
     <h2><a class="anchor" href="#Advocacy">Advocacy</a></h2>
     <ol>
-    <li>Monitor some of our <a 
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo">public mailing 
-    lists</a>, like <a 
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk">tor-talk</a>, <a 
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays">tor-relays</a>, <a 
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev">tor-dev</a>, or <a 
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tbb-dev">tbb-dev</a>, 
-    and summarize noteworthy exchanges into articles for <a 
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-news">Tor 
+    <li>Monitor some of our <a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo">public mailing
+    lists</a>, like <a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk">tor-talk</a>, <a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays">tor-relays</a>, <a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev">tor-dev</a>, or <a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tbb-dev">tbb-dev</a>,
+    and summarize noteworthy exchanges into articles for <a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-news">Tor
     Weekly News</a>.</li>
     <li>Create a presentation that can be used for various user group
 meetings around the world.</li>
@@ -413,8 +413,8 @@ meetings around the world.</li>
     tracker</a>, <a href="https://www.torproject.org/projects/torbrowser/design/">design doc</a>)</h3>
 
     <p>
-    Tor Browser is an easy-to-use, portable package of Tor, HTTPS-Everywhere, 
-    NoScript, TorLauncher, Torbutton, and a Firefox fork, all  preconfigured 
+    Tor Browser is an easy-to-use, portable package of Tor, HTTPS-Everywhere,
+    NoScript, TorLauncher, Torbutton, and a Firefox fork, all  preconfigured
     to work together out of
     the box. The modified copy of Firefox aims to resolve the
     privacy and security issues in mainline version.
@@ -463,8 +463,8 @@ meetings around the world.</li>
     tracker</a>)</h3>
 
     <p>
-    Provides Tor on the Android platform. The project is under active 
-    development, updates to latest Tor releases, and working to stay up to 
+    Provides Tor on the Android platform. The project is under active
+    development, updates to latest Tor releases, and working to stay up to
     date with all changes in Android and mobile threats.
     </p>
 
@@ -1443,6 +1443,88 @@ implementation.
     well as collect information about the occurrence of these type of attacks.
     </p>
     </li>
+
+    <a id="tailsServer"></a>
+    <li>
+    <b>Tails server: Self-hosted services behind Tails-powered Tor hidden services</b>
+    <br>
+    Likely Mentors: <i>anonym, George (asn)</i>
+    <p>Let's talk about group collaboration, communication and data sharing
+    infrastructure, such as chat servers, wikis, or file repositories.</p>
+    <p>Hosting such data and infrastructure <b>in the cloud</b> generally
+    implies to trust the service providers not to disclose content, usage or
+    users location information to third-parties. Hence, there are many threat
+    models in which cloud hosting is not suitable.</p>
+    <p>Tor partly answers the <b>users location</b> part; this is great, but
+    <b>content</b> is left unprotected.</p>
+    <p>There are two main ways to protect such content: either to encrypt it
+    client-side (<b>security by design</b>), or to avoid putting it into
+    untrusted hands in the first place.</p>
+    <p>Cloud solutions that offer security by design are rare and generally
+    not mature yet. The <b>Tails server</b> project is about exploring the
+    other side of the alternative: avoiding to put private data into
+    untrusted hands in the first place.</p>
+    <p>This is made possible thanks to Tor hidden services, that allow users
+    to offer location-hidden services, and make self-hosting possible in
+    many threat models. Self-hosting has its own lot of problems, however,
+    particularly in contexts where the physical security of the hosting
+    place is not assured. Combining Tor hidden services with Tails'
+    amnesia property and limited support for persistent encrypted data
+    allows to protect content, to a great degree, even in such contexts.</p>
+    <p>In short, setting up a new Tails server would be done by:</p>
+
+    <ol style="list-style-type: decimal">
+      <li>Alice plugs a USB stick into a running desktop Tails system.</li>
+      <li>Alice uses a GUI to easily configure the needed services.</li>
+      <li>Alice unplugs the USB stick, that now contains encrypted services
+      configuration and data storage space.</li>
+      <li>Alice plugs that USB stick (and possibly a Tails Live CD) into the
+      old laptop that was dedicated to run Tails server.</li>
+      <li>Once booted, Alice enters the encryption passphrase either
+      directly using the keyboard or through a web interface listening on the
+      local network.</li>
+      <li>Then, Bob can use the configured services once he gets a hold on
+      the hidden service address. (The <b>petname system for Tor hidden
+      services</b> project would be very complementary to this one, by the
+      way.)</li>
+    </ol>
+
+    <p>Tails server should content itself with hardware that is a bit old
+    (such as a PIII-450 laptop with 256MB of RAM) and/or half broken (e.g.
+    non-functional hard-disk, screen or keyboard).</p>
+    <p>The challenges behind this project are:</p>
+
+    <ul>
+      <li>Design and write the services configuration GUI [keywords: edit
+      configuration files, upgrade between major Debian versions,
+      debconf].</li>
+      <li>How to create the hidden service key? [keywords: Vidalia, control
+      protocol].</li>
+      <li>Adapt the Tails boot process to allow switching to &quot;server
+      mode&quot; when appropriate.</li>
+      <li>Add support, to the Tails persistence setup process, for asking an
+      encryption passphrase without X, and possibly with a broken keyboard
+      and/or screen [keywords: local network, SSL/TLS?, certificate?].</li>
+    </ul>
+
+    <p>This project can easily grow quite large, so the first task would
+    probably be to clarify what it would need to get an initial (minimal
+    but working) implementation ready to be shipped to users.</p>
+    <p>This project does not require to be an expert in one specific field,
+    but it requires to be experienced and at ease with a large scope of
+    software development tools, processes, and operating system knowledge.</p>
+    <p>Undertaking this project requires in-depth knowledge of Debian-like
+    systems (self-test: do the "dpkg conffile" and "debconf preseeding"
+    words sound new to your ear?); the Debian Live persistence system
+    being written in shell, being at ease with robust shell scripting is
+    a must; to end with, at least two pieces of software need to be
+    written from scratch (a GUI and a webapp): the preferred languages for
+    these tasks would be Python and Perl. Using Behaviour Driven
+    Development methods to convey expectations and acceptance criteria
+    would be most welcome.</p>
+    <p>For more information see https://tails.boum.org/todo/server_edition/</p>
+    </li>
+
 <!--
     <a id=""></a>
     <li>
