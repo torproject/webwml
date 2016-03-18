@@ -423,6 +423,7 @@ meetings around the world.</li>
     <p>
     <b>Project Ideas:</b><br />
     <i><a href="#panopticlick">Panopticlick</a></i><br />
+    <i><a href="#feedbackExtension">Feedback Extension for Tor Browser</a></i><br />
     </p>
 
     <a id="project-httpseverywhere"></a>
@@ -1525,6 +1526,32 @@ implementation.
     <p>For more information see https://tails.boum.org/todo/server_edition/</p>
     </li>
 
+    <a id="feedbackExtension"></a>
+    <li>
+    <b>Feedback Extension for Tor Browser</b>
+    <br>
+    Likely Mentors: <i>Nima (mrphs)</i>, <i>Will (willscott)</i>, <i>Sukhbir (sukhe)</i>
+    <p>
+
+    Design and implement an extension for Tor Browser that can be used to gather
+    end-user UI/UX feedback on an opt-in basis. While the design and
+    implementation is left as an exercise for the applicant (and also serves as
+    the qualification task), examples of the information we are looking to gather
+    can include troubleshooting network connectivity issues, testing the various
+    pluggable transports, or gathering information about the network of the users.
+    </p>
+
+    <p>
+
+    Please propose the extension design in a way that the information is strictly
+    on an opt-in basis and scrubs any information that can be used to identify a
+    user, and also come up with a way to send the gathered information to a
+    central server, whether to an onion address (if the user has Tor running), or
+    otherwise. To start with, we are looking to gather only text as part of the
+    feedback process.
+
+    </p>
+    </li>
 <!--
     <a id=""></a>
     <li>
