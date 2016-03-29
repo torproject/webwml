@@ -286,7 +286,8 @@ and HTTPS relate</a>.
 <p>The Tor Browser will warn you before automatically opening
 documents that are handled by external applications. <b>DO NOT
 IGNORE THIS WARNING</b>.  You should be very careful when downloading
-documents via Tor (especially DOC and PDF files) as these documents
+documents via Tor (especially DOC and PDF files, unless you use the PDF
+viewer that's built into Tor Browser) as these documents
 can contain Internet resources that will be downloaded outside of
 Tor by the application that opens them. This will reveal your non-Tor
 IP address. If you must work with DOC and/or PDF files, we strongly
