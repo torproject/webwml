@@ -3389,8 +3389,9 @@ diversity,
 
     <p>
     Second, Tor prevents people watching your traffic locally (such as
-    your ISP) from learning what information you're fetching and where
-    you're fetching it from. It also stops them from deciding what you're
+    your ISP or someone with access to your home wifi or router) from
+    learning what information you're fetching and where you're fetching
+    it from. It also stops them from deciding what you're
     allowed to learn and publish -- if you can get to any part of the Tor
     network, you can reach any site on the Internet.
     </p>
