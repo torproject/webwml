@@ -114,7 +114,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
  <!-- END OS X -->
  <!-- START UNIX -->
       <div id="linux" class="accordionButton on">
-	<span class="linux24">GNU/Linux, BSD, and Unix</span></div>
+	<span class="linux24">Linux</span></div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
   <!-- TOR BROWSER BUNDLE -->

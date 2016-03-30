@@ -14,7 +14,7 @@
 <define-tag button-win-tbb64>Currently Unused</define-tag>
 <define-tag button-osx-tbb32>Tor Browser</define-tag>
 <define-tag button-lin-tbb32>Tor Browser</define-tag>
-<define-tag button-lin-tbb64>GNU/Linux 64-bit</define-tag>
+<define-tag button-lin-tbb64>Linux 64-bit</define-tag>
 
 #include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
 
@@ -52,7 +52,7 @@
 	      (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
-	  <p class="alt-dl">Not Using Windows?<br />Download for <a href="#mac">Mac</a> or <a href="#linux">GNU/Linux</a></p>
+	  <p class="alt-dl">Not Using Windows?<br />Download for <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
 	</div>
       </div>
 <!-- START MAC -->
@@ -73,7 +73,7 @@
 	      (<a class="osx-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
-	  <p class="alt-dl">Not Using Mac? Download for <a href="#windows">Windows</a> or <a href="#linux">GNU/Linux</a></p>
+	  <p class="alt-dl">Not Using Mac? Download for <a href="#windows">Windows</a> or <a href="#linux">Linux</a></p>
         </div>
         <!-- To update these screenshots: Press Command-Shift-4 and then Spacebar, then click on the window. See #14838. -->
         <table class="howto">
@@ -98,8 +98,8 @@
       <div id="linux" class="easy linux">
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <div class="desc">
-	    <h2>Tor Browser for GNU/Linux</h2>
-	    <em>Version <version-torbrowserbundlelinux32> - Linux, FreeBSD (32-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
+	    <h2>Tor Browser for Linux</h2>
+	    <em>Version <version-torbrowserbundlelinux32> - Linux (32-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
 	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br />
 	    <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
@@ -113,14 +113,14 @@
 	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
-	  <p class="alt-dl">Not Using GNU/Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
+	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
 	</div>
       </div>
 <!-- START LINUX 64-Bit -->
       <div class="easy linux">
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <div class="desc">
-	    <h2>Tor Browser for 64-Bit GNU/Linux</h2>
+	    <h2>Tor Browser for 64-Bit Linux</h2>
 	    <em>Version <version-torbrowserbundlelinux64> - Linux (64-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
 	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
@@ -134,7 +134,7 @@
 	      (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
-	  <p class="alt-dl">Not Using GNU/Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
+	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
 	</div>
       </div>
 <!-- START Orbot -->
@@ -339,7 +339,7 @@ are blocked.</p>
 <ul>
 <li class="dropdown"><a href="#windows">Microsoft Windows</a></li>
 <li class="dropdown"><a href="#mac">Apple OS X</a></li>
-<li class="dropdown"><a href="#linux">Linux/FreeBSD</a></li>
+<li class="dropdown"><a href="#linux">Linux</a></li>
 <li class="dropdown"><a href="#android">Android</a></li>
 <li class="dropdown"><a href="<page download/download>">All Downloads</a></li>
 </ul>

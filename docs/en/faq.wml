@@ -155,8 +155,6 @@ be?</a></li>
     limiting bandwidth on my Tor relay?</a></li>
     <li><a href="#ExitPolicies">I'd run a relay, but I don't want to deal
     with abuse issues.</a></li>
-    <li><a href="#BestOSForRelay">Why doesn't my Windows (or other OS) Tor
-    relay run well?</a></li>
     <li><a href="#PackagedTor">Should I install Tor from my package manager,
     or build from source?</a></li>
     <li><a href="#WhatIsTheBadExitFlag">What is the BadExit flag?</a></li>
@@ -1799,7 +1797,7 @@ for details.
 <li>
 If it's still vanishing mysteriously, perhaps something else is killing it?
 Do you have resource limits (ulimits) configured that kill off processes
-sometimes? (This is especially common on OpenBSD.) On Linux, try running
+sometimes? On Linux, try running
 "dmesg" to see if the out-of-memory killer removed your process. (Tor will
 exit cleanly if it notices that it's run out of memory, but in some cases
 it might not have time to notice.) In very rare circumstances, hardware
@@ -2446,50 +2444,6 @@ users
 
     <hr>
 
-    <a id="BestOSForRelay"></a>
-    <h3><a class="anchor" href="#BestOSForRelay">Why doesn't my Windows (or other OS) Tor relay run well?</h3></a>
-
-    <p>
-    Tor relays work best on Linux, FreeBSD 5.x+, OS X Tiger or
-    later, and Windows Server 2003 or later.
-    </p>
-
-    <p>You can probably get it working just fine on other operating
-    systems too, but note the following caveats:
-    </p>
-
-    <ul>
-    <li>
-    Versions of Windows without the word "server" in their name
-    sometimes have problems. This is especially the case for Win98,
-    but it also happens in some cases for XP, especially if you don't
-    have much memory. The problem is that we don't use the networking
-    system calls in a very Windows-like way, so we run out of space in
-    a fixed-size memory space known as the non-page pool, and then
-    everything goes bad. The symptom is an assert error with the
-    message "No buffer space available [WSAENOBUFS ] [10055]".  <a
-    href="https://trac.torproject.org/projects/tor/wiki/doc/WindowsBufferProblems">You
-    can read more here.</a>
-    </li>
-
-    <li>
-    Most developers who contribute to Tor work with Unix-like operating
-    systems. It would be great if more people with Windows experience help
-    out, so we can improve Tor's usability and stability in
-    Windows.
-    </li>
-
-    <li>
-    More esoteric or archaic operating systems, like SunOS 5.9 or
-    Irix64, may have problems with some libevent methods (devpoll,
-    etc), probably due to bugs in libevent. If you experience crashes,
-    try setting the EVENT_NODEVPOLL or equivalent environment
-    variable.
-    </li>
-    </ul>
-
-    <hr>
-
     <a id="PackagedTor"></a>
     <h3><a class="anchor" href="#PackagedTor">Should I install Tor from my
     package manager, or build from source?</a></h3>
@@ -2975,14 +2929,6 @@ connections
 use
     this feature.</li>
 
-<!-- Nickm says he's not sure this is still accurate
-
-    <li>If you're running on Solaris, OpenBSD, NetBSD, or
-    old FreeBSD, Tor is probably forking separate processes
-    rather than using threads. Consider switching to a <a
-    href="<wikifaq>#WhydoesntmyWindowsorotherOSTorrelayrunwell">better
-    operating system</a>.</li>
--->
     <li>If you still can't handle the memory load, consider reducing the
     amount of bandwidth your relay advertises. Advertising less
 bandwidth
