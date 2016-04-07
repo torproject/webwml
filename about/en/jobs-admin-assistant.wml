@@ -1,0 +1,103 @@
+#include "head.wmi" TITLE="Tor Project: Jobs (Administrative Assistant)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+<h1>Internet Freedom Nonprofit Seeks Exceptional Administrative
+Assistant</h1>
+<h2>(Posted 4 Apr 2016)</h2>
+
+<p>
+The Tor Project seeks an organized, conscientious, upbeat
+"jack-of-all-trades" with excellent communication skills to support our
+Seattle-based executive director and our internationally-distributed
+team. The ideal candidate has experience providing executive support and
+has a "can do" attitude. This job requires a self-starter who really
+enjoys supporting a diverse community of technical people.
+</p>
+
+<p>
+The tasks for the position include, but are not limited to:
+</p>
+
+<ul>
+<li>Greet people who visit or call our office.</li>
+<li>Monitor, order &amp; organize office supplies.</li>
+<li>Take the initiative for making office operations run smoothly, such
+as opening a FedEx account, hiring a cleaning service, and whatever
+other tasks make sense.</li>
+<li>Serve as liaison between Seattle office and finance department.</li>
+<li>Assist with event planning.</li>
+<li>Pick up, drop off and sort mail and packages.</li>
+<li>Respond to items in our request tracker (rt).</li>
+<li>Log into our accounts on Paypal and Bitcoin to run weekly
+reports.</li>
+<li>Willingness to learn and use PGP and other computer security
+tools.</li>
+<li>Willingness to learn and use IRC and other technology-based methods
+of communications.</li>
+<li>Respond to communications from our donors.</li>
+<li>Follow up with event sponsors for travel reimbursement.</li>
+<li>Order premiums from vendors.</li>
+<li>Fold t-shirts, stuff envelopes, fulfill orders for premiums.</li>
+<li>Data entry.</li>
+<li>Other duties as needed.</li>
+
+</ul>
+
+<p>
+The person we seek should have the following qualities:
+</p>
+
+<ul>
+<li>Self starter</li>
+<li>People person who is always looking for ways to be helpful</li>
+<li>Good writing skills</li>
+<li>Excellent computer skills</li>
+<li>Attention to detail</li>
+<li>Sensitivity to computer security issues</li>
+<li>Ability to juggle several items at the same time with efficiency and
+grace</li>
+<li>Ability to work and think independently</li>
+<li>Excellent work ethic</li>
+<li>Willingness to take the initiative to get things done</li>
+<li>Ability to leap tall buildings in a single bound (just
+kidding!)</li>
+</ul>
+
+<p>
+The Tor Project works on Internet freedom issues, and a commitment to
+free speech, privacy and innovation would be helpful.
+</p>
+
+<p>
+Salary to low- to mid-$40,000s, depending on experience.
+</p>
+
+<p>
+This is a full-time position based in our new office in Seattle, WA.
+Inquiries about whether this job can be done remotely or part-time will
+not be answered. To apply, send a cover letter and your resume to
+<a href="mailto:adminjob@torproject.org">adminjob@torproject.org</a>. No
+phone calls please!
+</p>
+
+<p>
+The Tor Project, Inc. is an equal opportunity, affirmative action
+employer.
+</p>
+
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
+
