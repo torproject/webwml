@@ -1,52 +1,8 @@
 ## translation metadata
 # Revision: $Revision$
-# Translation-Priority: 1-high
+# Status: obsolete
 
-#include "head.wmi" TITLE="Tor Project: MS Windows Install Instructions" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Redirecting" REDIRECT="projects/torbrowser.html#windows"
 
-<!-- TODO: we don't want windows relays. bridges maybe, but not relays! -->
-
-<div id="content" class="clearfix">
-  <div id="breadcrumbs">
-    <a href="<page index>">Home &raquo; </a>
-    <a href="<page docs/documentation>">Documentation &raquo; </a>
-    <a href="<page docs/tor-doc-windows>">Windows Client</a>
-  </div>
-  <div id="maincol">
-    <h1>Running the <a href="<page index>">Tor</a> client on Microsoft Windows</h1>
-    <br>
-
-    <h2>
-    If you want to use Tor just for anonymous web browsing, simply download <a
-    href="<page projects/torbrowser>">Tor Browser</a> and you
-    are done.
-    </h2>
-
-    <p>If it's not working, look at <a href="<page
-    docs/faq>#DoesntWork">this FAQ entry</a> for hints.</p>
-
-    <p>
-    Once it's working, learn more about
-    <a href="<page download/download>#Warning">what Tor does and does not offer</a>.
-    </p>
-
-    <hr>
-    <a id="server"></a>
-    <a id="relay"></a>
-    <h2><a class="anchor" href="#relay">Configuring Tor as a relay</a></h2>
-    <br>
-
-    <p>The Tor network relies on volunteers to donate bandwidth. If you
-    want to help <strong>make the Tor network faster</strong>, please
-    consider <a href="<page docs/tor-doc-relay>">running a relay</a>.</p>
-
-  </div>
-  <!-- END MAINCOL -->
-  <div id = "sidecol">
-#include "side.wmi"
-#include "info.wmi"
-  </div>
-  <!-- END SIDECOL -->
-</div>
-<!-- END CONTENT -->
 #include <foot.wmi>
+
