@@ -150,31 +150,11 @@
 
     <a id="MailingLists"></a>
     <h1><a class="anchor" href="#MailingLists">Mailing List Information</a></h1>
-    <ul>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-announce/">tor-announce
-    mailing list</a> is a low volume list for announcements of new releases
-    and critical security updates. Everybody should be on this list.
-    There is also an
-    <a href="http://rss.gmane.org/gmane.network.tor.announce">RSS
-    feed</a> of tor-announce at <a href="http://gmane.org">gmane.org</a>.</li>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk/">tor-talk list</a>
-    is where a lot of discussion happens, and is where we send notifications
-    of prerelease versions and release candidates.</li>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays/">tor-relays list</a>
-    is where discussions about running, configuring, and handling your tor
-    relay happen.  If you currently run a relay, or are thinking about doing
-    so, this is the list for you.</li>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev/">tor-dev list</a>
-    is for posting by developers only, and is very low traffic.</li>
-    <li>A list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-mirrors">mirror
-    operators</a> for new website mirrors, and supporting <a href="<page
-    getinvolved/mirrors>">current website mirrors</a>.</li>
-    <li>A list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-commits/">svn and git
-    commits</a> may be interesting for developers.</li>
-    <li>An automated list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-bugs/">bug
-    reports from trac</a> may be interesting for users and developers.</li>
-    <li>A list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-reports/">Tor status reports.</li>
-    </ul>
+
+    <p>Tor runs <a
+    href="https://trac.torproject.org/projects/tor/wiki/doc/emailLists">many
+    mailing lists</a>. New users will be most interested in the
+    tor-announce, tor-talk, tor-relays, tor-onions, and tor-dev lists.</p>
 
     <a id="DesignDoc"></a>
     <h1><a class="anchor" href="#DesignDoc">Design Documents</a></h1>
