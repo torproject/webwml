@@ -139,8 +139,32 @@
 
     <p>Tor runs <a
     href="https://trac.torproject.org/projects/tor/wiki/doc/emailLists">many
-    mailing lists</a>. New users will be most interested in the
-    tor-announce, tor-talk, tor-relays, tor-onions, and tor-dev lists.</p>
+    mailing lists</a>. New users will be most interested in:</p>
+    <ul>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-announce/">tor-announce</a>
+    is a low volume list for announcements of new releases and critical
+    security updates. Everybody should be on this list. There is also
+    an <a href="http://rss.gmane.org/gmane.network.tor.announce">RSS
+    feed</a>.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk/">tor-talk</a>
+    is where a lot of discussion happens, and is where we send
+    notifications of prerelease versions and release candidates.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays/">tor-relays
+    list</a> is for discussions about running, configuring, and handling
+    your tor relay or bridge. If you currently run a relay or bridge,
+    or are thinking about doing so, this is the list for you.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-onions/">tor-onions</a>
+    is like tor-relays but for <a
+    href="https://media.ccc.de/v/32c3-7322-tor_onion_services_more_useful_than_you_think">onion
+    services</a>.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev/">tor-dev</a>
+    is for posting by developers only, and is very low traffic.</li>
+    </ul>
 
     <a id="DesignDoc"></a>
     <h1><a class="anchor" href="#DesignDoc">Design Documents</a></h1>
