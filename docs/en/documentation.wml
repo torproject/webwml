@@ -178,10 +178,6 @@
     <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-1">part one</a>,
     <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2">part two</a>.
     </li>
-    <li>Our paper at WEIS 2006 &mdash; <b>Anonymity Loves Company:
-    Usability and the Network Effect</b> &mdash; explains why usability in
-    anonymity systems matters for their security: <a
-    href="http://freehaven.net/anonbib/cache/usability:weis2006.pdf">PDF</a>.</li>
     <li>Our preliminary design to make it harder for large firewalls to
     prevent access to the Tor network is described in
     <b>design of a blocking-resistant anonymity system</b>:
