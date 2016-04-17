@@ -45,7 +45,9 @@
     <li>Read through the <a href="<page docs/faq>">FAQ</a> and the
     <a href="<page docs/documentation>">documentation</a>.</li>
     <li>See if your question is asked or answered on our
-    <a href="https://tor.stackexchange.com/">StackExchange page</a>.</li>
+    <a href="https://tor.stackexchange.com/">StackExchange page</a>. If
+    it isn't, please consider asking it there! Then everybody else can
+    benefit from your question and the answer to it.</li>
     <li>Join the <a href="#irc">#tor irc channel</a>, state the issue,
     and wait patiently for help.</li>
     <li>Read through the archives of the
@@ -60,7 +62,7 @@
     <a id="email"></a>
     <h3><a class="anchor" href="#email">Email</a></h3>
     <p>If you have Tor questions, please try to help yourself via the
-    above support venues. Please don't use the below contact addresses
+    above support venues. Please don't use these contact addresses
     for helpdesk or user requests &mdash; we all get too much mail and
     we won't be able to help you there.</p>
 
