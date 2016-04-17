@@ -10,20 +10,6 @@
   </div>
   <div id="maincol">
     <a id="RunningTor"></a>
-    <h1><a class="anchor" href="#RunningTor">Running Tor</a></h1>
-    <ul>
-    <li><a href="<page docs/tor-doc-windows>">Installing Tor
-    on Win32</a></li>
-    <li><a href="<page docs/tor-doc-osx>">Installing Tor on
-    Mac OS X</a></li>
-    <li><a href="<page docs/tor-doc-unix>">Installing Tor on
-    Linux/BSD/Unix</a></li>
-    <li><a href="<page docs/tor-doc-relay>">Configuring a
-    Tor relay</a></li>
-    <li><a href="<page docs/tor-hidden-service>">Configuring
-    a Tor hidden service</a></li>
-    </ul>
-
     <a id="Support"></a>
     <a id="UpToSpeed"></a>
     <h1><a class="anchor" href="#UpToSpeed">Getting up to speed on Tor's past,
