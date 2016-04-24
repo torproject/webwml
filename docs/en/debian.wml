@@ -233,14 +233,14 @@ For Ubuntu, ask <a href="https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#T
 <blockquote>
 I run
 <select id="distrib" onchange="update()">
-<option value="squeeze">Debian oldoldstable (Squeeze)</option>
-<option value="wheezy">Debian oldstable (Wheezy)</option>
-<option value="jessie" selected="selected">Debian (Jessie)</option>
+<option value="wheezy">Debian oldstable (wheezy)</option>
+<option value="jessie" selected="selected">Debian stable (jessie)</option>
+<option value="stretch">Debian testing (stretch)</option>
 <option value="sid">Debian unstable (sid)</option>
-<option value="lucid">Ubuntu Lucid Lynx</option>
 <option value="precise">Ubuntu Precise Pangolin</option>
-<option value="saucy">Ubuntu Saucy Salamander</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
+<option value="wily">Ubuntu Wily Werewolf</option>
+<option value="xenial">Ubuntu Xenial Xerus</option>
 </select>
 and want
 <select id="package" onchange="update()"></select>
