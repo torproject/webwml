@@ -3343,24 +3343,6 @@ diversity,
     has already gone wrong and you shouldn't be thinking that Tor is the problem.)
     </p>
 
-    <p>
-    Tor does provide a partial solution in a very specific situation, though.
-    When you make a connection to a destination that also runs a Tor relay,
-    Tor will automatically extend your circuit so you exit from that circuit.
-    So for example if Indymedia ran a Tor relay on the same IP address as
-    their website, people using Tor to get to the Indymedia website would
-    automatically exit from their Tor relay, thus getting *better* encryption
-    and authentication properties than just browsing there the normal way.
-    </p>
-
-    <p>
-    We'd like to make it still work even if the service is nearby the Tor
-    relay but not on the same IP address. But there are a variety of
-    technical problems we need to overcome first (the main one being "how
-    does the Tor client learn which relays are associated with which
-    websites in a decentralized yet non-gamable way?").
-    </p>
-
     <hr>
 
     <a id="AmITotallyAnonymous"></a>
