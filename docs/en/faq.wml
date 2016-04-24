@@ -41,8 +41,6 @@ proxies?</a></li>
     from the data my application sends?</a></li>
     <li><a href="#Metrics">How many people use Tor? How many relays or
     exit nodes are there?</a></li>
-    <li><a href="#SSLcertfingerprint">What are your SSL certificate
-    fingerprints?</a></li>
     </ul>
 
     <p>Compilation and Installation:</p>
@@ -891,38 +889,6 @@ executive
     <p>
     All this and more about measuring Tor can be found at the <a
     href="https://metrics.torproject.org/">Tor Metrics Portal</a>.</p>
-    <hr>
-
-    <a id="SSLcertfingerprint"></a>
-    <h3><a class="anchor" href="#SSLcertfingerprint">What are the SSL
-    certificate fingerprints for Tor's various websites?</a></h3>
-    <p>
-    *.torproject.org SSL certificate from Digicert:
-    </p>
-    <pre>
-Issued Certificate
-Version: 3
-Serial Number: 09 48 B1 A9 3B 25 1D 0D B1 05 10 59 E2 C2 68 0A
-Not Valid Before: 2013-10-22
-Not Valid After: 2016-05-03
-Certificate Fingerprints
-SHA1: 84 24 56 56 8E D7 90 43 47 AA 89 AB 77 7D A4 94 3B A1 A7 D5
-MD5: A4 16 66 80 AE B9 A4 EC AA 88 01 1B 6F B9 EB CB
-    </pre>
-<br>
-    <p>
-blog.torproject.org SSL certificate from RapidSSL:
-    </p>
-    <pre>
-Issued Certificate
-Version: 3
-Serial Number: 05 CA 2A A9 A5 D6 ED 44 C7 2D 88 1A 18 B0 E7 DC
-Not Valid Before: 2014-04-09
-Not Valid After: 2017-06-14
-Certificate Fingerprints
-SHA1: DE 20 3D 46 FD C3 68 EB BA 40 56 39 F5 FA FD F5 4E 3A 1F 83
-MD5: 8A 8A A2 5E D9 7F 84 4C 8F 00 3B 43 E0 2D E6 4D
-    </pre>
     <hr>
 
     <a id="CompilationAndInstallation"></a>
