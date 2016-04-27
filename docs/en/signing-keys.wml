@@ -45,25 +45,20 @@
 
     pub   4096R/19F78451 2010-05-07
           Key fingerprint = F65C E37F 04BA 5B36 0AE6  EE17 C218 5258 19F7 8451
-    uid                  Roger Dingledine &lt;arma@mit.edu&gt;
-    uid                  Roger Dingledine &lt;arma@freehaven.net&gt;
     uid                  Roger Dingledine &lt;arma@torproject.org&gt;
-    sub   4096R/0DCC0FE1 2013-05-09 [expires: 2014-05-09]
+    sub   4096R/B0E5067D 2015-06-10 [expires: 2016-06-09]
 
     pub   3072R/165733EA 2004-07-03
           Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
     uid                  Nick Mathewson &lt;nickm@alum.mit.edu&gt;
     uid                  Nick Mathewson &lt;nickm@wangafu.net&gt;
     uid                  Nick Mathewson &lt;nickm@freehaven.net&gt;
-    uid                  [jpeg image of size 3369]
     sub   3072R/8D29319A 2004-07-03
     sub   3072R/F25B8E5E 2004-07-03
 
     pub   2048R/63FEE659 2003-10-16
           Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
     uid                  Erinn Clark &lt;erinn@torproject.org&gt;
-    uid                  Erinn Clark &lt;erinn@debian.org&gt;
-    uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
     sub   2048R/EB399FD7 2003-10-16
 
     pub   1024D/F1F5C9B5 2010-02-03
@@ -71,38 +66,13 @@
     uid                  Erinn Clark &lt;erinn@torproject.org&gt;
     sub   1024g/7828F26A 2010-02-03
 
-    pub  1024D/31B0974B 2003-07-17
-         Key fingerprint = 0295 9AA7 190A B9E9 027E  0736 3B9D 093F 31B0 974B
-    uid                  Andrew Lewman &lt;andrew@lewman.com&gt;
-    uid                  Andrew Lewman &lt;andrew@torproject.org&gt;
-    sub   4096g/B77F95F7 2003-07-17
-
-    pub   4096R/6B4D6475 2012-02-29
-          Key fingerprint = 0291 ECCB E42B 2206 8E68  5545 627D EE28 6B4D 6475
-    uid                  Andrew Lewman &lt;andrew@torproject.org&gt;
-    uid                  Andrew Lewman &lt;andrew@torproject.is&gt;
-    sub   4096R/BE713AC6 2012-02-29
-
-    pub   2048R/886DDD89 2009-09-04 [expires: 2014-09-03]
+    pub   2048R/886DDD89 2009-09-04 [expires: 2020-08-29]
           Key fingerprint = A3C4 F0F9 79CA A22C DBA8  F512 EE8C BC9E 886D DD89
     uid                  deb.torproject.org archive signing key
-    sub   2048R/219EC810 2009-09-04 [expires: 2014-08-29]
-
-    pub   1024D/9A753A6B 2009-09-11
-          Key fingerprint = 553D 7C2C 626E F16F 27F3  30BC 95E3 881D 9A75 3A6B
-    uid                  Tomás Touceda &lt;chiiph@gmail.com&gt;
-    sub   1024g/33BE0E5B 2009-09-11
-
-    pub   1024D/5FA14861 2005-08-17
-          Key fingerprint = 9467 294A 9985 3C9C 65CB  141D AF7E 0E43 5FA1 4861
-    uid                  Matt Edman &lt;edmanm@rpi.edu&gt;
-    uid                  Matt Edman &lt;Matt_Edman@baylor.edu&gt;
-    uid                  Matt Edman &lt;edmanm2@cs.rpi.edu&gt;
-    sub   4096g/EA654E59 2005-08-17
+    sub   2048R/219EC810 2009-09-04 [expires: 2018-08-30]
 
     pub   1024D/9ABBEEC6 2009-06-17
           Key fingerprint = 6827 8CC5 DD2D 1E85 C4E4  5AD9 0445 B7AB 9ABB EEC6
-    uid                  Damian Johnson (www.atagar.com) &lt;atagar1@gmail.com&gt;
     uid                  Damian Johnson &lt;atagar@torproject.org&gt;
     sub   2048g/146276B2 2009-06-17
     sub   2048R/87F30690 2010-08-07
@@ -110,18 +80,8 @@
     pub   8192R/683686CC 2013-09-11
           Key fingerprint = C963 C21D 6356 4E2B 10BB  335B 2984 6B3C 6836 86CC
     uid                  Mike Perry (Regular use key) &lt;mikeperry@torproject.org&gt;
-    sub   4096R/0E3A92E4 2013-09-11 [expires: 2014-09-11]
-    sub   4096R/BC40FFA0 2013-09-11 [expires: 2014-09-11]
-
-    pub   1024D/22F6856F 2006-08-19
-          Key fingerprint = DDB4 6B5B 7950 CD47 E59B  5189 4C09 25CF 22F6 856F
-    uid                  Robert Hogan &lt;robert@roberthogan.net&gt;
-    sub   1024g/FC4A9460 2006-08-19
-
-    pub   2048R/4279F297 2013-01-02
-          Key fingerprint = 97BB 9413 1873 FFD3 1331  64CC 7EB4 5C0A 4279 F297
-    uid                  Alexandre Allaire &lt;alexandre.allaire@mail.mcgill.ca&gt;
-    sub   2048R/76D943F1 2013-01-02
+    sub   4096R/0F129402 2015-09-07 [expires: 2016-09-11]
+    sub   4096R/ACC0A961 2015-09-07 [expires: 2016-09-11]
 
     pub   4096R/C5AA446D 2010-07-14
           Key fingerprint = 261C 5FBE 7728 5F88 FB0C  3432 66C8 C2D7 C5AA 446D
@@ -131,14 +91,8 @@
 
     pub   4096R/C82E0039 2003-03-24
           Key fingerprint = 25FC 1614 B8F8 7B52 FF2F  99B9 62AF 4031 C82E 0039
-    uid                  Peter Palfrader
     uid                  Peter Palfrader &lt;peter@palfrader.org&gt;
     uid                  Peter Palfrader &lt;weasel@debian.org&gt;
-
-    pub   4096R/BE2CD9C1 2010-10-07 [expires: 2015-02-05]
-          Key fingerprint = 0D24 B36A A9A2 A651 7878  7645 1202 821C BE2C D9C1
-    uid                  Tails developers (signing key) &lt;tails@boum.org&gt;
-    uid                  T(A)ILS developers (signing key) &lt;amnesia@boum.org&gt;
 
     pub   8192R/C11F6276 2012-07-21
           Key fingerprint = AD1A B35C 674D F572 FBCE  8B0A 6BC7 58CB C11F 6276
@@ -148,59 +102,36 @@
 
     pub   4096R/23291265 2010-05-07
           Key fingerprint = 8C4C D511 095E 982E B0EF  BFA2 1E8B F349 2329 1265
-    uid                  Linus Nordberg &lt;linus@nordberg.se&gt;
-    uid                  Linus Nordberg &lt;linus@nordu.net&gt;
     uid                  Linus Nordberg &lt;linus@torproject.org&gt;
-    uid                  [jpeg image of size 2906]
-    sub   4096R/153E576C 2013-04-23 [expires: 2014-04-23]
+    sub   4096R/B5F7D1B1 2016-04-14 [expires: 2017-04-14]
 
     pub   4096R/4B7C3223 2013-07-30
           Key fingerprint = 35CD 74C2 4A9B 15A1 9E1A  81A1 9437 3AA9 4B7C 3223
     uid                  Georg Koppen &lt;gk@torproject.org&gt;
-    uid                  Georg Koppen &lt;groeg@vfemail.net&gt;
-    uid                  Georg Koppen &lt;georg@getfoxyproxy.org&gt;
-    sub   4096R/97955E07 2013-07-30 [expires: 2014-07-30]
-    sub   4096R/AC3A821D 2013-07-30 [expires: 2014-07-30]
-    sub   4096R/A97A53DC 2014-07-08 [expires: 2015-07-08]
-    sub   4096R/E5AE3C98 2014-07-08 [expires: 2015-07-08]
     sub   4096R/24690903 2015-07-20 [expires: 2016-07-19]
     sub   4096R/631602F4 2015-07-20 [expires: 2016-07-19]
 
     pub   4096R/D0220E4B 2014-03-19
           Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
-uid                      Nicolas Vigier (TBB Builds Signing Key) &lt;boklm@torproject.org&gt;
+    uid                      Nicolas Vigier (TBB Builds Signing Key) &lt;boklm@torproject.org&gt;
 
-     pub   4096R/D255D3F5C868227F 2014-06-27 [expires: 2024-06-24]
-           Key fingerprint = D2C6 7D20 E9C3 6C2A C5FE  74A2 D255 D3F5 C868 227F
-     uid                          Jacob Appelbaum &lt;jacob@appelbaum.net&gt;
-     sub   3072R/02636620744301A2 2014-06-27 [expires: 2015-06-27]
-     sub   3072R/1A055A481801A819 2014-06-27 [expires: 2015-06-27]
+    pub   4096R/FA7F0E44D487F03F 2014-06-27 [expires: 2024-06-24]
+          Key fingerprint = D6A9 48CF 297F 7539 30B4  756A FA7F 0E44 D487 F03F
+    uid                          Jacob Appelbaum &lt;jacob@torproject.org&gt;
+    sub   3072R/36A3F38A 2015-07-01 [expires: 2016-06-30]
+    sub   3072R/45EDE84B 2015-07-01 [expires: 2016-06-30]
 
-     pub   4096R/90BC9192B06291B2 2014-06-27 [expires: 2024-06-24]
-           Key fingerprint = 043E 0E69 DD56 BA59 5905  8756 90BC 9192 B062 91B2
-     uid                          Jacob Appelbaum &lt;error@debian.org&gt;
-     sub   3072R/F78ED60FFE4F141F 2014-06-27 [expires: 2015-06-27]
-     sub   3072R/986D6BCEF02A9C9C 2014-06-27 [expires: 2015-06-27]
-     sub   2048R/89AA6E5D2C6A7F40 2014-10-22 [expires: 2016-10-21]
+    pub   4096R/0x4E2C6E8793298290 2014-12-15 [expires: 2020-08-24]
+          Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+    uid   Tor Browser Developers (signing key) &lt;torbrowser@torproject.org&gt;
+    sub   4096R/0x2E1AC68ED40814E0 2014-12-15 [expires: 2017-08-25]
+    sub   4096R/0x7017ADCEF65C2036 2014-12-15 [expires: 2017-08-25]
 
-     pub   4096R/FA7F0E44D487F03F 2014-06-27 [expires: 2024-06-24]
-           Key fingerprint = D6A9 48CF 297F 7539 30B4  756A FA7F 0E44 D487 F03F
-     uid                          Jacob Appelbaum &lt;jacob@torproject.org&gt;
-     sub   3072R/611B45DE2517F1BA 2014-06-27 [expires: 2015-06-27]
-     sub   3072R/035D7A9A67D22BC0 2014-06-27 [expires: 2015-06-27]
-
-     pub   4096R/0x4E2C6E8793298290 2014-12-15 [expires: 2020-08-24]
-           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-     uid   Tor Browser Developers (signing key) &lt;torbrowser@torproject.org&gt;
-     sub   4096R/0x2E1AC68ED40814E0 2014-12-15 [expires: 2017-08-25]
-     sub   4096R/0x7017ADCEF65C2036 2014-12-15 [expires: 2017-08-25]
-
-     pub   2048R/0x42E86A2A11F48D36 2011-05-11 [expires: 2016-05-09]
-     uid                            David Goulet &lt;dgoulet@ev0ke.net&gt;
-     uid                            David Goulet &lt;dgoulet@riseup.net&gt;
-     uid                            David Goulet &lt;dgoulet@torproject.org&gt;
-     sub   4096g/0xCD885877FE9D6620 2011-05-11 [expires: 2016-05-09]
-     sub   4096R/0x2AC6036C93CC198D 2013-09-10 [expires: 2015-09-10]
+    pub   2048R/0x42E86A2A11F48D36 2011-05-11 [expires: 2016-05-09]
+          Key fingerprint = B744 17ED DF22 AC9F 9E90  F491 42E8 6A2A 11F4 8D36
+    uid                            David Goulet &lt;dgoulet@torproject.org&gt;
+    sub   4096g/FE9D6620 2011-05-11 [expires: 2016-05-09]
+    sub   4096R/93CC198D 2013-09-10 [expires: 2016-09-10]
     </pre>
 
   </div>
