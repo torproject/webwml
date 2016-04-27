@@ -120,23 +120,6 @@
      
 <tr>
 
-         <td>EE</td>
-
-         <td>CyberSIDE</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://cyberside.net.ee/tor/">http</a></td>
-    <td><a href="http://cyberside.planet.ee/tor/">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
          <td>IS</td>
 
          <td>torproject.is</td>
@@ -216,23 +199,6 @@
     <td><a href="http://mirror.unicorncloud.org/torproject.org/">http</a></td>
     <td><a href="https://mirror.unicorncloud.org/torproject.org/dist">https</a></td>
     <td><a href="https://mirror.unicorncloud.org/torproject.org/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
-         <td>HackThisSite.org</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://mirror.hackthissite.org/tor">http</a></td>
-    <td><a href="http://tor.hackthissite.org/">http</a></td>
-    <td><a href="https://mirror.hackthissite.org/tor">https</a></td>
-    <td><a href="https://tor.hackthissite.org/">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -698,6 +664,23 @@
      
 <tr>
 
+         <td>TW</td>
+
+         <td>Department of CSE. Yuan Ze University</td>
+
+         <td>Up to date</td>
+
+    <td><a href="ftp://ftp.yzu.edu.tw/torproject.org/">ftp</a></td>
+    <td><a href="http://ftp.yzu.edu.tw/torproject.org/dist/">http</a></td>
+    <td><a href="http://ftp.yzu.edu.tw/torproject.org/">http</a></td>
+    <td><a href="https://ftp.yzu.edu.tw/torproject.org/dist/">https</a></td>
+    <td><a href="https://ftp.yzu.edu.tw/torproject.org/">https</a></td>
+    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/dist/">rsync</a></td>
+    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/">rsync</a></td>
+</tr>
+     
+<tr>
+
          <td>XX</td>
 
          <td>TvdW</td>
@@ -766,9 +749,9 @@
      
 <tr>
 
-         <td>NL</td>
+         <td>DE</td>
 
-         <td>CCC</td>
+         <td>Chaos Computer Club</td>
 
          <td>Up to date</td>
 
@@ -902,17 +885,34 @@
      
 <tr>
 
-         <td>TW</td>
+         <td>EE</td>
 
-         <td>Department of CSE. Yuan Ze University</td>
+         <td>CyberSIDE</td>
 
          <td>Up to date</td>
 
-    <td><a href="ftp://ftp.yzu.edu.tw/torproject.org/">ftp</a></td>
-    <td><a href="http://ftp.yzu.edu.tw/torproject.org/dist/">http</a></td>
-    <td><a href="http://ftp.yzu.edu.tw/torproject.org/">http</a></td>
-    <td><a href="https://ftp.yzu.edu.tw/torproject.org/dist/">https</a></td>
-    <td><a href="https://ftp.yzu.edu.tw/torproject.org/">https</a></td>
-    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/dist/">rsync</a></td>
-    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/">rsync</a></td>
+    <td> - </td>
+    <td><a href="http://cyberside.net.ee/tor/">http</a></td>
+    <td><a href="http://cyberside.planet.ee/tor/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>AR</td>
+
+         <td>Xfree.com.ar</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.xfree.com.ar/dist/">http</a></td>
+    <td><a href="http://tor.xfree.com.ar/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
 </tr>
