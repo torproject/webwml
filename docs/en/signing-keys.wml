@@ -21,19 +21,13 @@
     <li>Roger Dingledine (0x28988BF5 and 0x19F78451) or Nick Mathewson
     (0x165733EA, or its subkey 0x8D29319A) sign the Tor source code
     tarballs.</li>
-    <li>Erinn Clark (0x63FEE659) signed earlier Tor Browser Bundles
-    and many other packages, and used to sign RPMs with her other key
-    (0xF1F5C9B5). Andrew Lewman (0x31B0974B, 0x6B4D6475) used to sign
-    packages for RPMs, Windows, and OS X.</li>
     <li>Tor Project Archive (0x886DDD89) signs the deb.torproject.org
     repositories and archives.</li>
     <li>Damian Johnson (0x9ABBEEC6) signs Arm releases.</li>
-    <li>Sebastian Hahn (0xC5AA446D), and David Fifield (0xC11F6276) sign Pluggable Transport Tor Browser Bundles. Sometimes Sebastian signs the Tor Browser Bundles.</li>
-    <li>The Tails team (0xBE2CD9C1) signs the Tails live system
-    releases.</li>
-	<li>David Goulet (0x42E86A2A11F48D36) signs Torsocks releases.</li>
+    <li>The Tails team (0x58ACD84F) signs the Tails live system releases.</li>
+    <li>David Goulet (0x42E86A2A11F48D36) signs Torsocks releases.</li>
     <li>Other developers include Peter Palfrader (0xC82E0039, or its
-    subkey 0xE1DEC577) and Jacob Appelbaum (0xD255D3F5C868227F).</li>
+    subkey 0xE1DEC577) and Jacob Appelbaum (0xFA7F0E44D487F03F).</li>
     </ul>
 
     The fingerprints for the keys should be:
@@ -132,6 +126,12 @@
     uid                            David Goulet &lt;dgoulet@torproject.org&gt;
     sub   4096g/FE9D6620 2011-05-11 [expires: 2016-05-09]
     sub   4096R/93CC198D 2013-09-10 [expires: 2016-09-10]
+
+    pub   4096R/58ACD84F 2015-01-18 [expires: 2017-01-11]
+          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
+    uid                  Tails developers <tails@boum.org>
+    sub   4096R/752A3DB6 2015-01-18 [expires: 2017-01-11]
+    sub   4096R/2F699C56 2015-01-18 [expires: 2017-01-11]
     </pre>
 
   </div>
