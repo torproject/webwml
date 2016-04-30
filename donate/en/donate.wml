@@ -124,7 +124,7 @@ Tor is an essential part of the Internet freedom infrastructure, and I'm looking
     var amount = $( this ).filter(".amnt-btn").val();
     if (amount == null) {
       amount = $("#exampleInputAmount").val();
-      if ($('#amount').val() == "") {
+      if ($('#amount').val() == "" && !($("#exampleInputAmount").hasClass("active")) ) {
         amount = 23
         $( "#amount23" ).addClass('active');
       } else if (this.id == "exampleInputAmount") {
