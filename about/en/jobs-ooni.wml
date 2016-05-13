@@ -1,0 +1,142 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (core developer)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+<h1>The Tor Project is looking for another dedicated core developer to
+work on OONI!</h1>
+
+<p>
+Your job would be to work as a software engineer on the Open Observatory
+of Network Interference (OONI), a global network measurement platform.
+Your initial focus will be on the design and implementation of a
+mechanism for instrumenting probes on which measurements should be run
+and re-engineering the data processing pipeline to scale to the growing
+OONI user-base.
+
+Moreover you will be expected to be working on improving the existing
+measurement instrument (ooni-probe) and the data collection backend
+component (ooni-backend).
+</p>
+
+<p>
+This would be a contractor position starting as soon as possible (by
+mid-June 2016, latest) for a duration of 12 months.
+</p>
+
+<p>
+Any candidate must:
+</p>
+
+<ul>
+	<li>Have extensive experience in python and several other
+    programming languages.</li>
+	<li>Be comfortable working remotely.</li>
+    <li>Be self-directed.</li>
+	<li>Be comfortable and experienced in getting code and design
+    reviewed and reviewing the code and design of others.</li>
+	<li>Be comfortable and experienced in documenting and designing
+    protocols.</li>
+	<li>Be comfortable with transparency: as a non-profit, everything
+	we do is in public, including your name and pay rate.</li>
+</ul>
+
+<p>
+An ideal candidate would also:
+</p>
+
+<ul>
+	<li>Have prior experience with designing and implementing scalable
+    complex network applications.</li>
+    <li>Not be afraid of refactoring code and writing unit-tests.</li>
+    <li>Be familiar with the challenges of developing and scaling data
+    processing pipelines.</li>
+    <li>Be familiar with the network measurement field.</li>
+    <li>Have experience with open-source software development, including
+    working with distributed teams across different time-zones
+    containing employees and volunteers of differing skill levels.</li>
+    <li>Have basic familiarity with distributed version control
+    systems.</li>
+    <li>Have contributed significant chunks of code to multiple
+    open-source projects in the past.</li>
+    <li>Be passionate about internet freedom and interested in
+    contributing to it in a concrete way.</li>
+</ul>
+
+<p>
+Other notes:
+</p>
+
+<ul>
+    <li>You'll need to be comfortable in this environment! We coordinate
+    via IRC, instant messaging, email, and bug trackers.</li>
+    <li>Academic degrees are great, but not required if you have the
+    right experience.</li>
+    <li>We only write free and open source software, and we don't
+    believe in software patents.</li>
+</ul>
+
+<p>
+How to apply
+</p>
+
+<ul>
+    <li>Link to a sample of code you've written in the past that you're
+    allowed to show us and ideally also your github profile.</li>
+    <li>Provide a CV explaining your background, experience, skills, and
+    other relevant qualifications.</li>
+    <li>List some people who can tell us more about you: these
+    references could be employers or co-workers, open source projects,
+    etc.</li>
+    <li>Email the above to jobs@torproject.org</li>
+</ul>
+
+<p>
+About the project:
+</p>
+
+<p>
+The Open Observatory of Network Interference (OONI) is a free software
+project under the Tor Project which collects and processes network
+measurements with the aim of detecting network interferences, such as
+censorship, surveillance and traffic manipulation. Since late 2012, OONI
+has collected millions of measurements across more than 90 countries
+around the world.
+</p>
+
+<p>
+About the company:
+</p>
+
+<p>
+The Tor Project is a US 501(c)(3) non-profit dedicated to research,
+development, and education about online anonymity and privacy. The Tor
+network's 3000 volunteer relays carry 16 Gbps for upwards of half a
+million daily users, including ordinary citizens who want protection
+from identity theft and prying corporations, corporations who want to
+look at a competitor's website in private, people around the world whose
+Internet connections are censored, and even governments and law
+enforcement. Tor has a staff of 14 paid developers, researchers, and
+advocates, plus many dozen volunteers who help out on a daily basis. Tor
+is funded in part by government research and development grants, and in
+part by individual and corporate donations.
+</p>
+
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
+
