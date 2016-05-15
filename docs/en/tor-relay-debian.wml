@@ -160,22 +160,13 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
     </p>
 
     <p>
-    12. <a href="https://weather.torproject.org/">Tor Weather</a> provides
-    an email notification service to any users who want to monitor the
-    status of a Tor node. Upon subscribing, you can specify what types of
-    alerts you would like to receive. The main purpose of Tor Weather is
-    to notify node operators via email if their node is down for longer
-    than a specified period, but other notification types are available.
-    </p>
-
-    <p>
-    13. If you want to run more than one relay that's great, but please set <a
+    12. If you want to run more than one relay that's great, but please set <a
     href="<page docs/faq>#MultipleRelays">the
     MyFamily option</a> in all your relays' configuration files.
     </p>
 
     <p>
-    14. You might like to use the <a
+    13. You might like to use the <a
     href="https://www.atagar.com/arm/">arm</a> relay monitor to watch
     your relay's activities from the command line. First, "sudo apt-get
     install tor-arm". Second, as the user that will be running arm, run
@@ -185,7 +176,7 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
     </p>
 
     <p>
-    15. When you change your Tor configuration, remember to verify that
+    14. When you change your Tor configuration, remember to verify that
     your relay still works correctly after the change.
     </p>
 
