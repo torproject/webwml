@@ -14,7 +14,7 @@
 work on OONI!</h1>
 
 <p>
-Your job would be to work as a software engineer on the Open Observatory
+Your job will be to work as a software engineer on the Open Observatory
 of Network Interference (OONI), a global network measurement platform.
 Your initial focus will be on the design and implementation of a
 mechanism for instrumenting probes on which measurements should be run
@@ -27,9 +27,12 @@ component (ooni-backend).
 </p>
 
 <p>
-This would be a contractor position starting as soon as possible (by
-mid-June 2016, latest) for a duration of 12 months.
+This dedicated contractor position starts as soon as possible for
+a duration of 12 months (or more, depending on further funding and
+progression of the project).
 </p>
+
+<p>Deadline for submissions: 20th of June 2016</p>
 
 <p>
 Any candidate must:
@@ -45,7 +48,8 @@ Any candidate must:
 	<li>Be comfortable and experienced in documenting and designing
     protocols.</li>
 	<li>Be comfortable with transparency: as a non-profit, everything
-	we do is in public, including your name and pay rate.</li>
+	we do is in public, including your name (or company name) and
+	pay rate.</li>
 </ul>
 
 <p>
@@ -53,11 +57,14 @@ An ideal candidate would also:
 </p>
 
 <ul>
-	<li>Have prior experience with designing and implementing scalable
+    <li>Have prior experience with designing and implementing scalable
     complex network applications.</li>
     <li>Not be afraid of refactoring code and writing unit-tests.</li>
     <li>Be familiar with the challenges of developing and scaling data
     processing pipelines.</li>
+    <li>Have prior experience working with the
+    <a href="https://twistedmatrix.com">Twisted python networking
+    framework</a>.</li>
     <li>Be familiar with the network measurement field.</li>
     <li>Have experience with open-source software development, including
     working with distributed teams across different time-zones
@@ -81,6 +88,8 @@ Other notes:
     right experience.</li>
     <li>We only write free and open source software, and we don't
     believe in software patents.</li>
+    <li>Compensation will be determined based on experience and can be
+    in the range of $6500-$7500 per month.</li>
 </ul>
 
 <p>
