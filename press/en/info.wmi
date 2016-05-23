@@ -7,15 +7,13 @@
     <h2 class="media">Press Contact</h2>
     <p>
     <b>Tor Press Team</b><br>
-    press@torproject.org<br>
-    +1-617-902-0208
+    press at torproject dot org<br>
     </p>
     <br>
     <p><b>Please Note:</b>
-     If you need technical help with Tor, please visit our 
-     <a href="https://www.torproject.org/docs/faq.html.en">FAQ page</a> or 
-     <a href="https://www.torproject.org/about/contact.html.en#support">
-     contact the help desk</a>. This number is for press inquiries only.  
+     If you need technical help with Tor, please use one of our
+     <a href="<page about/contact>#support">support options</a>.
+     This address is for press inquiries only.
     </p>
     </div>
    <!-- END INFOBLOCK -->
