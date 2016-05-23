@@ -106,12 +106,12 @@
 
     <a id="mail"></a>
     <h3><a class="anchor" href="#mail">Mailing Address</a></h3>
-    <p>Should you need to reach us via old reliable mail, our mailing
-    address is:
-      <p>The Tor Project, Inc<br>
-         7 Temple Street, Suite A<br>
-         Cambridge, MA 02139-2403 USA</p>
-    </p>
+    <p>Should you need to reach us via old-fashioned mail, our mailing
+    address is:</p>
+<address>The Tor Project<br>
+217 1st Ave South #4903<br>
+Seattle, WA 98194 USA
+</address>
 
     <a id="security"></a>
     <h3><a class="anchor" href="#security">Security Issues</a></h3>
