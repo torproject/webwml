@@ -570,10 +570,7 @@
     <div class="pjtitle"><h2>Mac OS X Instructions</h2></div>
     <div class="pjtext">
       <p>Download the file above, save it somewhere, then click on it.
-      This opens the .dmg file. (On recent versions of OS X, you might get
-      a warning that it's from an "unidentified developer" &mdash; you can
-      get around this complaint by <a href="https://tor.stackexchange.com/questions/1187/my-osx-is-saying-torbrowserbundle-en-us-cant-be-opened-because-it-is-from-an">control-clicking and selecting "open"</a>.)
-      Drag the included file into your Applications folder and you will
+      This opens the .dmg file. Drag the included file into your Applications folder and you will
       have a Tor Browser application in your chosen language that you
       can pin on your Dock.</p>
     </div>

@@ -75,24 +75,6 @@
 	  </form>
 	  <p class="alt-dl">Not Using Mac? Download for <a href="#windows">Windows</a> or <a href="#linux">Linux</a></p>
         </div>
-        <!-- To update these screenshots: Press Command-Shift-4 and then Spacebar, then click on the window. See #14838. -->
-        <table class="howto">
-          <tr>
-            <th>1. Install</th>
-            <th>2. Control-click</th>
-            <th>3. Open</th>
-          </tr>
-          <tr>
-            <td><img src="$(IMGROOT)/tbb-macosx-step-1.png" alt="Screenshot showing the contents of the Tor Browser dmg file."></td>
-            <td><img src="$(IMGROOT)/tbb-macosx-step-2.png" alt="Screenshot of the Applications folder with the Tor Browser icon."></td>
-            <td><img src="$(IMGROOT)/tbb-macosx-step-3.png" alt="Dialog offering to open Tor Browser."></td>
-          </tr>
-          <tr>
-            <td>Drag the Tor Browser icon to the Applications folder and open the Applications folder.</td>
-            <td>Control-click on the Tor Browser icon (click the mouse button while pressing the Control key on the keyboard) and choose &ldquo;Open&rdquo;.</td>
-            <td>Click &ldquo;Open&rdquo; on the next screen.</td>
-          </tr>
-        </table>
       </div>
 <!-- START LINUX -->
       <div id="linux" class="easy linux">
