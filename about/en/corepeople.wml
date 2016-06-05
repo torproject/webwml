@@ -23,17 +23,6 @@
           <dd>Helps with tracking bad relays. Runs one of the directory
           authorities.</dd>
 
-          <dt>Jacob Appelbaum, Advocate, Security Researcher, and
-          Developer</dt>
-          <dd>Speaks at conferences and gives
-          trainings all over the world to get people excited about Tor,
-          explain how Tor is used in real world situations, and generally
-          explain why anonymity online matters to you. Original developer
-          of ttdnsd, <a href="https://check.torproject.org/">Tor
-          check</a>, <a href="https://exitlist.torproject.org/">Tor
-          DNSEL</a>, and <a href="https://weather.torproject.org">Tor
-          weather</a> site. Runs one of the directory authorities.</dd>
-
           <dt>Isabela Bagueros, Project Manager</dt>
           <dd>Coordinates Tor's development teams and helps them define
           their road maps, keeps track of priorities, and ensures that
