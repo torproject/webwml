@@ -258,9 +258,9 @@
           <li>
             <p><strong>If I want my donation to be anonymous, what is
             the best way for me to donate?</strong></p>
-            <p>You can donate by mailing cash to the Tor Project. Our
-            address is The Tor Project, Inc., 7 Temple Street Suite A,
-            Cambridge MA 02139-2403 USA. You can donate via bitcoin
+            <p>You can donate by <a href="<page
+            donate/donate-options>#cash">mailing cash</a>.
+            You can donate via bitcoin
             if you have bitcoin set up in a way that preserves your
             anonymity. You can buy cash gift cards and mail them to
             us. There are probably other ways to donate anonymously that
@@ -337,8 +337,8 @@
           </li>
           <li>
             <p><strong>Can I donate by mail?</strong></p>
-            <p>Yes. Our mailing address is The Tor Project, 7 Temple
-            Street Suite A, Cambridge MA 02139-2403 USA.</p>
+            <p>Yes. Our mailing address is The Tor Project, 217 1st Ave S #4903,
+            Seattle WA 98194, USA</p>
           </li>
           <li>
             <p><strong>Do you accept cash donations?</strong></p>

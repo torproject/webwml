@@ -14,20 +14,6 @@
     <h1>Tor FAQ</h1>
     <hr>
 
-    <p><a href="#General">General questions:</a><br />
-    <a href="#CompilationAndInstallation">Compilation and Installation:</a><br />
-    <a href="#TBBGeneral">Tor Browser (general):</a><br />
-    <a href="#TBB3.x">Tor Browser (3.x and later):</a><br />
-    <a href="#AdvancedTorUsage">Advanced Tor usage:</a><br />
-    <a href="#RunningATorRelay">Running a Tor relay:</a><br />
-    <a href="#TorHiddenServices">Tor hidden services:</a><br />
-    <a href="#Development">Development:</a><br />
-    <a href="#AnonymityAndSecurity">Anonymity and Security:</a><br />
-    <a href="#AlternateDesigns">Alternate designs that we don't do (yet):</a><br />
-    <a href="#Abuse">Abuse:</a></p>
-
-<hr>
-
     <p>General questions:</p>
     <ul>
     <li><a href="#WhatIsTor">What is Tor?</a></li>
@@ -55,8 +41,6 @@ proxies?</a></li>
     from the data my application sends?</a></li>
     <li><a href="#Metrics">How many people use Tor? How many relays or
     exit nodes are there?</a></li>
-    <li><a href="#SSLcertfingerprint">What are your SSL certificate
-    fingerprints?</a></li>
     </ul>
 
     <p>Compilation and Installation:</p>
@@ -169,8 +153,6 @@ be?</a></li>
     limiting bandwidth on my Tor relay?</a></li>
     <li><a href="#ExitPolicies">I'd run a relay, but I don't want to deal
     with abuse issues.</a></li>
-    <li><a href="#BestOSForRelay">Why doesn't my Windows (or other OS) Tor
-    relay run well?</a></li>
     <li><a href="#PackagedTor">Should I install Tor from my package manager,
     or build from source?</a></li>
     <li><a href="#WhatIsTheBadExitFlag">What is the BadExit flag?</a></li>
@@ -315,25 +297,22 @@ things?</a></li>
     </p>
 
     <p>
-    The Tor software is a program you can run on your computer that
-helps keep
-    you safe on the Internet. Tor protects you by bouncing your
-communications
+    Tor is a program you can run on your computer that helps keep
+    you safe on the Internet. It protects you by bouncing your communications
     around a distributed network of relays run by volunteers all around
-    the world: it prevents somebody watching your Internet connection
-from
+    the world: it prevents somebody watching your Internet connection from
     learning what sites you visit, and it prevents the sites you visit
-    from learning your physical location. This set of volunteer relays
-is
-    called the Tor network. You can read more about how Tor works on the
-<a
-    href="<page about/overview>">overview page</a>.
+    from learning your physical location.
+    This set of volunteer relays is called the <b>Tor network</b>.
+    The way most people use Tor is with <b>Tor Browser</b>,
+    which is a version of Firefox that fixes many privacy issues.
+    You can read more about how Tor works on the <a href="<page
+    about/overview>">overview page</a>.
     </p>
 
     <p>
-    The Tor Project is a non-profit (charity) organization that
-maintains
-    and develops the Tor software.
+    The <b>Tor Project</b> is a non-profit (charity) organization that
+    maintains and develops the Tor software.
     </p>
 
     <hr>
@@ -356,47 +335,38 @@ install anything.  You just have to point your browser at their proxy
 server.
 Simple proxy providers are fine solutions if you do not want protections
 for
-your privacy and anonymity online and you trust the provider from doing
+your privacy and anonymity online and you trust the provider to not do
 bad
 things.  Some simple proxy providers use SSL to secure your connection
-to them.
-This may protect you against local eavesdroppers, such as those at a
-cafe with
-free wifi Internet.
+to them, which protects you against local eavesdroppers, such as those at a
+cafe with free wifi Internet.
     </p>
     <p>
     Simple proxy providers also create a single point of failure.  The
 provider
-knows who you are and where you browse on the Internet.  They can see
+knows both who you are and what you browse on the Internet.  They can see
 your
 traffic as it passes through their server.  In some cases, they can even
 see
 inside your
 encrypted traffic as they relay it to your banking site or to ecommerce
 stores.
-You have to trust the provider isn't doing any number of things, such as
+You have to trust the provider isn't
 watching your traffic, injecting their own advertisements into your
 traffic
-stream, and recording your personal details.
+stream, or recording your personal details.
     </p>
     <p>
     Tor passes your traffic through at least 3 different servers before
 sending
 it on to the destination. Because there's a separate layer of encryption
 for
-each of the three relays, Tor does not modify, or even know, what you
-are
-sending into it.  It merely relays your traffic, completely encrypted
-through
-the Tor network and has it pop out somewhere else in the world,
-completely
-intact.  The Tor client is required because we assume you trust your
-local
-computer.  The Tor client manages the encryption and the path chosen
-through
-the network.  The relays located all over the world merely pass
-encrypted
-packets between themselves.</p>
+each of the three relays, somebody watching your Internet connection
+can't modify, or read, what you are
+sending into the Tor network. Your traffic is encrypted between the Tor
+client (on your computer) and where it pops out somewhere else in the
+world.
+</p>
     <p>
     <dl>
     <dt>Doesn't the first server see who I am?</dt><dd>Possibly. A bad
@@ -409,18 +379,16 @@ merely sees
 world, so
 using Tor by itself is fine.  You are still protected from this node
 figuring
-out who you are and where you are going on the Internet.</dd>
+out both who you are and where you are going on the Internet.</dd>
     <dt>Can't the third server see my traffic?</dt><dd>Possibly.  A bad
 third
 of three servers can see the traffic you sent into Tor.  It won't know
 who sent
-this traffic.  If you're using encryption, such as visiting a bank or
-e-commerce website, or encrypted mail connections, etc, it will only
-know the
-destination.  It won't be able to see the data inside the traffic
-stream.  You
-are still protected from this node figuring out who you are and if using
-encryption, what data you're sending to the destination.</dd>
+this traffic.  If you're using encryption (like
+HTTPS), it will only know the destination. See <a
+href="https://www.eff.org/pages/tor-and-https">this visualization of
+Tor and HTTPS</a> to understand how Tor and HTTPS interact.
+</dd>
     </dl>
     </p>
 
@@ -432,16 +400,17 @@ encryption, what data you're sending to the destination.</dd>
 can I use with Tor?</a></h3>
 
     <p>
-    If you want to use Tor with a web browser, we provide the Tor Browser,
+    Most people use Tor Browser,
     which includes everything you need to browse the web safely using
-    Tor. If you want to use another web browser with Tor, see <a
-    href="#TBBOtherBrowser">Other web browsers</a>.
+    Tor. Using other browsers is <a href="#TBBOtherBrowser">dangerous
+    and not recommended</a>.
     </p>
     <p>
     There are plenty of other programs you can use with Tor,
     but we haven't researched the application-level anonymity
     issues on all of them well enough to be able to recommend a safe
-    configuration. Our wiki has a list of instructions for <a
+    configuration. Our wiki has a community-maintained list of
+    instructions for <a
     href="<wiki>doc/TorifyHOWTO">Torifying
     specific applications</a>.
     Please add to these lists and help us keep them accurate!
@@ -492,6 +461,9 @@ Tor?</a></h3>
     </p>
 
     <p>
+    We will <a
+    href="https://media.ccc.de/v/31c3_-_6251_-_en_-_saal_1_-_201412301400_-_state_of_the_onion_-_jacob_-_arma">never</a>
+    put a backdoor in Tor.
     We think that putting a backdoor in Tor would be tremendously
     irresponsible to our users, and a bad precedent for security
     software in general. If we ever put a deliberate backdoor in our
@@ -562,43 +534,14 @@ Tor?</a></h3>
     our <a href="<page docs/trademark-faq>">trademark FAQ</a> for details.
     </p>
 
-    <p>
-    Lastly, you should realize that we release new versions of the
-    Tor software frequently, and sometimes we make backward incompatible
-    changes. So if you distribute a particular version of the Tor software, it
-    may not be supported &mdash; or even work &mdash; six months later. This
-    is a fact of life for all security software under heavy development.
-    </p>
-
     <hr>
 
     <a id="SupportMail"></a>
     <h3><a class="anchor" href="#SupportMail">How can I get
 support?</a></h3>
 
-    <p>Your best bet is to first try the following:</p>
-    <ol>
-    <li>Read through this <a href="<page docs/faq>">FAQ</a>.</li>
-    <li>Read through the <a href="<page
-docs/documentation>">documentation</a>.</li>
-    <li>Read through the <a
-
-href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk">
-tor-talk
-    archives</a> and see if your question is already answered.</li>
-    <li>Join our <a href="ircs://irc.torproject.org#tor">irc channel</a>
-and
-    state the issue and wait for help.</li>
-    <li>Send an email to <a
-
-href="mailto:help@rt.torproject.org">help@rt.torproject.org</a>.</li>
-    <li>If all else fails, try <a href="<page about/contact>">contacting
-us</a> directly.</li>
-    </ol>
-
-    <p>If you find your answer, please stick around on the IRC channel
-or the
-    mailing list to help others who were once in your position.</p>
+    <p>See the <a href="<page about/contact>#support">Support section
+    on the contact page</a>.
 
     <hr>
 
@@ -946,38 +889,6 @@ executive
     <p>
     All this and more about measuring Tor can be found at the <a
     href="https://metrics.torproject.org/">Tor Metrics Portal</a>.</p>
-    <hr>
-
-    <a id="SSLcertfingerprint"></a>
-    <h3><a class="anchor" href="#SSLcertfingerprint">What are the SSL
-    certificate fingerprints for Tor's various websites?</a></h3>
-    <p>
-    *.torproject.org SSL certificate from Digicert:
-    </p>
-    <pre>
-Issued Certificate
-Version: 3
-Serial Number: 09 48 B1 A9 3B 25 1D 0D B1 05 10 59 E2 C2 68 0A
-Not Valid Before: 2013-10-22
-Not Valid After: 2016-05-03
-Certificate Fingerprints
-SHA1: 84 24 56 56 8E D7 90 43 47 AA 89 AB 77 7D A4 94 3B A1 A7 D5
-MD5: A4 16 66 80 AE B9 A4 EC AA 88 01 1B 6F B9 EB CB
-    </pre>
-<br>
-    <p>
-blog.torproject.org SSL certificate from RapidSSL:
-    </p>
-    <pre>
-Issued Certificate
-Version: 3
-Serial Number: 05 CA 2A A9 A5 D6 ED 44 C7 2D 88 1A 18 B0 E7 DC
-Not Valid Before: 2014-04-09
-Not Valid After: 2017-06-14
-Certificate Fingerprints
-SHA1: DE 20 3D 46 FD C3 68 EB BA 40 56 39 F5 FA FD F5 4E 3A 1F 83
-MD5: 8A 8A A2 5E D9 7F 84 4C 8F 00 3B 43 E0 2D E6 4D
-    </pre>
     <hr>
 
     <a id="CompilationAndInstallation"></a>
@@ -1852,7 +1763,7 @@ for details.
 <li>
 If it's still vanishing mysteriously, perhaps something else is killing it?
 Do you have resource limits (ulimits) configured that kill off processes
-sometimes? (This is especially common on OpenBSD.) On Linux, try running
+sometimes? On Linux, try running
 "dmesg" to see if the out-of-memory killer removed your process. (Tor will
 exit cleanly if it notices that it's run out of memory, but in some cases
 it might not have time to notice.) In very rare circumstances, hardware
@@ -2463,7 +2374,7 @@ on
     <a href="<page docs/faq-abuse>#TypicalAbuses">issues you might
 encounter</a>
     if you use the default exit policy, and then read Mike Perry's
-    <a href="<blog>tips-running-exit-node-minimal-harassment">tips
+    <a href="<blog>running-exit-node">tips
     for running an exit node with minimal harassment</a>.
     </p>
 
@@ -2496,50 +2407,6 @@ example,
 users
     will be impacted too.
     </p>
-
-    <hr>
-
-    <a id="BestOSForRelay"></a>
-    <h3><a class="anchor" href="#BestOSForRelay">Why doesn't my Windows (or other OS) Tor relay run well?</h3></a>
-
-    <p>
-    Tor relays work best on Linux, FreeBSD 5.x+, OS X Tiger or
-    later, and Windows Server 2003 or later.
-    </p>
-
-    <p>You can probably get it working just fine on other operating
-    systems too, but note the following caveats:
-    </p>
-
-    <ul>
-    <li>
-    Versions of Windows without the word "server" in their name
-    sometimes have problems. This is especially the case for Win98,
-    but it also happens in some cases for XP, especially if you don't
-    have much memory. The problem is that we don't use the networking
-    system calls in a very Windows-like way, so we run out of space in
-    a fixed-size memory space known as the non-page pool, and then
-    everything goes bad. The symptom is an assert error with the
-    message "No buffer space available [WSAENOBUFS ] [10055]".  <a
-    href="https://trac.torproject.org/projects/tor/wiki/doc/WindowsBufferProblems">You
-    can read more here.</a>
-    </li>
-
-    <li>
-    Most developers who contribute to Tor work with Unix-like operating
-    systems. It would be great if more people with Windows experience help
-    out, so we can improve Tor's usability and stability in
-    Windows.
-    </li>
-
-    <li>
-    More esoteric or archaic operating systems, like SunOS 5.9 or
-    Irix64, may have problems with some libevent methods (devpoll,
-    etc), probably due to bugs in libevent. If you experience crashes,
-    try setting the EVENT_NODEVPOLL or equivalent environment
-    variable.
-    </li>
-    </ul>
 
     <hr>
 
@@ -3028,14 +2895,6 @@ connections
 use
     this feature.</li>
 
-<!-- Nickm says he's not sure this is still accurate
-
-    <li>If you're running on Solaris, OpenBSD, NetBSD, or
-    old FreeBSD, Tor is probably forking separate processes
-    rather than using threads. Consider switching to a <a
-    href="<wikifaq>#WhydoesntmyWindowsorotherOSTorrelayrunwell">better
-    operating system</a>.</li>
--->
     <li>If you still can't handle the memory load, consider reducing the
     amount of bandwidth your relay advertises. Advertising less
 bandwidth
@@ -3442,8 +3301,9 @@ diversity,
 
     <p>
     Second, Tor prevents people watching your traffic locally (such as
-    your ISP) from learning what information you're fetching and where
-    you're fetching it from. It also stops them from deciding what you're
+    your ISP or someone with access to your home wifi or router) from
+    learning what information you're fetching and where you're fetching
+    it from. It also stops them from deciding what you're
     allowed to learn and publish -- if you can get to any part of the Tor
     network, you can reach any site on the Internet.
     </p>
@@ -3481,24 +3341,6 @@ diversity,
     you are worried about somebody intercepting your traffic and you're
     *not* using end-to-end encryption at the application layer, then something
     has already gone wrong and you shouldn't be thinking that Tor is the problem.)
-    </p>
-
-    <p>
-    Tor does provide a partial solution in a very specific situation, though.
-    When you make a connection to a destination that also runs a Tor relay,
-    Tor will automatically extend your circuit so you exit from that circuit.
-    So for example if Indymedia ran a Tor relay on the same IP address as
-    their website, people using Tor to get to the Indymedia website would
-    automatically exit from their Tor relay, thus getting *better* encryption
-    and authentication properties than just browsing there the normal way.
-    </p>
-
-    <p>
-    We'd like to make it still work even if the service is nearby the Tor
-    relay but not on the same IP address. But there are a variety of
-    technical problems we need to overcome first (the main one being "how
-    does the Tor client learn which relays are associated with which
-    websites in a decentralized yet non-gamable way?").
     </p>
 
     <hr>

@@ -56,7 +56,7 @@ using technology?</a></li>
     don't have the time or money to spend figuring out how to get
     privacy online. This is the worst of all possible worlds. </p>
 
-    <p>So yes, criminals could in theory use Tor, but they already have
+    <p>So yes, criminals can use Tor, but they already have
     better options, and it seems unlikely that taking Tor away from the
     world will stop them from doing their bad things. At the same time, Tor
     and other privacy measures can <em>fight</em> identity theft, physical
@@ -164,36 +164,16 @@ using technology?</a></li>
     types, see <a
     href="<wiki>doc/TorAbuseTemplates">the collection of templates
     on the Tor wiki</a>. You can also proactively reduce the amount of abuse you
-    get by following <a href="<blog>tips-running-exit-node-minimal-harassment">these tips
+    get by following <a href="<blog>running-exit-node">these tips
     for running an exit node with minimal harassment</a> and <a
     href="<wiki>doc/ReducedExitPolicy">running a reduced exit policy</a>.</p>
 
     <p>You might also find that your Tor relay's IP is blocked from accessing
     some Internet sites/services. This might happen regardless of your exit
     policy, because some groups don't seem to know or care that Tor has
-    exit policies. (If you have a spare IP not used for other activities,
-    you might consider running your Tor relay on it.) For example, </p>
-
-    <ul>
-    <li>Because of a few cases of anonymous jerks messing with its web
-    pages, Wikipedia is currently blocking many Tor relay IPs from writing
-    (reading still works). We're talking to Wikipedia about how they might
-    control abuse while still providing access to anonymous contributors,
-    who often have hot news or inside info on a topic but don't want to risk
-    revealing their identities when publishing it (or don't want to reveal
-    to local observers that they're accessing Wikipedia). Slashdot is also
-    in the same boat.</li>
-
-    <li>SORBS is putting some Tor relay IPs on their email
-    blacklist as well. They do this because they passively detect whether your
-    relay connects to certain IRC networks, and they conclude from this that
-    your relay is capable of spamming. We tried to work with
-    them to teach them that not all software works this way,
-    but we have given up. We recommend you avoid them, and <a
-    href="http://paulgraham.com/spamhausblacklist.html">teach your friends
-    (if they use them) to avoid abusive blacklists too</a>.</li>
-
-    </ul>
+    exit policies. (If you have a spare IP not used for other activities, you
+    might consider running your Tor relay on it.) In general, it's advisable
+    not to use your home internet connection to provide a Tor relay.</p>
 
     <a id="IrcBans"></a>
     <h3><a class="anchor" href="#IrcBans">Tor is banned from the IRC network I want to use.</a></h3>

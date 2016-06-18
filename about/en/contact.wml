@@ -14,18 +14,17 @@
     <h2>Tor: Contact</h2>
     <ul>
     <li><a href="#support">Support</a></li>
-    <li><a href="#email">Email</a></li>
     <li><a href="#irc">IRC</a></li>
     <li><a href="#twitter">Twitter</a></li>
-    <li><a href="#phone">Telephone</a></li>
+    <li><a href="#email">Email</a></li>
     <li><a href="#mail">Mailing Address</a></li>
     <li><a href="#security">Security Issues</a></li>
     </ul>
 
-    <!--
     <a id="support"></a>
     <h3><a class="anchor" href="#support">Support</a></h3>
 
+    <!--
      <p><i>help@rt.torproject.org</i> is the address to use for
     questions about all things Tor, volunteering, and offering
     resources. This is best effort service with no guarantees. We
@@ -41,30 +40,24 @@
     </ul>
     -->
 
-    <a id="email"></a>
-    <h3><a class="anchor" href="#email">Email</a></h3>
-    <!-- Please email <ew>help@rt.torproject.org</em> for general questions.
+    <p>If you have questions about using Tor:</p>
+    <ol>
+    <li>Read through the <a href="<page docs/faq>">FAQ</a> and the
+    <a href="<page docs/documentation>">documentation</a>.</li>
+    <li>See if your question is asked or answered on our
+    <a href="https://tor.stackexchange.com/">StackExchange page</a>. If
+    it isn't, please consider asking it there! Then everybody else can
+    benefit from your question and the answer to it.</li>
+    <li>Join the <a href="#irc">#tor irc channel</a>, state the issue,
+    and wait patiently for help.</li>
+    <li>Read through the archives of the
+    <a href="<page docs/documentation>#MailingLists">mailing lists</a>
+    to see if anybody else has raised your issue recently. Note that
+    you need to subscribe to the mailing lists before you can post.</li>
+    </ol>
 
-    A few other addresses are more specific: -->
-
-    <ul>
-      <li><i>tor-talk@lists.torproject.org</i> is for all discussion
-      about theory, design, development, and use of Onion Routing.
-      <i>tor-dev@lists.torproject.org</i> is for Tor research and
-      development. For both of these <a href="<page
-      docs/documentation>#MailingLists">mailing lists</a>,
-      you must subscribe before you can post.</li>
-      <li><i>donations@torproject.org</i> is for questions and comments about <a
-      href="<page donate/donate>">getting money to the developers</a>. More
-      donations means <a href="<page docs/faq>#Funding">more
-      Tor</a>. We're happy to help think about creative ways for you
-      to contribute.</li>
-      <li><i>press@torproject.org</i> is for press/media.</li>
-      <li><i>execdir@torproject.org</i> is for questions and comments about
-      Tor the non-profit corporation: trademark questions, affiliation
-      and coordination, major gifts, contract inquiries, licensing and
-      certification, etc.</li>
-    </ul>
+    <p>If you find your answer, please stick around to contribute back
+    and help others who were once in your position.</p>
 
     <a id="irc"></a>
     <h3><a class="anchor" href="#irc">IRC</a></h3>
@@ -72,14 +65,14 @@
     href="http://www.oftc.net/oftc/">OFTC</a>:</p>
 
     <ul>
-      <li><i>#tor</i> - User and relay operation discussions. Having trouble
-      running Tor or a question for other Tor users? Then this is the spot for
-      you.</li>
+      <li><i>#tor</i> - For questions about using Tor (as a client, as
+      a relay, as an onion service). Having trouble running Tor or have
+      a question for other Tor users? Then this is the spot for you.</li>
       <li><i>#tor-dev</i> - Channel for people who want to do development.
       Discussions about Tor-related coding, protocols, and <a href="<page
       getinvolved/volunteer>">project ideas</a> are all welcome.</li>
-      <li><i>#tor-project</i> - Organization discussions unrelated to 
-      software development. A great place to discuss Tor community events, 
+      <li><i>#tor-project</i> - Organization discussions unrelated to
+      software development. A great place to discuss Tor community events,
       outreach, translation, or website improvements.</li>
     </ul>
 
@@ -92,22 +85,33 @@
 	</ul>
     </p>
 
-    <a id="phone"></a>
-    <h3><a class="anchor" href="#phone">Telephone</a></h3>
-    <p>Please be aware that your
-    phone company and ours (and everyone in between) could listen to
-    the call. Please do not call for technical support. Instead, email
-    <em>help@rt.torproject.org</em>. Technical support phone calls are not
-    returned.</p>
+    <a id="email"></a>
+    <h3><a class="anchor" href="#email">Email</a></h3>
+    <p>If you have Tor questions, please try to help yourself via the
+    above support venues. Please don't use these contact addresses
+    for helpdesk or user requests &mdash; we all get too much mail and
+    we won't be able to help you there.</p>
+
+    <ul>
+      <li><i>donations@torproject.org</i> is for questions and comments about <a
+      href="<page donate/donate>">getting money to the developers</a>. More
+      donations means <a href="<page docs/faq>#Funding">more
+      Tor</a>. We're happy to help think about creative ways for you
+      to contribute.</li>
+      <li><i>execdir@torproject.org</i> is for questions and comments about
+      Tor the non-profit corporation: trademark questions, affiliation
+      and coordination, major gifts, contract inquiries, licensing and
+      certification, etc.</li>
+    </ul>
 
     <a id="mail"></a>
     <h3><a class="anchor" href="#mail">Mailing Address</a></h3>
-    <p>Should you need to reach us via old reliable mail, our mailing
-    address is:
-      <p>The Tor Project, Inc<br>
-         7 Temple Street, Suite A<br>
-         Cambridge, MA 02139-2403 USA</p>
-    </p>
+    <p>Should you need to reach us via old-fashioned mail, our mailing
+    address is:</p>
+<address>The Tor Project<br>
+217 1st Ave South #4903<br>
+Seattle, WA 98194 USA<br><br>
+</address>
 
     <a id="security"></a>
     <h3><a class="anchor" href="#security">Security Issues</a></h3>

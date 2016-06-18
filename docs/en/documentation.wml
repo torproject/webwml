@@ -10,20 +10,6 @@
   </div>
   <div id="maincol">
     <a id="RunningTor"></a>
-    <h1><a class="anchor" href="#RunningTor">Running Tor</a></h1>
-    <ul>
-    <li><a href="<page docs/tor-doc-windows>">Installing Tor
-    on Win32</a></li>
-    <li><a href="<page docs/tor-doc-osx>">Installing Tor on
-    Mac OS X</a></li>
-    <li><a href="<page docs/tor-doc-unix>">Installing Tor on
-    Linux/BSD/Unix</a></li>
-    <li><a href="<page docs/tor-doc-relay>">Configuring a
-    Tor relay</a></li>
-    <li><a href="<page docs/tor-hidden-service>">Configuring
-    a Tor hidden service</a></li>
-    </ul>
-
     <a id="Support"></a>
     <a id="UpToSpeed"></a>
     <h1><a class="anchor" href="#UpToSpeed">Getting up to speed on Tor's past,
@@ -150,30 +136,34 @@
 
     <a id="MailingLists"></a>
     <h1><a class="anchor" href="#MailingLists">Mailing List Information</a></h1>
+
+    <p>Tor runs <a
+    href="https://trac.torproject.org/projects/tor/wiki/doc/emailLists">many
+    mailing lists</a>. New users will be most interested in:</p>
     <ul>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-announce/">tor-announce
-    mailing list</a> is a low volume list for announcements of new releases
-    and critical security updates. Everybody should be on this list.
-    There is also an
-    <a href="http://rss.gmane.org/gmane.network.tor.announce">RSS
-    feed</a> of tor-announce at <a href="http://gmane.org">gmane.org</a>.</li>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk/">tor-talk list</a>
-    is where a lot of discussion happens, and is where we send notifications
-    of prerelease versions and release candidates.</li>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays/">tor-relays list</a>
-    is where discussions about running, configuring, and handling your tor
-    relay happen.  If you currently run a relay, or are thinking about doing
-    so, this is the list for you.</li>
-    <li>The <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev/">tor-dev list</a>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-announce/">tor-announce</a>
+    is a low volume list for announcements of new releases and critical
+    security updates. Everybody should be on this list. There is also
+    an <a href="http://rss.gmane.org/gmane.network.tor.announce">RSS
+    feed</a>.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk/">tor-talk</a>
+    is where a lot of discussion happens, and is where we send
+    notifications of prerelease versions and release candidates.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays/">tor-relays
+    list</a> is for discussions about running, configuring, and handling
+    your tor relay or bridge. If you currently run a relay or bridge,
+    or are thinking about doing so, this is the list for you.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-onions/">tor-onions</a>
+    is like tor-relays but for <a
+    href="https://media.ccc.de/v/32c3-7322-tor_onion_services_more_useful_than_you_think">onion
+    services</a>.</li>
+    <li><a
+    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev/">tor-dev</a>
     is for posting by developers only, and is very low traffic.</li>
-    <li>A list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-mirrors">mirror
-    operators</a> for new website mirrors, and supporting <a href="<page
-    getinvolved/mirrors>">current website mirrors</a>.</li>
-    <li>A list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-commits/">svn and git
-    commits</a> may be interesting for developers.</li>
-    <li>An automated list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-bugs/">bug
-    reports from trac</a> may be interesting for users and developers.</li>
-    <li>A list for <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-reports/">Tor status reports.</li>
     </ul>
 
     <a id="DesignDoc"></a>
@@ -188,10 +178,6 @@
     <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-1">part one</a>,
     <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2">part two</a>.
     </li>
-    <li>Our paper at WEIS 2006 &mdash; <b>Anonymity Loves Company:
-    Usability and the Network Effect</b> &mdash; explains why usability in
-    anonymity systems matters for their security: <a
-    href="http://freehaven.net/anonbib/cache/usability:weis2006.pdf">PDF</a>.</li>
     <li>Our preliminary design to make it harder for large firewalls to
     prevent access to the Tor network is described in
     <b>design of a blocking-resistant anonymity system</b>:

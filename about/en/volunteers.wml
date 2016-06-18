@@ -1,57 +1,7 @@
 ## translation metadata
 # Revision: $Revision$
-# Translation-Priority: 3-low
-#include "head.wmi" TITLE="Tor Project: Volunteers" CHARSET="UTF-8"
+# Status: obsolete
 
-<div id="content" class="clearfix">
-	<div id="breadcrumbs">
-    <a href="<page index>">Home &raquo; </a>
-    <a href="<page about/overview>">About &raquo; </a>
-    <a href="<page about/volunteers>">Volunteers</a>
-  </div>
-	<div id="maincol">
-  	<h1>Volunteers</h1>
-    <dl>
-<dt>Anonym, bertagaz, and intrigeri</dt><dd>Maintainers of <a
-href="https://tails.boum.org/">The Amnesic Incognito Live System</a>.</dd>
-<dt>Marco Bonetti</dt><dd>Focusing on MobileTor for the iPhone.</dd>
-<dt>Kasimir Gabert</dt><dd>Maintains TorStatus.</dd>
-<dt>Marcia Hofmann and Kevin Bankston</dt><dd>EFF lawyers who helped
-write the <a href="<page eff/tor-legal-faq>">Tor Legal FAQ</a> and
-tirelessly answers the phone when somebody in the world has a legal
-question about Tor.</dd>
-<dt>Andreas Jonsson</dt><dd>Works on OS X Tor Browser Bundle sandbox
-technology.</dd>
-<dt>Fabian Keil</dt><dd>One of the core Privoxy developers, and also a
-Tor fan. He's the reason Tor and Privoxy still work well together.</dd>
-<dt>Juha Nurmi</dt><dd>GSoC student in 2014 and researcher behind <a
-href="https://blog.torproject.org/category/tags/ahmiafi">Ahmia</a>, a search
-engine for hidden services.</dd>
-<dt>Julius Mittenzwei</dt><dd>A lawyer with the CCC in
-Germany. Coordinates the German Tor community with respect to legal
-questions and concerns.</dd>
-<dt>Shava Nerad</dt><dd>Our former Development Director. She still works
-on PR and community relations.</dd>
-<dt>Lasse &Oslash;verlier</dt><dd>Writes research papers on Tor: attacks,
-defenses, and resource management, especially for hidden services.</dd>
-<dt>Nart Villeneuve</dt><dd>Security researcher who works with
-Jacob on Internet Censorship research.</dd>
-<dt>Ethan Zuckerman</dt><dd>A blogger who has written some
-<a href="http://www.ethanzuckerman.com/blog/?p=1019">interesting</a>
-<a href="http://advocacy.globalvoicesonline.org/projects/guide/">tutorials</a>
-for how, when, and whether to use Tor. He also teaches activists around
-the world about Tor and related tools.</dd>
-<dt>All our relay operators, people who write <a
-href="http://freehaven.net/anonbib/">research papers</a> about Tor,
-people who teach others about Tor, etc.</dt>
-</dl>
-  </div>
-  <!-- END MAINCOL -->
-  <div id = "sidecol">
-#include "side.wmi"
-#include "info.wmi"
-  </div>
-  <!-- END SIDECOL -->
-</div>
-<!-- END CONTENT -->
+#include "head.wmi" TITLE="Redirecting" REDIRECT="about/corepeople"
+
 #include <foot.wmi>
