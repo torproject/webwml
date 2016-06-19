@@ -39,6 +39,22 @@
    <![endif]-->
  #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
    # end WML to generate css/js paths 
+   <!--[if !(lt IE 8)]><!-->
+   <script type="text/javascript">
+     var banner_config = {
+       disableDate: true, // If true, the banner shows even if the date is not yet 06/21/2016. Use for testing.
+       localAssets: true, //
+       debug: false // Reveals any errors and debug messages. For debugging purposes only.
+     };
+
+     (function(){
+       var e = document.createElement('script'); e.type='text/javascript'; e.async = true;
+       e.src = 'rule-41/widget.min.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s);
+     })();
+   </script>
+   <!--<![endif]-->
+
  
 </head>
 <body>
