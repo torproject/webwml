@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/easyXDM.min.js"></script>
+    <script type='text/javascript' src="js/modernizr.min.js"></script>
+    <script type='text/javascript' src="js/css3-mediaqueries.js"></script>   
+     <script type="text/javascript">
+
+      document.addEventListener("DOMContentLoaded", function(event) {
+       var animate = document.getElementById("animate");
+       animate.classList.add("not-loaded");
+        window.setTimeout(function () {
+          animate.classList.remove("not-loaded");
+          animate.classList.add("loaded");
+        }, 0);
+      });
+    </script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type='text/javascript' src="js/html5.js"></script>
+      <script type='text/javascript' src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="tdwfb-banner">
+    <div class="hidden-xs">
+      <div id="banner-container">
+      <div class="second-slide" id="second-slide">
+        <div class="col-sm-3 leftside">
+            <div class="leftsidecontainer">
+              <div class="logotext">
+                  <a href="https://NoGlobalWarrants.org" target="_parent">
+                      <img src="imgs/spider.svg" id="animate" class="img-responsive" />
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-9 rightside top">
+            <div class="rightsidecontainer">
+              <h2>TELL THE U.S. CONGRESS:</h2>
+              <h1>REJECT THE RULE 41 PROPOSAL</h1>
+              <p>The change to Rule 41 would create a new avenue for the U.S. government to hack into computers around the world. It's a security nightmare.</p>
+              <div class="btn-container">
+                <a class="btn btn-lg btn-green" id="action_us" href="#">Take action in the U.S.</a>
+                <a class="btn btn-lg btn-green" id="action_not_us" href="#">Take action outside the U.S.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div id="banner-container" class="footer">
+        <div id="homepage_link">
+          <a href="https://NoGlobalWarrants.org" target="_blank">NoGlobalWarrants.org</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="mobile-banner visible-xs abs-centered">
+      <a href="https://NoGlobalWarrants.org" target="_blank"><img src="imgs/mobile_txt.png" class="img-responsive abs-centered" /></a>
+   </div>
+    
+
+    <script type='text/javascript' src="js/main.js"></script>  
+  </body>
+</html>
