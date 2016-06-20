@@ -42,9 +42,7 @@
    <!--[if !(lt IE 8)]><!-->
    <script type="text/javascript">
      var banner_config = {
-       disableDate: true, // If true, the banner shows even if the date is not yet 06/21/2016. Use for testing.
        localAssets: true, //
-       debug: false // Reveals any errors and debug messages. For debugging purposes only.
      };
 
      (function(){
