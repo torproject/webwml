@@ -730,7 +730,7 @@ meetings around the world.</li>
     </p>
 
     <a id="project-bridgedb"></a>
-    <h3><a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/BridgeDB">BridgeDB</a> (<a
+    <h3><a href="https://pythonhosted.org/bridgedb/">BridgeDB</a> (<a
     href="https://gitweb.torproject.org/bridgedb.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Obfuscation%2FBridgeDB&order=priority">bug
     tracker</a>)</h3>
