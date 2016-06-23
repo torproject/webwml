@@ -293,6 +293,11 @@
           <dd>Does trainings and outreach. Runs one of the directory
           authorities.</dd>
 
+          <dt>Tom Ritter, Developer</dt>
+          <dd>Maintains <a
+          href="https://consensus-health.torproject.org/">Consensus
+          Health</a> and runs one of the bandwidth authorities.</dd>
+
           <dt>Leif Ryge, Developer</dt>
           <dd>Works on security analysis, designer of "bananaphone"
           transport, and part of the pluggable transports team.</dd>
