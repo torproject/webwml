@@ -26,6 +26,7 @@
     <li>Damian Johnson (0x9ABBEEC6) signs Arm releases.</li>
     <li>The Tails team (0x58ACD84F) signs the Tails live system releases.</li>
     <li>David Goulet (0x42E86A2A11F48D36) signs Torsocks releases.</li>
+    <li>Sukhbir Singh (0xB01C8B006DA77FAA) signs Tor Messenger and TorBirdy releases.</li>
     <li>Other developers include Peter Palfrader (0xC82E0039, or its
     subkey 0xE1DEC577) and Jacob Appelbaum (0xFA7F0E44D487F03F).</li>
     </ul>
@@ -126,6 +127,12 @@
     uid                            David Goulet &lt;dgoulet@torproject.org&gt;
     sub   4096g/FE9D6620 2011-05-11 [expires: 2016-05-09]
     sub   4096R/93CC198D 2013-09-10 [expires: 2016-09-10]
+
+    pub   4096R/0xB01C8B006DA77FAA 2016-02-25 [expires: 2020-02-24]
+          Key fingerprint = E4AC D397 5427 A5BA 8450  A1BE B01C 8B00 6DA7 7FAA
+    uid                            Sukhbir Singh &lt;azadi@riseup.net&gt;
+    uid                            Sukhbir Singh &lt;sukhbir@torproject.org&gt;
+    sub   4096R/0x1AF20C043D9F9289 2016-02-25 [expires: 2020-02-24]
 
     pub   4096R/58ACD84F 2015-01-18 [expires: 2017-01-11]
           Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
