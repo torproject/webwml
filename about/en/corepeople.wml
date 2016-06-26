@@ -129,6 +129,11 @@
           <dd>Onion services developer, core member of Tor development
           team, and lead developer of Torsocks 2.0.</dd>
 
+          <dt>Allen Gunn, Tor Community Meetings</dt>
+          <dd>Gunner co-organizes and helps lead the <a
+          href="https://trac.torproject.org/projects/tor/wiki/org/meetings">Tor
+          Dev Meetings</a>, and advises on Tor community matters.</dd>
+
           <dt>Marie Gutbub, Advocate</dt>
           <dd>Helps educate the world about the value of Tor, especially
           in Europe.</dd>
@@ -318,6 +323,12 @@
           <dt>Mark Smith, Developer</dt>
           <dd>Part of the Tor Browser team &mdash; develops
           and maintains Tor Launcher and Torbutton.</dd>
+
+          <dt>David Stainton, Developer</dt>
+          <dd>David contributes code to txttorcon (onion service
+          endpoint), authored roflcopter (tor control port filter
+          daemon) and HoneyBadger (TCP injection attack detector). He
+          also analyzes the Tor network for attacks.</dd>
 
           <dt>Shari Steele, Executive Director</dt>
           <dd>Shari comes to the Tor Project with more than 22 years
