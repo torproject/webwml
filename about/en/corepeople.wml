@@ -325,7 +325,7 @@
           and maintains Tor Launcher and Torbutton.</dd>
 
           <dt>David Stainton, Developer</dt>
-          <dd>David contributes code to txttorcon (onion service
+          <dd>David contributes code to txtorcon (onion service
           endpoint), authored roflcopter (tor control port filter
           daemon) and HoneyBadger (TCP injection attack detector). He
           also analyzes the Tor network for attacks.</dd>
