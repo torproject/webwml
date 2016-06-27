@@ -51,6 +51,17 @@ RewriteRule ^easy-download(.*) /download/download-easy$1 [R=301,L]
 # Relays
 RewriteRule ^relays(.*) /getinvolved/relays [R=301,L]
 
+# Index Pages
+RewriteRule ^about/$ /about/overview [R=301,L]
+RewriteRule ^cgi-bin/$ / [R=301,L]
+RewriteRule ^css/$ / [R=301,L]
+RewriteRule ^docs/$ /docs/documentation [R=301,L]
+RewriteRule ^eff/$ / [R=301,L]
+RewriteRule ^en/$ / [R=301,L]
+RewriteRule ^images/$ / [R=301,L]
+RewriteRule ^include/$ / [R=301,L]
+RewriteRule ^js/$ / [R=301,L]
+
 # Donation campagin
 RewriteRule ^donate/donate-twitter(.*) /donate/donate$1 [R=302,L]
 RewriteRule ^donate/donate-tbb(.*) /donate/donate$1 [R=302,L]
