@@ -358,9 +358,10 @@
           <dd>Working on build automation, particularly around the Tor
           Browser.</dd>
 
-          <dt>Tim Wilson-Brown, Developer</dt>
-          <dd>Onion services developer, and core member of Tor development
-          team.</dd>
+          <dt>Tim Wilson-Brown, Developer, Researcher</dt>
+          <dd>Onion services developer, and core member of Tor
+          development team. Researches Tor network measurement and onion
+          service scalability.</dd>
 
           <dt>Philipp Winter, Researcher</dt>
           <dd>Understands how to manipulate and circumvent Tor network
