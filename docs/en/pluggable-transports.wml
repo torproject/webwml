@@ -126,7 +126,7 @@ transport API</a>, to make it easier to build interoperable programs.
     <li><b>StegoTorus</b> is an Obfsproxy fork that extends it to a)
     split Tor streams across multiple connections to avoid packet size
     signatures, and b) embed the traffic flows in traces that look like
-    html, javascript, or pdf. See its
+    HTML, JavasCript, or PDF. See its
     <a href="https://gitweb.torproject.org/stegotorus.git">git repository</a>.
     Maintained by Zack Weinberg. <br>
     </li>
