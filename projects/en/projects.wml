@@ -52,12 +52,14 @@ default and sends all of its traffic over Tor.</p>
 </div></div>
 
 <div class="projectbox">
-<a href="<page projects/obfsproxy>"><img class="icon"
+<a href="<page docs/pluggable-transports>"><img class="icon"
 src="$(IMGROOT)/icon-Obfsproxy.jpg" height="80px" alt="" width="78"></a>
 <div class="projectdesc"><div class="name"><a
-href="<page projects/obfsproxy>">Obfsproxy</a></div>
-<p>Obfsproxy is a pluggable transports proxy. It shapes Tor traffic,
-making it harder for censors to detect and block the Tor protocol.</p>
+href="<page docs/pluggable-transports>">Pluggable Transports</a></div>
+<p>Pluggable Transports (PT) transform the Tor traffic flow between the client
+and the bridge. This way, censors who monitor traffic between the
+client and the bridge will see innocent-looking transformed traffic
+instead of the actual Tor traffic.</p>
 </div>
 </div>
 
