@@ -91,7 +91,7 @@ transport API</a>, to make it easier to build interoperable programs.
       <hr>
 
       <h3>Deprecated PTs; Removed from Tor Browser</h3>
-
+      <br>
       <ul>
         <!-- TODO: add deprecation note for each PT -->
         <li><a href="<page projects/obfsproxy>"><b>Obfsproxy</b></a> is a Python framework for implementing new
@@ -119,6 +119,7 @@ transport API</a>, to make it easier to build interoperable programs.
       <hr>
 
       <h3>Undeployed PTs</h3>
+      <br>
       <!-- TODO: move this section to wiki -->
       <!-- TODO: add snowflake -->
     <ul>
