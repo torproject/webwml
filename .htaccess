@@ -32,6 +32,9 @@ RewriteRule ^projects/$ /projects/projects [R=301,L]
 
 #Pluggable Transports
 RewriteRule ^PT/$ /docs/pluggable-transports [R=301,L]
+RewriteRule ^projects/obfsproxy/$ /docs/pluggable-transports [R=410,L]
+RewriteRule ^projects/obfsproxy-debian-instructions/$ /docs/pluggable-transports [R=410,L]
+RewriteRule ^projects/obfsproxy-instructions/$ /docs/pluggable-transports [R=410,L]
 
 # GetInvolved
 RewriteRule ^getinvolved/$ /getinvolved/volunteer [R=301,L]
