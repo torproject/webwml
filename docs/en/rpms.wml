@@ -17,7 +17,7 @@
     
     <h3>Fedora, RHEL, CentOS, Scientific Linux packages</h3>
 
-    <p>Use native Fedora packages for Fedora distribution or <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a> 
+    <p>Use native Fedora packages for the Fedora distribution or <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a>
     packages for distribitons derived from RHEL.
     </p>
 
