@@ -30,6 +30,9 @@ RewriteRule ^press/index.html(.*) /press/press.html$1 [R=301,L]
 # Projects
 RewriteRule ^projects/$ /projects/projects [R=301,L]
 
+#Pluggable Transports
+RewriteRule ^PT/$ /docs/pluggable-transports [R=301,L]
+
 # GetInvolved
 RewriteRule ^getinvolved/$ /getinvolved/volunteer [R=301,L]
 RewriteRule ^volunteer(.*) /getinvolved/volunteer$1 [R=301,L]
