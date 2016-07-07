@@ -122,10 +122,10 @@
     sub   4096R/0x2E1AC68ED40814E0 2014-12-15 [expires: 2017-08-25]
     sub   4096R/0x7017ADCEF65C2036 2014-12-15 [expires: 2017-08-25]
 
-    pub   2048R/0x42E86A2A11F48D36 2011-05-11 [expires: 2016-05-09]
+    pub   2048R/0x42E86A2A11F48D36 2011-05-11 [expires: 2017-05-09]
           Key fingerprint = B744 17ED DF22 AC9F 9E90  F491 42E8 6A2A 11F4 8D36
     uid                            David Goulet &lt;dgoulet@torproject.org&gt;
-    sub   4096g/FE9D6620 2011-05-11 [expires: 2016-05-09]
+    sub   4096g/FE9D6620 2011-05-11 [expires: 2017-05-09]
     sub   4096R/93CC198D 2013-09-10 [expires: 2016-09-10]
 
     pub   4096R/0xB01C8B006DA77FAA 2016-02-25 [expires: 2020-02-24]
