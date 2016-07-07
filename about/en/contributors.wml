@@ -170,8 +170,8 @@ href="<page docs/torbutton/index>">Torbutton</a>.</dd>
 <dd>Worked on the artwork and design for various projects,
 annual reports, and brochures.</dd>
 
-<dt>tup (a pseudonym)</dt><dd>Added new features for
-making Tor easier to use as a <a
+<dt>tup</dt>
+<dd>Added new features for making Tor easier to use as a <a
 href="<wiki>TransparentProxy">transparent
 proxy</a>. Also wrote the <a
 href="http://p56soo2ibjkx23xo.onion/">TorDNSEL code</a>.</dd>
