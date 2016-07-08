@@ -261,10 +261,9 @@
           website</a>.</dd>
 
           <dt>Linus Nordberg, Advocate, Developer</dt>
-          <dd>Swedish advocate for Tor, anonymous communications research,
-          and employee at <a href="http://nordu.net/">NORDUnet</a>. Works
-          on implementing IPv6 in Tor, and helps with build
-          automation. Runs one of the directory authorities.</dd>
+          <dd>Swedish advocate for Tor, anonymous communications
+          research. Works on implementing IPv6 in Tor, and helps with
+          build automation.  Runs one of the directory authorities.</dd>
 
           <dt>Donncha O'Cearbhaill, Developer</dt>
           <dd>Onion services developer, OnionBalance developer,
