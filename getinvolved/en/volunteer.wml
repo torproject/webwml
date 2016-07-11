@@ -124,7 +124,7 @@ meetings around the world.</li>
         <td>Core</td>
         <td>C</td>
         <td>Heavy</td>
-        <td>nickm, athena, arma</td>
+        <td>nickm, athena, arma, dgoulet, asn, teor</td>
       </tr>
 
       <tr>
@@ -132,7 +132,7 @@ meetings around the world.</li>
         <td>Bundle</td>
         <td>Javascript, XUL, Scripting</td>
         <td>Heavy</td>
-        <td>mikeperry, Pearl Crescent</td>
+        <td>mikeperry, Pearl Crescent, GeKo</td>
       </tr>
 
       <tr>
@@ -155,7 +155,7 @@ meetings around the world.</li>
         <td><a href="#project-orbot">Orbot</a></td>
         <td>User Interface</td>
         <td>Java</td>
-        <td>Moderage</td>
+        <td>Moderate</td>
         <td>n8fr8</td>
       </tr>
 
@@ -260,15 +260,15 @@ meetings around the world.</li>
         <td>Client Service</td>
         <td>Java</td>
         <td>Moderate</td>
-        <td>karsten</td>
+        <td>karsten, iwakeh</td>
       </tr>
 
       <tr>
         <td><a href="#project-atlas">Atlas</a></td>
         <td>Client Service</td>
         <td>JavaScript</td>
-        <td>None</td>
-        <td></td>
+        <td>Moderate</td>
+        <td>irl</td>
       </tr>
 
       <tr>
@@ -283,8 +283,8 @@ meetings around the world.</li>
         <td><a href="#project-onionoo">Onionoo</a></td>
         <td>Backend Service</td>
         <td>Java</td>
-        <td>Light</td>
-        <td>karsten</td>
+        <td>Heavy</td>
+        <td>karsten, iwakeh</td>
       </tr>
 
       <tr>
@@ -301,14 +301,6 @@ meetings around the world.</li>
         <td>Python</td>
         <td>Light</td>
         <td>atagar</td>
-      </tr>
-
-      <tr>
-        <td><a href="#project-weather">Weather</a></td>
-        <td>Client Service</td>
-        <td>Python</td>
-        <td>None</td>
-        <td>kaner</td>
       </tr>
 
       <tr>
@@ -373,6 +365,30 @@ meetings around the world.</li>
         <td>Python</td>
         <td>Light</td>
         <td>arma, nickm</td>
+      </tr>
+
+      <tr>
+        <td><a href="#project-collector">CollecTor</a></td>
+        <td>Backend Service</td>
+        <td>Java</td>
+        <td>Heavy</td>
+        <td>karsten, iwakeh</td>
+      </tr>
+
+      <tr>
+        <td><a href="#project-metrics-lib">metrics-lib</a></td>
+        <td>Library</td>
+        <td>Java</td>
+        <td>Heavy</td>
+        <td>karsten, iwakeh</td>
+      </tr>
+
+      <tr>
+        <td><a href="#project-exonerator">ExoneraTor</a></td>
+        <td>Client Service</td>
+        <td>Java</td>
+        <td>Light</td>
+        <td>karsten, iwakeh</td>
       </tr>
     </table>
 
@@ -602,15 +618,13 @@ meetings around the world.</li>
     </p>
 
     <a id="project-metrics"></a>
-    <h3><a href="https://metrics.torproject.org/">Metrics</a> (code: <a
-    href="https://gitweb.torproject.org/metrics-db.git">db</a>, <a
+    <h3><a href="https://metrics.torproject.org/">Metrics</a> (<a
     href="https://gitweb.torproject.org/metrics-web.git">web</a>)</h3>
 
     <p>
     Processing and analytics of consensus data, provided to users via the
     metrics portal. This has been under active development for several years by
-    Karsten Loesing. See also <a
-    href="https://gitweb.torproject.org/torperf.git">TorPerf</a>.
+    Karsten Loesing.
     </p>
 
     <a id="project-atlas"></a>
@@ -787,6 +801,32 @@ meetings around the world.</li>
     also a set of scripts to generate the website from Latex (bibtex). If
     we're missing any important papers, please let us know!
     </p>
+
+    <a id="project-collector"></a>
+    <h3><a href="https://collector.torproject.org/">CollecTor</a>
+    (<a href="https://gitweb.torproject.org/collector.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FCollecTor&order=priority">bug tracker</a>)</h3>
+
+    <p>CollecTor is the Tor network data archive that powers other
+    services like <a href="#project-metrics">Metrics</a> and
+    <a href="#project-onionoo">Onionoo</a>.</p>
+
+    <a id="project-metrics-lib"></a>
+    <h3>metrics-lib
+    (<a href="https://gitweb.torproject.org/metrics-lib.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2Fmetrics-lib&order=priority">bug tracker</a>)</h3>
+
+    <p>metrics-lib is a Java library that processes Tor network data
+    provided by <a href="#project-collector">CollecTor</a> or from other
+    sources.</p>
+
+    <a id="project-exonerator"></a>
+    <h3><a href="https://exonerator.torproject.org/">ExoneraTor</a>
+    (<a href="https://gitweb.torproject.org/exonerator.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FExoneraTor&order=priority">bug tracker</a>)</h3>
+
+    <p>ExoneraTor is a service that answers the question whether there was
+    a Tor relay running on a given IP address on a given date.</p>
 
     <a id="Coding"></a>
     <a id="Summer"></a>
