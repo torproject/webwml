@@ -32,13 +32,23 @@ href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">pluggable
 transport API</a>, to make it easier to build interoperable programs.
     </p>
 
+    <h3>How to use PTs to bypass censorship</h3>
+    <p>
+      If connections to Tor network are being blocked by your ISP or country,
+      follow this instructions:
+    </p>
+    <a href="$(IMGROOT)/PT/2016-07-how-to-use-PT.png">
+    <img src="$(IMGROOT)/PT/2016-07-how-to-use-PT.png" width="830"
+    alt="How to use PTs: 1-download tor (send email to gettor@torproject.org) 2-select configure 3-check 'my isp blocks tor...'
+    4-select obfs4 5-press connect" /></a>
+    <!-- TODO: move alt to instructions in plain text for visually impaird users -->
+
     <hr>
 
     <h3>Currently deployed PTs</h3>
     <p>
       These Pluggable Transports are currently deployed in Tor Browser, and you can start using them by <a href="<page download/download-easy>">downloading and using Tor Browser</a>.
     </p>
-    <!-- TODO: make a link to how to config TB to use PTs -->
 
       <ul>
 
