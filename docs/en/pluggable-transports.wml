@@ -34,8 +34,8 @@ transport API</a>, to make it easier to build interoperable programs.
 
     <h3>How to use PTs to bypass censorship</h3>
     <p>
-      If connections to Tor network are being blocked by your ISP or country,
-      follow this instructions:
+      If connections to the Tor network are being blocked by your ISP or
+      country, follow these instructions:
     </p>
     <a href="$(IMGROOT)/PT/2016-07-how-to-use-PT.png">
     <img src="$(IMGROOT)/PT/2016-07-how-to-use-PT.png" width="830"
@@ -46,7 +46,7 @@ transport API</a>, to make it easier to build interoperable programs.
     <h3>How to run PTs to help censored users</h3>
     <p>
       obfs4 is currently the most effective transport to bypass censorship.
-      To learn how to run this transport, please visit <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy wiki page</a>.
+      To learn how to run this transport, please visit the <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy wiki page</a>.
     </p>
 
     <hr>
