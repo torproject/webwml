@@ -110,7 +110,7 @@ transport API</a>, to make it easier to build interoperable programs.
       <br>
       <ul>
         <!-- TODO: add deprecation note for each PT -->
-        <li><a href="<page projects/obfsproxy>"><b>Obfsproxy</b></a> is a Python framework for implementing new
+        <li><b>Obfsproxy</b> is a Python framework for implementing new
         pluggable transports. It uses Twisted for its networking needs, and
         <a href="https://gitweb.torproject.org/pluggable-transports/pyptlib.git/tree/README.rst">pyptlib</a>
         for some pluggable transport-related features. It supports the
