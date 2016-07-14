@@ -55,9 +55,10 @@
     ContactInfo human@...
     </pre>
 
+# TODO: Update link to PT setup docs
     <p>If you want to be a bridge, read about the BridgeRelay and
     ServerTransportPlugin values <a
-    href="<page projects/obfsproxy-instructions>#instructions">on
+    href="<page docs/pluggable-transports>">on
     this page</a>.</p>
 
     <p>Tor will use all your bandwidth if you don't set limits for it. Some

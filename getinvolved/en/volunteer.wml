@@ -518,17 +518,6 @@ meetings around the world.</li>
     TorBirdy is Torbutton for Thunderbird and related Mozilla mail clients.
     </p>
 
-    <a id="project-obfsproxy"></a>
-    <h3><a href="<page projects/obfsproxy>">Obfsproxy</a> (<a
-    href="https://gitweb.torproject.org/pluggable-transports/obfsproxy.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Obfuscation%2FObfsproxy&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    A proxy that shapes Tor traffic, making it harder for censors to detect and
-    block Tor. This has both a C and python implementation.
-    </p>
-
     <a id="project-flash-proxy"></a>
     <h3><a href="https://crypto.stanford.edu/flashproxy/">Flash Proxy</a> (<a
     href="https://gitweb.torproject.org/flashproxy.git">code</a>, <a

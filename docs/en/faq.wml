@@ -1482,14 +1482,6 @@ href="http://www.crowdstrike.com/community-tools/index.html#tool-79">proposed
     Exitpolicy reject *:*
     BridgeRelay 1  # only add this line if you want to be a bridge
     </pre>
-    <p>
-    If you've installed <a
-    href="<page projects/obfsproxy-debian-instructions>#instructions">Obfsproxy</a>,
-    you'll need to add one more line:
-    </p>
-    <pre>
-    ServerTransportPlugin obfs3 exec /usr/bin/obfsproxy managed
-    </pre>
 
     <hr>
 
@@ -2581,7 +2573,7 @@ short)
     <p>
     Several countries, including China and Iran, have found ways to
     detect and block connections to Tor bridges.
-    <a href="<page projects/obfsproxy>">Obfsproxy</a> bridges address
+    <a href="<page docs/pluggable-transports>">Obfsproxy</a> bridges address
     this by adding another layer of obfuscation.
     </p>
 
