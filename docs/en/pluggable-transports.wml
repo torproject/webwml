@@ -43,6 +43,12 @@ transport API</a>, to make it easier to build interoperable programs.
     4-select obfs4 5-press connect" /></a>
     <!-- TODO: move alt to instructions in plain text for visually impaird users -->
 
+    <h3>How to run PTs to help censored users</h3>
+    <p>
+      obfs4 is currently the most effective transport to bypass censorship.
+      To learn how to run this transport, please visit <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy wiki page</a>.
+    </p>
+
     <hr>
 
     <h3>Currently deployed PTs</h3>
