@@ -11,28 +11,42 @@
   </div>
   <div id="maincol">
     <h1>Tor: Pluggable Transports</h1>
-    
+
     <hr>
-    
-    <h3>Sometimes the Tor network is censored, and you can't connect it.</h3>
-    
+
+    <h3>Sometimes the Tor network is censored, and you can't connect to
+    it.</h3>
+
     <br />
-    
-    <p>An increasing number of censoring countries are using Deep Packet Inspection (DPI) to classify Internet traffic flows by protocol. While Tor uses <a href="<page docs/bridges>">bridge relays</a> to get around a censor that blocks by IP address, the censor can use DPI to recognize and filter Tor traffic flows even when they connect to unexpected IP addresses.
+
+    <p>
+    An increasing number of censoring countries are using Deep Packet
+    Inspection (DPI) to classify Internet traffic flows by protocol.
+    While Tor uses <a href="<page docs/bridges>">bridge relays</a> to
+    get around a censor that blocks by IP address, the censor can use
+    DPI to recognize and filter Tor traffic flows even when they connect
+    to unexpected IP addresses.
     </p>
 
     <h3>Pluggable Transports help you bypass censorship against Tor.</h3>
-    
+
     <br />
-    
-    <p>Pluggable Transports (PT) transform the Tor traffic flow between the client and the bridge. This way, censors who monitor traffic between the client and the bridge will see innocent-looking transformed traffic instead of the actual Tor traffic. External programs can talk to Tor clients and Tor bridges using the <a href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">pluggable transport API</a>, to make it easier to build interoperable programs.
+
+    <p>
+    Pluggable Transports (PT) transform the Tor traffic flow between the client
+    and the bridge. This way, censors who monitor traffic between the client
+    and the bridge will see innocent-looking transformed traffic instead of the
+    actual Tor traffic.
+    External programs can talk to Tor clients and Tor bridges using the <a
+    href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">pluggable
+    transport API</a>, to make it easier to build interoperable programs.
     </p>
 
 
-    <h3>Here you will learn:</h3>
-    
+    <h3>Learn more:</h3>
+
     <br />
-    
+
     <ul>
         <li><a href="#user">How to use a Pluggable Transport</a></li>
         <li><a href="#operator">How to become a PT bridge operator</a></li>
@@ -44,7 +58,7 @@
     <h2 id="user">How to use PTs to bypass censorship</h2>
     <p>If connections to the Tor network are being blocked by your ISP or country, follow these instructions:
     </p>
-    
+
     <a href="$(IMGROOT)/PT/2016-07-how-to-use-PT.png"> <img src="$(IMGROOT)/PT/2016-07-how-to-use-PT.png" width="830" alt="How to use PTs: 1-download tor (send email to gettor@torproject.org); 2 select configure 3; check my isp blocks tor option; 4 select obfs4; 5 press connect" /></a>
     <!-- TODO: move alt to instructions in plain text for visually impaird users -->
 
@@ -58,27 +72,39 @@
 
     <br />
 
-    <p>Anyone can set up a PT bridge server and help provide bandwidth to users who needs it. Once you set up a transport type, your bridge will automatically advertise support for the transport in its descriptor.</p>
-
-    <p><strong>obfs4</strong> is currently the most effective transport to bypass censorship. We are asking voluntters to run bridges for it.<br />
-    To learn how to run this transport, please visit the <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy wiki page</a>.
+    <p>
+    Anyone can set up a PT bridge server and help provide bandwidth to users
+    who needs it. Once you set up a transport type, your bridge will
+    automatically advertise support for the transport in its descriptor.
     </p>
 
-    <p><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#BecomeaPTbridgeoperator">Go to our wiki</a> to learn how to set up other types of PTs.</p>
+    <p>
+    <strong>obfs4</strong> is currently the most effective transport to bypass
+    censorship. We are asking voluntters to run bridges for it.<br /> To learn
+    how to run this transport, please visit the <a
+    href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy
+    wiki page</a>.
+    </p>
+
+    <p>
+    <a
+    href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#BecomeaPTbridgeoperator">Go
+    to our wiki</a> to learn how to set up other types of PTs.
+    </p>
 
     <hr>
 
     <h2 id="developer">Become a PT developer:</h2>
 
-    <p> The links below are the main documentation that will help guide through what you should consider while designing your PT:</p>
+    <p> The links below are the main documentation for PT developers</p>
 
     <ul>
         <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/GuidelinesForDeployingPTs">Guidelines for deploying Pluggable Transports on Tor Browser</a></li>
-        <li><a href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">PT technical spec</a>​</li>
+        <li><a href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">PT technical spec</a></li>
         <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/PTEvaluationCriteria">Pluggable Transports Evaluation Criteria</a></li>
     </ul>
 
-    <p><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports">Our wiki</a> is also a great source of information, such as how to <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#Waystofollowandjointheconversation:">get in touch with the community</a>, <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/ideas">ideas for new PTs</a>, how to <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/WorkListForDevsToHelpOutWith">help with PTs already deployed</a> and much more.</p>
+    <p><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports">Our wiki</a> is also a great source of information, such as how to <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#Waystofollowandjointheconversation">get in touch with the community</a>, <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/ideas">ideas for new PTs</a>, how to <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/WorkListForDevsToHelpOutWith">help with PTs already deployed</a> and much more.</p>
 
     <hr>
 
@@ -102,7 +128,7 @@
 
         <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/meek"><b>meek</b></a></li>
             <ul>
-                <li><strong>Description:</strong> Is a transport that uses HTTP for carrying bytes and TLS for obfuscation. Traffic is relayed through a third-party server (​Google App Engine). It uses a trick to talk to the third party so that it looks like it is talking to an unblocked server.</li>
+                <li><strong>Description:</strong> Is a transport that uses HTTP for carrying bytes and TLS for obfuscation. Traffic is relayed through a third-party server (Google App Engine). It uses a trick to talk to the third party so that it looks like it is talking to an unblocked server.</li>
                 <li><strong>Language:</strong> Go</li>
                 <li><strong>Maintainer:</strong> David Fifield</li>
                 <li><strong>Evaluation:</strong> <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/MeekEvaluation">meek Evaluation</a></li>
@@ -173,9 +199,9 @@
             <li><strong>Evaluation:</strong> none</li>            
         </ul>
     </li>
-    
+
     </ul>
-    
+
     <br /><br />
 
     <p> Also see the <emph>unofficial</emph> pluggable transports <a
