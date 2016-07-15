@@ -10,85 +10,123 @@
     <a href="<page docs/pluggable-transports>">Pluggable Transports</a>
   </div>
   <div id="maincol">
-    <h2>Tor: Pluggable Transports</h2>
+    <h1>Tor: Pluggable Transports</h1>
+    
     <hr>
-
-    <p>
-    An increasing number of censoring countries are using Deep Packet
-    Inspection (DPI) to classify Internet traffic flows by protocol.
-    While Tor uses <a href="<page docs/bridges>">bridge relays</a> to
-    get around a censor that blocks by IP address, the censor can use
-    DPI to recognize and filter Tor traffic flows even when they connect
-    to unexpected IP addresses.
+    
+    <h3>Sometimes the Tor network is censored, and you can't connect it.</h3>
+    
+    <br />
+    
+    <p>An increasing number of censoring countries are using Deep Packet Inspection (DPI) to classify Internet traffic flows by protocol. While Tor uses <a href="<page docs/bridges>">bridge relays</a> to get around a censor that blocks by IP address, the censor can use DPI to recognize and filter Tor traffic flows even when they connect to unexpected IP addresses.
     </p>
 
-    <p>
-    Pluggable Transports (PT) transform the Tor traffic flow between the client
-    and the bridge. This way, censors who monitor traffic between the
-    client and the bridge will see innocent-looking transformed traffic
-    instead of the actual Tor traffic.
-    External programs can talk to Tor clients and Tor bridges using the <a
-href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">pluggable
-transport API</a>, to make it easier to build interoperable programs.
+    <h3>Pluggable Transports help you bypass censorship against Tor.</h3>
+    
+    <br />
+    
+    <p>Pluggable Transports (PT) transform the Tor traffic flow between the client and the bridge. This way, censors who monitor traffic between the client and the bridge will see innocent-looking transformed traffic instead of the actual Tor traffic. External programs can talk to Tor clients and Tor bridges using the <a href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">pluggable transport API</a>, to make it easier to build interoperable programs.
     </p>
 
-    <h3>How to use PTs to bypass censorship</h3>
-    <p>
-      If connections to the Tor network are being blocked by your ISP or
-      country, follow these instructions:
+
+    <h3>Here you will learn:</h3>
+    
+    <br />
+    
+    <ul>
+        <li><a href="#user">How to use a Pluggable Transport</a></li>
+        <li><a href="#operator">How to become a PT bridge operator</a></li>
+        <li><a href="#developer">How to become a PT developer</a></li>
+        <li><a href="#list-of-pts">List of PTs organized by their status</a></li>
+    </ul>
+    <br /><hr>
+
+    <h2 id="user">How to use PTs to bypass censorship</h2>
+    <p>If connections to the Tor network are being blocked by your ISP or country, follow these instructions:
     </p>
-    <a href="$(IMGROOT)/PT/2016-07-how-to-use-PT.png">
-    <img src="$(IMGROOT)/PT/2016-07-how-to-use-PT.png" width="830"
-    alt="How to use PTs: 1-download tor (send email to gettor@torproject.org) 2-select configure 3-check 'my isp blocks tor...'
-    4-select obfs4 5-press connect" /></a>
+    
+    <a href="$(IMGROOT)/PT/2016-07-how-to-use-PT.png"> <img src="$(IMGROOT)/PT/2016-07-how-to-use-PT.png" width="830" alt="How to use PTs: 1-download tor (send email to gettor@torproject.org); 2 select configure 3; check my isp blocks tor option; 4 select obfs4; 5 press connect" /></a>
     <!-- TODO: move alt to instructions in plain text for visually impaird users -->
 
-    <h3>How to run PTs to help censored users</h3>
-    <p>
-      obfs4 is currently the most effective transport to bypass censorship.
-      To learn how to run this transport, please visit the <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy wiki page</a>.
-    </p>
+    <br /><br />
 
     <hr>
 
+    <h2 id="operator">Become a PT brigde operator:</h2>
+
+    <h3>How to run PTs to help censored users</h3>
+
+    <br />
+
+    <p>Anyone can set up a PT bridge server and help provide bandwidth to users who needs it. Once you set up a transport type, your bridge will automatically advertise support for the transport in its descriptor.</p>
+
+    <p><strong>obfs4</strong> is currently the most effective transport to bypass censorship. We are asking voluntters to run bridges for it.<br />
+    To learn how to run this transport, please visit the <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy wiki page</a>.
+    </p>
+
+    <p><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#BecomeaPTbridgeoperator">Go to our wiki</a> to learn how to set up other types of PTs.</p>
+
+    <hr>
+
+    <h2 id="developer">Become a PT developer:</h2>
+
+    <p> The links below are the main documentation that will help guide through what you should consider while designing your PT:</p>
+
+    <ul>
+        <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/GuidelinesForDeployingPTs">Guidelines for deploying Pluggable Transports on Tor Browser</a></li>
+        <li><a href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">PT technical spec</a>​</li>
+        <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/PTEvaluationCriteria">Pluggable Transports Evaluation Criteria</a></li>
+    </ul>
+
+    <p><a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports">Our wiki</a> is also a great source of information, such as how to <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports#Waystofollowandjointheconversation:">get in touch with the community</a>, <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/ideas">ideas for new PTs</a>, how to <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/WorkListForDevsToHelpOutWith">help with PTs already deployed</a> and much more.</p>
+
+    <hr>
+
+    <h2 id="list-of-pts">List of PTs organized by status:</h2>
+
     <h3>Currently deployed PTs</h3>
-    <p>
-      These Pluggable Transports are currently deployed in Tor Browser, and you can start using them by <a href="<page download/download-easy>">downloading and using Tor Browser</a>.
+
+    <p>These Pluggable Transports are currently deployed in Tor Browser, and you can start using them by <a href="<page download/download-easy>">downloading and using Tor Browser</a>.
     </p>
 
       <ul>
-
-        <li><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt"><b>obfs4</b></a>
-        is a transport with the same features as <a href="http://www.cs.kau.se/philwint/scramblesuit/"><b>ScrambleSuit</b></a>
-        but utilizing Dan Bernstein's <a href="http://elligator.cr.yp.to/elligator-20130828.pdf">elligator2</b></a>
-        technique for public key obfuscation, and the
-        <a href="https://gitweb.torproject.org/torspec.git/tree/proposals/216-ntor-handshake.txt">ntor protocol</a>
-        for one-way authentication. This results in a faster protocol. Written in Go.
-        Maintained by Yawning Angel.
+        <li><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt"><b>obfs4</b></a></li>
+            <ul>
+            <li><strong>Description:</strong> Is a transport with the same features as <a href="http://www.cs.kau.se/philwint/scramblesuit/"><b>ScrambleSuit</b></a> but utilizing Dan Bernstein's <a href="http://elligator.cr.yp.to/elligator-20130828.pdf">elligator2</b></a> technique for public key obfuscation, and the <a href="https://gitweb.torproject.org/torspec.git/tree/proposals/216-ntor-handshake.txt">ntor protocol</a> for one-way authentication. This results in a faster protocol.</li>
+            <li><strong>Language:</strong> Go</li>
+            <li><strong>Maintainer:</strong> Yawning Angel</li>
+            <li><strong>Evaluation:</strong> <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/Obfs4Evaluation">obfs4 Evaluation</a></li>
+            </ul>
         </li>
         <!-- TODO: update the link with repo hosted on git.tpo. and make a note that this client supports obfs3 -->
 
-        <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/meek"><b>meek</b></a>
-        is a transport that uses HTTP for carrying bytes and TLS for
-        obfuscation. Traffic is relayed through a third-party server
-        (​Google App Engine). It uses a trick to talk to the third party so
-        that it looks like it is talking to an unblocked server.
-        Maintained by David Fifield.
+        <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/meek"><b>meek</b></a></li>
+            <ul>
+                <li><strong>Description:</strong> Is a transport that uses HTTP for carrying bytes and TLS for obfuscation. Traffic is relayed through a third-party server (​Google App Engine). It uses a trick to talk to the third party so that it looks like it is talking to an unblocked server.</li>
+                <li><strong>Language:</strong> Go</li>
+                <li><strong>Maintainer:</strong> David Fifield</li>
+                <li><strong>Evaluation:</strong> <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/MeekEvaluation">meek Evaluation</a></li>
+            </ul>
         </li>
         <!-- TODO: add more info about meek. include amazon and azure and maybe remove google for now -->
 
-        <li><a href="https://fteproxy.org/"><b>Format-Transforming
-        Encryption</b></a> (FTE) transforms Tor traffic to arbitrary
-        formats using their language descriptions. See the <a
-        href="https://kpdyer.com/publications/ccs2013-fte.pdf">research
-        paper</a>.</li>
+        <li><a href="https://fteproxy.org/"><b>Format-Transforming Encryption</b></a> (FTE)</li>
+            <ul>
+                <li><strong>Description:</strong> It transforms Tor traffic to arbitrary
+        formats using their language descriptions. See the <a href="https://kpdyer.com/publications/ccs2013-fte.pdf">research paper</a>.</li>
+                <li><strong>Language:</strong> Python/C++</li>
+                <li><strong>Maintainger:</strong> Kevin Dyer</li>
+                <li><strong>Evaluation:</strong> <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/FteEvaluation">FTE Evaluation</a></li>
+            </ul> 
+        </li>
 
-        <li><a href="http://www.cs.kau.se/philwint/scramblesuit/"><b>ScrambleSuit</b></a>
-        is a pluggable transport that protects
-        against follow-up probing attacks and is also capable of changing
-        its network fingerprint (packet length distribution,
-        inter-arrival times, etc.). It's part of the Obfsproxy framework.
-        Maintained by Philipp Winter.
+        <li><a href="http://www.cs.kau.se/philwint/scramblesuit/"><b>ScrambleSuit</b></a></li>
+            <ul>
+                <li><strong>Description:</strong> Is a pluggable transport that protects against follow-up probing attacks and is also capable of changing its network fingerprint (packet length distribution, inter-arrival times, etc.).</li>
+                <li><strong>Language:</strong> Python</li>
+                <li><strong>Maintainger:</strong> Philipp Winter</li>
+                <li><strong>Evaluation:</strong> <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/ScrambleSuitEvaluation"> ScrambleSuit Evaluation</a></li>
+            </ul>
         </li>
 
         <!-- TODO: it's unclear whether orbot still uses obfsclient or not;
@@ -104,78 +142,49 @@ transport API</a>, to make it easier to build interoperable programs.
 
       </ul>
 
-      <hr>
-
-      <h3>Deprecated PTs; Removed from Tor Browser</h3>
-      <br>
-      <ul>
-        <!-- TODO: add deprecation note for each PT -->
-        <li><b>Obfsproxy</b> is a Python framework for implementing new
-        pluggable transports. It uses Twisted for its networking needs, and
-        <a href="https://gitweb.torproject.org/pluggable-transports/pyptlib.git/tree/README.rst">pyptlib</a>
-        for some pluggable transport-related features. It supports the
-        <a href="https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/tree/doc/obfs2/obfs2-protocol-spec.txt">obfs2</a>
-        and
-        <a href="https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/tree/doc/obfs3/obfs3-protocol-spec.txt">obfs3</a>
-        pluggable transports. Maintained by asn.
-        </li>
-
-        <li><a href="https://crypto.stanford.edu/flashproxy/"><b>Flashproxy</b></a> turns ordinary web browsers into bridges using
-        websockets, and has a little python stub to hook Tor clients to the
-        websocket connection. See its
-        <a href="https://gitweb.torproject.org/flashproxy.git">git repository</a>,
-        and
-        <a href="https://crypto.stanford.edu/flashproxy/flashproxy.pdf">design paper</a>.
-        Maintained by David Fifield.
-        <!-- # <iframe src="//crypto.stanford.edu/flashproxy/embed.html" width="80" height="15" frameborder="0" scrolling="no"></iframe> -->
-        </li>
-
-      </ul>
-
-      <hr>
-
-      <h3>Undeployed PTs</h3>
-      <br>
+    <h3>Undeployed PTs</h3>
+    <br />
       <!-- TODO: move this section to wiki -->
       <!-- TODO: add snowflake -->
     <ul>
-
-    <li><b>StegoTorus</b> is an Obfsproxy fork that extends it to a)
-    split Tor streams across multiple connections to avoid packet size
-    signatures, and b) embed the traffic flows in traces that look like
-    HTML, JavasCript, or PDF. See its
-    <a href="https://gitweb.torproject.org/stegotorus.git">git repository</a>.
-    Maintained by Zack Weinberg. <br>
+    <li><b>StegoTorus</b></li>
+        <ul>
+            <li><strong>Description:</strong>is an Obfsproxy fork that extends it to a) split Tor streams across multiple connections to avoid packet size signatures, and b) embed the traffic flows in traces that look like HTML, JavasCript, or PDF. See its <a href="https://gitweb.torproject.org/stegotorus.git">git repository</a>.</li>
+            <li><strong>Language:</strong> C++</li>
+            <li><strong>Maintainger:</strong> Zack Weinberg</li>
+            <li><strong>Evaluation:</strong> none</li>            
+        </ul> 
     </li>
 
-    <li><b>SkypeMorph</b> transforms Tor traffic flows so they look like
-    Skype Video. See its
-    <a href="http://crysp.uwaterloo.ca/software/SkypeMorph-0.5.1.tar.gz">source code</a>
-    and
-    <a href="http://cacr.uwaterloo.ca/techreports/2012/cacr2012-08.pdf">design paper</a>.
-    Maintained by Ian Goldberg. <br>
+            <li><b>SkypeMorph</b></li>
+        <ul>
+            <li><strong>Description:</strong> It transforms Tor traffic flows so they look like Skype Video. See its <a href="http://crysp.uwaterloo.ca/software/SkypeMorph-0.5.1.tar.gz">source code</a> and <a href="http://cacr.uwaterloo.ca/techreports/2012/cacr2012-08.pdf">design paper</a>.</li>
+            <li><strong>Language:</strong></li>
+            <li><strong>Maintainger:</strong> Ian Goldberg.</li>
+            <li><strong>Evaluation:</strong> none</li>            
+        </ul>
     </li>
 
-    <li><b>Dust</b> aims to provide a packet-based (rather than
-    connection-based) DPI-resistant protocol. See its
-    <a href="https://github.com/blanu/Dust">git repository</a>.
-    Maintained by Brandon Wiley. <br>
+    <li><b>Dust</b></li>
+        <ul>
+            <li><strong>Description:</strong> It aims to provide a packet-based (rather than connection-based) DPI-resistant protocol. See its <a href="https://github.com/blanu/Dust">git repository</a>.</li>
+            <li><strong>Language:</strong> Python</li>
+            <li><strong>Maintainger:</strong> Brandon Wiley.</li>
+            <li><strong>Evaluation:</strong> none</li>            
+        </ul>
     </li>
-
+    
     </ul>
+    
+    <br /><br />
 
     <p> Also see the <emph>unofficial</emph> pluggable transports <a
     href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports">wiki
     page</a> for more pluggable transport information.</p>
 
-    <hr>
+    <p>Our goal is to have a wide variety of Pluggable Transport designs. You can check out a <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/list">full list of Pluggables Transports here</a>.</p>
 
-    <p>
-    Our goal is to have a wide variety of Pluggable Transport designs.
-    Many are at the research phase now, so it's a perfect time to play
-    with them or suggest new designs. Please let us know if you find or
-    start other projects that could be useful for making Tor's traffic
-    flows more DPI-resistant!
+    <p>Many are at the research phase now, so it's a perfect time to play with them or suggest new designs. Please let us know if you find or start other projects that could be useful for making Tor's traffic flows more DPI-resistant!
     </p>
 
   </div>
