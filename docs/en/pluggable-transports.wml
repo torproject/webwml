@@ -204,10 +204,6 @@
 
     <br /><br />
 
-    <p> Also see the <emph>unofficial</emph> pluggable transports <a
-    href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports">wiki
-    page</a> for more pluggable transport information.</p>
-
     <p>Our goal is to have a wide variety of Pluggable Transport designs. You can check out a <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/list">full list of Pluggables Transports here</a>.</p>
 
     <p>Many are at the research phase now, so it's a perfect time to play with them or suggest new designs. Please let us know if you find or start other projects that could be useful for making Tor's traffic flows more DPI-resistant!
