@@ -14,88 +14,104 @@
     <table>
       <tr>
         <td style="width:50%;">
-          <div class="name">Caspar Bowden</div>
-          <div class="caps">Director</div>
+          <div class="name">Matth Blaze</div>
+          <div class="caps">Board Chair</div>
           <p>
-          Caspar was an advocate for Tor in Europe and a specialist in
-          data protection policy, EU and US surveillance law, PET
-          research, identity management, and information ethics and
-          philosophy. He was formerly the chief privacy advisor at
-          Microsoft. He believed that people in every country deserved
-          the right to privacy irrespective of national borders. He
-          predicted US mass surveillance programs such as PRISM and was
-          vindicated after the Snowden revelations. We miss him deeply.
+            Matt is a professor in the computer and information science
+            department at the University of Pennsylvania, where he directs the
+            Distributed Systems Laboratory. He has been doing research on
+            surveillance technology for over 20 years, as well as cryptography,
+            secure systems, and public policy.
           </p>
         </td>
         <td class="beige" style="width:50%;">
-          <div class="name">Nick Mathewson</div>
-          <div class="caps">Vice-President and Director</div>
-          <p>
-            Nick is one of the original developers of Tor.  He's the
-            Chief Architect of The Tor Project, Inc.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td class="beige">
-          <div class="name">Roger Dingledine</div>
-          <div class="caps">President and Director</div>
-          <p>
-            Original developer of Tor along with Nick Mathewson and Paul
-            Syverson. Leading researcher in the anonymous communications
-            field.  Frequent speaker at conferences to advocate Tor and
-            explain what Tor is and can do. Helps coordinate academic
-            researchers.
-          </p>
-        </td>
-        <td>
-          <div class="name">Julius Mittenzwei</div>
+          <div class="name">Linus Nordberg</div>
           <div class="caps">Director</div>
           <p>
-            Germany-based lawyer and Internet activist.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="name">Ian Goldberg</div>
-          <div class="caps">Chairman of the Board</div>
-          <p>
-            Cryptographer, privacy expert, and professor; one of the
-            designers of <a
-            href="http://www.cypherpunks.ca/otr/">Off-the-Record
-            Messaging</a>.
-          </p>
-        </td>
-        <td class="beige">
-          <div class="name">Wendy Seltzer</div>
-          <div class="caps">Clerk and Director</div>
-          <p>
-            Lawyer, cyberlaw professor, and founder of <a
-            href="http://chillingeffects.org/">ChillingEffects.org</a>.
+            Linus is a longtime internet and privacy activist who has been
+            involved with Tor since 2009. Linus is a software developer who
+            specializes in network security and operating internet services.
+            Since his start at Tor he's developed code, run services, and
+            advocated for the Tor Project. He's one of the founders of the
+            Swedish digital rights organization DFRI (Digitala Fri- och
+            Rättigheter) and through that involved in the European umbrella
+            public policy organization EDRi (European Digital Rights).
           </p>
         </td>
       </tr>
       <tr>
         <td class="beige">
-          <div class="name">Meredith Hoban-Dunn</div>
-          <div class="caps">Treasurer and Audit Committee Chair</div>
+          <div class="name">Cindy Cohn</div>
+          <div class="caps">Board Treasurer</div>
           <p>
-            Meredith is an accomplished accountant, advisor, and
-            banker.  Her role is to help us make sure we're able to
-            pass our corporate audits correctly, watch for internal
-            fraud, tell us when we're doing things in a non-standard
-            way, and so on.
+            Cindy is the Executive Director of the Electronic Frontier
+            Foundation (EFF). From 2000 to 2015 she served as EFF’s Legal
+            Director as well as its General Counsel.  Cindy first became
+            involved with EFF in 1993, when EFF asked her to serve as the
+            outside lead attorney in Bernstein v. Dept. of Justice, the
+            successful First Amendment challenge to the U.S. export
+            restrictions on cryptography. Ms.  Cohn works to ensure that people
+            around the world have the right to access information and
+            communicate privately and anonymously, including mounting lawsuits
+            against NSA spying, providing legal counsel to computer programmers
+            building and developing privacy and anonymity tools, and helping to
+            develop the Necessary and Proportionate Principles applying
+            international human rights standards to digital communications
+            surveillance.
           </p>
         </td>
         <td>
-          <div class="name">Rabbi Rob Thomas</div>
+          <div class="name">Megan Price</div>
           <div class="caps">Director</div>
           <p>
-            Rob is CEO and founder of Team Cymru, and a Cymru Fellow.
-            You can learn more about Rob at the <a
-            href="http://www.team-cymru.org/">Team Cymru</a>
-            websites.
+            Megan is Executive Director of the Human Rights Data Analysis
+            Group, where she designs strategies and methods for statistical
+            analysis of human rights data for projects in places like
+            Guatemala, Colombia, and Syria. She is lead statistician on a
+            project in Guatemala in which she analyzes documents from the
+            National Police Archive. She is lead statistician and author on
+            three reports on documented deaths in Syria, commissioned by the
+            officer of the United Nations High Commissioner of Human Rights.
+            Megan is on the Technical Advisory Board for the Office of the
+            Prosecutor at the International Criminal Court, a Research Fellow
+            at the Carnegie Mellon University Center for Human Rights Science,
+            and Human Rights Editor for the Statistical Journal of the
+            International Association for Official Statistics (IAOS).
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="name">Gabriella Coleman</div>
+          <div class="caps">Board Clerk</div>
+          <p>
+            Gabriella holds the Wolfe Chair in Scientific and Technological
+            Literacy at McGill University. Trained as an anthropologist, her
+            scholarship explores the intersection of the cultures of hacking
+            and politics.  She has authored two books, Coding Freedom: The
+            Ethics and Aesthetics of Hacking (Princeton University Press, 2012)
+            and Hacker, Hoaxer, Whistleblower, Spy: The Many Faces of Anonymous
+            (Verso, 2014), which was named to Kirkus Reviews’ Best Books of
+            2014 and was awarded the Diana Forsythe Prize by the American
+            Anthropological Association. She has written for popular media
+            outlets, including the New York Times, Slate, Wired, MIT Technology
+            Review, Huffington Post, and the Atlantic.
+          </p>
+        </td>
+        <td class="beige">
+          <div class="name">Bruce Schneier</div>
+          <div class="caps">Director</div>
+          <p>
+            Bruce is an internationally renowned security technologist. He is
+            the author of 14 books as well as hundreds of articles, essays, and
+            academic papers.  His newsletter "Crypto-Gram" and blog "Schneier
+            on Security" are read by over 250,000 people.  Bruce is a fellow at
+            the Berkman Center for Internet and Society at Harvard University,
+            a Lecturer in Public Policy at the Harvard Kennedy School, a board
+            member of the Electronic Frontier Foundation (as well as the Tor
+            Project), and an advisory board member of EPIC and
+            VerifiedVoting.org.  He is also a special advisor to IBM Security
+            and the Chief Technology Officer of Resilient.
           </p>
         </td>
       </tr>
