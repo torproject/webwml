@@ -5,28 +5,28 @@
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-6.0</define-tag>
 <define-tag version-torbrowserbundledir whitespace=delete>6.0.3</define-tag>
-<define-tag version-torbrowserbundlebetadir whitespace=delete>6.5a1</define-tag>
+<define-tag version-torbrowserbundlebetadir whitespace=delete>6.5a2</define-tag>
 
 <define-tag version-torbrowserbundle whitespace=delete>6.0.3</define-tag>
 <define-tag releasedate-torbrowserbundle whitespace=delete>2016-08-02</define-tag>
-<define-tag version-torbrowserbundlebeta whitespace=delete>6.5a1</define-tag>
-<define-tag releasedate-torbrowserbundlebeta whitespace=delete>2016-06-07</define-tag>
+<define-tag version-torbrowserbundlebeta whitespace=delete>6.5a2</define-tag>
+<define-tag releasedate-torbrowserbundlebeta whitespace=delete>2016-08-03</define-tag>
 
 <define-tag version-torbrowserbundlelinux32 whitespace=delete>6.0.3</define-tag>
 <define-tag releasedate-torbrowserbundlelinux32 whitespace=delete>2016-08-02</define-tag>
 <define-tag version-torbrowserbundlelinux64 whitespace=delete>6.0.3</define-tag>
 <define-tag releasedate-torbrowserbundlelinux64 whitespace=delete>2016-08-02</define-tag>
-<define-tag version-torbrowserbundlelinux32beta whitespace=delete>6.5a1</define-tag>
-<define-tag releasedate-torbrowserbundlelinux32beta whitespace=delete>2016-06-07</define-tag>
-<define-tag version-torbrowserbundlelinux64beta whitespace=delete>6.5a1</define-tag>
-<define-tag releasedate-torbrowserbundlelinux64beta whitespace=delete>2016-06-07</define-tag>
+<define-tag version-torbrowserbundlelinux32beta whitespace=delete>6.5a2</define-tag>
+<define-tag releasedate-torbrowserbundlelinux32beta whitespace=delete>2016-08-03</define-tag>
+<define-tag version-torbrowserbundlelinux64beta whitespace=delete>6.5a2</define-tag>
+<define-tag releasedate-torbrowserbundlelinux64beta whitespace=delete>2016-08-03</define-tag>
 
 <define-tag version-torbrowserbundleosx32 whitespace=delete>6.0.3</define-tag>
 <define-tag releasedate-torbrowserbundleosx32 whitespace=delete>2016-08-02</define-tag>
 <define-tag version-torbrowserbundleosx64 whitespace=delete>6.0.3</define-tag>
 <define-tag releasedate-torbrowserbundleosx64 whitespace=delete>2016-08-02</define-tag>
-<define-tag version-torbrowserbundleosx64beta whitespace=delete>6.5a1</define-tag>
-<define-tag releasedate-torbrowserbundleosx64beta whitespace=delete>2016-06-07</define-tag>
+<define-tag version-torbrowserbundleosx64beta whitespace=delete>6.5a2</define-tag>
+<define-tag releasedate-torbrowserbundleosx64beta whitespace=delete>2016-08-03</define-tag>
 
 <define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundledir>/tor-win32-<version-win32-stable>.zip</define-tag>
 
