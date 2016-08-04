@@ -69,7 +69,7 @@
     something like this: <i>C:\Program Files\Gnu\GnuPg\gpg.exe</i>.</p>
     <p>The Tor Browser team signs the Tor Browsers. Import its key
     (0x4E2C6E8793298290) by starting <i>cmd.exe</i> and typing:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --keyserver x-hkp://pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
+    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
     <p>After importing the key, you can verify that the fingerprint
     is correct:</p>
     <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --fingerprint 0x4E2C6E8793298290</pre>
@@ -118,7 +118,7 @@
     key (0x4E2C6E8793298290) by starting the terminal (under "Applications"
     in Mac OS X) and typing:</p>
 
-    <pre>gpg --keyserver x-hkp://pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
+    <pre>gpg --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
 
     <p>After importing the key, you can verify that the fingerprint
     is correct:</p>
