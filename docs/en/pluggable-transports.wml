@@ -80,7 +80,7 @@
 
     <p>
     <strong>obfs4</strong> is currently the most effective transport to bypass
-    censorship. We are asking voluntters to run bridges for it.<br /> To learn
+    censorship. We are asking volunteers to run bridges for it.<br /> To learn
     how to run this transport, please visit the <a
     href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/obfs4proxy">obfs4proxy
     wiki page</a>.
