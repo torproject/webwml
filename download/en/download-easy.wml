@@ -76,11 +76,32 @@
 	  <p class="alt-dl">Not Using Mac? Download for <a href="#windows">Windows</a> or <a href="#linux">Linux</a></p>
         </div>
       </div>
+<!-- START LINUX 64-Bit -->
+      <div class="easy linux">
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+	  <div class="desc">
+	    <h2>Tor Browser for Linux (64-Bit)</h2>
+	    <em>Version <version-torbrowserbundlelinux64> - Linux (64-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
+	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
+	  </div>
+	  <form class="downloads">
+	    <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>
+	    <select name="language" id="lin-tbb64" class="lang">
+#include <lang.wmi>
+	    </select>
+	    <div class="sig" style="margin-bottom: 5px;">
+	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
+	      (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+	  </form>
+	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
+	</div>
+      </div>
 <!-- START LINUX -->
       <div id="linux" class="easy linux">
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <div class="desc">
-	    <h2>Tor Browser for Linux</h2>
+	    <h2>Tor Browser for Linux (32-Bit)</h2>
 	    <em>Version <version-torbrowserbundlelinux32> - Linux (32-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
 	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br />
 	    <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
@@ -93,27 +114,6 @@
 	    <div class="sig" style="margin-bottom: 5px;">
 	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
 	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	  </form>
-	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
-	</div>
-      </div>
-<!-- START LINUX 64-Bit -->
-      <div class="easy linux">
-	<div class="package" style="padding-top: 13px; border-top: 0px;">
-	  <div class="desc">
-	    <h2>Tor Browser for 64-Bit Linux</h2>
-	    <em>Version <version-torbrowserbundlelinux64> - Linux (64-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
-	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
-	  </div>
-	  <form class="downloads">
-	    <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>
-	    <select name="language" id="lin-tbb64" class="lang">
-#include <lang.wmi>
-	    </select>
-	    <div class="sig" style="margin-bottom: 5px;">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
 	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
