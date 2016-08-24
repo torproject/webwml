@@ -1523,7 +1523,7 @@ href="http://www.crowdstrike.com/community-tools/index.html#tool-79">proposed
 What does that mean?</a></h3>
 
 <p>
-Tor installs a text file called torrc that contains configuration
+Tor uses a text file called torrc that contains configuration
 instructions for how your Tor program should behave. The default
 configuration should work fine for most Tor users.
 </p>
@@ -1536,11 +1536,11 @@ and select "Show Package Contents" before the Tor Browser directories become
 visible.
 </p>
 <p>
-Tor puts the torrc file in <code>/usr/local/etc/tor/torrc</code> if you compiled tor from source, and <code>/etc/tor/torrc</code> or <code>/etc/torrc</code> if you installed a pre-built package.</p>
+Tor looks for the torrc file in <code>/usr/local/etc/tor/torrc</code> if you compiled tor from source, and <code>/etc/tor/torrc</code> or <code>/etc/torrc</code> if you installed a pre-built package.</p>
 
 <p>
-Once you've changed your torrc, you will need to restart tor for the
-changes to take effect. (For advanced users, note that
+Once you've created or changed your torrc file, you will need to restart
+tor for the changes to take effect. (For advanced users, note that
 you actually only need to send Tor a HUP signal, not actually restart
 it.)
 </p>
