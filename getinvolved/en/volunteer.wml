@@ -680,11 +680,6 @@ meetings around the world.</li>
     Onions</a> research paper.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#exitmap_improvements">Exitmap Improvements</a></i>
-    </p>
-
     <a id="project-doctor"></a>
     <h3>DocTor (<a
     href="https://gitweb.torproject.org/doctor.git">code</a>, <a
@@ -877,41 +872,6 @@ us about what part you want to work on.
 As part of the application process for this project, please contribute a
 nontrivial patch to Tor -- ideally, one that will affect some part of
 the codebase that you want to work on.
-    </p>
-    </li>
-
-    <a id="exitmap_improvements"></a>
-    <li>
-    <b>Exitmap Improvements</b>
-    <br>
-    Language: <i>Python</i>
-    <br>
-    Likely Mentors: <i>Philipp (phw)</i>
-    <br><br>
-    <p>
-The Tor Project makes use of the Python tool <a
-href="https://gitweb.torproject.org/user/phw/exitmap.git/">Exitmap</a> to
-systematically scan for malicious and misbehaving exit relays.  Once such a
-relay is found, it is assigned the BadExit flag which prevents clients from
-selecting the relay as last hop in their circuit.
-    </p>
-
-    <p>
-Exitmap supports scanning modules which implement a specific scan over
-exit relays.  Examples are the DNS module which checks for DNS poisoning
-or the patching check module which looks out for tampered file
-downloads.
-    </p>
-
-    <p>
-This project is meant to extend exitmap in several ways.  First, it
-should be made fully autonomous.  That means that exitmap should be able
-to run in the background, periodically fetch new relay descriptors, and
-have a smart algorithm which keeps scanning all exit relays
-periodically.  Second, exitmap should be able to emulate some user
-interaction and dynamically "explore" the web in order to detect
-tampering.  Third, unit tests should be added for existing and new code
-in order to make the code base more robust.
     </p>
     </li>
 
