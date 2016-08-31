@@ -1,0 +1,127 @@
+## translation metadata
+# Revision: $Revision: 25666 $
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (Controller)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+<h1>Internet Freedom Nonprofit Seeks Experienced Chief Financial and Grants Officer</h1>
+<h2>(Posted August 29, 2016)</h2>
+
+<p>The Tor Project, Inc., is a 501(c)(3) organization headquartered in
+Seattle that provides the technical infrastructure for privacy
+protection over the Internet. With paid staff and contractors of around
+25 technologists and operational support people, plus many volunteers
+all over the world who contribute to our work, the Tor Project is funded
+in part by government grants and contracts, as well as by individual,
+foundation, and corporate donations. Our mission statement: “To advance
+human rights and freedoms by creating and deploying free and open
+anonymity and privacy technologies, supporting their unrestricted
+availability and use, and furthering their scientific and popular
+understanding.”</p>
+<p>We are currently seeking an Experienced Chief Financial and Grants
+Officer. This new, senior level position will report directly to the
+Executive Director and will manage the offsite Accounting Manager.
+</p>
+<h1 id="major-responsibilities-and-duties">The Chief Financial and
+Grants Officer will serve as the Tor Project's senior grants officer.
+Grant-related tasks include, but are not limited to:</h1>
+<ul>
+
+<li>Oversee grants and contracts to ensure compliance with funder
+requirements and progress toward annual goals.</li>
+<li>Maintain positive relationships & communications with applicable
+government agencies.</li>
+<li>reate an interactive database of all grants and contracts in
+order to monitor and track them.</li>
+<li>Manage invoicing and billing of federal contracts to ensure full
+payment is received.</li>
+<li>Communicate the status of grant activities and progress toward
+objectives to stakeholders.</li>
+<li>Maintain files and documentation for our federal grants and
+contracts to ensure accuracy and compliance.</li>
+
+</ul>
+<h2 id="required-knowledge-skills-abilities">In addition, the Chief
+Financial and Grants Officer will serve as the Tor Project's senior
+finance officer. Finance-related tasks for this position include, but
+are not limited to:
+</h2>
+<ul>
+<li>Maintain accounting controls by preparing and recommending
+policies and procedures; review and upgrade as needed to ensure accuracy
+in accounting activities and compliance with any regulatory
+changes.</li>
+<li>Monitor and project cash flow.</li>
+<li>Provide oversight to ensure accounts payable and receivables are
+coded and prepared correctly.</li>
+<li>Work with outside auditors and CPA firm to furnish requisite data
+to ensure timely completion of annual audits and tax filings.</li>
+<li>Work closely with the Executive Director to prepare budgets and
+financial reports.</li>
+<li>Track expenditures and income of various programs to ensure
+financial sustainability.</li>
+</ul>
+<h2 id="education-and-work-experience-requirements"> The person we seek
+should have the following qualities, skills, and abilities:</h2>
+<ul>
+<li>5+ years of experience with federal grants and contract
+acquisition and management</li>
+<li>5+ years of experience overseeing a nonprofit organization's
+accounting function; other relevant experience may substitute for a
+portion of this required experience</li>
+<li>Bachelor’s degree in business, finance, accounting, or a closely
+related field is ideal but not required; advanced graduate degree in one
+of the above fields is preferred; CPA license a plus</li>
+<li>Working knowledge of not-for-profit accounting in accordance with
+U.S. Generally Accepted Accounting Principles, Subpart F, of the new
+Uniform Grant Guidance (formerly OMB Circular A-133) and appropriate
+Code of Federal Regulations</li>
+<li>Knowledge of the grants management software landscape, and
+advanced skill and experience with at least one grants management
+software package</li>
+<li>Advanced skill and experience using QuickBooks, Sage (Peachtree),
+or some other organizational accounting program</li>
+<li>Alignment with Tor Project’s mission and a passion for privacy
+and encryption technology preferred</li>
+<li>Experience with FOSS (free/open-source software) preferred</li>
+<li>Proficient understanding of and ability to use technology;
+willingness and ability to learn and use new technologies</li>
+<li>Hard working and highly organized with superior attention to
+detail</li>
+</ul>
+<p>The Tor Project's workforce is smart, passionate, and dedicated.
+Experience working with open source communities and/or a commitment to
+Internet civil liberties are added pluses for any candidate applying for
+this position.</p>
+
+<p>Flexible salary, depending on experience. The Tor Project has a
+competitive benefits package, including a generous PTO policy; 14 paid
+holidays per year (including the week between Christmas and New Year's,
+when the office is closed); health, vision, dental, disability, and life
+insurance paid in full for employee; flexible work schedule; and
+occasional travel opportunities. The Tor Project, Inc., is an equal
+opportunity, affirmative action employer.</p>
+
+<p>This is a full-time position based in our sunny office in Pioneer
+Square. To apply, send a cover letter and your resume to
+hr@torproject.org with “Chief Financial and Grants Officer” in the
+subject line. Inquiries about whether this job can be done remotely or
+part-time will not be answered. No phone calls please!</p>
+
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
+
