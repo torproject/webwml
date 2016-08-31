@@ -12,25 +12,25 @@
 	<div id="maincol">
 <h1>The Tor Project is always looking for more great people to join our team!</h1>
 
-<p>At the moment, we don't have any official open positions. Please check back
-soon, though! In the meantime, you may want to glance at our
-<a href="<page getinvolved/volunteer>">volunteers</a> page.
-
-#<p>Specifically, we're looking for the following people currently:
-#</p>
-#<ul>
-#<li><a href="<page about/jobs-ooni>">Core OONI Developer</a></li>
-##<li><a href="<page about/jobs-editor>">Writer/Editor</a></li>
-##<li><a href="<page about/jobs-admin-assistant>">Administrative Assistant</a></li>
-#</ul>
-#</p>
+#<p>At the moment, we don't have any official open positions. Please check back
+#soon, though! In the meantime, you may want to glance at our
+#<a href="<page getinvolved/volunteer>">volunteers</a> page.
+#
+<p>Specifically, we're looking for the following people currently:
+</p>
+<ul>
+<li><a href="<page about/jobs-grants-officer>">Chief Financial and Grants Officer</a></li>
+#<li><a href="<page about/jobs-editor>">Writer/Editor</a></li>
+#<li><a href="<page about/jobs-admin-assistant>">Administrative Assistant</a></li>
+</ul>
+</p>
 
 <p>In the past, we looked for the following people:</p>
 
 <ul>
-<li>Core developer</a></li>
-<li>Support assistants and translators</a></li>
-<li>Browser hacker</a></li>
+<li>Core developer</li>
+<li>Support assistants and translators</li>
+<li>Browser hacker</li>
 <li>Pluggable transport developer</li>
 <li>Lead Automation Engineer</li>
 <li>Firefox/Thunderbird Extension Developer</li>
