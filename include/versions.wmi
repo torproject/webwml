@@ -1,7 +1,7 @@
 <define-tag version-stable whitespace=delete>0.2.8.7</define-tag>
 <define-tag version-alpha whitespace=delete>0.2.9.2-alpha</define-tag>
 
-<define-tag version-win32-stable whitespace=delete>0.2.8.6</define-tag>
+<define-tag version-win32-stable whitespace=delete>0.2.8.7</define-tag>
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-6.0</define-tag>
 <define-tag version-torbrowserbundledir whitespace=delete>6.0.5</define-tag>
