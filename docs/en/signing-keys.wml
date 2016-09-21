@@ -103,8 +103,8 @@
     pub   4096R/4B7C3223 2013-07-30
           Key fingerprint = 35CD 74C2 4A9B 15A1 9E1A  81A1 9437 3AA9 4B7C 3223
     uid                  Georg Koppen &lt;gk@torproject.org&gt;
-    sub   4096R/24690903 2015-07-20 [expires: 2016-07-19]
-    sub   4096R/631602F4 2015-07-20 [expires: 2016-07-19]
+    sub   4096R/0x2F7477373D6B000D 2016-08-01 [expires: 2017-09-11]
+    sub   4096R/0xAA602CC00C257CF7 2016-08-01 [expires: 2017-09-11]
 
     pub   4096R/D0220E4B 2014-03-19
           Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
@@ -121,6 +121,7 @@
     uid   Tor Browser Developers (signing key) &lt;torbrowser@torproject.org&gt;
     sub   4096R/0x2E1AC68ED40814E0 2014-12-15 [expires: 2017-08-25]
     sub   4096R/0x7017ADCEF65C2036 2014-12-15 [expires: 2017-08-25]
+    sub   4096R/0xD1483FA6C3C07136 2016-08-24 [expires: 2018-08-24]
 
     pub   2048R/0x42E86A2A11F48D36 2011-05-11 [expires: 2017-05-09]
           Key fingerprint = B744 17ED DF22 AC9F 9E90  F491 42E8 6A2A 11F4 8D36

@@ -80,6 +80,7 @@
     uid                  Tor Browser Developers (signing key) <torbrowser@torproject.org>
     sub   4096R/F65C2036 2014-12-15
     sub   4096R/D40814E0 2014-12-15
+    sub   4096R/C3C07136 2016-08-24
 </pre>
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
@@ -95,7 +96,8 @@
     <p>Currently valid subkey fingerprints are:
     <pre>
     5242 013F 02AF C851 B1C7  36B8 7017 ADCE F65C 2036
-    BA1E E421 BBB4 5263 180E  1FC7 2E1A C68E D408 14E0</pre></p>
+    BA1E E421 BBB4 5263 180E  1FC7 2E1A C68E D408 14E0
+    A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136</pre></p>
     <p>
     Notice that there is a warning because you haven't assigned a trust
     index to this person. This means that GnuPG verified that the key made
@@ -131,7 +133,8 @@
           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
     uid                  Tor Browser Developers (signing key) <torbrowser@torproject.org>
     sub   4096R/F65C2036 2014-12-15
-    sub   4096R/D40814E0 2014-12-15</pre>
+    sub   4096R/D40814E0 2014-12-15
+    sub   4096R/C3C07136 2016-08-24</pre>
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
     package and its signature to your Downloads folder, run:</p>
@@ -152,7 +155,8 @@
     Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290</pre> <p> Currently valid subkey fingerprints are:
     <pre>
     5242 013F 02AF C851 B1C7  36B8 7017 ADCE F65C 2036
-    BA1E E421 BBB4 5263 180E  1FC7 2E1A C68E D408 14E0</pre></p>
+    BA1E E421 BBB4 5263 180E  1FC7 2E1A C68E D408 14E0
+    A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136</pre></p>
     <p>
     Notice that there is a warning because you haven't assigned a trust
     index to this person. This means that GnuPG verified that the key made
