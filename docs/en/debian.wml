@@ -18,7 +18,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
          'experimental-0.2.9.x': {
@@ -28,7 +27,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
        },
@@ -40,7 +38,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
          'experimental-0.2.9.x': {
@@ -50,7 +47,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
        },
@@ -239,7 +235,6 @@ I run
 <option value="sid">Debian unstable (sid)</option>
 <option value="precise">Ubuntu Precise Pangolin</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
-<option value="wily">Ubuntu Wily Werewolf</option>
 <option value="xenial">Ubuntu Xenial Xerus</option>
 </select>
 and want
