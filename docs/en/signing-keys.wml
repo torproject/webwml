@@ -19,8 +19,9 @@
     Nicolas Vigier (0xD0220E4B) and Linus Nordberg (0x23291265)
     sign the Tor Browser releases.</li>
     <li>Roger Dingledine (0x28988BF5 and 0x19F78451) or Nick Mathewson
-    (0x165733EA, or its subkey 0x8D29319A) sign the Tor source code
-    tarballs.</li>
+     (0xFE43009C4607B1FB with signing key 0x6AFEE6D49E92B601)
+     sign the Tor source code tarballs. (Nick's old key was 0x165733EA
+     with signing key 0x8D29319A; it signed older tarballs.)</li>
     <li>Tor Project Archive (0x886DDD89) signs the deb.torproject.org
     repositories and archives.</li>
     <li>Damian Johnson (0x9ABBEEC6) signs Arm releases.</li>
@@ -42,6 +43,15 @@
           Key fingerprint = F65C E37F 04BA 5B36 0AE6  EE17 C218 5258 19F7 8451
     uid                  Roger Dingledine &lt;arma@torproject.org&gt;
     sub   4096R/B0E5067D 2015-06-10 [expires: 2016-06-09]
+
+    pub   4096R/FE43009C4607B1FB 2016-09-21 [expires: 2019-09-21]
+          Key fingerprint = 2133 BC60 0AB1 33E1 D826  D173 FE43 009C 4607 B1FB
+    uid                          Nick Mathewson &lt;nickm@alum.mit.edu&gt;
+    uid                          Nick Mathewson &lt;nickm@wangafu.net&gt;
+    uid                          Nick Mathewson &lt;nickm@torproject.org&gt;
+    uid                          Nick Mathewson &lt;nickm@freehaven.net&gt;
+    sub   4096R/6AFEE6D49E92B601 2016-09-23 [expires: 2018-09-23]
+    sub   4096R/91DDED0286AC8BFF 2016-09-23 [expires: 2018-09-23]
 
     pub   3072R/165733EA 2004-07-03
           Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
