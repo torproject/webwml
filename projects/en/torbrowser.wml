@@ -17,7 +17,7 @@
       <div class="tbb box">
 #include "side.wmi"
   <!-- END SIDECOL -->
-    <div class="pjtitle"><h2>What is the Tor Browser?</h2></div>
+    <div class="pjtitle"><h2>What is Tor Browser?</h2></div>
     <div class="pjtext">
       <p>The <strong>Tor</strong> software protects
       you by bouncing your communications around a distributed network of
@@ -25,7 +25,7 @@
       watching your Internet connection from learning what sites you visit,
       it prevents the sites you visit from learning your physical location,
       and it lets you access sites which are blocked.</p>
-      <p>The <strong>Tor Browser</strong> lets you use Tor on
+      <p><strong>Tor Browser</strong> lets you use Tor on
       Windows, Mac OS X, or Linux without needing to install any software.
       It can run off a USB flash drive, comes with a pre-configured web
       browser to protect your anonymity, and is self-contained
@@ -42,7 +42,7 @@
     </div>
     <!-- Commenting out the videos until support updates them to use TB 4.0
     <div class="pjvids">
-      <h3>Quick Videos on how to use the Tor Browser</h3>
+      <h3>Quick Videos on how to use Tor Browser</h3>
     </div>
     <div class="vidtable">
       <table>
@@ -624,7 +624,7 @@
       of web pages you visited and any cookies will be deleted.</p>
       <p><a href="$(IMGROOT)/tbb-screenshot3.jpg"><img src="$(IMGROOT)/tbb-screenshot3.jpg" alt="Screenshot of
       Firefox" width="860" height="645"></a></p>
-      <p>To use the Tor Browser again, double click on the "Start Tor Browser" application.</p>
+      <p>To use Tor Browser again, double click on the "Start Tor Browser" application.</p>
       <p>Remember that Tor anonymizes the origin of your traffic,
       and it encrypts everything inside the Tor network, but <a
       href="<wikifaq>#ExitEavesdroppers">it can't encrypt your traffic
@@ -643,7 +643,7 @@
       email the <a href="<page about/contact>">help desk</a>.</p>
       <br><br>
       <h3>Comments and suggestions</h3>
-      <p>The Tor Browser is under development.
+      <p>Tor Browser is under development.
       To discuss improvements and submit comments, please use the <a
       href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk">tor-talk</a>
       mailing list.</p>
@@ -651,7 +651,7 @@
       <h3>More information</h3>
       <p><strong><em>What is Tor and why do I need it?</em></strong> 
       <br>To learn more about Tor, visit the <a href="<page index>">Tor Project website</a>.</p>
-      <p><strong><em>What is in the Tor Browser?</em></strong>
+      <p><strong><em>What is in Tor Browser?</em></strong>
       <br>It contains Tor, a modified <a
       href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox
       ESR</a>, Torbutton, TorLauncher,

@@ -215,14 +215,14 @@ exactly as you are used to.</p>
 
 <ol>
 
-<li><b>Use the Tor Browser</b>
+<li><b>Use Tor Browser</b>
 <p>Tor does not protect all of your computer's Internet traffic when you
 run it. Tor only protects your applications that are properly configured
 to send their Internet traffic through Tor. To avoid problems with
 Tor configuration, we strongly recommend you use the <a href="<page
 projects/torbrowser>">Tor Browser</a>. It is pre-configured to
 protect your privacy and anonymity on the web as long as you're browsing
-with the Tor Browser itself. Almost any other web browser configuration
+with Tor Browser itself. Almost any other web browser configuration
 is likely to be unsafe to use with Tor.</p>
 </li>
 <li><b>Don't torrent over Tor</b>
@@ -238,10 +238,10 @@ traffic</a> this way, you also slow down the entire Tor network for everyone els
 </p>
 </li>
 <li><b>Don't enable or install browser plugins</b>
-<p>The Tor Browser will block browser plugins such as Flash, RealPlayer,
+<p>Tor Browser will block browser plugins such as Flash, RealPlayer,
 Quicktime, and others: they can be manipulated into revealing your IP
 address.  Similarly, we do not recommend installing additional addons or
-plugins into the Tor Browser, as these may bypass Tor or otherwise harm
+plugins into Tor Browser, as these may bypass Tor or otherwise harm
 your anonymity and privacy.</p>
 </li>
 
@@ -250,7 +250,7 @@ your anonymity and privacy.</p>
 href="<page about/overview>#thesolution">to
 and within the Tor network</a>, but the encryption of your traffic to
 the final destination website depends upon on that website. To help
-ensure private encryption to websites, the Tor Browser includes
+ensure private encryption to websites, Tor Browser includes
 <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>
 to force the use of HTTPS encryption with major websites that
 support it. However, you should still watch the browser URL bar to
@@ -265,7 +265,7 @@ and HTTPS relate</a>.
 </li>
 
 <li><b>Don't open documents downloaded through Tor while online</b>
-<p>The Tor Browser will warn you before automatically opening
+<p>Tor Browser will warn you before automatically opening
 documents that are handled by external applications. <b>DO NOT
 IGNORE THIS WARNING</b>.  You should be very careful when downloading
 documents via Tor (especially DOC and PDF files, unless you use the PDF

@@ -18,7 +18,7 @@ experience safer and better.</p>
 src="$(IMGROOT)/icon-TorBrowser.jpg" alt="TorBrowser Icon" width="75"
 height="75"></a>
 <div class="projectdesc"><div class="name"><a href="<page
-projects/torbrowser>">Tor Browser</a></div> <p>The Tor Browser
+projects/torbrowser>">Tor Browser</a></div> <p>Tor Browser
 contains everything you need to safely browse the Internet. This
 package requires no installation. Just extract it and run.</p>
 </div></div>

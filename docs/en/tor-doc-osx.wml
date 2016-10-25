@@ -19,8 +19,8 @@
     are done.
     </h2>
 
-    <p>Even though the Tor Browser comes with a regular Tor, it will only run
-    as long as you keep the Tor Browser open. The following instructions will
+    <p>Even though Tor Browser comes with a regular Tor, it will only run
+    as long as you keep Tor Browser open. The following instructions will
     set up Tor without graphical interface or a browser. Many people prefer
     this over TBB when they host hidden services or relay traffic for other Tor
     users.  <hr>

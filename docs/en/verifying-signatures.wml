@@ -67,7 +67,7 @@
     you will need to tell Windows the full path to the GnuPG program. If
     you installed GnuPG with the default values, the path should be
     something like this: <i>C:\Program Files\Gnu\GnuPg\gpg.exe</i>.</p>
-    <p>The Tor Browser team signs the Tor Browsers. Import its key
+    <p>The Tor Browser team signs Tor Browser releases. Import its key
     (0x4E2C6E8793298290) by starting <i>cmd.exe</i> and typing:</p>
     <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
     <p>After importing the key, you can verify that the fingerprint
@@ -116,7 +116,7 @@
     </p>
 
     <p>The next step is to use GnuPG to import the key that signed
-    your package. The Tor Browser team signs the Tor Browsers. Import its
+    your package. The Tor Browser team signs Tor Browser releases. Import its
     key (0x4E2C6E8793298290) by starting the terminal (under "Applications"
     in Mac OS X) and typing:</p>
 
@@ -189,7 +189,7 @@
        property</a> of Tor Browser 3.0 and later. Anyone can build
        Tor Browser on their own machine and produce a binary that is
        bit-for-bit identical to the binary we offer on the download page.
-       Fortunately, it is not necessary for everyone to build the Tor Browser
+       Fortunately, it is not necessary for everyone to build Tor Browser
        locally to get this security. Verifying and comparing the signed list
        of <a href="https://en.wikipedia.org/wiki/Cryptographic_hash">hashes</a>
        will confirm that multiple people have built Tor Browsers
