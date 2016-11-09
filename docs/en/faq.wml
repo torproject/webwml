@@ -2192,7 +2192,7 @@ too.
     second). For example, you might want to choose "BandwidthRate 10 MBytes"
     for 10 megabytes per second (a fast connection), or "BandwidthRate 500
     KBytes" for 500 kilobytes per second (a decent cable connection).
-    The minimum BandwidthRate setting is 20 kilobytes per second.
+    The minimum BandwidthRate setting is 75 kilobytes per second.
     </li>
     <li>
     BandwidthBurst is a pool of bytes used to fulfill requests during
