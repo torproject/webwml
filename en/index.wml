@@ -2,7 +2,7 @@
 # Revision: $Revision$
 # Translation-Priority: 1-high
 
-#include "head.wmi" TITLE="Tor Project | Privacy Online" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Tor Project | Privacy Online" CHARSET="UTF-8" DONATION_BANNER="true"
 
 
 <div id="home">

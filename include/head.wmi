@@ -33,6 +33,7 @@
    # begin WML to generate css/js paths
    <ifneq "$(STYLESHEET)" "" "<link href="$(DOCROOT)/$(STYLESHEET)" rel="stylesheet">">
    <ifeq "$(STYLESHEET)" "" "<link href="$(DOCROOT)/css/master.min.css" rel="stylesheet">">
+   <ifeq "$(DONATION_BANNER)" "true" "<link href="$(DOCROOT)/css/donation-banner.css" rel="stylesheet">">
 
    #<link href="css/master.min.css" rel="stylesheet">
    <!--[if lte IE 8]>
@@ -48,6 +49,25 @@
    # end WML to generate css/js paths
 </head>
 <body>
+<!-- Insert donation banner if flag is true -->
+<ifeq "$(DONATION_BANNER)" "true" "
+    <div id="banner-wrapper">
+        <div id="banner-contents-container">
+            <div id="banner-tagline"><span><noscript>Protecting the Privacy of Millions Every Day</noscript></span></div>
+            <div id="banner-slogan"><span>Tor: Powering Digital Resistance</span></div>
+            <div id="banner-mozilla"><span>Give today and Mozilla will match your gift!</span></div>
+            <a id="banner-donate-button-link"
+               href="https://www.torproject.org/donate/donate-pdr-hp">
+                <div id="banner-donate-button">
+                    <span>Donate Now!&#160;&#9654;</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="banner-spacer"></div>
+    <script src="js/donation_banner.js"></script>
+
+">
 <div id="wrap">
   <div id="header">
     <h1 id="logo"><a href="<page index>">Tor</a></h1>
