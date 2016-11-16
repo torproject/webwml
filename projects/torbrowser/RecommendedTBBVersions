@@ -12,5 +12,11 @@
 "6.5a3-MacOS",
 "6.5a3-Windows",
 "6.5a3-hardened",
-"6.5a3-hardened-Linux"
+"6.5a3-hardened-Linux",
+"6.5a4",
+"6.5a4-Linux",
+"6.5a4-MacOS",
+"6.5a4-Windows",
+"6.5a4-hardened",
+"6.5a4-hardened-Linux"
 ]
