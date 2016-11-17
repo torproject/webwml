@@ -220,7 +220,6 @@ blockquote footer{
 }
 footer.footer{
 	margin-top: 20px;
-	position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the height of the footer here */
