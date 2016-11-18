@@ -118,7 +118,7 @@
                 -->
               <td>
                 <div class="project">
-                <a href="<page projects/obfsproxy>"><img
+                <a href="<page docs/pluggable-transports>"><img
                 src="$(IMGROOT)/icon-Obfsproxy.jpg" alt="Pluggable Transports Icon"></a>
                 <h3><a href="<page docs/pluggable-transports>">Pluggable Transports</a></h3>
                 <p>Pluggable transports help you circumvent censorship.</p>

@@ -17,7 +17,6 @@
     Tor project. There are three primary ways of contributing:</p>
 
     <ol>
-    <li>During our end-of-the-year (2015) fundraising campaign, you can get a special, campaign t-shirt or other cool swag by <a href="<page donate/donate>">donating</a> to the Tor Project.</li>
     <li>Operate a fast <a href="<page docs/tor-doc-relay>">Tor relay</a>
     that's been running for the past two months: you are eligible if you
     allow exits to port 80 and you average 250 KBytes/s traffic, or if you're
@@ -33,14 +32,7 @@
     </ol>
 
     <p>
-    The <a href="https://weather.torproject.org/">Tor Weather</a>
-    system watches all of the relays. If you have a valid email address
-    (lightly obfuscated is acceptable) in your ContactInfo field,
-    we'll automatically email you when your relay earns you a t-shirt.
-    </p>
-
-    <p>
-    If you get such a mail, or you've done something else cool, email
+    If you're operating a fast relay or you've done something else cool, email
     us at tshirt@torproject.org with the details. (We want to make sure
     our shirts help outreach happen all around the world, so please
     understand if we can't send you 5 shirts for your 5 excellent relays.)

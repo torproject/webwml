@@ -39,7 +39,7 @@
 <tr class="beige">
 <td align="center"><img src="$(IMGROOT)/distros/centos.png" alt="CentOS"> <img src="$(IMGROOT)/distros/fedora.png" alt="Fedora"></td>
 <td>CentOS and Fedora</td>
-<td colspan="2"><a href="<page docs/rpms>">repository packages</a> </td>
+<td colspan="2">yum install tor / dnf install tor</td>
 <td> <a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a> </td>
 </tr>
 

@@ -873,8 +873,8 @@ executive
 
     <p>No, it doesn't. You need to use a separate program that understands
     your application and protocol and knows how to clean or "scrub" the data
-    it sends. The Tor Browser tries to keep application-level data,
-    like the user-agent string, uniform for all users. The Tor Browser can't
+    it sends. Tor Browser tries to keep application-level data,
+    like the user-agent string, uniform for all users. Tor Browser can't
     do anything about text that you type into forms, though. <a
     href="<page download/download-easy>#warning">Be
     careful and be smart.</a>
@@ -1060,7 +1060,7 @@ from the graphical interface. Open "Files" (Unity's explorer), open
 Preferences-> Behavior Tab -> Set "Run executable text files when they are
 opened" to "Ask every time", then OK.
 </p>
-<p>You can also start the Tor Browser from the command line by running </p>
+<p>You can also start Tor Browser from the command line by running </p>
 <pre>./start-tor-browser</pre>
 <p>
 from inside the Tor Browser directory.
@@ -1104,7 +1104,7 @@ issue.
 Firefox extensions?</a></h3>
 
 <p>
-The Tor Browser is free software, so there is nothing preventing you from
+Tor Browser is free software, so there is nothing preventing you from
 modifying it any way you like. However, we do not recommend installing any
 additional Firefox add-ons with Tor Browser. Add-ons can break
 your anonymity in a number of ways, including browser fingerprinting and
@@ -1112,7 +1112,7 @@ bypassing proxy settings.
 </p>
 <p>
 Some people have suggested we include ad-blocking software or
-anti-tracking software with the Tor Browser. Right now, we do not
+anti-tracking software with Tor Browser. Right now, we do not
 think that's such a good idea. Tor Browser aims to provide
 sufficient privacy that additional add-ons to stop ads and trackers are
 not necessary. Using add-ons like these may cause some sites to break, which
@@ -1185,7 +1185,7 @@ really bad idea.
 Our efforts to work with the Chrome team to <a
 href="https://blog.torproject.org/blog/google-chrome-incognito-mode-tor-and-fingerprinting">add
 missing APIs</a> were unsuccessful, unfortunately. Currently, it is impossible
-to use other browsers and get the same level of protections as when using the
+to use other browsers and get the same level of protections as when using
 Tor Browser.
 </p>
 
@@ -1482,14 +1482,6 @@ href="http://www.crowdstrike.com/community-tools/index.html#tool-79">proposed
     Exitpolicy reject *:*
     BridgeRelay 1  # only add this line if you want to be a bridge
     </pre>
-    <p>
-    If you've installed <a
-    href="<page projects/obfsproxy-debian-instructions>#instructions">Obfsproxy</a>,
-    you'll need to add one more line:
-    </p>
-    <pre>
-    ServerTransportPlugin obfs3 exec /usr/bin/obfsproxy managed
-    </pre>
 
     <hr>
 
@@ -1531,7 +1523,7 @@ href="http://www.crowdstrike.com/community-tools/index.html#tool-79">proposed
 What does that mean?</a></h3>
 
 <p>
-Tor installs a text file called torrc that contains configuration
+Tor uses a text file called torrc that contains configuration
 instructions for how your Tor program should behave. The default
 configuration should work fine for most Tor users.
 </p>
@@ -1544,11 +1536,11 @@ and select "Show Package Contents" before the Tor Browser directories become
 visible.
 </p>
 <p>
-Tor puts the torrc file in <code>/usr/local/etc/tor/torrc</code> if you compiled tor from source, and <code>/etc/tor/torrc</code> or <code>/etc/torrc</code> if you installed a pre-built package.</p>
+Tor looks for the torrc file in <code>/usr/local/etc/tor/torrc</code> if you compiled tor from source, and <code>/etc/tor/torrc</code> or <code>/etc/torrc</code> if you installed a pre-built package.</p>
 
 <p>
-Once you've changed your torrc, you will need to restart tor for the
-changes to take effect. (For advanced users, note that
+Once you've created or changed your torrc file, you will need to restart
+tor for the changes to take effect. (For advanced users, note that
 you actually only need to send Tor a HUP signal, not actually restart
 it.)
 </p>
@@ -2200,7 +2192,7 @@ too.
     second). For example, you might want to choose "BandwidthRate 10 MBytes"
     for 10 megabytes per second (a fast connection), or "BandwidthRate 500
     KBytes" for 500 kilobytes per second (a decent cable connection).
-    The minimum BandwidthRate setting is 20 kilobytes per second.
+    The minimum BandwidthRate setting is 75 kilobytes per second.
     </li>
     <li>
     BandwidthBurst is a pool of bytes used to fulfill requests during
@@ -2374,7 +2366,7 @@ on
     <a href="<page docs/faq-abuse>#TypicalAbuses">issues you might
 encounter</a>
     if you use the default exit policy, and then read Mike Perry's
-    <a href="<blog>running-exit-node">tips
+    <a href="<blog>tips-running-exit-node">tips
     for running an exit node with minimal harassment</a>.
     </p>
 
@@ -2581,7 +2573,7 @@ short)
     <p>
     Several countries, including China and Iran, have found ways to
     detect and block connections to Tor bridges.
-    <a href="<page projects/obfsproxy>">Obfsproxy</a> bridges address
+    <a href="<page docs/pluggable-transports>">Obfsproxy</a> bridges address
     this by adding another layer of obfuscation.
     </p>
 
@@ -3383,9 +3375,9 @@ diversity,
     a web browser that is preconfigured to
     help you control the risks to your privacy and anonymity while browsing
     the Internet. Not only are the above technologies disabled to prevent
-    identity leaks, the Tor Browser also includes browser extensions like
+    identity leaks, Tor Browser also includes browser extensions like
     NoScript and Torbutton, as well as patches to the Firefox source
-    code. The full design of the Tor Browser can be read <a
+    code. The full design of Tor Browser can be read <a
     href="https://www.torproject.org/projects/torbrowser/design/">here</a>.
     In designing a safe, secure solution for browsing the web with Tor,
     we've discovered that configuring <a href="#TBBOtherBrowser">other

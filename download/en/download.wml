@@ -14,8 +14,8 @@
 <define-tag button-win-tbb64>Currently Unused</define-tag>
 <define-tag button-osx-tbb32>Tor Browser</define-tag>
 #<!-- Comment out until it's available again. -EC <define-tag button-osx-tbb64>64-bit</define-tag> -->
-<define-tag button-lin-tbb32>Tor Browser</define-tag>
-<define-tag button-lin-tbb64>64-bit</define-tag>
+<define-tag button-lin-tbb32>Tor Browser (32-Bit)</define-tag>
+<define-tag button-lin-tbb64>Tor Browser (64-Bit)</define-tag>
 
 #include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
 
@@ -121,16 +121,6 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 #<!-- NOTE - change language enabled button text at the top of this page -->
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <form class="downloads">
-	    <a class="button lin-tbb32" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb32></span></a>
-	    <select name="language" id="lin-tbb32" class="lang">
-#include <lang.wmi>
-	    </select>
-	    <div class="sig">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-<!--	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux32alpha>-dev-en-US.tar.gz">Download Unstable</a> (<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux32alpha>-dev-en-US.tar.gz.asc">sig</a>)<p>-->
-
 	    <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>
 	    <select name="language" id="lin-tbb64" class="lang">
 #include <lang.wmi>
@@ -141,6 +131,17 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	    </div>
 	    <a class="additional" href="<page projects/torbrowser>#downloads-alpha">Download Unstable</a><br />
 <!--	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux64alpha>-dev-en-US.tar.gz">Download Unstable</a> (<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux64alpha>-dev-en-US.tar.gz.asc">sig</a>)-->
+
+	    <a class="button lin-tbb32" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb32></span></a>
+	    <select name="language" id="lin-tbb32" class="lang">
+#include <lang.wmi>
+	    </select>
+	    <div class="sig">
+	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
+	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+<!--	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux32alpha>-dev-en-US.tar.gz">Download Unstable</a> (<a href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux32alpha>-dev-en-US.tar.gz.asc">sig</a>)<p>-->
+
 	  </form>
 
 	  <h2>Tor Browser</h2>
@@ -214,7 +215,7 @@ custom configurations. All an apt-get or yum install away.</p>
 you are used to.</p>
 
 <ol>
-<li><b>Use the Tor Browser</b>
+<li><b>Use Tor Browser</b>
 
 <p>
 
@@ -223,7 +224,7 @@ run it. Tor only protects your applications that are properly configured to
 send their Internet traffic through Tor. To avoid problems with Tor
 configuration, we strongly recommend you use the
 <a href="<page projects/torbrowser>">Tor Browser</a>. It is pre-configured to protect
-your privacy and anonymity on the web as long as you're browsing with the Tor
+your privacy and anonymity on the web as long as you're browsing with Tor
 Browser itself. Almost any other web browser configuration is likely to be
 unsafe to use with Tor.
 
@@ -248,10 +249,10 @@ traffic</a> this way, you also slow down the entire Tor network for everyone els
 
 <p>
 
-The Tor Browser will block browser plugins such as Flash, RealPlayer,
+Tor Browser will block browser plugins such as Flash, RealPlayer,
 Quicktime, and others: they can be manipulated into revealing your IP address.
 Similarly, we do not recommend installing additional addons or plugins into
-the Tor Browser, as these may bypass Tor or otherwise harm your anonymity and
+Tor Browser, as these may bypass Tor or otherwise harm your anonymity and
 privacy.
 
 </p>
@@ -266,7 +267,7 @@ Tor will encrypt your traffic
 <a href="<page about/overview>#thesolution">to and
 within the Tor network</a>, but the encryption of your traffic to the final
 destination website depends upon on that website. To help ensure private
-encryption to websites, the Tor Browser includes <a
+encryption to websites, Tor Browser includes <a
 href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> to force the
 use of HTTPS encryption with major websites that support it. However, you
 should still watch the browser URL bar to ensure that websites you provide
@@ -285,7 +286,7 @@ and HTTPS relate</a>.
 
 <p>
 
-The Tor Browser will warn you before automatically opening documents that are
+Tor Browser will warn you before automatically opening documents that are
 handled by external applications. <b>DO NOT IGNORE THIS WARNING</b>.  You
 should be very careful when downloading documents via Tor (especially DOC and
 PDF files, unless you use the PDF viewer that's built into Tor Browser) as

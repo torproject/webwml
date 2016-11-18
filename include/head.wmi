@@ -14,6 +14,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="author" content="The Tor Project, Inc.">
+   <meta name="description" content="Tor is a free software that prevents people from learning your location or browsing habits by letting you communicate anonymously on the Internet. It also helps you bypass censorship online. If you can't open the website, email gettor@torproject.org for instruction on how to get Tor Browser.">
    <meta name="keywords" content="anonymity online, tor, tor project, censorship circumvention, traffic analysis, anonymous communications research">
    <meta property="og:image" content="https://www.torproject.org/images/tor-logo.jpg">
 
@@ -39,21 +40,7 @@
    <![endif]-->
  #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
    # end WML to generate css/js paths 
-   <!--[if !(lt IE 8)]><!-->
-   <script type="text/javascript">
-     var banner_config = {
-       localAssets: true, //
-     };
 
-     (function(){
-       var e = document.createElement('script'); e.type='text/javascript'; e.async = true;
-       e.src = 'rule-41/widget.min.js';
-       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s);
-     })();
-   </script>
-   <!--<![endif]-->
-
- 
 </head>
 <body>
 <div id="wrap">

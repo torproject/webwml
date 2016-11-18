@@ -1,0 +1,105 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (OONI UX Designer)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+  <div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+  <div id="maincol">
+  <h1>UX Designer - OONI</h1>
+  <h2>(Posted October 13, 2016)</h2>
+
+    <p>The <a href="https://ooni.torproject.org">Open Observatory
+    of Network Interference (OONI)</a>, a project under The Tor
+    Project that aims to uncover internet censorship by monitoring
+    its prevalence around the world, is seeking a UX designer to
+    improve the UI of its desktop (web based) and mobile
+    client.</p>
+
+    <p>We are looking for someone that can:
+
+    <ol>
+    <li>
+    Review the overall UX flow and provide suggestions for improvements to
+    the application flow.
+    </li>
+
+    <li>Provide suggestions for improvements to the layout of the
+    mobile and desktop client. </li>
+
+    <li>Construct design assets and make the visual style of the
+    desktop and mobile client more coherent. </li>
+    </ol>
+
+    </p>
+
+    <p>
+    You can find screenshots of the current views for the current
+    desktop client here:
+    <a href="https://github.com/TheTorProject/ooni-wui/issues/4#issuecomment-252314702">https://github.com/TheTorProject/ooni-wui/issues/4#issuecomment-252314702</a>
+    </p>
+
+    <p>
+    You can find screenshots of the current views for the mobile client here:
+    <a href="https://github.com/measurement-kit/netprobe-ios/issues/43">https://github.com/measurement-kit/netprobe-ios/issues/43</a>
+    </p>
+
+    <p>
+    This is a contractor position for a fixed bid project. The rate for the
+    work will be negotiated and is going to be between 5k-10k USD.
+    </p>
+
+    <p>
+    We are a dynamic team that works from different places around
+    the world. Most of our coordination happens via the internet,
+    on public issue trackers (github) and more real time
+    coordination happens via IRC (irc.oftc.net #ooni). Ideally you
+    would be comfortable working with these tools.
+    </p>
+
+    <p>
+    Many of us are based out of Italy (mainly Rome), so we
+    would prefer somebody that is located closest, but this
+    is not a strict requirement.
+    </p>
+
+    <p>
+    If this project interests you, please reach out to us and we can discuss it in
+    more detail. We know that other projects related to OONI are hoping to hire
+    designers in the near term, so we would love it if this
+    <a href="https://www.youtube.com/watch?v= 5kiNJcDG4E0">could
+    be the beginning of a beautiful friendship</a>.
+    </p>
+
+    <p>When applying for this position please include:
+
+    <ol>
+    <li>A link to your portfolio containing relevant work</li>
+
+    <li>Your Curriculum Vitae</li>
+    </ol>
+    </p>
+
+    <p>Our contact information is:
+
+    <ul>
+    <li>email: jobs@openobservatory.org</li>
+    <li>encrypted email: contact@openobservatory.org (PGP: 4C15 DDA9 96C6 C0CF 48BD 3309 6B29 43F0 0CB1 77B7)</li>
+    <li>irc: irc.oftc.net #ooni</li>
+    </ul>
+    </p>
+
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>

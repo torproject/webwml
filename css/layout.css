@@ -660,20 +660,6 @@ table tr img {
 	padding-bottom: 8px;
 }
 
-.howto th, .howto td {
-	padding: 2px;
-}
-
-.howto th {
-	font-weight: bold;
-	text-align: center;
-}
-
-.howto img {
-	border: 0;
-	margin: 0;
-}
-
 #download-donate {
 	background-attachment: scroll;
 	background-clip: border-box;

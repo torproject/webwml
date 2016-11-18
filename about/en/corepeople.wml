@@ -78,6 +78,9 @@
           explain what Tor is and can do. Helps coordinate academic
           researchers. Runs one of the directory authorities.</dd>
 
+          <dt>Arthur Edelstein, Developer</dt>
+          <dd>Works on Tor Browser and Torbutton.</dd>
+
           <dt>Nima Fatemi, Advocate</dt>
           <dd>Usability team, Farsi advocate, <a
           href="https://libraryfreedomproject.org/">Library Freedom
@@ -126,6 +129,11 @@
           <dd>Onion services developer, core member of Tor development
           team, and lead developer of Torsocks 2.0.</dd>
 
+          <dt>Allen Gunn, Tor Community Meetings</dt>
+          <dd>Gunner co-organizes and helps lead the <a
+          href="https://trac.torproject.org/projects/tor/wiki/org/meetings">Tor
+          Dev Meetings</a>, and advises on Tor community matters.</dd>
+
           <dt>Marie Gutbub, Advocate</dt>
           <dd>Helps educate the world about the value of Tor, especially
           in Europe.</dd>
@@ -147,10 +155,6 @@
           <dd>Lead maintainer and developer on <a
           href="https://bridges.torproject.org/">BridgeDB</a>. Used to
           work on OONI.</dd>
-
-          <dt>Leiah Jansen, Designer</dt>
-          <dd>Helps make all of our cool logos, designs, stickers, graphics,
-          and so on. Invented the awesome new "roots" Tor logo.</dd>
 
           <dt>Dr. Rob Jansen, Researcher</dt>
           <dd>Lead developer for <a
@@ -251,16 +255,15 @@
           <dd>Researcher at University College London who works
           on security, performance, and usability of Tor. Original creator
           of the <a href="<page projects/torbrowser>">Tor Browser
-          Bundle</a> (now just called the Tor Browser). You can find
+          Bundle</a> (now just called Tor Browser). You can find
           out more about his work on his
           <a href="http://www.cs.ucl.ac.uk/staff/s.murdoch/">professional
           website</a>.</dd>
 
           <dt>Linus Nordberg, Advocate, Developer</dt>
-          <dd>Swedish advocate for Tor, anonymous communications research,
-          and employee at <a href="http://nordu.net/">NORDUnet</a>. Works
-          on implementing IPv6 in Tor, and helps with build
-          automation. Runs one of the directory authorities.</dd>
+          <dd>Swedish advocate for Tor, anonymous communications
+          research. Works on implementing IPv6 in Tor, and helps with
+          build automation.  Runs one of the directory authorities.</dd>
 
           <dt>Donncha O'Cearbhaill, Developer</dt>
           <dd>Onion services developer, OnionBalance developer,
@@ -273,8 +276,7 @@
           <dt>Mike Perry, Tor Browser and Tor Performance
           Developer</dt> <dd>Lead developer on Tor Browser, developer
           of <a href="<page docs/torbutton/index>">Torbutton</a>, author of <a
-          href="https://gitweb.torproject.org/torflow.git/tree/README">TorFlow</a>.
-          Runs one of the directory authorities.</dd>
+          href="https://gitweb.torproject.org/torflow.git/tree/README">TorFlow</a>.</dd>
 
           <dt>Fabio Pietrosanti, Advocate and Developer</dt>
           <dd>Originally involved with Tor2Web, and is now our connection
@@ -289,6 +291,11 @@
           <dt>Sina Rabbani, Advocate</dt>
           <dd>Does trainings and outreach. Runs one of the directory
           authorities.</dd>
+
+          <dt>Tom Ritter, Developer</dt>
+          <dd>Maintains <a
+          href="https://consensus-health.torproject.org/">Consensus
+          Health</a> and runs one of the bandwidth authorities.</dd>
 
           <dt>Leif Ryge, Developer</dt>
           <dd>Works on security analysis, designer of "bananaphone"
@@ -310,6 +317,12 @@
           <dt>Mark Smith, Developer</dt>
           <dd>Part of the Tor Browser team &mdash; develops
           and maintains Tor Launcher and Torbutton.</dd>
+
+          <dt>David Stainton, Developer</dt>
+          <dd>David contributes code to txtorcon (onion service
+          endpoint), authored roflcopter (tor control port filter
+          daemon) and HoneyBadger (TCP injection attack detector). He
+          also analyzes the Tor network for attacks.</dd>
 
           <dt>Shari Steele, Executive Director</dt>
           <dd>Shari comes to the Tor Project with more than 22 years
@@ -343,9 +356,10 @@
           <dd>Working on build automation, particularly around the Tor
           Browser.</dd>
 
-          <dt>Tim Wilson-Brown, Developer</dt>
-          <dd>Onion services developer, and core member of Tor development
-          team.</dd>
+          <dt>Tim Wilson-Brown, Developer, Researcher</dt>
+          <dd>Onion services developer, and core member of Tor
+          development team. Researches Tor network measurement and onion
+          service scalability.</dd>
 
           <dt>Philipp Winter, Researcher</dt>
           <dd>Understands how to manipulate and circumvent Tor network
@@ -353,6 +367,9 @@
           href="http://www.cs.kau.se/philwint/scramblesuit/">ScrambleSuit</a>,
           and part of the pluggable transports team. Post-doc at
           Princeton.</dd>
+
+          <dt>Erin Wyatt, HR Manager</dt>
+          <dd>Employee benefits, policy questions, and baked goods.</dd>
 
           <dt>Yawning, Developer</dt>
           <dd>Lead developer on obfs4proxy and other pluggable transports.

@@ -64,8 +64,8 @@ meetings around the world.</li>
     or how to use it.  Some have already started on <a
     href="https://media.torproject.org/video/">Tor's Media server</a>,
     <a
-    href="http://www.howcast.com/videos/90601-How-To-Circumvent-an-Internet-Proxy">Howcast</a>,
-    and <a href="http://www.youtube.com/thetorproject">YouTube</a>.</li>
+    href="http://www.howcast.com/videos/90601-How-To-Circumvent-an-Internet-Proxy/">Howcast</a>,
+    and <a href="http://www.youtube.com/c/thetorproject">YouTube</a>.</li>
     <li>Create a poster around a theme, such as "Tor for Freedom!"</li>
     <li>Create a t-shirt design that incorporates "<a
     href="https://check.torproject.org/">Congratulations! You are using
@@ -124,7 +124,7 @@ meetings around the world.</li>
         <td>Core</td>
         <td>C</td>
         <td>Heavy</td>
-        <td>nickm, athena, arma</td>
+        <td>nickm, athena, arma, dgoulet, asn, teor</td>
       </tr>
 
       <tr>
@@ -132,7 +132,7 @@ meetings around the world.</li>
         <td>Bundle</td>
         <td>Javascript, XUL, Scripting</td>
         <td>Heavy</td>
-        <td>mikeperry, Pearl Crescent</td>
+        <td>mikeperry, Pearl Crescent, GeKo</td>
       </tr>
 
       <tr>
@@ -155,7 +155,7 @@ meetings around the world.</li>
         <td><a href="#project-orbot">Orbot</a></td>
         <td>User Interface</td>
         <td>Java</td>
-        <td>Moderage</td>
+        <td>Moderate</td>
         <td>n8fr8</td>
       </tr>
 
@@ -260,15 +260,15 @@ meetings around the world.</li>
         <td>Client Service</td>
         <td>Java</td>
         <td>Moderate</td>
-        <td>karsten</td>
+        <td>karsten, iwakeh</td>
       </tr>
 
       <tr>
         <td><a href="#project-atlas">Atlas</a></td>
         <td>Client Service</td>
         <td>JavaScript</td>
-        <td>None</td>
-        <td></td>
+        <td>Moderate</td>
+        <td>irl</td>
       </tr>
 
       <tr>
@@ -283,8 +283,8 @@ meetings around the world.</li>
         <td><a href="#project-onionoo">Onionoo</a></td>
         <td>Backend Service</td>
         <td>Java</td>
-        <td>Light</td>
-        <td>karsten</td>
+        <td>Heavy</td>
+        <td>karsten, iwakeh</td>
       </tr>
 
       <tr>
@@ -301,14 +301,6 @@ meetings around the world.</li>
         <td>Python</td>
         <td>Light</td>
         <td>atagar</td>
-      </tr>
-
-      <tr>
-        <td><a href="#project-weather">Weather</a></td>
-        <td>Client Service</td>
-        <td>Python</td>
-        <td>None</td>
-        <td>kaner</td>
       </tr>
 
       <tr>
@@ -374,6 +366,30 @@ meetings around the world.</li>
         <td>Light</td>
         <td>arma, nickm</td>
       </tr>
+
+      <tr>
+        <td><a href="#project-collector">CollecTor</a></td>
+        <td>Backend Service</td>
+        <td>Java</td>
+        <td>Heavy</td>
+        <td>karsten, iwakeh</td>
+      </tr>
+
+      <tr>
+        <td><a href="#project-metrics-lib">metrics-lib</a></td>
+        <td>Library</td>
+        <td>Java</td>
+        <td>Heavy</td>
+        <td>karsten, iwakeh</td>
+      </tr>
+
+      <tr>
+        <td><a href="#project-exonerator">ExoneraTor</a></td>
+        <td>Client Service</td>
+        <td>Java</td>
+        <td>Light</td>
+        <td>karsten, iwakeh</td>
+      </tr>
     </table>
 
     <sub>
@@ -401,7 +417,7 @@ meetings around the world.</li>
     <a id="project-torbrowser"></a>
     <h3><a href="<page projects/torbrowser>">Tor Browser</a> (<a
     href="https://gitweb.torproject.org/tor-browser.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Torbutton&component=Tor+Launcher&component=Tor+Browser&component=Tor+bundles%2Finstallation&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Applications%2FTor+Browser&component=Applications%2FTorbutton&component=Applications%2FTor+Launcher&component=Applications%2FTor+bundles%2Finstallation&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority">bug
     tracker</a>, <a href="https://www.torproject.org/projects/torbrowser/design/">design doc</a>)</h3>
 
     <p>
@@ -433,7 +449,7 @@ meetings around the world.</li>
     <a id="project-nyx"></a>
     <h3><a href="https://www.atagar.com/arm/">Nyx</a> (<a
     href="https://gitweb.torproject.org/nyx.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=arm&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FNyx&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -452,7 +468,7 @@ meetings around the world.</li>
     <a id="project-orbot"></a>
     <h3><a href="https://guardianproject.info/apps/orbot/">Orbot</a> (<a
     href="https://gitweb.torproject.org/orbot.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Orbot&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Applications%2FOrbot&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -465,15 +481,15 @@ meetings around the world.</li>
     <h3><a href="https://tails.boum.org/">The Amnesic Incognito Live System</a> (<a
     href="https://git-tails.immerda.ch/tails/">code</a>, <a
     href="https://labs.riseup.net/code/projects/tails">bug
-    tracker</a>, <a href="https://tails.boum.org/doc">documentation</a>, <a
+    tracker</a>, <a href="https://tails.boum.org/doc/">documentation</a>, <a
     href="https://tails.boum.org/contribute/design/">design</a>, <a
-    href="https://tails.boum.org/contribute">contribute</a>)</h3>
+    href="https://tails.boum.org/contribute/">contribute</a>)</h3>
 
     <p>
     The Amnesic Incognito Live System is a live CD/USB distribution
     preconfigured so that everything is safely routed through Tor and leaves no
     trace on the local system. This is a merger of the Amnesia and <a
-    href="http://www.anonymityanywhere.com/incognito/">Incognito</a> projects,
+    href="https://web.archive.org/web/20080512054152/http://anonymityanywhere.com/incognito/">Incognito</a> projects,
     and still under very active development.
     </p>
 
@@ -490,7 +506,7 @@ meetings around the world.</li>
     <a id="project-torsocks"></a>
     <h3>Torsocks (<a
     href="https://gitweb.torproject.org/torsocks.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Torify&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FTorsocks&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -502,7 +518,7 @@ meetings around the world.</li>
     <a id="project-tormessenger"></a>
     <h3><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a> (<a
     href="https://gitweb.torproject.org/tor-messenger-build.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Tor+Messenger">bug tracker</a>)</h3>
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=merge_ready&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Applications%2FTor+Messenger&order=priority">bug tracker</a>)</h3>
 
     <p>
     Tor Messenger is a cross-platform chat program that aims to be secure by default and sends all of its traffic over Tor.
@@ -518,21 +534,10 @@ meetings around the world.</li>
     TorBirdy is Torbutton for Thunderbird and related Mozilla mail clients.
     </p>
 
-    <a id="project-obfsproxy"></a>
-    <h3><a href="<page projects/obfsproxy>">Obfsproxy</a> (<a
-    href="https://gitweb.torproject.org/pluggable-transports/obfsproxy.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Pluggable+transport&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    A proxy that shapes Tor traffic, making it harder for censors to detect and
-    block Tor. This has both a C and python implementation.
-    </p>
-
     <a id="project-flash-proxy"></a>
     <h3><a href="https://crypto.stanford.edu/flashproxy/">Flash Proxy</a> (<a
     href="https://gitweb.torproject.org/flashproxy.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Flashproxy">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Archived%2FFlashproxy&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -542,7 +547,7 @@ meetings around the world.</li>
 
     <a id="project-chutney"></a>
     <h3>Chutney (<a href="https://gitweb.torproject.org/chutney.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Chutney">bug
+    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Core+Tor%2FChutney&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -551,7 +556,7 @@ meetings around the world.</li>
     </p>
 
     <a id="project-shadow"></a>
-    <h3><a href="https://shadow.cs.umn.edu/">Shadow</a> (<a
+    <h3><a href="http://shadow.github.io/">Shadow</a> (<a
     href="https://github.com/shadow">code</a>, <a
     href="https://github.com/shadow/shadow/issues">bug
     tracker</a>)</h3>
@@ -561,7 +566,7 @@ meetings around the world.</li>
     Tor software as a plug-in. Shadow is open-source software that enables
     accurate, efficient, controlled, and repeatable Tor experimentation.
     For another simulator, see <a
-    href="http://crysp.uwaterloo.ca/software/exptor/">ExperimenTor</a>.
+    href="https://crysp.uwaterloo.ca/software/exptor/">ExperimenTor</a>.
     </p>
 
     <a id="project-stem"></a>
@@ -581,7 +586,7 @@ meetings around the world.</li>
     </p>
 
     <a id="project-txtorcon"></a>
-    <h3><a href="https://txtorcon.readthedocs.org">Txtorcon</a> (<a
+    <h3><a href="https://txtorcon.readthedocs.io/en/latest/">Txtorcon</a> (<a
     href="https://github.com/meejah/txtorcon">code</a>, <a
     href="https://github.com/meejah/txtorcon/issues">bug tracker</a>)</h3>
 
@@ -613,15 +618,13 @@ meetings around the world.</li>
     </p>
 
     <a id="project-metrics"></a>
-    <h3><a href="https://metrics.torproject.org/">Metrics</a> (code: <a
-    href="https://gitweb.torproject.org/metrics-db.git">db</a>, <a
+    <h3><a href="https://metrics.torproject.org/">Metrics</a> (<a
     href="https://gitweb.torproject.org/metrics-web.git">web</a>)</h3>
 
     <p>
     Processing and analytics of consensus data, provided to users via the
     metrics portal. This has been under active development for several years by
-    Karsten Loesing. See also <a
-    href="https://gitweb.torproject.org/torperf.git">TorPerf</a>.
+    Karsten Loesing.
     </p>
 
     <a id="project-atlas"></a>
@@ -647,7 +650,7 @@ meetings around the world.</li>
     <a id="project-compass"></a>
     <h3><a href="https://compass.torproject.org/">Compass</a> (<a
     href="https://gitweb.torproject.org/compass.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Compass&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Metrics%2FCompass&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -658,7 +661,7 @@ meetings around the world.</li>
     <a id="project-onionoo"></a>
     <h3><a href="https://onionoo.torproject.org/">Onionoo</a> (<a
     href="https://gitweb.torproject.org/onionoo.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Onionoo&order=priority">bug tracker</a>)</h3>
+    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Metrics%2FOnionoo&order=priority">bug tracker</a>)</h3>
 
     <p>
     Onionoo is a JSON based protocol to learn information about currently
@@ -677,15 +680,10 @@ meetings around the world.</li>
     Onions</a> research paper.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#exitmap_improvements">Exitmap Improvements</a></i>
-    </p>
-
     <a id="project-doctor"></a>
     <h3>DocTor (<a
     href="https://gitweb.torproject.org/doctor.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=DocTor&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FDocTor&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -698,7 +696,7 @@ meetings around the world.</li>
     <a id="project-weather"></a>
     <h3><a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Weather">Weather</a> (<a
     href="https://gitweb.torproject.org/weather.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Tor+Weather&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Metrics%2FTor+Weather&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -711,7 +709,7 @@ meetings around the world.</li>
     <a id="project-gettor"></a>
     <h3><a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/GetTor">GetTor</a> (<a
     href="https://gitweb.torproject.org/gettor.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=GetTor&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Applications%2FGetTor&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -722,7 +720,7 @@ meetings around the world.</li>
     <a id="project-torcheck"></a>
     <h3><a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/TorCheck">TorCheck</a> (<a
     href="https://gitweb.torproject.org/check.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Tor+Check&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Applications%2FTor+Check&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -730,9 +728,9 @@ meetings around the world.</li>
     </p>
 
     <a id="project-bridgedb"></a>
-    <h3><a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/BridgeDB">BridgeDB</a> (<a
+    <h3><a href="https://pythonhosted.org/bridgedb/">BridgeDB</a> (<a
     href="https://gitweb.torproject.org/bridgedb.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=BridgeDB&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Obfuscation%2FBridgeDB&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -742,8 +740,8 @@ meetings around the world.</li>
 
     <a id="project-ooni-probe"></a>
     <h3><a href="https://ooni.torproject.org/">Ooni Probe</a> (<a
-    href="https://gitweb.torproject.org/ooni-probe.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Ooni&order=priority">bug
+    href="https://github.com/TheTorProject/ooni-probe/">code</a>, <a
+    href="https://github.com/TheTorProject/ooni-probe/issues">bug
     tracker</a>)</h3>
 
     <p>
@@ -764,7 +762,7 @@ meetings around the world.</li>
     <a id="project-torflow"></a>
     <h3><a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/TorFlow">TorFlow</a> (<a
     href="https://gitweb.torproject.org/torflow.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Torflow&order=priority">bug
+    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Metrics%2FTorflow&order=priority">bug
     tracker</a>)</h3>
 
     <p>
@@ -798,6 +796,32 @@ meetings around the world.</li>
     also a set of scripts to generate the website from Latex (bibtex). If
     we're missing any important papers, please let us know!
     </p>
+
+    <a id="project-collector"></a>
+    <h3><a href="https://collector.torproject.org/">CollecTor</a>
+    (<a href="https://gitweb.torproject.org/collector.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FCollecTor&order=priority">bug tracker</a>)</h3>
+
+    <p>CollecTor is the Tor network data archive that powers other
+    services like <a href="#project-metrics">Metrics</a> and
+    <a href="#project-onionoo">Onionoo</a>.</p>
+
+    <a id="project-metrics-lib"></a>
+    <h3>metrics-lib
+    (<a href="https://gitweb.torproject.org/metrics-lib.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2Fmetrics-lib&order=priority">bug tracker</a>)</h3>
+
+    <p>metrics-lib is a Java library that processes Tor network data
+    provided by <a href="#project-collector">CollecTor</a> or from other
+    sources.</p>
+
+    <a id="project-exonerator"></a>
+    <h3><a href="https://exonerator.torproject.org/">ExoneraTor</a>
+    (<a href="https://gitweb.torproject.org/exonerator.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FExoneraTor&order=priority">bug tracker</a>)</h3>
+
+    <p>ExoneraTor is a service that answers the question whether there was
+    a Tor relay running on a given IP address on a given date.</p>
 
     <a id="Coding"></a>
     <a id="Summer"></a>
@@ -848,41 +872,6 @@ us about what part you want to work on.
 As part of the application process for this project, please contribute a
 nontrivial patch to Tor -- ideally, one that will affect some part of
 the codebase that you want to work on.
-    </p>
-    </li>
-
-    <a id="exitmap_improvements"></a>
-    <li>
-    <b>Exitmap Improvements</b>
-    <br>
-    Language: <i>Python</i>
-    <br>
-    Likely Mentors: <i>Philipp (phw)</i>
-    <br><br>
-    <p>
-The Tor Project makes use of the Python tool <a
-href="https://gitweb.torproject.org/user/phw/exitmap.git/">Exitmap</a> to
-systematically scan for malicious and misbehaving exit relays.  Once such a
-relay is found, it is assigned the BadExit flag which prevents clients from
-selecting the relay as last hop in their circuit.
-    </p>
-
-    <p>
-Exitmap supports scanning modules which implement a specific scan over
-exit relays.  Examples are the DNS module which checks for DNS poisoning
-or the patching check module which looks out for tampered file
-downloads.
-    </p>
-
-    <p>
-This project is meant to extend exitmap in several ways.  First, it
-should be made fully autonomous.  That means that exitmap should be able
-to run in the background, periodically fetch new relay descriptors, and
-have a smart algorithm which keeps scanning all exit relays
-periodically.  Second, exitmap should be able to emulate some user
-interaction and dynamically "explore" the web in order to detect
-tampering.  Third, unit tests should be added for existing and new code
-in order to make the code base more robust.
     </p>
     </li>
 
@@ -1104,7 +1093,7 @@ verification issues</a> as part of the application process.
 
 The <a href="https://panopticlick.eff.org">Panopticlick project by the EFF</a>
 revolutionized how people think about <a
-href="https://panopticlick.eff.org/browser-uniqueness.pdf">browser
+href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">browser
 fingerprinting</a>, both by developing tests and metrics to measure browser
 fingerprintability, and by crowdsourcing the evaluation and contribution of
 individual browser features to overall fingerprintability.

@@ -18,17 +18,15 @@ var software = {
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
-         'experimental-0.2.8.x': {
+         'experimental-0.2.9.x': {
                      'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
        },
@@ -40,17 +38,15 @@ var software = {
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
-         'experimental-0.2.8.x': {
+         'experimental-0.2.9.x': {
                      'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
-                     'wily':    [ 'wily'],
                      'xenial':  [ 'xenial'],
                      },
        },
@@ -239,7 +235,6 @@ I run
 <option value="sid">Debian unstable (sid)</option>
 <option value="precise">Ubuntu Precise Pangolin</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
-<option value="wily">Ubuntu Wily Werewolf</option>
 <option value="xenial">Ubuntu Xenial Xerus</option>
 </select>
 and want
@@ -259,7 +254,7 @@ version
 <div id="sig">
 <p>Then add the gpg key used to sign the packages by running the following commands at your command prompt:</p>
 <blockquote><pre>
-gpg --keyserver keys.gnupg.net --recv 886DDD89
+gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 </pre></blockquote>
 </div>
@@ -308,7 +303,7 @@ in place of &lt;DISTRIBUTION&gt;.
 Then add the gpg key used to sign the packages by running the following
 commands at your command prompt:
 <pre style="margin: 1.5em 0 1.5em 2em">
-gpg --keyserver keys.gnupg.net --recv 886DDD89
+gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 </pre>
 Now refresh your sources, running the following command (as root) at your
@@ -365,7 +360,7 @@ download/download>#packagediff">development branch</a> of Tor instead
 to your <tt>/etc/apt/sources.list</tt> file:<br />
 <pre style="margin: 1.5em 0 1.5em 2em">
 deb     http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb     http://deb.torproject.org/torproject.org tor-experimental-0.2.6.x-&lt;DISTRIBUTION&gt; main
+deb     http://deb.torproject.org/torproject.org tor-experimental-0.2.9.x-&lt;DISTRIBUTION&gt; main
 </pre>
 where you again substitute the name of your distro (lenny,
 sid, saucy, ...) in place of
@@ -375,7 +370,7 @@ sid, saucy, ...) in place of
 <p>
 Then run the following commands at your command prompt:
 <pre style="margin: 1.5em 0 1.5em 2em">
-gpg --keyserver keys.gnupg.net --recv 886DDD89
+gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 apt-get update
 apt-get install tor deb.torproject.org-keyring
@@ -403,7 +398,7 @@ deb-src http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 
 # For the unstable version.
 deb-src http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb-src http://deb.torproject.org/torproject.org tor-experimental-0.2.6.x-&lt;DISTRIBUTION&gt; main
+deb-src http://deb.torproject.org/torproject.org tor-experimental-0.2.9.x-&lt;DISTRIBUTION&gt; main
 </pre>
 Substitute the name of your distro (wheezy, sid, trusty, ...) in place of &lt;DISTRIBUTION&gt;. Now refresh your sources by running (as root):
 <pre style="margin: 1.5em 0 1.5em 2em">

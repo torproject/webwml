@@ -15,11 +15,11 @@
 #
 # url - the path to the wml page, as used the the <page> tag. This tag ensures
 # that links will point to the current language if supported, and alternately
-# the english version 
+# the english version
 #
 # txt - the link text to be displayed. Different translations will
-# need to supply alternate txt 
- 
+# need to supply alternate txt
+
 <:
   my $sidenav;
   $sidenav = [
@@ -47,8 +47,8 @@
           {'url'  => 'https://metrics.torproject.org/',
            'txt'  => 'Metrics Portal',
           },
-          {'url'  => 'projects/obfsproxy',
-           'txt'  => 'Obfsproxy',
+          {'url'  => 'docs/pluggable-transports',
+           'txt'  => 'Pluggable Transports',
           },
           {'url' => 'https://shadow.cs.umn.edu/',
            'txt' => 'Shadow',

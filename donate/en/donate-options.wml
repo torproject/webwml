@@ -5,46 +5,20 @@
 #include "donatehead.wmi" TITLE="Tor Project: Donate to Tor" CHARSET="UTF-8"
 
 <style>
-.hlist {
-    padding: 0px;
-    text-align: center;
-    display: block;
-    width: 100%;
-    list-style: outside none none;
-    margin: 0px 0px 18px;
-}
-
-.hlist li {
-    display: inline-block;
-    border-right: 1px solid #444;
-    margin-left: -4px;
-}
-.hlist a {
-    display: block;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0px 8px;
-}
-
-.hlist li.last {
-    border-right: 0px solid #444;
+form#makeDonation {
+    max-width: 500px;
 }
 </style>
 
 <div id="content" class="container" style="padding-bottom: 85px">
 <div id="maincol">
-  <h1>Ways to Donate to Tor</h1>
-  <p>The Tor Project offers the following donation methods:</p>
+  <h1>More Ways to Donate to Tor</h1>
+  <p><b>Note: if you wish to donate to The Tor Project by <a href="donate.html.en">credit card or PayPal, please click here</a>.</b></p>
+  <p>The Tor Project also offers the following alternative donation methods (If you would like to receive a Thank-You Gift after making a donation with one of the methods below, please email giving@torproject.org.):</p>
   <ul class="hlist">
-    <li><a href="#bitcoin">Bitcoins</a></li>
+    <li><a href="#bitcoin">Bitcoin</a></li>
     <li><a href="<page donate/donate-amazon>">Amazon Payments</a></li>
     <li><a href="https://smile.amazon.com/ch/20-8096820">Amazon Smile</a></li>
-    <li><a href="https://www.dwolla.com/hub/thetorproject">Dwolla</a></li>
-    <li><a href="<page donate/donate>">Paypal</a></li>
     <li><a href="#eubanks">EU Bank Transfer</a></li>
     <li class="last"><a href="#cash">Checks or Money Orders</a></li>
   </ul>
@@ -54,14 +28,8 @@
    <a id="bitcoin"></a>
    <div class="hundred toptwenty">
     <div class="dbox donate">
-    <h3>Bitcoins</h3>
-    <p>In order to comply with US 501(c)(3) non-profit regulations, our Bitcoin transaction limit is currently $10,000 USD per day.
-    If you wish to avoid transaction limits, please consider a direct Bitcoin donation to
-    <a href="https://www.torservers.net/donate.html#cryptocurrencies">Torservers.net</a>,
-    <a href="http://noisetor.net/#bitcoin">NoiseTor</a>,
-    <a href="https://www.oniontip.com/">OnionTip</a>,
-    or <a href="https://tails.boum.org/contribute/how/donate/#bitcoin">Tails</a>.</p>
-  <p>If this transaction limit is not an issue for you, please complete the form below:</p>
+    <h3>Donate Bitcoin</h3>
+<p>To donate Bitcoin to The Tor Project, please complete the form below. If you would like an acknowledgment from the Tor Project, please provide your email address.</p>
   <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
         <input name="action" type="hidden" value="checkout">
         <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
@@ -75,8 +43,8 @@
             <li id="price" class="control-group">
               <label class="control-label" style="width: 40px">Amount:</label>
               <div class="controls" style="margin-left: 60px">
-                <input name="price" type="number" class="noscroll" value="10.00" placeholder="Amount" maxlength="10" min="0.01" step="0.01" style="width: 39%"  />
-                <select name="currency" value="" style="width: 49%" >
+                <input name="price" type="number" class="noscroll" value="10.00" placeholder="Amount" maxlength="10" min="0.01" step="0.01" />
+                <select name="currency" value="" >
                   <option value="USD" selected="selected">USD</option>
                   <option value="BTC">BTC</option>
                   <option value="EUR">EUR</option>
@@ -130,29 +98,18 @@
    <div class="hundred toptwenty">
     <div class="dbox dsmall dwolla">
       <h3>Donate via Amazon</h3>
-      <p>Amazon Payments allows you to donate to Tor via several different
-mechanisms using an Amazon account.</p>
+      <p>You can donate to Tor through your Amazon account.</p>
       <p style="text-align:center;"><strong><a
 href="<page donate/donate-amazon>">Donate via Amazon Payments
 &raquo;</a></strong></p>
     </div>
     <div class="dbox dsmall dwolla">
       <h3>Donate via Amazon Smile</h3>
-      <p>Amazon Smile allows you to donate 0.5% of your Amazon purchases to the Tor Project.</p>
-      <p style="text-align:center;"><strong><a href="https://smile.amazon.com/ch/20-8096820">Donate with Amazon Smile
+      <p>AmazonSmile is a website operated by Amazon with the same products, prices, and shopping features as Amazon.com. The difference is that when you shop on AmazonSmile, the AmazonSmile Foundation will donate 0.5% of the purchase price of eligible products to the charitable organization of your choice.</p>
+      <p style="text-align:center;"><strong><a href="https://smile.amazon.com/ch/20-8096820">Set up the Tor Project on Amazon Smile
 &raquo;</a></strong></p>
     </div>
 <!-- END AMAZON -->
-<!-- BEGIN DWOLLA -->
-    <a id="dwolla"></a>
-    <div class="dbox dsmall dwolla">
-      <h3>Donate via Dwolla</h3>
-      <p>Dwolla is a peer to peer payment platform which allows users to
-exchange money quickly, safely, at a lower cost.</p>
-      <p style="text-align:center;"><strong><a href="https://www.dwolla.com/hub/thetorproject">Donate via Dwolla
-&raquo;</a></strong></p>
-    </div>
-<!-- END DWOLLA -->
 <!-- BEGIN TRANSFER -->
     <a id="eubanks"></a>
     <div class="">
@@ -160,9 +117,7 @@ exchange money quickly, safely, at a lower cost.</p>
        <p>For European bank transfers, we have an arrangement with
         the Renewable Freedom Foundation to provide
 <a href="http://www.solicitorsjournal.com/news/private-client/charities/gifts-foreign-charities-are-tax-deductible-ecj-rules">tax-deductible</a>
-        donations for Europeans. (They don't actually pass the money
-        through to us, but rather we trust them to spend it in Tor's
-        interest.) They will issue a donation receipt <a
+        donations for Europeans. They will issue a donation receipt <a
         href="https://renewablefreedom.org/contact/">upon request</a>. The
         account information is as follows:</p>
 
@@ -182,14 +137,14 @@ exchange money quickly, safely, at a lower cost.</p>
      <div class="dbox donate">
        <h3>Donate via Check or Money Order</h3>
        <h4>You can send checks or money orders to:</h4>
-       <p>The Tor Project, Inc<br>
-        217 1st Ave South #4903<br>
+       <p>The Tor Project, Inc.<br>
+        P.O. Box 4903<br>
         Seattle, WA 98194 USA</p>
     </div>
   </div>
 
 <!-- END CHECK -->
-  <p>Contact us at donations@torproject.org for more donation details.</p>
+  <p>Contact us at giving@torproject.org for more donation details.</p>
  </div>
 <!-- END CONTENT -->
 </div>

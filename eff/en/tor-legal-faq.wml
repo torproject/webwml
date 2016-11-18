@@ -107,7 +107,7 @@ you. These relays do not directly forward traffic to the Internet and so
 can't be easily mistaken for the origin of allegedly unlawful content.</p>
 
 <p>The Tor Project's blog has some excellent <a
-href="https://blog.torproject.org/blog/tips-running-exit-node-minimal-harassment">recommendations</a>
+href="https://blog.torproject.org/blog/tips-running-exit-node">recommendations</a>
 for running an exit with as little risk as possible. We suggest that
 you review their advice before setting up an exit relay.</p>
 
@@ -146,7 +146,7 @@ responsible for the content. This could mean the difference between
 having your computer seized by law enforcement and being left alone.</p>
 
 <p>The Tor Project <a
-href="https://blog.torproject.org/blog/tips-running-exit-node-minimal-harassment">suggests</a>
+href="https://blog.torproject.org/blog/tips-running-exit-node">suggests</a>
 the following ways to let others know that you're running an exit
 relay:</p>
 

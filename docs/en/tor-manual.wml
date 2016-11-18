@@ -14,7 +14,7 @@
   <div id="maincol">  
     <:
     	die "Missing git clone at $(TORGIT)" unless -d "$(TORGIT)";
-    	my $man = `GIT_DIR=$(TORGIT) git show $(STABLETAG):doc/tor.1.txt | asciidoc -d manpage -s -o - -`;
+    	my $man = `GIT_DIR=$(TORGIT) git show $(STABLETAG):doc/tor.1.txt | asciidoc -d manpage -s -o - - | sed 's/\\[/\\&lsqb;/g'`;
     	die "No manpage because of asciidoc error or file not available from git" unless $man;
     	print $man;
     :>

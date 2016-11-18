@@ -15,106 +15,12 @@
     linux distributions.</a></h2>
     <br>
     
-    <p><strong>Do not</strong> use the packages in the native repositories. They are
-    frequently out of date. That means you'll be missing stability and
-    security fixes.
-    </p>
-    
-    <p>
-    You'll need to set up our package repository before you can fetch
-    Tor. Repositories contain i686 and x86_64 builds. Assuming yum, in
-    /etc/yum.repos.d/, create a file called
-    torproject.repo.  Edit this file with the following information:
+    <h3>Fedora, RHEL, CentOS, Scientific Linux packages</h3>
+
+    <p>Use native Fedora packages for the Fedora distribution or <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a>
+    packages for distribitons derived from RHEL.
     </p>
 
-    <h3>Fedora 22/23 and EL6/7 packages</h3>
-
-    <p>For Fedora 22, Fedora 23, RHEL 6, RHEL 7 (and clones), use following
-    repo file - substitute DISTRIBUTION with one of the following: fc/22, fc/23,
-    el/6, el/7 according to your distribution.
-    </p>
-    
-<pre>[tor]
-name=Tor repo
-enabled=1
-baseurl=https://deb.torproject.org/torproject.org/rpm/DISTRIBUTION/$basearch/
-gpgcheck=1
-gpgkey=https://deb.torproject.org/torproject.org/rpm/RPM-GPG-KEY-torproject.org.asc
-repo_gpgcheck=1
-
-[tor-source]
-name=Tor source repo
-enabled=1
-autorefresh=0
-baseurl=https://deb.torproject.org/torproject.org/rpm/DISTRIBUTION/SRPMS
-gpgcheck=1
-gpgkey=https://deb.torproject.org/torproject.org/rpm/RPM-GPG-KEY-torproject.org.asc
-repo_gpgcheck=1
-</pre>
-    <p>
-    The key's fingerprint should be:
-    </p>
-<pre>E273 44C4 BD24 BEDF E4F4  C741 803F EFB7 F4B8 5E0F</pre>
-
-    <h3>Name clash warning</h3>
-
-    <p>There is identically named 'tor' package in the EPEL and Fedora
-    repositories. Due to this unfortunate name clash, the packages might
-    "update over one another", depending on patchversion.  Solution is to use
-    <tt>Exclude=tor</tt> line in the relevant <tt>/etc/yum.repos.d/</tt>
-    file.
-    </p> 
-    
-    <p>E.g. you may exclude EPEL's Tor package by putting the mentioned exclude
-    line under [epel] section in <tt>/etc/yum.repos.d/epel.repo</tt>.
-    For Fedora, you usually need that exclude in fedora.repo and
-    fedora-updates.repo file.
-    </p>
-    
-    <h3>Package installation and running</h3>
-
-    <p>
-    Once you have the repo file, install Tor using (yum will ask about the
-    key's fingerprint the first time):
-    </p>
-<pre>yum install tor</pre>
-    
-    <p>
-    Start Tor using:
-    </p>
-<pre>service tor start</pre>
-    
-    <p>
-    Now Tor is installed and running. Move on to <a href="<page
-    docs/tor-doc-unix>#using">step two</a> of the "Tor on Linux/Unix"
-    instructions.
-    </p>
-    
-    <p style="font-size: small">
-    The DNS name <code>deb.torproject.org</code> is actually a set of independent
-    servers in a DNS round-robin configuration.  If for some reason you cannot
-    use it, you might be able to access one of the individual servers
-    instead.  Try
-    <code>deb-master.torproject.org</code>,
-    <code>mirror.netcologne.de</code> or
-    <code>tor.mirror.youam.de</code>.
-    </p>
-    
-    <hr>
-    
-    <hr>
-    
-    <h2>Alpha/development packages</a></h2>
-    <br>
-    
-    <p>
-    There is a repository that contains packages for latest alpha branch of Tor.
-    If you'd like to experiment with them, use one of the above repo files, just
-    change the baseurl to (similarly to previous section, substitute
-    DISTRIBUTION based on your distribution; for source rpms use "SRPMS" instead
-    of $basearch):
-    </p>
-<pre>baseurl=https://deb.torproject.org/torproject.org/rpm/tor-testing/DISTRIBUTION/$basearch/</pre>
     
     <a id="source"></a>
     <h2><a class="anchor" href="#source">Building from source</a></h2>
