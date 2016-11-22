@@ -40,7 +40,6 @@
    <![endif]-->
  #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
    # end WML to generate css/js paths 
-
 </head>
 <body>
 <div id="wrap">

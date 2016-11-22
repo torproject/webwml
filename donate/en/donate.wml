@@ -4,51 +4,51 @@
 
 #include "donatehead.wmi" TITLE="Donate to keep Tor alive!" CHARSET="UTF-8"
 
-  <div class="donation">
-
-    <div class="quote-section">
-      <div class="container">
-        <div class="row">
+<div class="donation">
           
-          <div class="col-sm-3 img-section">
-              <img src="$(IMGROOT)/shari.png" class="img-thumbnail img-responsive champion" alt="Shari Steele">
+      <div class="quote-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3 img-section">
+                  <img src="$(IMGROOT)/shari.png" class="img-thumbnail img-responsive champion" alt="Shari Steele">
+                </div>
+
+                <div class="col-sm-9 col-xs-offset-0">
+                  <blockquote>
+Tor is an essential part of the Internet freedom infrastructure, and I'm looking forward to working with the Tor Project to continue to grow the movement.
+                    <footer class="pull-right source-quote"><cite title="Source Title">Shari Steele</cite></footer>
+                  </blockquote>
+                </div>
+
           </div>
+        </div>
+      </div>
 
-          <div class="col-sm-9 col-xs-offset-0">
-            <blockquote>
-              Tor is an essential part of the Internet freedom infrastructure, and I'm looking forward to working with the Tor Project to continue to grow the movement.
-              <footer class="pull-right source-quote"><cite title="Source Title">Shari Steele</cite></footer>
-            </blockquote>
-          </div>
 
-        </div><!-- container -->
-      </div><!-- row -->
-    </div><!-- quote-section -->
+    <div class="container">
 
-    <div class="paypal-donate">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-7">
-            <h2 class="main-text">Your support is critical to our success</h2>
-            <hr>
-            <p style="text-align:left;">Donate $23 or more, get swag, take a picture and share it with us via <code><a href="https://twitter.com/search?q=%23SupportTor" target="_blank">#supportTor</a></code> hashtag.</p>
-              
-            <noscript class="perks">
-              <h4 style="text-align:left; padding-top:10px;"><b>Perks</b></h4>
-              <p style="text-align:left;">Donate $23+ to get a <b>pack of stickers</b></p>
-              <p style="text-align:left;">Donate $100+ to get a <b>Tor supporter tshirt</b></p>
-              <p style="text-align:left;">Donate $500+ to get a <b>hoodie</b></p>
-            </noscript>
-
+      <div class="row">
+        <div class="col-sm-7">
+          <h2 class="main-text">Your support is critical to our success</h2>
+          <hr>
+          <p style="text-align:left;">Donate $23 or more, get swag, take a picture and share it with us via <code><a href="https://twitter.com/search?q=%23SupportTor" target="_blank">#supportTor</a></code> hashtag.</p>
+          
+          <noscript class="perks">
             <h4 style="text-align:left; padding-top:10px;"><b>Perks</b></h4>
-            <div class="col-xs-4 no-padding"><img id="stickers" class="img-responsive half-opacity" src="$(IMGROOT)/swag-stickers-lg.png" alt="stickers"></div>
-            <div class="col-xs-4 no-padding"><img id="tshirt" class="img-responsive half-opacity" src="$(IMGROOT)/swag-tees-lg.png" alt="tshirt"></div>
-            <div class="col-xs-4 no-padding"><img id="hoody" class="img-responsive half-opacity" src="$(IMGROOT)/swag-hoody-lg.png" alt="hoody"></div>
-          </div>
-          
-          <div class="donate-section col-sm-5">
-            <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-              <div class="row col-md-offset-0 combined-input">
+            <p style="text-align:left;">Donate $23+ to get a <b>pack of stickers</b></p>
+            <p style="text-align:left;">Donate $100+ to get a <b>Tor supporter tshirt</b></p>
+            <p style="text-align:left;">Donate $500+ to get a <b>hoodie</b></p>
+          </noscript>
+
+          <h4 style="text-align:left; padding-top:10px;"><b>Perks</b></h4>
+          <div class="col-sm-4 no-padding"><img id="stickers" class="img-responsive half-opacity" src="$(IMGROOT)/swag-stickers-lg.png" alt="stickers"></div>
+          <div class="col-sm-4 no-padding"><img id="tshirt" class="img-responsive half-opacity" src="$(IMGROOT)/swag-tees-lg.png" alt="tshirt"></div>
+          <div class="col-sm-4 no-padding"><img id="hoody" class="img-responsive half-opacity" src="$(IMGROOT)/swag-hoody-lg.png" alt="hoody"></div>
+
+        </div>
+        <div class="donate-section col-sm-5">
+          <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <div class="row col-md-offset-0 combined-input">
                 <div class="left col-xs-6 btn btn-default btn-lg active">
                   <label class="choiceLabel">
                     <input class="sr-only" name="cmd" id="blankRadio1" type="radio" value="_donations" aria-label="one_time"checked >
@@ -61,231 +61,63 @@
                     <span>Monthly</span>
                   </label>
                 </div>
-              </div>
-
-              <div class="btn-group btn-group-lg" role="group">
-                <div style="padding-bottom:5px;" class="col-xs-6">
-                  <button value="10" id="amount10" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn">$10</button>
-                </div>
-                <div style="padding-bottom:5px;" class="col-xs-6">
-                  <button value="23" id="amount23" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a sticker!">$23</button>
-                </div>
-                <div style="padding-bottom:5px;" class="col-xs-6">
-                  <button value="100" id="amount100" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a tshirt!">$100</button>
-                </div>
-                <div style="padding-bottom:5px;" class="col-xs-6">
-                  <button value="256" id="amount256" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a tshirt!">$256</button>
-                </div>
-                <div style="padding-bottom:5px;" class="col-xs-6">
-                  <button value="500" id="amount500" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a hoody!">$500</button>
-                </div>
-                <div class="col-xs-6 form-group-lg">
-                  <label class="sr-only" for="exampleInputAmount">1</label>
-                  <div class="input-group">
-                    <div class="input-group-addon">$</div>
-                    <input type="number" min="5" step="1" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="other amount">
-                  </div>
-                </div>
-              </div>
-              <div style="padding: 0 15px;">
-                <h5 class="error-msg">The minimum donation amount is $5</h5>
-                <button id="donate-btn" class="btn btn-primary btn-lg btn-block donate-button" style="padding:10px;">Donate</button>
-                <h5>via PayPal (doesn't require an account)</h5>
-                <h4><a id="link" href="#other-ways-section">Other Ways to Donate</a></h4>
-              </div>
-              
-              <!-- PAYPAL ESSENTIAL INPUTS -->
-              <input type="hidden" id="amount" name="amount" value="">
-              <input type="hidden" id="a3" name="a3" value="0">
-              <input type="hidden" id="p3" name="p3" value="1">
-              <input type="hidden" id="t3" name="t3" value="M">
-              <input type="hidden" name="sra" value="1">
-              <input type="hidden" name="src" value="1">
-              <input type="hidden" name="no_shipping" value="1">
-              <input type="hidden" name="no_note" value="1">
-              <input type="hidden" name="business" value="donations@torproject.org">
-              <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
-              <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
-              <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
-
-            </form>
-          </div><!-- donate-section -->
-        </div><!-- row -->
-      </div><!-- container -->
-    </div><!-- paypal-donate -->
-
-    <div id="other-ways-section">
-      <div class="main-other-ways">
-        <div class="container">
-          <div id="maincol">
-          <div class="hundred toptwenty">
-          
-            <div class="row-eqheight">
-              
-              <!-- BEGIN BITCOIN -->
-              <div class="col-sm-6 bitcoin">
-                <a id="bitcoin"></a>
-                <div class="other-ways-title">
-                  <img class="img-thumbnail other-ways-icon" src="../images/bitcoin.png" width="40" height="40">
-                  <h3><strong>Bitcoins</strong></h3>
-                </div>
-                <p>In order to comply with US 501(c)(3) non-profit regulations, our Bitcoin transaction limit is currently $10,000 USD per day.
-                  If you wish to avoid transaction limits, please consider a direct Bitcoin donation to
-                  <a href="https://www.torservers.net/donate.html#cryptocurrencies">Torservers.net</a>,
-                  <a href="http://noisetor.net/#bitcoin">NoiseTor</a>,
-                  <a href="https://www.oniontip.com/">OnionTip</a>,
-                  or <a href="https://tails.boum.org/contribute/how/donate/#bitcoin">Tails</a>.
-                </p>
-                <p>If this transaction limit is not an issue for you, please complete the form below:</p>
-                <form id="bitpayDonation" class="form" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#bitpayDonation'));">
-                  <input name="action" type="hidden" value="checkout">
-                  <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
-                    <div class="form-group">
-                      <label for="bitcoinEmail" class="input-group control-label" style="padding:0;">Email address</label>
-                      <input id="bitcoinEmail" name="orderID" type="email" class="form-control" placeholder="Email address (optional)" maxlength="50" autocapitalize="off" autocorrect="off">
-                    </div>
-                        
-                    <div class="form-group row">
-                      <label for="bitcoinAmount" class="input-group control-label">Amount</label>
-                      <div class="col-sm-8" style="padding:0;">
-                        <input name="price" type="number" class="form-control" id="bitcoinAmount" value="43.00" placeholder="Amount" maxlength="10" min="5">
-                      </div>
-                      
-                      <div class="col-sm-4" style="padding:0;">
-                        <select name="currency" value="" class="form-control">
-                          <option value="USD" selected="selected">USD</option>
-                          <option value="BTC">BTC</option>
-                          <option value="EUR">EUR</option>
-                          <option value="GBP">GBP</option>
-                          <option value="AUD">AUD</option>
-                          <option value="BGN">BGN</option>
-                          <option value="BRL">BRL</option>
-                          <option value="CAD">CAD</option>
-                          <option value="CHF">CHF</option>
-                          <option value="CNY">CNY</option>
-                          <option value="CZK">CZK</option>
-                          <option value="DKK">DKK</option>
-                          <option value="HKD">HKD</option>
-                          <option value="HRK">HRK</option>
-                          <option value="HUF">HUF</option>
-                          <option value="IDR">IDR</option>
-                          <option value="ILS">ILS</option>
-                          <option value="INR">INR</option>
-                          <option value="JPY">JPY</option>
-                          <option value="KRW">KRW</option>
-                          <option value="LTL">LTL</option>
-                          <option value="LVL">LVL</option>
-                          <option value="MXN">MXN</option>
-                          <option value="MYR">MYR</option>
-                          <option value="NOK">NOK</option>
-                          <option value="NZD">NZD</option>
-                          <option value="PHP">PHP</option>
-                          <option value="PLN">PLN</option>
-                          <option value="RON">RON</option>
-                          <option value="RUB">RUB</option>
-                          <option value="SEK">SEK</option>
-                          <option value="SGD">SGD</option>
-                          <option value="THB">THB</option>
-                          <option value="TRY">TRY</option>
-                          <option value="ZAR">ZAR</option>
-                        </select>
-                      </div>
-                      
-                    </div>
-                    <br>
-                    <input type="hidden" name="data" value="iH+sCoKQo5J52hkEzWcMi8+PRt78/89lcSU9GnapWfWL6thyubtDCahTUqa2JTlj6RQrQySkZAoFvK05yifMwfx5V87JJuoaDlHUsZR9ppzkklmzHpKJ4TG5M0zNVcKfNBfyopdfTFbzpOXM2FDppqmU7njsRUF1EZPa0K7SIxpv4lNKSPn1PyjVKVxjnpFE0AZ1Qa75VwZnS+rBNNfwxPsgSz+Oa2Twe226FmJJrLtPuBteFfHAIWh6QS5JnpOn4ScMFph0zjixutmunMAjKw==">
-                    <div style="margin: auto; width: 100%; text-align: center">
-                      <input name="submit" src="https://www.torproject.org/images/bitpay-donate-md.png" type="image" style="width: auto" alt="BitPay" border="0">
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-              <!-- END BITCOIN -->
-
-
-
-
-
-              <div class="col-sm-6 check-eutransfer">
-
-                <!-- BEGIN CHECK -->
-                <a id="cash"></a>
-                <div class="other-ways-title">
-                  <img class="img-thumbnail other-ways-icon" src="../images/bank48.png" width="40" height="40">
-                  <h3><strong>Check or Money Order</strong></h3>
-                </div>
-                <p>You can send checks or money orders to:</p>
-                <p>The Tor Project, Inc<br>
-                  7 Temple Street, Suite A<br>
-                  Cambridge, MA 02139-2403 USA
-                </p>
-                <!-- END CHECK -->
-
-                <!-- BEGIN TRANSFER -->
-                <a id="eubanks"></a>
-                <div style="margin-top:30px;" class="other-ways-title">
-                  <img class="img-thumbnail other-ways-icon" src="../images/pantheon1.png" width="40" height="40">
-                  <h3><strong>European Bank Transfer</strong></h3>
-                </div>
-                <p>For European bank transfers, we have an arrangement with
-                  the Renewable Freedom Foundation to provide
-                  <a href="http://www.solicitorsjournal.com/news/private-client/charities/gifts-foreign-charities-are-tax-deductible-ecj-rules">tax-deductible</a>
-                  donations for Europeans. (They don't actually pass the money
-                  through to us, but rather we trust them to spend it in Tor's
-                  interest.) They will issue a donation receipt <a
-                  href="https://renewablefreedom.org/contact/">upon request</a>. The
-                  account information is as follows:
-                </p>
-                <p>Renewable Freedom Foundation<br>
-                  IBAN: DE17721500000053693701<br>
-                  BIC: BYLADEM1ING<br>
-                  Sparkasse Ingolstadt<br>
-                  Rathausplatz 6<br>
-                  85049 Ingolstadt<br>
-                </p>
-                <!-- END TRANSFER -->
-
-              </div><!-- check-eutransfer -->
-
-            </div><!-- row-eqheight -->
-            </div> <!-- hundred toptwenty -->
-          </div> <!-- maincol row -->
-        </div> <!-- container -->
-      </div> <!-- main-other-ways -->
-            
-      <div class="minor-other-ways">
-        <div class="container">              
-            <div class="col-xs-12 even-more">
-
-              <div class="dsmall col-xs-4">
-                <a href="../donate/donate-amazon.html.en">
-                  <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/amazon.jpg">
-                </a>
-              </div>
-              
-              <div class="dsmall col-xs-4">
-                <a href="https://smile.amazon.com/ch/20-8096820">
-                  <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/amazon-smile.jpg">
-                </a>
-              </div>
-
-              <div class="dsmall col-xs-4">
-                <a id="dwolla"></a>
-                <a href="https://www.dwolla.com/hub/thetorproject">
-                  <img class="img-responsive img-thumbnail other-ways-img" src="$(IMGROOT)/dwolla.jpg">
-                </a>
-              </div>
             </div>
 
-        </div> <!-- container -->
-      </div> <!-- minor-other-ways -->
-      
-    </div><!-- other-ways-section -->
-    
-  </div><!-- donation -->
+            <div class="btn-group btn-group-lg" role="group" style="margin-bottom: 30px;">
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="10" id="amount10" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn">$10</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="23" id="amount23" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a sticker!">$23</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="100" id="amount100" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a tshirt!">$100</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="256" id="amount256" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a tshirt!">$256</button>
+              </div>
+              <div style="padding-bottom:5px;" class="col-xs-6">
+                <button value="500" id="amount500" name="amnt" type="button" class="btn btn-default btn-lg btn-block amnt-btn" title="You get a hoody!">$500</button>
+              </div>
+              <div class="col-xs-6 form-group-lg">
+                <label class="sr-only" for="exampleInputAmount">1</label>
+                <div class="input-group">
+                  <div class="input-group-addon">$</div>
+                  <input type="number" min="5" step="1" name="custom_amnt" class="form-control" id="exampleInputAmount" placeholder="other amount">
+                </div>
+              </div>
+            </div>
+            <div style="padding: 0 15px;">
+              <h5 class="error-msg">The minimum donation amount is $5</h5>
+              <button id="donate-btn" class="btn btn-primary btn-lg btn-block donate-button" style="padding:10px;">Donate</button>
+              <h5>via PayPal (doesn't require an account)</h5>
+              <h4><a href="<page donate/donate-options>">Other Ways to Donate</a></h4>
+            </div>
+            <input type="hidden" id="amount" name="amount" value="">
+            <input type="hidden" id="a3" name="a3" value="0">
+            <input type="hidden" id="p3" name="p3" value="1">
+            <input type="hidden" id="t3" name="t3" value="M">
+            <input type="hidden" name="sra" value="1">
+            <input type="hidden" name="src" value="1">
+            <input type="hidden" name="no_shipping" value="1">
+            <input type="hidden" name="no_note" value="1">
+            <input type="hidden" name="business" value="donations@torproject.org">
+            <input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
+            <input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou">
+            <input type="hidden" name="cancel_return" value="https://www.torproject.org/getinvolved/volunteer">
 
 
+          </form>
+        </div>
+      </div>
+    </div>
+  
 
+
+  </div>
+
+
+  <!-- PAYPAL -->
   <script type="text/javascript" src="$(DOCROOT)/js/jquery.min.js"></script>
   <script type="text/javascript">
   function displayVals() {
@@ -312,8 +144,6 @@
       $(".error-msg").css("display","none");
     });
 
-
-    // Perks functionality
     if (23 <= parseInt($("#amount").val()) && parseInt($("#amount").val()) < 100) {
       $("#stickers").css("opacity","1");
       $("#tshirt").css("opacity","0.5");
@@ -338,9 +168,7 @@
     $("#exampleInputAmount").click(displayVals);
     $("#exampleInputAmount").change(displayVals);
     displayVals();
-    
 
-    // Paypal donate validation when changing other amount input 
     $("#exampleInputAmount").change(function(){
       if ($("#amount").val() == "" || parseInt($("#amount").val()) < 5) {
         $(".error-msg").css("display","block");
@@ -349,7 +177,6 @@
       }
     });
 
-    // Paypal donate validation when clicking on donate button 
     $("#donate-btn").click(function(event){
       if ($("#amount").val() == "" || parseInt($("#amount").val()) < 5) {
         event.preventDefault();
@@ -359,8 +186,6 @@
       }
     });
 
-
-    // monthly or one-time donate functionality
     $(".left").click(function(){
       $(".left").addClass('active');
       $(".right").removeClass('active');
@@ -370,16 +195,6 @@
       $(".left").removeClass('active');
     });
     
-
-    $("#link").on('click',function(event){
-      event.preventDefault();
-      $("#other-ways-section").show();
-      $('html, body').animate({
-        scrollTop: $("#other-ways-section").offset().top
-      }, 200);
-    });
-
-
   });
 
 
