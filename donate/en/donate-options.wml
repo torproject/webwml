@@ -13,7 +13,7 @@ form#makeDonation {
 <div id="content" class="container" style="padding-bottom: 85px">
 <div id="maincol">
   <h1>More Ways to Donate to Tor</h1>
-  <p><b>Note: if you wish to donate to The Tor Project by <a href="donate.html.en">credit card or PayPal, please click here</a>.</b></p>
+  <p><b>Note: if you wish to donate to The Tor Project by <a href="<page donate/donate>">credit card or PayPal, please click here</a>.</b></p>
   <p>The Tor Project also offers the following alternative donation methods (If you would like to receive a Thank-You Gift after making a donation with one of the methods below, please email giving@torproject.org.):</p>
   <ul class="hlist">
     <li><a href="#bitcoin">Bitcoin</a></li>

@@ -2,6 +2,38 @@
 # Revision: $Revision$
 # Translation-Priority: 1-high
 
+  <div id="banner-container" class="onions-bg">
+    <div id="banner-contents-container">
+      <div id="banner-logo-container">
+        <img id="banner-logo" alt="Tor Onion-Heart Logo"
+             src="images/onion-heart.png"/>
+      </div>
+      <div id="banner-text">
+        <div id="banner-tagline">
+          <span>
+            <noscript>Protecting Journalists, Activists & Whistleblowers Since 2006</noscript>
+          </span></div>
+        <div id="banner-heart">
+          <span>
+            Tor is at the heart of Internet freedom
+          </span>
+        </div>
+      </div>
+      <a id="banner-donate-button-link"
+         href="./donate/donate-homepage-en">
+        <div id="banner-donate-button-container">
+          <div id="banner-donate-button">
+            <div id="banner-donate-button-text">
+              <span>Donate Now! &#187;</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div id="banner-spacer"></div>
+  <script src="js/donation_banner.js"></script>
+
 #include "head.wmi" TITLE="Tor Project: Anonymity Online" CHARSET="UTF-8"
 
 <div id="home">

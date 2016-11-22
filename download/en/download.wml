@@ -356,71 +356,7 @@ Code</a></li>
 </div>
 </div>
 <!-- START DONATION WIDGET -->
-  <script async type="text/javascript">
-  function displayVals() {
-    var t3 = $("#t3").val();
-    var amount = $("#amount").val();
-    if(t3 != 0){
-      $('#a3').val(amount);
-      $('#p3').val(1);
-      $('#cmd').val('_xclick-subscriptions');
-      $('#item_name').val('Tor Project Membership');
-      $('#ppinfo').replaceWith('<h6 id="ppinfo"><small>(Requires a PayPal Account)</small></h6>');
-    }else{
-      $('#a3').val(0);
-      $('#p3').val(0);
-      $('#cmd').val('_donations');
-      $('#item_name').val('Donation to the Tor Project');
-      $('#ppinfo').replaceWith('<h6 id="ppinfo" style="height:0px;"></h6>');
-    }
-    if( !t3 ) {
-      $('#cmd').val('_donations');
-      $('#item_name').val('Donation to the Tor Project');
-      $('#ppinfo').replaceWith('<h6 id="ppinfo" style="height:0px;"></h6>');
-    }
-  }
-  $(function(){
-    $("#amount").change(displayVals);
-    $("#t3").change(displayVals);
-    displayVals();
-  });
-  </script>
-<form class="dbox dl" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="float:left; margin-bottom:10px;">
-    <h2>Donate to Tor</h2>
-      <p>
-	<select name="currency_code" class="cur">
-	  <option value="USD" selected="selected">$</option>
-	  <option value="EUR">&euro;</option>
-	  <option value="GBP">&pound;</option>
-	  <option value="YEN">&yen;</option>
-	</select>
-	<input type="text" id="amount" class="amount" name="amount" value="5" size="10">
-      </p>
-      <p>
-	<input type="hidden" id="a3" name="a3" value="0">
-	  <select id="t3" name="t3">
-	    <option value="0">One-time Donation</option>
-	    <option value="M">Monthly Subscription</option>
-	  </select>
-      </p>
-      <p>
-	<input type="hidden" id="p3" name="p3" value="1">
-	<input type="hidden" name="sra" value="1">
-	<input type="hidden" name="src" value="1">
-	<input type="hidden" name="no_shipping" value="1">
-	<input type="hidden" name="no_note" value="1">
-	<input type="hidden" id="cmd" name="cmd" value="_donations">
-	<input type="hidden" name="business" value="donations@torproject.org">
-	<input type="hidden" id="item_name" name="item_name" value="Donation to the Tor Project">
-	<input type="hidden" name="return" value="https://www.torproject.org/donate/thankyou.html">
-	<input type="hidden" name="cancel_return" value="https://www.torproject.org/download/download.html">
-      </p>
-      <h6 id="ppinfo" style="height:0px;"></h6>
-      <p>
-	<input class="donate-btn" type="submit" name="donate" value="Donate">
-      </p>
-      <p><a href="<page donate/donate>">Other donation options...</a></p>
-</form>
+<a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
 <!-- END DONATION WIDGET -->
 <!-- START INFO -->
 <div class="img-shadow">
