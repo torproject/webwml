@@ -22,7 +22,7 @@
     my @calltoaction = (
         'download/download-easy'           , 'Download',
         'getinvolved/volunteer'            , 'Get Involved',
-        'donate/donate'                    , 'Donate',
+        'donate/donate-button'             , 'Donate',
     );
 
 :>
