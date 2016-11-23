@@ -31,7 +31,7 @@ RewriteRule ^press/index.html(.*) /press/press.html$1 [R=301,L]
 RewriteRule ^projects/$ /projects/projects [R=301,L]
 
 #Pluggable Transports
-RewriteRule ^PT/$ /docs/pluggable-transports [R=301,L]
+RewriteRule ^PT/?$ /docs/pluggable-transports [R=301,L]
 RewriteRule ^projects/obfsproxy-debian-instructions(.*) /docs/pluggable-transports [R=410,L]
 RewriteRule ^projects/obfsproxy-instructions(.*) /docs/pluggable-transports [R=410,L]
 RewriteRule ^projects/obfsproxy(.*) /docs/pluggable-transports [R=301,L]
@@ -46,7 +46,7 @@ RewriteRule ^getinvolved/research(.*) https://research.torproject.org/ [R=301,L]
 
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/corepeople$1 [R=301,L]
-RewriteRule ^donate/$ /donate/donate [R=301,L]
+RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
 RewriteRule ^contact(.*) /about/contact$1 [R=301,L]
 
 # Download websites
@@ -74,6 +74,6 @@ RewriteRule ^js/$ / [R=301,L]
 RewriteRule ^donate/donate-options(.*) /donate/donate-options$1 [END]
 RewriteRule ^donate/donate(.*) https://donate.torproject.org [R=302,L]
 RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq.html [R=302,L]
-RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/donor-privacy-policy.html [R=302,L]
+RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy.html [R=302,L]
 
 

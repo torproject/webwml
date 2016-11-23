@@ -10,124 +10,126 @@
     <a href="<page about/jobs>">Jobs</a>
   </div>
 	<div id="maincol">
-<h1>The Tor Project is looking for another dedicated core developer!</h1>
-<h1>Note: we've filled this position for now, but we hope to be looking
-for another core developer in the future.</h1>
+<h1>The Tor Project is looking for dedicated core developer!</h1>
+<h2>(Posted November 22, 2016)</h2>
 
 <p>
 Your job would be to work on all aspects of the main Tor network daemon
 and other open-source software.
-
-This would be a contractor position starting in 2013 (with plenty of
-work to keep you busy), with the possibility of 2014 and beyond.
 </p>
-
 <p>
-Any candidate must:
+As a core developer, your job with Tor Project will be to work on all
+aspects of the main Tor network daemon and other open-source software.
+This would include triaging, diagnosing, and fixing bugs; looking for
+and resolving security issues; occasionally dropping everything and
+scrambling to implement last-minute anticensorship schemes or deploy
+urgent security updates; and working collaboratively with coworkers and
+volunteers on implementing new features and protocol changes at every
+stage from design to maintenance.
 </p>
+<p>
+We are working to make our code more scalable, testable, and
+maintainable. You would be reviewing other people's code and designs,
+looking for ways to improve it. For an idea of the breadth and depth of
+the work you'd be doing, please see ChangeLog file from the Tor source
+distribution: https://gitweb.torproject.org/tor.git/tree/ChangeLog
+</p>
+<p>
+This is a full-time remote position. Flexible salary, depending on
+experience. Experience and/or passion for working with open source
+communities and/or a commitment to Internet civil liberties are added
+pluses for any candidate applying for this position!
+</p>
+<h2>
+Expected skills and experience:
+</h2>
 
 <ul>
-	<li>Have extensive experience in C, and several other programming
-	languages. At least 5 years experience with C is probably
-	necessary for the level of expertise we want; most people would
-	need more.</li>
-	<li>Have a solid understanding of issues surrounding secure
-	C programming.</li>
-	<li>Be comfortable working remotely.</li>
-	<li>Be familiar and experienced with nonblocking, event-driven
-	networking programs.</li>
-	<li>Be comfortable and experienced with interacting with users online.</li>
-	<li>Be comfortable and experienced with driving the entire
-	lifecycle of a new feature in an existing piece of software,
-	from design to implementation to testing.</li>
-	<li>Be comfortable and experienced getting code and design
-	reviewed, and reviewing the code and design of others.</li>
-	<li>Be comfortable with transparency: as a non-profit, everything
-	we do is in public, including your name and pay rate.</li>
+<li>5+ years’ experience in C and several other programming languages</li>
+<li>Solid understanding of secure C programming issues</li>
+<li>Comfort working remotely and managing your own workflow with limited
+supervision</li>
+<li>Experience and comfort interacting with users, coworkers, and team members
+online</li>
+<li>Ability to comfortably drive the entire lifecycle of a new feature in an
+existing piece of software from design, to implementation, to testing, to
+maintenance</li>
+<li>Experience and comfort with peer review of your own code and design, and
+with your reviewing of others’ code and design</li>
+<li> nsparency! As a non-profit, everything Tor Project does is public,
+including your name and pay rate</li>
 </ul>
 
-<p>
-An ideal candidate would also:
-</p>
+<h2>
+Desired skills and experience:
+</h2>
 
 <ul>
-	<li>Know enough of the basics of cryptography in order to
-	understand how to implement our protocols and discuss changes
-	to them. (Actually implementing block ciphers and stuff like
-	that isn't necessary.)</li>
-	<li>Know enough about networking in order to understand how to
-	implement our protocols and discuss changes to them.</li>
-	<li>Have experience with high-performance networking code.</li>
-	<li>Have experience with open-source software development,
-	including working with distributed teams across different
-	time-zones containing employees and volunteers of differing
-	skill levels over email and IRC.</li>
-	<li>Have basic familiarity with distributed version control
-	systems.</li>
-	<li>Have contributed significant chunks of code to multiple
-	open-source projects in the past.</li>
-	<li>Genuinely be excited about Tor and our values.</li>
+<li>Knowledge of cryptography basics: be able to understand how to implement
+our protocols and discuss changes to them (the ability to actually implement
+block ciphers and stuff like that is not necessary)</li>
+<li>Sufficient level of networking knowledge to understand how to implement
+our protocols and discuss changes to them</li>
+<li>Experience with high-performance networking code</li>
+<li>Experience with open-source software development, including working over
+email and IRC with a globally distributed teams of employees and volunteers of
+varying skill levels</li>
+<li>Basic familiarity with distributed version control systems</li>
+<li>Familiarity and experience with non-blocking, event-driven networking
+programs</li>
+<li>History of significant code contributions to multiple open-source
+projects</li>
+<li>Genuine excitement about Tor and its values! Follow this link to view
+the Tor Project social contract:
+https://blog.torproject.org/blog/tor-social-contract</li>
 </ul>
 
-<p>
-Being a core Tor developer includes triaging, diagnosing, and
-fixing bugs; looking for and resolving security issues; and working
-collaboratively with coworkers and volunteers on implementing
-new features and protocol changes at every stage from design to
-maintenance. We'd also need help making our code more scalable,
-testable, and maintainable. Sometimes, we need to drop everything
-and scramble to implement last-minute anticensorship schemes, or to
-deploy urgent security updates. You'd also be reviewing other people's
-code and designs, and looking for ways to improve it. For an idea of
-the breadth and depth of the work you'd be doing, have a look at <a
-href="https://gitweb.torproject.org/tor.git/tree/ChangeLog">the
-ChangeLog file from the Tor source distribution</a>.
-</p>
-
-<p>
+<h2>
 Other notes:
-</p>
+</h2>
 
 <ul>
-	<li>You'll need to be comfortable in this environment! We
-	coordinate via IRC, instant messaging, email, and bug
-	trackers.</li>
-	<li>Academic degrees are great, but not required if you have
-	the right experience.</li>
-	<li>We only write free and open source software, and we don't
-	believe in software patents.</li>
+<li>Academic degrees are great, but not required if you have the right
+experience.</li>
+<li>Tor developers don't have an office; you can work from wherever you want,
+so you need to be comfortable in this environment! We coordinate via IRC,
+email, and bug trackers.</li>
+<li>We only write free (open source) software, and we don't believe in software
+patents.</li>
 </ul>
 
 <p>
-How to apply:
+The Tor Project, Inc., is a 501(c)(3) organization headquartered in Seattle
+that provides the technical infrastructure for privacy protection over the
+Internet. With paid staff and contractors of around 30 technologists and
+operational support people, plus many volunteers all over the world who
+contribute to our work, the Tor Project is funded in part by government grants
+and contracts, as well as by individual, foundation, and corporate donations.
+Our mission statement: “To advance human rights and freedoms by creating and
+deploying free and open anonymity and privacy technologies, supporting their
+unrestricted availability and use, and furthering their scientific and popular
+understanding.”
 </p>
-
-<ul>
-	<li>Link to a sample of code you've written in the past that
-	you're allowed to show us.</li>
-	<li>Provide a CV explaining your background, experience, skills,
-	and other relevant qualifications.</li>
-	<li>List some people who can tell us more about you: these
-	references could be employers or coworkers, open source projects,
-	etc.</li>
-	<li>Email the above to jobs at torproject.org.</li>
-</ul>
-
 <p>
-About the company:<br>
- The Tor Project is a US 501(c)(3) non-profit dedicated to research,
- development, and education about online anonymity and privacy. The Tor
- network's 3000 volunteer relays carry 16 Gbps for upwards of half a
- million daily users, including ordinary citizens who want protection
- from identity theft and prying corporations, corporations who want
- to look at a competitor's website in private, people around the world
- whose Internet connections are censored, and even governments and law
- enforcement. Tor has a staff of 14 paid developers, researchers, and
- advocates, plus many dozen volunteers who help out on a daily basis. Tor
- is funded in part by government research and development grants, and
- in part by individual and corporate donations.
+The Tor Project has a competitive benefits package, including a generous PTO
+policy; 14 paid holidays per year (including the week between Christmas and New
+Year's, when the office is closed); health, vision, dental, disability, and
+life insurance paid in full for employee; flexible work schedule; and
+occasional travel opportunities. The Tor Project, Inc., is an equal
+opportunity, affirmative action employer.
 </p>
-
+<p>
+To apply, please email your CV to hr@torproject.org with “Core Developer” in
+the subject line. You should include a link to your code sample(s); more than
+one sample is ideal – if we can't see how you code, we can’t tell how good you
+are. Your CV should detail your background, experience, skills, and other
+relevant qualifications, and should include three professional references
+(co-workers, open source projects, supervisors).
+</p>
+<p>
+Deadline for applications is December 31, 2016. We look forward to hearing from
+you!
+</p>
   </div>
   <!-- END MAINCOL -->
   <div id = "sidecol">
