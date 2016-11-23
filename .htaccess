@@ -31,7 +31,7 @@ RewriteRule ^press/index.html(.*) /press/press.html$1 [R=301,L]
 RewriteRule ^projects/$ /projects/projects [R=301,L]
 
 #Pluggable Transports
-RewriteRule ^PT/$ /docs/pluggable-transports [R=301,L]
+RewriteRule ^PT/?$ /docs/pluggable-transports [R=301,L]
 RewriteRule ^projects/obfsproxy-debian-instructions(.*) /docs/pluggable-transports [R=410,L]
 RewriteRule ^projects/obfsproxy-instructions(.*) /docs/pluggable-transports [R=410,L]
 RewriteRule ^projects/obfsproxy(.*) /docs/pluggable-transports [R=301,L]
