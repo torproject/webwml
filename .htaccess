@@ -70,8 +70,9 @@ RewriteRule ^js/$ / [R=301,L]
 
 # Donation campagin
 # 2016
-# Special-case the donate-options page so it doesn't get redirected
+# Special-case the donate-options and amazon page so it doesn't get redirected
 RewriteRule ^donate/donate-options(.*) /donate/donate-options$1 [END]
+RewriteRule ^donate/donate-amazon(.*) /donate/donate-amazon$1 [END]
 RewriteRule ^donate/donate(.*) https://donate.torproject.org [R=302,L]
 RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq.html [R=302,L]
 RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy.html [R=302,L]
