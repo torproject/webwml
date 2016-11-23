@@ -17,7 +17,7 @@ form#makeDonation {
   <p>The Tor Project also offers the following alternative donation methods (If you would like to receive a Thank-You Gift after making a donation with one of the methods below, please email giving@torproject.org.):</p>
   <ul class="hlist">
     <li><a href="#bitcoin">Bitcoin</a></li>
-    <li><a href="<page donate/donate-amazon>">Amazon Payments</a></li>
+#    <li><a href="<page donate/donate-amazon>">Amazon Payments</a></li>
     <li><a href="https://smile.amazon.com/ch/20-8096820">Amazon Smile</a></li>
     <li><a href="#eubanks">EU Bank Transfer</a></li>
     <li class="last"><a href="#cash">Checks or Money Orders</a></li>
@@ -94,22 +94,22 @@ form#makeDonation {
     </div>
    </div>
 <!-- END BITCOIN -->
-<!-- BEGIN AMAZON -->
-   <div class="hundred toptwenty">
-    <div class="dbox dsmall dwolla">
-      <h3>Donate via Amazon</h3>
-      <p>You can donate to Tor through your Amazon account.</p>
-      <p style="text-align:center;"><strong><a
-href="<page donate/donate-amazon>">Donate via Amazon Payments
-&raquo;</a></strong></p>
-    </div>
-    <div class="dbox dsmall dwolla">
-      <h3>Donate via Amazon Smile</h3>
-      <p>AmazonSmile is a website operated by Amazon with the same products, prices, and shopping features as Amazon.com. The difference is that when you shop on AmazonSmile, the AmazonSmile Foundation will donate 0.5% of the purchase price of eligible products to the charitable organization of your choice.</p>
-      <p style="text-align:center;"><strong><a href="https://smile.amazon.com/ch/20-8096820">Set up the Tor Project on Amazon Smile
-&raquo;</a></strong></p>
-    </div>
-<!-- END AMAZON -->
+#<!-- BEGIN AMAZON -->
+#   <div class="hundred toptwenty">
+#    <div class="dbox dsmall dwolla">
+#      <h3>Donate via Amazon</h3>
+#      <p>You can donate to Tor through your Amazon account.</p>
+#      <p style="text-align:center;"><strong><a
+#href="<page donate/donate-amazon>">Donate via Amazon Payments
+#&raquo;</a></strong></p>
+#    </div>
+#    <div class="dbox dsmall dwolla">
+#      <h3>Donate via Amazon Smile</h3>
+#      <p>AmazonSmile is a website operated by Amazon with the same products, prices, and shopping features as Amazon.com. The difference is that when you shop on AmazonSmile, the AmazonSmile Foundation will donate 0.5% of the purchase price of eligible products to the charitable organization of your choice.</p>
+#      <p style="text-align:center;"><strong><a href="https://smile.amazon.com/ch/20-8096820">Set up the Tor Project on Amazon Smile
+#&raquo;</a></strong></p>
+#    </div>
+#<!-- END AMAZON -->
 <!-- BEGIN TRANSFER -->
     <a id="eubanks"></a>
     <div class="">
