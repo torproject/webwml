@@ -19,7 +19,7 @@
 	Click on the image below for
 	a two-minute video explaining what Tor is and how it works.
 	This video is available for <a href="https://media.torproject
-	.org/video/2015-03-animation/">download</a> and streaming 
+	.org/video/2015-03-animation/">download</a> and streaming
 	both on Tor Project <a href="https://blog.torproject.org/blog/
 	releasing-tor-animation">website</a> and via <a href="https://www
 	.youtube.com/playlist?list=PLwyU2dZ3LJErtu3GGElIa7VyORE2B6H1H">
@@ -49,6 +49,403 @@ some of the significant Tor-related stories that have popped up.</p>
 <th>Topic</th>
 </tr>
 </thead>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Sep 19</td>
+<td>The Guardian</td>
+<td><a href="https://www.theguardian.com/help/2016/sep/19/how-to-contact-the-guardian-securely">How to contact the Guardian securely</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Sep 16</td>
+<td>CNN</td>
+<td><a href="http://money.cnn.com/2016/09/16/technology/internet-censorship-blackouts-gabon/">This African country is taking an unprecedented step in internet censorship</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Sep 10</td>
+<td>The Merkle</td>
+<td><a href="http://themerkle.com/tor-developers-are-preparing-for-the-next-generation-of-cyberattacks/">Tor Developers Are Preparing For The Next Generation of Cyberattacks</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Aug 31</td>
+<td>ArsTechnica</td>
+<td><a href="http://arstechnica.com/security/2016/08/building-a-new-tor-that-withstands-next-generation-state-surveillance/">Building a new Tor that can resist next-generation state surveillance</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Aug 26</td>
+<td>The Merkle</td>
+<td><a href="http://themerkle.com/dojs-ovie-carroll-tor-helps-protect-sensitive-user-information/">DOJ’s Ovie Carroll: “Tor Helps Protect Sensitive User Information”</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Aug 12</td>
+<td>BoingBoing</td>
+<td><a href="http://boingboing.net/2016/08/12/the-tor-projects-social-cont.html">Tor Project Social Contract</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Aug 11</td>
+<td>The Inquirer</td>
+<td><a href="http://www.theinquirer.net/inquirer/news/2467718/tor-creates-social-contract-promising-never-to-harm-users">Tor creates 'social contract' promising never to harm users</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Aug 10</td>
+<td>TechCrunch</td>
+<td><a href="https://techcrunch.com/2016/08/10/tors-new-social-contract-includes-no-backdoors-pledge/">Tor’s new social contract includes ‘no backdoors’ pledge</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Aug 06</td>
+<td>MotherBoard</td>
+<td><a href="http://motherboard.vice.com/read/department-of-justice-official-tells-hundred-federal-judges-to-use-tor">Department of Justice Official Tells Hundred Federal Judges to Use Tor</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Aug 04</td>
+<td>Softpedia</td>
+<td><a href="http://news.softpedia.com/news/tor-project-0-2-8-6-improves-client-bootstrapping-performance-linux-security-506961.shtml">Tor Project 0.2.8.6 Improves Client Bootstrapping Performance, Linux Security</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jul 07</td>
+<td>http://www.htxt. co.za/</td>
+<td><a href="http://www.htxt.co.za/2016/07/07/make-it-harder-for-the-govt-to-track-your-zimshutdown-messages/">Make it harder for the gov’t to track your #ShutdownZimbabwe2016 messages</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jul 05</td>
+<td>The Inquirer</td>
+<td><a href="http://www.theinquirer.net/inquirer/news/2463873/mozilla-ups-firefox-privacy-ante-with-tor-injection">Mozilla ups Firefox privacy ante with Tor injection</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jul 03</td>
+<td>The Guardian</td>
+<td><a href="https://www.theguardian.com/technology/2016/jul/03/online-security-measures-digital-privacy-guide">Extreme online security measures to protect your digital privacy – a guide</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jun 28</td>
+<td>Ghakhs.net</td>
+<td><a href="www.ghacks.net/2016/06/28/selfrando-improves-tor-browser-security">Selfrando improves Tor Browser security</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jun 24</td>
+<td>The Merkel</td>
+<td><a href="http://themerkle.com/selfrando-technique-makes-tor-nearly-invulnerable-to-de-anonymization-attacks/">Selfrando Technique Makes Tor Nearly Invulnerable To De­anonymization Attacks</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Jun 23</td>
+<td>The Inquirer</td>
+<td><a href="http://www.theinquirer.net/inquirer/news/2462596/mozilla-throws-usd385k-at-open-source-projects-including-tor-and-nvda">Mozilla throws $385k at open source projects including Tor and NVDA</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jun 23</td>
+<td>Register</td>
+<td><a href="http://www.theregister.co.uk/2016/06/23/mozilla_gives_out_moss_prizes/">What do Tor, Tails and Caddy have in common? Mozilla bucks</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jun 22</td>
+<td>Tech Eye</td>
+<td><a href="http://www.techeye.net/news/human-rights-groups-furious-about-new-us-warrant-law">Human Rights groups furious about new US warrant law</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jun 22</td>
+<td>ZDNet</td>
+<td><a href="http://www.zdnet.com/article/tor-project-teams-up-with-researchers-to-toughen-up-tor-browser/">Tor Project teams up with researchers to toughen up Tor browser</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jun 21</td>
+<td>The Daily Dot</td>
+<td><a href="http://www.dailydot.com/layer8/rule-41-online-protest/">Internet­rights groups launch protest over expanded FBI hacking powers</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jun 16</td>
+<td>BBC­Persia</td>
+<td><a href="https://blog.torproject.org/blog/statement-tor-project-software-integrity-and-apple">Tor developer discusses privacy tools with BBC­Persia</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jun 02</td>
+<td>dna</td>
+<td><a href="http://www.dnaindia.com/scitech/report-tor-browser-update-adds-improved-html5-support-and-duckduckgo-search-engine-2219121">Tor Browser update adds improved HTML5 support and DuckDuckGo search engine</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 May 31</td>
+<td>Softpedia</td>
+<td><a href="http://news.softpedia.com/news/tor-browser-6-0-based-on-firefox-45-esr-released-with-updated-security-features-504668.shtml">Tor Browser 6.0 Based on Firefox 45­ESR Released with Updated Security Features</a></td>
+</tr>
+
+<tr style="">
+<td>2016 May 25</td>
+<td>Softpedia</td>
+<td><a href="http://news.softpedia.com/news/tor-to-use-never-seen-before-distributed-rng-to-generate-truly-random-numbers-504461.shtml">Tor to Use Never­Before­Seen Distributed RNG to Generate Truly Random Numbers</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 May 19</td>
+<td>The Merkle</td>
+<td><a href="http://themerkle.com/tor-technology-can-bring-much-needed-encryption-to-healthcare/">Tor Technology Can Bring Much Needed Encryption To Healthcare</a></td>
+</tr>
+
+<tr style="">
+<td>2016 May 12</td>
+<td>The Daily Dot</td>
+<td><a href="http://www.dailydot.com/layer8/uganda-censorship-circumvention-how-to/">How Ugandans can beat government censorship</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 May 12</td>
+<td>The Huffington Post</td>
+<td><a href="http://www.huffingtonpost.com/entry/paul-syverson-tor-interview_us_5734a06ae4b060aa78197df2">Tor Founder: Your Medical Records Are The Next Big Target For Hackers</a></td>
+</tr>
+
+<tr style="">
+<td>2016 May 12</td>
+<td>Committee to Protect Journalists</td>
+<td><a href="https://cpj.org/blog/2016/05/how-securedrop-helps-cpj-protect-journalists.php">How SecureDrop helps CPJ protect journalists</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 May 04</td>
+<td>The Mac Observer</td>
+<td><a href="https://www.macobserver.com/tmo/article/fbis-tor-vpn-targeted-warrants-amount-to-court-sanctioned-surveillance">FBI’s TOR, VPN­targeted Warrants Amount to Court Sanctioned Mass Surveillance</a></td>
+</tr>
+
+<tr style="">
+<td>2016 May 03</td>
+<td>Technical.ly Philly</td>
+<td><a href="http://technical.ly/philly/2016/05/03/duckduckgo-tor-project/">DuckDuckGo donates $25K to privacy­focused Tor Project</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Apr 11</td>
+<td>DZone</td>
+<td><a href="https://dzone.com/articles/considering-tor-like-techniques-to-protect-your-us">Considering Tor­like Techniques to Protect Your Users</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Apr 08</td>
+<td>Cyber Shack</td>
+<td><a href="http://www.cybershack.com.au/feature/panama-papers-privacy-encryption-and-you-080416-3">Panama Papers, privacy, encryption, and you</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Apr 06</td>
+<td>MotherBoard</td>
+<td><a href="http://motherboard.vice.com/read/countries-that-use-tor-most-are-either-highly-repressive-or-highly-liberal">Countries that Use Tor Most Are Either Highly Repressive or Highly Liberal</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Mar 22</td>
+<td>ComputerWorld</td>
+<td><a href="http://www.csoonline.com/article/3046505/security/tor-project-says-it-can-quickly-catch-spying-code.html">Tor Project says it can quickly catch spying code</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Mar 22</td>
+<td>The Register</td>
+<td><a href="http://www.theregister.co.uk/2016/03/22/tor_project_fbi_apple/">Tor Project works on anti­FBI defenses amid iOS row with Apple</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Mar 21</td>
+<td>Softpedia</td>
+<td><a href="http://news.softpedia.com/news/like-apple-tor-devs-would-quit-their-jobs-if-ordered-to-backdoor-their-software-502040.shtml">Like Apple, Tor Devs Would Quit Their Jobs If Ordered to Backdoor Their Software</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Feb 16</td>
+<td>The Daily Dot</td>
+<td><a href="http://www.dailydot.com/layer8/shari-steele-tor-project-eff/">The woman who aims to take Tor mainstream</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jan 22</td>
+<td>Ars Technica</td>
+<td><a href="http://arstechnica.com/business/2016/01/tor-project-raises-over-200000-in-attempt-to-diversify-its-funding/">Tor Project raises over $200,000 in attempt to “diversify” its funding</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jan 20</td>
+<td>China Digital Times</td>
+<td><a href="http://money.cnn.com/2016/01/20/technology/facebook-android-tor/">Facebook Makes App that Can Bypass China's Censors</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jan 20</td>
+<td>The Verge</td>
+<td><a href="http://www.theverge.com/2016/1/20/10796872/facebook-android-app-tor-support">Facebook's Android app now lets you flip a switch to browse over Tor</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jan 20</td>
+<td>PC World</td>
+<td><a href="http://www.pcworld.com/article/3024305/security/privacy-conscious-users-rejoice-you-can-now-use-facebooks-android-app-over-tor.html">Privacy­conscious users rejoice: Facebook's Android app now supports Tor</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jan 19</td>
+<td>Business Insider</td>
+<td><a href="http://www.businessinsider.com/facebook-tor-android-2016-1">You can now connect to Facebook on your phone without leaving a digital trail</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jan 18</td>
+<td>Sky News</td>
+<td><a href="http://news.sky.com/story/tor-map-reveals-networks-use-across-europe-10135419">Tor Map Reveals Network's Use Across Europe</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jan 08</td>
+<td>The Guardian</td>
+<td><a href="https://www.theguardian.com/media/2016/jan/08/propublica-launches-worlds-first-major-news-site-for-dark-web">ProPublica launches world's first major news site for dark web</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jan 08</td>
+<td>Salon</td>
+<td><a href="http://www.salon.com/2016/01/08/this_is_the_web_browser_you_should_be_using_if_you_care_at_all_about_security_partner/">This is the web browser you should be using if you at all about security</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jan 07</td>
+<td>The Daily Dot</td>
+<td><a href="http://www.techrepublic.com/blog/it-security/everything-you-need-to-know-about-using-tor/">Everything you need to know about Tor</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2016 Jan 07</td>
+<td>Wired</td>
+<td><a href="https://www.wired.com/2016/01/propublica-launches-the-dark-webs-first-major-news-site/">ProPublica Launches the Dark Web’s First Major News Site</a></td>
+</tr>
+
+<tr style="">
+<td>2016 Jan 05</td>
+<td>The Register</td>
+<td><a href="http://www.theregister.co.uk/2016/01/05/tor_launches_inviteonly_exploit_bug_bounty/">Tor launches invite­only exploit bug bounty</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Dec 29</td>
+<td>MotherBoard</td>
+<td><a href="http://motherboard.vice.com/read/the-tor-project-is-starting-a-bug-bounty-program">The Tor Project Is Starting a Bug Bounty Program</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Dec 14</td>
+<td>ZDNET</td>
+<td><a href="http://www.zdnet.com/article/twitter-says-why-not-try-tor-after-issuing-first-state-backed-hack-alert/">Twitter says 'Why not try Tor?' after issuing first state­backed hack alert</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Dec 11</td>
+<td>The Register (UK)</td>
+<td><a href="http://www.theregister.co.uk/2015/12/11/silicon_valley_congresswoman_to_bat_for_tor/">Silicon Valley's Congresswoman comes to the defense of Tor</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Dec 11</td>
+<td>WIRED</td>
+<td><a href="https://www.wired.com/2015/12/tor-hires-a-new-leader-to-help-it-combat-the-war-on-privacy/">Tor Hires a New Leader to Help It Combat the War on Privacy</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Dec 11</td>
+<td>BoingBoing</td>
+<td><a href="http://boingboing.net/2015/12/11/the-tor-project-has-a-new-exec.html">The Tor Project has a new executive director: former EFF director Shari Steele!</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Dec 10</td>
+<td>MotherBoard</td>
+<td><a href="http://motherboard.vice.com/read/tor-and-public-wi-fi-safe-in-france-prime-minister-says">Tor and Public Wi­Fi Safe in France, Prime Minister Says</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Dec 07</td>
+<td>ZDNET</td>
+<td><a href="http://www.zdnet.com/article/france-considers-public-wi-fi-tor-network-ban-in-wake-of-terror-attacks/">France considers public Wi­Fi, Tor network ban in wake of terror attacks</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Dec 04</td>
+<td>SC Magazine</td>
+<td><a href="https://www.scmagazine.com/top-6-influential-security-thinkers/article/534087/">Top 6 influential security thinkers</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Nov 30</td>
+<td>Fusion</td>
+<td><a href="http://fusion.net/story/238742/tor-carnegie-mellon-attack/">The attack that broke the Dark Web—and how Tor plans to fix it.</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Nov 25</td>
+<td>The Register (UK)</td>
+<td><a href="http://www.theregister.co.uk/2015/11/25/tor_project_donations/">Tor Project: Anonymity ain't free, folks. Pony up</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Nov 16</td>
+<td>International Journalists Network (IJNet)</td>
+<td><a href="https://ijnet.org/en/blog/five-tools-journalists%E2%80%99-online-safety-privacy-highlighted-during-aaron-swartz-day-event-0">Five tools for journalists’ online safety, privacy highlighted during Aaron Swartz Day event</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Oct 30</td>
+<td>BBC</td>
+<td><a href="http://www.bbc.com/news/technology-34677323">Tor launches anti­censorship Messenger service</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Oct 30</td>
+<td>ZDNET</td>
+<td><a href="http://www.zdnet.com/article/tor-project-launches-encrypted-anonymous-chat-app-to-the-public/">Tor Project launches encrypted anonymous chat app to the public</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Oct 29</td>
+<td>WIRED</td>
+<td><a href="https://www.wired.com/2015/10/tor-just-launched-the-easiest-app-yet-for-anonymous-encrypted-im/">Tor Just Launched the Easiest App Yet for Anonymous, Encrypted IM</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Oct 29</td>
+<td>Tech Times</td>
+<td><a href="http://www.techtimes.com/articles/101138/20151029/with-facebooks-support-tor-projects-onion-domains-remain-hidden.htm">With Facebook's Support, Tor Project's .Onion Domains Remain Hidden</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Oct 28</td>
+<td>The Verge</td>
+<td><a href="http://www.theverge.com/2015/10/28/9631006/tor-hidden-addresses-recognition">Facebook helps Tor’s hidden sites get official recognition</a></td>
+</tr>
+
+<tr style="background-color: #e5e5e5;">
+<td>2015 Oct 14</td>
+<td>The Daily Dot</td>
+<td><a href="http://www.dailydot.com/layer8/tor-app-ios-orfox-tor-browser-ios-9-apple/">Tor is getting major upgrades on iOS 9</a></td>
+</tr>
+
+<tr style="">
+<td>2015 Oct 13</td>
+<td>Economic Times</td>
+<td><a href="http://economictimes.indiatimes.com/tech/internet/more-indians-are-logging-on-anonymously-using-browsers-like-tor-freenet-i2p-and-tails/articleshow/49330271.cms">More Indians are logging on anonymously using browsers like Tor, Freenet, I2P and Tails</a></td>
+</tr>
+
 <tr style="background-color: #e5e5e5;">
 <td>2015 Sep 16</td>
 <td>NPR</td>
