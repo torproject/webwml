@@ -1389,10 +1389,7 @@ href="http://www.crowdstrike.com/community-tools/index.html#tool-79">proposed
     (Vidalia) go?</a></h3>
 
     <p>Vidalia has been replaced with Tor Launcher, which is a Firefox
-    extension that provides similar functionality. Unfortunately, circuit
-    status reporting is still missing, but we are <a
-    href="https://trac.torproject.org/projects/tor/ticket/8641">working
-    on providing it</a>. </p>
+    extension that provides similar functionality.</p>
 
     <hr>
 
