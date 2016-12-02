@@ -15,7 +15,7 @@
 # website component, and set it to needs_review.
 
 export STABLETAG=tor-0.2.8.10
-export DEVTAG=tor-0.2.9.6-alpha
+export DEVTAG=tor-0.2.9.6-rc
 
 
 WMLBASE=.
