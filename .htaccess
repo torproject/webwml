@@ -76,6 +76,10 @@ RewriteRule ^donate/donate-amazon(.*) /donate/donate-amazon$1 [END]
 RewriteRule ^donate/donate(.*) https://donate.torproject.org [R=302,L]
 RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq.html [R=302,L]
 RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy.html [R=302,L]
+
+# The following redirect is necessary because we're using that URL on
+# some external resources (the donate infrastructure in particular) and
+# getting it changed there is apparently hard or something.
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
 
 
