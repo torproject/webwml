@@ -562,6 +562,33 @@
         </table>
       </div>
       </div>
+    <hr>
+    <p></p>
+    <div id="downloads-sandbox" class="anchor"></div>
+    <center><h3>Tor Browser Sandbox</h3></center>
+     <div class="pjtext">
+      <div class="dltable" style="margin-top: -35px;">
+        <table>
+          <thead>
+        <tr>
+          <th><br>Language</th>
+          <th>Linux<br><em>(<version-torbrowsersandboxlinux>)</em></th>
+        </tr>
+          </thead>
+          <tbody>
+        <tr class="alt">
+          <td>All</td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux32.zip">32-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux32.zip.asc">sig</a>)</em>
+          &bull; <a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux64.zip">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux64.zip.asc">sig</a>)</em>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+
     </div>
       </div>
 
