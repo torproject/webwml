@@ -248,14 +248,6 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-tlsdate">Tlsdate</a></td>
-        <td>Utility</td>
-        <td>C</td>
-        <td>None</td>
-        <td>ioerror</td>
-      </tr>
-
-      <tr>
         <td><a href="#project-metrics">Metrics</a></td>
         <td>Client Service</td>
         <td>Java</td>
@@ -600,21 +592,6 @@ meetings around the world.</li>
     <b>Project Ideas:</b><br />
     <i><a href="#txtorcon_use_txaio">Convert txtorcon to use txaio</a></i><br />
     <i><a href="#txtorcon_use_pytest">Convert txtorcon to py.test</a></i>
-    </p>
-
-    <a id="project-tlsdate"></a>
-    <h3>Tlsdate (<a href="https://github.com/ioerror/tlsdate">code</a>)</h3>
-
-    <p>
-    tlsdate: secure parasitic rdate replacement
-    </p>
-
-    <p>
-    tlsdate sets the local clock by securely connecting with TLS to remote
-    servers and extracting the remote time out of the secure handshake. Unlike
-    ntpdate, tlsdate uses TCP, for instance connecting to a remote HTTPS or TLS
-    enabled service, and provides some protection against adversaries that try
-    to feed you malicious time information.
     </p>
 
     <a id="project-metrics"></a>
