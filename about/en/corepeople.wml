@@ -16,7 +16,7 @@
 
 <h1>Core Tor People</h1>
 <dl>
-          <dt>Sue Abt, Accountant and Finance</dt>
+          <dt>Sue Abt, Accounting Manager</dt>
           <dd>Sue runs Tor's finances and audit compliance.</dd>
 
           <dt>Micah Anderson</dt>
@@ -55,12 +55,9 @@
           href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor
           Messenger</a>, and on Snowflake.</dd>
 
-          <dt>John Brooks, Ricochet Developer</dt>
-          <dd>Leads <a href="https://ricochet.im/">Ricochet</a>, a
-          decentralized chat system where every user is an onion service.
-          Also a core contributor to Tor onion service development.</dd>
+          <dt>Cass Brewer, Writer</dt><dd></dd>
 
-          <dt>Colin Childs, Translation Coordinator and Support</dt>
+          <dt>Colin Childs, Support and Translation Coordinator</dt>
           <dd>Helps wrangle <a
           href="https://www.transifex.com/projects/p/torproject/">Transifex</a>
           for us, and also helps answer all the users who contact the
@@ -71,7 +68,7 @@
           has a day job at First Look Media, and remains active in the
           general privacy space.</dd>
 
-          <dt>Roger Dingledine, Project Leader, Director, Research Director</dt>
+          <dt>Roger Dingledine, Research Director and President</dt>
           <dd>Original developer of Tor along with Nick Mathewson and Paul
           Syverson. Leading researcher in the anonymous communications
           field. Frequent speaker at conferences to advocate Tor and
@@ -119,7 +116,7 @@
           <dt>Aaron Gibson, Developer</dt>
           <dd>Used to develop OONI, and now works on Torflow.</dd>
 
-          <dt>Dr. Ian Goldberg, Director, Researcher</dt>
+          <dt>Dr. Ian Goldberg, Researcher</dt>
           <dd>Cryptographer, privacy expert,
           and professor; one of the designers of <a
           href="https://otr.cypherpunks.ca/">Off-the-Record
@@ -133,10 +130,6 @@
           <dd>Gunner co-organizes and helps lead the <a
           href="https://trac.torproject.org/projects/tor/wiki/org/meetings">Tor
           Dev Meetings</a>, and advises on Tor community matters.</dd>
-
-          <dt>Marie Gutbub, Advocate</dt>
-          <dd>Helps educate the world about the value of Tor, especially
-          in Europe.</dd>
 
           <dt>Sebastian Hahn, Developer</dt>
           <dd>Helps people around the world use and understand
@@ -194,10 +187,6 @@
           <dt>Pepijn Le Heux, Advocate</dt>
           <dd>Tireless advocate and Tor enthusiast in the Netherlands.</dd>
 
-          <dt>Tom Leckrone</dt>
-          <dd>Helps make sure everything runs smoothly. Coordinates
-          logistics and people and everything in between.</dd>
-
           <dt>Andreas Lehner, Advocate</dt>
           <dd>Operates a directory authority in Germany with the CCC,
           and does talks and discussions in support of privacy around
@@ -209,7 +198,7 @@
           a service that provides alternative methods to download Tor
           Browser.</dd>
 
-          <dt>Dr. Karsten Loesing, Metrics Researcher and Developer</dt>
+          <dt>Dr. Karsten Loesing, Lead Metrics Researcher and Developer</dt>
           <dd>Primary researcher and developer into
           <a href="https://metrics.torproject.org/">anonymous metrics</a>
           which started as a National Science Foundation grant.</dd>
@@ -230,7 +219,7 @@
           and also helps strengthen the network with exit relays at
           libraries.</dd>
 
-          <dt>Nick Mathewson, Chief Architect, Vice President, Researcher, Director</dt>
+          <dt>Nick Mathewson, Chief Architect and Vice President</dt>
           <dd>One of the three original designers of Tor&mdash;does a lot
           of the ongoing design work, and coordinates and leads ongoing
           development.</dd>
@@ -243,12 +232,7 @@
           <dt>Ondrej Mikle</dt>
           <dd>Maintains our RPM packages.</dd>
 
-          <dt>Kelley Misata, Advocate</dt>
-          <dd>Teaches many people about the value of privacy,
-          especially in the contexts of domestic violence and cyber
-          stalking.</dd>
-
-          <dt>Julius Mittenzwei, Director</dt>
+          <dt>Julius Mittenzwei</dt>
           <dd>Germany-based lawyer and Internet activist.</dd>
 
           <dt>Dr. Steven Murdoch, Researcher and Developer</dt>
@@ -273,6 +257,9 @@
           <dd>Manages the Debian packages, runs one of the directory
           authorities, and generally helps out a lot.</dd>
 
+          <dt>Brad Parker, Chief Financial and Grants Officer</dt>
+          <dd></dd>
+
           <dt>Mike Perry, Tor Browser and Tor Performance
           Developer</dt> <dd>Lead developer on Tor Browser, developer
           of <a href="<page docs/torbutton/index>">Torbutton</a>, author of <a
@@ -288,6 +275,10 @@
           which is shaping up to be the Tor Browser equivalent for
           Android.</dd>
 
+          <dt>Silvia Puglisi, Services Hacker</dt>
+          <dd>Services admin, metrics team contributor, and generally helping
+          picking up tasks around.</dd>
+
           <dt>Sina Rabbani, Advocate</dt>
           <dd>Does trainings and outreach. Runs one of the directory
           authorities.</dd>
@@ -301,12 +292,13 @@
           <dd>Works on security analysis, designer of "bananaphone"
           transport, and part of the pluggable transports team.</dd>
 
-          <dt>Wendy Seltzer, Director</dt>
+          <dt>Jon Selon, Administrative Manager</dt>
+          <dd>General administrative tasks, event coordination, donor management,
+          swag management.</dd>
+
+          <dt>Wendy Seltzer</dt>
           <dd>Lawyer, cyberlaw professor, and founder of <a
           href="http://chillingeffects.org/">ChillingEffects.org</a>.</dd>
-
-          <dt>Andrea Shepard, Developer</dt>
-          <dd>Works with Nick as a core Tor developer.</dd>
 
           <dt>Sukhbir Singh, Developer</dt>
           <dd>Develops and maintains TorBirdy (Torbutton for Thunderbird).
@@ -344,7 +336,7 @@
           <dd>Spanish translator; helps answer all the users who contact
           the support desk.</dd>
 
-          <dt>Rabbi Rob Thomas, Director</dt>
+          <dt>Rabbi Rob Thomas</dt>
           <dd>Shares his experience with smoothly running non-profits, and
           also serves as our Internet governance bureaucracy guru.</dd>
 
@@ -371,7 +363,7 @@
           <dt>Erin Wyatt, HR Manager</dt>
           <dd>Employee benefits, policy questions, and baked goods.</dd>
 
-          <dt>Yawning, Developer</dt>
+          <dt>Yawning Angel, Developer</dt>
           <dd>Lead developer on obfs4proxy and other pluggable transports.
           Part of the pluggable transports team.</dd>
 

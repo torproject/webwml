@@ -41,6 +41,7 @@ part of Google Summer of Code 2008.</dd>
 <dt>Benedikt Boss</dt><dd>Worked during the 2007 Google Summer of Code on <a
 href="https://svn.torproject.org/svn/topf/trunk/README">TOPF</a>,
 a fuzzer for Tor; mentored by Roger.</dd>
+
 <dt>Caspar Bowden, Director (1961 - 2015)</dt>
 <dd>Caspar was an advocate for Tor in Europe and a specialist in data
 protection policy, EU and US surveillance law, PET research, identity
@@ -50,16 +51,26 @@ country deserved the right to privacy irrespective of national
 borders. He predicted US mass surveillance programs such as PRISM
 and was vindicated after the Snowden revelations. We miss him
 deeply.</dd>
+
+<dt>John Brooks, Ricochet Developer</dt>
+<dd>Leads <a href="https://ricochet.im/">Ricochet</a>, a
+decentralized chat system where every user is an onion service.
+Also a core contributor to Tor onion service development.</dd>
+
 <dt>Ren Bucholz</dt><dd>Our fine logo and images.</dd>
+
 <dt>Fallon Chen</dt><dd> Worked on
 Improving Tor Path Selection (<a
 href="https://svn.torproject.org/cgi-bin/viewvc.cgi/torflow/branches/gsoc2008/">svn</a>)
 and <a
 href="<specblob>proposals/151-path-selection-improvements.txt">proposal
 151</a> as part of Google Summer of Code 2008.</dd>
+
 <dt>Bram Cohen</dt><dd>Helped design our congestion control mechanisms,
 in Tor's early days.</dd>
+
 <dt>Pat Double</dt><dd>Creator of the Incognito LiveCD.</dd>
+
 <dt>Christopher Davis, Libevent hacker</dt>
 <dd>Worked during Google Summer of Code 2009 on porting
 Polipo to Windows.  He currently helps with the libevent
@@ -95,6 +106,10 @@ href="https://svn.torproject.org/cgi-bin/viewvc.cgi/torflow/branches/gsoc2008/">
 Summer of Code 2011, and developed <a
 href="https://compass.torproject.org/">Compass</a>.</dd>
 
+<dt>Marie Gutbub, Advocate</dt>
+<dd>Helps educate the world about the value of Tor, especially
+in Europe.</dd>
+
 <dt>Harmony, Support, Advocate</dt>
 <dd>Wrote for <a href="<wiki>TorWeeklyNews/">Tor Weekly
 News</a>, the help desk, and the browser manual.</dd>
@@ -120,11 +135,17 @@ on making Tor relays stable on
 Windows, by developing a <a
 href="https://svn.torproject.org/svn/libevent-urz/trunk/README">buffer
 implementation for libevent</a>; mentored by Nick.</dd>
+
 <dt>Joe Kowalski</dt><dd>Original author and provider of the torstatus
 script formerly run on nighteffect.</dd>
+
 <dt>Adam Langley</dt><dd>Our fine eventdns code.</dd>
 <dt>Rebecca MacKinnon</dt><dd>Former Director of Tor.  Co-Founder of <a
 href="http://www.globalvoicesonline.org/">Global Voices Online</a>.</dd>
+
+<dt>Tom Leckrone</dt>
+<dd>Helps make sure everything runs smoothly. Coordinates
+logistics and people and everything in between.</dd>
 
 <dt>Bruce Leidl</dt>
 <dd>Lead developer of
@@ -136,19 +157,28 @@ a Tor client in Java.</dd>
 roles of finance, advocacy, project management, strategy, press, law
 enforcement liaison, and domestic violence advocacy.</dd>
 
+<dt>Kelley Misata, Advocate</dt>
+<dd>Teaches many people about the value of privacy,
+especially in the contexts of domestic violence and cyber
+stalking.</dd>
+
 <dt>Matt Pagan</dt>
 <dd>Maintained the FAQ and other documentation, and helped answer
 all the users who contact the support desk.</dd>
 
 <dt>Chris Palmer</dt><dd>Our liaison and tech guy with EFF while EFF
 was funding us. Also helped advocate and write end-user docs.</dd>
+
 <dt>Martin Peck</dt><dd>Worked on a VM-based transparent
 proxying approach for Tor clients on Windows.</dd>
+
 <dt>Matej Pfajfar</dt><dd>Author of the original onion routing code that
 Tor is based on, so we didn't have to start from scratch.</dd>
+
 <dt>Robert Ransom</dt><dd>Found and fixed a bunch of Tor bugs, mostly in
 Tor's hidden service code, and added several security and usability
 features to Tor and Tor Browser Bundle.</dd>
+
 <dt>Johannes Renner</dt><dd> Worked during the 2007 Google Summer of
 Code on modifying <a
 href="https://svn.torproject.org/svn/torflow/trunk/README">TorFlow</a>
@@ -163,6 +193,9 @@ projects such as Vidalia, Torbutton and the website.</dd>
 <dd>Developed <a
 href="https://globe.torproject.org/">Globe</a>, which is on
 its way to replacing Atlas and eventually Compass.</dd>
+
+<dt>Andrea Shepard, Developer</dt>
+<dd>Works with Nick as a core Tor developer.</dd>
 
 <dt>Scott Squires</dt><dd>The original developer of <a
 href="<page docs/torbutton/index>">Torbutton</a>.</dd>
@@ -204,7 +237,7 @@ href="https://svn.torproject.org/cgi-bin/viewvs.cgi/tor/branches/hidserv-perf/">
 
   </div>
   <!-- END MAINCOL -->
-  
+
   <div id = "sidecol">
 #include "side.wmi"
 #include "info.wmi"
@@ -212,4 +245,4 @@ href="https://svn.torproject.org/cgi-bin/viewvs.cgi/tor/branches/hidserv-perf/">
   <!-- END SIDECOL -->
 </div>
 <!-- END CONTENT -->
-#include <foot.wmi> 
+#include <foot.wmi>
