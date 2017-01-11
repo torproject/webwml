@@ -230,7 +230,10 @@
       Windows you can use the <a href="http://md5deep.sourceforge.net/">
       hashdeep utility</a> and run
       <pre>C:\location\where\you\saved\hashdeep -c sha256sum &lt;TOR BROWSER FILE NAME&gt;.exe</pre>
-      On Mac or Linux you can run <pre>shasum -a 256 &lt;TOR BROWSER FILE NAME&gt;.dmg</pre> or <pre>sha256sum &lt;TOR BROWSER FILE NAME&gt;.tar.gz</pre> without having to download a utility.</li>
+      <p>On Linux you can run</p>
+      <pre>sha256sum &lt;TOR BROWSER FILE NAME&gt;.tar.gz</pre>
+      without having to download a utility. Note: this does not work for OS X
+      yet due to Apple's codesigning requirement.</li>
       <li>You will see a string of letters and numbers.</li>
       <li>Open <tt>sha256sums-unsigned-build.txt</tt> in a text editor.</li>
       <li>Locate the name of the Tor Browser file you downloaded.</li>

@@ -31,8 +31,9 @@ stage from design to maintenance.
 We are working to make our code more scalable, testable, and
 maintainable. You would be reviewing other people's code and designs,
 looking for ways to improve it. For an idea of the breadth and depth of
-the work you'd be doing, please see ChangeLog file from the Tor source
-distribution: https://gitweb.torproject.org/tor.git/tree/ChangeLog
+the work you'd be doing, please see <a
+href="https://gitweb.torproject.org/tor.git/tree/ChangeLog">ChangeLog</a>
+file from the Tor source distribution.</a>
 </p>
 <p>
 This is a full-time remote position. Flexible salary, depending on
@@ -56,7 +57,7 @@ existing piece of software from design, to implementation, to testing, to
 maintenance</li>
 <li>Experience and comfort with peer review of your own code and design, and
 with your reviewing of others’ code and design</li>
-<li> nsparency! As a non-profit, everything Tor Project does is public,
+<li> Transparency! As a non-profit, everything Tor Project does is public,
 including your name and pay rate</li>
 </ul>
 
@@ -79,9 +80,11 @@ varying skill levels</li>
 programs</li>
 <li>History of significant code contributions to multiple open-source
 projects</li>
+<li>Experience with development on Microsoft Windows</li>
 <li>Genuine excitement about Tor and its values! Follow this link to view
-the Tor Project social contract:
-https://blog.torproject.org/blog/tor-social-contract</li>
+the <a href="https://blog.torproject.org/blog/tor-social-contract">Tor
+Project social contract</a>.
+</li>
 </ul>
 
 <h2>
