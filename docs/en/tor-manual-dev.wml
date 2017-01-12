@@ -11,7 +11,7 @@
     <a href="<page docs/documentation>">Documentation &raquo; </a>
     <a href="<page docs/tor-doc-osx>">Tor Dev Manual</a>
   </div>
-  <div id="maincol">  
+  <div id="maincol">
     <:
     	die "Missing git clone at $(TORGIT)" unless -d "$(TORGIT)";
     	my $man = `GIT_DIR=$(TORGIT) git show $(DEVTAG):doc/tor.1.txt | asciidoc -d manpage -s -o - -`;
@@ -27,4 +27,4 @@
   <!-- END SIDECOL -->
 </div>
 <!-- END CONTENT -->
-#include <foot.wmi>  
+#include <foot.wmi>
