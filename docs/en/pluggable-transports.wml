@@ -141,7 +141,7 @@
                 <li><strong>Description:</strong> It transforms Tor traffic to arbitrary
         formats using their language descriptions. See the <a href="https://kpdyer.com/publications/ccs2013-fte.pdf">research paper</a>.</li>
                 <li><strong>Language:</strong> Python/C++</li>
-                <li><strong>Maintainger:</strong> Kevin Dyer</li>
+                <li><strong>Maintainer:</strong> Kevin Dyer</li>
                 <li><strong>Evaluation:</strong> <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/FteEvaluation">FTE Evaluation</a></li>
             </ul> 
         </li>
@@ -150,7 +150,7 @@
             <ul>
                 <li><strong>Description:</strong> Is a pluggable transport that protects against follow-up probing attacks and is also capable of changing its network fingerprint (packet length distribution, inter-arrival times, etc.).</li>
                 <li><strong>Language:</strong> Python</li>
-                <li><strong>Maintainger:</strong> Philipp Winter</li>
+                <li><strong>Maintainer:</strong> Philipp Winter</li>
                 <li><strong>Evaluation:</strong> <a href="https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/ScrambleSuitEvaluation"> ScrambleSuit Evaluation</a></li>
             </ul>
         </li>
@@ -177,7 +177,7 @@
         <ul>
             <li><strong>Description:</strong>is an Obfsproxy fork that extends it to a) split Tor streams across multiple connections to avoid packet size signatures, and b) embed the traffic flows in traces that look like HTML, JavasCript, or PDF. See its <a href="https://gitweb.torproject.org/stegotorus.git">git repository</a>.</li>
             <li><strong>Language:</strong> C++</li>
-            <li><strong>Maintainger:</strong> Zack Weinberg</li>
+            <li><strong>Maintainer:</strong> Zack Weinberg</li>
             <li><strong>Evaluation:</strong> none</li>            
         </ul> 
     </li>
@@ -186,7 +186,7 @@
         <ul>
             <li><strong>Description:</strong> It transforms Tor traffic flows so they look like Skype Video. See its <a href="http://crysp.uwaterloo.ca/software/SkypeMorph-0.5.1.tar.gz">source code</a> and <a href="http://cacr.uwaterloo.ca/techreports/2012/cacr2012-08.pdf">design paper</a>.</li>
             <li><strong>Language:</strong></li>
-            <li><strong>Maintainger:</strong> Ian Goldberg.</li>
+            <li><strong>Maintainer:</strong> Ian Goldberg.</li>
             <li><strong>Evaluation:</strong> none</li>            
         </ul>
     </li>
@@ -195,7 +195,7 @@
         <ul>
             <li><strong>Description:</strong> It aims to provide a packet-based (rather than connection-based) DPI-resistant protocol. See its <a href="https://github.com/blanu/Dust">git repository</a>.</li>
             <li><strong>Language:</strong> Python</li>
-            <li><strong>Maintainger:</strong> Brandon Wiley.</li>
+            <li><strong>Maintainer:</strong> Brandon Wiley.</li>
             <li><strong>Evaluation:</strong> none</li>            
         </ul>
     </li>
