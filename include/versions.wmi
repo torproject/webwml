@@ -27,7 +27,7 @@
 <define-tag releasedate-torbrowserbundleosx64 whitespace=delete>2017-01-24</define-tag>
 <define-tag version-torbrowserbundleosx64beta whitespace=delete>7.0a1</define-tag>
 <define-tag releasedate-torbrowserbundleosx64beta whitespace=delete>2017-01-25</define-tag>
-<define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.2</define-tag>
+<define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.3</define-tag>
 
 <define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundledir>/tor-win32-<version-win32-stable>.zip</define-tag>
 
