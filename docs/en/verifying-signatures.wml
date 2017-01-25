@@ -57,8 +57,8 @@
     torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc. For a list
     of which developer signs which package, see our <a href="<page docs/signing-keys>">signing keys</a> page.</p>
 
-    <p>We now show how you can verify the downloaded file digital signature on
-    different Operating systems. Please notice that a signature is dated the moment
+    <p>We now show how you can verify the downloaded file's digital signature on
+    different operating systems. Please notice that a signature is dated the moment
     the package has been signed. Therefore every time a new file is uploaded a new
     signature is generated with a different date. As long as you have verified the
     signature you should not worry that the reported date may vary.
