@@ -578,9 +578,7 @@
           <tbody>
         <tr class="alt">
           <td>All</td>
-          <td><a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux32.zip">32-bit</a>
-          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux32.zip.asc">sig</a>)</em>
-          &bull; <a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux64.zip">64-bit</a>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux64.zip">64-bit</a>
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebetadir>/sandbox-<version-torbrowsersandboxlinux>-linux64.zip.asc">sig</a>)</em>
           </td>
         </tr>
