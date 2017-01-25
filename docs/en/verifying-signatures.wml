@@ -93,7 +93,9 @@
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
     package and its signature to your Desktop, run:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --verify C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe</pre>
+    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --verify
+    C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc
+    C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe</pre>
     <p>The output should say "Good signature": </p>
     <pre>
     gpg: Signature made Tue 24 Jan 2015 09:29:09 AM CET using RSA key ID D40814E0
@@ -152,7 +154,8 @@
     <pre>gpg --verify ~/Downloads/TorBrowser-<version-torbrowserbundleosx64>-osx64_en-US.dmg{.asc*,}</pre>
 
     <strong>For Linux users</strong> (change 32 to 64 if you have the 64-bit package):<br />
-    <pre>gpg --verify tor-browser-linux32-<version-torbrowserbundlelinux32>_en-US.tar.xz.asc tor-browser-linux32-<version-torbrowserbundlelinux32>_en-US.tar.xz</pre>
+    <pre>gpg --verify tor-browser-linux32-<version-torbrowserbundlelinux32>_en-US.tar.xz.asc
+    tor-browser-linux32-<version-torbrowserbundlelinux32>_en-US.tar.xz</pre>
 
     <p>The output should say "Good signature":</p>
 
