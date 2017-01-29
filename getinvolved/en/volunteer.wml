@@ -896,60 +896,6 @@ the codebase that you want to work on.
     </p>
     </li>
 
-    <a id="panopticlick"></a>
-    <li>
-    <b>Panopticlick</b>
-    <br>
-    Likely Mentors: <i>Georg (GeKo)</i>, <i>G&uuml;nes Acar</i>, <i>Nicolas (boklm)</i>
-    <p>
-
-The <a href="https://panopticlick.eff.org">Panopticlick project by the EFF</a>
-revolutionized how people think about <a
-href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">browser
-fingerprinting</a>, both by developing tests and metrics to measure browser
-fingerprintability, and by crowdsourcing the evaluation and contribution of
-individual browser features to overall fingerprintability.
-
-    </p>
-    <p>
-
-Unfortunately, the way Panopticlick is designed <a
-href="https://blog.torproject.org/blog/effs-panopticlick-and-torbutton">makes
-it difficult</a> to evaluate defenses to browser fingerprinting, especially
-for browsers with a relatively small userbase such as Tor Browser. This is
-because any approach we take to reduce fingerprinting automatically makes our
-users more distinct from the previous users who submitted their fingerprint
-data to the EFF. Indeed, it is also impossible to ever expect that users of
-one browser will ever be able to blend in with users of another browser
-(Chrome users will always be distinguishable from Firefox users for example,
-based on feature set alone).
-
-   </p>
-   <p>
-
-To address this, we would like to have <a
-href="https://trac.torproject.org/projects/tor/ticket/6119">our own
-fingerprint test suite</a> to evaluate the fingerprintability of each browser
-feature for users running a specific Tor Browser version. There are also <a
-href="https://trac.torproject.org/projects/tor/query?keywords=~tbb-fingerprinting">additional
-fingerprinting tests</a> we can add beyond those deployed by Panopticlick.
-   </p>
-   <p>
-
-For this project, the student would develop a website that users can
-voluntarily visit to test and record their Tor Browser fingerprint.  The user
-should get feedback on how she performed and the test results should be
-available in a machine readable format (e.g. JSON), broken down by Tor Browser
-version.  In a second step one could think about adding more sophisticated
-tests or supporting other browser vendors that might want to test the
-uniformity amongst their userbase as well. Of course, results from each
-browser would also need to be broken down by both browser implementation and
-version, so that results would only reflect the population of that specific
-implementation.
-
-    </p>
-    </li>
-
     <a id="stegotorus"></a>
     <li>
     <b>Make Stegotorus deployment ready</b>
