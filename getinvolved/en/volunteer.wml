@@ -452,11 +452,6 @@ meetings around the world.</li>
     a bit more.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#expand_nyx">Expand Nyx</a></i>
-    </p>
-
     <a id="project-orbot"></a>
     <h3><a href="https://guardianproject.info/apps/orbot/">Orbot</a> (<a
     href="https://gitweb.torproject.org/orbot.git">code</a>, <a
@@ -570,11 +565,6 @@ meetings around the world.</li>
     <p>
     Python controller library for scripts and controller applications using
     Tor.
-    </p>
-
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#descriptor_parsing_in_go">Stem Descriptor Parsing in Go</a></i>
     </p>
 
     <a id="project-txtorcon"></a>
@@ -852,90 +842,6 @@ the codebase that you want to work on.
     </p>
     </li>
 
-    <a id="expand_nyx"></a>
-    <li>
-    <b>Expand Nyx</b>
-    <br>
-    Language: <i>Python</i>
-    <br>
-    Likely Mentors: <i>Damian (atagar)</i>
-    <br><br>
-    <p>
-Nyx (previously known as <a href="https://www.atagar.com/arm/">arm</a>) is an
-ncurses monitor that provides Tor relay operators...
-    </p>
-
-    <ul>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_page1_full.png">bandwidth graphs and event log</a></li>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_page2_full.png">connections</a></li>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_page3_full.png">user's torrc</a></li>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_configPanel_full.png">config editor</a></li>
-    </ul>
-
-    <p>
-Nyx is presently under development in preparation for its next release. If you
-like python, terminals, and collaborating on an active codebase this just might
-be the project for you!
-    </p>
-
-    <p>
-Proposals should involve a grab-bag of moderately small improvements you'd like
-to make. You're encouraged to brainstorm ideas of their own but here's a few to
-get ya started...
-    </p>
-
-    <ul>
-      <li>Bring back the <a href="https://www.atagar.com/arm/images/screenshot_interpretor_full.png">interpreter panel</a>. This panel was dropped when refactoring Nyx, but it would be a neat component to bring back. You can <a href="https://gitweb.torproject.org/nyx.git/tree/src/cli/interpretorPanel.py?h=release">find old code for it in the history</a> and Stem (the library backing Nyx) has a much improved <a href="https://stem.torproject.org/tutorials/down_the_rabbit_hole.html">variant of this we can leverage</a>. This task would involve writing the curses code around Stem's interpreter functions.</li>
-      <li>Windows support. Like most curses applications Nyx doesn't run natively on Windows. We've had dozens of users request this and <a href="https://trac.torproject.org/projects/tor/wiki/doc/arm#Windows">it should be possible</a>. This would involve supporting PDCurses and expanding Stem to be able to query the cpu/memory usage of the tor process.</li>
-      <li>Unit testing! Nyx has <a href="https://gitweb.torproject.org/nyx.git/tree/test">started adding tests</a> but it's still very minimal. Achieving any substantial code coverage will require us to figure out how to unit test curses components.</li>
-      <li>Onionoo provides additional relay information that could enrich our connection panel such as geoip and rdns. Trick is that at present we can only query it on a per-relay basis which would leak our connections (no-go for security). However, if we could get information about all relays in bulk it would sidestep this. For some old thoughts on this see <a href="https://trac.torproject.org/projects/tor/wiki/doc/arm#CircuitDetails">here</a>.</li>
-      <li>Relay setup wizard. Our last release had this (screenshots: <a href="https://www.atagar.com/transfer/tmp/arm_wizard1.png">1</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard2.png">2</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard3.png">3</a>). This has been removed because including it directly in Nyx confused users, but we might want to resurrect it as a separate <i>setup-tor-relay</i> command.</li>
-      <li><a href="https://trac.torproject.org/projects/tor/ticket/18499">Improved dialog</a> for selecting events to log.</li>
-      <li>... and more! Again, don't hesitate to propose ideas of your own.</li>
-    </ul>
-
-    <p>
-    <b>As part of your application for this project please get your hands wet with the codebase by contributing patches for <a href="https://gitweb.torproject.org/nyx.git">Nyx</a> and <a href="https://stem.torproject.org/faq.html#how-do-i-get-started">Stem</a>!</b>
-    </p>
-    </li>
-
-    <a id="descriptor_parsing_in_go"></a>
-    <li>
-    <b>Stem Descriptor Parsing in Go</b>
-    <br>
-    Language: <i>Go, Python</i>
-    <br>
-    Likely Mentors: <i>Damian (atagar), Philipp (phw)</i>
-    <br><br>
-    <p>
-    Tor consists of two parts: the application and a distributed network of a
-    few thousand volunteer relays. Information about these relays is public,
-    and made up of documents called <b><a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#what-is-a-descriptor">descriptors</a></b>. We have
-    <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#are-there-any-other-parsing-libraries">three libraries capable of reading these documents</a>...
-    </p>
-
-    <ul>
-      <li><b><a href="https://stem.torproject.org/">Stem</a></b> (Python)</li>
-      <li><b><a href="https://gitweb.torproject.org/metrics-lib.git/">Metrics-lib</a></b> (Java)</li>
-      <li><b><a href="https://gitweb.torproject.org/user/phw/zoossh.git/">Zoossh</a></b> (Go)</li>
-    </ul>
-
-    <p>
-    Stem is the most feature rich but slowest, and conversely Zoossh is fastest
-    but limited. But what if Stem used CFFI bindings to do the heavy lifting in
-    Go? Could we unify these libraries, getting the feature set of Stem with
-    the performance of Zoossh?
-    </p>
-
-    <p>
-    <b>Applicants should be familiar with both Python and Go. As part of your
-    application for this project please write a demo CFFI binding for Stem as a
-    proof of concept.</b> Bonus points if you <a
-    href="https://stem.torproject.org/faq.html#how-do-i-get-started">get your
-    hands wet by contributing patches</a>!
-    </p>
-    </li>
-
     <a id="txtorcon_use_txaio"></a>
     <li>
     <b>Convert txtorcon to use txaio</b>
@@ -987,131 +893,6 @@ get ya started...
     txtorcon is event-based, familiarity with that style of programming
     (preferrably with Twisted) is ideal.
     See also: https://github.com/meejah/txtorcon/issues/136
-    </p>
-    </li>
-
-    <a id="coniks_in_messenger"></a>
-    <li>
-    <b>Implement and Integrate CONIKS for Tor Messenger</b>
-    <br>
-    Language: <i>C, JavaScript</i>
-    <br>
-    Likely Mentors: <i>Marcela (masomel), Arlo (arlolra)</i>
-    <br><br>
-    <p>
-CONIKS is an end-user key management and verification system for end-to-end
-secure communication services, which improves upon existing key management
-systems by providing both strong security and better usability using a model
-called key transparency. CONIKS does this by requiring providers to manage
-tamper-evident, publicly-auditable key directories, which contain mappings from
-usernames to public keys, on behalf of their users. This design makes it easier
-for users (both "default" users and power users) to establish trust since they
-don't have to worry about or even see keys, but users also don't have to
-trust the provider to be well-behaved because the CONIKS client can run as
-part of the secure messaging app and automatically check that the service
-provider doesn’t map spurious keys to their users' usernames, and it can
-verify that observed name-to-key mappings are consistent with what other
-clients in the system are seeing. Unlike existing key transparency solutions,
-CONIKS also provides strong privacy guarantees by employing cryptographic
-primitives for robust data obfuscation.
-    </p>
-
-    <p>
-The CONIKS system design, protocols, and proof-of-concept are described in
-great detail in the <a
-href="https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-melara.pdf">CONIKS
-research paper</a>, and basic reference implementations of a CONIKS key server
-and a CONIKS client are avialable on <a
-href="https://github.com/coniks-sys/coniks-ref-implementation">Github</a>.
-    </p>
-
-    <p>
-This project has two main components: (1) designing and implementing a CONIKS
-key server tailored to Tor Messenger users, and (2) building a CONIKS client
-which integrates with the Tor Messenger client. One challenge the applicant
-will face is ensuring that the key server design is efficient and scalable for
-large volumes of users, concurrent traffic and guarantees this scalability even
-as Tor Messenger's user base grows. On the client side, the main challenges
-will be to focus on space efficiency as well as minimizing computational
-overhead when implementing the CONIKS consistency checks, and determining how
-to best communicate CONIKS consistency check results to users in the UI. Since
-Tor Messenger does not hand out online identities per se, as most online
-communication services do (like, say, Twitter, in which each user has a unique
-handle), the CONIKS key server for Tor Messenger will have to map usernames
-from third-party communication services to the encryption keys used in Tor
-Messenger. One additional important challenge that the applicant will have to
-help address is ensuring that each such third-party username remains unique in
-the Tor Messenger space and that such external, third-party identities are
-indeed controlled by the expected user of that third-party communication
-service.
-    </p>
-
-    <p>
-Some design and implementation questions have been discussed in <a
-href="https://trac.torproject.org/projects/tor/ticket/17961">Ticket #17961</a>.
-    </p>
-
-    <p>
-The applicant should have some familiarity with well-known crypto primitives
-and algorithms, as well as have a basic understanding of the key transparency
-model. Client side integration will require some basic use of JavaScript.
-Consider submitting a patch for <a
-href="https://github.com/arlolra/ctypes-otr/issues">one of the open key
-verification issues</a> as part of the application process.
-    </p>
-    </li>
-
-    <a id="panopticlick"></a>
-    <li>
-    <b>Panopticlick</b>
-    <br>
-    Likely Mentors: <i>Georg (GeKo)</i>, <i>G&uuml;nes Acar</i>, <i>Nicolas (boklm)</i>
-    <p>
-
-The <a href="https://panopticlick.eff.org">Panopticlick project by the EFF</a>
-revolutionized how people think about <a
-href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">browser
-fingerprinting</a>, both by developing tests and metrics to measure browser
-fingerprintability, and by crowdsourcing the evaluation and contribution of
-individual browser features to overall fingerprintability.
-
-    </p>
-    <p>
-
-Unfortunately, the way Panopticlick is designed <a
-href="https://blog.torproject.org/blog/effs-panopticlick-and-torbutton">makes
-it difficult</a> to evaluate defenses to browser fingerprinting, especially
-for browsers with a relatively small userbase such as Tor Browser. This is
-because any approach we take to reduce fingerprinting automatically makes our
-users more distinct from the previous users who submitted their fingerprint
-data to the EFF. Indeed, it is also impossible to ever expect that users of
-one browser will ever be able to blend in with users of another browser
-(Chrome users will always be distinguishable from Firefox users for example,
-based on feature set alone).
-
-   </p>
-   <p>
-
-To address this, we would like to have <a
-href="https://trac.torproject.org/projects/tor/ticket/6119">our own
-fingerprint test suite</a> to evaluate the fingerprintability of each browser
-feature for users running a specific Tor Browser version. There are also <a
-href="https://trac.torproject.org/projects/tor/query?keywords=~tbb-fingerprinting">additional
-fingerprinting tests</a> we can add beyond those deployed by Panopticlick.
-   </p>
-   <p>
-
-For this project, the student would develop a website that users can
-voluntarily visit to test and record their Tor Browser fingerprint.  The user
-should get feedback on how she performed and the test results should be
-available in a machine readable format (e.g. JSON), broken down by Tor Browser
-version.  In a second step one could think about adding more sophisticated
-tests or supporting other browser vendors that might want to test the
-uniformity amongst their userbase as well. Of course, results from each
-browser would also need to be broken down by both browser implementation and
-version, so that results would only reflect the population of that specific
-implementation.
-
     </p>
     </li>
 
@@ -1288,72 +1069,6 @@ implementation.
     </ul>
     </li>
 
-    <a id="ahmiaSearch"></a>
-    <li>
-    <b>Ahmia - Hidden Service Search</b>
-    <br>
-    Language: <i>Python, Django</i>
-    <br>
-    Likely Mentors: <i>Juha Nurmi (numes), George (asn)</i>
-    <br><br>
-    <p>
-    Ahmia is open-source search engine software for Tor hidden service deep
-    dark web sites. You can test the running search engine at ahmia.fi. For
-    more information see our <a
-    href="https://blog.torproject.org/category/tags/ahmiafi">blog post about
-    Ahmia's GSoC2014 development</a>.
-    </p>
-
-    <p>
-    Ahmia is a working search engine that indexes, searches, and catalogs
-    content published on Tor Hidden Services. Furthermore, it is an environment
-    to share meaningful insights, statistics, insights, and news about the Tor
-    network itself. In this context, there is a lot of work to do.
-    </p>
-
-    <p>
-    The Ahmia web service is written using the Django web framework. As a
-    result, the server-side language is Python. On the client-side, most of the
-    pages are plain HTML. There are some pages that require JavaScript, but the
-    search itself works without client-side JavaScript.
-    </p>
-
-    <p>
-    There are several possible directions for this project, including...
-    </p>
-
-    <ol>
-      <li>Improving the search results (very important)<br />
-        <ul>
-          <li>Tweaking search algorithms</li>
-          <li>Adjust Elasticsearch</li>
-          <li>Enrich the data that is used to rank the search results</li>
-        </ul>
-      </li>
-      <li>Improving UX and UI (very important)<br />
-        <ul>
-          <li>Showing relevant knowledge</li>
-          <li>Design the navigation and information architecture</li>
-          <li>HTML5, CSS and Django development</li>
-        </ul>
-      </li>
-      <li>Review code and infrastructure<br />
-        <ul>
-          <li>Review code and fix bugs</li>
-          <li>Writing Django test cases</li>
-          <li>Linux configurations, automatizations</li>
-        </ul>
-      </li>
-      <li>Gather statistics over time and publish them<br />
-        <ul>
-          <li>Gather different kind of stats about Hidden Services</li>
-          <li>Publish these stats using HTTP REST API</li>
-          <li>Using this API show meaningful tables, charts and visualizations</li>
-        </ul>
-      </li>
-    </ol>
-    </li>
-
     <a id="ipHijacking"></a>
     <li>
     <b>IP hijacking detection for the Tor Network</b>
@@ -1392,87 +1107,6 @@ implementation.
     alerts can be used to notify network operators to take immediate action, as
     well as collect information about the occurrence of these type of attacks.
     </p>
-    </li>
-
-    <a id="tailsServer"></a>
-    <li>
-    <b>Tails server: Self-hosted services behind Tails-powered Tor hidden services</b>
-    <br>
-    Likely Mentors: <i>anonym, George (asn)</i>
-    <p>Let's talk about group collaboration, communication and data sharing
-    infrastructure, such as chat servers, wikis, or file repositories.</p>
-    <p>Hosting such data and infrastructure <b>in the cloud</b> generally
-    implies to trust the service providers not to disclose content, usage or
-    users location information to third-parties. Hence, there are many threat
-    models in which cloud hosting is not suitable.</p>
-    <p>Tor partly answers the <b>users location</b> part; this is great, but
-    <b>content</b> is left unprotected.</p>
-    <p>There are two main ways to protect such content: either to encrypt it
-    client-side (<b>security by design</b>), or to avoid putting it into
-    untrusted hands in the first place.</p>
-    <p>Cloud solutions that offer security by design are rare and generally
-    not mature yet. The <b>Tails server</b> project is about exploring the
-    other side of the alternative: avoiding to put private data into
-    untrusted hands in the first place.</p>
-    <p>This is made possible thanks to Tor hidden services, that allow users
-    to offer location-hidden services, and make self-hosting possible in
-    many threat models. Self-hosting has its own lot of problems, however,
-    particularly in contexts where the physical security of the hosting
-    place is not assured. Combining Tor hidden services with Tails'
-    amnesia property and limited support for persistent encrypted data
-    allows to protect content, to a great degree, even in such contexts.</p>
-    <p>In short, setting up a new Tails server would be done by:</p>
-
-    <ol style="list-style-type: decimal">
-      <li>Alice plugs a USB stick into a running desktop Tails system.</li>
-      <li>Alice uses a GUI to easily configure the needed services.</li>
-      <li>Alice unplugs the USB stick, that now contains encrypted services
-      configuration and data storage space.</li>
-      <li>Alice plugs that USB stick (and possibly a Tails Live CD) into the
-      old laptop that was dedicated to run Tails server.</li>
-      <li>Once booted, Alice enters the encryption passphrase either
-      directly using the keyboard or through a web interface listening on the
-      local network.</li>
-      <li>Then, Bob can use the configured services once he gets a hold on
-      the hidden service address. (The <b>petname system for Tor hidden
-      services</b> project would be very complementary to this one, by the
-      way.)</li>
-    </ol>
-
-    <p>Tails server should content itself with hardware that is a bit old
-    (such as a PIII-450 laptop with 256MB of RAM) and/or half broken (e.g.
-    non-functional hard-disk, screen or keyboard).</p>
-    <p>The challenges behind this project are:</p>
-
-    <ul>
-      <li>Design and write the services configuration GUI [keywords: edit
-      configuration files, upgrade between major Debian versions,
-      debconf].</li>
-      <li>How to create the hidden service key? [keywords: Vidalia, control
-      protocol].</li>
-      <li>Adapt the Tails boot process to allow switching to &quot;server
-      mode&quot; when appropriate.</li>
-      <li>Add support, to the Tails persistence setup process, for asking an
-      encryption passphrase without X, and possibly with a broken keyboard
-      and/or screen [keywords: local network, SSL/TLS?, certificate?].</li>
-    </ul>
-
-    <p>This project can easily grow quite large, so the first task would
-    probably be to clarify what it would need to get an initial (minimal
-    but working) implementation ready to be shipped to users.</p>
-    <p>This project does not require to be an expert in one specific field,
-    but it requires to be experienced and at ease with a large scope of
-    software development tools, processes, and operating system knowledge.</p>
-    <p>Undertaking this project requires in-depth knowledge of Debian-like
-    systems (self-test: do the "dpkg conffile" and "debconf preseeding"
-    words sound new to your ear?); the Debian Live persistence system
-    being written in shell, being at ease with robust shell scripting is
-    a must; to end with, at least two pieces of software need to be
-    written from scratch (a GUI and a webapp): the preferred languages for
-    these tasks would be Python and Perl. Using Behaviour Driven
-    Development methods to convey expectations and acceptance criteria
-    would be most welcome.</p>
-    <p>For more information see https://tails.boum.org/todo/server_edition/</p>
     </li>
 
     <a id="feedbackExtension"></a>
