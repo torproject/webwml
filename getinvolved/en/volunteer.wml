@@ -1113,7 +1113,7 @@ the codebase that you want to work on.
     <li>
     <b>Feedback Extension for Tor Browser</b>
     <br>
-    Likely Mentors: <i>Nima (mrphs)</i>, <i>Will (willscott)</i>, <i>Sukhbir (sukhe)</i>
+    Likely Mentors: <i>Nima (mrphs)</i>, <i>Sukhbir (sukhe)</i>
     <p>
 
     Design and implement an extension for Tor Browser that can be used to gather
