@@ -567,11 +567,6 @@ meetings around the world.</li>
     Tor.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#descriptor_parsing_in_go">Stem Descriptor Parsing in Go</a></i>
-    </p>
-
     <a id="project-txtorcon"></a>
     <h3><a href="https://txtorcon.readthedocs.io/en/latest/">Txtorcon</a> (<a
     href="https://github.com/meejah/txtorcon">code</a>, <a
@@ -844,43 +839,6 @@ us about what part you want to work on.
 As part of the application process for this project, please contribute a
 nontrivial patch to Tor -- ideally, one that will affect some part of
 the codebase that you want to work on.
-    </p>
-    </li>
-
-    <a id="descriptor_parsing_in_go"></a>
-    <li>
-    <b>Stem Descriptor Parsing in Go</b>
-    <br>
-    Language: <i>Go, Python</i>
-    <br>
-    Likely Mentors: <i>Damian (atagar), Philipp (phw)</i>
-    <br><br>
-    <p>
-    Tor consists of two parts: the application and a distributed network of a
-    few thousand volunteer relays. Information about these relays is public,
-    and made up of documents called <b><a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#what-is-a-descriptor">descriptors</a></b>. We have
-    <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#are-there-any-other-parsing-libraries">three libraries capable of reading these documents</a>...
-    </p>
-
-    <ul>
-      <li><b><a href="https://stem.torproject.org/">Stem</a></b> (Python)</li>
-      <li><b><a href="https://gitweb.torproject.org/metrics-lib.git/">Metrics-lib</a></b> (Java)</li>
-      <li><b><a href="https://gitweb.torproject.org/user/phw/zoossh.git/">Zoossh</a></b> (Go)</li>
-    </ul>
-
-    <p>
-    Stem is the most feature rich but slowest, and conversely Zoossh is fastest
-    but limited. But what if Stem used CFFI bindings to do the heavy lifting in
-    Go? Could we unify these libraries, getting the feature set of Stem with
-    the performance of Zoossh?
-    </p>
-
-    <p>
-    <b>Applicants should be familiar with both Python and Go. As part of your
-    application for this project please write a demo CFFI binding for Stem as a
-    proof of concept.</b> Bonus points if you <a
-    href="https://stem.torproject.org/faq.html#how-do-i-get-started">get your
-    hands wet by contributing patches</a>!
     </p>
     </li>
 
