@@ -452,11 +452,6 @@ meetings around the world.</li>
     a bit more.
     </p>
 
-    <p>
-    <b>Project Ideas:</b><br />
-    <i><a href="#expand_nyx">Expand Nyx</a></i>
-    </p>
-
     <a id="project-orbot"></a>
     <h3><a href="https://guardianproject.info/apps/orbot/">Orbot</a> (<a
     href="https://gitweb.torproject.org/orbot.git">code</a>, <a
@@ -849,53 +844,6 @@ us about what part you want to work on.
 As part of the application process for this project, please contribute a
 nontrivial patch to Tor -- ideally, one that will affect some part of
 the codebase that you want to work on.
-    </p>
-    </li>
-
-    <a id="expand_nyx"></a>
-    <li>
-    <b>Expand Nyx</b>
-    <br>
-    Language: <i>Python</i>
-    <br>
-    Likely Mentors: <i>Damian (atagar)</i>
-    <br><br>
-    <p>
-Nyx (previously known as <a href="https://www.atagar.com/arm/">arm</a>) is an
-ncurses monitor that provides Tor relay operators...
-    </p>
-
-    <ul>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_page1_full.png">bandwidth graphs and event log</a></li>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_page2_full.png">connections</a></li>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_page3_full.png">user's torrc</a></li>
-      <li><a href="https://www.atagar.com/arm/images/screenshot_configPanel_full.png">config editor</a></li>
-    </ul>
-
-    <p>
-Nyx is presently under development in preparation for its next release. If you
-like python, terminals, and collaborating on an active codebase this just might
-be the project for you!
-    </p>
-
-    <p>
-Proposals should involve a grab-bag of moderately small improvements you'd like
-to make. You're encouraged to brainstorm ideas of their own but here's a few to
-get ya started...
-    </p>
-
-    <ul>
-      <li>Bring back the <a href="https://www.atagar.com/arm/images/screenshot_interpretor_full.png">interpreter panel</a>. This panel was dropped when refactoring Nyx, but it would be a neat component to bring back. You can <a href="https://gitweb.torproject.org/nyx.git/tree/src/cli/interpretorPanel.py?h=release">find old code for it in the history</a> and Stem (the library backing Nyx) has a much improved <a href="https://stem.torproject.org/tutorials/down_the_rabbit_hole.html">variant of this we can leverage</a>. This task would involve writing the curses code around Stem's interpreter functions.</li>
-      <li>Windows support. Like most curses applications Nyx doesn't run natively on Windows. We've had dozens of users request this and <a href="https://trac.torproject.org/projects/tor/wiki/doc/arm#Windows">it should be possible</a>. This would involve supporting PDCurses and expanding Stem to be able to query the cpu/memory usage of the tor process.</li>
-      <li>Unit testing! Nyx has <a href="https://gitweb.torproject.org/nyx.git/tree/test">started adding tests</a> but it's still very minimal. Achieving any substantial code coverage will require us to figure out how to unit test curses components.</li>
-      <li>Onionoo provides additional relay information that could enrich our connection panel such as geoip and rdns. Trick is that at present we can only query it on a per-relay basis which would leak our connections (no-go for security). However, if we could get information about all relays in bulk it would sidestep this. For some old thoughts on this see <a href="https://trac.torproject.org/projects/tor/wiki/doc/arm#CircuitDetails">here</a>.</li>
-      <li>Relay setup wizard. Our last release had this (screenshots: <a href="https://www.atagar.com/transfer/tmp/arm_wizard1.png">1</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard2.png">2</a>, <a href="https://www.atagar.com/transfer/tmp/arm_wizard3.png">3</a>). This has been removed because including it directly in Nyx confused users, but we might want to resurrect it as a separate <i>setup-tor-relay</i> command.</li>
-      <li><a href="https://trac.torproject.org/projects/tor/ticket/18499">Improved dialog</a> for selecting events to log.</li>
-      <li>... and more! Again, don't hesitate to propose ideas of your own.</li>
-    </ul>
-
-    <p>
-    <b>As part of your application for this project please get your hands wet with the codebase by contributing patches for <a href="https://gitweb.torproject.org/nyx.git">Nyx</a> and <a href="https://stem.torproject.org/faq.html#how-do-i-get-started">Stem</a>!</b>
     </p>
     </li>
 
