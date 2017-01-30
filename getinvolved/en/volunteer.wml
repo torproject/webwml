@@ -809,30 +809,31 @@ meetings around the world.</li>
     Likely Mentors: <i>George (asn), David Goulet (dgoulet)</i>
     <br><br>
     <p>
-We're working on a revamp of the entire Tor hidden service design to
-improve the security and reliability of the hidden service system.
+The hidden services team is busy implementing <a
+href="https://gitweb.torproject.org/torspec.git/tree/proposals/224-rend-spec-ng.txt">proposal
+224</a> but we are always open to mentoring fun and exciting hidden
+service projects.
     </p>
 
     <p>
-This is a big project: see
-<a href="https://gitweb.torproject.org/torspec.git/tree/proposals/224-rend-spec-ng.txt">proposal
-224</a> for the latest design.  Are you interested in implementing some
-part of that?
+In the past, we've mentored a wide variety of projects related to hidden
+services, ranging from <a
+href="https://lists.torproject.org/pipermail/tor-dev/2016-April/010832.html">onion
+search engines</a>, <a
+href="https://lists.torproject.org/pipermail/tor-talk/2015-May/037966.html">to
+scaling techniques for hidden services</a>,
+and also various approaches
+of making onion services more <a
+href="https://lists.torproject.org/pipermail/tor-dev/2012-June/003588.html">usable</a>
+<a href="https://lists.torproject.org/pipermail/tor-dev/2015-May/008826.html">by
+common people</a>.
     </p>
 
     <p>
-This is a very ambitious project, so we're deliberately not suggesting
-particular sub-topics.  If you're interested in participating, try to
-read and understand the <a
-href="https://gitweb.torproject.org/torspec.git/tree/rend-spec.txt">existing
-design</a> and the design proposal for the new design, and then talk to
-us about what part you want to work on.
-    </p>
-
-    <p>
-As part of the application process for this project, please contribute a
-nontrivial patch to Tor -- ideally, one that will affect some part of
-the codebase that you want to work on.
+Let us know if you have a project you would like to work on, or check
+our proposals and technical documents for <a
+href="https://lists.torproject.org/pipermail/tor-dev/2016-October/011514.html">various</a>
+ideas.
     </p>
     </li>
 
