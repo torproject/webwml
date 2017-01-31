@@ -1114,6 +1114,68 @@ ideas.
     </p>
     </li>
 
+    <a id="ahmiaSearch"></a>
+    <li>
+    <b>Ahmia - Hidden Service Search</b>
+    <br>
+    Language: <i>Python, Django</i>
+    <br>
+    Likely Mentors: <i>Juha Nurmi (numes), George (asn)</i>
+    <p>
+    Ahmia is open-source search engine software for Tor hidden service deep
+    dark web sites. You can test the running search engine at ahmia.fi. For
+    more information see our <a
+    href="https://blog.torproject.org/category/tags/ahmiafi">blog post about
+    Ahmia's GSoC2014 development</a>.
+    </p>
+
+    <p>
+    Ahmia is a working search engine that indexes, searches, and catalogs
+    content published on Tor Hidden Services. Furthermore, it is an environment
+    to share meaningful insights, statistics, insights, and news about the Tor
+    network itself. In this context, there is a lot of work to do.
+    </p>
+
+    <p>
+    The Ahmia web service is written using the Django web framework. As a
+    result, the server-side language is Python. On the client-side, most of the
+    pages are plain HTML. There are some pages that require JavaScript, but the
+    search itself works without client-side JavaScript.
+    </p>
+
+    <p>
+    There are several possible directions for this project, including...
+    </p>
+
+    <ol>
+      <li>Automate blacklisting (very important)<br />
+        <ul>
+          <li>Fetch a list of child abuse media sites</li>
+          <li>Remove these sites from the search results</li>
+        </ul>
+      </li>
+      <li>Add hidden services funtion (very important)<br />
+        <ul>
+          <li>You can add onions using HTML form</li>
+          <li>Call the crawler immidiately when a new site is added</li>
+        </ul>
+      </li>
+      <li>Elasticsearch<br />
+        <ul>
+          <li>Must be updated to 5.X.X sooner or later</li>
+          <li>Adjust the settings</li>
+          <li>Automatically remove data older than, for instance, 90 days</li>
+        </ul>
+      </li>
+      <li>Maintainance<br />
+        <ul>
+          <li>Update all software dependencies</li>
+          <li>Automate crash recovery for Tor, Elasticsearch and crawler</li>
+        </ul>
+      </li>
+    </ol>
+    </li>
+
 <!--
     <a id=""></a>
     <li>
