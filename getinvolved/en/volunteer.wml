@@ -422,8 +422,9 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#panopticlick">Panopticlick</a></i><br />
     <i><a href="#feedbackExtension">Feedback Extension for Tor Browser</a></i><br />
+    <i><a href="#torBrowserCrashReport">Crash Reporter for Tor Browser</a></i><br />
+    <i><a href="#fasterTorBrowser">Make Tor Browser Faster</a></i>
     </p>
 
     <a id="project-httpseverywhere"></a>
@@ -1056,7 +1057,6 @@ ideas.
     <br>
     Likely Mentors: <i>Nima (mrphs)</i>, <i>Sukhbir (sukhe)</i>
     <p>
-
     Design and implement an extension for Tor Browser that can be used to gather
     end-user UI/UX feedback on an opt-in basis. While the design and
     implementation is left as an exercise for the applicant (and also serves as
@@ -1066,16 +1066,54 @@ ideas.
     </p>
 
     <p>
-
     Please propose the extension design in a way that the information is strictly
     on an opt-in basis and scrubs any information that can be used to identify a
     user, and also come up with a way to send the gathered information to a
     central server, whether to an onion address (if the user has Tor running), or
     otherwise. To start with, we are looking to gather only text as part of the
     feedback process.
-
     </p>
     </li>
+
+    <a id="torBrowserCrashReport"></a>
+    <li>
+    <b>Crash Reporter for Tor Browser</b>
+    <br>
+    Likely Mentors: <i>Tom Ritter (tjr)</i>, <i>Georg (GeKo)</i>
+    <p>
+    Currently Tor Browser disables the Crash Reporter. We would like to
+    build it reproducible, enable it, and configure it to report crashes
+    containing non-detailed and impersonal information to Tor, on a .onion
+    submission platform that would allow us to view and explore the
+    crashes.
+    </p>
+
+    <p>
+    The project will entail enabling the Crash Report on Tor Browser and
+    creating a backend to receive reports from it. Once created, the crash
+    reporter data will be analyzed and modified to fit Tor's requirements
+    for personal data collection. As time permits, we will update the
+    build system to ensure the crash reporter is built reproducibly and
+    add data analysis tools for the crash report database to visualize top
+    crashers and similar statistics.
+    </p>
+    </li>
+
+    <a id="fasterTorBrowser"></a>
+    <li>
+    <b>Make Tor Browser Faster</b>
+    <br>
+    Likely Mentors: <i>Tom Ritter (tjr)</i>, <i>Georg (GeKo)</i>
+    <p>
+    This project will enable and take advantage of HTTP/2, the Alt-Srv
+    header, and tor's new single hop .onion mode to enable websites to
+    transparently move their traffic to a .onion address. In addition to
+    improvements in security, we will benchmark page load and paint times
+    under normal HTTP/1.1, HTTP/2, and when taking advantage of features
+    such as Server Push.
+    </p>
+    </li>
+
 <!--
     <a id=""></a>
     <li>
