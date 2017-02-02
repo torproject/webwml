@@ -568,6 +568,11 @@ meetings around the world.</li>
     Tor.
     </p>
 
+    <p>
+    <b>Project Ideas:</b><br />
+    <i><a href="#stemDescriptors">Stem Descriptors</a></i>
+    </p>
+
     <a id="project-txtorcon"></a>
     <h3><a href="https://txtorcon.readthedocs.io/en/latest/">Txtorcon</a> (<a
     href="https://github.com/meejah/txtorcon">code</a>, <a
@@ -898,6 +903,39 @@ ideas.
     improvements in security, we will benchmark page load and paint times
     under normal HTTP/1.1, HTTP/2, and when taking advantage of features
     such as Server Push.
+    </p>
+    </li>
+
+    <a id="stemDescriptors"></a>
+    <li>
+    <b>Stem Descriptors</b>
+    <br>
+    Language: <i>Python</i>
+    <br>
+    Likely Mentors: <i>Damian Johnson (atagar)</i>
+    <p>
+    <a href="https://stem.torproject.org/">Stem</a> is a Python library for working with tor. With it you can build applications on tor as well as learn information about the relay network. This project concerns this second capability.
+    </p>
+
+    <p>
+    Information about relays are published hourly in documents called <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html">descriptors</a>. With Stem you can download, parse, and validate all kinds of descriptor documents.
+    </p>
+
+    <p>
+    Ideas welcome! You're encouraged to brainstorm improvements we can make to this space but here's a few to get you started...
+    </p>
+
+  <ul>
+    <li><p><b><a href="https://trac.torproject.org/projects/tor/ticket/11045">Validate signatures in the consensus</a></b>. Stem has the ability to validate cryptographic signatures in several descriptor types but not the consensus.</p></li>
+    <li><p><b><a href="https://trac.torproject.org/projects/tor/ticket/21086">Migrate from pycrypto to a supported library</a></b>. Stem presently uses pycrypto for signature validation but it's no longer maintained. We should evaluate options and move to whatever whavever the cool kids are using nowadays.</p></li>
+    <li><p><b><a href="https://trac.torproject.org/projects/tor/ticket/18856">Retrieve descriptors over tor's ORPort</a></b>. Tor relays commonly provide two ports, an <b>ORPort</b> which is used by clients and a <b>DirPort</b> which is obsolete nowadays but in the past was used by tor to download descriptors. Stem still uses tor's DirPort to retrieve descriptors, but it would be neat if we could download from the ORPort instead.</p>
+      <p>This requires implementing part of tor's communication protocol. Depending how complicated this is it might be neat to expand this task to allow the full construction of circuits, allowing client usage of tor without the C executable. Keep in mind though that this later bit hasn't been investigated and might be a pipe dream. ;P</p></li>
+    <li><p><b>Improve performance of reading descriptors</b>. Stem <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#are-there-any-other-parsing-libraries">isn't the only descriptor parsing library</a> and sadly is the slowest. Tricks like lazy loading have substantially improved our performance but no doubt a dedicated effort to profile Stem would find more low hanging fruit.</p></li>
+  </ul>
+
+
+    <p>
+    <b>As part of applying for this project please get your hands wet with the codebase by contributing some patches for <a href="https://stem.torproject.org/faq.html#how-do-i-get-started">Stem</a>!</b>
     </p>
     </li>
 
