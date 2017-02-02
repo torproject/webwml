@@ -139,7 +139,7 @@ meetings around the world.</li>
         <td><a href="#project-httpseverywhere">HTTPS Everywhere</a></td>
         <td>Browser Add-on</td>
         <td>Javascript</td>
-        <td>Heavy</td>
+        <td>Moderate</td>
         <td>pde, mikeperry</td>
       </tr>
 
@@ -147,7 +147,7 @@ meetings around the world.</li>
         <td><a href="#project-nyx">Nyx</a></td>
         <td>User Interface</td>
         <td>Python, Curses</td>
-        <td>Heavy</td>
+        <td>Moderate</td>
         <td>atagar</td>
       </tr>
 
@@ -200,14 +200,6 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-obfsproxy">Obfsproxy</a></td>
-        <td>Client Add-on</td>
-        <td>Python</td>
-        <td>None</td>
-        <td>asn</td>
-      </tr>
-
-      <tr>
         <td><a href="#project-flash-proxy">Flash Proxy</a></td>
         <td>Client Add-on</td>
         <td>Python, JavaScript, Go</td>
@@ -219,7 +211,7 @@ meetings around the world.</li>
         <td><a href="#project-shadow">Shadow</a></td>
         <td>Simulator</td>
         <td>C, Python</td>
-        <td>Heavy</td>
+        <td>Moderate</td>
         <td>robgjansen</td>
       </tr>
 
@@ -228,7 +220,7 @@ meetings around the world.</li>
         <td>Simulator</td>
         <td>Python</td>
         <td>Light</td>
-        <td>nickm</td>
+        <td>teor</td>
       </tr>
 
       <tr>
@@ -243,15 +235,23 @@ meetings around the world.</li>
         <td><a href="#project-txtorcon">Txtorcon</a></td>
         <td>Library</td>
         <td>Python, Twisted</td>
-        <td>Light</td>
+        <td>Moderate</td>
         <td>meejah</td>
+      </tr>
+
+      <tr>
+        <td><a href="#project-metrics-lib">metrics-lib</a></td>
+        <td>Library</td>
+        <td>Java</td>
+        <td>Moderate</td>
+        <td>karsten, iwakeh</td>
       </tr>
 
       <tr>
         <td><a href="#project-metrics">Metrics</a></td>
         <td>Client Service</td>
         <td>Java</td>
-        <td>Moderate</td>
+        <td>Heavy</td>
         <td>karsten, iwakeh</td>
       </tr>
 
@@ -259,7 +259,7 @@ meetings around the world.</li>
         <td><a href="#project-atlas">Atlas</a></td>
         <td>Client Service</td>
         <td>JavaScript</td>
-        <td>Moderate</td>
+        <td>Light</td>
         <td>irl</td>
       </tr>
 
@@ -283,7 +283,7 @@ meetings around the world.</li>
         <td><a href="#project-exitmap">ExitMap</a></td>
         <td>Backend Service</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>None</td>
         <td>phw</td>
       </tr>
 
@@ -299,7 +299,7 @@ meetings around the world.</li>
         <td><a href="#project-gettor">GetTor</a></td>
         <td>Client Service</td>
         <td>Python</td>
-        <td>Light</td>
+        <td>None</td>
         <td>ilv</td>
       </tr>
 
@@ -323,7 +323,7 @@ meetings around the world.</li>
         <td><a href="#project-ooni-probe">Ooni Probe</a></td>
         <td>Scanner</td>
         <td>Python</td>
-        <td>Moderate</td>
+        <td>Heavy</td>
         <td>hellais, aagbsn</td>
       </tr>
 
@@ -352,26 +352,10 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-anonbib">Anonbib</a></td>
-        <td>Website</td>
-        <td>Python</td>
-        <td>Light</td>
-        <td>arma, nickm</td>
-      </tr>
-
-      <tr>
         <td><a href="#project-collector">CollecTor</a></td>
         <td>Backend Service</td>
         <td>Java</td>
-        <td>Heavy</td>
-        <td>karsten, iwakeh</td>
-      </tr>
-
-      <tr>
-        <td><a href="#project-metrics-lib">metrics-lib</a></td>
-        <td>Library</td>
-        <td>Java</td>
-        <td>Heavy</td>
+        <td>Moderate</td>
         <td>karsten, iwakeh</td>
       </tr>
 
@@ -382,7 +366,15 @@ meetings around the world.</li>
         <td>Light</td>
         <td>karsten, iwakeh</td>
       </tr>
-    </table>
+
+      <tr>
+        <td><a href="#project-anonbib">Anonbib</a></td>
+        <td>Website</td>
+        <td>Python</td>
+        <td>None</td>
+        <td>arma, nickm</td>
+      </tr>
+    </table
 
     <sub>
     * Project is still in an alpha state.
@@ -533,16 +525,6 @@ meetings around the world.</li>
     address-based blocking.
     </p>
 
-    <a id="project-chutney"></a>
-    <h3>Chutney (<a href="https://gitweb.torproject.org/chutney.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Core+Tor%2FChutney&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    Integration test suite that spawns a local tor network, checking the
-    interactions of its components.
-    </p>
-
     <a id="project-shadow"></a>
     <h3><a href="http://shadow.github.io/">Shadow</a> (<a
     href="https://github.com/shadow">code</a>, <a
@@ -555,6 +537,16 @@ meetings around the world.</li>
     accurate, efficient, controlled, and repeatable Tor experimentation.
     For another simulator, see <a
     href="https://crysp.uwaterloo.ca/software/exptor/">ExperimenTor</a>.
+    </p>
+
+    <a id="project-chutney"></a>
+    <h3>Chutney (<a href="https://gitweb.torproject.org/chutney.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Core+Tor%2FChutney&order=priority">bug
+    tracker</a>)</h3>
+
+    <p>
+    Integration test suite that spawns a local tor network, checking the
+    interactions of its components.
     </p>
 
     <a id="project-stem"></a>
@@ -583,6 +575,15 @@ meetings around the world.</li>
     unit-tests, examples, state-tracking code and configuration abstraction.
     Used by OONI and APAF.
     </p>
+
+    <a id="project-metrics-lib"></a>
+    <h3>metrics-lib
+    (<a href="https://gitweb.torproject.org/metrics-lib.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2Fmetrics-lib&order=priority">bug tracker</a>)</h3>
+
+    <p>metrics-lib is a Java library that processes Tor network data
+    provided by <a href="#project-collector">CollecTor</a> or from other
+    sources.</p>
 
     <a id="project-metrics"></a>
     <h3><a href="https://metrics.torproject.org/">Metrics</a> (<a
@@ -753,6 +754,23 @@ meetings around the world.</li>
     distributed to non-anonymous users.
     </p>
 
+    <a id="project-collector"></a>
+    <h3><a href="https://collector.torproject.org/">CollecTor</a>
+    (<a href="https://gitweb.torproject.org/collector.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FCollecTor&order=priority">bug tracker</a>)</h3>
+
+    <p>CollecTor is the Tor network data archive that powers other
+    services like <a href="#project-metrics">Metrics</a> and
+    <a href="#project-onionoo">Onionoo</a>.</p>
+
+    <a id="project-exonerator"></a>
+    <h3><a href="https://exonerator.torproject.org/">ExoneraTor</a>
+    (<a href="https://gitweb.torproject.org/exonerator.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FExoneraTor&order=priority">bug tracker</a>)</h3>
+
+    <p>ExoneraTor is a service that answers the question whether there was
+    a Tor relay running on a given IP address on a given date.</p>
+
     <a id="project-anonbib"></a>
     <h3><a
     href="http://freehaven.net/anonbib/">Anonymity Bibliography</a> (<a
@@ -763,32 +781,6 @@ meetings around the world.</li>
     also a set of scripts to generate the website from Latex (bibtex). If
     we're missing any important papers, please let us know!
     </p>
-
-    <a id="project-collector"></a>
-    <h3><a href="https://collector.torproject.org/">CollecTor</a>
-    (<a href="https://gitweb.torproject.org/collector.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FCollecTor&order=priority">bug tracker</a>)</h3>
-
-    <p>CollecTor is the Tor network data archive that powers other
-    services like <a href="#project-metrics">Metrics</a> and
-    <a href="#project-onionoo">Onionoo</a>.</p>
-
-    <a id="project-metrics-lib"></a>
-    <h3>metrics-lib
-    (<a href="https://gitweb.torproject.org/metrics-lib.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2Fmetrics-lib&order=priority">bug tracker</a>)</h3>
-
-    <p>metrics-lib is a Java library that processes Tor network data
-    provided by <a href="#project-collector">CollecTor</a> or from other
-    sources.</p>
-
-    <a id="project-exonerator"></a>
-    <h3><a href="https://exonerator.torproject.org/">ExoneraTor</a>
-    (<a href="https://gitweb.torproject.org/exonerator.git">code</a>,
-    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&component=Metrics%2FExoneraTor&order=priority">bug tracker</a>)</h3>
-
-    <p>ExoneraTor is a service that answers the question whether there was
-    a Tor relay running on a given IP address on a given date.</p>
 
     <a id="Coding"></a>
     <a id="Summer"></a>
