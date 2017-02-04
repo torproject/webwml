@@ -904,7 +904,7 @@ ideas.
     <br>
     Language: <i>Python</i>
     <br>
-    Likely Mentors: <i>Damian Johnson (atagar)</i>
+    Likely Mentors: <i>Damian Johnson (atagar), Philipp Winter (phw)</i>
     <p>
     <a href="https://stem.torproject.org/">Stem</a> is a Python library for working with tor. With it you can build applications on tor as well as learn information about the relay network. This project concerns this second capability.
     </p>
