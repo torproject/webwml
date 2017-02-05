@@ -2,14 +2,14 @@
 # Revision: $Revision$
 # Translation-Priority: 4-optional
 
-#include "head.wmi" TITLE="Tor: Google Summer of Code 2016" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Tor: Google Summer of Code 2017" CHARSET="UTF-8"
 <div id="content" class="clearfix">
   <div id="breadcrumbs">
     <a href="<page index>">Home &raquo; </a>
     <a href="<page about/gsoc>">Google Summer of Code</a>
   </div>
   <div id="maincol"> 
-    <h2>Tor: Google Summer of Code 2016</h2>
+    <h2>Tor: Google Summer of Code 2017</h2>
     <hr>
 
     <br /><br />
@@ -17,9 +17,14 @@
     <p>
     The Tor Project, in collaboration with <a href="https://www.eff.org/">The
     Electronic Frontier Foundation</a>, have taken part in Google Summer of Code
-    for 2007 through 2014, mentoring the total of 57 students. Now google has
+    for 2007 through 2016, mentoring the total of 64 students. We have applied
+    to <a href="https://summerofcode.withgoogle.com/">GSoC 2017</a>, and we
+    should know at the end of February whether we are in this year.
+    <!--
+    Now google has
     announced that we'll be taking part again for <a
-    href="https://summerofcode.withgoogle.com/">Google Summer of Code 2016</a>!
+    href="https://summerofcode.withgoogle.com/">Google Summer of Code 2017</a>!
+    -->
     </p>
     
     <p>
@@ -189,17 +194,6 @@
     </p>
     
     <p>
-    If you're interested, you can either contact the <a href="<page
-    about/contact>">tor-assistants list</a> (a private list) with a brief
-    summary of your proposal and we'll give you feedback, or just jump right in
-    and post your ideas and goals to the <a href="<page
-    docs/documentation>#MailingLists">tor-dev mailing list</a> (which is open).
-    Make sure to be responsive during the application selection period; if we
-    like your application but you never answer our mails asking for more
-    information, that's not a good sign.
-    </p>
-    
-    <p>
     We're always happy to have new contributors so if you haven't filled up
     your summer plans yet, please consider spending some time working with us
     to make Tor better!
@@ -216,14 +210,11 @@
     
     <ul>
       <li><h4><a href="https://ahmia.fi/gsoc/">Ahmia.fi - Search Engine for Hidden Services</a> by Juha Nurmi</h4></li>
-      <li><h4><a href="http://www.google-melange.com/gsoc/proposal/public/google/gsoc2014/amoghbl1/5629499534213120">Orbot &amp; Orfox</a> by Amogh Pradeep</h4></li>
       <li><h4><a href="http://ilv.github.io/gettor_proposal.html">Revamp GetTor</a> by Israel Leiva</h4></li>
       <li><h4><a href="https://sites.google.com/site/sreenathadev/gsoc-2014-weather-rewrite">Weather Rewrite</a> by Sreenatha Bhatlapenumarthi</h4></li>
       <li><h4><a href="http://kostas.mkj.lt/gsoc2014/gsoc2014.html">BridgeDB Distributor</a> by Kostas Jakeliunas</h4></li>
       <li><h4><a href="http://kostas.mkj.lt/gsoc2013/gsoc2013.html">Searchable Tor descriptor archive</a> by Kostas Jakeliunas</h4></li>
-      <li><h4><a href="https://www.google-melange.com/gsoc/proposal/review/google/gsoc2013/weltraumpfleger/1">Create an Internet Censorship Virtual Machine Based Simulator</a> by Johannes Fürmann</h4></li>
       <li><h4><a href="../about/gsocProposal/gsoc12-proposal-stemImprovements.html">Stem Improvements and Arm port</a> by Ravi Padmala</h4></li>
-      <li><h4><a href="http://feroze.in/gsoc12.html">Implementing Hidden Service Configuration and Bandwidth Scheduling Plugins</a> by Feroze Naina</h4></li>
       <li><h4><a href="../about/gsocProposal/gsoc10-proposal-soat.txt">SOAT Expansion</a> by John Schanck</h4></li>
       <li><h4><a href="http://inspirated.com/uploads/tor-gsoc-11.pdf">GTK+ Frontend and Client Mode Improvements for arm</a> by Kamran Khan</h4></li>
       <li><h4><a href="http://www.gsathya.in/gsoc11.html">Orbot + ORLib</a> by Sathya Gunasekaran</h4></li>
