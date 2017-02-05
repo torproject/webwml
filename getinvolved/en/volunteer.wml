@@ -931,41 +931,6 @@ ideas.
     </p>
     </li>
 
-    <a id="letsEncryptClient"></a>
-    <li>
-    <b>Expand the OS and Server Support of the Let's Encrypt Client</b>
-    <br>
-    Language: <i>Python, Bash</i>
-    <br>
-    Likely Mentors: <i>Brad Warren (bmw)</i>
-    <br><br>
-    <p>
-    <a href="https://letsencrypt.org/">Let's Encrypt</a> is a free and open
-    certificate authority that allows its users to setup HTTPS on their web
-    server in a matter of seconds. The project uses a new protocol called ACME
-    to automatically perform domain validation and certificate issuance.
-    </p>
-
-    <p>
-    The Let's Encrypt client currently works on most Unix-like OSes and is
-    able to automatically set up HTTPS on many Apache configurations. The
-    purpose of this project is to expand Let's Encrypt support to new
-    systems.
-    </p>
-
-    <p>
-    Potential targets include:
-    </p>
-
-    <ul>
-      <li>Better OS X support including a port or Homebrew package</li>
-      <li>A Let's Encrypt client for Windows / IIS</li>
-      <li>Handling of more obscure Apache configurations</li>
-      <li>Automated HTTPS configuration for other web servers such as Nginx or lighttpd</li>
-      <li>Improved support people using shared hosting who are unable to use the full Let's Encrypt client on their server</li>
-    </ul>
-    </li>
-
     <a id="ahmiaSearch"></a>
     <li>
     <b>Ahmia - Hidden Service Search</b>
