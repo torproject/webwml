@@ -399,7 +399,7 @@ meetings around the world.</li>
     </p>
 
     <a id="project-torbrowser"></a>
-    <h3>Tor Browser (<a
+    <h3><a href="<page projects/torbrowser>">Tor Browser</a> (<a
     href="https://gitweb.torproject.org/tor-browser.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Applications%2FTor+Browser&component=Applications%2FTorbutton&component=Applications%2FTor+Launcher&component=Applications%2FTor+bundles%2Finstallation&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority">bug
     tracker</a>, <a href="https://www.torproject.org/projects/torbrowser/design/">design doc</a>)</h3>
