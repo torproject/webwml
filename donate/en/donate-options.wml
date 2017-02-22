@@ -20,7 +20,8 @@ form#makeDonation {
     <li><a href="<page donate/donate-amazon>">Amazon Payments</a></li>
     <li><a href="https://smile.amazon.com/ch/20-8096820">Amazon Smile</a></li>
     <li><a href="#eubanks">EU Bank Transfer</a></li>
-    <li class="last"><a href="#cash">Checks or Money Orders</a></li>
+    <li><a href="#cash">Checks or Money Orders</a></li>
+    <li><a href="#stock">Donate Stock</a></li>
   </ul>
   <div class="hundred toptwenty">
 <!-- END AMAZON -->
@@ -144,7 +145,34 @@ href="<page donate/donate-amazon>">Donate via Amazon Payments
   </div>
 
 <!-- END CHECK -->
-  <p>Contact us at giving@torproject.org for more donation details.</p>
+
+<!-- BEGIN STOCK -->
+  <a id="stock"></a>
+  <div class="hundred toptwenty">
+      <div class="dbox donate">
+          <h3>Donate Stock</h3>
+          <p>
+              You can donate stock to the Tor Project. Please let us know in advance if you are transmitting securities via DTC by contacting us at  <a href="mailto:giving@torproject.org">giving@torproject.org</a>.
+              <p>
+                  Brokerage Firm: Merrill Lynch, Pierce, Fenner & Smith, Inc.<br>
+                  Account Name: The Tor Project<br>
+                  Contact: Jeffrey K. Miller: 206.464.3564 or 855.288.8433<br>
+                  E-mail: <a href="mailto:jeffrey.k.miller@ml.com">jeffrey.k.miller@ml.com</a><br>
+                  FAX: 206.388.4456<br>
+                  The Tor Project Account #: 335-03016<br>
+                  DTC #: 5198<br>
+                  Tax ID #: 20-8096820<br>
+              </p>
+              <p>The Tor Project, Inc.<br>
+                  P.O. Box 4903<br>
+                  Seattle, WA 98194 USA</p>
+          </p>
+      </div>
+  </div>
+
+<!-- END STOCK -->
+<h2>Questions?</h2>
+  <p>Contact us at <a href="mailto:giving@torproject.org">giving@torproject.org</a> for more details on how to donate.</p>
  </div>
 <!-- END CONTENT -->
 </div>
