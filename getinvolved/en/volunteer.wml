@@ -395,7 +395,14 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#improveHiddenServices">Help improve Tor hidden services</a></i>
+    <i><a href="#improveHiddenServices">Help improve Tor hidden services</a></i><br />
+    <i><a href="#torFuzzing">Fuzzing coverage of Tor</a></i><br />
+    <i><a href="#relayCryptoParallelism">Relay crypto parallelism</a></i><br />
+    <i><a href="#anonymousLocalCountStatistics">Anonymous local count statistics</a></i><br />
+    <i><a href="#improveSocks5Variant">Improved SOCKS5 variant</a></i><br />
+    <i><a href="#hiddenServiceCryptoParallelism">Hidden service crypto parallelism</a></i><br />
+    <i><a href="#supportAllDNS">Support all kinds of DNS in Tor</a></i><br />
+    <i><a href="#improveIpv6Support">Improve IPv6 support</a></i>
     </p>
 
     <a id="project-torbrowser"></a>
@@ -832,6 +839,166 @@ Let us know if you have a project you would like to work on, or check
 our proposals and technical documents for <a
 href="https://lists.torproject.org/pipermail/tor-dev/2016-October/011514.html">various</a>
 ideas.
+    </p>
+    </li>
+
+    <a id="torFuzzing"></a>
+    <li>
+    <b>Fuzzing coverage of Tor</b>
+    <br>
+    Likely Mentors: <i>Nick (nickm), ahf, teor</i>
+    <br><br>
+    <p>
+Starting in 0.3.0.x, Tor supports a few fuzzing systems to check our
+code for bugs.  But as of now, we only support a few possible entry
+points to Tor.  It would be great to add fuzzing support for more of
+our codebase -- ideally to include our whole network-facing interface.
+That way, we could find more bugs in our code faster, and fix them
+before they can get out of hand.
+    </p>
+
+    <p>
+This won't be so easy, however: to fuzz effectively, we need to
+refactor or mock the target function so that it doesn't change any
+global state, or verify any signatures, or take too long to run.  With
+lots of our network code, that's not so easy.  Make sure you
+understand how our mocking system works, and what the challenges are,
+before you apply for this one.
+    </p>
+    </li>
+
+    <a id="relayCryptoParallelism"></a>
+    <li>
+    <b>Relay crypto parallelism</b>
+    <br>
+    Likely Mentors: <i>Isis, Nick (nickm)</i>
+    <br><br>
+    <p>
+Tor relays spend a lot of time encrypting and decrypting relay
+traffic, doing SHA1 and AES-CTR operations.  But right now, all of
+this is done in the main thread!  It would be cool to split this
+across multiple cores instead.
+    </p>
+
+    <p>
+This won't be so easy though.  The code today is written to expect
+immediate results from its encryption operations, so you would need to
+do some pretty tricky refactoring in order get performance and
+correctness here.  Make sure you understand how circuit crypto is
+invoked today, and what the challenges are, before you apply for this
+one.
+    </p>
+
+    <p>
+For more information <a href="https://trac.torproject.org/projects/tor/ticket/1749">see its ticket</a>.
+    </p>
+    </li>
+
+    <a id="anonymousLocalCountStatistics"></a>
+    <li>
+    <b>Anonymous local count statistics</b>
+    <br>
+    Likely Mentors: <i>Nick (nickm), teor</i>
+    <br><br>
+    <p>
+There are some places in Tor where we count things (like distinct IPs)
+to later report anonymized statistics.  But if the local Tor instance
+were compromised, this data would be exposed.  There are statistical
+methods which insteasd allow us to record this data in a way that's
+already anonymous, before we ever summarize it.  Interested?
+    </p>
+
+    <p>
+For more information <a href="https://trac.torproject.org/projects/tor/ticket/7532">see its ticket</a>.
+    </p>
+    </li>
+
+    <a id="improveSocks5Variant"></a>
+    <li>
+    <b>Improved SOCKS5 variant</b>
+    <br>
+    Likely Mentors: <i>Nick (nickm), David Goulet (dgoulet)</i>
+    <br><br>
+    <p>
+In proposal 229, we describe a bunch of additional SOCKS extensions
+that Tor-aware applications could use to get more fine-grained control
+over how Tor handles their streams.  It would be cool to implement
+this!  If there's time remaining, you might want to add support to one
+or more applications.  Or maybe to torsocks?
+    </p>
+
+    <p>
+For more information <a href="https://trac.torproject.org/projects/tor/ticket/12456">see its ticket</a>.
+    </p>
+    </li>
+
+    <a id="hiddenServiceCryptoParallelism"></a>
+    <li>
+    <b>Hidden service crypto parallelism</b>
+    <br>
+    Likely Mentors: <i>Nick (nickm), David Goulet (dgoulet)</i>
+    <br><br>
+    <p>
+Hidden services, hidden service clients, hidden service directories,
+and introduction points all need to do a few public-key operations as
+they operate.  But right now, these operations are all done on the
+main thread.  It would be good to have these run across multiple cores.
+    </p>
+
+    <p>
+This could probably be done in a way similar to how we currently hand
+circuit extension handshakes in onion.c and cpuworker.c, but we'd need
+to extend the state machine for hidden services to add an additional
+state.  It could help hidden services operate much more efficiently.
+    </p>
+
+    <p>
+For more information <a href="https://trac.torproject.org/projects/tor/ticket/13738">see its ticket</a>.
+    </p>
+    </li>
+
+    <a id="supportAllDNS"></a>
+    <li>
+    <b>Support all kinds of DNS in Tor</b>
+    <br>
+    Likely Mentors: <i>Nick (nickm), George (asn)</i>
+    <br><br>
+    <p>
+Right now Tor can query for the kind of DNS information you'd find in
+A records, AAAA records, and PTR records.  It would be neat to be able
+to support more general DNS queries to allow things like MX loopups,
+DNSSEC lookups, and so on.  We have a design proposal (number 219) for
+this, but it might need some clean-up.
+    </p>
+
+    <p>
+For more information <a href="https://trac.torproject.org/projects/tor/ticket/7829">see its ticket</a>.
+    </p>
+    </li>
+
+    <a id="improveIpv6Support"></a>
+    <li>
+    <b>Improve IPv6 support</b>
+    <br>
+    Likely Mentors: <i>ahf, teor</i>
+    <br><br>
+    <p>
+Tor works over IPv6, but require some manual configuration.
+Clients and relays could automatically detect IPv6 availability,
+and configure themselves appropriately. Implementing a
+"happy eyeballs"-like algorithm is a challenge in an anonymity
+network: are you up for it?
+    </p>
+
+    <ul>
+      <li><a href="https://trac.torproject.org/projects/tor/ticket/6939">Missing IPv6 ORPort reachability check</a></li>
+      <li><a href="https://trac.torproject.org/projects/tor/ticket/4847">Bridges binding only to an IPv6 address doesn't work</a></li>
+      <li><a href="https://trac.torproject.org/projects/tor/ticket/5940">Figure out own IPv6 address</a></li>
+      <li><a href="https://trac.torproject.org/projects/tor/ticket/17011">Teach chutney to verify over IPv6</a></li>
+    </ul>
+
+    <p>
+For more information <a href="https://trac.torproject.org/projects/tor/ticket/17811">see its ticket</a>.
     </p>
     </li>
 
