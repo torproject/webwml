@@ -34,16 +34,13 @@ form#makeDonation {
   <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
         <input name="action" type="hidden" value="checkout">
         <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
-          <ul>
+          <ul style="list-style: none;">
             <li id="orderID" class="control-group">
-              <label class="control-label" style="width: 40px">Email:</label>
-              <div class="controls" style="margin-left: 60px">
+                <label class="control-label" style="width: 80px">Email:</label>
                 <input name="orderID" type="email" class="input input-xlarge" placeholder="Email address (optional)" maxlength=50 autocapitalize=off autocorrect=off><br>
-              </div>
             </li>
             <li id="price" class="control-group">
-              <label class="control-label" style="width: 40px">Amount:</label>
-              <div class="controls" style="margin-left: 60px">
+                <label class="control-label" style="width: 80px">Amount:</label>
                 <input name="price" type="number" class="noscroll" value="10.00" placeholder="Amount" maxlength="10" min="0.01" step="0.01" />
                 <select name="currency" value="" >
                   <option value="USD" selected="selected">USD</option>
@@ -82,7 +79,6 @@ form#makeDonation {
                   <option value="TRY">TRY</option>
                   <option value="ZAR">ZAR</option>
                 </select/>
-              </div>
             </li>
           </ul>
           <br>
@@ -100,15 +96,20 @@ form#makeDonation {
     <div class="dbox dsmall dwolla">
       <h3>Donate via Amazon</h3>
       <p>You can donate to Tor through your Amazon account.</p>
-      <p style="text-align:center;"><strong><a
-href="<page donate/donate-amazon>">Donate via Amazon Payments
-&raquo;</a></strong></p>
+      <p>
+          <strong>
+              <a href="<page donate/donate-amazon>">Donate via Amazon Payments &raquo;</a>
+          </strong>
+      </p>
     </div>
     <div class="dbox dsmall dwolla">
       <h3>Donate via Amazon Smile</h3>
       <p>AmazonSmile is a website operated by Amazon with the same products, prices, and shopping features as Amazon.com. The difference is that when you shop on AmazonSmile, the AmazonSmile Foundation will donate 0.5% of the purchase price of eligible products to the charitable organization of your choice.</p>
-      <p style="text-align:center;"><strong><a href="https://smile.amazon.com/ch/20-8096820">Set up the Tor Project on Amazon Smile
-&raquo;</a></strong></p>
+      <p>
+          <strong>
+              <a href="https://smile.amazon.com/ch/20-8096820">Set up the Tor Project on Amazon Smile &raquo;</a>
+          </strong>
+      </p>
     </div>
 <!-- END AMAZON -->
 <!-- BEGIN TRANSFER -->
@@ -163,9 +164,6 @@ href="<page donate/donate-amazon>">Donate via Amazon Payments
                   DTC #: 5198<br>
                   Tax ID #: 20-8096820<br>
               </p>
-              <p>The Tor Project, Inc.<br>
-                  P.O. Box 4903<br>
-                  Seattle, WA 98194 USA</p>
           </p>
       </div>
   </div>
