@@ -70,7 +70,7 @@ For Ubuntu, ask <a href="https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#T
 <div id="selector" style="display: none;">
 <blockquote>
 I run
-<select id="distrib" onchange="update()">
+<select id="distrib">
 <option value="wheezy">Debian oldstable (wheezy)</option>
 <option value="jessie" selected="selected">Debian stable (jessie)</option>
 <option value="stretch">Debian testing (stretch)</option>
@@ -80,9 +80,9 @@ I run
 <option value="xenial">Ubuntu Xenial Xerus</option>
 </select>
 and want
-<select id="package" onchange="update()"></select>
+<select id="package"></select>
 version
-<select id="version" onchange="update()"></select>
+<select id="version"></select>
 </blockquote>
 
 

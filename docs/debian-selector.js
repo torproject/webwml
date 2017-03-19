@@ -49,6 +49,10 @@ var software = {
 };
 
 function init() {
+    document.getElementById("distrib").addEventListener("change", update);
+    document.getElementById("package").addEventListener("change", update);
+    document.getElementById("version").addEventListener("change", update);
+
     pkg = document.getElementById('package');
     for (soft in software) {
         if (soft != pkg.value) {
