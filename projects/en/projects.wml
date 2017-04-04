@@ -126,17 +126,6 @@ href="https://trac.torproject.org/projects/tor/wiki/torbirdy">TorBirdy</a></div>
 </div></div>
 
 <div class="projectbox">
-<a href="http://wiki.tor2web.org/"><img src="$(IMGROOT)/tor2web-135x135.png" height="80px" width="80px" alt=""></a>
-<div class="projectdesc"><div class="name"><a href="http://wiki.tor2web.org/">Tor2web</a></div>
-<p>Tor2web allows Internet users to browse websites running in <a
-href="<page docs/hidden-services>">Tor hidden services</a>. It trades user
-anonymity for usability by allowing anonymous content to be distributed
-to non-anonymous users.
-</p>
-</div>
-</div>
-
-<div class="projectbox">
 <a href="https://txtorcon.readthedocs.org/"><img class="icon"
 src="$(IMGROOT)/icon-txtorcon.png" alt="txtorcon Icon" width="75"
 height="75"></a>

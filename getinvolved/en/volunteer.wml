@@ -344,14 +344,6 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-tor2web">Tor2web</a></td>
-        <td>Client Service</td>
-        <td>Python</td>
-        <td>Heavy</td>
-        <td>evilaliv3, hellais</td>
-      </tr>
-
-      <tr>
         <td><a href="#project-collector">CollecTor</a></td>
         <td>Backend Service</td>
         <td>Java</td>
@@ -747,18 +739,6 @@ meetings around the world.</li>
     actively developed in the Summer of 2010, and the Bandwidth Scanners a few
     months later. Both have been under active use since then, but development
     has stopped.
-    </p>
-
-    <a id="project-tor2web"></a>
-    <h3><a
-    href="https://www.tor2web.org">Tor2web</a> (<a
-    href="https://github.com/globaleaks/tor2web-3.0/wiki">code</a>)</h3>
-
-    <p>
-    Tor2web allows Internet users to browse websites running in <a
-    href="<page docs/hidden-services>">Tor hidden services</a>. It trades
-    user anonymity for usability by allowing anonymous content to be
-    distributed to non-anonymous users.
     </p>
 
     <a id="project-collector"></a>

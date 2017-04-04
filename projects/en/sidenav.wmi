@@ -52,9 +52,6 @@
           },
           {'url' => 'https://shadow.cs.umn.edu/',
            'txt' => 'Shadow',
-          },
-          {'url' => 'http://wiki.tor2web.org/',
-           'txt' => 'Tor2Web',
           }
           ]
         }];
