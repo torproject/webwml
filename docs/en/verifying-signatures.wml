@@ -154,7 +154,7 @@
     <pre>gpg --verify ~/Downloads/TorBrowser-<version-torbrowserbundleosx64>-osx64_en-US.dmg{.asc*,}</pre>
 
     <strong>For Linux users</strong> (change 64 to 32 if you have the 32-bit package):<br />
-    <pre>gpg --verify tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz.asc
+    <pre>gpg --verify tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz.asc \
     tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz</pre>
 
     <p>The output should say "Good signature":</p>
