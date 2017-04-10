@@ -153,9 +153,9 @@
     <strong>For Mac OS X users</strong>:<br />
     <pre>gpg --verify ~/Downloads/TorBrowser-<version-torbrowserbundleosx64>-osx64_en-US.dmg{.asc*,}</pre>
 
-    <strong>For Linux users</strong> (change 32 to 64 if you have the 64-bit package):<br />
-    <pre>gpg --verify tor-browser-linux32-<version-torbrowserbundlelinux32>_en-US.tar.xz.asc
-    tor-browser-linux32-<version-torbrowserbundlelinux32>_en-US.tar.xz</pre>
+    <strong>For Linux users</strong> (change 64 to 32 if you have the 32-bit package):<br />
+    <pre>gpg --verify tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz.asc
+    tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz</pre>
 
     <p>The output should say "Good signature":</p>
 
@@ -214,8 +214,8 @@
       file, and the <tt>sha256sums-unsigned-build.txt.asc</tt> signature file.
       They can all be found in the same directory under
       <a href="https://www.torproject.org/dist/torbrowser/">
-      https://www.torproject.org/dist/torbrowser/</a>, for example in '<version-torbrowserbundlelinux32>'
-      for Tor Browser <version-torbrowserbundlelinux32>.</li>
+      https://www.torproject.org/dist/torbrowser/</a>, for example in '<version-torbrowserbundlelinux64>'
+      for Tor Browser <version-torbrowserbundlelinux64>.</li>
       <li>In case your operating system is adding the .txt extension
       automatically to the SHA256 sums signature file strip it again by running
       <pre>mv sha256sums-unsigned-build.txt.asc.txt sha256sums-unsigned-build.txt.asc</pre>
