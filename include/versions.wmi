@@ -1,5 +1,5 @@
 <define-tag version-stable whitespace=delete>0.2.9.10</define-tag>
-<define-tag version-alpha whitespace=delete>0.3.0.4-rc</define-tag>
+<define-tag version-alpha whitespace=delete>0.3.0.5-rc</define-tag>
 
 <define-tag version-win32-stable whitespace=delete>0.2.9.10</define-tag>
 
