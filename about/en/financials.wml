@@ -13,6 +13,9 @@
   <div id="maincol">
     <h1>Tor: Financial Reports</h1>
       <dl>
+	<dt>Founding Documents</dt>
+	<dd><a href="https://gitweb.torproject.org/company/policies.git/tree/corpdocs">Form 1023, Articles of Organization, IRS Determination Letter, and more</a></dd>
+
 	<dt>Fiscal Year 2016</dt>
 	<dd><a href="findoc/2016-TorProject-Bylaws.pdf">2016-12-05 Tor Project Bylaws</a></dd>
 	<dd>2016 IRS Form 990 and other forms expected like usual in late 2017</dd>
