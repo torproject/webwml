@@ -21,6 +21,7 @@
     30 GB of disk space, but this number can fluctuate. Expect space
     requirements of up to 50 GB.
     </p>
+    <a id="sysconfig"></a>
     <h2><a class="anchor" href="#sysconfig">Configuring your System</a></h2>
     <p>
     If you would like to run a mirror, it's as easy as these commands to download
@@ -120,6 +121,7 @@ text/html                             en html htm shtml;
     binary releases change often. An update frequency of six hours is recommended.  Tor users everywhere will thank you.
     </p>
     <br/>
+    <a id="mirrorops"></a>
     <h2><a class="anchor" href="#mirrorops">Joining the mirror community</a></h2>
     <p>
     If you are running a mirror, please subscribe to the <A
