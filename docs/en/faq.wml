@@ -1525,15 +1525,19 @@ instructions for how your Tor program should behave. The default
 configuration should work fine for most Tor users.
 </p>
 <p>
-If you installed Tor Browser, look for
+If you installed Tor Browser on Windows or Linux, look for
 <code>Browser/TorBrowser/Data/Tor/torrc</code> inside your Tor Browser
 directory.
-On OS X, you must right-click or command-click on the Tor Browser icon,
-and select "Show Package Contents" before the Tor Browser directories become
-visible.
+If you're on macOS, the torrc is in <code>~/Library/Application Support/TorBrowser-Data/Tor</code> .
+To get to it, press cmd-shift-g while in Finder and copy/paste that directory
+into the box that appears.
 </p>
 <p>
-Tor looks for the torrc file in <code>/usr/local/etc/tor/torrc</code> if you compiled tor from source, and <code>/etc/tor/torrc</code> or <code>/etc/torrc</code> if you installed a pre-built package.</p>
+Otherwise, if you are using Tor without Tor Browser, it looks for the
+torrc file in <code>/usr/local/etc/tor/torrc</code> if you compiled tor
+from source, and <code>/etc/tor/torrc</code> or <code>/etc/torrc</code>
+if you installed a pre-built package.
+</p>
 
 <p>
 Once you've created or changed your torrc file, you will need to restart
