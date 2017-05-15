@@ -93,8 +93,7 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
     descriptor" to the directory authorities, to let clients know
     what address, ports, keys, etc your relay is using. After a few
     hours (to give it enough time to propagate), you can query
-    <a href="https://atlas.torproject.org/">Atlas</a> or
-    <a href="https://globe.torproject.org/">Globe</a> to see whether your
+    <a href="https://atlas.torproject.org/">Atlas</a> to see whether your
     relay has successfully registered in the network.</p>
 
     <hr>
