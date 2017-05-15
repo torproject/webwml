@@ -126,8 +126,10 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
     </p>
 
     <p>
-    8. Consider backing up your Tor relay's private key
-    ("/var/lib/tor/keys/secret_id_key"). You'll need this identity key to
+    8. Consider backing up your Tor relay's private keys
+    ("/var/lib/tor/keys/secret_id_key" and
+    "/var/lib/tor/keys/ed25519_master_id_secret_key").
+    You'll need these identity keys to
     <a href="<page docs/faq>#UpgradeOrMove">move or restore your Tor relay</a>.
     </p>
 
