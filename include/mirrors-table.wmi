@@ -309,6 +309,23 @@
 
          <td>DE</td>
 
+         <td>cYbergueRrilLa AnonyMous NeXus</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td><a href="https://tor-mirror.cyberguerrilla.org/dist/">https</a></td>
+    <td><a href="https://tor-mirror.cyberguerrilla.org">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
          <td>Tor Supporter</td>
 
          <td>Up to date</td>
@@ -683,23 +700,6 @@
 
          <td>DE</td>
 
-         <td>Chaos Computer Club</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.ccc.de/dist/">http</a></td>
-    <td><a href="http://tor.ccc.de/">http</a></td>
-    <td><a href="https://tor.ccc.de/dist/">https</a></td>
-    <td><a href="https://tor.ccc.de">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>DE</td>
-
          <td>tormirror</td>
 
          <td>Up to date</td>
@@ -913,6 +913,40 @@
     <td><a href="http://stwo.biz:8084/torproject.org">http</a></td>
     <td> - </td>
     <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>EE</td>
+
+         <td>CyberSIDE</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://cyberside.net.ee/tor/">http</a></td>
+    <td><a href="http://cyberside.planet.ee/tor/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>NL</td>
+
+         <td>Disciples of Disorder</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://torproject.mirror.disciplesofdisorder.com/dist/">http</a></td>
+    <td><a href="http://torproject.mirror.disciplesofdisorder.com">http</a></td>
+    <td><a href="https://torproject.mirror.disciplesofdisorder.com/dist/">https</a></td>
+    <td><a href="https://torproject.mirror.disciplesofdisorder.com">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
