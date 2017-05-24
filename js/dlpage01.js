@@ -36,6 +36,32 @@ function resetAll() {
   }
 }
 
+/* switches package links depending on selection */
+function updateLang() {
+  var caller = $( this );
+  var pkg = caller.attr('id');
+  var lang = caller.val();
+  var versions = JSON.parse($("#version-data").text());
+  var rootDir = '../dist/torbrowser/' + versions.torbrowserbundledir + '/';
+  var bundles = {
+    'win-tbb' : rootDir + 'torbrowser-install-' + versions.torbrowserbundle + '_' + lang + '.exe',
+    'osx-tbb' : rootDir + 'TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang +'.dmg',
+    'osx-tbb64' : rootDir + 'TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang + '.dmg',
+    'lin-tbb32' : rootDir + 'tor-browser-linux32-' + versions.torbrowserbundlelinux32 + '_' + lang + '.tar.xz',
+    'lin-tbb64' : rootDir + 'tor-browser-linux64-' + versions.torbrowserbundlelinux64 + '_' + lang + '.tar.xz'
+  };
+
+  $('.'+pkg).attr("href", bundles[pkg]);
+  $('.'+pkg+'-sig').attr("href", bundles[pkg] + '.asc');
+}
+
+$(function(){
+  $('.lang').ready(updateLang);
+  $('.lang').change(updateLang);
+  /* Only show language selector if javascript is enabled */
+  $('.lang').css('display', 'block');
+});
+
 $(document).ready(function () {
 
     $('.jump').click(function(event){

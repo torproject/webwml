@@ -26,6 +26,7 @@ body {
 .toptwenty { margin-top: 20px; }
 .topforty { margin-top: 40px; }
 
+.hidden { display: none; }
 
 /* HEADER ------------*/
 

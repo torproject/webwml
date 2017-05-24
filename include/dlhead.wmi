@@ -54,44 +54,15 @@
    Source: http://www.stemkoski.com/stupid-simple-jquery-accordion-menu/
    License: Public Domain (http://www.stemkoski.com/stupid-simple-jquery-accordion-menu/#comment-32882) */
   </script>
-  <script async type="text/javascript">
-# /* switches package links depending on selection */
-  function updateLang() {
-    var caller = $( this );
-    var pkg = caller.attr('id');
-    var lang = caller.val();
-    var wintbb = '../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_'+lang+'.exe';
-    var osxtbb = '../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_'+lang+'.dmg';
-    var osxtbb64 = '../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_'+lang+'.dmg';
-    var lintbb32 = '../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_'+lang+'.tar.xz';
-    var lintbb64 = '../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_'+lang+'.tar.xz';
-    if(pkg == 'win-tbb'){
-      $('.'+pkg).replaceWith('<a class="button win-tbb" href="'+wintbb+'"><span class="strong">Download</span><span class="normal"><button-win-tbb32></span></a>');
-      $('.'+pkg+'-sig').replaceWith('<a class="win-tbb-sig" href="'+wintbb+'.asc">sig</a>');
-    }else if(pkg == 'osx-tbb'){
-      $('.'+pkg).replaceWith('<a class="button osx-tbb" href="'+osxtbb+'"><span class="strong">Download</span><span class="normal"><button-osx-tbb32></span></a>');
-      $('.'+pkg+'-sig').replaceWith('<a class="osx-tbb-sig" href="'+osxtbb+'.asc">sig</a>');
-    }else if(pkg == 'osx-tbb64'){
-      $('.'+pkg).replaceWith('<a class="button osx-tbb64" href="'+osxtbb64+'"><span class="strong">Download</span><span class="normal"><button-osx-tbb64></span></a>');
-      $('.'+pkg+'-sig').replaceWith('<a class="osx-tbb64-sig" href="'+osxtbb64+'.asc">sig</a>');
-    }else if(pkg == 'lin-tbb32'){
-      $('.'+pkg).replaceWith('<a class="button lin-tbb32" href="'+lintbb32+'"><span class="strong">Download</span><span class="normal"><button-lin-tbb32></span></a>');
-      $('.'+pkg+'-sig').replaceWith('<a class="lin-tbb32-sig" href="'+lintbb32+'.asc">sig</a>');
-    }else if(pkg == 'lin-tbb64'){
-      $('.'+pkg).replaceWith('<a class="button lin-tbb64" href="'+lintbb64+'"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>');
-      $('.'+pkg+'-sig').replaceWith('<a class="lin-tbb64-sig" href="'+lintbb64+'.asc">sig</a>');
-    }
-  }
-
-  $(function(){
-    $('.lang').ready(updateLang);
-    $('.lang').change(updateLang);
-    /* Only show language selector if javascript is enabled */
-    $('.lang').css('display', 'block');
-  });
-  </script>
 </head>
 <body onload="resetAll()" onunload="">
+    <span class="hidden" id="version-data">
+        { "torbrowserbundledir" : "<version-torbrowserbundledir>",
+          "torbrowserbundle" : "<version-torbrowserbundle>",
+          "torbrowserbundleosx64" : "<version-torbrowserbundleosx64>",
+          "torbrowserbundlelinux32" : "<version-torbrowserbundlelinux32>",
+          "torbrowserbundlelinux64" : "<version-torbrowserbundlelinux64>"  }
+    </span>
 <div id="wrap">
   <div id="header">
     <h1 id="logo"><a href="<page index>">Tor</a></h1>
