@@ -60,7 +60,7 @@
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <div class="desc">
 	    <h2>Tor Browser for Mac</h2>
-	    <em>Version <version-torbrowserbundleosx64> - OS X (10.6+)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
+	    <em>Version <version-torbrowserbundleosx64> - OS X (10.9+)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
 	    <p>Everything you need to safely browse the Internet.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
 	  <form class="downloads">
