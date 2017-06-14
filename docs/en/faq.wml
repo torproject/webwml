@@ -682,15 +682,12 @@ with more funding?</a></h3>
 
     <p>
     The Tor network's <a
-
-href="https://metrics.torproject.org/network.html#networksize">several
-    thousand</a> relays push <a
-    href="https://metrics.torproject.org/network.html#bandwidth">over
-    7.5GB per second on average</a>. We have <a
-
-href="https://metrics.torproject.org/users.html#direct-users">millions of
-    daily users</a>. But the Tor network is not yet
-    self-sustaining.
+href="https://metrics.torproject.org/networksize.html">serveral thousand</a>
+    relays push <a
+href="https://metrics.torproject.org/bandwidth.html">around 100 Gbps on
+average</a>. We have <a
+href="https://metrics.torproject.org/userstats-relay-country.html">millions of
+    daily users</a>. But the Tor network is not yet self-sustaining.
     </p>
 
     <p>
