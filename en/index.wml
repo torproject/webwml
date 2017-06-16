@@ -65,10 +65,7 @@
                 browse the Internet.</p>
                 </div>
               </td>
-              <td>
-                <div class="project">
-                <a href="https://guardianproject.info/apps/orbot/"><img
-                src="$(IMGROOT)/icon-Orbot.jpg" alt="Orbot Icon"></a>
+              <td><meta name="description" content="The Tor Project's free software protects your privacy online. Site blocked? Email [mailto:gettor@torproject.org] for help downloading Tor Browser.">
                 <h3><a href="https://guardianproject.info/apps/orbot/">Orbot</a></h3>
                 <p>Tor for Google Android devices.</p>
                 </div>
