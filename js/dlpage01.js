@@ -63,8 +63,8 @@ $(function(){
 });
 
 $(document).ready(function () {
-    $('.onload').ready(resetAll;
-      
+    $('.onload').ready(resetAll);
+
     $('.jump').click(function(event){
       //prevent the default action for the click event
       //event.preventDefault();
