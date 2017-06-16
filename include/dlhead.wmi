@@ -56,7 +56,7 @@
    License: Public Domain (http://www.stemkoski.com/stupid-simple-jquery-accordion-menu/#comment-32882) */
   </script>
 </head>
-<body onload="resetAll()" onunload="">
+<body class="onload">
     <span class="hidden" id="version-data">
         { "torbrowserbundledir" : "<version-torbrowserbundledir>",
           "torbrowserbundle" : "<version-torbrowserbundle>",

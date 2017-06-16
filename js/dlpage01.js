@@ -63,7 +63,8 @@ $(function(){
 });
 
 $(document).ready(function () {
-
+    $('.onload').ready(resetAll;
+      
     $('.jump').click(function(event){
       //prevent the default action for the click event
       //event.preventDefault();
@@ -83,7 +84,7 @@ $(document).ready(function () {
 //      $('html, body').animate({scrollTop:target_top}, 1000);
     });
 
-      
+
     // Bind an event to window.onhashchange
     $(window).bind( 'hashchange', function(e) {
 
@@ -95,7 +96,7 @@ $(document).ready(function () {
 
 	  $('.easy').css('display', 'none');
       }
-      
+
       if(url == 'windows'){
 	$('.easy.windows').css('display', 'block');
       } else if(url == 'mac'){
@@ -109,7 +110,7 @@ $(document).ready(function () {
 	  $(function(){OScheck();});
       }
     });
-    
+
     // Since the event is only triggered when the hash changes, we need to trigger
     // the event now, to handle the hash the page may have loaded with.
     $(window).trigger( 'hashchange' );
