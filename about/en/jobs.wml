@@ -16,10 +16,10 @@
 		 soon, though! In the meantime, you may want to glance at our
 		<a href="<page getinvolved/volunteer>">volunteers</a> page.</p>
 
-		#<p>Specifically, we're looking for the following people currently:</p>
-		#<ul>
-		#  <li><a href="<page about/jobs-comm-director>">Director of Communications</a></li>
-		#</ul>
+		<p>Specifically, we're looking for the following people currently:</p>
+		<ul>
+		  <li><a href="<page about/jobs-browserdeveloper>">Browser Developer</a></li>
+		</ul>
 
 
 		<p>In the past, we looked for the following people:</p>
