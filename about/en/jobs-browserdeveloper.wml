@@ -20,7 +20,7 @@ June 15, 2017
 The Tor Project is looking for a Browser Developer (C++ and Javascript)!
 </p>
 <p>
-As a browser developer, your job would be to work closely with other members of the Tor Browser development team on C++ patches to our Firefox-based browser, writing new APIs, altering functionality for privacy and security, and making improvements to our collection of Firefox add-ons (JavaScript code). Being a Tor Browser developer includes triaging, diagnosing, and fixing bugs; looking for and resolving web privacy issues; responding on short notice to urgent security issues; and working collaboratively with coworkers and volunteers to implement new features and web behavior changes. We also need help making our code more maintainable, testable, and mergeable by upstream. The person in this position will also review other people's code, designs, and academic research papers to make suggestions for improvement.
+As	a	browser	developer,	your	job	would	be	to	work	closely	with	other	 members	of	the	Tor	Browser	development	team	on	C++	patches	to our Firefox-based	browser,	writing	new	APIs,	altering	functionality	for	privacy	and	security,	and	making	improvements	to	our	collection	of	Firefox	add-ons	(JavaScript	code).	Being	a	Tor	Browser	developer	includes	triaging,	diagnosing,	and	fixing	bugs;	looking	for	and	resolving	web	privacy	issues;	responding	on	short	notice	to	urgent	security	issues;	and	working	collaboratively	with	coworkers	and	volunteers	to	implement	new	features	and	web	behavior	changes.	We	also	need	help	making	our	code	more	maintainable,	testable,	and	mergeable	by	upstream.	The	person	in	this	position	will	also	review	other	people's	code,	designs,	and	academic	research	papers	to	make	suggestions	for	improvement.
 </p>
 <p>
 This is a full-time position.
@@ -91,9 +91,9 @@ This is a full-time position.
 <p>
 For a more detailed understanding of the full breadth and depth of the work you'd be doing, have a look at The Design and Implementation of the Tor Browser, especially The Design Requirements section at <a href="​https://www.torproject.org/projects/torbrowser/design/#DesignRequirements">https://www.torproject.org/projects/torbrowser/design/#DesignRequirements</a>.
 </p>
-<p>
+<h2>
 Other notes:
-</p>
+</h2>
 <p>
 Academic degrees are great, but not required if you have the right experience!
 </p>
@@ -104,14 +104,14 @@ The team coordinates via IRC, email, and bug trackers. This position may be perf
 The Tor Project, Inc., is a 501(c)(3) non-profit organization that provides the technical infrastructure for privacy protection over the Internet. With paid staff and contractors of around 30 technologists and operational support people, plus many volunteers all over the world who contribute to our work, the Tor Project is funded in part by government grants and contracts, as well as by individual, foundation, and corporate donations. We only write free and open source software, and we don't believe in software patents.
 </p>
 <p>
-The Tor Project has a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; flexible work schedule; and occasional travel opportunities. The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+The Tor Project has a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; flexible work schedule; and occasional travel opportunities.
 </p>
 <p>
 The Tor Project, Inc., is an equal opportunity, affirmative action employer.
 </p>
-<p>
+<h2>
 To apply:
-</p>
+</h2>
 <p>
 Please email a PDF of your resume/CV, and a cover letter explaining how your qualifications and experience meet the requirements of this job description, including why you want to work on Tor. Email should be sent to hr at torproject.org with "Browser Developer" in the subject line.
 Link to at least one of your code samples (ideally, more than one and all of which we will presume you are authorized to disclose). No phone calls, please!
