@@ -6,7 +6,7 @@ var software = {
 'tor': { '_stable': {
                      'jessie':  [ 'jessie' ],
                      'stretch':  [ 'stretch' ],
-                     'buster': [ 'buster' ],
+                     'testing': [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
@@ -16,7 +16,7 @@ var software = {
          'experimental-0.3.0.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
-                     'buster':  [ 'buster' ],
+                     'testing':  [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
@@ -28,7 +28,7 @@ var software = {
          '_stable': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
-                     'buster':  [ 'buster' ],
+                     'testing':  [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
@@ -38,7 +38,7 @@ var software = {
          'experimental-0.3.0.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
-                     'buster':  [ 'buster' ],
+                     'testing':  [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
