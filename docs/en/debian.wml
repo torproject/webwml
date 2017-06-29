@@ -71,9 +71,9 @@ For Ubuntu, ask <a href="https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#T
 <blockquote>
 I run
 <select id="distrib">
-<option value="wheezy">Debian oldstable (wheezy)</option>
-<option value="jessie" selected="selected">Debian stable (jessie)</option>
-<option value="stretch">Debian testing (stretch)</option>
+<option value="wheezy">Debian oldstable (jessie)</option>
+<option value="jessie" selected="selected">Debian stable (stretch)</option>
+<option value="stretch">Debian testing (buster)</option>
 <option value="sid">Debian unstable (sid)</option>
 <option value="precise">Ubuntu Precise Pangolin</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
