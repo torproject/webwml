@@ -89,7 +89,7 @@ version
 <div id="apt-source">
 <p>You need to add the following entry in <code>/etc/apt/sources.list</code> or a new file in <code>/etc/apt/sources.list.d/</code>:</p>
 
-<blockquote><pre id="sources">deb http://deb.torproject.org/torproject.org wheezy main
+<blockquote><pre id="sources">deb http://deb.torproject.org/torproject.org jessie main
 </pre></blockquote>
 </div>
 
