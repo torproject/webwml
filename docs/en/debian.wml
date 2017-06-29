@@ -15,8 +15,8 @@
   </div>
   <div id="maincol">
 <a id="debian"></a>
-<h2><a class="anchor" href="#debian">Option one: Tor on Debian stable,
-Debian sid, or Debian testing</a></h2>
+<h2><a class="anchor" href="#debian">Option one: Tor on Debian Stretch - stable,
+Debian Buster - testing, or Debian Sid - unstable</a></h2>
 <br />
 
 <p>
@@ -246,7 +246,7 @@ Substitute the name of your distro (wheezy, sid, trusty, ...) in place of &lt;DI
 <pre style="margin: 1.5em 0 1.5em 2em">
 apt-get update
 </pre>
-You also need to install the necessary packages to build your own debs and the 
+You also need to install the necessary packages to build your own debs and the
 packages needed to build Tor:
 <pre style="margin: 1.5em 0 1.5em 2em">
 apt-get install build-essential fakeroot devscripts
@@ -282,4 +282,4 @@ instructions.
   <!-- END SIDECOL -->
 </div>
 <!-- END CONTENT -->
-#include <foot.wmi>  
+#include <foot.wmi>
