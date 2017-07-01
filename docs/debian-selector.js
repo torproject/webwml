@@ -4,9 +4,9 @@
 var sources = {};
 var software = {
 'tor': { '_stable': {
-                     'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
-                     'stretch': [ 'stretch' ],
+                     'stretch':  [ 'stretch' ],
+                     'testing': [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
@@ -14,9 +14,9 @@ var software = {
                      'yakkety': [ 'yakkety'],
                      },
          'experimental-0.3.0.x': {
-                     'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
+                     'testing':  [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
@@ -26,9 +26,9 @@ var software = {
        },
 'tor (from source)': {
          '_stable': {
-                     'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
+                     'testing':  [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
@@ -36,9 +36,9 @@ var software = {
                      'yakkety': [ 'yakkety'],
                      },
          'experimental-0.3.0.x': {
-                     'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
+                     'testing':  [ 'testing' ],
                      'sid':     [ 'sid' ],
                      'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],

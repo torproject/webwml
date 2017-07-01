@@ -15,8 +15,8 @@
   </div>
   <div id="maincol">
 <a id="debian"></a>
-<h2><a class="anchor" href="#debian">Option one: Tor on Debian stable,
-Debian sid, or Debian testing</a></h2>
+<h2><a class="anchor" href="#debian">Option one: Tor on Debian Stretch - stable,
+Debian Buster - testing, or Debian Sid - unstable</a></h2>
 <br />
 
 <p>
@@ -71,9 +71,9 @@ For Ubuntu, ask <a href="https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#T
 <blockquote>
 I run
 <select id="distrib">
-<option value="wheezy">Debian oldstable (wheezy)</option>
-<option value="jessie" selected="selected">Debian stable (jessie)</option>
-<option value="stretch">Debian testing (stretch)</option>
+<option value="jessie">Debian oldstable (jessie)</option>
+<option value="stretch" selected="selected">Debian stable (stretch)</option>
+<option value="testing">Debian testing (buster)</option>
 <option value="sid">Debian unstable (sid)</option>
 <option value="precise">Ubuntu Precise Pangolin</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
@@ -89,7 +89,7 @@ version
 <div id="apt-source">
 <p>You need to add the following entry in <code>/etc/apt/sources.list</code> or a new file in <code>/etc/apt/sources.list.d/</code>:</p>
 
-<blockquote><pre id="sources">deb http://deb.torproject.org/torproject.org wheezy main
+<blockquote><pre id="sources">deb http://deb.torproject.org/torproject.org jessie main
 </pre></blockquote>
 </div>
 
@@ -246,7 +246,7 @@ Substitute the name of your distro (wheezy, sid, trusty, ...) in place of &lt;DI
 <pre style="margin: 1.5em 0 1.5em 2em">
 apt-get update
 </pre>
-You also need to install the necessary packages to build your own debs and the 
+You also need to install the necessary packages to build your own debs and the
 packages needed to build Tor:
 <pre style="margin: 1.5em 0 1.5em 2em">
 apt-get install build-essential fakeroot devscripts
@@ -282,4 +282,4 @@ instructions.
   <!-- END SIDECOL -->
 </div>
 <!-- END CONTENT -->
-#include <foot.wmi>  
+#include <foot.wmi>
