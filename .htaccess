@@ -1,6 +1,6 @@
 RewriteEngine On
 
-ErrorDocument 404 /404
+#ErrorDocument 404 /404
 
 # moved to /docs/
 RewriteRule ^faq(.*) /docs/faq$1 [R=301,L]
