@@ -5,8 +5,8 @@ var sources = {};
 var software = {
 'tor': { '_stable': {
                      'jessie':  [ 'jessie' ],
-                     'stretch':  [ 'stretch' ],
-                     'testing': [ 'testing' ],
+                     'stretch': [ 'stretch' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
@@ -15,7 +15,7 @@ var software = {
          'experimental-0.3.0.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
-                     'testing':  [ 'testing' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
@@ -26,7 +26,7 @@ var software = {
          '_stable': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
-                     'testing':  [ 'testing' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
@@ -35,7 +35,7 @@ var software = {
          'experimental-0.3.0.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
-                     'testing':  [ 'testing' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
