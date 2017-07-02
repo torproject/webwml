@@ -12,7 +12,7 @@ var software = {
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
                      },
-         'experimental-0.3.0.x': {
+         'experimental-0.3.1.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'buster':  [ 'buster' ],
