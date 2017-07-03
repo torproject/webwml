@@ -16,17 +16,17 @@
 
   # begin WML to generate css/js paths
   <ifneq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/$(STYLESHEET)">">
-  <ifeq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/master.css">">
+  <ifeq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/master.min.css">">
 
-  <link href="$(DOCROOT)/css/thankyou.css" rel="stylesheet" type="text/css">
+  <link href="$(DOCROOT)/css/thankyou.min.css" rel="stylesheet" type="text/css">
   <!--[if lte IE 8]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie8-and-down.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie8-and-down.min.css">
   <![endif]-->
   <!--[if lte IE 7]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie7-and-down.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie7-and-down.min.css">
   <![endif]-->
   <!--[if IE 6]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie6.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie6.min.css">
   <![endif]-->
 #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
   # end WML to generate css/js paths
@@ -36,7 +36,7 @@
   <meta name="keywords" content="anonymity online, tor, tor project, censorship circumvention, traffic analysis, anonymous communications research">
 <script type="text/javascript" src="$(DOCROOT)/js/jquery.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="$(DOCROOT)/js/jquery.infieldlabel.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="$(DOCROOT)/js/functions.js" charset="utf-8"></script>
+<script type="text/javascript" src="$(DOCROOT)/js/functions.min.js" charset="utf-8"></script>
 </head>
 <body>
 <div id="wrap">
