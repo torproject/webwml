@@ -2,7 +2,7 @@
 #
 # Author: Runa Sandvik, <runa.sandvik@gmail.com>
 # Google Summer of Code 2009
-# 
+#
 # This is Free Software (GPLv3)
 # http://www.gnu.org/licenses/gpl-3.0.txt
 #
@@ -38,7 +38,7 @@ nodefault='<input>'
 # can run at any time.
 LOCKFILE=po2wml.lock
 
-if lockfile -! -l 60 -r 3 "$LOCKFILE"; 
+if lockfile -! -l 60 -r 3 "$LOCKFILE";
 then
 	echo "unable to acquire lock" >2
 	exit 1
@@ -66,13 +66,13 @@ for file in $po ; do
 	validate_script="`dirname $wmldir`/translation/tools/validate.py"
 	validate_log="`dirname $wmldir`/validate/website-validate.log"
 	python "$validate_script" -i "$file" -l	"$validate_log"
-	
+
 	# Get the basename of the file we are dealing with
 	pofile=`basename $file`
 
 	# Strip the file for its original extension and the translation
 	# priority, and add .wml
-	wmlfile="`echo $pofile | cut -d . -f 2`.wml"	
+	wmlfile="`echo $pofile | cut -d . -f 2`.wml"
 
 	# Find out what directory the file is in.
 	indir=`dirname $file`
@@ -168,7 +168,7 @@ for file in $po ; do
                                 then
                                         new_side=`echo '#include "de/side.wmi"'`
                                         sed -i "s@$orig_side@$new_side@" "$wmldir/$subdir/$wmlfile"
-                                fi  
+                                fi
 
                                 # Info (not all files include this)
                                 orig_info=`grep '#include "info.wmi"' "$wmldir/$subdir/$wmlfile"`
@@ -176,11 +176,11 @@ for file in $po ; do
                                 then
                                         new_info=`echo '#include "de/info.wmi"'`
                                         sed -i "s@$orig_info@$new_info@" "$wmldir/$subdir/$wmlfile"
-                                fi  
+                                fi
 
                                 # Footer
                                 echo '#include "de/foot.wmi"' >> "$wmldir/$subdir/$wmlfile"
-                        fi  
+                        fi
 
 			# If the translation is Arabic, include the
 			# correct header, css, menu files and footer
@@ -189,7 +189,7 @@ for file in $po ; do
 				# Head
 				orig_head=`grep '#include "head.wmi"' "$wmldir/$subdir/$wmlfile"`
 				temp_head=`echo $orig_head | sed s@head.wmi@ar/head.wmi@`
-				new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.css"'`
+				new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.min.css"'`
 				sed -i "s@$orig_head@$new_head@" "$wmldir/$subdir/$wmlfile"
 
 				# Side (not all files include this)
@@ -219,7 +219,7 @@ for file in $po ; do
 				# Head
 				orig_head=`grep '#include "head.wmi"' "$wmldir/$subdir/$wmlfile"`
 				temp_head=`echo $orig_head | sed s@head.wmi@fa/head.wmi@`
-				new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.css"'`
+				new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.min.css"'`
 				sed -i "s@$orig_head@$new_head@" "$wmldir/$subdir/$wmlfile"
 
 				# Side (not all files include this)
@@ -250,7 +250,7 @@ for file in $po ; do
 				cp "$wmldir/en/sidenav.wmi" "$wmldir/$subdir"
 			fi
 		fi
-	}	
+	}
 
 	# Convert translations to directories such as website/torbrowser/nb/.
 	# Again, po4a will write the file and then delete it if less than 80% has been translated
@@ -273,7 +273,7 @@ for file in $po ; do
 			sed -i -e :a -e '$d;N;2,3ba' -e 'P;D' "$wmldir/$subdir/$lang/$wmlfile"
 
 			# Remove a specific comment from a specific file
-			if [ $wmlfile == "download-easy.wml" ]			
+			if [ $wmlfile == "download-easy.wml" ]
 			then
 				translator_comment="# Translators: please point to the version of TBB in your language, if there is one."
 				sed -i "s/$translator_comment//" "$wmldir/$subdir/$lang/$wmlfile"
@@ -289,7 +289,7 @@ for file in $po ; do
 			fi
 
 			# Include the English footer for most of the
-			# translations 
+			# translations
 			if [[ $lang != "ar" && $lang != "pl" && $lang != "de" && $lang != "fa" ]]
 			then
 				echo '#include "foot.wmi"' >> "$wmldir/$subdir/$lang/$wmlfile"
@@ -297,8 +297,8 @@ for file in $po ; do
 
 			# If the file is overview.wml, make sure we
 			# include the correct set of images
-			if [ $wmlfile = "overview.wml" ] && [[ $lang = "de" || $lang = "es" || $lang = "fr" || 
-				$lang = "ja" || $lang = "nl" || $lang = "no" || $lang = "pl" || $lang = "ru" || 
+			if [ $wmlfile = "overview.wml" ] && [[ $lang = "de" || $lang = "es" || $lang = "fr" ||
+				$lang = "ja" || $lang = "nl" || $lang = "no" || $lang = "pl" || $lang = "ru" ||
 				$lang = "zh" ]]
 			then
 				sed -i "s/htw1.png/htw1_$lang.png/" "$wmldir/$subdir/$lang/$wmlfile"
@@ -368,7 +368,7 @@ for file in $po ; do
 					orig_video=`grep src=\"https:\/\/media.torproject.org\/video\/2009-install-and-use-tor.ogv\" "$wmldir/$subdir/$lang/$wmlfile"`
 					translated_video=`echo "<p>Das nachfolgende Video, wurde von SemperVideo erstellt.</p> <p><video id=\"v1\" src=\"https://media.torproject.org/video/2011-install-and-use-tor-de.ogv\" autobuffer=\"true\" controls=\"controls\"></video></p>"`
 					new_video=`echo "$orig_video $translated_video"`
-				
+
 					sed -i "s@$orig_video@$new_video@" "$wmldir/$subdir/$lang/$wmlfile"
 				fi
                         fi
@@ -380,7 +380,7 @@ for file in $po ; do
 				# Head
 				orig_head=`grep '#include "head.wmi"' "$wmldir/$subdir/$lang/$wmlfile"`
 				temp_head=`echo $orig_head | sed s@head.wmi@ar/head.wmi@`
-				new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.css"'`
+				new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.min.css"'`
 				sed -i "s@$orig_head@$new_head@" "$wmldir/$subdir/$lang/$wmlfile"
 
 				# Side (not all files include this)
@@ -410,7 +410,7 @@ for file in $po ; do
                                 # Head
                                 orig_head=`grep '#include "head.wmi"' "$wmldir/$subdir/$lang/$wmlfile"`
                                 temp_head=`echo $orig_head | sed s@head.wmi@fa/head.wmi@`
-                                new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.css"'`
+                                new_head=`echo $temp_head 'STYLESHEET="css/master-rtl.min.css"'`
                                 sed -i "s@$orig_head@$new_head@" "$wmldir/$subdir/$lang/$wmlfile"
 
                                 # Side (not all files include this)
@@ -434,7 +434,7 @@ for file in $po ; do
                         fi
 
 			# If the directory does not include sidenav.wmi,
-			# copy it from the English directory (only if 
+			# copy it from the English directory (only if
 			# the English directory has this file)
 			if [[ ! -e "$wmldir/$subdir/$lang/sidenav.wmi" && -e "$wmldir/$subdir/en/sidenav.wmi" ]]
 			then
@@ -474,7 +474,7 @@ for file in $po ; do
                 then
                         subdir="`echo $subdir | sed s/_/-/ | tr '[A-Z]' '[a-z]'`"
                         nosubdir
-                fi  
+                fi
 
 		# Convert everything else
 		if [[ $subdir != "en" && $subdir != "pl_PL" && ! ($subdir =~ "_") && $subdir != "nb" && $subdir != "sv" ]]

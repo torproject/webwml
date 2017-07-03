@@ -18,8 +18,8 @@
   <meta property="og:image" content="https://www.torproject.org/images/tor-logo.jpg">
 
   <title>$(TITLE)</title>
-  <link href="$(DOCROOT)/css/bootstrap.css" rel="stylesheet">
-  <link href="$(DOCROOT)/css/donate-style.css" rel="stylesheet">
+  <link href="$(DOCROOT)/css/bootstrap.min.css" rel="stylesheet">
+  <link href="$(DOCROOT)/css/donate-style.min.css" rel="stylesheet">
   <link rel="icon" href="$(IMGROOT)/favicon.ico">
 
  </head>
@@ -31,7 +31,7 @@
         <a class="navbar-brand" href="<page index>">
           <img src="$(IMGROOT)/2016-tor-logo-heart.png" alt="Tor Project" class="logo" height="100%">
         </a>
-      </div>      
+      </div>
       <ul id="navbar" class="nav navbar-nav navbar-right">
         <li><a href="<page index>">Home</a></li>
         <li><a href="<page about/overview>">About</a></li>

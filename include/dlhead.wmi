@@ -16,17 +16,17 @@
 
   # begin WML to generate css/js paths
   <ifneq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/$(STYLESHEET)">">
-  <ifeq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/master.css">">
+  <ifeq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/master.min.css">">
 
-  #<link href="css/master.css" rel="stylesheet" type="text/css">
+  #<link href="css/master.min.css" rel="stylesheet" type="text/css">
   <!--[if lte IE 8]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie8-and-down.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie8-and-down.min.css">
   <![endif]-->
   <!--[if lte IE 7]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie7-and-down.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie7-and-down.min.css">
   <![endif]-->
   <!--[if IE 6]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie6.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie6.min.css">
   <![endif]-->
 
 #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
@@ -43,11 +43,11 @@
    Source: http://www.stoimen.com/blog/2009/07/16/jquery-browser-and-os-detection-plugin/
    License: Public Domain (http://www.stoimen.com/blog/2009/07/16/jquery-browser-and-os-detection-plugin/#comment-12498) */
   </script>
-  <script type="text/javascript" src="../js/jquery-migrate-1.0.0.js"></script>
+  <script type="text/javascript" src="../js/jquery-migrate-1.0.0.min.js"></script>
   <script type="text/javascript" src="../js/jquery.ba-bbq.min.js">
 /*  Source: https://raw.github.com/cowboy/jquery-bbq/v1.2.1/jquery.ba-bbq.js */
   </script>
-  <script type="text/javascript" src="../js/dlpage01.js">
+  <script type="text/javascript" src="../js/dlpage01.min.js">
 # /* Displays detected section */
   </script>
   <script async type="text/javascript" src="../js/jquery.accordion.min.js">
