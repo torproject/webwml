@@ -77,7 +77,11 @@ repository.
 
 ### Some information regarding working with minified CSS and JS sources
 
-If you want to edit any of the CSS or JS sources, please bear in mind that the HTML uses the minified versions. We keep in the repository both versions side-to-side. Once you edit the original source make sure you generate the minified version again. Most editors have plugins to minify CSS and JS files.
+If you want to edit any of the CSS or JS sources, please bear in mind that the HTML uses the minified versions. We keep in the repository both versions side-to-side. Once you edit the original source make sure you generate the minified version again. Most editors have plugins to minify CSS and JS files. On Debian it is possible to install the yui-compressor package and use it as follows:
+
+
+    yui-compressor myfile.js -o myfile-min.js
+
 
 If you are wondering why is it "cool" to minify sources even though compression is used on the server, please consider that Minification can be well be used in combination with gzipping sources. Minification does a lot of additional things that compression doesn't do. During minification comments are removed, long variables are renamed to shorter variable names, etc. Transferred data can be significantly smaller after minification, than by simply compressing the original. Although this depends a lot on the original source, minifying helps with mobile browsers and slower connections.
 
