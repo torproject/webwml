@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import "reset.min.js";
-@import "layout.min.js";
+@import "reset.min.css";
+@import "layout.min.css";
 @import "layout-rtl.css";
-@import "typography.min.js";
+@import "typography.min.css";
 @import "typography-rtl.css";
