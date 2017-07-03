@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import "reset.css";
-@import "layout.css";
+@import "reset.min.css";
+@import "layout.min.css";
 @import "layout-rtl.css";
-@import "typography.css";
+@import "typography.min.css";
 @import "typography-rtl.css";

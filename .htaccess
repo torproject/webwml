@@ -1,5 +1,7 @@
 RewriteEngine On
 
+#ErrorDocument 404 /404
+
 # moved to /docs/
 RewriteRule ^faq(.*) /docs/faq$1 [R=301,L]
 RewriteRule ^bridges(.*) /docs/bridges$1 [R=301,L]
@@ -81,5 +83,3 @@ RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/priva
 # some external resources (the donate infrastructure in particular) and
 # getting it changed there is apparently hard or something.
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
-
-

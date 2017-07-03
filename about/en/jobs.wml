@@ -12,9 +12,9 @@
 	<div id="maincol">
 		<h1>The Tor Project is always looking for more great people to join our team!</h1>
 
-		<p>At the moment, we don't have any official open positions. Please check back
-		 soon, though! In the meantime, you may want to glance at our
-		<a href="<page getinvolved/volunteer>">volunteers</a> page.</p>
+		#<p>At the moment, we don't have any official open positions. Please check back
+		# soon, though! In the meantime, you may want to glance at our
+		#<a href="<page getinvolved/volunteer>">volunteers</a> page.</p>
 
 		<p>Specifically, we're looking for the following people currently:</p>
 		<ul>
