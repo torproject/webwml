@@ -98,7 +98,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/atagar.txt"><img src="$(IMGROOT)/pgp-key.png" alt="twitter" /></a></div>
       <div class="name">Damian Johnson</div>
       <div class="field"><b>IRC:</b> atagar</div>
-      <div class="description">Author of the <a href="https://stem.torproject.org/">Stem</a> python controller library and <a href="http://www.atagar.com/arm/">Nyx</a> relay monitor.</div>
+      <div class="description">Author of the <a href="https://stem.torproject.org/">Stem</a> python controller library and <a href="https://www.atagar.com/arm/">Nyx</a> relay monitor.</div>
     </td>
 
     <td>
@@ -196,7 +196,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/robgjansen.txt"><img src="$(IMGROOT)/pgp-key.png" alt="twitter" /></a></div>
       <div class="name"><a href="http://www.robgjansen.com/">Rob Jansen</a></div>
       <div class="field"><b>IRC:</b> robgjansen</div>
-      <div class="description">Security research scientist, leading expert in Tor network performance, and author of <a href="http://shadow.github.io/">Shadow</a>.</div>
+      <div class="description"><a href="https://www.nrl.navy.mil">NRL</a> research scientist, leading expert in Tor network performance, and author of <a href="https://shadow.github.io/">Shadow</a>.</div>
     </td>
   </tr>
 
