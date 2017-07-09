@@ -80,7 +80,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/gunner.txt"><img src="$(IMGROOT)/pgp-key.png" alt="twitter" /></a></div>
       <div class="name">Allen Gunn</div>
       <div class="field"><b>IRC:</b> gunner</div>
-      <div class="description"><a href="https://aspirationtech.org/about/people/gunner">Executive Director of Aspiration</a>, where he works with NGOs, activists, and human rights groups. Meeting facilitator and member of our Community Council.</div>
+      <div class="description"><a href="https://aspirationtech.org/about/people/gunner">Executive Director of Aspiration</a>, where he works with NGOs, activists, and human rights groups. Meeting facilitator and Community Council member.</div>
     </td>
 
     <td>
