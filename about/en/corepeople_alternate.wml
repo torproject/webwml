@@ -69,7 +69,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/flexlibris.txt"><img src="$(IMGROOT)/pgp-key.png" alt="twitter" /></a></div>
       <div class="name">Alison Macrina</div>
       <div class="field"><b>IRC:</b> flexlibris</div>
-      <div class="description">Leads Community Team and the Library Freedom Project. Works on support, outreach, and training.</div>
+      <div class="description">Leads the <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam">Community Team</a> and <a href="https://libraryfreedomproject.org">Library Freedom Project</a>. Works on support, outreach, and training.</div>
     </td>
   </tr>
 
