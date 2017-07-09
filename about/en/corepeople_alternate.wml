@@ -151,7 +151,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/qbi.txt"><img src="$(IMGROOT)/pgp-key.png" alt="twitter" /></a></div>
       <div class="name">Jens Kubieziel</div>
       <div class="field"><b>IRC:</b> qbi</div>
-      <div class="description">Volunteer that helps translate the website, is part of TorServers.net, and Tor's sysadmin team.</div>
+      <div class="description">Volunteer that helped translate the website, is part of TorServers.net, and Tor's sysadmin team.</div>
     </td>
 
     <td>
