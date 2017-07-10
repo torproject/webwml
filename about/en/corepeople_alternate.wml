@@ -347,6 +347,15 @@ table.people tr td:first-child {
 
   <tr>
     <td>
+      <div class="photo"><img src="$(IMGROOT)/people/wseltzer.png" alt="wseltzer" /></div>
+      <div class="icon"><a href="https://twitter.com/wseltzer"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
+      <div class="icon"><a href="../keys/wseltzer.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
+      <div class="name">Wendy Seltzer</div>
+      <div class="field"><b>IRC:</b> wseltzer</div>
+      <div class="description"><a href="https://wendy.seltzer.org/">Wendy</a> is a techie lawyer and former Tor board member. She works on legal and policy support for private and secure communications.</div>
+    </td>
+
+    <td>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="name">Yawning Angel</div>
       <div class="description">Author and maintainer of the Linux Tor Browser sandbox.</div>
