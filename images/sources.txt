@@ -1,0 +1,10 @@
+pgp-key.png
+  Artist: FatCow Web Hosting (http://www.fatcow.com/)
+  From: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Farm-Fresh_key.png)
+  License: Creative Commons v3 (share, remix, attribution)
+
+twitter.png and twitter-small.png
+  Artist: Guilherme Lima (http://www.iconarchive.com/artist/limav.html)
+  From: http://www.iconarchive.com/show/flat-gradient-social-icons-by-limav/Twitter-icon.html
+  License: Free for non-commercial use
+
