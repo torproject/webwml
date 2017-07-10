@@ -279,15 +279,24 @@ table.people tr td:first-child {
     </td>
 
     <td>
+      <div class="photo"><img src="$(IMGROOT)/people/hiro.png" alt="hiro" /></div>
+      <div class="icon"><a href="https://twitter.com/nopressure"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
+      <div class="icon"><a href="../keys/hiro.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
+      <div class="name">Silvia Puglisi</div>
+      <div class="field"><b>IRC:</b> hiro</div>
+      <div class="description">Hiro builds and runs Tor Project's web applications and services.</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="icon"><a href="../keys/teor.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name">Tim Wilson-Brown</div>
       <div class="field"><b>IRC:</b> teor</div>
       <div class="description">Onion services developer, and core member of Tor dev team. Researches Tor network measurement and onion service scalability.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/tjr.png" alt="tjr" /></div>
       <div class="icon"><a href="https://twitter.com/tomrittervg"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -296,7 +305,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> tjr</div>
       <div class="description">Maintains <a href="https://consensus-health.torproject.org/">Consensus Health </a>, runs one of the bandwidth authorities, and contributes to Tor Browser.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/t0mmy.png" alt="t0mmy" /></div>
       <div class="icon"><a href="../keys/t0mmy.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
@@ -304,9 +315,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> t0mmy</div>
       <div class="description">Writes and edits grant proposals, one-pagers, blogposts, etc.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="name">Yawning Angel</div>
