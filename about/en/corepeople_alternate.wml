@@ -343,6 +343,15 @@ table.people tr td:first-child {
 
   <tr>
     <td>
+      <div class="photo"><img src="$(IMGROOT)/people/ssteele.png" alt="ssteele" /></div>
+      <div class="icon"><a href="https://twitter.com/ssteele1234"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
+      <div class="icon"><a href="../keys/ssteele.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
+      <div class="name">Shari Steele</div>
+      <div class="field"><b>IRC:</b> ssteele</div>
+      <div class="description">Executive Director of the Tor Project, Inc.</div>
+    </td>
+
+    <td>
       <div class="photo"><img src="$(IMGROOT)/people/hiro.png" alt="hiro" /></div>
       <div class="icon"><a href="https://twitter.com/nopressure"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
       <div class="icon"><a href="../keys/hiro.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
@@ -350,7 +359,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> hiro</div>
       <div class="description">Hiro builds and runs Tor Project's web applications and services.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/stephw.png" alt="stephw" /></div>
       <div class="icon"><a href="https://twitter.com/walnutwordsalad"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -359,9 +370,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> stephw</div>
       <div class="description">Directs communications to consistently articulate and promote the Tor Project's mission.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/sjmurdoch.png" alt="sjmurdoch" /></div>
       <div class="icon"><a href="https://twitter.com/sjmurdoch"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -370,7 +379,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> sjmurdoch</div>
       <div class="description"><a href="http://www.cs.ucl.ac.uk/staff/s.murdoch/">Principal Research Fellow</a> at University College London and original creator of the <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a>.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="icon"><a href="../keys/teor.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
@@ -378,9 +389,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> teor</div>
       <div class="description">Onion services developer, and core member of Tor dev team. Researches Tor network measurement and onion service scalability.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/tjr.png" alt="tjr" /></div>
       <div class="icon"><a href="https://twitter.com/tomrittervg"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -389,7 +398,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> tjr</div>
       <div class="description">Maintains <a href="https://consensus-health.torproject.org/">Consensus Health </a>, runs one of the bandwidth authorities, and contributes to Tor Browser.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/t0mmy.png" alt="t0mmy" /></div>
       <div class="icon"><a href="../keys/t0mmy.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
@@ -397,9 +408,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> t0mmy</div>
       <div class="description">Writes and edits grant proposals, one-pagers, blogposts, etc.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/wseltzer.png" alt="wseltzer" /></div>
       <div class="icon"><a href="https://twitter.com/wseltzer"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -408,7 +417,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> wseltzer</div>
       <div class="description">Techie lawyer and former Tor board member. She works on legal and policy support for private and secure communications.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="name">Yawning Angel</div>
