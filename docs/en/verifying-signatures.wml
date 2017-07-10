@@ -18,17 +18,16 @@
     the one we have created and has not been modified by some attacker.</p>
 
     <p>Digital signature is a cryptographic mechanism. If you want to learn more
-    about how it works see <a href="https://www.gnupg.org/documentation/">
-    https://www.gnupg.org/documentation/</a>.</p>
+    about how it works see <a href="https://en.wikipedia.org/wiki/Digital_signature">
+    https://en.wikipedia.org/wiki/Digital_signature</a>.</p>
 
     <h3>What is a signature and why should I check it?</h3>
     <hr>
 
     <p>How do you know that the Tor program you have is really the one we made?
     Digital signatures ensure that the package you are downloading was created by
-    our developers. It uses a cryptographic mechanism which outputs a sequence of
-    characters that is always the same unless the software has not been tampered
-    with.</p>
+    our developers. It uses a cryptographic mechanism to ensure that the software package
+    that you have just downloaded is authentic. </p>
 
     <p>For many Tor users it is important to verify that the Tor software is authentic
     as they have very real adversaries who might try to give them a fake version
@@ -37,10 +36,17 @@
     <p>If the Tor package has been modified by some attacker it is not safe to use.
     It doesn't matter how secure and anonymous Tor is if you're not running the real Tor.</p>
 
+    <p>Before you go ahead and download something, there are a few extra steps you
+    should take to make sure you have downloaded an authentic version of Tor.</p>
+
+    <h4>Always download Tor from torproject.org</h4>
+
     <p>There are a variety of attacks that can be used to make you download a fake
     version of Tor. For example, an attacker could trick you into thinking some other
-    website is a great place to download Tor. That's why you should
+    website is a great place to download Tor. You should
     always download Tor from <a href="https://www.torproject.org"><b>https</b>://www.torproject.org/</a>.</p>
+
+    <h4>Always make sure you are browsing over https</h4>
 
     <p><a href="https://www.torproject.org">https://www.torproject.org/</a> uses https.
     Https is the secure version of the http protocol which uses encryption and authentication between your
@@ -54,6 +60,8 @@
     href="https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-about-it">seen</a>
     attackers who have the ability to trick your browser into thinking
     you're talking to the Tor website with https when you're not.</p>
+
+    <h4>Always verify signatures of packages you have downloaded</h4>
 
     <p>Some software sites list <a
     href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">sha1
@@ -116,6 +124,7 @@
     <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --verify \
     C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc \
     C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe</pre>
+    <p>Please substitute "Alice" with your own username.</p>
     <p>The output should say "Good signature": </p>
     <pre>
     gpg: Signature made Tue 24 Jan 2015 09:29:09 AM CET using RSA key ID D40814E0
