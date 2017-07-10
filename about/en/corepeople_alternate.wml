@@ -159,7 +159,7 @@ table.people tr td:first-child {
     </td>
 
     <td>
-      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/ewyatt.png" alt="ewyatt" /></div>
       <div class="icon"><a href="../keys/ewyatt.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name">Erin Wyatt</div>
       <div class="field"><b>IRC:</b> ewyatt</div>
