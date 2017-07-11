@@ -162,11 +162,11 @@ table.people tr td:first-child {
   <tr>
     <td>
       <a id="dgoulet"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/dgoulet.png" alt="dgoulet" /></div>
       <div class="icon"><a href="../keys/dgoulet.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#dgoulet">David Goulet</a></div>
       <div class="field"><b>IRC:</b> dgoulet</div>
-      <div class="description">Core member of Tor development team.</div>
+      <div class="description">Tor development team focusing on onion services and our torsocks maintainer.</div>
     </td>
 
     <td>
