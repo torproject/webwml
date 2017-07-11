@@ -95,7 +95,7 @@ table.people tr td:first-child {
 
   <tr>
     <td>
-      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/arlolra.png" alt="arlolra" /></div>
       <div class="icon"><a href="https://twitter.com/arlolra"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
       <div class="icon"><a href="../keys/arlolra.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name">Arlo Breault</div>
