@@ -81,6 +81,12 @@ bufferevent code.</dd>
 href="https://fteproxy.org/">fteproxy</a>, and part of the
 pluggable transports team.</dd>
 
+<dt>Lunar</dt>
+<dd>Originally helped lead the support team,
+Debian packaging, and Tor Weekly News issues. Now working on
+<a href="https://reproducible-builds.org/">Reproducible
+Builds</a>.</dd>
+
 <dt>Matt Edman</dt>
 <dd>Original developer for Vidalia,
 a cross-platform Tor Graphical User Interface included in the bundles.</dd>
