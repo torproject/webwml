@@ -94,14 +94,13 @@
 
     <h3>Windows</h3>
     <hr>
-    <p>You need to have GnuPG installed before
-    you can verify signatures. Download it from <a
-    href="https://gpg4win.org/download.html">https://gpg4win.org/download.html</a>.</p>
+    <p>First of all you need to have GnuPG installed before you can verify signatures.
+    Download it from <a href="https://gpg4win.org/download.html">https://gpg4win.org/download.html</a>.</p>
     <p>Once it's installed, use GnuPG to import the key that signed your
-    package. Since GnuPG for Windows is a command-line tool, you will need
-    to use <i>cmd.exe</i>. Unless you edit your PATH environment variable,
-    you will need to tell Windows the full path to the GnuPG program. If
-    you installed GnuPG with the default values, the path should be
+    package. In order to verify the signature you will need to type a few commands
+    in windows command-line, <i>cmd.exe</i>.
+    <p>Unless you edit your PATH environment variable, you will need to tell Windows
+    the full path to the GnuPG program. If you installed GnuPG with the default values, the path should be
     something like this: <i>C:\Program Files\Gnu\GnuPg\gpg.exe</i>.</p>
     <p>The Tor Browser team signs Tor Browser releases. Import its key
     (0x4E2C6E8793298290) by starting <i>cmd.exe</i> and typing:</p>
