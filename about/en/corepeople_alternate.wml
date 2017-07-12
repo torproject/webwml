@@ -264,9 +264,12 @@ table.people tr td:first-child {
   <tr>
     <td>
       <a id="isabela"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/isabela.png" alt="isabela" /></div>
+      <div class="icon"><a href="https://twitter.com/isa"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
+      <div class="icon"><a href="../keys/isabela.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#isabela">Isabela Bagueros</a></div>
-      <div class="description">Coordinates Tor's development teams and helps them define their roadmaps. Keeps track of priorities, and ensures Tor always thinks of the &quot;user first&quot;.</div>
+      <div class="field"><b>IRC:</b> isabela</div>
+      <div class="description">Coordinates Tor's development teams and roadmaps. Keeps track of priorities, and ensures Tor always thinks of the &quot;user first&quot;.</div>
     </td>
 
     <td>
