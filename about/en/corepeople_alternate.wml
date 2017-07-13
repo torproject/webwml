@@ -521,7 +521,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/arma.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#arma">Roger Dingledine</a></div>
       <div class="field"><b>IRC:</b> arma</div>
-      <div class="description">Original developer of Tor along with Nick and Paul. Leading researcher in the anonymous communication, coordinating developers and researchers.</div>
+      <div class="description">Original developer of Tor along with Nick and Paul. Leading researcher in anonymous communication, coordinating developers and researchers.</div>
     </td>
   </tr>
 
