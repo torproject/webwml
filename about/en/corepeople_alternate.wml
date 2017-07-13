@@ -550,6 +550,7 @@ table.people tr td:first-child {
     <td>
       <a id="arma"></a>
       <div class="photo"><img src="$(IMGROOT)/people/arma.png" alt="arma" /></div>
+      <div class="icon"><a href="https://twitter.com/RogerDingledine"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
       <div class="icon"><a href="../keys/arma.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#arma">Roger Dingledine</a></div>
       <div class="field"><b>IRC:</b> arma</div>
