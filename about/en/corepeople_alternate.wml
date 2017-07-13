@@ -370,7 +370,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/ln5.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#ln5">Linus Nordberg</a></div>
       <div class="field"><b>IRC:</b> ln5</div>
-      <div class="description">Swedish Tor advocate. Works on implementing IPv6 in Tor, build automation, and runs a directory authority.</div>
+      <div class="description">Swedish advocate and Tor Board member. Works on implementing IPv6 in Tor, build automation, and runs a directory authority.</div>
     </td>
 
     <td>
