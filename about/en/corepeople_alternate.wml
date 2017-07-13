@@ -554,7 +554,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=B1172656DFF983C3042BC699EB5A896A28988BF5"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#arma">Roger Dingledine</a></div>
       <div class="field"><b>IRC:</b> arma</div>
-      <div class="description">Original developer of Tor along with Nick and Paul. Leading researcher in anonymous communication, coordinating developers and researchers.</div>
+      <div class="description">Original developer of Tor along with Nick and Paul. Leading privacy researcher, coordinating developers and researchers.</div>
     </td>
 
     <td>
