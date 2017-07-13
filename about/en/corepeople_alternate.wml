@@ -135,7 +135,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="../keys/bparker.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#bparker">Brad Parker</a></div>
       <div class="field"><b>IRC:</b> bparker</div>
-      <div class="description">Chief ginancial &amp; grants officer at the Tor Project.</div>
+      <div class="description">Chief financial &amp; grants officer at the Tor Project.</div>
     </td>
   </tr>
 
