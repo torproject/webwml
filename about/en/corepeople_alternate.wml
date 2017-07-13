@@ -467,7 +467,7 @@ table.people tr td:first-child {
   <tr>
     <td>
       <a id="nickm"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/nickm.png" alt="nickm" /></div>
       <div class="icon"><a href="https://twitter.com/nickm_tor"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=2133BC600AB133E1D826D173FE43009C4607B1FB"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#nickm">Nick Mathewson</a></div>
