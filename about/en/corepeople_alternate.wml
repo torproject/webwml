@@ -660,6 +660,18 @@ table.people tr td:first-child {
     </td>
 
     <td>
+      <a id="catalyst"></a>
+      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="icon"><a href="https://twitter.com/argonblue"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
+      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=2C732B1C0DBEF678AB3AF606A32F17FD0055C305"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
+      <div class="name"><a href="#catalyst">Taylor Yu</a></div>
+      <div class="field"><b>IRC:</b> catalyst</div>
+      <div class="description">Software archaeologist and keeper of C language arcana. Works with applied cryptography, protocol design, software security, and technical debt restructuring.</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
       <a id="teor"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=C8556CED5D90A0C529F64D43450CBA7F968F094B"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
@@ -667,9 +679,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> teor</div>
       <div class="description">Onion services developer, and core member of Tor dev team. Researches Tor network measurement and onion service scalability.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="tjr"></a>
       <div class="photo"><img src="$(IMGROOT)/people/tjr.png" alt="tjr" /></div>
@@ -679,7 +689,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> tjr</div>
       <div class="description">Maintains <a href="https://consensus-health.torproject.org/">Consensus Health </a>, runs one of the bandwidth authorities, and contributes to Tor Browser.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="t0mmy"></a>
       <div class="photo"><img src="$(IMGROOT)/people/t0mmy.png" alt="t0mmy" /></div>
@@ -688,9 +700,6 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> t0mmy</div>
       <div class="description">Writes and edits grant proposals, one-pagers, blogposts, etc.</div>
     </td>
-  </tr>
-
-  <tr>
     <td>
       <a id="wseltzer"></a>
       <div class="photo"><img src="$(IMGROOT)/people/wseltzer.png" alt="wseltzer" /></div>
