@@ -200,14 +200,6 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-flash-proxy">Flash Proxy</a></td>
-        <td>Client Add-on</td>
-        <td>Python, JavaScript, Go</td>
-        <td>Light</td>
-        <td>dcf, infinity0, Arlo Breault</td>
-      </tr>
-
-      <tr>
         <td><a href="#project-shadow">Shadow</a></td>
         <td>Simulator</td>
         <td>C, Python</td>
@@ -511,17 +503,6 @@ meetings around the world.</li>
 
     <p>
     TorBirdy is Torbutton for Thunderbird and related Mozilla mail clients.
-    </p>
-
-    <a id="project-flash-proxy"></a>
-    <h3><a href="https://crypto.stanford.edu/flashproxy/">Flash Proxy</a> (<a
-    href="https://gitweb.torproject.org/flashproxy.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Archived%2FFlashproxy&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    Pluggable transport using proxies running in web browsers to defeat
-    address-based blocking.
     </p>
 
     <a id="project-shadow"></a>
