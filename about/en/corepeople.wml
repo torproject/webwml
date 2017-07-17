@@ -477,7 +477,6 @@ table.people tr td:first-child {
       <a id="n8fr8"></a>
       <div class="photo"><img src="$(IMGROOT)/people/n8fr8.png" alt="n8fr8" /></div>
       <div class="icon"><a href="https://twitter.com/n8fr8"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
-      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=FB5D71D53650DE057267186385E9B0FB288D35CE"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#n8fr8">Nathan Freitas</a></div>
       <div class="field"><b>IRC:</b> n8fr8</div>
       <div class="description">Founder of the <a href="https://guardianproject.info/">Guardian Project</a>. Orbot lead developer and contributor to Orfox, Onion Browser and NetCipher SDK. Director of Technology at Tibet Action Institute.</div>
