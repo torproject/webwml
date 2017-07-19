@@ -135,5 +135,6 @@ karibu@freedif.org, Freedif, VN, Vietnam, VN, TRUE, FALSE, No, http://mirror.fre
 Tor Fan, Tor Supporter, FR, France, FR, TRUE, FALSE, No, http://torproject.xj1.fr/, , , , http://torproject.xj1.fr/dist/, , , javkk6746z7wvigk.onion, Mon May 29 15:15:41 2017
 tienhn@vinahost.vn, VinaHost, VN, Viet Nam, VN, TRUE, FALSE, No, , https://mirror.vinahost.vn/torproject.org, rsync://mirror.vinahost.vn/torproject.org, , , https://mirror.vinahost.vn/torproject.org/dist/, rsync://mirror.vinahost.vn/torproject.org/dist, , Wed Apr 19 18:52:55 2017
 mirror AT funkfreundelandshut DOT de, Funkfreunde Landshut e.V., DE, BY, DE, TRUE, FALSE, No, http://mirror.funkfreundelandshut.de/torproject.org/, , , , http://mirror.funkfreundelandshut.de:81/torproject.org/dist/, , , http://44.225.40.254/torproject.org/dist, Mon May 29 15:15:41 2017
+email@heikorichter.name, Tor Supporter, DE, Germany, Europe, TRUE, TRUE, No, http://tor.heikorichter.name, https://tor.heikorichter.name, , , http://tor.heikorichter.name/dist, https://tor.heikorichter.name/dist, rsync://ftp.heikorichter.name/tor, ,
 , , , , , , , , , , , , , , , , 
 , , , , , , , , , , , , , , , , 
