@@ -629,6 +629,7 @@ table.people tr td:first-child {
     <td>
       <a id="sebastian"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=261C5FBE77285F88FB0C343266C8C2D7C5AA446D"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#sebastian">Sebastian Hahn</a></div>
       <div class="description">Helps people around the world use and understand Tor better. Generally helps everything run smoothly. Runs one of the directory authorities.</div>
     </td>
