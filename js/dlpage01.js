@@ -42,13 +42,13 @@ function updateLang() {
   var pkg = caller.attr('id');
   var lang = caller.val();
   var versions = JSON.parse($("#version-data").text());
-  var rootDir = '../dist/torbrowser/' + versions.torbrowserbundledir + '/';
+  var rootDir = '../dist/torbrowser/' + '/';
   var bundles = {
-    'win-tbb' : rootDir + 'torbrowser-install-' + versions.torbrowserbundle + '_' + lang + '.exe',
-    'osx-tbb' : rootDir + 'TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang +'.dmg',
-    'osx-tbb64' : rootDir + 'TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang + '.dmg',
-    'lin-tbb32' : rootDir + 'tor-browser-linux32-' + versions.torbrowserbundlelinux32 + '_' + lang + '.tar.xz',
-    'lin-tbb64' : rootDir + 'tor-browser-linux64-' + versions.torbrowserbundlelinux64 + '_' + lang + '.tar.xz'
+    'win-tbb' : rootDir + versions.torbrowserbundle + '/torbrowser-install-' + versions.torbrowserbundle + '_' + lang + '.exe',
+    'osx-tbb' : rootDir + versions.torbrowserbundleosx64 + '/TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang +'.dmg',
+    'osx-tbb64' : rootDir + versions.torbrowserbundleosx64 + '/TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang + '.dmg',
+    'lin-tbb32' : rootDir + versions.torbrowserbundlelinux32 + '/tor-browser-linux32-' + versions.torbrowserbundlelinux32 + '_' + lang + '.tar.xz',
+    'lin-tbb64' : rootDir + versions.torbrowserbundlelinux64 + '/tor-browser-linux64-' + versions.torbrowserbundlelinux64 + '_' + lang + '.tar.xz'
   };
 
   $('.'+pkg).attr("href", bundles[pkg]);

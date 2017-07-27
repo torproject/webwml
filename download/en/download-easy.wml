@@ -43,13 +43,13 @@
 	    <p>Everything you need to safely browse the Internet. <br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
 	  <form class="downloads">
-	    <a class="button win-tbb" href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe"><span class="strong">Download</span><span class="normal"><button-win-tbb32></span></a>
+	    <a class="button win-tbb" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe"><span class="strong">Download</span><span class="normal"><button-win-tbb32></span></a>
 	    <select name="language" id="win-tbb" class="lang">
 #include <lang.wmi>
 	    </select>
 	    <div class="sig" style="margin-bottom: 5px;">
 	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	      (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
 	  <p class="alt-dl">Not Using Windows?<br />Download for <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
@@ -64,13 +64,13 @@
 	    <p>Everything you need to safely browse the Internet.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
 	  <form class="downloads">
-	    <a class="button osx-tbb" href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg"><span class="strong">Download</span><span class="normal"><button-osx-tbb32></span></a>
+	    <a class="button osx-tbb" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg"><span class="strong">Download</span><span class="normal"><button-osx-tbb32></span></a>
 	    <select name="language" id="osx-tbb" class="lang">
 #include <lang.wmi>
 	    </select>
 	    <div class="sig" style="margin-bottom: 5px;">
 	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="osx-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	      (<a class="osx-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
 	  <p class="alt-dl">Not Using Mac? Download for <a href="#windows">Windows</a> or <a href="#linux">Linux</a></p>
@@ -85,13 +85,13 @@
 	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
 	  <form class="downloads">
-	    <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>
+	    <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>
 	    <select name="language" id="lin-tbb64" class="lang">
 #include <lang.wmi>
 	    </select>
 	    <div class="sig" style="margin-bottom: 5px;">
 	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	      (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
 	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
@@ -107,13 +107,13 @@
 	    <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
 	  <form class="downloads">
-	    <a class="button lin-tbb32" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb32></span></a>
+	    <a class="button lin-tbb32" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb32></span></a>
 	    <select name="language" id="lin-tbb32" class="lang">
 #include <lang.wmi>
 	    </select>
 	    <div class="sig" style="margin-bottom: 5px;">
 	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundledir>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
 	  </form>
 	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>

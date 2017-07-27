@@ -58,8 +58,7 @@
 </head>
 <body class="onload">
     <span class="hidden" id="version-data">
-        { "torbrowserbundledir" : "<version-torbrowserbundledir>",
-          "torbrowserbundle" : "<version-torbrowserbundle>",
+        { "torbrowserbundle" : "<version-torbrowserbundle>",
           "torbrowserbundleosx64" : "<version-torbrowserbundleosx64>",
           "torbrowserbundlelinux32" : "<version-torbrowserbundlelinux32>",
           "torbrowserbundlelinux64" : "<version-torbrowserbundlelinux64>"  }

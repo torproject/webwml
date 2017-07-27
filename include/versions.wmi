@@ -4,8 +4,6 @@
 <define-tag version-win32-stable whitespace=delete>0.3.0.9</define-tag>
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.0</define-tag>
-<define-tag version-torbrowserbundledir whitespace=delete>7.0.2</define-tag>
-<define-tag version-torbrowserbundlebetadir whitespace=delete>7.5a2</define-tag>
 
 <define-tag version-torbrowserbundle whitespace=delete>7.0.2</define-tag>
 <define-tag releasedate-torbrowserbundle whitespace=delete>2017-07-04</define-tag>
@@ -29,7 +27,7 @@
 <define-tag releasedate-torbrowserbundleosx64beta whitespace=delete>2017-07-06</define-tag>
 <define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.9</define-tag>
 
-<define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundledir>/tor-win32-<version-win32-stable>.zip</define-tag>
+<define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundle>/tor-win32-<version-win32-stable>.zip</define-tag>
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
 <define-tag package-source-stable whitespace=delete>../dist/<file-source-stable></define-tag>
