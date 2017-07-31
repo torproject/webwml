@@ -152,7 +152,7 @@
       <!-- END MAINCOL -->
       <div id="sidecol">
         <div class="joblink">
-          <a href="<page about/jobs-browserdeveloper>">We're hiring! &raquo;</a>
+          <a href="<page about/jobs>">We're hiring! &raquo;</a>
         </div>
       <!-- BLOG WIDGET -->
 #include <blog-recent.wmi>
