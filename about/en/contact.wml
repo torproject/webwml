@@ -42,8 +42,7 @@
 
     <p>If you have questions about using Tor:</p>
     <ol>
-    <li>Read through the <a href="<page docs/faq>">FAQ</a> and the
-    <a href="<page docs/documentation>">documentation</a>.</li>
+    <li>Check our <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam/Support">support wiki</a> for answers to some of the most frequently asked questions about Tor.</li>
     <li>See if your question is asked or answered on our
     <a href="https://tor.stackexchange.com/">StackExchange page</a>. If
     it isn't, please consider asking it there! Then everybody else can
