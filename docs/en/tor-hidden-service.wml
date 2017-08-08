@@ -136,6 +136,13 @@
     HiddenServicePort 80 127.0.0.1:8080
     </pre>
 
+    <p>Note that since 0.2.6, both <var>SocksPort</var> and <var>HiddenServicePort</var> support Unix socket. 
+    This means that you can point the <var>HiddenServicePort</var> to a Unix socket:</p>
+    <pre>
+    HiddenServiceDir /Library/Tor/var/lib/tor/hidden_service/
+    HiddenServicePort 80 unix:/path/to/socket
+    </pre>
+
     <p>Now save the torrc and restart your tor.</p>
 
     <p>If Tor starts up again, great. Otherwise, something is wrong. First look at
