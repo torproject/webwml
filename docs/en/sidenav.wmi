@@ -43,7 +43,7 @@
            'txt'  => 'Installing Tor Source',
           },
           {'url'  => 'docs/tor-doc-osx',
-           'txt'  => 'MacPorts',
+           'txt'  => 'OSX',
           },
           {'url'  => 'docs/tor-relay-debian',
            'txt'  => 'Configuring a Relay manually',

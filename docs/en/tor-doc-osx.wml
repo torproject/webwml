@@ -25,7 +25,7 @@
     this over TBB when they host hidden services or relay traffic for other Tor
     users.  <hr>
     <a id="installing"></a>
-    <h2><a class="anchor" href="#installing">Step One: Install A Package Manager</a></h2>
+    <h2><a class="anchor" href="#installing">Step One: Install a package manager</a></h2>
     <br>
 
     <p>There are two package manager on OS X: Homebrew and Macports. You can use the package manager of your choice.</p>
@@ -102,7 +102,7 @@
 
     <hr>
     <a id="uninstall"></a>
-    <h2><a class="anchor" href="#uninstall">How To Uninstall Tor</a></h2>
+    <h2><a class="anchor" href="#uninstall">How to uninstall Tor</a></h2>
     <br>
 
     <p>Change your application proxy settings back to their original
