@@ -1,4 +1,5 @@
 adminContact, orgName, isoCC, subRegion, region, ipv4, ipv6, loadBalanced, httpWebsiteMirror, httpsWebsiteMirror, rsyncWebsiteMirror, ftpWebsiteMirror, httpDistMirror, httpsDistMirror, rsyncDistMirror, hiddenServiceMirror, updateDate
+Vedran Miletić, University of Rijeka, HR, Croatia, HR, TRUE, FALSE, No, , , , , http://mirrors.uniri.hr/torproject.org/dist/, https://mirrors.uniri.hr/torproject.org/dist/, , ,
 Tor Fan, Tor Supporter, US, United States, US, TRUE, TRUE, No, http://tor.loritsu.com/, , , , http://tor.loritsu.com/dist/, , , , 
 Tor Fan, Tor Supporter, LU, Luxemborg, LU, TRUE, FALSE, No, http://torproject.adamas.ai/, , , , http://torproject.adamas.ai/dist/, , , , 
 Tor Fan, Tor Supporter, UA, Ukraine, UA, TRUE, FALSE, No, http://torua.reactor-xg.kiev.ua/, , , , http://torua.reactor-xg.kiev.ua/dist/, , , , 
