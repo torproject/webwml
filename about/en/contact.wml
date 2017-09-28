@@ -73,6 +73,10 @@
       <li><i>#tor-project</i> - Organization discussions unrelated to
       software development. A great place to discuss Tor community events,
       outreach, translation, or website improvements.</li>
+      <li><i>#tor-meeting</i> - The various Tor teams, like the network
+      team, the browser team, the UX team, and the metrics team, hold
+      periodic <a href="http://meetbot.debian.net/tor-meeting/">publicly
+      logged</a> meetings in this channel.</li>
     </ul>
 
     <a id="twitter"></a>
