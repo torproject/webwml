@@ -91,20 +91,20 @@
     <a id="email"></a>
     <h3><a class="anchor" href="#email">Email</a></h3>
     <p>If you have Tor questions, please try to help yourself via the
-    above support venues. Please don't use these contact addresses
+    above support venues. Please don't use this contact address
     for helpdesk or user requests &mdash; we all get too much mail and
     we won't be able to help you there.</p>
 
     <ul>
-      <li><i>donations@torproject.org</i> is for questions and comments about <a
-      href="https://donate.torproject.org">getting money to the developers</a>. More
-      donations means <a href="<page docs/faq>#Funding">more
-      Tor</a>. We're happy to help think about creative ways for you
-      to contribute.</li>
-      <li><i>execdir@torproject.org</i> is for questions and comments about
-      Tor the non-profit corporation: trademark questions, affiliation
-      and coordination, major gifts, contract inquiries, licensing and
-      certification, etc.</li>
+      <li><i>frontdesk@rt.torproject.org</i> is for questions and
+      comments about Tor the non-profit organization: funding and
+      donations, trademark questions,
+      affiliation and coordination, major gifts, contract inquiries, etc.
+      Please note that email is not a great approach for safe
+      communication, so if you need privacy consider reaching us some
+      other way. Also note that the frontdesk is currently handled by
+      volunteers, so please be patient.
+      </li>
     </ul>
 
     <a id="mail"></a>
