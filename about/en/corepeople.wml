@@ -266,7 +266,7 @@ table.people tr td:first-child {
   <tr>
     <td>
       <a id="asn"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/asn.png" alt="asn" /></div>
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=13C81580203AE18BB7C0424E09CC7F5315F271D9"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#asn">George Kadianakis</a></div>
       <div class="field"><b>IRC:</b> asn</div>
