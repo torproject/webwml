@@ -575,7 +575,7 @@ meetings around the world.</li>
     </p>
 
     <a id="project-onionoo"></a>
-    <h3><a href="https://onionoo.torproject.org/">Onionoo</a> (<a
+    <h3><a href="https://metrics.torproject.org/onionoo.html">Onionoo</a> (<a
     href="https://gitweb.torproject.org/onionoo.git">code</a>,
     <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Metrics%2FOnionoo&order=priority">bug tracker</a>)</h3>
 

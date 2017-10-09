@@ -64,11 +64,11 @@ instead of the actual Tor traffic.</p>
 </div>
 
 <div class="projectbox">
-<a href="https://onionoo.torproject.org/"><img class="icon"
+<a href="https://metrics.torproject.org/onionoo.html"><img class="icon"
 src="$(IMGROOT)/icon-TorStatus.jpg" alt="Onionoo Icon" width="75"
 height="75"></a>
 <div class="projectdesc"><div class="name"><a
-href="https://onionoo.torproject.org/">Onionoo</a></div>
+href="https://metrics.torproject.org/onionoo.html">Onionoo</a></div>
 <p>Web-based protocol to learn about currently running Tor relays and
 bridges.</p>
 </div></div>

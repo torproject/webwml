@@ -41,7 +41,7 @@
           {'url'  => 'https://trac.torproject.org/projects/tor/wiki/torbirdy',
            'txt'  => 'TorBirdy',
           },
-          {'url'  => 'https://onionoo.torproject.org/',
+          {'url'  => 'https://metrics.torproject.org/onionoo.html',
            'txt'  => 'Onionoo',
           },
           {'url'  => 'https://metrics.torproject.org/',
