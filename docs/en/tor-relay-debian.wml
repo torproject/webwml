@@ -70,7 +70,7 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
     </p>
 
     <p>
-    4. Restart your relay: "service tor reload" (as root).
+    4. Restart your relay: "systemctl reload tor" (as root).
     </p>
 
     <hr>
