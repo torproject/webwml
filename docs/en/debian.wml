@@ -21,7 +21,7 @@ Debian Buster - testing, or Debian Sid - unstable</a></h2>
 
 <p>
 If you're using Debian, just run
-</blockquote><pre>  apt-get install tor </pre></blockquote>
+</blockquote><pre>  apt install tor </pre></blockquote>
 as root.
 </p>
 
@@ -104,10 +104,10 @@ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 
 <div id="apt-get">
 <p>You can install it with the following commands:</p>
-<blockquote><pre>$ apt-get update
-<span id="regular-install">$ apt-get install <span id="apt-package">tor</span> deb.torproject.org-keyring</span>
-<span id="source-install">$ apt-get install build-essential fakeroot devscripts
-$ apt-get build-dep tor deb.torproject.org-keyring</span></pre></blockquote>
+<blockquote><pre>$ apt update
+<span id="regular-install">$ apt install <span id="apt-package">tor</span> deb.torproject.org-keyring</span>
+<span id="source-install">$ apt install build-essential fakeroot devscripts
+$ apt build-dep tor deb.torproject.org-keyring</span></pre></blockquote>
 
 <div id="source-install2">
 <p>
@@ -115,7 +115,7 @@ Then you can build Tor in ~/debian-packages:
 </p>
 <blockquote><pre>
 $ mkdir ~/debian-packages; cd ~/debian-packages
-$ apt-get source tor
+$ apt source tor
 $ cd tor-*
 $ debuild -rfakeroot -uc -us
 $ cd ..
@@ -151,7 +151,7 @@ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 Now refresh your sources, running the following command (as root) at your
 command prompt:
 <pre style="margin: 1.5em 0 1.5em 2em">
-apt-get update
+apt update
 </pre>
 If there are no errors you're good to continue.
 </p>
@@ -160,14 +160,14 @@ If there are no errors you're good to continue.
 We provide a Debian package to help you keep our signing key current.  It is
 recommended you use it.  Install it using
 <pre style="margin: 1.5em 0 1.5em 2em">
-apt-get install deb.torproject.org-keyring
+apt install deb.torproject.org-keyring
 </pre>
 </p>
 
 <p>
 To finally install Tor just run:
 <pre style="margin: 1.5em 0 1.5em 2em">
-apt-get install tor
+apt install tor
 </pre>
 </p>
 
@@ -214,8 +214,8 @@ Then run the following commands at your command prompt:
 <pre style="margin: 1.5em 0 1.5em 2em">
 gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-apt-get update
-apt-get install tor deb.torproject.org-keyring
+apt update
+apt install tor deb.torproject.org-keyring
 </pre>
 </p>
 
@@ -244,18 +244,18 @@ deb-src http://deb.torproject.org/torproject.org tor-experimental-0.3.0.x-&lt;DI
 </pre>
 Substitute the name of your distro (wheezy, sid, trusty, ...) in place of &lt;DISTRIBUTION&gt;. Now refresh your sources by running (as root):
 <pre style="margin: 1.5em 0 1.5em 2em">
-apt-get update
+apt update
 </pre>
 You also need to install the necessary packages to build your own debs and the
 packages needed to build Tor:
 <pre style="margin: 1.5em 0 1.5em 2em">
-apt-get install build-essential fakeroot devscripts
-apt-get build-dep tor
+apt install build-essential fakeroot devscripts
+apt build-dep tor
 </pre>
 Then you can build Tor in ~/debian-packages:
 <pre style="margin: 1.5em 0 1.5em 2em">
 mkdir ~/debian-packages; cd ~/debian-packages
-apt-get source tor
+apt source tor
 cd tor-*
 debuild -rfakeroot -uc -us
 cd ..
