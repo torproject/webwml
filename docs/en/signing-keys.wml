@@ -110,11 +110,11 @@
     uid                  Linus Nordberg &lt;linus@torproject.org&gt;
     sub   4096R/B5F7D1B1 2016-04-14 [expires: 2017-04-14]
 
-    pub   4096R/4B7C3223 2013-07-30
+    pub   rsa4096/0x94373AA94B7C3223 2013-07-30
           Key fingerprint = 35CD 74C2 4A9B 15A1 9E1A  81A1 9437 3AA9 4B7C 3223
     uid                  Georg Koppen &lt;gk@torproject.org&gt;
-    sub   4096R/0x2F7477373D6B000D 2016-08-01 [expires: 2017-09-11]
-    sub   4096R/0xAA602CC00C257CF7 2016-08-01 [expires: 2017-09-11]
+    sub   rsa4096/0x5778071EE2DE675B 2017-09-11 [expires: 2018-09-11]
+    sub   rsa4096/0x72E841BB93148AD2 2017-09-11 [expires: 2018-09-11]
 
     pub   4096R/D0220E4B 2014-03-19
           Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
