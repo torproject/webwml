@@ -5,24 +5,24 @@
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.0</define-tag>
 
-<define-tag version-torbrowserbundle whitespace=delete>7.0.7</define-tag>
-<define-tag releasedate-torbrowserbundle whitespace=delete>2017-10-20</define-tag>
+<define-tag version-torbrowserbundle whitespace=delete>7.0.8</define-tag>
+<define-tag releasedate-torbrowserbundle whitespace=delete>2017-10-25</define-tag>
 <define-tag version-torbrowserbundlebeta whitespace=delete>7.5a6</define-tag>
 <define-tag releasedate-torbrowserbundlebeta whitespace=delete>2017-10-20</define-tag>
 
-<define-tag version-torbrowserbundlelinux32 whitespace=delete>7.0.7</define-tag>
-<define-tag releasedate-torbrowserbundlelinux32 whitespace=delete>2017-10-20</define-tag>
-<define-tag version-torbrowserbundlelinux64 whitespace=delete>7.0.7</define-tag>
-<define-tag releasedate-torbrowserbundlelinux64 whitespace=delete>2017-10-20</define-tag>
+<define-tag version-torbrowserbundlelinux32 whitespace=delete>7.0.8</define-tag>
+<define-tag releasedate-torbrowserbundlelinux32 whitespace=delete>2017-10-25</define-tag>
+<define-tag version-torbrowserbundlelinux64 whitespace=delete>7.0.8</define-tag>
+<define-tag releasedate-torbrowserbundlelinux64 whitespace=delete>2017-10-25</define-tag>
 <define-tag version-torbrowserbundlelinux32beta whitespace=delete>7.5a6</define-tag>
 <define-tag releasedate-torbrowserbundlelinux32beta whitespace=delete>2017-10-20</define-tag>
 <define-tag version-torbrowserbundlelinux64beta whitespace=delete>7.5a6</define-tag>
 <define-tag releasedate-torbrowserbundlelinux64beta whitespace=delete>2017-10-20</define-tag>
 
-<define-tag version-torbrowserbundleosx32 whitespace=delete>7.0.7</define-tag>
-<define-tag releasedate-torbrowserbundleosx32 whitespace=delete>2017-10-20</define-tag>
-<define-tag version-torbrowserbundleosx64 whitespace=delete>7.0.7</define-tag>
-<define-tag releasedate-torbrowserbundleosx64 whitespace=delete>2017-10-20</define-tag>
+<define-tag version-torbrowserbundleosx32 whitespace=delete>7.0.8</define-tag>
+<define-tag releasedate-torbrowserbundleosx32 whitespace=delete>2017-10-25</define-tag>
+<define-tag version-torbrowserbundleosx64 whitespace=delete>7.0.8</define-tag>
+<define-tag releasedate-torbrowserbundleosx64 whitespace=delete>2017-10-25</define-tag>
 <define-tag version-torbrowserbundleosx64beta whitespace=delete>7.5a6</define-tag>
 <define-tag releasedate-torbrowserbundleosx64beta whitespace=delete>2017-10-20</define-tag>
 <define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.14</define-tag>
