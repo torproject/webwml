@@ -1,7 +1,7 @@
 #!/usr/bin/wml
 
 ## translation metadata
-# Revision: $Revision$
+# Revision: $Revision: 22069 $
 # Translation-Priority: 1-high
 
 <:
@@ -12,8 +12,8 @@
         'docs/documentation'          , 'Documentation',
         'press/press'                 , 'Press',
         '<blog>'                      , 'Blog',
-        '<newsletter>'                , 'Newsletter',
-	'about/contact'			, 'Contact',
+	'<newsletter>'                , 'Newsletter',
+        'about/contact'               , 'Contact',
     );
     my @donatenav = (
         'index'                        , 'Home',
@@ -21,9 +21,9 @@
         'about/contact'               , 'Contact',
     );
     my @calltoaction = (
-        'download/download-easy'                , 'Download',
-        'getinvolved/volunteer'            , 'Volunteer',
-        'donate/donate-button'                    , 'Donate',
+        'download/download-easy'           , 'Download',
+        'getinvolved/volunteer'            , 'Get Involved',
+        'donate/donate-button'             , 'Donate',
     );
 
 :>
