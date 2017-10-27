@@ -44,6 +44,9 @@ RewriteRule ^tshirt(.*) /getinvolved/tshirt$1 [R=301,L]
 RewriteRule ^research(.*) https://research.torproject.org/ [R=301,L]
 RewriteRule ^getinvolved/research(.*) https://research.torproject.org/ [R=301,L]
 
+# Support
+RewriteRule ^support(.*) https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam/Support [R=301,L]
+
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/corepeople$1 [R=301,L]
 RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
