@@ -1,0 +1,113 @@
+#banner-wrapper {
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    display: block;
+    height: 150px;
+    justify-content: center;
+    left: 0px;
+    margin-top: 0px;
+    min-width: 900px;
+    opacity: 1;
+    position: absolute;
+    user-select: none;
+    width: 100%;
+    z-index: 1;
+}
+#banner-wrapper:before {
+    background-color: #551373;
+    background-image: url('../images/onion-hand.png');
+    background-position: calc(50% - 40px) 50%;
+    background-size: cover;
+    content: "";
+    height: 150px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#banner-contents-container {
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    position: relative;
+    width: 960px;
+}
+#banner-tagline {
+    align-items: center;
+    bottom: 60px;
+    color: white;
+    display: flex;
+    font-family: monospace;
+    font-weight: bold;
+    left: 200px;
+    position: absolute;
+    right: 0px;
+    text-align: start;
+    text-transform: uppercase;
+    top: 10px;
+}
+#banner-slogan {
+    align-items: center;
+    bottom: 30px;
+    color: #f8f8a0;
+    display: flex;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    left: 200px;
+    position: absolute;
+    right: 285px;
+    text-align: start;
+    top: 90px;
+    white-space: nowrap;
+}
+#banner-mozilla {
+    align-items: center;
+    bottom: 5px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    font-family: sans-serif;
+    left: 200px;
+    position: absolute;
+    right: 285px;
+    text-align: start;
+    top: 120px;
+    white-space: nowrap;
+}
+#banner-donate-button {
+    align-items: center;
+    background-color: #13a513;
+    border: 0px;
+    bottom: 10px;
+    color: #fbf7ef;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    left: 630px;
+    letter-spacing: -0.00em;
+    position: absolute;
+    right: 10px;
+    top: 90px;
+}
+#banner-donate-button:hover {
+    background-color: #38bc38;
+}
+#banner-spacer {
+    background-color: #551373;
+    display: block;
+    height: 150px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+body {
+    min-width: 960px;
+}
