@@ -1,6 +1,6 @@
     <footer class="container footer">
       <p class="text-center">The Tor Project is a US 501(c)(3) non-profit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.<br>
-        <a href="https://donate.torproject.org/privacy-policy">Privacy Policy</a> & <a href="https://donate.torproject.org/donor-faq>">Donor FAQ</a></p>
+        <a href="https://donate.torproject.org/privacy-policy">Privacy Policy</a> & <a href="https://donate.torproject.org/donor-faq">Donor FAQ</a></p>
     </footer>
 
   </body>
