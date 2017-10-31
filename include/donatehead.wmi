@@ -34,7 +34,9 @@
       </div>
       <ul id="navbar" class="nav navbar-nav navbar-right">
         <li><a href="<page about/overview>">About</a></li>
-        <li><a href="<page donate/donor-faq>">Questions?</a></li>
+	<:{
+          printf '<li><a href="https://donate.torproject.org/donor-faq">Questions?</a></li>'
+	}:>
       </ul>
     </div>
   </nav>
