@@ -13,7 +13,7 @@ var software = {
                      'yakkety': [ 'yakkety'],
                      'zesty':   [ 'zesty'],
                      },
-         'experimental-0.3.1.x': {
+         'experimental-0.3.2.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'buster':  [ 'buster' ],
@@ -35,7 +35,7 @@ var software = {
                      'yakkety': [ 'yakkety'],
                      'zesty':   [ 'zesty'],
                      },
-         'experimental-0.3.0.x': {
+         'experimental-0.3.2.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'buster':  [ 'buster' ],
