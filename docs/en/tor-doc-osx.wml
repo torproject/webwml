@@ -44,7 +44,7 @@
     <h2>Step Two: Install Tor</a></h2>
     <br>
 
-    <p>If you are using Homebrw in a Terminal window, run:</p>
+    <p>If you are using Homebrew in a Terminal window, run:</p>
 
     <pre>brew install tor</pre>
 
