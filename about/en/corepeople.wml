@@ -196,7 +196,7 @@ table.people tr td:first-child {
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=68278CC5DD2D1E85C4E45AD90445B7AB9ABBEEC6"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#atagar">Damian Johnson</a></div>
       <div class="field"><b>IRC:</b> atagar</div>
-      <div class="description">Author of the <a href="https://stem.torproject.org/">Stem</a> python controller library and <a href="https://www.atagar.com/arm/">Nyx</a> relay monitor.</div>
+      <div class="description">Author of the <a href="https://stem.torproject.org/">Stem</a> python controller library and <a href="https://nyx.torproject.org/">Nyx</a> relay monitor.</div>
     </td>
   </tr>
 

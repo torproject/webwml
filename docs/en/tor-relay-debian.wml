@@ -168,12 +168,12 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
 
     <p>
     13. You might like to use the <a
-    href="https://www.atagar.com/arm/">arm</a> relay monitor to watch
-    your relay's activities from the command line. First, "sudo apt
-    install tor-arm". Second, as the user that will be running arm, run
+    href="https://nyx.torproject.org/">Nyx</a> relay monitor to watch
+    your relay's activities from the command line. First, "sudo pip install
+    nyx". Second, as the user that will be running nyx, run
     "sudo adduser $USER debian-tor" to add your user to the debian-tor
     group so it can reach Tor's controlsocket. Then log out and log back
-    in (so your user is actually in the group), and run "arm".
+    in (so your user is actually in the group), and run "nyx".
     </p>
 
     <p>

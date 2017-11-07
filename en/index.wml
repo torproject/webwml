@@ -91,9 +91,9 @@
               -->
               <td>
                 <div class="project">
-                <a href="https://www.atagar.com/arm/"><img
-                src="$(IMGROOT)/icon-Arm.jpg" alt="Arm Icon"></a>
-                <h3><a href="https://www.atagar.com/arm/">Arm</a></h3>
+                <a href="https://nyx.torproject.org/"><img
+                src="$(IMGROOT)/icon-Nyx.jpg" alt="Nyx Icon"></a>
+                <h3><a href="https://nyx.torproject.org/">Nyx</a></h3>
                 <p>Terminal (command line) application for monitoring
                 and configuring Tor.</p>
                 </div>

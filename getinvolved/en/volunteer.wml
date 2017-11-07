@@ -423,7 +423,7 @@ meetings around the world.</li>
     </p>
 
     <a id="project-nyx"></a>
-    <h3><a href="https://www.atagar.com/arm/">Nyx</a> (<a
+    <h3><a href="https://nyx.torproject.org/">Nyx</a> (<a
     href="https://gitweb.torproject.org/nyx.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FNyx&order=priority">bug
     tracker</a>)</h3>
