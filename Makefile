@@ -17,7 +17,6 @@
 export STABLETAG=tor-0.3.1.8
 export DEVTAG=tor-0.3.2.4-alpha
 
-
 WMLBASE=.
 SUBDIRS=docs eff projects press about download getinvolved donate docs/torbutton
 include $(WMLBASE)/Makefile.local
