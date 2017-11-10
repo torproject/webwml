@@ -174,9 +174,10 @@
     <a href="https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf">PDF</a> and
     <a href="https://svn.torproject.org/svn/projects/design-paper/tor-design.html">HTML</a>
     versions available.</li>
-    <li>Eight key design changes since the original 2004 paper:
+    <li>Thirteen key design changes since the original 2004 paper:
     <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-1">part one</a>,
-    <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2">part two</a>.
+    <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2">part two</a>,
+    <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-3">part three</a>.
     </li>
     <li>Our preliminary design to make it harder for large firewalls to
     prevent access to the Tor network is described in
