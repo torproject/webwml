@@ -55,7 +55,8 @@
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays">tor-relays</a>, <a
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev">tor-dev</a>, or <a
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tbb-dev">tbb-dev</a>,
-    and summarize noteworthy changes into articles for our blog and newsletter.</li>
+    and summarize noteworthy changes into articles for our blog and <a
+    href="https://newsletter.torproject.org/">newsletter</a>.</li>
     <li>Create a presentation that can be used for various user group
 meetings around the world.</li>
     <li>Create a video about the positive uses of Tor, what Tor is,
