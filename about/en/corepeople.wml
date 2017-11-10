@@ -617,6 +617,15 @@ table.people tr td:first-child {
     </td>
 
     <td>
+      <a id="peter"></a>
+      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="name"><a href="#peter">Peter Palfrader</a></div>
+      <div class="description">Manages the Debian packages, runs one of the directory authorities, and generally helps out a lot.</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
       <a id="phw"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="icon"><a href="https://twitter.com/__phw"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -625,9 +634,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> phw</div>
       <div class="description">Maintains <a href="https://gitweb.torproject.org/user/phw/exitmap.git/">exitmap</a> and <a href="https://gitweb.torproject.org/user/phw/sybilhunter.git/">sybilhunter</a>, works on <a href="https://trac.torproject.org/projects/tor/wiki/doc/ReportingBadRelays">bad relay detection</a>, and does <a href="https://nymity.ch/papers.html">security and privacy research</a>.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="robt"></a>
       <div class="photo"><img src="$(IMGROOT)/people/robt.png" alt="robt" /></div>
@@ -635,7 +642,9 @@ table.people tr td:first-child {
       <div class="name"><a href="#robt">Rabbi Rob Thomas</a></div>
       <div class="description">CEO of Team Cymru, which supports Tor through hosting, research, and infosec assistance.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="ramy"></a>
       <div class="photo"><img src="$(IMGROOT)/people/ramy.png" alt="ramy" /></div>
@@ -644,9 +653,7 @@ table.people tr td:first-child {
       <div class="name"><a href="#ramy">Ramy Raoof</a></div>
       <div class="description">Tor Board member, technologist, and privacy and security researcher.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="pospeselr"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -656,7 +663,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> pospeselr</div>
       <div class="description">Tor Browser developer.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="robgjansen"></a>
       <div class="photo"><img src="$(IMGROOT)/people/robgjansen.png" alt="robgjansen" /></div>
@@ -666,9 +675,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> robgjansen</div>
       <div class="description"><a href="https://www.nrl.navy.mil">NRL</a> research scientist, <a href="http://www.robgjansen.com/">leading expert in Tor network performance</a>, and author of <a href="https://shadow.github.io/">Shadow</a>.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="arma"></a>
       <div class="photo"><img src="$(IMGROOT)/people/arma.png" alt="arma" /></div>
@@ -678,16 +685,16 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> arma</div>
       <div class="description">Original developer of Tor along with Nick and Paul. Leading privacy researcher, coordinating developers and researchers.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="roya"></a>
       <div class="photo"><img src="$(IMGROOT)/people/roya.png" alt="roya" /></div>
       <div class="name"><a href="#roya">Roya Ensafi</a></div>
       <div class="description">Detects and understands how to manipulate and circumvent Tor network censorship attempts.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="sajolida"></a>
       <div class="photo"><img src="$(IMGROOT)/people/sajolida.png" alt="sajolida" /></div>
@@ -695,7 +702,9 @@ table.people tr td:first-child {
       <div class="name"><a href="#sajolida">sajolida</a></div>
       <div class="description">Technical writing, UX, and fundraising for Tails.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="sebastian"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -703,9 +712,7 @@ table.people tr td:first-child {
       <div class="name"><a href="#sebastian">Sebastian Hahn</a></div>
       <div class="description">Helps people around the world use and understand Tor better. Generally helps everything run smoothly. Runs one of the directory authorities.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="serene"></a>
       <div class="photo"><img src="$(IMGROOT)/people/serene.png" alt="serene" /></div>
@@ -714,7 +721,9 @@ table.people tr td:first-child {
       <div class="name"><a href="#serene">Serene</a></div>
       <div class="description">Snowflake and Pluggable Transports developer.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="ssteele"></a>
       <div class="photo"><img src="$(IMGROOT)/people/ssteele.png" alt="ssteele" /></div>
@@ -724,9 +733,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> ssteele</div>
       <div class="description">Executive Director of the Tor Project, Inc.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="hiro"></a>
       <div class="photo"><img src="$(IMGROOT)/people/hiro.png" alt="hiro" /></div>
@@ -736,7 +743,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> hiro</div>
       <div class="description">Hiro builds and runs Tor Project's web applications and services.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="inf0"></a>
       <div class="photo"><img src="$(IMGROOT)/people/inf0.png" alt="inf0" /></div>
@@ -746,9 +755,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> inf0</div>
       <div class="description">Directory authority operator, outreach and trains human rights activists. System's Engineer at Team Cymru and co-Founder of accessnow.org.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="stephw"></a>
       <div class="photo"><img src="$(IMGROOT)/people/stephw.png" alt="stephw" /></div>
@@ -758,7 +765,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> stephw</div>
       <div class="description">Directs communications.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="sjmurdoch"></a>
       <div class="photo"><img src="$(IMGROOT)/people/sjmurdoch.png" alt="sjmurdoch" /></div>
@@ -768,9 +777,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> sjmurdoch</div>
       <div class="description"><a href="http://www.cs.ucl.ac.uk/staff/s.murdoch/">Principal Research Fellow</a> at University College London and original creator of the <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a>.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="sukhe"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -779,7 +786,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> sukhe</div>
       <div class="description"><a href="https://trac.torproject.org/projects/tor/wiki/torbirdy">TorBirdy</a> and <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a> developer. Volunteer on the <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam">Community Team</a>.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="catalyst"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -789,9 +798,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> catalyst</div>
       <div class="description">Software archaeologist and keeper of C language arcana. Works with applied cryptography, protocol design, software security, and technical debt restructuring.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="teor"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -800,7 +807,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> teor</div>
       <div class="description">Onion services developer, and core member of Tor dev team. Researches Tor network measurement and onion service scalability.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="tjr"></a>
       <div class="photo"><img src="$(IMGROOT)/people/tjr.png" alt="tjr" /></div>
@@ -810,9 +819,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> tjr</div>
       <div class="description">Maintains <a href="https://consensus-health.torproject.org/">Consensus Health </a>, runs one of the bandwidth authorities, and contributes to Tor Browser.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="t0mmy"></a>
       <div class="photo"><img src="$(IMGROOT)/people/t0mmy.png" alt="t0mmy" /></div>
@@ -822,7 +829,9 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> t0mmy</div>
       <div class="description">Writes and edits grant proposals, one-pagers, blogposts, etc.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="wseltzer"></a>
       <div class="photo"><img src="$(IMGROOT)/people/wseltzer.png" alt="wseltzer" /></div>
@@ -832,9 +841,7 @@ table.people tr td:first-child {
       <div class="field"><b>IRC:</b> wseltzer</div>
       <div class="description"><a href="https://wendy.seltzer.org/">Techie lawyer</a> and former Tor board member. She works on legal and policy support for private and secure communications.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="yawning"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
