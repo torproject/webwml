@@ -118,7 +118,7 @@ Seattle, WA 98194 USA<br><br>
 
     <a id="security"></a>
     <h3><a class="anchor" href="#security">Security Issues</a></h3>
-    <p>If you found a security issue in one of our projects or our
+    <p>If you've found a security issue in one of our projects or our
     infrastructure, please email the respective maintainer. You can find
     their GPG fingerprint/key on our <a
     href="https://db.torproject.org">developer ldap search page</a>. Due
