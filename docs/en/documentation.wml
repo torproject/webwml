@@ -114,7 +114,7 @@
     Learn about the <a
     href="<specblob>proposals/001-process.txt">Tor
     proposal process for changing our design</a>, and look over the <a
-    href="<spectree>proposals">existing proposals</a>.
+    href="<specblob>proposals">existing proposals</a>.
     </li>
 
     <li>
@@ -205,7 +205,7 @@
     and extensions</a></li>
     <li><a href="<specblob>version-spec.txt">How Tor version numbers
     work</a></li>
-    <li><a href="<spectree>proposals">In-progress drafts of
+    <li><a href="<specblob>proposals">In-progress drafts of
     new specifications and proposed changes</a></li>
     </ul></li>
 
