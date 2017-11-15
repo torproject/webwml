@@ -7,7 +7,7 @@
 
 #<!-- TBB DEFAULT LANGUAGE: Change 'en-US' below to your language code (if package exists)-->
 #<!-- IMPORTANT: You MUST also change the default selection in 'lang.wmi' -->
-<define-tag lang>es-ES</define-tag>
+<define-tag lang>en-US</define-tag>
 
 #<!-- Download button text for language enabled packages -->
 <define-tag button-win-tbb32>Tor Browser</define-tag>
