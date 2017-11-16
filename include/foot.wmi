@@ -65,55 +65,55 @@
         </div>
       <!-- END COL -->
 
-#	<!-- List available languages -->
-#	<div class="col wider">
-#	<h4>Languages</h4>
-#	<: if (has_translations()) {  :>
-#		<p>
-#		This page is also available in the following languages:
-#		<: print list_translations() :>.<br />
-#		How to set <a href="http://www.debian.org/intro/cn#howtoset">the default document language</a>.
-#		</p>
-#	<: }; :>
-#	</div>
+	<!-- List available languages -->
+	<div class="col wider">
+	<h4>Languages</h4>
+	<: if (has_translations()) {  :>
+		<p>
+		This page is also available in the following languages:
+		<: print list_translations() :>.<br />
+		How to set <a href="http://www.debian.org/intro/cn#howtoset">the default document language</a>.
+		</p>
+	<: }; :>
+	</div>
 
 # LANGUAGE SWITCH CGI
-#      <div class="col wider">
-#      	<h4>Languages</h4>
-#        # this is a cgi trampoline to bounce us to the right page
-#        # alternately, if the client supports javascript we can redirect that way
-#        # noscript does not block onclick but clients may have disabled javascript completely
-#        #
-#        # for this to work we need to know the relative path from the document root
-#        # to the current directory that wml is in.
-#        <form action="$(DOCROOT)/cgi-bin/languageswitch.cgi">
-#          <select name="Language" id="lang">
-#          <:{
-#            #import "perl-globals.wmi";
-#            use Cwd;
-#            use Cwd 'abs_path';
-#            use File::Spec;
-#            my $urlbase = File::Spec->abs2rel(getcwd(),abs_path("$(DOCROOT)"));
-#            my $LANGUAGES;
-#            my $page = $WML_SRC_FILENAME;
-#            opendir(DIR, getcwd()) or die $!;
-#            # take a look and see what language support we have
-#            while (my $file = readdir(DIR)) {
-#                if (-d $file) {
-#                    if (-e "$file/$page") {
-#                        my $url = $urlbase.'/'.$WML_SRC_BASENAME.'.html.'.$file;
-#                        my $url2js = $WML_SRC_BASENAME.'.html.'.$file;
-#                        print '<option value="'.$url.'" onclick="window.location=\''.$url2js.'\'">'.$LANGUAGES{$file}.'</option>'."\n" unless not defined $LANGUAGES{$file};
-#                    }
-#                }
-#            }
-#            closedir(DIR);
-#          }:>
-#          </select>
-#          <input class="go" type="submit" name="submit" value="Go">
-#        </form>
-#        <p>Questions on this? Visit <a href="http://www.debian.org/intro/cn#howtoset">how to set the default document language</a>.</p>
-#      </div>
+      <div class="col wider">
+      	<h4>Languages</h4>
+         # this is a cgi trampoline to bounce us to the right page
+         # alternately, if the client supports javascript we can redirect that way
+         # noscript does not block onclick but clients may have disabled javascript completely
+         #
+         # for this to work we need to know the relative path from the document root
+         # to the current directory that wml is in.
+         <form action="$(DOCROOT)/cgi-bin/languageswitch.cgi">
+           <select name="Language" id="lang">
+           <:{
+             #import "perl-globals.wmi";
+             use Cwd;
+             use Cwd 'abs_path';
+             use File::Spec;
+             my $urlbase = File::Spec->abs2rel(getcwd(),abs_path("$(DOCROOT)"));
+             my $LANGUAGES;
+             my $page = $WML_SRC_FILENAME;
+             opendir(DIR, getcwd()) or die $!;
+             # take a look and see what language support we have
+             while (my $file = readdir(DIR)) {
+                 if (-d $file) {
+                     if (-e "$file/$page") {
+                         my $url = $urlbase.'/'.$WML_SRC_BASENAME.'.html.'.$file;
+                         my $url2js = $WML_SRC_BASENAME.'.html.'.$file;
+                         print '<option value="'.$url.'" onclick="window.location=\''.$url2js.'\'">'.$LANGUAGES{$file}.'</option>'."\n" unless not defined $LANGUAGES{$file};
+                     }
+                 }
+             }
+             closedir(DIR);
+           }:>
+           </select>
+           <input class="go" type="submit" name="submit" value="Go">
+         </form>
+         <p>Questions on this? Visit <a href="http://www.debian.org/intro/cn#howtoset">how to set the default document language</a>.</p>
+       </div>
 #
     </div>
     <!-- END FOOTER -->
