@@ -12,7 +12,7 @@
 #<!-- Download button text for language enabled packages -->
 <define-tag button-win-tbb32>Tor Browser</define-tag>
 <define-tag button-win-tbb64>Currently Unused</define-tag>
-<define-tag button-osx-tbb32>Tor Browser</define-tag>
+<define-tag button-osx-tbb64>Tor Browser</define-tag>
 <define-tag button-lin-tbb32>Tor Browser</define-tag>
 <define-tag button-lin-tbb64>Linux 64-bit</define-tag>
 
@@ -64,7 +64,7 @@
 	    <p>Everything you need to safely browse the Internet.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	  </div>
 	  <form class="downloads">
-	    <a class="button osx-tbb" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg"><span class="strong">Download</span><span class="normal"><button-osx-tbb32></span></a>
+	    <a class="button osx-tbb" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg"><span class="strong">Download</span><span class="normal"><button-osx-tbb64></span></a>
 	    <select name="language" id="osx-tbb" class="lang">
 #include <lang.wmi>
 	    </select>
