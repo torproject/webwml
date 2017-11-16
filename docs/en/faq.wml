@@ -191,11 +191,11 @@ relay.</a></li>
     run my own?</a></li>
     </ul>
 
-    <p>Tor hidden services:</p>
+    <p>Tor onion services:</p>
 
     <ul>
-    <li><a href="#AccessHiddenServices">How do I access hidden services?</a></li>
-    <li><a href="#ProvideAHiddenService">How do I provide a hidden service?</a></li>
+    <li><a href="#AccessOnionServices">How do I access onion services?</a></li>
+    <li><a href="#ProvideAnOnionService">How do I provide an onion service?</a></li>
     </ul>
 
     <p>Development:</p>
@@ -1817,7 +1817,7 @@ versions.
     <p>
     Note also that not every circuit is used to deliver traffic outside of
     the Tor network. It is normal to see non-exit circuits (such as those
-    used to connect to hidden services, those that do directory fetches,
+    used to connect to onion services, those that do directory fetches,
     those used for relay reachability self-tests, and so on) that end at
     a non-exit node. To keep a node from being used entirely, see
     <tt>ExcludeNodes</tt> and <tt>StrictNodes</tt> in the
@@ -3001,15 +3001,16 @@ diversity,
 
     <hr>
 
-<a id="TorHiddenServices"></a>
-<h2><a class="anchor">Tor hidden services:</a></h2>
+# Leaving in old ids to accomodate incoming links.
+<a id="TorOnionServices"></a><a id="TorHiddenServices"></a>
+<h2><a class="anchor">Tor onion services:</a></h2>
 
-    <a id="AccessHiddenServices"></a>
-    <h3><a class="anchor" href="#AccessHiddenServices">How do I access
-    hidden services?</a></h3>
+    <a id="AccessOnionServices"></a><a id="AccessHiddenServices"></a>
+    <h3><a class="anchor" href="#AccessOnionServices">How do I access
+    onion services?</a></h3>
 
     <p>
-    Tor hidden services are named with a special top-level domain (TLD)
+    Tor onion services are named with a special top-level domain (TLD)
     name in DNS: .onion. Since the .onion TLD is not recognized by the
     official root DNS servers on the Internet, your application will not
     get the response it needs to locate the service. Currently, the Tor
@@ -3020,7 +3021,7 @@ diversity,
 <p>
  Therefore, your application <b>needs</b> to pass the .onion hostname to
  Tor directly. You can't try to resolve it to an IP address, since there
- <i>is</i> no corresponding IP address: the server is hidden, after all!
+ <i>is</i> no corresponding IP address.
 </p>
 
     <p>
@@ -3044,10 +3045,10 @@ diversity,
     <p>
     For applications that do not support HTTP proxy, and so cannot use
     Polipo, <a href="http://www.freecap.ru/eng/">FreeCap</a> is an
-    alternative. When using FreeCap set proxy protocol  to SOCKS 5 and under
+    alternative. When using FreeCap set proxy protocol to SOCKS 5 and under
     settings set DNS name resolving to remote. This
     will allow you to use almost any program with Tor without leaking DNS
-    lookups and allow those same programs to access hidden services.
+    lookups and allow those same programs to access onion services.
     </p>
 
     <p>
@@ -3056,13 +3057,13 @@ diversity,
 
     <hr>
 
-    <a id="ProvideAHiddenService"></a>
-    <h3><a class="anchor" href="#ProvideAHiddenService">How do I provide a
-    hidden service?</a></h3>
+    <a id="ProvideAnOnionService"></a><a id="ProvideAHiddenService"></a>
+    <h3><a class="anchor" href="#ProvideAnOnionService">How do I provide an
+    onion service?</a></h3>
 
     <p>
     See the <a href="<page docs/tor-hidden-service>">
-    official hidden service configuration instructions</a>.
+    official onion service configuration instructions</a>.
     </p>
 
     <hr>
@@ -3951,7 +3952,7 @@ and clients need to predict all the packets they will want to send in
 a session before picking their exit node!
 </li>
 <li>The Tor-internal name spaces would need to be redesigned. We support
-hidden service ".onion" addresses by intercepting the addresses when
+onion service ".onion" addresses by intercepting the addresses when
 they are passed to the Tor client. Doing so at the IP level will require
 a more complex interface between Tor and the local DNS resolver.
 </li>
@@ -4002,7 +4003,7 @@ their path length.</a></h3>
 <p>
  Right now the path length is hard-coded at 3 plus the number of nodes in
  your path that are sensitive. That is, in normal cases it's 3, but for
- example if you're accessing a hidden service or a ".exit" address it could be 4.
+ example if you're accessing an onion service or a ".exit" address it could be 4.
 </p>
 <p>
  We don't want to encourage people to use paths longer than this &mdash; it

@@ -2,78 +2,75 @@
 # Revision: $Revision$
 # Translation-Priority: 3-low
 
-#include "head.wmi" TITLE="Tor: Hidden Service Protocol" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Tor: Onion Service Protocol" CHARSET="UTF-8"
 <div id="content" class="clearfix">
   <div id="breadcrumbs">
     <a href="<page index>">Home &raquo; </a>
     <a href="<page docs/documentation>">Documentation &raquo; </a>
-    <a href="<page docs/hidden-services>">Hidden Services</a>
+    <a href="<page docs/hidden-services>">Onion Services</a>
   </div>
   <div id="maincol">
-    <h2>Tor: Hidden Service Protocol</h2>
+    <h2>Tor: Onion Service Protocol</h2>
     <hr>
 
     <p>
     Tor makes it possible for users to hide their locations while offering
     various kinds of services, such as web publishing or an instant
     messaging server.  Using Tor "rendezvous points," other Tor users can
-    connect to these hidden services, each without knowing the other's
-    network identity. This page describes the technical details of how
-    this rendezvous protocol works. For a more direct how-to, see our <a
-    href="<page docs/tor-hidden-service>">configuring hidden services</a>
-    page.
-    </p>
+	connect to these onion services, formerly known as hidden services, each
+	without knowing the other's network identity. This page describes the
+	technical details of how this rendezvous protocol works. For a more direct
+	how-to, see our <a href="<page docs/tor-hidden-service>">configuring onion
+	services</a> page.  </p>
 
     <p>
-    A hidden service needs to advertise its existence in the Tor network before
+    An onion service needs to advertise its existence in the Tor network before
     clients will be able to contact it. Therefore, the service randomly picks
     some relays, builds circuits to them, and asks them to act as
     <em>introduction points</em> by telling them its public key. Note
     that in the following figures the green links are circuits rather
     than direct connections. By using a full Tor circuit, it's hard for
-    anyone to associate an introduction point with the hidden server's IP
-    address. While the introduction points and others are told the hidden
+    anyone to associate an introduction point with the onion server's IP
+    address. While the introduction points and others are told the onion
     service's identity (public key), we don't want them to learn about the
-    hidden server's location (IP address).
+    onion server's location (IP address).
     </p>
 
-    <img alt="Tor hidden service step one" src="$(IMGROOT)/THS-1.png">
+    <img alt="Tor onion service step one" src="$(IMGROOT)/THS-1.png">
     # maybe add a speech bubble containing "PK" to Bob, because that's what
     # Bob tells to his introduction points
 
     <p>
-    Step two: the hidden service assembles a <em>hidden service
-    descriptor</em>, containing its public key and a summary of each
-    introduction point, and signs this descriptor with its private key.
-    It uploads that descriptor to a distributed hash table. The descriptor will be
-    found by clients requesting XYZ.onion where XYZ is a 16 character
-    name derived from the service's public key. After
-    this step, the hidden service is set up.
-    </p>
+	Step two: the onion service assembles an <em>onion service descriptor</em>,
+	containing its public key and a summary of each introduction point, and
+	signs this descriptor with its private key.  It uploads that descriptor to
+	a distributed hash table.  The descriptor will be found by clients
+	requesting XYZ.onion where XYZ is a 16 character name derived from the
+	service's public key. After this step, the onion service is set up.  </p>
 
     <p>
     Although it might seem impractical to use an automatically-generated
     service name, it serves an important goal: Everyone &ndash; including
-    the introduction points, the distributed hash table directory, and of course the
-    clients &ndash; can verify that they are talking to the right hidden
-    service. See also <a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle">Zooko's
-    conjecture</a> that out of Decentralized, Secure, and Human-Meaningful,
-    you can achieve at most two. Perhaps one day somebody will implement a <a
-    href="http://www.skyhunter.com/marcs/petnames/IntroPetNames.html">Petname</a>
-    design for hidden service names?
-    </p>
+	the introduction points, the distributed hash table directory, and of
+	course the clients &ndash; can verify that they are talking to the right
+	onion service. See also <a
+	href="https://en.wikipedia.org/wiki/Zooko%27s_triangle">Zooko's
+	conjecture</a> that out of Decentralized, Secure, and Human-Meaningful, you
+	can achieve at most two. Perhaps one day somebody will implement a <a
+	href="http://www.skyhunter.com/marcs/petnames/IntroPetNames.html">Petname</a>
+	design for onion service names?  </p>
 
-    <img alt="Tor hidden service step two" src="$(IMGROOT)/THS-2.png">
+    <img alt="Tor onion service step two" src="$(IMGROOT)/THS-2.png">
     # maybe replace "database" with "DHT"; further: how incorrect
     # is it to *not* add DB to the Tor cloud, now that begin dir cells are in
     # use?
 
     <p>
-    Step three: A client that wants to contact a hidden service needs
+    Step three: A client that wants to contact an onion service needs
     to learn about its onion address first. After that, the client can
     initiate connection establishment by downloading the descriptor from
     the distributed hash table. If there is a descriptor for XYZ.onion
-    (the hidden service could also be offline or have left long ago,
+    (the onion service could also be offline or have left long ago,
     or there could be a typo in the onion address), the client now
     knows the set of introduction points and the right public key to
     use. Around this time, the client also creates a circuit to another
@@ -81,49 +78,49 @@
     by telling it a one-time secret.
     </p>
 
-    <img alt="Tor hidden service step three" src="$(IMGROOT)/THS-3.png">
+    <img alt="Tor onion service step three" src="$(IMGROOT)/THS-3.png">
     # maybe add "cookie" to speech bubble, separated from the surrounded
     # "IP1-3" and "PK"
 
     <p>
     Step four: When the descriptor is present and the rendezvous
     point is ready, the client assembles an <em>introduce</em> message
-    (encrypted to the hidden service's public key) including the address
+    (encrypted to the onion service's public key) including the address
     of the rendezvous point and the one-time secret. The client sends
     this message to one of the introduction points, requesting it be
-    delivered to the hidden service. Again, communication takes place
+    delivered to the onion service. Again, communication takes place
     via a Tor circuit: nobody can relate sending the introduce message
     to the client's IP address, so the client remains anonymous.
     </p>
 
-    <img alt="Tor hidden service step four" src="$(IMGROOT)/THS-4.png">
+    <img alt="Tor onion service step four" src="$(IMGROOT)/THS-4.png">
 
     <p>
-    Step five: The hidden service decrypts the client's introduce message
+    Step five: The onion service decrypts the client's introduce message
     and finds the address of the rendezvous point and the one-time secret
     in it. The service creates a circuit to the rendezvous point and
     sends the one-time secret to it in a rendezvous message.
     </p>
 
     <p>
-    At this point it is of special importance that the hidden service sticks to
+    At this point it is of special importance that the onion service sticks to
     the same set of <a
     href="<wikifaq>#Whatsthisaboutentryguardformerlyknownashelpernodes">entry
     guards</a> when creating new circuits. Otherwise an attacker
-    could run his own relay and force a hidden service to create an arbitrary
+    could run his own relay and force an onion service to create an arbitrary
     number of circuits in the hope that the corrupt relay is picked as entry
-    node and he learns the hidden server's IP address via timing analysis. This
+    node and he learns the onion server's IP address via timing analysis. This
     attack was described by &Oslash;verlier and Syverson in their paper titled
     <a href="http://freehaven.net/anonbib/#hs-attack06">Locating Hidden
     Servers</a>.
     </p>
 
-    <img alt="Tor hidden service step five" src="$(IMGROOT)/THS-5.png">
+    <img alt="Tor onion service step five" src="$(IMGROOT)/THS-5.png">
     # it should say "Bob connects to Alice's ..."
 
     <p>
     In the last step, the rendezvous point notifies the client about successful
-    connection establishment. After that, both client and hidden service can
+    connection establishment. After that, both client and onion service can
     use their circuits to the rendezvous point for communicating with each
     other. The rendezvous point simply relays (end-to-end encrypted) messages
     from client to service and vice versa.
@@ -132,21 +129,21 @@
     <p>
     One of the reasons for not using the introduction circuit
     for actual communication is that no single relay should
-    appear to be responsible for a given hidden service. This is why the
-    rendezvous point never learns about the hidden service's identity.
+    appear to be responsible for a given onion service. This is why the
+    rendezvous point never learns about the onion service's identity.
     </p>
 
     <p>
-    In general, the complete connection between client and hidden service
+    In general, the complete connection between client and onion service
     consists of 6 relays: 3 of them were picked by the client with the third
-    being the rendezvous point and the other 3 were picked by the hidden
+    being the rendezvous point and the other 3 were picked by the onion
     service.
     </p>
 
-    <img alt="Tor hidden service step six" src="$(IMGROOT)/THS-6.png">
+    <img alt="Tor onion service step six" src="$(IMGROOT)/THS-6.png">
 
     <p>
-    There are more detailed descriptions about the hidden service protocol than
+    There are more detailed descriptions about the onion service protocol than
     this one. See the
     <a href="<svnprojects>design-paper/tor-design.pdf">Tor design paper</a>
     for an in-depth design description and the

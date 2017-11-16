@@ -52,7 +52,7 @@
            'txt'  => 'Configuring a Relay graphically',
           },
           {'url'  => 'docs/tor-hidden-service',
-           'txt'  => 'Configuring a Hidden Service',
+           'txt'  => 'Configuring an Onion Service',
           },
           {'url'  => 'docs/bridges',
            'txt'  => 'Understanding bridges',

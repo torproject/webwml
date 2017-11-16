@@ -280,17 +280,17 @@
     operations, as well as protecting themselves from physical harm.
     </li>
 
-    <li><strong>Hidden services:</strong>
-    When the Internet was designed by DARPA, its primary purpose was to be able to facilitate distributed, robust communications in case of
-    local strikes.  However, some functions must be centralized, such as command and control sites.  It's the nature of the Internet protocols to
-    reveal the geographic location of any server that is reachable online.  Tor's hidden services capacity allows military command and
-    control to be physically secure from discovery and takedown.
-    </li>
-    <li><strong>Intelligence gathering:</strong>
-    Military personnel need to use electronic resources run and monitored by insurgents. They do not want the webserver logs on an insurgent website
-    to record a military address, thereby revealing the surveillance.
-    </li>
-    </ul>
+    <li><strong>Onion services:</strong>
+	When the Internet was designed by DARPA, its primary purpose was to be able
+	to facilitate distributed, robust communications in case of local strikes.
+	However, some functions must be centralized, such as command and control
+	sites.  It's the nature of the Internet protocols to reveal the geographic
+	location of any server that is reachable online.  Tor's onion services
+	capacity allows military command and control to be physically secure from
+	discovery and takedown.  </li> <li><strong>Intelligence gathering:</strong>
+	Military personnel need to use electronic resources run and monitored by
+	insurgents. They do not want the webserver logs on an insurgent website to
+	record a military address, thereby revealing the surveillance.  </li> </ul>
 
     <a name="itprofessionals"></a>
     <h2><a class="anchor" href="#itprofessionals">IT Professionals use Tor</a></h2>
