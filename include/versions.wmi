@@ -22,8 +22,8 @@
 <define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundle>/tor-win32-<version-win32-stable>.zip</define-tag>
 
 # *** tor browser beta/alpha ***
-<define-tag version-torbrowserbundlebeta-all whitespace=delete>7.5a6</define-tag>
-<define-tag releasedate-torbrowserbundlebeta-all whitespace=delete>2017-10-20</define-tag>
+<define-tag version-torbrowserbundlebeta-all whitespace=delete>7.5a8</define-tag>
+<define-tag releasedate-torbrowserbundlebeta-all whitespace=delete>2017-11-16</define-tag>
 
 # If all platforms are on the same version, you only need to update
 # version-torbrowserbundlebeta-all and releasedate-torbrowserbundlebeta-all
