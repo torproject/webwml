@@ -1,31 +1,43 @@
 <define-tag version-stable whitespace=delete>0.3.1.8</define-tag>
 <define-tag version-alpha whitespace=delete>0.3.2.4-alpha</define-tag>
 
-<define-tag version-win32-stable whitespace=delete>0.3.1.8</define-tag>
-
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.0</define-tag>
 
-<define-tag version-torbrowserbundle whitespace=delete>7.0.10</define-tag>
-<define-tag releasedate-torbrowserbundle whitespace=delete>2017-11-14</define-tag>
-<define-tag version-torbrowserbundlebeta whitespace=delete>7.5a6</define-tag>
-<define-tag releasedate-torbrowserbundlebeta whitespace=delete>2017-10-20</define-tag>
+# *** tor browser stable ***
+<define-tag version-torbrowserbundle-all whitespace=delete>7.0.10</define-tag>
+<define-tag releasedate-torbrowserbundle-all whitespace=delete>2017-11-14</define-tag>
 
-<define-tag version-torbrowserbundlelinux32 whitespace=delete>7.0.10</define-tag>
-<define-tag releasedate-torbrowserbundlelinux32 whitespace=delete>2017-11-14</define-tag>
-<define-tag version-torbrowserbundlelinux64 whitespace=delete>7.0.10</define-tag>
-<define-tag releasedate-torbrowserbundlelinux64 whitespace=delete>2017-11-14</define-tag>
-<define-tag version-torbrowserbundlelinux32beta whitespace=delete>7.5a7</define-tag>
-<define-tag releasedate-torbrowserbundlelinux32beta whitespace=delete>2017-11-04</define-tag>
-<define-tag version-torbrowserbundlelinux64beta whitespace=delete>7.5a7</define-tag>
-<define-tag releasedate-torbrowserbundlelinux64beta whitespace=delete>2017-11-04</define-tag>
+# If all platforms are on the same version, you only to update
+# version-torbrowserbundle-all and releasedate-torbrowserbundle-all
+<let version-torbrowserbundle=version-torbrowserbundle-all />
+<let releasedate-torbrowserbundle=releasedate-torbrowserbundle-all />
+<let version-torbrowserbundlelinux32=version-torbrowserbundle-all />
+<let releasedate-torbrowserbundlelinux32=releasedate-torbrowserbundle-all />
+<let version-torbrowserbundlelinux64=version-torbrowserbundle-all />
+<let releasedate-torbrowserbundlelinux64=releasedate-torbrowserbundle-all />
+<let version-torbrowserbundleosx64=version-torbrowserbundle-all />
+<let releasedate-torbrowserbundleosx64=releasedate-torbrowserbundle-all />
 
-<define-tag version-torbrowserbundleosx64 whitespace=delete>7.0.10</define-tag>
-<define-tag releasedate-torbrowserbundleosx64 whitespace=delete>2017-11-14</define-tag>
-<define-tag version-torbrowserbundleosx64beta whitespace=delete>7.5a7</define-tag>
-<define-tag releasedate-torbrowserbundleosx64beta whitespace=delete>2017-11-04</define-tag>
+<define-tag version-win32-stable whitespace=delete>0.3.1.8</define-tag>
+<define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundle>/tor-win32-<version-win32-stable>.zip</define-tag>
+
+# *** tor browser beta/alpha ***
+<define-tag version-torbrowserbundlebeta-all whitespace=delete>7.5a6</define-tag>
+<define-tag releasedate-torbrowserbundlebeta-all whitespace=delete>2017-10-20</define-tag>
+
+# If all platforms are on the same version, you only need to update
+# version-torbrowserbundlebeta-all and releasedate-torbrowserbundlebeta-all
+<let version-torbrowserbundlebeta=version-torbrowserbundlebeta-all />
+<let releasedate-torbrowserbundlebeta=releasedate-torbrowserbundlebeta-all />
+<let version-torbrowserbundlelinux32beta=version-torbrowserbundlebeta-all />
+<let releasedate-torbrowserbundlelinux32beta=releasedate-torbrowserbundlebeta-all />
+<let version-torbrowserbundlelinux64beta=version-torbrowserbundlebeta-all />
+<let releasedate-torbrowserbundlelinux64beta=releasedate-torbrowserbundlebeta-all />
+<let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
+<let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
+
 <define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.14</define-tag>
 
-<define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundle>/tor-win32-<version-win32-stable>.zip</define-tag>
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
 <define-tag package-source-stable whitespace=delete>../dist/<file-source-stable></define-tag>
