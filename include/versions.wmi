@@ -29,6 +29,8 @@
 # version-torbrowserbundlebeta-all and releasedate-torbrowserbundlebeta-all
 <let version-torbrowserbundlebeta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundlebeta=releasedate-torbrowserbundlebeta-all />
+<let version-torbrowserbundlewin64beta=version-torbrowserbundlebeta-all />
+<let releasedate-torbrowserbundlewin64beta=releasedate-torbrowserbundlebeta-all />
 <let version-torbrowserbundlelinux32beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundlelinux32beta=releasedate-torbrowserbundlebeta-all />
 <let version-torbrowserbundlelinux64beta=version-torbrowserbundlebeta-all />
