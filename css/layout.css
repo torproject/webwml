@@ -1312,10 +1312,10 @@ p.blogDate {
 
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #885ca4;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 14px;
     border: none;
     cursor: pointer;
 }
