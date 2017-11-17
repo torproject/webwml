@@ -38,7 +38,7 @@
 <let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
 
-<define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.14</define-tag>
+<define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.15</define-tag>
 
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
