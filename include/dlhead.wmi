@@ -114,16 +114,18 @@ docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml),
               }
             }
         }:>
-     # LANGUAGE SWITCH CGI
+     # LANGUAGE SWITCH 
       <li>
+         <div class="dropdown">
+           <button class="dropbtn">Languages</button>
+           <div class="dropdown-content">
+            
          # this is a cgi trampoline to bounce us to the right page
          # alternately, if the client supports javascript we can redirect that way
          # noscript does not block onclick but clients may have disabled javascript completely
          #
          # for this to work we need to know the relative path from the document root
          # to the current directory that wml is in.
-         <form action="$(DOCROOT)/cgi-bin/languageswitch.cgi">
-           <select name="Language" id="lang">
            <:{
              #import "perl-globals.wmi";
              use Cwd;
@@ -137,17 +139,15 @@ docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml),
              while (my $file = readdir(DIR)) {
                  if (-d $file) {
                      if (-e "$file/$page") {
-                         my $url = $urlbase.'/'.$WML_SRC_BASENAME.'.html.'.$file;
-                         my $url2js = $WML_SRC_BASENAME.'.html.'.$file;
-                         print '<option value="'.$url.'" onclick="window.location=\''.$url2js.'\'">'.$LANGUAGES{$file}.'</option>'."\n" unless not defined $LANGUAGES{$file};
+                         my $url = $WML_SRC_BASENAME.'.html.'.$file;
+                         print '<a href="'.$url.'" >'.$LANGUAGES{$file}.'</a>'."\n" unless not defined $LANGUAGES{$file};
                      }
                  }
              }
              closedir(DIR);
            }:>
-           </select>
-           <input class="go" type="submit" name="submit" value="Go">
-         </form>
+            </div>
+         </div> 
        </li>
        #
       </ul>
