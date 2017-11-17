@@ -118,13 +118,13 @@ docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml),
      # LANGUAGE SWITCH 
       <li>
          <div class="dropdown">
-           <div class="dropbtn">
+           <button class="dropbtn">
 	      <:{ if (has_translations()) {  
                     my @lngs = list_translations();
    		    print $lngs[0];
 		  }
               }:>
-	   </div>
+	   </button>
            <div class="dropdown-content">
 	     <:{
                #import "perl-globals.wmi";

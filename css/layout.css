@@ -1315,7 +1315,7 @@ p.blogDate {
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: white;
-    padding: 0px;
+    padding: 16px 0 0 0;
     font-size: 100%;
     border: none;
     cursor: pointer;
@@ -1325,6 +1325,9 @@ p.blogDate {
 .dropdown {
     position: relative;
     display: inline-block;
+    padding: 0;
+    margin-top: -16px;
+    top: 0;
 }
 
 /* Dropdown Content (Hidden by Default) */
