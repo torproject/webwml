@@ -36,7 +36,7 @@
     onion server's location (IP address).
     </p>
 
-    <img alt="Tor onion service step one" src="$(IMGROOT)/THS-1.png">
+    <img alt="Tor onion service step one" src="$(IMGROOT)/tor-onion-services-1.png">
     # maybe add a speech bubble containing "PK" to Bob, because that's what
     # Bob tells to his introduction points
 
@@ -60,7 +60,7 @@
 	href="http://www.skyhunter.com/marcs/petnames/IntroPetNames.html">Petname</a>
 	design for onion service names?  </p>
 
-    <img alt="Tor onion service step two" src="$(IMGROOT)/THS-2.png">
+    <img alt="Tor onion service step two" src="$(IMGROOT)/tor-onion-services-2.png">
     # maybe replace "database" with "DHT"; further: how incorrect
     # is it to *not* add DB to the Tor cloud, now that begin dir cells are in
     # use?
@@ -78,7 +78,7 @@
     by telling it a one-time secret.
     </p>
 
-    <img alt="Tor onion service step three" src="$(IMGROOT)/THS-3.png">
+    <img alt="Tor onion service step three" src="$(IMGROOT)/tor-onion-services-3.png">
     # maybe add "cookie" to speech bubble, separated from the surrounded
     # "IP1-3" and "PK"
 
@@ -93,7 +93,7 @@
     to the client's IP address, so the client remains anonymous.
     </p>
 
-    <img alt="Tor onion service step four" src="$(IMGROOT)/THS-4.png">
+    <img alt="Tor onion service step four" src="$(IMGROOT)/tor-onion-services-4.png">
 
     <p>
     Step five: The onion service decrypts the client's introduce message
@@ -115,7 +115,7 @@
     Servers</a>.
     </p>
 
-    <img alt="Tor onion service step five" src="$(IMGROOT)/THS-5.png">
+    <img alt="Tor onion service step five" src="$(IMGROOT)/tor-onion-services-5.png">
     # it should say "Bob connects to Alice's ..."
 
     <p>
@@ -140,7 +140,7 @@
     service.
     </p>
 
-    <img alt="Tor onion service step six" src="$(IMGROOT)/THS-6.png">
+    <img alt="Tor onion service step six" src="$(IMGROOT)/tor-onion-services-6.png">
 
     <p>
     There are more detailed descriptions about the onion service protocol than
