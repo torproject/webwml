@@ -3062,7 +3062,7 @@ diversity,
     onion service?</a></h3>
 
     <p>
-    See the <a href="<page docs/tor-hidden-service>">
+    See the <a href="<page docs/tor-onion-service>">
     official onion service configuration instructions</a>.
     </p>
 

@@ -353,7 +353,7 @@ using technology?</a></li>
     <h3><a class="anchor" href="#RemoveContent">I want some content removed from a .onion address.</a></h3>
     <p>The Tor Project does not host, control, nor have the ability to
     discover the owner or location of a .onion address.  The .onion address is
-    an address from <a href="<page docs/hidden-services>">an onion
+    an address from <a href="<page docs/onion-services>">an onion
     service</a>.  The name you see ending in .onion is an onion service descriptor.
     It's an automatically generated name which can be located on any Tor
     relay or client anywhere on the Internet.  Onion services are designed
