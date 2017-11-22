@@ -102,8 +102,8 @@
     <td>
       <a id="hellais"></a>
       <div class="photo"><img src="$(IMGROOT)/people/hellais.png" alt="hellais" /></div>
-      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=67EF3966509986E96ACEE84E5D67CD18702287F4"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="icon"><a href="https://twitter.com/hellais"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
+      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=67EF3966509986E96ACEE84E5D67CD18702287F4"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#hellais">Arturo Filastò</a></div>
       <div class="field"><b>IRC:</b> hellais</div>
       <div class="description">Project leader for <a href="https://ooni.torproject.org/">OONI</a>, has helped with <a href="http://tor2web.org/">tor2web</a>, wrote <a href="https://atlas.torproject.org/">Atlas</a>, and helps improve security.</div>
