@@ -118,7 +118,7 @@ form#makeDonation {
    <div class="hundred toptwenty">
      <div class="dbox donate">
        <h3>Donate via Giving Assistant</h3>
-       <h4>Giving Assistant helps you donate a percentage of your cash back earnings to us with every purchase you make at 3,000+ popular online retailers.</h4>
+       <p>Giving Assistant helps you donate a percentage of your cash back earnings to us with every purchase you make at 3,000+ popular online retailers.</p>
        <p>
           <strong>
 		<a href="https://givingassistant.org/np#tor-project-inc">Use Giving Assistant to save money and support the Tor Project</a>
