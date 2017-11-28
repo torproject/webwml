@@ -91,6 +91,8 @@ Builds</a>.</dd>
 <dd>Original developer for Vidalia,
 a cross-platform Tor Graphical User Interface included in the bundles.</dd>
 
+<dt>Roya Ensafi</dt><dd>Detects and understands how to manipulate and circumvent Tor network censorship attempts.</dd>
+
 <dt>Christian Fromme, Developer</dt>
 <dd>Helped with many Python projects, such as the
 get-tor email auto-responder, check.torproject.org, bridge db,
