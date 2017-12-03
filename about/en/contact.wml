@@ -16,9 +16,11 @@
     <li><a href="#support">Support</a></li>
     <li><a href="#irc">IRC</a></li>
     <li><a href="#twitter">Twitter</a></li>
+    <li><a href="#bugs">Bug Tracker</a></li>
+    <li><a href="#security">Security Issues</a></li>
+    <li><a href="#badrelays">Report Bad Relays</a></li>
     <li><a href="#email">Email</a></li>
     <li><a href="#mail">Mailing Address</a></li>
-    <li><a href="#security">Security Issues</a></li>
     </ul>
 
     <a id="support"></a>
@@ -88,7 +90,34 @@
 	</ul>
     </p>
 
-    <a id="email"></a>
+	<a id="bugs"></a>
+	<h3><a class="anchor" href="#bugs">Bug Tracker</a></h3>
+	<p>You can report bugs other than <a href="#security">security 
+	issues</a> using our <a href="https://trac.torproject.org/projects/tor"
+	>bug tracker</a>. Our 
+	<a href="<page getinvolved/volunteer>">volunteer page</a> has 
+	convenient links to <a href="<page getinvolved/volunteer>#Projects"> 
+	project-related queries</a>.</p>
+    
+	<a id="security"></a>
+	<h3><a class="anchor" href="#security">Security Issues</a></h3>
+	<p>If you've found a security issue in one of our projects or our
+	infrastructure, please email the respective maintainer. You can find
+	their GPG fingerprint/key on our <a
+	href="https://db.torproject.org">developer ldap search page</a>. Due
+	to the many different projects we have, we do not offer a single
+	list for security issues.</p>
+
+	<a id="badrelays"></a>
+	<h3><a class="anchor" href="#badrelays">Report Bad Relays</a></h3>
+	<p>If you find a relay that you think is malicious, misconfigured, 
+	or otherwise broken, please check out our 
+	<a href="https://trac.torproject.org/projects/tor/wiki/doc/ReportingBadRelays">
+	wiki page</a> and <a href="https://blog.torproject.org/how-report-bad-relays"
+	>blog post</a> on how to report it.</p>
+
+
+	<a id="email"></a>
     <h3><a class="anchor" href="#email">Email</a></h3>
     <p>If you have Tor questions, please try to help yourself via the
     above support venues. Please don't use this contact address
@@ -115,15 +144,6 @@
 217 1st Ave South #4903<br>
 Seattle, WA 98194 USA<br><br>
 </address>
-
-    <a id="security"></a>
-    <h3><a class="anchor" href="#security">Security Issues</a></h3>
-    <p>If you've found a security issue in one of our projects or our
-    infrastructure, please email the respective maintainer. You can find
-    their GPG fingerprint/key on our <a
-    href="https://db.torproject.org">developer ldap search page</a>. Due
-    to the many different projects we have, we do not offer a single
-    list for security issues.
 
   </div>
   <!-- END MAINCOL -->
