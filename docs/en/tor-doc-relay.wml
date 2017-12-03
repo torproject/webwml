@@ -101,11 +101,11 @@
 
     <p>When your relay has decided that it's reachable, it will upload a "server
     descriptor" to the directories, to let clients know
-    what address, ports, keys, etc your relay is using. You can search <a
-    href="https://atlas.torproject.org/">Atlas</a> or <a
-    href="https://globe.torproject.org/">Globe</a> for
+    what address, ports, keys, etc your relay is using. You can use <a
+    href="https://atlas.torproject.org/">Relay Search</a> to lookup
     the nickname you configured, to make sure it's there. You may need to wait
-    up to one hour for the directories to publish the new server information.</p>
+    up to two hours for the directories to publish the new server information
+    and for it to be shown on Relay Search.</p>
 
     <hr>
     <a id="after"></a>
