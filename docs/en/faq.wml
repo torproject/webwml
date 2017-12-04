@@ -14,7 +14,8 @@
     <h1>Tor FAQ</h1>
     <hr>
 
-    <p>General questions:</p>
+    <a id="general"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#general">General questions:</a></h4>
     <ul>
     <li><a href="#WhatIsTor">What is Tor?</a></li>
     <li><a href="#Torisdifferent">How is Tor different from other
@@ -43,7 +44,8 @@ proxies?</a></li>
     exit nodes are there?</a></li>
     </ul>
 
-    <p>Compilation and Installation:</p>
+    <a id="comp-install"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#comp-install">Compilation and Installation:</a></h4>
 
     <ul>
     <li><a href="#HowUninstallTor">How do I uninstall Tor?</a></li>
@@ -58,7 +60,8 @@ proxies?</a></li>
 includes Tor?</a></li>
     </ul>
 
-    <p>Tor Browser (general):</p>
+    <a id="tbb"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#tbb">Tor Browser (general):</a></h4>
     <ul>
 
     <li><a href="#TBBFlash">Why can't I view videos on YouTube and other
@@ -90,7 +93,8 @@ unsafe?</a></li>
     with my application?</a></li>
     </ul>
 
-    <p>Tor Browser (3.x and later):</p>
+    <a id="tbb-3plus"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#tbb-3plus">Tor Browser (3.x and later):</a></h4>
 
     <ul>
     <li><a href="#DisableJS">How do I disable JavaScript?</a></li>
@@ -105,7 +109,8 @@ unsafe?</a></li>
     How do I verify a build?</a></li>
     </ul>
 
-    <p>Advanced Tor usage:</p>
+    <a id="advanced"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#advanced">Advanced Tor usage:</a></h4>
 
     <ul>
     <li><a href="#torrc">I'm supposed to "edit my torrc". What does
@@ -129,7 +134,8 @@ country)
     SOCKS is leaking DNS requests?</a></li>
     </ul>
 
-    <p>Running a Tor relay:</p>
+    <a id="relay"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#relay">Running a Tor relay:</a></h4>
     <ul>
 
     <li><a href="#HowDoIDecide">How do I decide if I should run a relay?
@@ -191,14 +197,16 @@ relay.</a></li>
     run my own?</a></li>
     </ul>
 
-    <p>Tor onion services:</p>
+    <a id="onion-services"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#onion-services">Tor onion services:</a></h4>
 
     <ul>
     <li><a href="#AccessOnionServices">How do I access onion services?</a></li>
     <li><a href="#ProvideAnOnionService">How do I provide an onion service?</a></li>
     </ul>
 
-    <p>Development:</p>
+    <a id="dev"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#dev">Development:</a></h4>
 
     <ul>
     <li><a href="#VersionNumbers">What do these weird version numbers
@@ -212,7 +220,8 @@ relay.</a></li>
     into Tor?</a></li>
     </ul>
 
-    <p>Anonymity and Security:</p>
+    <a id="anonsec"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#anonsec">Anonymity and Security:</a></h4>
     <ul>
     <li><a href="#WhatProtectionsDoesTorProvide">What protections does Tor
     provide?</a></li>
@@ -240,7 +249,8 @@ uses.</a></li>
     <li><a href="#LearnMoreAboutAnonymity">Where can I learn more about anonymity?</a></li>
     </ul>
 
-    <p>Alternate designs that we don't do (yet):</p>
+    <a id="altdesigns"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#altdesigns">Alternate designs that we don't do (yet):</a></h4>
 
     <ul>
     <li><a href="#EverybodyARelay">You should make every Tor user be a
@@ -270,7 +280,8 @@ packets,
     traffic.</a></li>
     </ul>
 
-    <p>Abuse:</p>
+    <a id="abuse"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#abuse">Abuse:</a></h4>
     <ul>
     <li><a href="#Criminals">Doesn't Tor enable criminals to do bad
 things?</a></li>
