@@ -45,7 +45,7 @@
         <ul>
           <li><a href="<page donate/donate-foot>">Donate</a></li>
           <li><a href="<page docs/documentation>#MailingLists">Mailing Lists</a></li>
-          <li><a href="<page docs/hidden-services>">Hidden Services</a></li>
+          <li><a href="<page docs/onion-services>">Onion Services</a></li>
           <li><a href="<page getinvolved/translation>">Translations</a></li>
 #          <li><a href="<page getinvolved/open-positions>">Careers</a></li>
         </ul>

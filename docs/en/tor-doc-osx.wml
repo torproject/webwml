@@ -22,23 +22,37 @@
     <p>Even though Tor Browser comes with a regular Tor, it will only run
     as long as you keep Tor Browser open. The following instructions will
     set up Tor without graphical interface or a browser. Many people prefer
-    this over TBB when they host hidden services or relay traffic for other Tor
+    this over TBB when they host onion services or relay traffic for other Tor
     users.  <hr>
     <a id="installing"></a>
-    <h2><a class="anchor" href="#installing">Step One: Install Macports</a></h2>
+    <h2><a class="anchor" href="#installing">Step One: Install a package manager</a></h2>
     <br>
 
+    <p>There are two package manager on OS X: Homebrew and Macports. You can use the package manager of your choice.</p>
+
     <p>
-    Macports is a package manager for Mac OS X which provides a Tor package,
-    along a lot of other stuff. Follow the instructions on <a
-    href="https://www.macports.org/install.php">its Website</a> to install.
+    To install Homebrew follow the instructions on <a
+    href="https://brew.sh/">brew.sh</a>.
+    </p>
+
+    <p>
+    To install Macports follow the instructions on <a
+    href="https://www.macports.org/install.php">macports.org/install.php</a>.
     </p>
 
     <hr>
     <h2>Step Two: Install Tor</a></h2>
     <br>
 
-    <p>In a Terminal window, run:</p>
+    <p>If you are using Homebrew in a Terminal window, run:</p>
+
+    <pre>brew install tor</pre>
+
+    <p>You will find a sample Tor configuration file at
+    <tt>/usr/local/etc/tor/torrc.sample</tt>. Remove the .sample extension to
+    make it effective.</p>
+
+    <p>If you are using Macports in a Terminal window, run:</p>
 
     <pre>sudo port install tor</pre>
 
@@ -88,7 +102,7 @@
 
     <hr>
     <a id="uninstall"></a>
-    <h2><a class="anchor" href="#uninstall">How To Uninstall Tor</a></h2>
+    <h2><a class="anchor" href="#uninstall">How to uninstall Tor</a></h2>
     <br>
 
     <p>Change your application proxy settings back to their original

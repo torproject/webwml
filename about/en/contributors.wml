@@ -36,7 +36,7 @@ href="http://cryptocracy.net/">personal website</a>.</dd>
 management, travel, and other projects.</dd>
 
 <dt>Domenik Bork</dt><dd> Worked on
-Configuration of Hidden Services with User Authorization in Vidalia as
+Configuration of Onion Services with User Authorization in Vidalia as
 part of Google Summer of Code 2008.</dd>
 <dt>Benedikt Boss</dt><dd>Worked during the 2007 Google Summer of Code on <a
 href="https://svn.torproject.org/svn/topf/trunk/README">TOPF</a>,
@@ -81,9 +81,17 @@ bufferevent code.</dd>
 href="https://fteproxy.org/">fteproxy</a>, and part of the
 pluggable transports team.</dd>
 
+<dt>Lunar</dt>
+<dd>Originally helped lead the support team,
+Debian packaging, and Tor Weekly News issues. Now working on
+<a href="https://reproducible-builds.org/">Reproducible
+Builds</a>.</dd>
+
 <dt>Matt Edman</dt>
 <dd>Original developer for Vidalia,
 a cross-platform Tor Graphical User Interface included in the bundles.</dd>
+
+<dt>Roya Ensafi</dt><dd>Detects and understands how to manipulate and circumvent Tor network censorship attempts.</dd>
 
 <dt>Christian Fromme, Developer</dt>
 <dd>Helped with many Python projects, such as the
@@ -122,9 +130,6 @@ href="http://code.google.com/p/torora/">privacy-oriented
 Arora fork</a>, the <a
 href="http://code.google.com/p/torsocks/">torsocks
 scripts</a>, and other useful peripheral tools.</dd>
-
-<dt>Dr. Nick Hopper, Researcher</dt>
-<dd>Cryptographer, privacy expert, and professor.</dd>
 
 <dt>Leiah Jansen, Graphic Designer</dt>
 <dd>Helped make our cool logos, designs, stickers, graphics, and so on.
@@ -176,7 +181,7 @@ proxying approach for Tor clients on Windows.</dd>
 Tor is based on, so we didn't have to start from scratch.</dd>
 
 <dt>Robert Ransom</dt><dd>Found and fixed a bunch of Tor bugs, mostly in
-Tor's hidden service code, and added several security and usability
+Tor's onion service code, and added several security and usability
 features to Tor and Tor Browser Bundle.</dd>
 
 <dt>Johannes Renner</dt><dd> Worked during the 2007 Google Summer of
@@ -230,7 +235,7 @@ Bundle build process, especially on Windows.</dd>
 <dt>Kyle Williams</dt><dd>Developer for JanusVM, a VMWare-based
 transparent Tor proxy that makes Tor easier to set up and use.</dd>
 <dt>Christian Wilms</dt><dd> Worked on
-Performance Enhancing Measures for Tor Hidden Services (<a
+Performance Enhancing Measures for Tor Onion Services (<a
 href="https://svn.torproject.org/cgi-bin/viewvs.cgi/tor/branches/hidserv-perf/">svn</a>) as part of Google Summer of Code 2008.</dd>
 <dt>Jillian C. York</dt><dd><a href="http://jilliancyork.com/">Jillian C. York</a> is a writer, blogger, and activist.</dd>
 </dl>

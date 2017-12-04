@@ -28,7 +28,7 @@
     <h2><a class="anchor" href="#install">Step One: Download and Install Tor</a></h2>
     <br>
 
-    <p>If you're on Debian, start with "apt-get install tor".</p>
+    <p>If you're on Debian, start with "apt install tor".</p>
 
     <p><b>Do not use the packages in Ubuntu's universe.</b> If you're
     on Ubuntu or if you want to track newer Tor packages, follow the
@@ -70,7 +70,7 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
     </p>
 
     <p>
-    4. Restart your relay: "service tor reload" (as root).
+    4. Restart your relay: "systemctl reload tor" (as root).
     </p>
 
     <hr>
@@ -168,12 +168,12 @@ href="<wiki>/doc/TorExitGuidelines">guidelines
 
     <p>
     13. You might like to use the <a
-    href="https://www.atagar.com/arm/">arm</a> relay monitor to watch
-    your relay's activities from the command line. First, "sudo apt-get
-    install tor-arm". Second, as the user that will be running arm, run
+    href="https://nyx.torproject.org/">Nyx</a> relay monitor to watch
+    your relay's activities from the command line. First, "sudo pip install
+    nyx". Second, as the user that will be running nyx, run
     "sudo adduser $USER debian-tor" to add your user to the debian-tor
     group so it can reach Tor's controlsocket. Then log out and log back
-    in (so your user is actually in the group), and run "arm".
+    in (so your user is actually in the group), and run "nyx".
     </p>
 
     <p>

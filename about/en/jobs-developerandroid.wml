@@ -1,0 +1,131 @@
+## translation metadata
+# Revision: $Revision: 25666 $
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (browser developer android)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+<h1>The Tor Project is looking for two Browser Developers for Mobile (Android)!</h1>
+<h2>(Posted 27 Jul 2017)</h2>
+
+<p>
+July 27, 2017
+</p>
+<p>
+The Tor Project is looking for two Browser Developers for Mobile (Android)!
+</p>
+<p>
+As a mobile browser developer, your job will be to work closely with other members of the Tor Browser development team on Java and C++ patches to our Firefox-based browser, writing new APIs, altering functionality for privacy and security, and making improvements to our collection of Firefox add-ons (JavaScript code). Being a Tor Browser developer includes triaging, diagnosing, and fixing bugs; looking for and resolving web privacy issues; responding on short notice to urgent security issues; and working collaboratively with coworkers and volunteers to implement new features and web behavior changes. We also need help making our code more maintainable, testable, and mergeable by upstream. The person in this position will also review other people's code, designs, and academic research papers to make suggestions for improvement.
+</p>
+<p>
+This is a full-time position.
+</p>
+
+<h2>Required Qualifications:</h2>
+<ul>
+	<li>
+	  Experience in C++ (and ideally, JavaScript). Five years of C++ experience is probably necessary for the level of expertise we want, though some of these years can be replaced with other Object Oriented Programming and/or C experience. If you meet this level of experience with C++/OOP, JavaScript can be learned on the job.
+	</li>
+	<li>
+      Multiple years worth of experience with Java programming, though similar equivalent OOP experience is also acceptable.
+    </li>
+ 	<li>
+      Possess a solid understanding of issues surrounding secure C++ programming and reference counted memory (at least to the level of avoiding issues).         
+    </li>
+ 	<li>
+      Be comfortable diving into new, unfamiliar codebases, looking for ways to alter and augment their functionality in specific, goal-oriented ways.         
+    </li>
+	<li>
+      Be familiar with web technologies and how the web works, especially the same-origin model and web tracking.         
+    </li>
+    <li>
+      Willingness and ability to justify and document technical decisions for a public, world-wide technical audience.         
+    </li>
+ 	<li>
+	  Be comfortable working remotely with a geographically distributed team.
+	</li>
+	<li>
+	  Experience interacting with users and other developers online, including experience being confronted with differing ideas and opinions (not always in a nice manner), while maintaining a high level of professionalism.
+	</li>
+	<li>
+	  Comfort with transparency: as a non-profit organization who develops open source software, almost everything we do is public, including your name (or at least your business name) and possibly salary information.
+	</li>
+</ul>
+
+<h2>Preferred qualifications:</h2>
+<ul>
+	<li>
+	  Familiarity and/or experience with writing add-ons and/or patches for Mozilla Firefox or other web browsers.
+	</li>
+	<li>
+	  Familiarity with developing and distributing software for the Android platform.         
+	</li>
+	<li>
+	  Familiarity with Firefox's internal architecture, including its use of multiple processes and sandboxing.
+    </li>
+ 	<li>
+	  Be intensely creative yet also ruthlessly pragmatic in your thinking.
+    </li>
+ 	<li>
+	  Possess knowledge/familiarity of probability, statistics, and information theory.
+    </li>
+ 	<li>
+	  Know enough about networking to be able to visualize what HTTP 1.1 looks like on the wire while encapsulated within Tor's network protocol.
+    </li>
+ 	<li>
+	  Experience working with distributed (remote) teams across different time-zones with people of differing skill levels over multiple mediums, including email, instant messaging, and IRC.
+    </li>
+    <li>
+	  Open-source experience: contributed significant chunks of code to multiple open-source projects in the past.
+    </li>
+ 	<li>
+	 Familiarity with distributed version control systems, including Git.
+ </li>
+ 	<li>
+	 Genuinely be excited about Tor and its values!
+	</li>
+</ul>
+<p>
+For a more detailed understanding of the full breadth and depth of the work you'd be doing, have a look at The Design and Implementation of the Tor Browser, especially The Design Requirements section at <a href="​https://www.torproject.org/projects/torbrowser/design/#DesignRequirements">https://www.torproject.org/projects/torbrowser/design/#DesignRequirements</a>.
+</p>
+<h2>
+Other notes:
+</h2>
+<p>
+Academic degrees are great, but not required if you have the right experience!
+</p>
+<p>
+The team coordinates via IRC, email, and bug trackers. This position may be performed remotely, but we would be happy to provide a desk at our office in Seattle, Washington. We also have informal shared workspace arrangements in NYC and San Francisco.
+</p>
+<p>
+The Tor Project, Inc., is a 501(c)(3) non-profit organization that provides the technical infrastructure for privacy protection over the Internet. With paid staff and contractors of around 30 technologists and operational support people, plus many volunteers all over the world who contribute to our work, the Tor Project is funded in part by government grants and contracts, as well as by individual, foundation, and corporate donations. We only write free and open source software, and we don't believe in software patents.
+</p>
+<p>
+The Tor Project has a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; flexible work schedule; and occasional travel opportunities.
+</p>
+<p>
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+</p>
+<h2>
+To apply:
+</h2>
+<p>
+Please email a PDF of your resume/CV, and a cover letter explaining how your qualifications and experience meet the requirements of this job description, including why you want to work on Tor. Email should be sent to hr at torproject.org with "Browser Developer for Mobile (Android)" in the subject line.
+Link to at least one of your code samples (ideally, more than one and all of which we will presume you are authorized to disclose). No phone calls, please!
+</p>
+
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>

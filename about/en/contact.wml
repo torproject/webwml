@@ -16,9 +16,11 @@
     <li><a href="#support">Support</a></li>
     <li><a href="#irc">IRC</a></li>
     <li><a href="#twitter">Twitter</a></li>
+    <li><a href="#bugs">Bug Tracker</a></li>
+    <li><a href="#security">Security Issues</a></li>
+    <li><a href="#badrelays">Report Bad Relays</a></li>
     <li><a href="#email">Email</a></li>
     <li><a href="#mail">Mailing Address</a></li>
-    <li><a href="#security">Security Issues</a></li>
     </ul>
 
     <a id="support"></a>
@@ -42,8 +44,7 @@
 
     <p>If you have questions about using Tor:</p>
     <ol>
-    <li>Read through the <a href="<page docs/faq>">FAQ</a> and the
-    <a href="<page docs/documentation>">documentation</a>.</li>
+    <li>Check our <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam/Support">support wiki</a> for answers to some of the most frequently asked questions about Tor.</li>
     <li>See if your question is asked or answered on our
     <a href="https://tor.stackexchange.com/">StackExchange page</a>. If
     it isn't, please consider asking it there! Then everybody else can
@@ -74,6 +75,10 @@
       <li><i>#tor-project</i> - Organization discussions unrelated to
       software development. A great place to discuss Tor community events,
       outreach, translation, or website improvements.</li>
+      <li><i>#tor-meeting</i> - The various Tor teams, like the network
+      team, the browser team, the UX team, and the metrics team, hold
+      periodic <a href="http://meetbot.debian.net/tor-meeting/">publicly
+      logged</a> meetings in this channel.</li>
     </ul>
 
     <a id="twitter"></a>
@@ -85,23 +90,50 @@
 	</ul>
     </p>
 
-    <a id="email"></a>
+	<a id="bugs"></a>
+	<h3><a class="anchor" href="#bugs">Bug Tracker</a></h3>
+	<p>You can report bugs other than <a href="#security">security 
+	issues</a> using our <a href="https://trac.torproject.org/projects/tor"
+	>bug tracker</a>. Our 
+	<a href="<page getinvolved/volunteer>">volunteer page</a> has 
+	convenient links to <a href="<page getinvolved/volunteer>#Projects"> 
+	project-related queries</a>.</p>
+    
+	<a id="security"></a>
+	<h3><a class="anchor" href="#security">Security Issues</a></h3>
+	<p>If you've found a security issue in one of our projects or our
+	infrastructure, please email the respective maintainer. You can find
+	their GPG fingerprint/key on our <a
+	href="https://db.torproject.org">developer ldap search page</a>. Due
+	to the many different projects we have, we do not offer a single
+	list for security issues.</p>
+
+	<a id="badrelays"></a>
+	<h3><a class="anchor" href="#badrelays">Report Bad Relays</a></h3>
+	<p>If you find a relay that you think is malicious, misconfigured, 
+	or otherwise broken, please check out our 
+	<a href="https://trac.torproject.org/projects/tor/wiki/doc/ReportingBadRelays">
+	wiki page</a> and <a href="https://blog.torproject.org/how-report-bad-relays"
+	>blog post</a> on how to report it.</p>
+
+
+	<a id="email"></a>
     <h3><a class="anchor" href="#email">Email</a></h3>
     <p>If you have Tor questions, please try to help yourself via the
-    above support venues. Please don't use these contact addresses
+    above support venues. Please don't use this contact address
     for helpdesk or user requests &mdash; we all get too much mail and
     we won't be able to help you there.</p>
 
     <ul>
-      <li><i>donations@torproject.org</i> is for questions and comments about <a
-      href="https://donate.torproject.org">getting money to the developers</a>. More
-      donations means <a href="<page docs/faq>#Funding">more
-      Tor</a>. We're happy to help think about creative ways for you
-      to contribute.</li>
-      <li><i>execdir@torproject.org</i> is for questions and comments about
-      Tor the non-profit corporation: trademark questions, affiliation
-      and coordination, major gifts, contract inquiries, licensing and
-      certification, etc.</li>
+      <li><i>frontdesk@rt.torproject.org</i> is for questions and
+      comments about Tor the non-profit organization: funding and
+      donations, trademark questions,
+      affiliation and coordination, major gifts, contract inquiries, etc.
+      Please note that email is not a great approach for safe
+      communication, so if you need privacy consider reaching us some
+      other way. Also note that the frontdesk is currently handled by
+      volunteers, so please be patient.
+      </li>
     </ul>
 
     <a id="mail"></a>
@@ -112,15 +144,6 @@
 217 1st Ave South #4903<br>
 Seattle, WA 98194 USA<br><br>
 </address>
-
-    <a id="security"></a>
-    <h3><a class="anchor" href="#security">Security Issues</a></h3>
-    <p>If you found a security issue in one of our projects or our
-    infrastructure, please email the respective maintainer. You can find
-    their GPG fingerprint/key on our <a
-    href="https://db.torproject.org">developer ldap search page</a>. Due
-    to the many different projects we have, we do not offer a single
-    list for security issues.
 
   </div>
   <!-- END MAINCOL -->

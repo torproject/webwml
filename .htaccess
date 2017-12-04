@@ -44,6 +44,12 @@ RewriteRule ^tshirt(.*) /getinvolved/tshirt$1 [R=301,L]
 RewriteRule ^research(.*) https://research.torproject.org/ [R=301,L]
 RewriteRule ^getinvolved/research(.*) https://research.torproject.org/ [R=301,L]
 
+# Support
+RewriteRule ^support(.*) https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam/Support [R=301,L]
+
+# Newsletter
+RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=301,L]
+
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/corepeople$1 [R=301,L]
 RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
@@ -81,5 +87,3 @@ RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/priva
 # some external resources (the donate infrastructure in particular) and
 # getting it changed there is apparently hard or something.
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
-
-

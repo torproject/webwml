@@ -114,7 +114,7 @@
     Learn about the <a
     href="<specblob>proposals/001-process.txt">Tor
     proposal process for changing our design</a>, and look over the <a
-    href="<spectree>proposals">existing proposals</a>.
+    href="<specblob>proposals">existing proposals</a>.
     </li>
 
     <li>
@@ -174,9 +174,10 @@
     <a href="https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf">PDF</a> and
     <a href="https://svn.torproject.org/svn/projects/design-paper/tor-design.html">HTML</a>
     versions available.</li>
-    <li>Eight key design changes since the original 2004 paper:
+    <li>Thirteen key design changes since the original 2004 paper:
     <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-1">part one</a>,
-    <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2">part two</a>.
+    <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2">part two</a>,
+    <a href="https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-3">part three</a>.
     </li>
     <li>Our preliminary design to make it harder for large firewalls to
     prevent access to the Tor network is described in
@@ -204,7 +205,7 @@
     and extensions</a></li>
     <li><a href="<specblob>version-spec.txt">How Tor version numbers
     work</a></li>
-    <li><a href="<spectree>proposals">In-progress drafts of
+    <li><a href="<specblob>proposals">In-progress drafts of
     new specifications and proposed changes</a></li>
     </ul></li>
 

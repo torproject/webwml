@@ -4,46 +4,46 @@
 var sources = {};
 var software = {
 'tor': { '_stable': {
-                     'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
-                     'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
+                     'zesty':   [ 'zesty'],
                      },
-         'experimental-0.3.0.x': {
-                     'wheezy':  [ 'wheezy' ],
+         'experimental-0.3.2.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
-                     'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
+                     'zesty':   [ 'zesty'],
                      },
        },
 'tor (from source)': {
          '_stable': {
-                     'wheezy':  [ 'wheezy' ],
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
-                     'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
+                     'zesty':   [ 'zesty'],
                      },
-         'experimental-0.3.0.x': {
-                     'wheezy':  [ 'wheezy' ],
+         'experimental-0.3.2.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
+                     'buster':  [ 'buster' ],
                      'sid':     [ 'sid' ],
-                     'precise': [ 'precise'],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
+                     'zesty':   [ 'zesty'],
                      },
        },
 };

@@ -14,22 +14,21 @@
   <ifneq "$(REDIRECT)" "" "<meta http-equiv="refresh" content="0;url=$(DOCROOT)/$(REDIRECT)">">
   <ifneq "$(REDIRECT_GLOBAL)" "" "<meta http-equiv="refresh" content="0;url=$(REDIRECT_GLOBAL)">">
 
-  # begin WML to generate css/js paths 
+  # begin WML to generate css/js paths
   <ifneq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/$(STYLESHEET)">">
-  <ifeq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/master.css">">
+  <ifeq "$(STYLESHEET)" "" "<link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/master.min.css">">
 
-  <link href="$(DOCROOT)/css/tbbproject.css" rel="stylesheet" type="text/css">
+  <link href="$(DOCROOT)/css/tbbproject.min.css" rel="stylesheet" type="text/css">
   <!--[if lte IE 8]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie8-and-down.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie8-and-down.min.css">
   <![endif]-->
   <!--[if lte IE 7]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie7-and-down.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie7-and-down.min.css">
   <![endif]-->
   <!--[if IE 6]>
-  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie6.css">
+  <link rel="stylesheet" type="text/css" href="$(DOCROOT)/css/ie6.min.css">
   <![endif]-->
-#  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
-  # end WML to generate css/js paths 
+  # end WML to generate css/js paths
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="author" content="The Tor Project, Inc.">
@@ -57,9 +56,9 @@
             my $lang = "$(LANG)";
 
             for my $key (@keys) {
-              my ($dir, $base) = $key =~ m,^(?:(.*)/)?(.*?)$,;  
+              my ($dir, $base) = $key =~ m,^(?:(.*)/)?(.*?)$,;
 
-              # in directory of active link, set class active 
+              # in directory of active link, set class active
               my $class;
               if ((defined $dir) and ($WML_SRC_DIRNAME =~/$dir/) or ($WML_SRC_BASENAME eq $base)) {
                 $class = 'class="active"';
@@ -68,12 +67,12 @@
               }
 
 	            $dir = '.' unless defined $dir;
-                
+
               # translated version
               if (-e "$(DOCROOT)/$dir/$lang/$base.wml") {
                   printf '<li><a '.$class.' href="%s">%s</a></li>'."\n",
                          stripDotSlashs("$(DOCROOT)/$dir/$base.html.$(LANG)"),$navigation{$key};
-              } 
+              }
               # english version
               elsif (-e "$(DOCROOT)/$dir/en/$base.wml") {
               	printf '<li><a '.$class.' href="%s">%s</a></li>'."\n",
@@ -102,14 +101,14 @@ docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml),
               my $val = shift @calltoaction;
               push @keys, $key;
               $calltoaction{$key} = $val;
-            } 
+            }
 
             my $page = $WML_SRC_BASENAME;
             my $lang = "$(LANG)";
             for my $key (@keys) {
-              my ($dir, $base) = $key =~ m,^(?:(.*)/)?(.*?)$,;  
+              my ($dir, $base) = $key =~ m,^(?:(.*)/)?(.*?)$,;
 
-              # in directory, set active 
+              # in directory, set active
               my $class;
               if ((defined $dir) and ($WML_SRC_DIRNAME =~/$dir/) or ($WML_SRC_BASENAME eq $base)) {
               #if ($WML_SRC_BASENAME eq $base) {
@@ -123,7 +122,7 @@ docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml),
               if (-e "$(DOCROOT)/$dir/$lang/$base.wml") {
                   printf '<li class="donate"><a '.$class.' href="%s">%s</a></li>'."\n",
                          stripDotSlashs("$(DOCROOT)/$dir/$base.html.$(LANG)"),$calltoaction{$key};
-              } 
+              }
               # default to english version
               elsif (-e "$(DOCROOT)/$dir/en/$base.wml") {
               	printf '<li class="donate"><a '.$class.' href="%s">%s</a></li>'."\n",
@@ -131,7 +130,7 @@ docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml),
               } else {
                 warn "$WML_SRC_FILENAME has a [page $key] (parses to docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml), but that doesn't exist.";
               }
-            }    
+            }
           }:>
         </ul>
       </div>

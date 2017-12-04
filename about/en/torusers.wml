@@ -57,7 +57,7 @@
     </li>
     <li><strong>They research sensitive topics.</strong>
     There's a wealth of information available online. But perhaps in your country, access to information on AIDS, birth control,
-    <a href="http://www.theepochtimes.com/n2/china-news/tibetan-culture-website-shut-down-in-china-53327.html">Tibetan culture</a>,
+    <a href="https://web.archive.org/web/20120107130815/http://www.theepochtimes.com/n2/china-news/tibetan-culture-website-shut-down-in-china-53327.html">Tibetan culture</a>,
     or world religions is behind a national firewall.
     </li>
 <li><strong>They skirt surveillance.</strong> Even harmless web browsing can sometimes raise red flags for suspicious observers. Using Tor protects your privacy by making it extremely dificult for an observer to correlate the sites you visit with your physical-world identity.
@@ -74,18 +74,15 @@
     tracks Internet prisoners of conscience and jailed or harmed journalists all over the world. They advise
     journalists, sources, bloggers, and dissidents to use Tor to ensure their privacy and safety.
     </li>
-    <li><strong>The US <a href="http://www.ibb.gov/">International Broadcasting Bureau</a></strong>
-    (Voice of America/Radio Free Europe/Radio Free Asia) supports Tor development to help Internet users in countries without
-    safe access to free media.  Tor preserves the ability of persons behind national firewalls or under
-    the surveillance of repressive regimes to obtain a global perspective on controversial topics including democracy,
-    economics and religion.
-    </li>
+	<li>Tor is part of <strong><a href="https://securedrop.org/">SecureDrop</a></strong>, an open-source whistleblower submission system that media organizations can use to securely accept documents from and communicate with anonymous sources. <a href="https://securedrop.org/directory">Many news organizations</a> use SecureDrop, including the Associated Press, The Washington Post, The New York Times, The CBC, ProPublica, Dagbladet, and more.
+	</li>
+	<li>Tor preserves the ability of people behind national firewalls or under the surveillance of repressive regimes to obtain a global perspective on controversial topics including democracy, economics and religion.
+	</li>
     <li><strong>Citizen journalists in China</strong> use Tor to write about
     local events to encourage social change and political reform.
     </li>
-    <li><strong>Citizens and journalists in <a
-    href="http://www.rsf.org/rubrique.php3?id_rubrique=554">Internet black
-    holes</a></strong> use Tor to research state propaganda and opposing
+    <li><strong>Citizens and journalists in Internet black
+    holes</strong> use Tor to research state propaganda and opposing
     viewpoints, to file stories with non-State controlled media, and to
     avoid risking the personal consequences of intellectual curiosity.
     </li>
@@ -180,7 +177,7 @@
     <li>
     Tor can help activists avoid government or corporate censorship that hinders organization.
     In one such case, a
-    <a href="http://www.cbc.ca/canada/story/2005/07/24/telus-sites050724.html">Canadian ISP blocked access to a union website used by their own employees</a>
+    <a href="https://web.archive.org/web/20071015142759/http://www.cbc.ca:80/canada/story/2005/07/24/telus-sites050724.html">Canadian ISP blocked access to a union website used by their own employees</a>
     to help organize a strike.
     </li>
     </ul>
@@ -257,7 +254,7 @@
     <hr>
     <ul>
     <li>Frequently we hear about bloggers who are
-    <a href="http://online.wsj.com/public/article/SB112541909221726743-Kl4kLxv0wSbjqrkXg_DieY3c8lg_20050930.html">sued</a> or
+    <a href="https://web.archive.org/web/20060910122231/http://online.wsj.com/public/article/SB112541909221726743-Kl4kLxv0wSbjqrkXg_DieY3c8lg_20050930.html">sued</a> or
     <a href="http://www.usatoday.com/money/workplace/2005-06-14-worker-blogs-usat_x.htm">fired</a>
     for saying perfectly legal things online, in their blog.</li>
     <li>We recommend the <a href="http://www.eff.org/issues/bloggers/legal">EFF Legal Guide for Bloggers</a>.</li>
@@ -280,17 +277,17 @@
     operations, as well as protecting themselves from physical harm.
     </li>
 
-    <li><strong>Hidden services:</strong>
-    When the Internet was designed by DARPA, its primary purpose was to be able to facilitate distributed, robust communications in case of
-    local strikes.  However, some functions must be centralized, such as command and control sites.  It's the nature of the Internet protocols to
-    reveal the geographic location of any server that is reachable online.  Tor's hidden services capacity allows military command and
-    control to be physically secure from discovery and takedown.
-    </li>
-    <li><strong>Intelligence gathering:</strong>
-    Military personnel need to use electronic resources run and monitored by insurgents. They do not want the webserver logs on an insurgent website
-    to record a military address, thereby revealing the surveillance.
-    </li>
-    </ul>
+    <li><strong>Onion services:</strong>
+	When the Internet was designed by DARPA, its primary purpose was to be able
+	to facilitate distributed, robust communications in case of local strikes.
+	However, some functions must be centralized, such as command and control
+	sites.  It's the nature of the Internet protocols to reveal the geographic
+	location of any server that is reachable online.  Tor's onion services
+	capacity allows military command and control to be physically secure from
+	discovery and takedown.  </li> <li><strong>Intelligence gathering:</strong>
+	Military personnel need to use electronic resources run and monitored by
+	insurgents. They do not want the webserver logs on an insurgent website to
+	record a military address, thereby revealing the surveillance.  </li> </ul>
 
     <a name="itprofessionals"></a>
     <h2><a class="anchor" href="#itprofessionals">IT Professionals use Tor</a></h2>
@@ -318,8 +315,8 @@
     <a href="http://www.edge.org/q2006/q06_4.html#kelly">con</a>, and <a
     href="http://web.mit.edu/gtmarx/www/anon.html">academic</a>) over anonymity. The Tor project is based on the belief that anonymity is not
     just a good idea some of the time &mdash; it is a requirement for a free and functioning society.  The <a href="http://www.eff.org/issues/anonymity">EFF maintains a good overview</a> of how anonymity was crucial to the founding of the United States.  Anonymity is recognized by US courts as a fundamental and important right. In fact, governments mandate anonymity in many cases themselves:
-    <a href="https://www.crimeline.co.za/">police tip lines</a>,
-    <a href="http://www.texasbar.com/Content/ContentGroups/Public_Information1/Legal_Resources_Consumer_Information/Family_Law1/Adoption_Options.htm#sect2">adoption services</a>,
+    <a href="https://www.crimeline.co.za/">police tip lines</a>, 
+    <a href="https://en.wikipedia.org/wiki/Closed_adoption">some adoption services</a>,
     <a href="http://writ.news.findlaw.com/aronson/20020827.html">police officer identities</a>,
     and so forth. It would be impossible to rehash the entire anonymity debate here &mdash; it is too large an issue with too many nuances, and there
     are plenty of other places where this information can be found. We do have a <a href="<page docs/faq-abuse>">Tor abuse</a> page describing some of

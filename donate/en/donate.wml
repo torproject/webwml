@@ -1,0 +1,7 @@
+## translation metadata
+# Revision: $Revision$
+# Status: obsolete
+
+#include "head.wmi" TITLE="Redirecting" REDIRECT="https://donate.torproject.org"
+
+#include <foot.wmi>

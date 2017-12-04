@@ -14,9 +14,8 @@
 # branch to your personal webwml repository, open a trac ticket in the
 # website component, and set it to needs_review.
 
-export STABLETAG=tor-0.3.0.8
-export DEVTAG=tor-0.3.1.3-alpha
-
+export STABLETAG=tor-0.3.1.9
+export DEVTAG=tor-0.3.2.6-alpha
 
 WMLBASE=.
 SUBDIRS=docs eff projects press about download getinvolved donate docs/torbutton

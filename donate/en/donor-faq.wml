@@ -88,7 +88,7 @@
           </li>
           <li>
             <p><strong>I would like to know more about how Tor works,
-            what hidden services are, or how to run a relay.</strong></p>
+            what onion services are, or how to run a relay.</strong></p>
             <p><a href="<page docs/faq>"
             target="_blank">This Tor Project FAQ</a> has answers to all
             those questions, and more.</p>

@@ -12,6 +12,7 @@
         'docs/documentation'          , 'Documentation',
         'press/press'                 , 'Press',
         '<blog>'                      , 'Blog',
+        '<newsletter>'                , 'Newsletter',
 	'about/contact'			, 'Contact',
     );
     my @donatenav = (

@@ -14,7 +14,7 @@
     <ol>
     <li>Please consider <a href="<page docs/tor-doc-relay>">running
     a relay</a> to help the Tor network grow.</li>
-    <li>Tell your friends! Get them to run relays. Get them to run hidden
+    <li>Tell your friends! Get them to run relays. Get them to run onion
     services. Get them to tell their friends.</li>
     <li>If you like Tor's goals, please <a href="<page donate/donate>">take a moment
     to donate to support further Tor development</a>. We're also looking
@@ -55,9 +55,8 @@
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays">tor-relays</a>, <a
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev">tor-dev</a>, or <a
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tbb-dev">tbb-dev</a>,
-    and summarize noteworthy exchanges into articles for <a
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-news">Tor
-    Weekly News</a>.</li>
+    and summarize noteworthy changes into articles for our blog and <a
+    href="https://newsletter.torproject.org/">newsletter</a>.</li>
     <li>Create a presentation that can be used for various user group
 meetings around the world.</li>
     <li>Create a video about the positive uses of Tor, what Tor is,
@@ -197,14 +196,6 @@ meetings around the world.</li>
         <td>JavaScript</td>
         <td>Light</td>
         <td>sukhe</td>
-      </tr>
-
-      <tr>
-        <td><a href="#project-flash-proxy">Flash Proxy</a></td>
-        <td>Client Add-on</td>
-        <td>Python, JavaScript, Go</td>
-        <td>Light</td>
-        <td>dcf, infinity0, Arlo Breault</td>
       </tr>
 
       <tr>
@@ -387,12 +378,12 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#improveHiddenServices">Help improve Tor hidden services</a></i><br />
+    <i><a href="#improveOnionServices">Help improve Tor onion services</a></i><br />
     <i><a href="#torFuzzing">Fuzzing coverage of Tor</a></i><br />
     <i><a href="#relayCryptoParallelism">Relay crypto parallelism</a></i><br />
     <i><a href="#anonymousLocalCountStatistics">Anonymous local count statistics</a></i><br />
     <i><a href="#improveSocks5Variant">Improved SOCKS5 variant</a></i><br />
-    <i><a href="#hiddenServiceCryptoParallelism">Hidden service crypto parallelism</a></i><br />
+    <i><a href="#onionServiceCryptoParallelism">Onion service crypto parallelism</a></i><br />
     <i><a href="#supportAllDNS">Support all kinds of DNS in Tor</a></i><br />
     <i><a href="#improveIpv6Support">Improve IPv6 support</a></i>
     </p>
@@ -431,7 +422,7 @@ meetings around the world.</li>
     </p>
 
     <a id="project-nyx"></a>
-    <h3><a href="https://www.atagar.com/arm/">Nyx</a> (<a
+    <h3><a href="https://nyx.torproject.org/">Nyx</a> (<a
     href="https://gitweb.torproject.org/nyx.git">code</a>, <a
     href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FNyx&order=priority">bug
     tracker</a>)</h3>
@@ -511,17 +502,6 @@ meetings around the world.</li>
 
     <p>
     TorBirdy is Torbutton for Thunderbird and related Mozilla mail clients.
-    </p>
-
-    <a id="project-flash-proxy"></a>
-    <h3><a href="https://crypto.stanford.edu/flashproxy/">Flash Proxy</a> (<a
-    href="https://gitweb.torproject.org/flashproxy.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Archived%2FFlashproxy&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    Pluggable transport using proxies running in web browsers to defeat
-    address-based blocking.
     </p>
 
     <a id="project-shadow"></a>
@@ -785,28 +765,29 @@ meetings around the world.</li>
 
     <ol>
 
-    <a id="improveHiddenServices"></a>
+	#Keep old ids in case of incoming links.
+    <a id="improveOnionServices"></a><a id="improveHiddenServices"></a>
     <li>
-    <b>Help improve Tor hidden services</b>
+    <b>Help improve Tor onion services</b>
     <br>
     Language: <i>C</i>
     <br>
     Likely Mentors: <i>George (asn), David Goulet (dgoulet)</i>
     <br><br>
     <p>
-The hidden services team is busy implementing <a
+The onion services team is busy implementing <a
 href="https://gitweb.torproject.org/torspec.git/tree/proposals/224-rend-spec-ng.txt">proposal
-224</a> but we are always open to mentoring fun and exciting hidden
+224</a> but we are always open to mentoring fun and exciting onion
 service projects.
     </p>
 
     <p>
-In the past, we've mentored a wide variety of projects related to hidden
+In the past, we've mentored a wide variety of projects related to onion
 services, ranging from <a
 href="https://lists.torproject.org/pipermail/tor-dev/2016-April/010832.html">onion
 search engines</a>, <a
 href="https://lists.torproject.org/pipermail/tor-talk/2015-May/037966.html">to
-scaling techniques for hidden services</a>,
+scaling techniques for onion services</a>,
 and also various approaches
 of making onion services more <a
 href="https://lists.torproject.org/pipermail/tor-dev/2012-June/003588.html">usable</a>
@@ -912,24 +893,25 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/12
     </p>
     </li>
 
-    <a id="hiddenServiceCryptoParallelism"></a>
+	#Keep old ids in case of incoming links.
+    <a id="onionServiceCryptoParallelism"></a><a id="hiddenServiceCryptoParallelism"></a>
     <li>
-    <b>Hidden service crypto parallelism</b>
+    <b>Onion service crypto parallelism</b>
     <br>
     Likely Mentors: <i>Nick (nickm), David Goulet (dgoulet)</i>
     <br><br>
     <p>
-Hidden services, hidden service clients, hidden service directories,
+Onion services, onion service clients, onion service directories,
 and introduction points all need to do a few public-key operations as
 they operate.  But right now, these operations are all done on the
 main thread.  It would be good to have these run across multiple cores.
     </p>
 
     <p>
-This could probably be done in a way similar to how we currently hand
+This could probably be done in a way similar to how we currently handle
 circuit extension handshakes in onion.c and cpuworker.c, but we'd need
-to extend the state machine for hidden services to add an additional
-state.  It could help hidden services operate much more efficiently.
+to extend the state machine for onion services to add an additional
+state.  It could help onion services operate much more efficiently.
     </p>
 
     <p>
@@ -1080,13 +1062,13 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
 
     <a id="ahmiaSearch"></a>
     <li>
-    <b>Ahmia - Hidden Service Search</b>
+    <b>Ahmia - Onion Service Search</b>
     <br>
     Language: <i>Python, Django</i>
     <br>
     Likely Mentors: <i>Juha Nurmi (numes), George (asn)</i>
     <p>
-    Ahmia is open-source search engine software for Tor hidden service deep
+    Ahmia is open-source search engine software for Tor onion service deep
     dark web sites. You can test the running search engine at ahmia.fi. For
     more information see our <a
     href="https://blog.torproject.org/category/tags/ahmiafi">blog post about
@@ -1095,7 +1077,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
 
     <p>
     Ahmia is a working search engine that indexes, searches, and catalogs
-    content published on Tor Hidden Services. Furthermore, it is an environment
+    content published on Tor Onion Services. Furthermore, it is an environment
     to share meaningful insights, statistics, insights, and news about the Tor
     network itself. In this context, there is a lot of work to do.
     </p>
@@ -1118,7 +1100,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
           <li>Remove these sites from the search results</li>
         </ul>
       </li>
-      <li>Add hidden services funtion (very important)<br />
+      <li>Add onion services function (very important)<br />
         <ul>
           <li>You can add onions using HTML form</li>
           <li>Call the crawler immidiately when a new site is added</li>
@@ -1166,7 +1148,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     href="/press/presskit/2008-12-19-roadmap-full.pdf">Tor development
     roadmap</a> for more ideas, or just try out Tor and Tor Browser,
     and find out what you think needs fixing.
-    Some of the <a href="<spectree>proposals">current proposals</a>
+    Some of the <a href="<specblob>proposals">current proposals</a>
     might also be short on developers.
     </li>
 

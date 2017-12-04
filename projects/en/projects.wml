@@ -24,10 +24,10 @@ package requires no installation. Just extract it and run.</p>
 </div></div>
 
 <div class="projectbox">
-<a href="https://www.atagar.com/arm/"><img class="icon"
-src="$(IMGROOT)/icon-Arm.jpg" alt="Arm Icon" width="75" height="75"></a>
+<a href="https://nyx.torproject.org/"><img class="icon"
+src="$(IMGROOT)/icon-Nyx.jpg" alt="Nyx Icon" width="75" height="75"></a>
 <div class="projectdesc"><div class="name"><a href="<page
-projects/arm>">Arm</a></div> <p>Arm is a terminal status monitor for Tor,
+projects/nyx>">Nyx</a></div> <p>Nyx is a terminal status monitor for Tor,
 intended for command-line aficionados and ssh connections. This functions
 much like top does for system usage, providing real time information on
 Tor's resource utilization and state.</p> </div></div>

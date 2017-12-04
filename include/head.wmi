@@ -6,16 +6,21 @@
 #use "versions.wmi"
 #use "navigation.wmi"
 
+<define-tag viewport whitespace=delete>
+<meta name="viewport" content="width\=device-width, initial-scale=1">
+</define-tag>
+
+
 <!DOCTYPE html>
  <html>
  <head>
 
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <viewport>
    <meta name="author" content="The Tor Project, Inc.">
-   <meta name="description" content="Tor is a free software that prevents people from learning your location or browsing habits by letting you communicate anonymously on the Internet. It also helps you bypass censorship online. If you can't open the website, email gettor@torproject.org for instruction on how to get Tor Browser.">
-   <meta name="keywords" content="anonymity online, tor, tor project, censorship circumvention, traffic analysis, anonymous communications research">
+   <meta name="description" content="The Tor Project's free software protects your privacy online. Site blocked? Email [mailto:gettor@torproject.org] for help downloading Tor Browser.">
+   <meta name="keywords" content="tor, tor project, tor browser, avoid censorship, traffic analysis, anonymous communications, privacy, avoid surveillance, online security, anonymous online, private browsing, anonymity online, online privacy, protect privacy, private mac browser, private windows browser, private android browser, linux browser, anonymity network, tor network, onion router, onion browser">
    <meta property="og:image" content="https://www.torproject.org/images/tor-logo.jpg">
 {#meta#}
 
@@ -27,22 +32,42 @@
 
    # begin WML to generate css/js paths
    <ifneq "$(STYLESHEET)" "" "<link href="$(DOCROOT)/$(STYLESHEET)" rel="stylesheet">">
-   <ifeq "$(STYLESHEET)" "" "<link href="$(DOCROOT)/css/master.css" rel="stylesheet">">
+   <ifeq "$(STYLESHEET)" "" "<link href="$(DOCROOT)/css/master.min.css" rel="stylesheet">">
+   <ifeq "$(DONATION_BANNER)" "true" "<link href="$(DOCROOT)/css/donation-banner.css" rel="stylesheet">">
 
-   #<link href="css/master.css" rel="stylesheet">
+   #<link href="css/master.min.css" rel="stylesheet">
    <!--[if lte IE 8]>
-   <link href="$(DOCROOT)/css/ie8-and-down.css" rel="stylesheet">
+   <link href="$(DOCROOT)/css/ie8-and-down.min.css" rel="stylesheet">
    <![endif]-->
    <!--[if lte IE 7]>
-   <link href="$(DOCROOT)/css/ie7-and-down.css" rel="stylesheet">
+   <link href="$(DOCROOT)/css/ie7-and-down.min.css" rel="stylesheet">
    <![endif]-->
    <!--[if IE 6]>
-   <link href="$(DOCROOT)/css/ie6.css" rel="stylesheet">
+   <link href="$(DOCROOT)/css/ie6.min.css" rel="stylesheet">
    <![endif]-->
- #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
+   #  <script language="javascript" type="text/javascript" src="$(DOCROOT)/global.js"></script>
    # end WML to generate css/js paths
 </head>
 <body>
+<!-- Insert donation banner if flag is true -->
+<ifeq "$(DONATION_BANNER)" "true" "
+    <div id="banner-wrapper">
+        <div id="banner-contents-container">
+            <div id="banner-tagline"><span><noscript>Protecting the Privacy of Millions Every Day</noscript></span></div>
+            <div id="banner-slogan"><span>Tor: Powering Digital Resistance</span></div>
+            <div id="banner-mozilla"><span>Give today and Mozilla will match your gift!</span></div>
+            <a id="banner-donate-button-link"
+               href="https://www.torproject.org/donate/donate-pdr-hp">
+                <div id="banner-donate-button">
+                    <span>Donate Now!&#160;&#9654;</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="banner-spacer"></div>
+    <script src="js/donation_banner.js"></script>
+
+">
 <div id="wrap">
   <div id="header">
     <h1 id="logo"><a href="<page index>">Tor</a></h1>

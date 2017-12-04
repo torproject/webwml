@@ -1,0 +1,40 @@
+table.people td {
+  vertical-align: top;
+  padding: 0px;
+  padding-bottom: 15px;
+  width: 50%;
+}
+
+table.people tr td:first-child {
+  padding-right: 10px;
+}
+
+.photo {
+  width: 145px;
+  float: left;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 4px;
+  padding: 0px;
+  float: right;
+}
+
+.field {
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  color: rgb(50, 50, 50);
+}
+
+.description {
+  font-family: "Montserrat";
+  font-size: 0.9rem;
+  padding-top: 15px;
+}
+
+.description a, .field a, .name a { 
+  font-weight: bold;
+  text-decoration: none;
+}
+

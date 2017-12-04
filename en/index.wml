@@ -2,7 +2,8 @@
 # Revision: $Revision$
 # Translation-Priority: 1-high
 
-#include "head.wmi" TITLE="Tor Project: Anonymity Online" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Tor Project | Privacy Online" CHARSET="UTF-8" DONATION_BANNER="true"
+
 
 <div id="home">
     <div id="content" class="clearfix">
@@ -90,9 +91,9 @@
               -->
               <td>
                 <div class="project">
-                <a href="https://www.atagar.com/arm/"><img
-                src="$(IMGROOT)/icon-Arm.jpg" alt="Arm Icon"></a>
-                <h3><a href="https://www.atagar.com/arm/">Arm</a></h3>
+                <a href="https://nyx.torproject.org/"><img
+                src="$(IMGROOT)/icon-Nyx.jpg" alt="Nyx Icon"></a>
+                <h3><a href="https://nyx.torproject.org/">Nyx</a></h3>
                 <p>Terminal (command line) application for monitoring
                 and configuring Tor.</p>
                 </div>
@@ -151,6 +152,9 @@
       </div>
       <!-- END MAINCOL -->
       <div id="sidecol">
+        <div class="joblink">
+          <a href="<page about/jobs>">We're hiring! &raquo;</a>
+        </div>
       <!-- BLOG WIDGET -->
 #include <blog-recent.wmi>
       <!-- END BLOG WIDGET -->
