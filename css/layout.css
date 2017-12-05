@@ -55,7 +55,8 @@ body {
 #nav {
   position: absolute;
   top: 30px;
-  left: 130px; float: right;
+  left: 115px;
+  float: right;
 }
 
 		#nav ul {
