@@ -22,7 +22,7 @@
     <p>Even though Tor Browser comes with a regular Tor, it will only run
     as long as you keep Tor Browser open. The following instructions will
     set up Tor without graphical interface or a browser. Many people prefer
-    this over TBB when they host hidden services or relay traffic for other Tor
+    this over TBB when they host onion services or relay traffic for other Tor
     users.  <hr>
     <a id="installing"></a>
     <h2><a class="anchor" href="#installing">Step One: Install a package manager</a></h2>

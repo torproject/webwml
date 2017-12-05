@@ -19,6 +19,7 @@ form#makeDonation {
     <li><a href="#bitcoin">Bitcoin</a></li>
     <li><a href="<page donate/donate-amazon>">Amazon Payments</a></li>
     <li><a href="https://smile.amazon.com/ch/20-8096820">Amazon Smile</a></li>
+    <li><a href="https://givingassistant.org/np#tor-project-inc">Giving Assistant</a></li>
     <li><a href="#eubanks">EU Bank Transfer</a></li>
     <li><a href="#cash">Checks or Money Orders</a></li>
     <li><a href="#stock">Donate Stock</a></li>
@@ -112,13 +113,27 @@ form#makeDonation {
       </p>
     </div>
 <!-- END AMAZON -->
+<!-- BEGIN GIVING -->
+   <a id="giving"></a>
+   <div class="hundred toptwenty">
+     <div class="dbox donate">
+       <h3>Donate via Giving Assistant</h3>
+       <p>Giving Assistant helps you donate a percentage of your cash back earnings to us with every purchase you make at 3,000+ popular online retailers.</p>
+       <p>
+          <strong>
+		<a href="https://givingassistant.org/np#tor-project-inc">Use Giving Assistant to save money and support the Tor Project</a>
+	  </strong>
+       </p>
+    </div>
+  </div>
+
+<!-- END GIVING -->
 <!-- BEGIN TRANSFER -->
     <a id="eubanks"></a>
     <div class="">
        <h3 style="margin-top:20px;">Donate via European Bank Transfer</h3>
        <p>For European bank transfers, we have an arrangement with
-        the Renewable Freedom Foundation to provide
-<a href="http://www.solicitorsjournal.com/news/private-client/charities/gifts-foreign-charities-are-tax-deductible-ecj-rules">tax-deductible</a>
+        the Renewable Freedom Foundation to provide tax-deductible
         donations for Europeans. They will issue a donation receipt <a
         href="https://renewablefreedom.org/contact/">upon request</a>. The
         account information is as follows:</p>

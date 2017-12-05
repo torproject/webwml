@@ -72,16 +72,16 @@
     <h2>How can I run my own private TorDNSEL?</h2>
 
     <p>You can learn all about the code for TorDNSEL by visiting the <a
-    href="http://p56soo2ibjkx23xo.onion/">official hidden service</a> through
+    href="http://p56soo2ibjkx23xo.onion/">official onion service</a> through
     Tor.</p>
 
     <p>You can download the latest source release from the <a
-    href="http://p56soo2ibjkx23xo.onion/dist/tordnsel-0.0.6.tar.gz">hidden
+    href="http://p56soo2ibjkx23xo.onion/dist/tordnsel-0.0.6.tar.gz">onion
     service</a> or from a
     <a href="/tordnsel/dist/tordnsel-0.0.6.tar.gz">
     local mirror</a>. It's
     probably wise to check out the current revision from the darcs repository
-    hosted on the aforementioned hidden service.</p>
+    hosted on the aforementioned onion service.</p>
 
     <p>For more information or to report something useful, please email
 the

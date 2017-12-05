@@ -13,7 +13,7 @@
 <define-tag tbbrepo whitespace=delete>https://gitweb.torproject.org/torbrowser.git/blob_plain/HEAD:</define-tag>
 <define-tag specblob whitespace=delete>https://gitweb.torproject.org/torspec.git/tree/</define-tag>
 <define-tag doxygen whitespace=delete>https://doxygen.torproject.org/</define-tag>
-<define-tag donatefaq whitespace=delete>​https://donate.torproject.org/donor-faq</define-tag>
+<define-tag donatefaq whitespace=delete>https://donate.torproject.org/donor-faq</define-tag>
 
 
 #  Xinclude "locallinks.wmi"
