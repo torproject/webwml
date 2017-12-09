@@ -24,6 +24,7 @@
 # *** tor browser beta/alpha ***
 <define-tag version-torbrowserbundlebeta-all whitespace=delete>7.5a8</define-tag>
 <define-tag releasedate-torbrowserbundlebeta-all whitespace=delete>2017-11-16</define-tag>
+<define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.15</define-tag>
 
 # If all platforms are on the same version, you only need to update
 # version-torbrowserbundlebeta-all and releasedate-torbrowserbundlebeta-all
@@ -37,8 +38,6 @@
 <let releasedate-torbrowserbundlelinux64beta=releasedate-torbrowserbundlebeta-all />
 <let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
-
-<define-tag version-torbrowsersandboxlinux whitespace=delete>0.0.15</define-tag>
 
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
