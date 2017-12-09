@@ -4,8 +4,8 @@
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.0</define-tag>
 
 # *** tor browser stable ***
-<define-tag version-torbrowserbundle-all whitespace=delete>7.0.10</define-tag>
-<define-tag releasedate-torbrowserbundle-all whitespace=delete>2017-11-14</define-tag>
+<define-tag version-torbrowserbundle-all whitespace=delete>7.0.11</define-tag>
+<define-tag releasedate-torbrowserbundle-all whitespace=delete>2017-12-09</define-tag>
 
 # If all platforms are on the same version, you only to update
 # version-torbrowserbundle-all and releasedate-torbrowserbundle-all
@@ -18,7 +18,7 @@
 <let version-torbrowserbundleosx64=version-torbrowserbundle-all />
 <let releasedate-torbrowserbundleosx64=releasedate-torbrowserbundle-all />
 
-<define-tag version-win32-stable whitespace=delete>0.3.1.8</define-tag>
+<define-tag version-win32-stable whitespace=delete>0.3.1.9</define-tag>
 <define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundle>/tor-win32-<version-win32-stable>.zip</define-tag>
 
 # *** tor browser beta/alpha ***
