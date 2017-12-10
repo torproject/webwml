@@ -204,8 +204,8 @@ using technology?</a></li>
 
     <p>But the real answer is to implement application-level auth systems,
     to let in well-behaving users and keep out badly-behaving users. This
-    needs to be based on some property of the human (such as a password he
-    knows), not some property of the way his packets are transported. </p>
+    needs to be based on some property of the human (such as a password they
+    know), not some property of the way their packets are transported. </p>
 
     <p>Of course, not all IRC networks are trying to ban Tor nodes. After
     all, quite a few people use Tor to IRC in privacy in order to carry

@@ -2453,8 +2453,8 @@ exit
     policies are propagated to Tor clients via the directory, so clients
     will automatically avoid picking exit relays that would refuse to
     exit to their intended destination. This way each relay can decide
-    the services, hosts, and networks he wants to allow connections to,
-    based on abuse potential and his own situation. Read the FAQ entry
+    the services, hosts, and networks it wants to allow connections to,
+    based on abuse potential and its own situation. Read the FAQ entry
 on
     <a href="<page docs/faq-abuse>#TypicalAbuses">issues you might
 encounter</a>
@@ -2931,14 +2931,14 @@ Yes, you do get better anonymity against some attacks.
     </p>
     <p>
 The simplest example is an attacker who owns a small number of Tor relays.
-He will see a connection from you, but he won't be able to know whether
+They will see a connection from you, but they won't be able to know whether
 the connection originated at your computer or was relayed from somebody else.
     </p>
     <p>
 There are some cases where it doesn't seem to help: if an attacker can
-watch all of your incoming and outgoing traffic, then it's easy for him
+watch all of your incoming and outgoing traffic, then it's easy for them
 to learn which connections were relayed and which started at you. (In
-this case he still doesn't know your destinations unless he is watching
+this case they still don't know your destinations unless they are watching
 them too, but you're no better off than if you were an ordinary client.)
     </p>
     <p>
@@ -2948,7 +2948,7 @@ signal to an attacker that you place a high value on your anonymity.
 Second, there are some more esoteric attacks that are not as
 well-understood or well-tested that involve making use of the knowledge
 that you're running a relay -- for example, an attacker may be able to
-"observe" whether you're sending traffic even if he can't actually watch
+"observe" whether you're sending traffic even if they can't actually watch
 your network, by relaying traffic through your Tor relay and noticing
 changes in traffic timing.
     </p>
@@ -3475,7 +3475,7 @@ keys,
     locations, exit policies, and so on. So unless the adversary can
 control
     a majority of the directory authorities (as of 2012 there are 8
-    directory authorities), he can't trick the Tor client into using
+    directory authorities), they can't trick the Tor client into using
     other Tor relays.
     </p>
 
@@ -4213,7 +4213,7 @@ only solution is to have no opinion.
     Like all anonymous communication networks that are fast enough for web
     browsing, Tor is vulnerable to statistical "traffic confirmation"
     attacks, where the adversary watches traffic at both ends of a circuit
-    and confirms his guess that they're communicating. It would be really
+    and confirms their guess that those endpoints are communicating. It would be really
     nice if we could use cover traffic to confuse this attack. But there
     are three problems here:
     </p>

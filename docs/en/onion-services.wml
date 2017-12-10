@@ -107,9 +107,9 @@
     the same set of <a
     href="<wikifaq>#Whatsthisaboutentryguardformerlyknownashelpernodes">entry
     guards</a> when creating new circuits. Otherwise an attacker
-    could run his own relay and force an onion service to create an arbitrary
+    could run their own relay and force an onion service to create an arbitrary
     number of circuits in the hope that the corrupt relay is picked as entry
-    node and he learns the onion server's IP address via timing analysis. This
+    node and they learn the onion server's IP address via timing analysis. This
     attack was described by &Oslash;verlier and Syverson in their paper titled
     <a href="http://freehaven.net/anonbib/#hs-attack06">Locating Hidden
     Servers</a>.
