@@ -287,7 +287,7 @@ things?</a></li>
     <hr>
 
     <a id="General"></a>
-    <h2><a class="anchor">General:</a></h2>
+    <h2><a class="anchor" href="#General">General:</a></h2>
 
     <a id="WhatIsTor"></a>
     <h3><a class="anchor" href="#WhatIsTor">What is Tor?</a></h3>
@@ -889,7 +889,7 @@ executive
     <hr>
 
     <a id="CompilationAndInstallation"></a>
-    <h2><a class="anchor">Compilation And Installation:</a></h2>
+    <h2><a class="anchor" href="#CompilationAndInstallation">Compilation And Installation:</a></h2>
 
     <a id="HowUninstallTor"></a>
     <h3><a class="anchor" href="#HowUninstallTor">How do I uninstall
@@ -1025,7 +1025,7 @@ bundle that includes Tor?</a></h3>
 <hr>
 
 <a id="TBBGeneral"></a>
-<h2><a class="anchor">Tor Browser (general):</a></h2>
+<h2><a class="anchor" href="#TBBGeneral">Tor Browser (general):</a></h2>
 
 <a id="TBBFlash"></a>
 <h3><a class="anchor" href="#TBBFlash">Why can't I view videos on
@@ -1380,7 +1380,7 @@ href="http://www.crowdstrike.com/community-tools/index.html#tool-79">proposed
 <hr>
 
 <a id="TBB3.x"></a>
-<h2><a class="anchor">Tor Browser (3.x and later):</a></h2>
+<h2><a class="anchor" href="#TBB3.x">Tor Browser (3.x and later):</a></h2>
     <a id="WhereDidVidaliaGo"></a>
     <h3><a class="anchor" href="#WhereDidVidaliaGo">Where did the world map
     (Vidalia) go?</a></h3>
@@ -1510,7 +1510,7 @@ href="http://www.crowdstrike.com/community-tools/index.html#tool-79">proposed
 <hr>
 
 <a id="AdvancedTorUsage"></a>
-<h2><a class="anchor">Advanced Tor usage:</a></h2>
+<h2><a class="anchor" href="#AdvancedTorUsage">Advanced Tor usage:</a></h2>
 
 <a id="torrc"></a>
 <h3><a class="anchor" href="#torrc">I'm supposed to "edit my torrc".
@@ -2016,7 +2016,7 @@ from the source code release tor-0.2.4.16-rc is:
     <hr>
 
     <a id="RunningATorRelay"></a>
-    <h2><a class="anchor">Running a Tor relay:</a></h2>
+    <h2><a class="anchor" href="#RunningATorRelay">Running a Tor relay:</a></h2>
 
     <a id="HowDoIDecide"></a>
     <h3><a class="anchor" href="#HowDoIDecide">How do I decide if I should
@@ -3000,7 +3000,7 @@ diversity,
 
 # Leaving in old ids to accomodate incoming links.
 <a id="TorOnionServices"></a><a id="TorHiddenServices"></a>
-<h2><a class="anchor">Tor onion services:</a></h2>
+<h2><a class="anchor" href="#TorOnionServices">Tor onion services:</a></h2>
 
     <a id="AccessOnionServices"></a><a id="AccessHiddenServices"></a>
     <h3><a class="anchor" href="#AccessOnionServices">How do I access
@@ -3066,7 +3066,7 @@ diversity,
     <hr>
 
     <a id="Development"></a>
-    <h2><a class="anchor">Development:</a></h2>
+    <h2><a class="anchor" href="#Development">Development:</a></h2>
 
     <a id="VersionNumbers"></a>
     <h3><a class="anchor" href="#VersionNumbers">What do these weird
@@ -3245,7 +3245,7 @@ diversity,
     <hr>
 
     <a id="AnonymityAndSecurity"></a>
-    <h2><a class="anchor">Anonymity And Security:</a></h2>
+    <h2><a class="anchor" href="#AnonymityAndSecurity">Anonymity And Security:</a></h2>
 
     <a id="WhatProtectionsDoesTorProvide"></a>
     <h3><a class="anchor" href="#WhatProtectionsDoesTorProvide">What
@@ -3777,7 +3777,7 @@ Perhaps even run separate Tor clients for these applications.
     <hr>
 
     <a id="AlternateDesigns"></a>
-    <h2><a class="anchor">Alternate designs:</a></h2>
+    <h2><a class="anchor" href="#AlternateDesigns">Alternate designs:</a></h2>
 
     <a id="EverybodyARelay"></a>
     <h3><a class="anchor" href="#EverybodyARelay">You should make every
@@ -4251,7 +4251,7 @@ only solution is to have no opinion.
     <hr>
 
     <a id="Abuse"></a>
-    <h2><a class="anchor">Abuse:</a></h2>
+    <h2><a class="anchor" href="#Abuse">Abuse:</a></h2>
 
     <a id="Criminals"></a>
     <h3><a class="anchor" href="#Criminals">Doesn't Tor enable criminals
