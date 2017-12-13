@@ -767,7 +767,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=E4ACD3975427A5BA8450A1BEB01C8B006DA77FAA"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#sukhe">Sukhbir Singh</a></div>
       <div class="field"><b>IRC:</b> sukhe</div>
-      <div class="description"><a href="https://trac.torproject.org/projects/tor/wiki/torbirdy">TorBirdy</a> and <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a> developer. Volunteer on the <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam">Community Team</a>.</div>
+      <div class="description"><a href="https://trac.torproject.org/projects/tor/wiki/torbirdy">TorBirdy</a> and <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a> developer. Member of the <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam">Community Team</a>.</div>
     </td>
   </tr>
 
