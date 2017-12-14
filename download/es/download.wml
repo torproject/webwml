@@ -1,0 +1,341 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#<!-- ATTENTION TRANSLATOR -->
+#<!-- You MUST copy '/include/lang.wmi' along with this file! -->
+
+#<!-- TBB DEFAULT LANGUAGE: Change 'en-US' below to your language code (if package exists)-->
+#<!-- IMPORTANT: You MUST also change the default selection in 'lang.wmi' -->
+<define-tag lang>es-ES</define-tag>
+
+#<!-- Download button text for language enabled packages -->
+<define-tag button-win-tbb32>Navegador Tor</define-tag>
+<define-tag button-win-tbb64>Actualmente en desuso</define-tag>
+<define-tag button-osx-tbb32>Navegador Tor</define-tag>
+#<!-- Comment out until it's available again. -EC <define-tag button-osx-tbb64>64-bit</define-tag> -->
+<define-tag button-lin-tbb32>Navegador Tor (32-Bit)</define-tag>
+<define-tag button-lin-tbb64>Navegador Tor (64-Bit)</define-tag>
+
+#include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
+
+<div id="content" class="clearfix">
+  <div id="breadcrumbs"><a href="<page index>">Inicio &raquo; </a><a href="<page download/download>">Descarga</a></div>
+  <div id="maincol-left">
+<!-- BEGIN TEASER WARNING -->
+    <div class="warning-top">
+      <h2>¿Realmente querés que tor funcione?</h2>
+	<p>Necesitas cambiar algunos de tus hábitos, algunas cosas no funcionarán exactamente como estas acostumbrada.
+    Por favor lee <a href="#warning">la lista completa de advertencias</a> para mas detalles.
+	</p>
+      </div>
+<!-- END TEASER WARNING -->
+<!-- START DOWNLOADS -->
+<!-- START WINDOWS -->
+      <div id="windows" style="border-top: 0px;" class="accordionButton on">
+	<span class="windows24">Microsoft Windows</span>
+      </div>
+      <div class="accordionContent">
+	<div class="fauxhead"></div>
+<!-- TOR BROWSER BUNDLE -->
+#<!-- NOTE - change language enabled button text at the top of this page -->
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+	  <form class="downloads">
+	    <a class="button win-tbb" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe"><span class="strong">Descargar</span><span class="normal"><button-win-tbb32></span></a>
+	    <select name="language" id="win-tbb" class="lang">
+#include <lang.wmi>
+	    </select>
+	    <div class="sig">
+	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Otros idiomas</a>
+	      (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+	    </div>
+	    <a class="additional" href="<page projects/torbrowser>#downloads-alpha">Descargar inestable</a><br />
+<!--	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundlealpha>/tor-browser-<version-torbrowserbundlealpha>_en-US.exe">Descarga inestable</a> (<a href="../dist/torbrowser/<version-torbrowserbundlealpha>/tor-browser-<version-torbrowserbundlealpha>_en-US.exe.asc">firma</a>)-->
+	  </form>
+
+	  <h2>Navegador Tor</h2>
+	  <em>Versión <version-torbrowserbundle> (<releasedate-torbrowserbundle>) - Windows 10, 8, 7, Vista, y XP</em>
+	  <p>Todo lo que necesitas para navegar de forma segura Internet. <a href="<page projects/torbrowser>">Aprendé mas &raquo;</a></p>
+	</div>
+<!-- EXPERT BUNDLE -->
+	<div class="package">
+	  <div class="downloads">
+	    <a class="button" href="<package-win32-stable>"><span class="strong">Descargar</span><span class="normal">Paquete Experto</span></a>
+	    <div class="sig">
+	      (<a href="<package-win32-stable>.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+	    </div>
+	  </div>
+
+	  <h2>Paquete Experto</h2>
+	  <em>Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, y Windows 98SE</em>
+	  <p> Contiene solo Tor y nada mas. Vas a necesitar configurar Tor y todas las demás aplicaciones manualmente. Este instalador debe ser ejecutado como Administrador.</p>
+	</div>
+      </div>
+<!-- END WINDOWS -->
+<!-- START OS X -->
+      <div id="apple" class="accordionButton on">
+	<span class="mac24">Apple OS X</span></div>
+      <div class="accordionContent">
+	<div class="fauxhead"></div>
+<!-- TOR BROWSER BUNDLE -->
+#<!-- NOTE - change language enabled button text at the top of this page -->
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+	  <form class="downloads">
+	    <a class="button osx-tbb" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg"><span class="strong">Descarga</span><span class="normal"><button-osx-tbb32></span></a>
+	    <select name="language" id="osx-tbb" class="lang">
+#include <lang.wmi>
+	    </select>
+	    <div class="sig">
+	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Otros idiomas</a>
+	      (<a class="osx-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+	    </div>
+	    <a class="additional" href="<page projects/torbrowser>#downloads-alpha">Descargar versión inestable</a><br />
+# Comment out until 64-bit Mac OS X bundles are available again
+#	    <a class="button osx-tbb64" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx-x86_64-<lang>.zip"><span class="strong">Descarga</span><span class="normal"><button-osx-tbb64></span></a>
+#	    <select name="language" id="osx-tbb64" class="lang">
+
+# NO #include <lang.wmi>
+#	    </select>
+#	    <div class="sig">
+#	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Otros Idiomas</a>
+#<!-- Mac OS X 64. -EC
+#	      (<a class="osx-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx-x86_64-<lang>.zip.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+#	    </div>
+#	    <a href="<page projects/torbrowser-details>#build">Source Code</a><br />
+#	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundleosx32alpha>/TorBrowser-<version-torbrowserbundleosx32alpha>-osx-i386-en-US.zip">Descargar version inestable</a> (<a href="../dist/torbrowser/<version-torbrowserbundleosx32alpha>/TorBrowser-<version-torbrowserbundleosx32alpha>-osx-i386-en-US.zip.asc">firma</a>)
+
+	  </form>
+
+	  <h2>Navegador Tor</h2>
+	  <em>Versión <version-torbrowserbundleosx64> (<releasedate-torbrowserbundleosx64>)- OS X Intel</em>
+	  <p>Todo lo que necesitas para navegar de forma segura Internet. Este paquete no requiere instalación. Solo extraerlo y ejecutarlo <a href="<page projects/torbrowser>">Aprendé Más &raquo;</a></p>
+	</div>
+  </div>
+ <!-- END OS X -->
+ <!-- START UNIX -->
+      <div id="linux" class="accordionButton on">
+	<span class="linux24">GNU/Linux</span></div>
+      <div class="accordionContent">
+	<div class="fauxhead"></div>
+  <!-- TOR BROWSER BUNDLE -->
+#<!-- NOTE - change language enabled button text at the top of this page -->
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+	  <form class="downloads">
+	    <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Descarga</span><span class="normal"><button-lin-tbb64></span></a>
+	    <select name="language" id="lin-tbb64" class="lang">
+#include <lang.wmi>
+	    </select>
+	    <div class="sig">
+	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Otros Idiomas</a>
+	      (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+	    </div>
+	    <a class="additional" href="<page projects/torbrowser>#downloads-alpha">Descargar versión inestable</a><br />
+<!--	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundlelinux64alpha>/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux64alpha>-dev-en-US.tar.gz">Descargar versión inestable</a> (<a href="../dist/torbrowser/<version-torbrowserbundlelinux64alpha>/tor-browser-gnu-linux-x86_64-<version-torbrowserbundlelinux64alpha>-dev-en-US.tar.gz.asc">firma</a>)-->
+
+	    <a class="button lin-tbb32" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz"><span class="strong">Descarga</span><span class="normal"><button-lin-tbb32></span></a>
+	    <select name="language" id="lin-tbb32" class="lang">
+#include <lang.wmi>
+	    </select>
+	    <div class="sig">
+	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Otros Idiomas</a>
+	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+	    </div>
+<!--	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundlelinux32alpha>/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux32alpha>-dev-en-US.tar.gz">Descargar version inestable</a> (<a href="../dist/torbrowser/<version-torbrowserbundlelinux32alpha>/tor-browser-gnu-linux-i686-<version-torbrowserbundlelinux32alpha>-dev-en-US.tar.gz.asc">firma</a>)<p>-->
+
+	  </form>
+
+	  <h2>Navegador Tor</h2>
+	  <em>Versión <version-torbrowserbundlelinux32> (<releasedate-torbrowserbundlelinux32>) - GNU/Linux, BSD, y Unix</em>
+	  <p>Todo lo que necesitas para navegar de forma segura Internet. Este paquete no requiere instalación. Solo extraerlo y ejecutarlo <a href="<page projects/torbrowser>">Aprendé Más &raquo;</a></p>
+<!-- repo packages -->
+	<div class="package" style="border-bottom: 0px;">
+	  <div class="downloads">
+	    <a class="additional" style="font-weight: bold;"
+href="<page download/download-unix>">Repositorios de Tor.</a>
+	  </div>
+
+	  <h2>Tor (Autónomo)</h2>
+	  <p>Instalá los componentes de Tor vos misma, corré un Relé, arma configuraciones personalizadas. Todo desde un gestor de paquetes como apt-get o yum.</p>
+	</div>
+	</div>
+      </div>
+<!-- END UNIX -->
+<!-- START SMARTPHONES -->
+      <div id="smartphone" class="accordionButton on">
+	<span class="smartphone24">Tor para Smartphones</span></div>
+      <div class="accordionContent">
+	<div class="fauxhead"></div>
+<!-- ANDROID -->
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+	  <div class="downloads">
+	      <a class="additional" href="<page docs/android>">Instrucciones de instalación</a>
+	  </div>
+
+	  <h2>Paquete para Android</h2>
+	  <p>Nuestro software esta disponibles para teléfonos basados en Android, tables y computadoras desde <a href="https://guardianproject.info/">Guardian Project</a> vía su <a href= "https://guardianproject.info/2012/03/15/our-new-f-droid-app-repository/">Repositorio de F-Droid </a> o <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play Store</a>.</p>
+	</div>
+      </div>
+<!-- END SMARTPHONES -->
+<!-- BEGIN SOURCE -->
+      <div class="accordionButton on">
+	<span class="sourcecode24">Código Fuente</span></div>
+      <div class="accordionContent">
+	<div class="fauxhead"></div>
+	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
+	  <div class="downloads">
+	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Descarga</span><span class="normal">Código Fuente</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-stable>.tar.gz.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+	    </div>
+	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Descarga</span><span class="normal">Código Fuente (Inestable)</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Qué es esto?</a>
+	    </div>
+	  </div>
+
+	  <h2>Tarball Fuente</h2>
+	  <p> Configurar con: <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code></p>
+
+	  <p>La versión estable actual de Tor es <version-stable>. Sus <a href="<gitblob>ReleaseNotes<cgitstable>">anuncios de lanzamiento</a> están disponibles.</p>
+	  <p>La version inestable/alpha de Tor es <version-alpha>. Su <a href="<gitblob>ChangeLog">bitácora de cambios</a> está disponible.</p>
+	</div>
+      </div>
+      <div class="expander"><a href="javascript:void(0)" class="switch">Expandir todo</a></div>
+<!-- END SOURCE -->
+<!-- END DOWNLOADS -->
+<br>
+<!-- BEGIN WARNING -->
+<div class="warning">
+<a name="warning"></a>
+<a name="Warning"></a>
+<h2><a class="anchor" href="#warning">¿Realmente querés que tor funcione?</a></h2>
+	<p>Necesitas cambiar algunos de tus hábitos, algunas cosas no funcionarán exactamente como estas acostumbrada.</p>
+
+<ol>
+  <li><b>Usá el Navegador Tor</b>
+  <p>Tor no protege todo el trafico de Internet de tu computadora cuando
+  lo ejecutás. Tor solo protege las aplicaciones que están correctamente
+  configuradas para enviar su trafico a  través de Tor. Para evitar
+  problemas con La configuración de Tor, nosotras recomendamos que uses el
+  <a href="<page projects/torbrowser>">Navegador Tor</a>. Este esta
+  pre-configurado para proteger tu privacidad y anonimato en la web, siempre y cuando estés
+  navegando con el Navegador Tor. En casi todos los casos configurar un navegador
+  de cualquier otra forma es posiblemente insegura para usarse con Tor.</p>
+  </li>
+  <li><b>No uses torrent sobre Tor</b>
+  <p>
+  El intercambio de archivos usando Torrent ignora la configuración de proxy
+  y genera conexiones directas incluso cuando se las configura para usar Tor.
+  Incluso cuando se las configura para usar Tor vas a filtrar tu IP real en las
+  peticiones GET al tracker, por que así es como funciona el protocolo Torrent.
+  No solo  <a
+  href="https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea">
+  desanonimizas tu trafico de torrent y tu trafico web</a> si no que aparte
+  ralentizas la red Tor para el resto de la gente.
+  </p>
+  </li>
+
+  <li><b>No habilites ni instales plugins en el navegador</b>
+  <p>El Navegador Tor bloquea plugins como Flash, RealPlayer, Quicktime
+  	y otros: los plugins pueden manipular el navegador a revelar tu direccion IP
+  	Tampoco recomendamos  instalar addons adicionales o plugins en el Navegador Tor,
+  	dado que pueden bypassear Tor y herir tu anonimidad y privacidad.</p>
+  </li>
+
+
+
+  <li><b>Usá versiones HTTPS de los Sitios</b>
+  <p>Tor va a cifrar todo tu trafico <a
+  href="<page about/overview>#thesolution">desde y
+  dentro de la red Tor</a>, pero el cifrado de tu trafico hasta el website depende
+  del sitio. Para ayudar a asegurar un cifrado privado al website, el  Navegador
+  Tor incluye<a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>
+  para forzar el uso de HTTPS con los sitios que lo soportan.
+  to force the use of HTTPS encryption with major websites that
+  Sin embargo, deberías seguir viendo la barra url para
+  asegurar que lo sitios a los que les provees información  te muestran <a
+  href="https://support.mozilla.com/en-US/kb/Site%20Identity%20Button">un botón azul o verde
+  </a>, que incluyen <b>https://</b> en la URL, y que muestran el nombre correcto para el sitio.
+  Mira también el sitio interactivo de la EFF como
+   <a href="https://www.eff.org/pages/tor-and-https">Tor
+  y HTTPS se relaiconan</a>.
+  </p>
+  </li>
+
+  <li><b>No abras documentos, descargados de Tor mientras Tor esta online</b>
+  <p>El navegador Tor te avisa antes de abrir cualquier documento
+  que tiene que abrirse con una aplicación externa. <b>NO IGNORES
+  ESTA ADVERTENCIA</b>.  Tenes que ser super cuidadoso descargando
+  documentos a través de Tor (Especialmente .DOC y .PDF, a menos que uses
+  el visor PDF que viene incorporado en el navegador Tor) como estos
+  documentos pueden contener recursos ubicados en Internet que se van a descargar
+  por fuera de la red Tor. Esto va a revelar tu dirección IP no torificada.
+  Si tenes que trabajar con documentos DOC o PDF, te recomendamos usar una computadora
+  desconectada, con  <ahref="https://www.virtualbox.org/">VirtualBox</a>
+  y usarla con una <a href="http://virtualboxes.org/">maquina virtual</a> con
+  las redes deshabilitadas, o usar <a href="https://tails.boum.org/">Tails</a>.
+  Bajo ninguna circunstancia es seguro usar  <a
+  href="https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea">BitTorrent
+  y Tor</a>
+  </li>
+
+
+  <li><b>Usa puentes y/o encontrá compañia</b>
+  <p> Tor trata de prevenir que los atacantes aprendan a que sitio estas
+  accediendo. Sin embargo, por default, no previene que alguien analizando
+  tu trafico sepa que estas usando Tor. Si esto te importa, podes reducir
+  el riesgo configurando  a Tor para que se conecte con un
+  <a href="<page docs/bridges>">Tor bridge relay</a> en lugar de conectarte
+  directamente a la red publica de Tor.  La mejor protección es un enfoque social:
+  mientras mas usarios de Tor haya cerca tuyo y mientras mas
+  <a href="<page about/torusers>">diversos</a> sus intereses, menos
+  peligroso es ser uno de ellos. ¡Convence a otra gente de usar Tor!</p>
+</li>
+</ol>
+<br>
+<p>
+Se inteligente y aprende mas. Entendé que ofrece Tor y que no ofrece.
+Esta lista de obtaculos no es completa, y necesitamos tu ayuda <a href="<page getinvolved/volunteer>#Documentation">
+identificando y documentando todos los problemas </a>.
+</p>
+</div>
+<!-- END WARNING -->
+</div>
+<!-- END MAINCOL -->
+<!-- START SIDECOL -->
+<div id="sidecol-right">
+<div class="img-shadow sidenav">
+<div class="sidenav-sub">
+<h2>Saltar a:</h2>
+<ul>
+<li class="dropdown"><a href="<page
+download/download>#windows">Microsoft Windows</a></li>
+<li class="dropdown"><a href="<page download/download>#apple">Apple OS
+X</a></li>
+<li class="dropdown"><a href="<page
+download/download>#linux">Linux/Unix</a></li>
+<li class="dropdown"><a href="<page
+download/download>#smartphone">Smartphones</a></li>
+<li class="dropdown"><a href="<page download/download>#source">Codigo fuente</a></li>
+</ul>
+</div>
+</div>
+<!-- START DONATION WIDGET -->
+<a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
+<!-- END DONATION WIDGET -->
+<!-- START INFO -->
+<div class="img-shadow">
+<div class="sidenav-sub">
+  <h2>¿Tenes Algun Problema?</h2>
+<ul>
+<li class="dropdown"><a href="<page docs/documentation>">¡Leé la documentacion!</a></li>
+</ul>
+</div>
+</div>
+<!-- END INFO -->
+</div>
+<!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+
+#include <foot.wmi>

@@ -1,3 +1,5 @@
 /Makefile.local
 .deps
-*.html.*
+*.html.en
+*.html.es
+*~.*

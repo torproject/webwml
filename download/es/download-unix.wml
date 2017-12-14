@@ -1,0 +1,168 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor: Download for Linux/Unix" CHARSET="UTF-8"
+
+    <div id="content" class="clearfix">
+			<div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download-unix>">Descarga</a></div>
+    	<div id="maincol-left">
+      	<h1>Descargar Tor para Unix, Linux, BSD</h1>
+
+        <!-- BEGIN TEASER WARNING -->
+      	<div class="warning">
+          <h2>Queres que Tor se ejecute correctamente?</h2>
+            <p>...Entonces por favor no solo lo instales y sigas de largo.
+            Es necesario que cambies algunos habitos y reconfigures tu software! Tor por si mismo <em>NO</em> es todo lo que necesitas para mantener tu anonimato. Leer la <a href="<page download/download>#warning">Lista completa de advertencias</a>.</p>
+        </div>
+        <!-- END TEASER WARNING -->
+        <table class="topforty">
+<thead>
+<tr bgcolor="#009933" style="color: white; ">
+  <th colspan="2">Platform</th>
+  <th>Descargar la version estable</th>
+  <th>Descargar la version inestable</th>
+  <th>Instalacion y configuracion</th>
+</tr>
+</thead>
+
+<tr>
+<td align="center"><img src="$(IMGROOT)/distros/debian.png" alt="Debian"> <img src="$(IMGROOT)/distros/ubuntu.png" alt="Ubuntu"> <img src="$(IMGROOT)/distros/knoppix.png" alt="Knoppix"></td>
+<td>Debian, Ubuntu, Knoppix</td>
+<td colspan="2"><a href="<page docs/debian>">repositorio de paquetes</a> </td>
+<td> <a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a> </td>
+</tr>
+
+<tr class="beige">
+<td align="center"><img src="$(IMGROOT)/distros/centos.png" alt="CentOS"> <img src="$(IMGROOT)/distros/fedora.png" alt="Fedora"></td>
+<td>CentOS and Fedora</td>
+<td colspan="2">yum install tor / dnf install tor</td>
+<td> <a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a> </td>
+</tr>
+
+<tr>
+<td align="center"><img src="$(IMGROOT)/distros/gentoo.png" alt="Gentoo Linux"></td>
+<td>Gentoo Linux</td>
+<td colspan="2"><kbd>emerge tor</kbd></td>
+<td>
+<a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a><br>
+</td>
+</tr>
+
+<tr class="beige">
+<td align="center"><img src="$(IMGROOT)/distros/freebsd.png" alt="FreeBSD"></td>
+<td>FreeBSD</td>
+<td colspan="2"><kbd>pkg install tor</kbd></td>
+<td><a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a></td>
+</tr>
+
+<tr>
+<td align="center"><img src="$(IMGROOT)/distros/openbsd.png" alt="OpenBSD"></td>
+<td>OpenBSD</td>
+<td colspan="2"><kbd>cd /usr/ports/net/tor &amp;&amp; make &amp;&amp; make install</kbd></td>
+<td>
+<a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a><br>
+<a href="<wiki>doc/OpenbsdChrootedTor">Guia para chrooting Tor en OpenBSD</a>
+</td>
+</tr>
+
+<tr class="beige">
+<td align="center"><img src="$(IMGROOT)/distros/netbsd.png" alt="NetBSD"></td>
+<td>NetBSD</td>
+<td colspan="2"><kbd>cd /usr/pkgsrc/net/tor &amp;&amp; make install</kbd></td>
+<td><a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a></td>
+</tr>
+
+<tr>
+<td align="center"><img src="$(IMGROOT)/distros/terminal.png" alt="Source code"></td>
+<td>Source tarballs</td>
+<td>
+<a href="<package-source-stable>"><version-stable></a>
+ (<a href="<package-source-stable>.asc">sig</a>)
+</td>
+<td>
+<a href="<package-source-alpha>"><version-alpha></a>
+ (<a href="<package-source-alpha>.asc">sig</a>)
+</td>
+<td><kbd>./configure &amp;&amp; make &amp;&amp; src/or/tor</kbd></td>
+</tr>
+
+</table>
+
+<div class="nb">
+<a id="packagediff"></a>
+<h2><a class="anchor" href="#packagediff">Cual es la diferencia entre estable &amp; inestable?</a></h2>
+
+<p>
+Los paquetes estables son lanzados cuando creemos que el codigo y sus caracteristicas no van a cambiar durante varios meses.
+</p>
+<p>Cuando lanzamos un paquete inestable podes ayudarnos probando nuevas caracteristicas y arreglando bugs. Aunque los paquetes inestables tengan una version mas nueva que los paquetes estables listados arriba, la probabilidad de bugs y fallas de seguridad son mucho mayores en los inestables. Preparate para <a href="https://bugs.torproject.org/">reportar bugs</a>.
+</p>
+</div>
+
+<div class="underline"></div>
+<div class="nb">
+<p>
+Tor se distribuye <a href="http://www.fsf.org/">Software Libre</a>
+Bajo <a href="<gitblob>LICENSE">licencia 3-clause BSD</a>.
+</p>
+<p>
+Instalar Tor no posee costo alguno, tampoco tiene costo utilizar la red Tor. Pero si te gustaria que Tor funcione mas rapido y de forma mas operativa por favor ten en cuenta
+<a href="<page donate/donate-download>">Realizar una donacion libre de impuestos a Proyecto Tor</a>.
+</p>
+</div>
+
+<div class="underline"></div>
+<div class="nb">
+<p>
+Para manternte informado sobre advertencias de seguridad y lanzamientos de versiones estables, suscribite a <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-announce">Lista de correo de anuncios de tor</a> (Se pedira confirmacion via mail). Tambien podes suscribirte a
+<a href="http://rss.gmane.org/gmane.network.onion-routing.announce">Seguir RSS feed</a>.
+</p>
+</div>
+
+<p>
+Si queres investigar sobre las versiones anteriores de Tor, paquetes u otros binarios ingresar a<a href="https://archive.torproject.org/">el archivo</a>.
+</p>
+
+<div class="nb">
+<p>
+Si tenes problemas con la descarga de Tor en este sito, podes dirigirte a <a
+href="<page getinvolved/mirrors>">Listado de mirrors de Tor</a>.
+</p>
+
+<a id="ChangeLog"></a>
+<a id="Stable"></a>
+<a id="Testing"></a>
+<p>
+Para obtener el listado de los cambios para cada version estable de Tor consultar 
+<a href="<gitblob>ReleaseNotes<cgitstable>">NotasDeLanzamiento</a>. Para obtener la lista de los cambios en la version estable y las versiones en desarrollo consultar
+<a href="<gitblob>ChangeLog">ChangeLog</a>.
+</p>
+</div>
+      </div>
+      <!-- END MAINCOL -->
+      <div id="sidecol-right">
+        <div class="img-shadow">
+          <div class="infoblock">
+          	<h2>Firmas verificadas</h2>
+            <p>Verifica tus descargas con nuestra firma GPG:</p>
+            <a href="<page docs/verifying-signatures>">Leer sobre como verificar las firmas</a>.
+          </div>
+        </div>
+        <!-- END INFOBLOCK -->
+        <div class="img-shadow">
+        	<div class="sidenav-sub">
+          	<h2>Tenes un problema?</h2>
+          	<ul>
+            	<li class="dropdown"><a href="#packagediff">Cuales son las diferencias entre las descargas estables y las inestables?</a></li>
+            </ul>
+          </div>
+      	</div>
+        <!-- END SIDENAV -->
+      </div>
+      <!-- END SIDECOL -->
+    </div>
+    <!-- END CONTENT -->
+
+
+#include <foot.wmi>

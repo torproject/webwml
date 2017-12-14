@@ -5,6 +5,7 @@
 #use "links.wmi"
 #use "versions.wmi"
 #use "navigation.wmi"
+#use "functions.wmi"
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
@@ -114,7 +115,44 @@ docdir: $(DOCROOT)/; dir: $dir; base: $base -> $(DOCROOT)/$dir/$lang/$base.wml),
               }
             }
         }:>
-        </ul>
+     # LANGUAGE SWITCH 
+      <li>
+         <div class="dropdown">
+           <div class="dropbtn">
+	      <:{ if (has_translations()) {  
+                    my @lngs = list_translations();
+   		    print $lngs[0];
+		  }
+              }:>
+	   </div>
+           <div class="dropdown-content">
+	     <:{
+               #import "perl-globals.wmi";
+                use Cwd;
+               use Cwd 'abs_path';
+               use File::Spec;
+               my $urlbase = File::Spec->abs2rel(getcwd(),abs_path("$(DOCROOT)"));
+               my $LANGUAGES;
+               my $page = $WML_SRC_FILENAME;
+               opendir(DIR, getcwd()) or die $!;
+               # take a look and see what language support we have
+               while (my $file = readdir(DIR)) {
+                 if (-d $file) {
+                   if (-e "$file/$page") {
+                     my $url = $WML_SRC_BASENAME.'.html.'.$file;
+                     print '<a href="'.$url.'" >'.$LANGUAGES{$file}.'</a>'."\n" unless not defined $LANGUAGES{$file};
+                   }
+                 }
+               }
+               closedir(DIR);
+             }:>
+             
+           </div>
+         </div> 
+       </li>
+       #
+      </ul>
+    
       </div>
       <!-- END NAV -->
      # end navigation generation
