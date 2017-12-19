@@ -75,13 +75,14 @@ RewriteRule ^include/$ / [R=301,L]
 RewriteRule ^js/$ / [R=301,L]
 
 # Donation campagin
-# 2016
+# 2017
 # Special-case the donate-options and amazon page so it doesn't get redirected
 RewriteRule ^donate/donate-options(.*) /donate/donate-options$1 [END]
 RewriteRule ^donate/donate-amazon(.*) /donate/donate-amazon$1 [END]
 RewriteRule ^donate/donate(.*) https://donate.torproject.org [R=302,L]
-RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq.html [R=302,L]
-RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy.html [R=302,L]
+RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq [R=302,L]
+RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy [R=302,L]
+RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 
 # The following redirect is necessary because we're using that URL on
 # some external resources (the donate infrastructure in particular) and
