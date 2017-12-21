@@ -85,7 +85,7 @@ RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/priva
 RewriteRule ^donate/thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 RewriteRule ^averyonionthankyou(.*) /averyonionthankyou.html.en [R=302,L]
-RewriteRule ^embed/onionvideo(.*) https://www.youtube.com/embed/TXT0F7p7WbM [R=302,L]
+RewriteRule ^embed/onionvideo(.*) https://www.youtube.com/embed/TXT0F7p7WbM [R=301,L]
 
 # The following redirect is necessary because we're using that URL on
 # some external resources (the donate infrastructure in particular) and
