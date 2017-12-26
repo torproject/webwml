@@ -10,4 +10,4 @@
 #
 # e.g.:
 # export TORGIT=/home/weasel/projects/tor/tor/.git
-export TORGIT=/home/arthur/projects/tor/.git
+export TORGIT=set this to your tor.git path
