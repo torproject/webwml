@@ -31,11 +31,7 @@ form#makeDonation {
    <div class="hundred toptwenty">
     <div class="dbox donate">
     <h3>Donate Bitcoin</h3>
-<<<<<<< HEAD
-<p>To donate Bitcoin to The Tor Project, please complete the form below. If you would like an acknowledgment from the Tor Project, please provide your email address. (Due to the current state of the Bitcoin market, our payment processor, Bitpay, will not allow us to accept donations of less than 100 USD. However, we can also accept donations, including smaller donations, through Bitcoin Cash. Send us a tip with <a href="https://twitter.com/tipperbot">@tipprbot</a> on Twitter!)</p>
-=======
 <p>To donate Bitcoin to The Tor Project, please complete the form below. If you would like an acknowledgment from the Tor Project, please provide your email address. (Due to the current state of the Bitcoin market, our payment processor, Bitpay, will not allow us to accept donations of less than 100 USD. However, we can also accept donations, including smaller donations, through Bitcoin Cash. Send us a tip with <a href="https://twitter.com/tipprbot">@tipprbot</a> on Twitter!)</p>
->>>>>>> 232e4645232bbcf93f7d7bb95bb04c723852e9f6
   <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
         <input name="action" type="hidden" value="checkout">
         <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
