@@ -1,4 +1,5 @@
 /Makefile.local
+/Makefile.local.sample
 .deps
 *.html.en
 *.html.es
