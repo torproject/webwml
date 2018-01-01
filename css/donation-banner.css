@@ -65,20 +65,6 @@
     top: 90px;
     white-space: nowrap;
 }
-#banner-mozilla {
-    align-items: center;
-    bottom: 5px;
-    color: white;
-    display: flex;
-    font-size: 18px;
-    font-family: sans-serif;
-    left: 200px;
-    position: absolute;
-    right: 285px;
-    text-align: start;
-    top: 120px;
-    white-space: nowrap;
-}
 #banner-donate-button {
     align-items: center;
     background-color: #13a513;

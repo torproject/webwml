@@ -55,7 +55,6 @@
         <div id="banner-contents-container">
             <div id="banner-tagline"><span><noscript>Protecting the Privacy of Millions Every Day</noscript></span></div>
             <div id="banner-slogan"><span>Tor: Powering Digital Resistance</span></div>
-            <div id="banner-mozilla"><span>Give today and Mozilla will match your gift!</span></div>
             <a id="banner-donate-button-link"
                href="https://www.torproject.org/donate/donate-pdr-hp">
                 <div id="banner-donate-button">
