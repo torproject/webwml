@@ -17,7 +17,6 @@ Tor Fan, Tor Supporter, DE, Germany, DE, TRUE, TRUE, NO, http://tor.hoi-polloi.o
 tor@fodt.it // FoDT.it Webteam, FoDT.it, AT, Austria, Europe, TRUE, FALSE, No, http://tor.fodt.it, https://tor.fodt.it, , ftp://ftp.fodt.it/pub/mirrors/torproject.org/, http://tor.fodt.it/dist/, https://tor.fodt.it/dist/, , , Tue Aug 26 11:19:07 2014
 http://www.multinet.no, MultiNet AS, NO, Trondheim, Trondheim, TRUE, TRUE, No, http://tor.multinet.no/, , , , http://tor.multinet.no/dist/, , , , Tue Aug  8 09:28:54 2017
 haskell at gmx.es, Tor Supporter, ES, Spain, Europe, TRUE, TRUE, No, http://tor.zilog.es/, https://tor.zilog.es/, , , http://tor.zilog.es/dist/, https://tor.zilog.es/dist/, , , Thu Sep 28 18:11:11 2017
-Tor Fan, Tor Supporter, US, United States, US, TRUE, FALSE, No, http://199.175.55.215/, https://199.175.55.215/, , , http://199.175.55.215/dist/, https://199.175.55.215/dist/, , , Thu Sep 28 16:22:40 2017
 Tor Fan, Tor Supporter, US, United States, US, FALSE, TRUE, No, http://2607:8b00:2::6258:5c9/, https://2607:8b00:2::6258:5c9/, , , http://2607:8b00:2::6258:5c9/dist/, https://2607:8b00:2::6258:5c9/dist/, , , Thu Jan 22 08:17:52 2015
 margus.random at mail.ee, CyberSIDE, EE, Estonia, EE, TRUE, FALSE, No, http://cyberside.planet.ee/tor/, , , , http://cyberside.net.ee/tor/, , , , Wed Sep 27 02:52:42 2017
 Tor Fan, torproject.is, IS, Iceland, IS, TRUE, FALSE, No, http://www.torproject.is/, , , , http://www.torproject.is/dist/, , , , Thu Sep 28 18:11:11 2017
@@ -103,5 +102,9 @@ Tor Fan, Tor Supporter, FR, France, FR, TRUE, FALSE, No, http://torproject.xj1.f
 tienhn@vinahost.vn, VinaHost, VN, Viet Nam, VN, TRUE, FALSE, No, , https://mirror.vinahost.vn/torproject.org, rsync://mirror.vinahost.vn/torproject.org, , , https://mirror.vinahost.vn/torproject.org/dist/, rsync://mirror.vinahost.vn/torproject.org/dist, , Wed Apr 19 18:52:55 2017
 mirror AT funkfreundelandshut DOT de, Funkfreunde Landshut e.V., DE, BY, DE, TRUE, FALSE, No, http://mirror.funkfreundelandshut.de/torproject.org/, , , , http://mirror.funkfreundelandshut.de:81/torproject.org/dist/, , , http://44.225.40.254/torproject.org/dist, Thu Sep 28 16:22:40 2017
 email@heikorichter.name, Tor Supporter, DE, Germany, Europe, TRUE, TRUE, No, http://tor.heikorichter.name, https://tor.heikorichter.name, , , http://tor.heikorichter.name/dist, https://tor.heikorichter.name/dist, rsync://ftp.heikorichter.name/tor, , Thu Sep 28 16:22:40 2017
+tor <at> secure <dot> voyage, secure.voyage, CA, Canada, CA, TRUE, FALSE, No, http://tor.secure.voyage, https://tor.secure.voyage, , , http://tor.secure.voyage/dist, https://tor.secure.voyage/dist, , , Fri Dec  1 15:00:00 2017
+mirror-torproject at
+razx.cloud,razx,CA,Canada,AB,TRUE,FALSE,No,http://tcejorprot.razx.cloud/,https://tcejorprot.razx.cloud/,,,http://tcejorprot.razx.cloud/dist/,https://tcejorprot.razx.cloud/dist,,http://rsqiscyvxt4qgaiw.onion/torproject.org/,Fri Dec 8 22:00:00 2017
+coby [at ]127001 [dot] ovh,Tor Supporter,DE,Germany,DE,TRUE,FALSE,No,http://tor.127001.ovh/,https://tor.127001.ovh/,,,http://tor.127001.ovh/dist/,https://tor.127001.ovh/dist/,,,17.Dez 19:01:37 CET 2017
 , , , , , , , , , , , , , , , , 
 , , , , , , , , , , , , , , , , 
