@@ -1,188 +1,18 @@
      
 <tr>
 
-         <td>UA</td>
-
-         <td>IP-Connect LLC</td>
-
-         <td>Up to date</td>
-
-    <td><a href="ftp://torproject.ip-connect.vn.ua/mirror/torproject/">ftp</a></td>
-    <td><a href="http://torproject.ip-connect.vn.ua/dist">http</a></td>
-    <td><a href="http://torproject.ip-connect.vn.ua">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td><a href="rsync://torproject.ip-connect.vn.ua/torproject/dist">rsync</a></td>
-    <td><a href="rsync://torproject.ip-connect.vn.ua/torproject">rsync</a></td>
-</tr>
-     
-<tr>
-
-         <td>IS</td>
-
-         <td>torproject.is</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://www.torproject.is/dist/">http</a></td>
-    <td><a href="http://www.torproject.is/">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>AT</td>
-
-         <td>ph3x</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://torproject.ph3x.at/dist/">http</a></td>
-    <td><a href="http://torproject.ph3x.at">http</a></td>
-    <td><a href="https://torproject.ph3x.at/dist/">https</a></td>
-    <td><a href="https://torproject.ph3x.at">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
-         <td>Evil Routers</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor1.evilrouters.net/dist/">http</a></td>
-    <td><a href="http://tor1.evilrouters.net/">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>XX</td>
-
-         <td>TvdW</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor-exit.network/dist">http</a></td>
-    <td><a href="http://tor-exit.network">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
-         <td>The Calyx Institute</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.calyxinstitute.org/dist/">http</a></td>
-    <td><a href="http://tor.calyxinstitute.org">http</a></td>
-    <td><a href="https://tor.calyxinstitute.org/dist/">https</a></td>
-    <td><a href="https://tor.calyxinstitute.org">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
          <td>DE</td>
 
-         <td>Tor Supporter</td>
+         <td>TB-ITF</td>
 
          <td>Up to date</td>
 
+    <td><a href="ftp://tormirror.tb-itf-tor.de/">ftp</a></td>
+    <td><a href="http://tormirror.tb-itf-tor.de/dist/">http</a></td>
+    <td><a href="http://tormirror.tb-itf-tor.de">http</a></td>
+    <td><a href="https://tormirror.tb-itf-tor.de/dist/">https</a></td>
+    <td><a href="https://tormirror.tb-itf-tor.de">https</a></td>
     <td> - </td>
-    <td><a href="http://torproject.mirror.metalgamer.eu/dist/">http</a></td>
-    <td><a href="http://torproject.mirror.metalgamer.eu/">http</a></td>
-    <td><a href="https://torproject.mirror.metalgamer.eu/dist/">https</a></td>
-    <td><a href="https://torproject.mirror.metalgamer.eu/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>NL</td>
-
-         <td>Babylon Network</td>
-
-         <td>Up to date</td>
-
-    <td><a href="ftp://nl.mirror.babylon.network/torproject/">ftp</a></td>
-    <td><a href="http://nl.mirror.babylon.network/torproject/dist/">http</a></td>
-    <td><a href="http://nl.mirror.babylon.network/torproject/">http</a></td>
-    <td><a href="https://nl.mirror.babylon.network/torproject/dist/">https</a></td>
-    <td><a href="https://nl.mirror.babylon.network/torproject/">https</a></td>
-    <td><a href="rsync://nl.mirror.babylon.network/torproject/dist/">rsync</a></td>
-    <td><a href="rsync://nl.mirror.babylon.network/torproject/">rsync</a></td>
-</tr>
-     
-<tr>
-
-         <td>FR</td>
-
-         <td>Babylon Network</td>
-
-         <td>Up to date</td>
-
-    <td><a href="ftp://fr.mirror.babylon.network/torproject/">ftp</a></td>
-    <td><a href="http://fr.mirror.babylon.network/torproject/dist/">http</a></td>
-    <td><a href="http://fr.mirror.babylon.network/torproject/">http</a></td>
-    <td><a href="https://fr.mirror.babylon.network/torproject/dist/">https</a></td>
-    <td><a href="https://fr.mirror.babylon.network/torproject/">https</a></td>
-    <td><a href="rsync://fr.mirror.babylon.network/torproject/dist/">rsync</a></td>
-    <td><a href="rsync://fr.mirror.babylon.network/torproject/">rsync</a></td>
-</tr>
-     
-<tr>
-
-         <td>VN</td>
-
-         <td>Freedif</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://mirror.freedif.org/TorProject/dist">http</a></td>
-    <td><a href="http://mirror.freedif.org/TorProject/">http</a></td>
-    <td><a href="https://mirror.freedif.org/TorProject/dist">https</a></td>
-    <td><a href="https://mirror.freedif.org/TorProject/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>DE</td>
-
-         <td>Tor Supporter</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.heikorichter.name/dist">http</a></td>
-    <td><a href="http://tor.heikorichter.name">http</a></td>
-    <td><a href="https://tor.heikorichter.name/dist">https</a></td>
-    <td><a href="https://tor.heikorichter.name">https</a></td>
-    <td><a href="rsync://ftp.heikorichter.name/tor">rsync</a></td>
     <td> - </td>
 </tr>
      
@@ -205,36 +35,19 @@
      
 <tr>
 
-         <td>CA</td>
+         <td>UA</td>
 
-         <td>razx</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tcejorprot.razx.cloud/dist/">http</a></td>
-    <td><a href="http://tcejorprot.razx.cloud/">http</a></td>
-    <td><a href="https://tcejorprot.razx.cloud/dist">https</a></td>
-    <td><a href="https://tcejorprot.razx.cloud/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>DE</td>
-
-         <td>TB-ITF</td>
+         <td>IP-Connect LLC</td>
 
          <td>Up to date</td>
 
-    <td> - </td>
-    <td><a href="http://tormirror.tb-itf-tor.de/dist/">http</a></td>
-    <td><a href="http://tormirror.tb-itf-tor.de">http</a></td>
-    <td><a href="https://tormirror.tb-itf-tor.de/dist/">https</a></td>
-    <td><a href="https://tormirror.tb-itf-tor.de">https</a></td>
+    <td><a href="ftp://torproject.ip-connect.vn.ua/mirror/torproject/">ftp</a></td>
+    <td><a href="http://torproject.ip-connect.vn.ua/dist">http</a></td>
+    <td><a href="http://torproject.ip-connect.vn.ua">http</a></td>
     <td> - </td>
     <td> - </td>
+    <td><a href="rsync://torproject.ip-connect.vn.ua/torproject/dist">rsync</a></td>
+    <td><a href="rsync://torproject.ip-connect.vn.ua/torproject">rsync</a></td>
 </tr>
      
 <tr>
@@ -273,32 +86,15 @@
      
 <tr>
 
-         <td>ES</td>
+         <td>IS</td>
 
-         <td>Tor Supporter</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.zilog.es/dist/">http</a></td>
-    <td><a href="http://tor.zilog.es/">http</a></td>
-    <td><a href="https://tor.zilog.es/dist/">https</a></td>
-    <td><a href="https://tor.zilog.es/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
-         <td>AskApache</td>
+         <td>torproject.is</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td><a href="http://tor.askapache.com/dist/">http</a></td>
-    <td><a href="http://tor.askapache.com/">http</a></td>
+    <td><a href="http://www.torproject.is/dist/">http</a></td>
+    <td><a href="http://www.torproject.is/">http</a></td>
     <td> - </td>
     <td> - </td>
     <td> - </td>
@@ -307,17 +103,17 @@
      
 <tr>
 
-         <td>AU</td>
+         <td>AT</td>
 
-         <td>CoffsWiFi</td>
+         <td>ph3x</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td><a href="http://torproject.coffswifi.net/dist">http</a></td>
-    <td><a href="http://torproject.coffswifi.net">http</a></td>
-    <td> - </td>
-    <td> - </td>
+    <td><a href="http://torproject.ph3x.at/dist/">http</a></td>
+    <td><a href="http://torproject.ph3x.at">http</a></td>
+    <td><a href="https://torproject.ph3x.at/dist/">https</a></td>
+    <td><a href="https://torproject.ph3x.at">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -360,57 +156,6 @@
 
          <td>DE</td>
 
-         <td>torservers</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://www.torservers.net/mirrors/torproject.org/dist/">http</a></td>
-    <td><a href="http://www.torservers.net/mirrors/torproject.org/">http</a></td>
-    <td><a href="https://www.torservers.net/mirrors/torproject.org/dist/">https</a></td>
-    <td><a href="https://www.torservers.net/mirrors/torproject.org/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>IS</td>
-
-         <td>myRL.net</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.myrl.net/dist/">http</a></td>
-    <td><a href="http://tor.myrl.net/">http</a></td>
-    <td><a href="https://tor.myrl.net/dist/">https</a></td>
-    <td><a href="https://tor.myrl.net/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>FR</td>
-
-         <td>stalkr.net</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.stalkr.net/dist/">http</a></td>
-    <td><a href="http://tor.stalkr.net/">http</a></td>
-    <td><a href="https://tor.stalkr.net/dist/">https</a></td>
-    <td><a href="https://tor.stalkr.net/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>DE</td>
-
          <td>Tor Supporter</td>
 
          <td>Up to date</td>
@@ -426,17 +171,17 @@
      
 <tr>
 
-         <td>US</td>
+         <td>GR</td>
 
-         <td>EFF</td>
+         <td>Tor Supporter</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td><a href="https://tor.eff.org/dist/">https</a></td>
-    <td><a href="https://tor.eff.org">https</a></td>
+    <td><a href="http://tor.void.gr/dist/">http</a></td>
+    <td><a href="http://tor.void.gr">http</a></td>
+    <td><a href="https://tor.void.gr/dist/">https</a></td>
+    <td><a href="https://tor.void.gr">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -494,23 +239,6 @@
      
 <tr>
 
-         <td>AT</td>
-
-         <td>Tor Supporter</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.ludikovsky.name/dist">http</a></td>
-    <td><a href="http://tor.ludikovsky.name/">http</a></td>
-    <td><a href="https://tor.ludikovsky.name/dist">https</a></td>
-    <td><a href="https://tor.ludikovsky.name/">https</a></td>
-    <td><a href="rsync://tor.ludikovsky.name/tor-dist">rsync</a></td>
-    <td><a href="rsync://tor.ludikovsky.name/tor">rsync</a></td>
-</tr>
-     
-<tr>
-
          <td>DE</td>
 
          <td>Tor Supporter</td>
@@ -545,40 +273,6 @@
      
 <tr>
 
-         <td>US</td>
-
-         <td>intfxdx.com</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://108.248.87.242/dist/">http</a></td>
-    <td><a href="http://108.248.87.242/">http</a></td>
-    <td><a href="https://108.248.87.242/dist/">https</a></td>
-    <td><a href="https://108.248.87.242/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
-         <td>Lucid Networks</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.mirrors.lucidnetworks.net/dist">http</a></td>
-    <td><a href="http://tor.mirrors.lucidnetworks.net">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td><a href="rsync://tor.mirrors.lucidnetworks.net::tor-dist">rsync</a></td>
-    <td><a href="rsync://tor.mirrors.lucidnetworks.net::tor">rsync</a></td>
-</tr>
-     
-<tr>
-
          <td>DE</td>
 
          <td>Netzkonstrukt Berlin</td>
@@ -590,23 +284,6 @@
     <td><a href="http://mirror.ntzk.de/torproject.org/">http</a></td>
     <td><a href="https://mirror.ntzk.de/torproject.org/dist/">https</a></td>
     <td><a href="https://mirror.ntzk.de/torproject.org/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>US</td>
-
-         <td>EPRCI</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.eprci.net/dist/">http</a></td>
-    <td><a href="http://tor.eprci.net/">http</a></td>
-    <td><a href="https://www.eprci.com/tor/dist/">https</a></td>
-    <td><a href="https://www.eprci.com/tor/">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -630,34 +307,17 @@
      
 <tr>
 
-         <td>DE</td>
+         <td>XX</td>
 
-         <td>PW</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.pw.is/dist/">http</a></td>
-    <td><a href="http://tor.pw.is/">http</a></td>
-    <td><a href="https://www.it-sicherheitschannel.de/dist/">https</a></td>
-    <td><a href="https://www.it-sicherheitschannel.de/">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>CH</td>
-
-         <td>urown.net</td>
+         <td>TvdW</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td><a href="http://torproject.urown.net/dist/">http</a></td>
-    <td><a href="http://torproject.urown.net/">http</a></td>
-    <td><a href="https://torproject.urown.net/dist/">https</a></td>
-    <td><a href="https://torproject.urown.net/">https</a></td>
+    <td><a href="http://tor-exit.network/dist">http</a></td>
+    <td><a href="http://tor-exit.network">http</a></td>
+    <td> - </td>
+    <td> - </td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -681,34 +341,17 @@
      
 <tr>
 
-         <td>DE</td>
+         <td>US</td>
 
-         <td>Chaos Computer Club</td>
-
-         <td>Up to date</td>
-
-    <td> - </td>
-    <td><a href="http://tor.ccc.de/dist/">http</a></td>
-    <td><a href="http://tor.ccc.de/">http</a></td>
-    <td><a href="https://tor.ccc.de/dist/">https</a></td>
-    <td><a href="https://tor.ccc.de">https</a></td>
-    <td> - </td>
-    <td> - </td>
-</tr>
-     
-<tr>
-
-         <td>DE</td>
-
-         <td>tormirror</td>
+         <td>The Calyx Institute</td>
 
          <td>Up to date</td>
 
-    <td><a href="http://tormirror.snydernet.net/dist/">ftp</a></td>
-    <td><a href="https://tormirror.snydernet.net/dist/">http</a></td>
-    <td><a href="https://tormirror.snydernet.net/">http</a></td>
     <td> - </td>
-    <td> - </td>
+    <td><a href="http://tor.calyxinstitute.org/dist/">http</a></td>
+    <td><a href="http://tor.calyxinstitute.org">http</a></td>
+    <td><a href="https://tor.calyxinstitute.org/dist/">https</a></td>
+    <td><a href="https://tor.calyxinstitute.org">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -734,17 +377,51 @@
 
          <td>DE</td>
 
-         <td>TB-ITF</td>
+         <td>Tor Supporter</td>
 
          <td>Up to date</td>
 
-    <td><a href="ftp://tormirror.tb-itf-tor.de/">ftp</a></td>
-    <td><a href="http://tormirror.tb-itf-tor.de/dist/">http</a></td>
-    <td><a href="http://tormirror.tb-itf-tor.de">http</a></td>
-    <td><a href="https://tormirror.tb-itf-tor.de/dist/">https</a></td>
-    <td><a href="https://tormirror.tb-itf-tor.de">https</a></td>
+    <td> - </td>
+    <td><a href="http://torproject.mirror.metalgamer.eu/dist/">http</a></td>
+    <td><a href="http://torproject.mirror.metalgamer.eu/">http</a></td>
+    <td><a href="https://torproject.mirror.metalgamer.eu/dist/">https</a></td>
+    <td><a href="https://torproject.mirror.metalgamer.eu/">https</a></td>
     <td> - </td>
     <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>NL</td>
+
+         <td>Babylon Network</td>
+
+         <td>Up to date</td>
+
+    <td><a href="ftp://nl.mirror.babylon.network/torproject/">ftp</a></td>
+    <td><a href="http://nl.mirror.babylon.network/torproject/dist/">http</a></td>
+    <td><a href="http://nl.mirror.babylon.network/torproject/">http</a></td>
+    <td><a href="https://nl.mirror.babylon.network/torproject/dist/">https</a></td>
+    <td><a href="https://nl.mirror.babylon.network/torproject/">https</a></td>
+    <td><a href="rsync://nl.mirror.babylon.network/torproject/dist/">rsync</a></td>
+    <td><a href="rsync://nl.mirror.babylon.network/torproject/">rsync</a></td>
+</tr>
+     
+<tr>
+
+         <td>FR</td>
+
+         <td>Babylon Network</td>
+
+         <td>Up to date</td>
+
+    <td><a href="ftp://fr.mirror.babylon.network/torproject/">ftp</a></td>
+    <td><a href="http://fr.mirror.babylon.network/torproject/dist/">http</a></td>
+    <td><a href="http://fr.mirror.babylon.network/torproject/">http</a></td>
+    <td><a href="https://fr.mirror.babylon.network/torproject/dist/">https</a></td>
+    <td><a href="https://fr.mirror.babylon.network/torproject/">https</a></td>
+    <td><a href="rsync://fr.mirror.babylon.network/torproject/dist/">rsync</a></td>
+    <td><a href="rsync://fr.mirror.babylon.network/torproject/">rsync</a></td>
 </tr>
      
 <tr>
@@ -768,16 +445,16 @@
 
          <td>DE</td>
 
-         <td>Funkfreunde Landshut e.V.</td>
+         <td>Tor Supporter</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td><a href="http://mirror.funkfreundelandshut.de:81/torproject.org/dist/">http</a></td>
-    <td><a href="http://mirror.funkfreundelandshut.de/torproject.org/">http</a></td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td><a href="http://tor.heikorichter.name/dist">http</a></td>
+    <td><a href="http://tor.heikorichter.name">http</a></td>
+    <td><a href="https://tor.heikorichter.name/dist">https</a></td>
+    <td><a href="https://tor.heikorichter.name">https</a></td>
+    <td><a href="rsync://ftp.heikorichter.name/tor">rsync</a></td>
     <td> - </td>
 </tr>
      
@@ -794,6 +471,40 @@
     <td><a href="http://tor.127001.ovh/">http</a></td>
     <td><a href="https://tor.127001.ovh/dist/">https</a></td>
     <td><a href="https://tor.127001.ovh/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>ES</td>
+
+         <td>Tor Supporter</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.zilog.es/dist/">http</a></td>
+    <td><a href="http://tor.zilog.es/">http</a></td>
+    <td><a href="https://tor.zilog.es/dist/">https</a></td>
+    <td><a href="https://tor.zilog.es/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>US</td>
+
+         <td>AskApache</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.askapache.com/dist/">http</a></td>
+    <td><a href="http://tor.askapache.com/">http</a></td>
+    <td> - </td>
+    <td> - </td>
     <td> - </td>
     <td> - </td>
 </tr>
@@ -819,34 +530,68 @@
 
          <td>DE</td>
 
-         <td>cYbergueRrilLa AnonyMous NeXus</td>
+         <td>torservers</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td><a href="https://tor-mirror.cyberguerrilla.org/dist/">https</a></td>
-    <td><a href="https://tor-mirror.cyberguerrilla.org">https</a></td>
+    <td><a href="http://www.torservers.net/mirrors/torproject.org/dist/">http</a></td>
+    <td><a href="http://www.torservers.net/mirrors/torproject.org/">http</a></td>
+    <td><a href="https://www.torservers.net/mirrors/torproject.org/dist/">https</a></td>
+    <td><a href="https://www.torservers.net/mirrors/torproject.org/">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
      
 <tr>
 
-         <td>GR</td>
+         <td>US</td>
 
-         <td>Tor Supporter</td>
+         <td>EFF</td>
 
          <td>Up to date</td>
 
     <td> - </td>
-    <td><a href="http://tor.void.gr/dist/">http</a></td>
-    <td><a href="http://tor.void.gr">http</a></td>
-    <td><a href="https://tor.void.gr/dist/">https</a></td>
-    <td><a href="https://tor.void.gr">https</a></td>
     <td> - </td>
     <td> - </td>
+    <td><a href="https://tor.eff.org/dist/">https</a></td>
+    <td><a href="https://tor.eff.org">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>US</td>
+
+         <td>Evil Routers</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor1.evilrouters.net/dist/">http</a></td>
+    <td><a href="http://tor1.evilrouters.net/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>US</td>
+
+         <td>Lucid Networks</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.mirrors.lucidnetworks.net/dist">http</a></td>
+    <td><a href="http://tor.mirrors.lucidnetworks.net">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td><a href="rsync://tor.mirrors.lucidnetworks.net::tor-dist">rsync</a></td>
+    <td><a href="rsync://tor.mirrors.lucidnetworks.net::tor">rsync</a></td>
 </tr>
      
 <tr>
@@ -862,6 +607,227 @@
     <td><a href="http://tor.xfree.com.ar/">http</a></td>
     <td> - </td>
     <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>US</td>
+
+         <td>EPRCI</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.eprci.net/dist/">http</a></td>
+    <td><a href="http://tor.eprci.net/">http</a></td>
+    <td><a href="https://www.eprci.com/tor/dist/">https</a></td>
+    <td><a href="https://www.eprci.com/tor/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>TW</td>
+
+         <td>Department of CSE. Yuan Ze University</td>
+
+         <td>Up to date</td>
+
+    <td><a href="ftp://ftp.yzu.edu.tw/torproject.org/">ftp</a></td>
+    <td><a href="http://ftp.yzu.edu.tw/torproject.org/dist/">http</a></td>
+    <td><a href="http://ftp.yzu.edu.tw/torproject.org/">http</a></td>
+    <td><a href="https://ftp.yzu.edu.tw/torproject.org/dist/">https</a></td>
+    <td><a href="https://ftp.yzu.edu.tw/torproject.org/">https</a></td>
+    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/dist/">rsync</a></td>
+    <td><a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/">rsync</a></td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
+         <td>tormirror</td>
+
+         <td>Up to date</td>
+
+    <td><a href="http://tormirror.snydernet.net/dist/">ftp</a></td>
+    <td><a href="https://tormirror.snydernet.net/dist/">http</a></td>
+    <td><a href="https://tormirror.snydernet.net/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
+         <td>Funkfreunde Landshut e.V.</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://mirror.funkfreundelandshut.de:81/torproject.org/dist/">http</a></td>
+    <td><a href="http://mirror.funkfreundelandshut.de/torproject.org/">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>CA</td>
+
+         <td>razx</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tcejorprot.razx.cloud/dist/">http</a></td>
+    <td><a href="http://tcejorprot.razx.cloud/">http</a></td>
+    <td><a href="https://tcejorprot.razx.cloud/dist">https</a></td>
+    <td><a href="https://tcejorprot.razx.cloud/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
+         <td>TB-ITF</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tormirror.tb-itf-tor.de/dist/">http</a></td>
+    <td><a href="http://tormirror.tb-itf-tor.de">http</a></td>
+    <td><a href="https://tormirror.tb-itf-tor.de/dist/">https</a></td>
+    <td><a href="https://tormirror.tb-itf-tor.de">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>AU</td>
+
+         <td>CoffsWiFi</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://torproject.coffswifi.net/dist">http</a></td>
+    <td><a href="http://torproject.coffswifi.net">http</a></td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>IS</td>
+
+         <td>myRL.net</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.myrl.net/dist/">http</a></td>
+    <td><a href="http://tor.myrl.net/">http</a></td>
+    <td><a href="https://tor.myrl.net/dist/">https</a></td>
+    <td><a href="https://tor.myrl.net/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>FR</td>
+
+         <td>stalkr.net</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.stalkr.net/dist/">http</a></td>
+    <td><a href="http://tor.stalkr.net/">http</a></td>
+    <td><a href="https://tor.stalkr.net/dist/">https</a></td>
+    <td><a href="https://tor.stalkr.net/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
+         <td>cYbergueRrilLa AnonyMous NeXus</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td><a href="https://tor-mirror.cyberguerrilla.org/dist/">https</a></td>
+    <td><a href="https://tor-mirror.cyberguerrilla.org">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>AT</td>
+
+         <td>Tor Supporter</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.ludikovsky.name/dist">http</a></td>
+    <td><a href="http://tor.ludikovsky.name/">http</a></td>
+    <td><a href="https://tor.ludikovsky.name/dist">https</a></td>
+    <td><a href="https://tor.ludikovsky.name/">https</a></td>
+    <td><a href="rsync://tor.ludikovsky.name/tor-dist">rsync</a></td>
+    <td><a href="rsync://tor.ludikovsky.name/tor">rsync</a></td>
+</tr>
+     
+<tr>
+
+         <td>US</td>
+
+         <td>intfxdx.com</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://108.248.87.242/dist/">http</a></td>
+    <td><a href="http://108.248.87.242/">http</a></td>
+    <td><a href="https://108.248.87.242/dist/">https</a></td>
+    <td><a href="https://108.248.87.242/">https</a></td>
+    <td> - </td>
+    <td> - </td>
+</tr>
+     
+<tr>
+
+         <td>DE</td>
+
+         <td>Chaos Computer Club</td>
+
+         <td>Up to date</td>
+
+    <td> - </td>
+    <td><a href="http://tor.ccc.de/dist/">http</a></td>
+    <td><a href="http://tor.ccc.de/">http</a></td>
+    <td><a href="https://tor.ccc.de/dist/">https</a></td>
+    <td><a href="https://tor.ccc.de">https</a></td>
     <td> - </td>
     <td> - </td>
 </tr>
