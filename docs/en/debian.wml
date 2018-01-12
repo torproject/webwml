@@ -75,9 +75,9 @@ I run
 <option value="stretch" selected="selected">Debian stable (stretch)</option>
 <option value="testing">Debian testing (buster)</option>
 <option value="sid">Debian unstable (sid)</option>
-<option value="precise">Ubuntu Precise Pangolin</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
 <option value="xenial">Ubuntu Xenial Xerus</option>
+<option value="zesty">Ubuntu Zesty Zapus</option>
 </select>
 and want
 <select id="package"></select>
