@@ -31,7 +31,7 @@ form#makeDonation {
    <div class="hundred toptwenty">
     <div class="dbox donate">
     <h3>Donate Bitcoin</h3>
-<p>To donate Bitcoin to The Tor Project, please complete the form below. If you would like an acknowledgment from the Tor Project, please provide your email address. (Due to the current state of the Bitcoin market, our payment processor, Bitpay, will not allow us to accept donations of less than 100 USD. However, we can also accept donations, including smaller donations, through Bitcoin Cash. Send us a tip with <a href="https://twitter.com/tipprbot">@tipprbot</a> on Twitter!)</p>
+<p>To donate Bitcoin to The Tor Project, please complete the form below. If you would like an acknowledgment from the Tor Project, please provide your email address. (Due to the current state of the Bitcoin market, our payment processor, Bitpay, will not allow us to accept donations of less than 5 USD. However, we can also accept donations, including smaller donations, through Bitcoin Cash. Send us a tip with <a href="https://twitter.com/tipprbot">@tipprbot</a> on Twitter!)</p>
   <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
         <input name="action" type="hidden" value="checkout">
         <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
@@ -42,7 +42,7 @@ form#makeDonation {
             </li>
             <li id="price" class="control-group">
                 <label class="control-label" style="width: 80px">Amount:</label>
-                <input name="price" type="number" class="noscroll" value="100.00" placeholder="Amount" maxlength="10" min="100" step="0.01" />
+                <input name="price" type="number" class="noscroll" value="20" placeholder="Amount" maxlength="10" min="1" step="0.01" />
                 <select name="currency" value="" >
                   <option value="USD" selected="selected">USD</option>
                   <option value="BTC">BTC</option>
