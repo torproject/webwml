@@ -25,7 +25,7 @@
    
     <p>To install the Tor Browser port from an updated ports tree, run:</p>
 
-    <pre>cd /usr/ports/meta/tor-browser && make installr</pre>
+    <pre>cd /usr/ports/meta/tor-browser && make install</pre>
 
   </div>
   <!-- END MAINCOL -->
