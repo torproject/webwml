@@ -16,7 +16,7 @@ function OScheck() {
   }else if(clientos == "Windows"){
     $('.easy.windows').css('display', 'block');
   }else if(clientos == "Mac"){
-    $('.easy.mac').css('display', 'block');
+      $('.easy.mac').css('display', 'block');
   }else if(clientos == "Android"){
     $('.easy.android').css('display', 'block');
   }else{
@@ -92,7 +92,7 @@ $(document).ready(function () {
       var url = $.param.fragment();
 
       // Toggle the '.easy' divs to off
-      if(url == 'windows'|url == 'mac'|url == 'linux'|url == 'android'){
+      if(url == 'windows'|url == 'mac'|url == 'linux'|url == 'openbsd'|url == 'android'){
 
 	  $('.easy').css('display', 'none');
       }
@@ -102,7 +102,9 @@ $(document).ready(function () {
       } else if(url == 'mac'){
 	$('.easy.mac').css('display', 'block');
       } else if(url == 'linux'){
-	$('.easy.linux').css('display', 'block');
+	  $('.easy.linux').css('display', 'block');
+      } else if(url == 'openbsd'){
+	$('.easy.bsd').css('display', 'block');
       } else if(url == 'android'){
   $('.easy.android').css('display', 'block');
       } else {

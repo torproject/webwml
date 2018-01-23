@@ -101,12 +101,21 @@
     
 	<a id="security"></a>
 	<h3><a class="anchor" href="#security">Security Issues</a></h3>
-	<p>If you've found a security issue in one of our projects or our
-	infrastructure, please email the respective maintainer. You can find
-	their GPG fingerprint/key on our <a
-	href="https://db.torproject.org">developer ldap search page</a>. Due
-	to the many different projects we have, we do not offer a single
-	list for security issues.</p>
+	<p>If you've found a security issue in one of our projects or in our
+	infrastructure, please email tor-security@lists.torproject.org. 
+	You can get the GPG public key for the list by contacting 
+	tor-security-sendkey@lists.torproject.org or from 
+	pool.sks-keyservers.net. Here is the fingerprint:
+	<blockquote><pre>
+	gpg --fingerprint tor-security@lists.torproject.org
+	pub   4096R/1A7BF184 2017-03-13
+	      Key fingerprint = 8B90 4624 C5A2 8654 E453  9BC2 E135 A8B4 1A7B F184
+	uid                  tor-security@lists.torproject.org <tor-security@lists.torproject.org>
+	uid                  tor-security@lists.torproject.org <tor-security-owner@lists.torproject.org>
+	uid                  tor-security@lists.torproject.org <tor-security-request@lists.torproject.org>
+	sub   4096R/C00942E4 2017-03-13
+	</pre></blockquote>
+	</p>
 
 	<a id="badrelays"></a>
 	<h3><a class="anchor" href="#badrelays">Report Bad Relays</a></h3>
