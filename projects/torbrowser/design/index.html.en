@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>The Design and Implementation of the Tor Browser [DRAFT]</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1" /></head><body><div class="article"><div class="titlepage"><div><div><h2 class="title"><a id="design"></a>The Design and Implementation of the Tor Browser [DRAFT]</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Mike</span> <span class="surname">Perry</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:mikeperry#torproject org">mikeperry#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Erinn</span> <span class="surname">Clark</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:erinn#torproject org">erinn#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Steven</span> <span class="surname">Murdoch</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:sjmurdoch#torproject org">sjmurdoch#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Georg</span> <span class="surname">Koppen</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:gk#torproject org">gk#torproject org</a>&gt;</code></p></div></div></div></div><div><p class="pubdate">January 24th, 2018</p></div></div><hr /></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="sect1"><a href="#idm29">1. Introduction</a></span></dt><dd><dl><dt><span class="sect2"><a href="#components">1.1. Browser Component Overview</a></span></dt></dl></dd><dt><span class="sect1"><a href="#DesignRequirements">2. Design Requirements and Philosophy</a></span></dt><dd><dl><dt><span class="sect2"><a href="#security">2.1. Security Requirements</a></span></dt><dt><span class="sect2"><a href="#privacy">2.2. Privacy Requirements</a></span></dt><dt><span class="sect2"><a href="#philosophy">2.3. Philosophy</a></span></dt></dl></dd><dt><span class="sect1"><a href="#adversary">3. Adversary Model</a></span></dt><dd><dl><dt><span class="sect2"><a href="#adversary-goals">3.1. Adversary Goals</a></span></dt><dt><span class="sect2"><a href="#adversary-positioning">3.2. Adversary Capabilities - Positioning</a></span></dt><dt><span class="sect2"><a href="#attacks">3.3. Adversary Capabilities - Attacks</a></span></dt></dl></dd><dt><span class="sect1"><a href="#Implementation">4. Implementation</a></span></dt><dd><dl><dt><span class="sect2"><a href="#proxy-obedience">4.1. Proxy Obedience</a></span></dt><dt><span class="sect2"><a href="#state-separation">4.2. State Separation</a></span></dt><dt><span class="sect2"><a href="#disk-avoidance">4.3. Disk Avoidance</a></span></dt><dt><span class="sect2"><a href="#app-data-isolation">4.4. Application Data Isolation</a></span></dt><dt><span class="sect2"><a href="#identifier-linkability">4.5. Cross-Origin Identifier Unlinkability</a></span></dt><dt><span class="sect2"><a href="#fingerprinting-linkability">4.6. Cross-Origin Fingerprinting Unlinkability</a></span></dt><dt><span class="sect2"><a href="#new-identity">4.7. Long-Term Unlinkability via "New Identity" button</a></span></dt><dt><span class="sect2"><a href="#other-security">4.8. Other Security Measures</a></span></dt></dl></dd><dt><span class="sect1"><a href="#BuildSecurity">5. Build Security and Package Integrity</a></span></dt><dd><dl><dt><span class="sect2"><a href="#idm1107">5.1. Achieving Binary Reproducibility</a></span></dt><dt><span class="sect2"><a href="#idm1139">5.2. Package Signatures and Verification</a></span></dt><dt><span class="sect2"><a href="#idm1146">5.3. Anonymous Verification</a></span></dt><dt><span class="sect2"><a href="#update-safety">5.4. Update Safety</a></span></dt></dl></dd><dt><span class="appendix"><a href="#Transparency">A. Towards Transparency in Navigation Tracking</a></span></dt><dd><dl><dt><span class="sect1"><a href="#deprecate">A.1. Deprecation Wishlist</a></span></dt><dt><span class="sect1"><a href="#idm1189">A.2. Promising Standards</a></span></dt></dl></dd></dl></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm29"></a>1. Introduction</h2></div></div></div><p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>The Design and Implementation of the Tor Browser [DRAFT]</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1" /></head><body><div class="article"><div class="titlepage"><div><div><h2 class="title"><a id="design"></a>The Design and Implementation of the Tor Browser [DRAFT]</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Mike</span> <span class="surname">Perry</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:mikeperry#torproject org">mikeperry#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Erinn</span> <span class="surname">Clark</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:erinn#torproject org">erinn#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Steven</span> <span class="surname">Murdoch</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:sjmurdoch#torproject org">sjmurdoch#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Georg</span> <span class="surname">Koppen</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:gk#torproject org">gk#torproject org</a>&gt;</code></p></div></div></div></div><div><p class="pubdate">January 25th, 2018</p></div></div><hr /></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="sect1"><a href="#idm29">1. Introduction</a></span></dt><dd><dl><dt><span class="sect2"><a href="#components">1.1. Browser Component Overview</a></span></dt></dl></dd><dt><span class="sect1"><a href="#DesignRequirements">2. Design Requirements and Philosophy</a></span></dt><dd><dl><dt><span class="sect2"><a href="#security">2.1. Security Requirements</a></span></dt><dt><span class="sect2"><a href="#privacy">2.2. Privacy Requirements</a></span></dt><dt><span class="sect2"><a href="#philosophy">2.3. Philosophy</a></span></dt></dl></dd><dt><span class="sect1"><a href="#adversary">3. Adversary Model</a></span></dt><dd><dl><dt><span class="sect2"><a href="#adversary-goals">3.1. Adversary Goals</a></span></dt><dt><span class="sect2"><a href="#adversary-positioning">3.2. Adversary Capabilities - Positioning</a></span></dt><dt><span class="sect2"><a href="#attacks">3.3. Adversary Capabilities - Attacks</a></span></dt></dl></dd><dt><span class="sect1"><a href="#Implementation">4. Implementation</a></span></dt><dd><dl><dt><span class="sect2"><a href="#proxy-obedience">4.1. Proxy Obedience</a></span></dt><dt><span class="sect2"><a href="#state-separation">4.2. State Separation</a></span></dt><dt><span class="sect2"><a href="#disk-avoidance">4.3. Disk Avoidance</a></span></dt><dt><span class="sect2"><a href="#app-data-isolation">4.4. Application Data Isolation</a></span></dt><dt><span class="sect2"><a href="#identifier-linkability">4.5. Cross-Origin Identifier Unlinkability</a></span></dt><dt><span class="sect2"><a href="#fingerprinting-linkability">4.6. Cross-Origin Fingerprinting Unlinkability</a></span></dt><dt><span class="sect2"><a href="#new-identity">4.7. Long-Term Unlinkability via "New Identity" button</a></span></dt><dt><span class="sect2"><a href="#other-security">4.8. Other Security Measures</a></span></dt></dl></dd><dt><span class="sect1"><a href="#BuildSecurity">5. Build Security and Package Integrity</a></span></dt><dd><dl><dt><span class="sect2"><a href="#idm1144">5.1. Achieving Binary Reproducibility</a></span></dt><dt><span class="sect2"><a href="#idm1176">5.2. Package Signatures and Verification</a></span></dt><dt><span class="sect2"><a href="#idm1183">5.3. Anonymous Verification</a></span></dt><dt><span class="sect2"><a href="#update-safety">5.4. Update Safety</a></span></dt></dl></dd><dt><span class="appendix"><a href="#Transparency">A. Towards Transparency in Navigation Tracking</a></span></dt><dd><dl><dt><span class="sect1"><a href="#deprecate">A.1. Deprecation Wishlist</a></span></dt><dt><span class="sect1"><a href="#idm1226">A.2. Promising Standards</a></span></dt></dl></dd></dl></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm29"></a>1. Introduction</h2></div></div></div><p>
 
 This document describes the <a class="link" href="#adversary" title="3. Adversary Model">adversary model</a>,
 <a class="link" href="#DesignRequirements" title="2. Design Requirements and Philosophy">design requirements</a>, and <a class="link" href="#Implementation" title="4. Implementation">implementation</a>  of the Tor Browser. It is current as of Tor Browser
@@ -1746,6 +1746,21 @@ to the surface. That is achieved by a direct
 Firefox patch</a> which reports back <span class="command"><strong>1</strong></span> for the first two
 properties and <span class="command"><strong>0.0</strong></span> for the two last ones.
 
+      </p></li><li class="listitem"><span class="command"><strong>Battery Status API</strong></span><p>
+
+The Battery Status API provides access to information about the system's battery
+charge level. From Firefox 52 on it is disabled for web content. Initially, it
+was possible on Linux to get a double-precision floating point value for the
+charge level, which means there was a large number of possible values making it
+almost behave like an identifier allowing to track a user cross-origin. But
+still after that got fixed (and on other platforms where the precision was just
+two significant digits anyway) the risk for tracking users remained as combined
+with the <span class="command"><strong>chargingTime</strong></span> and <span class="command"><strong>dischargingTime</strong></span>
+the possible values <a class="ulink" href="https://senglehardt.com/papers/iwpe17_battery_status_case_study.pdf" target="_top">
+got estimated to be in the millons</a> under normal conditions. We avoid all
+those possible issues with disabling the Battery Status API by setting
+<span class="command"><strong>dom.battery.enabled</strong></span> to <span class="command"><strong>false</strong></span>.
+
       </p></li><li class="listitem"><span class="command"><strong>System Uptime</strong></span><p>
 
 It is possible to get the system uptime of a Tor Browser user by querying the
@@ -1853,10 +1868,15 @@ against timing-based side channel fingerprinting risks.
 Due to <a class="ulink" href="https://bugzilla.mozilla.org/show_bug.cgi?id=863246" target="_top">bugs
 </a> <a class="ulink" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1120398" target="_top">
 in Firefox</a> it is possible to detect the locale and the platform of a
-Tor Browser user. Moreover, it is possible to find out the extensions a user has
-installed. This is done by including resource:// and/or chrome:// URIs into
-web content which point to resources included in Tor Browser itself or in
-installed extensions.
+Tor Browser user. Moreover, it is possible to
+<a class="ulink" href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf" target="_top">
+find out the extensions</a> a user has installed. This is done by
+including resource:// and/or chrome:// URIs into web content, which point to
+resources included in Tor Browser itself or in installed extensions, and
+exploiting the different behavior resulting out of that: the browser raises
+an exception if a webpage requests a resource but the extension is not
+installed. This does not happen if the extension is indeed installed but the
+resource path does not exist.
       </p><p>
 
 We believe that it should be impossible for web content to extract information
@@ -1986,6 +2006,27 @@ uniform but rather <a class="ulink" href="https://bugs.torproject.org/22127" tar
 a bucket approach</a> as we currently do in our defense against screen
 size exfiltration.
 
+      </p></li><li class="listitem"><span class="command"><strong>Web Audio API</strong></span><p>
+
+The <a class="ulink" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API" target="_top">
+Web Audio API</a> provides several means to aid in fingerprinting users.
+At the simplest level it allows differentiating between users having the API
+available and those who don't by checking for an <span class="command"><strong>AudioContext</strong></span>
+or <span class="command"><strong>OscillatorNode</strong></span> object. However, there are more bits of
+information that the Web Audio API reveals if audio signals generated with an
+<span class="command"><strong>OscillatorNode</strong></span> are processed as
+<a class="ulink" href="https://senglehardt.com/papers/ccs16_online_tracking.pdf" target="_top">hardware
+and software differences</a> influence those results.
+
+      </p><p>
+
+We disable the Web Audio API by setting <span class="command"><strong>dom.webaudio.enabled</strong></span>
+to <span class="command"><strong>false</strong></span>. That has the positive side effect that it disables
+one of several means to perform
+<a class="ulink" href="https://petsymposium.org/2017/papers/issue2/paper18-2017-2-source.pdf" target="_top">
+ultrasound cross-device tracking</a> as well, which is based on having
+<span class="command"><strong>AudioContext</strong></span> available.
+
       </p></li><li class="listitem"><span class="command"><strong>MediaError.message</strong></span><p>
 
 The <span class="command"><strong>MediaError</strong></span> object allows the user agent to report errors
@@ -2039,14 +2080,41 @@ datareporting.healthreport.about.reportUrlUnified</strong></span> to <span class
 data:text/plain,</strong></span>. The same is done with <span class="command"><strong>
 datareporting.healthreport.about.reportUrl</strong></span> and the new tiles feature
 related <span class="command"><strong>browser.newtabpage.directory.ping</strong></span> and <span class="command"><strong>
-browser.newtabpage.directory.source</strong></span> preferences. Additionally, we
-disable the UITour backend by setting <span class="command"><strong>browser.uitour.enabled</strong></span>
-to <span class="command"><strong>false</strong></span>. Finally, we provide <a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=9f24ce35cd8776a0f7c3a4d54992ecb0eaad6311" target="_top">a patch</a>
+browser.newtabpage.directory.source</strong></span> preferences.
+<span class="command"><strong>browser.newtabpage.remote</strong></span> is set to <span class="command"><strong>false</strong></span>
+in this context as well, as a defense-in-depth given that this feature is
+already of by default. Additionally, we disable the UITour backend by setting
+<span class="command"><strong>browser.uitour.enabled</strong></span> to <span class="command"><strong>false</strong></span> and avoid
+getting Mozilla experiments installed into Tor Browser by flipping
+<span class="command"><strong>experiments.enabled</strong></span> to <span class="command"><strong>false</strong></span>. On the
+update side we prevent the browser from pinging the new
+<a class="ulink" href="https://wiki.mozilla.org/Firefox/Kinto" target="_top">Kinto</a> service for
+blocklist updates as it is not used for it yet anyway. This is done by setting
+<span class="command"><strong>services.blocklist.update_enabled</strong></span> to <span class="command"><strong>false</strong></span>.
+The captive portal detection code is disabled as well as it phones home to
+Mozilla. We set <span class="command"><strong>network.captive-portal-service.enabled</strong></span> to
+<span class="command"><strong>false</strong></span> to achieve that. Unrelated to that we make sure that
+Mozilla does not get bothered with TLS error reports from Tor Browser users by
+hiding the respective checkbox with
+<span class="command"><strong>security.ssl.errorReporting.enabled</strong></span> set to
+<span class="command"><strong>false</strong></span>. And while we have the Push API disabled as there are
+no Service Workers available in Tor Browser yet, we remove the value for
+<span class="command"><strong>dom.push.serverURL</strong></span> as a defense-in-depth. Finally, we provide
+<a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=9f24ce35cd8776a0f7c3a4d54992ecb0eaad6311" target="_top">a patch</a>
 to prevent Mozilla's websites from querying whether particular extensions are
 installed and what their state in Tor Browser is by using the
 <span class="command"><strong>window.navigator.AddonManager</strong></span> API. As a defense-in-depth the
 patch makes sure that not only Mozilla's websites can't get at that information
 but that the whitelist governing this access is empty in general.
+
+      </p><p>
+
+We have <a class="ulink" href="https://wiki.mozilla.org/Security/Safe_Browsing" target="_top">Safebrowsing</a>
+disabled in Tor Browser. In order to avoid pinging providers for list updates we
+remove the entries for <span class="command"><strong>browser.safebrowsing.provider.mozilla.updateURL</strong></span>
+and <span class="command"><strong>browser.safebrowsing.provider.mozilla.gethashURL</strong></span> (and the
+values for Google related preferences as well).
+
       </p></li><li class="listitem"><span class="command"><strong>Operating System Type Fingerprinting</strong></span><p>
 
 As we mentioned in the introduction of this section, OS type fingerprinting is
@@ -2070,13 +2138,11 @@ tag on our bug tracker</a>.
 
      </p><p><span class="command"><strong>Implementation Status:</strong></span>
 
-At least three HTML5 features have different implementation status across the
-major OS vendors and/or the underlying hardware: the <a class="ulink" href="https://developer.mozilla.org/en-US/docs/DOM/window.navigator.battery" target="_top">Battery
-API</a>, the <a class="ulink" href="https://developer.mozilla.org/en-US/docs/DOM/window.navigator.connection" target="_top">Network
+At least two HTML5 features have a different implementation status across the
+major OS vendors and/or the underlying hardware: the <a class="ulink" href="https://developer.mozilla.org/en-US/docs/DOM/window.navigator.connection" target="_top">Network
 Connection API</a>, and the <a class="ulink" href="https://wiki.mozilla.org/Sensor_API" target="_top">Sensor API</a>. We disable these APIs through the Firefox preferences
-<span class="command"><strong>dom.battery.enabled</strong></span>,
-<span class="command"><strong>dom.network.enabled</strong></span>, and
-<span class="command"><strong>device.sensors.enabled</strong></span>.
+<span class="command"><strong>dom.network.enabled</strong></span> and
+<span class="command"><strong>device.sensors.enabled</strong></span>, setting both to <span class="command"><strong>false</strong></span>.
 
      </p></li></ol></div><p>
 For more details on fingerprinting bugs and enhancements, see the <a class="ulink" href="https://trac.torproject.org/projects/tor/query?keywords=~tbb-fingerprinting&amp;status=!closed" target="_top">tbb-fingerprinting tag in our bug tracker</a>
@@ -2086,11 +2152,11 @@ In order to avoid long-term linkability, we provide a "New Identity" context
 menu option in Torbutton. This context menu option is active if Torbutton can
 read the environment variables $TOR_CONTROL_PASSWD and $TOR_CONTROL_PORT.
 
-   </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1011"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote">
+   </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1048"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote">
 
 All linkable identifiers and browser state MUST be cleared by this feature.
 
-    </blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1014"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
+    </blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1051"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
 
 First, Torbutton disables JavaScript in all open tabs and windows by using
 both the <a class="ulink" href="https://developer.mozilla.org/en-US/docs/XPCOM_Interface_Reference/nsIDocShell#Attributes" target="_top">browser.docShell.allowJavaScript</a>
@@ -2195,7 +2261,7 @@ images (<span class="command"><strong>svg.in-content.enabled</strong></span>).
 Fingerprinting</a> is a statistical attack to attempt to recognize specific
 encrypted website activity.
 
-     </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1072"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
+     </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1109"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
 
 We want to deploy a mechanism that reduces the accuracy of <a class="ulink" href="https://en.wikipedia.org/wiki/Feature_selection" target="_top">useful features</a> available
 for classification. This mechanism would either impact the true and false
@@ -2217,7 +2283,7 @@ Congestion-Sensitive BUFLO</a>. It may be also possible to <a class="ulink" href
 defenses</a> such that they only use existing spare Guard bandwidth capacity in the Tor
 network, making them also effectively no-overhead.
 
-     </p></blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1084"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
+     </p></blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1121"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
 Currently, we patch Firefox to <a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=b9fa77472aa67e26bd46a5ca889b20ce3448f9d1" target="_top">randomize
 pipeline order and depth</a>. Unfortunately, pipelining is very fragile.
 Many sites do not support it, and even sites that advertise support for
@@ -2282,7 +2348,7 @@ contend with. For this reason, we have deployed a build system
 that allows anyone to use our source code to reproduce byte-for-byte identical
 binary packages to the ones that we distribute.
 
-  </p><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1107"></a>5.1. Achieving Binary Reproducibility</h3></div></div></div><p>
+  </p><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1144"></a>5.1. Achieving Binary Reproducibility</h3></div></div></div><p>
 
 The GNU toolchain has been working on providing reproducible builds for some
 time, however a large software project such as Firefox typically ends up
@@ -2390,7 +2456,7 @@ particular: libgmp) attempt to detect the current CPU to determine which
 optimizations to compile in. This CPU type is uniform on our KVM instances,
 but differs under LXC.
 
-   </p></li></ol></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1139"></a>5.2. Package Signatures and Verification</h3></div></div></div><p>
+   </p></li></ol></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1176"></a>5.2. Package Signatures and Verification</h3></div></div></div><p>
 
 The build process generates a single sha256sums-unsigned-build.txt file that
 contains a sorted list of the SHA-256 hashes of every package produced for that
@@ -2423,7 +2489,7 @@ In order to verify package integrity, the signature must be stripped off using
 the osslsigncode tool, as described on the <a class="ulink" href="https://www.torproject.org/docs/verifying-signatures.html.en#BuildVerification" target="_top">Signature
 Verification</a> page.
 
-    </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1146"></a>5.3. Anonymous Verification</h3></div></div></div><p>
+    </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1183"></a>5.3. Anonymous Verification</h3></div></div></div><p>
 
 Due to the fact that bit-identical packages can be produced by anyone, the
 security of this build system extends beyond the security of the official
@@ -2517,7 +2583,7 @@ through the source URL parameters.
   </p><p>
 
 We believe the Referer header should be made explicit, and believe that Referrer
-Policy provides a <a class="ulink" href="https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-header" target="_top">
+Policy, which is available since Firefox 52, provides a <a class="ulink" href="https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-header" target="_top">
 decent step in this direction</a>. If a site wishes to transmit its URL to
 third party content elements during load or during link-click, it should have
 to specify this as a property of the associated <a class="ulink" href="https://blog.mozilla.org/security/2015/01/21/meta-referrer/" target="_top">
@@ -2559,7 +2625,7 @@ possible for us to <a class="ulink" href="https://trac.torproject.org/projects/t
 ourselves</a>, as they are comparatively rare and can be handled with site
 permissions.
 
-   </p></li></ol></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm1189"></a>A.2. Promising Standards</h2></div></div></div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><a class="ulink" href="https://web.archive.org/web/20130213034335/http://web-send.org:80/" target="_top">Web-Send Introducer</a><p>
+   </p></li></ol></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm1226"></a>A.2. Promising Standards</h2></div></div></div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><a class="ulink" href="https://web.archive.org/web/20130213034335/http://web-send.org:80/" target="_top">Web-Send Introducer</a><p>
 
 Web-Send is a browser-based link sharing and federated login widget that is
 designed to operate without relying on third-party tracking or abusing other
