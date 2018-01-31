@@ -11,6 +11,7 @@ var software = {
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
+                     'artful':  [ 'artful'],
                      },
          'experimental-0.3.3.x': {
                      'jessie':  [ 'jessie' ],
@@ -20,6 +21,7 @@ var software = {
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
+                     'artful':  [ 'artful'],
                      },
          'nightly-master': {
                      'jessie':  [ 'jessie' ],
@@ -29,6 +31,7 @@ var software = {
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
                      'yakkety': [ 'yakkety'],
+                     'artful':  [ 'artful'],
                      },
        },
 'tor (from source)': {

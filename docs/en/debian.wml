@@ -75,8 +75,9 @@ I run
 <option value="stretch" selected="selected">Debian stable (stretch)</option>
 <option value="buster">Debian testing (buster)</option>
 <option value="sid">Debian unstable (sid)</option>
-<option value="trusty">Ubuntu Trusty Tahr</option>
-<option value="xenial">Ubuntu Xenial Xerus</option>
+<option value="trusty">Ubuntu Trusty Tahr (14.04 LTS)</option>
+<option value="xenial">Ubuntu Xenial Xerus (16.04 LTS)</option>
+<option value="artful">Ubuntu Artful Aardvark (17.10)</option>
 </select>
 and want
 <select id="package"></select>
