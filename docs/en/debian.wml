@@ -136,8 +136,8 @@ file:<br />
 <pre style="margin: 1.5em 0 1.5em 2em">
 deb     http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 </pre>
-where you put the codename of your distribution (i.e. lenny, sid,
-saucy or whatever it is)
+where you put the codename of your distribution (i.e. stretch, buster, sid
+or whatever it is)
 in place of &lt;DISTRIBUTION&gt;.
 </p>
 
@@ -204,8 +204,8 @@ to your <tt>/etc/apt/sources.list</tt> file:<br />
 deb     http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 deb     http://deb.torproject.org/torproject.org tor-experimental-0.3.3.x-&lt;DISTRIBUTION&gt; main
 </pre>
-where you again substitute the name of your distro (lenny,
-sid, saucy, ...) in place of
+where you again substitute the name of your distro (stretch, buster,
+sid, xenial, ...) in place of
 &lt;DISTRIBUTION&gt;.
 </p>
 
