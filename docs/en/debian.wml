@@ -77,7 +77,6 @@ I run
 <option value="sid">Debian unstable (sid)</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
 <option value="xenial">Ubuntu Xenial Xerus</option>
-<option value="zesty">Ubuntu Zesty Zapus</option>
 </select>
 and want
 <select id="package"></select>
