@@ -10,7 +10,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
-                     'yakkety': [ 'yakkety'],
                      'artful':  [ 'artful'],
                      },
          'experimental-0.3.3.x': {
@@ -20,7 +19,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
-                     'yakkety': [ 'yakkety'],
                      'artful':  [ 'artful'],
                      },
          'nightly-master': {
@@ -30,7 +28,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
-                     'yakkety': [ 'yakkety'],
                      'artful':  [ 'artful'],
                      },
        },
@@ -51,7 +48,6 @@ var software = {
                      'sid':     [ 'sid' ],
                      'trusty':  [ 'trusty'],
                      'xenial':  [ 'xenial'],
-                     'yakkety': [ 'yakkety'],
                      },
        },
 };
