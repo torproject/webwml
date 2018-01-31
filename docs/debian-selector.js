@@ -23,6 +23,16 @@ var software = {
                      'yakkety': [ 'yakkety'],
                      'zesty':   [ 'zesty'],
                      },
+         'nightly-master': {
+                     'jessie':  [ 'jessie' ],
+                     'stretch': [ 'stretch' ],
+                     'buster':  [ 'buster' ],
+                     'sid':     [ 'sid' ],
+                     'trusty':  [ 'trusty'],
+                     'xenial':  [ 'xenial'],
+                     'yakkety': [ 'yakkety'],
+                     'zesty':   [ 'zesty'],
+                     },
        },
 'tor (from source)': {
          '_stable': {
