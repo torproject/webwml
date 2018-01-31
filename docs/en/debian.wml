@@ -197,7 +197,7 @@ development branch of Tor on Debian or Ubuntu</a></h2>
 <br />
 
 <p>If you want to use the <a href="<page
-download/download>#packagediff">development branch</a> of Tor instead
+download/download-unix>#packagediff">development branch</a> of Tor instead
 (more features and more bugs), you need to add a different set of lines
 to your <tt>/etc/apt/sources.list</tt> file:<br />
 <pre style="margin: 1.5em 0 1.5em 2em">
