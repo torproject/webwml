@@ -73,7 +73,7 @@ I run
 <select id="distrib">
 <option value="jessie">Debian oldstable (jessie)</option>
 <option value="stretch" selected="selected">Debian stable (stretch)</option>
-<option value="testing">Debian testing (buster)</option>
+<option value="buster">Debian testing (buster)</option>
 <option value="sid">Debian unstable (sid)</option>
 <option value="trusty">Ubuntu Trusty Tahr</option>
 <option value="xenial">Ubuntu Xenial Xerus</option>
