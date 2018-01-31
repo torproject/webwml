@@ -242,7 +242,7 @@ deb-src http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 deb-src http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 deb-src http://deb.torproject.org/torproject.org tor-experimental-0.3.3.x-&lt;DISTRIBUTION&gt; main
 </pre>
-Substitute the name of your distro (strech, buster, sid, xenial, ...) in place of &lt;DISTRIBUTION&gt;. Now refresh your sources by running (as root):
+Substitute the name of your distro (stretch, buster, sid, xenial, ...) in place of &lt;DISTRIBUTION&gt;. Now refresh your sources by running (as root):
 <pre style="margin: 1.5em 0 1.5em 2em">
 apt update
 </pre>
