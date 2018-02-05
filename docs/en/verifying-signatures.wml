@@ -297,7 +297,7 @@
     <p>Starting with Tor Browser 4.5a4 we sign our MAR files which helps
     securing our update process. The downside of this is the need for additional
     instructions to verify that the MAR files we ship are indeed the ones we
-    produced with our Gitian setup.</p>
+    produced with our rbm setup.</p>
 
     <p>Assuming the verification happens on a Linux computer one first needs the
     <tt>mar-tools-linux*.zip</tt> out of the <tt>gitian-builder/inputs</tt>
