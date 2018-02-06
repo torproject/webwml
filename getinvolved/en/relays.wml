@@ -41,12 +41,6 @@ network becomes.</p>
 
 <h1>Two ways to join and help out</h1>
 <hr>
-<ul class="hlist">
-<li><a href="#diy">Run it yourself,</a></li>
-<li class="last"><a href="#donate"> or donate to others to run it for
-you.</a></li>
-</ul>
-
 <div class="hundred toptwenty">
 <div class="dbox donate">
 <a name="diy"></a>
@@ -54,12 +48,12 @@ you.</a></li>
 <p>You can run Tor as either a relay or a bridge. A bridge will usually
 see less traffic than a relay, and will only be the first hop in the
 three hop circuit. </p>
-</div>
-</div>
 
 <p>Read the instructions on how to configure a <a href="<page
-docs/bridges>#RunningABridge">bridge</a> or a <a href="<page
-docs/tor-doc-relay>#setup">relay</a>.</p>
+docs/bridges>#RunningABridge">bridge</a> or a <a href="<wiki>TorRelayGuide
+">relay</a>.</p>
+</div>
+</div>
 <div class="hundred toptwenty">
 <div class="dbox donate">
 <a name="donate"></a>
