@@ -3,4 +3,8 @@
 .deps
 *.html.en
 *.html.es
-*~.*
+\#*\#
+.#*
+*~
+*.swp
+*.swo
