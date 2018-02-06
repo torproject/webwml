@@ -49,9 +49,10 @@ network becomes.</p>
 see less traffic than a relay, and will only be the first hop in the
 three hop circuit. </p>
 
-<p>Read the instructions on how to configure a <a href="<page
-docs/bridges>#RunningABridge">bridge</a> or a <a href="<wiki>TorRelayGuide
-">relay</a>.</p>
+<p>You can find instructions on how to configure a relay in the
+<a href="<wiki>TorRelayGuide">Tor Relay Guide</a>.
+Instructions for <a href="<page docs/bridges>#RunningABridge">bridges</a>.
+</p>
 </div>
 </div>
 <div class="hundred toptwenty">
