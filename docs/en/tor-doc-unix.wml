@@ -2,15 +2,15 @@
 # Revision: $Revision$
 # Translation-Priority: 3-low
 
-#include "head.wmi" TITLE="Tor: Linux/BSD/Unix Install Instructions" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Tor: Linux Install Instructions" CHARSET="UTF-8"
 <div id="content" class="clearfix">
   <div id="breadcrumbs">
     <a href="<page index>">Home &raquo; </a>
     <a href="<page docs/documentation>">Documentation &raquo; </a>
-    <a href="<page docs/tor-doc-unix>">Linux/BSD/Unix Client</a>
+    <a href="<page docs/tor-doc-unix>">Linux Client</a>
   </div> 
   <div id="maincol"> 
-    <h1>Running the <a href="<page index>">Tor</a> client on Linux/BSD/Unix</h1>
+    <h1>Running the <a href="<page index>">Tor</a> client on Linux</h1>
     <br>
     
     <h2>Note that these are the installation instructions for running a

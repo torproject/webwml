@@ -740,19 +740,18 @@
       <a
       href="https://www.torproject.org/projects/torbrowser/design/">design
       document</a>, the <a
-      href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt?h=<version-torbrowserdevelopbranch>">ChangeLog
+      href="https://gitweb.torproject.org/builders/tor-browser-build.git/tree/projects/tor-browser/Bundle-Data/Docs/ChangeLog.txt?h=<version-torbrowserdevelopbranch>">ChangeLog
       for the branch <version-torbrowserdevelopbranch></a>, and the <a
-      href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt">ChangeLog
+      href="https://gitweb.torproject.org/builders/tor-browser-build.git/tree/projects/tor-browser/Bundle-Data/Docs/ChangeLog.txt">ChangeLog
       for the alpha branch</a>.
       </p>
       <p><strong><em>How can I make my own bundle?</em></strong>
-<br>We use <a
-href="https://blog.torproject.org/blog/deterministic-builds-part-two-technical-details">Gitian</a>
+<br>We use <a href="https://rbm.torproject.org/">rbm</a>
 to ensure that byte-for-byte reproducible packages can be built from our
 source repository by anyone. To rebuild the bundle, check out the <a
-href="https://gitweb.torproject.org/builders/tor-browser-bundle.git">Tor
+href="https://gitweb.torproject.org/builders/tor-browser-build.git">Tor
 Browser builder repository</a> and see the <a
-href="https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/gitian/README.build">README.build</a>
+href="https://gitweb.torproject.org/builders/tor-browser-build.git/tree/README">README</a>
 for instructions. You may also find the <a
 href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking">Tor
 Browser Hacking</a> intro document useful for learning about the build system
