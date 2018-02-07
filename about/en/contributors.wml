@@ -112,7 +112,7 @@ href="https://svn.torproject.org/cgi-bin/viewvc.cgi/torflow/branches/gsoc2008/">
 <dt>Sathyanarayanan Gunasekaran, Developer</dt>
 <dd>Worked on Orbot in Google
 Summer of Code 2011, and developed <a
-href="https://compass.torproject.org/">Compass</a>.</dd>
+href="https://gitweb.torproject.org/compass.git/">Compass</a>.</dd>
 
 <dt>Marie Gutbub, Advocate</dt>
 <dd>Helps educate the world about the value of Tor, especially
@@ -198,9 +198,8 @@ Perry.</dd>
 projects such as Vidalia, Torbutton and the website.</dd>
 
 <dt>Christian Schulz, Developer</dt>
-<dd>Developed <a
-href="https://globe.torproject.org/">Globe</a>, which is on
-its way to replacing Atlas and eventually Compass.</dd>
+<dd>Developed <a href="http://globe.rndm.de/">Globe</em>, a web application to
+show information about relays that make up the Tor network.</dd>
 
 <dt>Andrea Shepard, Developer</dt>
 <dd>Works with Nick as a core Tor developer.</dd>

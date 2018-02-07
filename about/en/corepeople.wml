@@ -115,7 +115,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=67EF3966509986E96ACEE84E5D67CD18702287F4"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#hellais">Arturo Filastò</a></div>
       <div class="field"><b>IRC:</b> hellais</div>
-      <div class="description">Project leader for <a href="https://ooni.torproject.org/">OONI</a>, has helped with <a href="http://tor2web.org/">tor2web</a>, wrote <a href="https://atlas.torproject.org/">Atlas</a>, and helps improve security.</div>
+      <div class="description">Project leader for <a href="https://ooni.torproject.org/">OONI</a>, has helped with <a href="http://tor2web.org/">tor2web</a>, wrote Atlas which later became <a href="https://atlas.torproject.org/">Relay Search</a>, and helps improve security.</div>
     </td>
   </tr>
 
@@ -271,7 +271,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=A8F7BA5041E133339CBA169676D58093F540ABCD"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#irl">Iain Learmonth</a></div>
       <div class="field"><b>IRC:</b> irl</div>
-      <div class="description"><a href="https://metrics.torproject.org">Metrics team member</a> and maintainer of <a href="https://atlas.torproject.org/">Atlas</a>.</div>
+      <div class="description"><a href="https://metrics.torproject.org">Metrics team member</a> and maintainer of <a href="https://atlas.torproject.org/">Relay Search</a>.</div>
     </td>
 
     <td>

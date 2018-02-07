@@ -223,8 +223,8 @@
     Tor</a>.</li>
     <li><a href="https://check.torproject.org/">The
     Tor detector</a> tries to guess if you're using Tor or not.</li>
-    <li>Check out one of the Tor status pages, such as the <a
-    href="https://atlas.torproject.org/">Atlas</a> and <a href="https://compass.torproject.org/">Compass</a> pages.
+    <li>Check out Tor network status information using <a
+    href="https://atlas.torproject.org/">Relay Search</a>.
     Remember that these lists may not be as accurate as what your Tor
     client uses, because your client fetches its own directory information and
     examines it locally.</li>

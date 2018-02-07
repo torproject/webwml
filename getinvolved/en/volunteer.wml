@@ -247,19 +247,11 @@ meetings around the world.</li>
       </tr>
 
       <tr>
-        <td><a href="#project-atlas">Atlas</a></td>
+        <td><a href="#project-atlas">Relay Search</a></td>
         <td>Client Service</td>
         <td>JavaScript</td>
         <td>Light</td>
         <td>irl</td>
-      </tr>
-
-      <tr>
-        <td><a href="#project-compass">Compass</a></td>
-        <td>Client Service</td>
-        <td>Python</td>
-        <td>None</td>
-        <td></td>
       </tr>
 
       <tr>
@@ -570,13 +562,13 @@ meetings around the world.</li>
     </p>
 
     <a id="project-atlas"></a>
-    <h3><a href="https://atlas.torproject.org/">Atlas</a> (<a
+    <h3><a href="https://atlas.torproject.org/">Relay Search</a> (<a
     href="https://gitweb.torproject.org/atlas.git">code</a>)</h3>
 
     <p>
-    Atlas is a web application to discover Tor relays and bridges. It provides
-    useful information on how relays are configured along with graphics about
-    their past usage.
+    Relay Search is a web application to discover Tor relays and bridges. It
+    provides useful information on how relays are configured along with graphics
+    about their past usage.
     </p>
 
     <p>
@@ -587,17 +579,6 @@ meetings around the world.</li>
     Wesleyan as Django. If you dig into this space then also check out <a
     href="http://globe.rndm.de/">Globe</a>, another similar site that's since
     been discontinued.
-    </p>
-
-    <a id="project-compass"></a>
-    <h3><a href="https://compass.torproject.org/">Compass</a> (<a
-    href="https://gitweb.torproject.org/compass.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Metrics%2FCompass&order=priority">bug
-    tracker</a>)</h3>
-
-    <p>
-    Compass is a web and command line application that filters and
-    aggregates the Tor relays based on various attributes.
     </p>
 
     <a id="project-onionoo"></a>
