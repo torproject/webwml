@@ -2556,7 +2556,7 @@ relay or bridge relay?</a></h3>
 
     <p><a href="<page docs/bridges>">Bridge relays</a> (or "bridges" for
 short)
-    are <a href="<page docs/tor-doc-relay>">Tor relays</a> that aren't
+    are <a href="<wiki>TorRelayGuide">Tor relays</a> that aren't
     listed in the public Tor directory.
     That means that ISPs or governments trying to block access to the
     Tor network can't simply block all bridges.
@@ -2586,9 +2586,10 @@ lots
     of bandwidth, you should definitely run a normal relay.
     If you're willing
     to <a href="#ExitPolicies">be an exit</a>, you should definitely
-    run a normal relay, since we need more exits. If you can't be an
-    exit and only have a little bit of bandwidth, be a bridge. Thanks
-    for volunteering!
+    run an exit relay, since we need more exits. If you can't be an
+    exit and only have a little bit of bandwidth, setup an
+    <a href="<page docs/pluggable-transports>#operator">obfs4 bridge</a>.
+    Thanks for volunteering!
     </p>
 
     <hr>
