@@ -2141,16 +2141,6 @@ need to be?</a></h3>
     sure it's not too often, since connections using the relay when it
     disconnects will break.
     </li>
-    <li>Tor has built-in support for <a
-    href="#BandwidthShaping">
-    rate limiting</a>. Further, if you have a fast
-    link but want to limit the number of bytes per
-    day (or week or month) that you donate, check out the <a
-
-href="#LimitTotalBandwidth">
-hibernation
-    feature</a>.
-    </li>
     <li>Each Tor relay has an <a href="#ExitPolicies">exit policy</a>
 that
     specifies what sort of outbound connections are allowed or refused
