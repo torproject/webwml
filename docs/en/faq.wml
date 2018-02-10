@@ -148,6 +148,7 @@ country)
     <li><a href="#WhyIsntMyRelayBeingUsedMore">Why isn't my relay being
     used more?</a></li>
     <li><a href="#IDontHaveAStaticIP">Can I run a Tor relay using a dynamic IP address?</a></li>
+    <li><a href="#IPv6Relay">Can I use IPv6 on my relay?</a></li>
     <li><a href="#PortscannedMore">Why do I get portscanned more often
     when I run a Tor relay?</a></li>
     <li><a href="#HighCapacityConnection">How can I get Tor to fully
@@ -2163,6 +2164,18 @@ the program iptables (for *nix) useful.
 
     <hr>
 
+    <a id="IPv6Relay"></a>
+    <h3><a class="anchor" href="#IPv6Relay">Can I use IPv6 on my relay?</a></h3>
+
+    <p>
+    Tor has <a href="<wiki>org/roadmaps/Tor/IPv6Features">partial</a> support for IPv6 and we
+    encourage every relay operator to <a href="<wiki>TorRelayGuide#IPv6">enable IPv6 functionality
+    </a> in their torrc configuration files when IPv6 connectivity is available.
+    For the time being Tor will require IPv4 addresses on relays, you can not run a Tor relay
+    on a host with IPv6 addresses only.
+    </p>
+
+    <hr>
     <a id="PortscannedMore"></a>
     <h3><a class="anchor" href="#PortscannedMore">Why do I get portscanned
     more often when I run a Tor relay?</a></h3>
