@@ -132,6 +132,10 @@ country)
     worry?</a></li>
     <li><a href="#SocksAndDNS">How do I check if my application that uses
     SOCKS is leaking DNS requests?</a></li>
+    <li><a href="#TorClientOnADifferentComputerThanMyApplications">I want to run my Tor client on a
+    different computer than my applications.</a></li>
+    <li><a href="#ServerClient">Can I install Tor on a central server, and
+    have my clients connect to it?</a></li>
     </ul>
 
     <a id="relay"></a>
@@ -167,10 +171,6 @@ be?</a></li>
     Why did that happen?</a></li>
     <li><a href="#MyRelayRecentlyGotTheGuardFlagAndTrafficDroppedByHalf">My
     relay recently got the Guard flag and traffic dropped by half.</a></li>
-    <li><a href="#TorClientOnADifferentComputerThanMyApplications">I want to run my Tor client on a
-    different computer than my applications.</a></li>
-    <li><a href="#ServerClient">Can I install Tor on a central server, and
-    have my clients connect to it?</a></li>
     <li><a href="#JoinTheNetwork">So I can just configure a nickname and
     ORPort and join the network?</a></li>
     <li><a href="#RelayOrBridge">Should I be a normal relay or bridge
@@ -2027,6 +2027,80 @@ from the source code release tor-0.2.4.16-rc is:
 
     <hr>
 
+    <a id="TorClientOnADifferentComputerThanMyApplications"></a>
+    <h3><a class="anchor" href="#TorClientOnADifferentComputerThanMyApplications">I
+    want to run my Tor client on a different computer than my applications.
+    </a></h3>
+    <p>
+    By default, your Tor client only listens for applications that
+    connect from localhost. Connections from other computers are
+    refused. If you want to torify applications on different computers
+    than the Tor client, you should edit your torrc to define
+    SocksListenAddress 0.0.0.0 and then restart (or hup) Tor. If you
+    want to get more advanced, you can configure your Tor client on a
+    firewall to bind to your internal IP but not your external IP.
+    </p>
+
+    <hr>
+
+    <a id="ServerClient"></a>
+    <h3><a class="anchor" href="#ServerClient">Can I install Tor on a
+    central server, and have my clients connect to it?</a></h3>
+    <p>
+     Yes. Tor can be configured as a client or a relay on another
+     machine, and allow other machines to be able to connect to it
+     for anonymity. This is most useful in an environment where many
+     computers want a gateway of anonymity to the rest of the world.
+     However, be forwarned that with this configuration, anyone within
+     your private network (existing between you and the Tor
+     client/relay) can see what traffic you are sending in clear text.
+     The anonymity doesn't start until you get to the Tor relay.
+     Because of this, if you are the controller of your domain and you
+     know everything's locked down, you will be OK, but this configuration
+     may not be suitable for large private networks where security is
+     key all around.
+    </p>
+    <p>
+Configuration is simple, editing your torrc file's SocksListenAddress
+according to the following examples:
+    </p>
+    <pre>
+
+  #This provides local interface access only,
+  #needs SocksPort to be greater than 0
+  SocksListenAddress 127.0.0.1
+
+  #This provides access to Tor on a specified interface
+  SocksListenAddress 192.168.x.x:9100
+
+  #Accept from all interfaces
+  SocksListenAddress 0.0.0.0:9100
+   </pre>
+    <p>
+You can state multiple listen addresses, in the case that you are
+part of several networks or subnets.
+    </p>
+    <pre>
+  SocksListenAddress 192.168.x.x:9100 #eth0
+  SocksListenAddress 10.x.x.x:9100 #eth1
+    </pre>
+    <p>
+After this, your clients on their respective networks/subnets would specify
+a socks proxy with the address and port you specified SocksListenAddress
+to be.
+    </p>
+    <p>
+Please note that the SocksPort configuration option gives the port ONLY for
+localhost (127.0.0.1). When setting up your SocksListenAddress(es), you need
+to give the port with the address, as shown above.
+    <p>
+If you are interested in forcing all outgoing data through the central Tor
+client/relay, instead of the server only being an optional proxy, you may find
+the program iptables (for *nix) useful.
+    </p>
+
+    <hr>
+
     <a id="RunningATorRelay"></a>
     <h2><a class="anchor" href="#RunningATorRelay">Running a Tor relay:</a></h2>
 
@@ -2472,80 +2546,6 @@ users
     post</a> or in <a href="http://freehaven.net/anonbib/#wpes12-cogs">Changing
     of the Guards: A Framework for Understanding and Improving Entry Guard
     Selection in Tor</a>.
-    </p>
-
-    <hr>
-
-    <a id="TorClientOnADifferentComputerThanMyApplications"></a>
-    <h3><a class="anchor" href="#TorClientOnADifferentComputerThanMyApplications">I
-    want to run my Tor client on a different computer than my applications.
-    </a></h3>
-    <p>
-    By default, your Tor client only listens for applications that
-    connect from localhost. Connections from other computers are
-    refused. If you want to torify applications on different computers
-    than the Tor client, you should edit your torrc to define
-    SocksListenAddress 0.0.0.0 and then restart (or hup) Tor. If you
-    want to get more advanced, you can configure your Tor client on a
-    firewall to bind to your internal IP but not your external IP.
-    </p>
-
-    <hr>
-
-    <a id="ServerClient"></a>
-    <h3><a class="anchor" href="#ServerClient">Can I install Tor on a
-    central server, and have my clients connect to it?</a></h3>
-    <p>
-     Yes. Tor can be configured as a client or a relay on another
-     machine, and allow other machines to be able to connect to it
-     for anonymity. This is most useful in an environment where many
-     computers want a gateway of anonymity to the rest of the world.
-     However, be forwarned that with this configuration, anyone within
-     your private network (existing between you and the Tor
-     client/relay) can see what traffic you are sending in clear text.
-     The anonymity doesn't start until you get to the Tor relay.
-     Because of this, if you are the controller of your domain and you
-     know everything's locked down, you will be OK, but this configuration
-     may not be suitable for large private networks where security is
-     key all around.
-    </p>
-    <p>
-Configuration is simple, editing your torrc file's SocksListenAddress
-according to the following examples:
-    </p>
-    <pre>
-
-  #This provides local interface access only,
-  #needs SocksPort to be greater than 0
-  SocksListenAddress 127.0.0.1
-
-  #This provides access to Tor on a specified interface
-  SocksListenAddress 192.168.x.x:9100
-
-  #Accept from all interfaces
-  SocksListenAddress 0.0.0.0:9100
-   </pre>
-    <p>
-You can state multiple listen addresses, in the case that you are
-part of several networks or subnets.
-    </p>
-    <pre>
-  SocksListenAddress 192.168.x.x:9100 #eth0
-  SocksListenAddress 10.x.x.x:9100 #eth1
-    </pre>
-    <p>
-After this, your clients on their respective networks/subnets would specify
-a socks proxy with the address and port you specified SocksListenAddress
-to be.
-    </p>
-    <p>
-Please note that the SocksPort configuration option gives the port ONLY for
-localhost (127.0.0.1). When setting up your SocksListenAddress(es), you need
-to give the port with the address, as shown above.
-    <p>
-If you are interested in forcing all outgoing data through the central Tor
-client/relay, instead of the server only being an optional proxy, you may find
-the program iptables (for *nix) useful.
     </p>
 
     <hr>
