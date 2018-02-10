@@ -2136,6 +2136,11 @@ need to be?</a></h3>
     </p>
 
     <ul>
+    <li>It's fine if the relay goes offline sometimes. The directories
+    notice this quickly and stop advertising the relay. Just try to make
+    sure it's not too often, since connections using the relay when it
+    disconnects will break.
+    </li>
     <li>Tor has built-in support for <a
     href="#BandwidthShaping">
     rate limiting</a>. Further, if you have a fast
@@ -2154,11 +2159,6 @@ from
 your
     relay, you can set it up to only allow connections to other Tor
 relays.
-    </li>
-    <li>It's fine if the relay goes offline sometimes. The directories
-    notice this quickly and stop advertising the relay. Just try to make
-    sure it's not too often, since connections using the relay when it
-    disconnects will break.
     </li>
     <li>If your relay is behind a NAT and it doesn't know its public
     IP (e.g. it has an IP of 192.168.x.y), you'll need to set up port
