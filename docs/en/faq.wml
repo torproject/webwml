@@ -2160,9 +2160,6 @@ relays.
     sure it's not too often, since connections using the relay when it
     disconnects will break.
     </li>
-    <li>We can handle relays with dynamic IPs just fine &mdash; simply
-    leave the Address config option blank, and Tor will try to guess.
-    </li>
     <li>If your relay is behind a NAT and it doesn't know its public
     IP (e.g. it has an IP of 192.168.x.y), you'll need to set up port
     forwarding. Forwarding TCP connections is system dependent but
