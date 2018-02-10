@@ -143,7 +143,7 @@ country)
     <li><a href="#MostNeededRelayType">What type of relays are most needed?</a></li>
     <li><a href="#WhyIsntMyRelayBeingUsedMore">Why isn't my relay being
     used more?</a></li>
-    <li><a href="#IDontHaveAStaticIP">I don't have a static IP.</a></li>
+    <li><a href="#IDontHaveAStaticIP">Can I run a Tor relay using a dynamic IP address?</a></li>
     <li><a href="#PortscannedMore">Why do I get portscanned more often
     when I run a Tor relay?</a></li>
     <li><a href="#HighCapacityConnection">How can I get Tor to fully
@@ -2079,8 +2079,8 @@ from the source code release tor-0.2.4.16-rc is:
     <hr>
 
     <a id="IDontHaveAStaticIP"></a>
-    <h3><a class="anchor" href="#IDontHaveAStaticIP">I don't have a static
-    IP.</a></h3>
+    <h3><a class="anchor" href="#IDontHaveAStaticIP">Can I run a Tor relay using a
+    dynamic IP address?</a></h3>
 
     <p>
     Tor can handle relays with dynamic IP addresses just fine. Just leave
