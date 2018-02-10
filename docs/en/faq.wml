@@ -2454,12 +2454,10 @@ users
     the BadExit flag why did that happen?</a></h3>
 
     <p>If you got this flag then we either discovered a problem or suspicious
-    activity coming from your exit and weren't able to contact you. The reason
-    for most flaggings are documented on the <a
-    href="https://trac.torproject.org/projects/tor/wiki/doc/badRelays">bad
-    relays wiki</a>. Please <a
-    href="<page about/contact>">contact us</a> so
-    we can sort out the issue.</p>
+    activity when routing traffic through your exit and weren't able to contact you.
+    Please reach out to the <a href="mailto:bad-relays@lists.torproject.org">bad-relays team</a>
+    so we can sort out the issue.
+    </p>
 
     <hr>
 
