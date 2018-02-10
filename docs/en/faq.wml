@@ -2034,9 +2034,11 @@ from the source code release tor-0.2.4.16-rc is:
     run a relay?</a></h3>
     <p>
     We're looking for people with reasonably reliable Internet connections,
-    that have at least 250 kilobytes/second each way. If that's you, please
-    consider <a href="https://www.torproject.org/docs/tor-relay-debian">helping
-    out</a>.
+    that have at least 1 MByte/second (that is 8 MBit/second) available bandwidth each way. If that's you, please
+    consider <a href="<wiki>TorRelayGuide">running a Tor relay</a>.
+    </p>
+    <p>
+    Even if you do not have at least 8 MBit/s of available bandwidth you can still help the Tor network by running a <a href="<page docs/pluggable-transports>#operator">Tor bridge with obfs4 support</a>. In that case you should have at least 1 MBit/s of available bandwidth.
     </p>
 
     <hr>
