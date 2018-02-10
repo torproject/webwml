@@ -140,6 +140,7 @@ country)
 
     <li><a href="#HowDoIDecide">How do I decide if I should run a relay?
     </a></li>
+    <li><a href="#MostNeededRelayType">What type of relays are most needed?</a></li>
     <li><a href="#WhyIsntMyRelayBeingUsedMore">Why isn't my relay being
     used more?</a></li>
     <li><a href="#IDontHaveAStaticIP">I don't have a static IP.</a></li>
@@ -2039,6 +2040,19 @@ from the source code release tor-0.2.4.16-rc is:
     </p>
     <p>
     Even if you do not have at least 8 MBit/s of available bandwidth you can still help the Tor network by running a <a href="<page docs/pluggable-transports>#operator">Tor bridge with obfs4 support</a>. In that case you should have at least 1 MBit/s of available bandwidth.
+    </p>
+
+    <hr>
+
+    <a id="MostNeededRelayType"></a>
+    <h3><a class="anchor" href="#MostNeededRelayType">What type of relays are most needed?</a></h3>
+    <p>
+    <ul>
+    <li>The exit relay is the most needed relay type but it also comes with the highest legal exposure and risk (and you
+    should NOT run them from your home).</li>
+    <li>If you are looking to run a relay with minimal effort, fast guard relays are also very useful</li>
+    <li>followed by bridges.</li>
+    </ul>
     </p>
 
     <hr>
