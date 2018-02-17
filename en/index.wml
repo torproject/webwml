@@ -107,9 +107,10 @@
                 -->
 	      <td>
               <div class="project">
-                <a href="https://atlas.torproject.org/"><img
+                <a href="https://metrics.torproject.org/rs.html"><img
                 src="$(IMGROOT)/icon-TorStatus.jpg" alt="Atlas Icon"></a>
-                <h3><a href="https://atlas.torproject.org/">Relay Search</a></h3>
+                <h3><a href="https://metrics.torproject.org/rs.html">Relay
+                Search</a></h3>
                 <p>Site providing an overview of the Tor network.</p>
                 </div>
               </td>
