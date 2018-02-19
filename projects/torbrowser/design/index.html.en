@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>The Design and Implementation of the Tor Browser [DRAFT]</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1" /></head><body><div class="article"><div class="titlepage"><div><div><h2 class="title"><a id="design"></a>The Design and Implementation of the Tor Browser [DRAFT]</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Mike</span> <span class="surname">Perry</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:mikeperry#torproject org">mikeperry#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Erinn</span> <span class="surname">Clark</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:erinn#torproject org">erinn#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Steven</span> <span class="surname">Murdoch</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:sjmurdoch#torproject org">sjmurdoch#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Georg</span> <span class="surname">Koppen</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:gk#torproject org">gk#torproject org</a>&gt;</code></p></div></div></div></div><div><p class="pubdate">January 25th, 2018</p></div></div><hr /></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="sect1"><a href="#idm29">1. Introduction</a></span></dt><dd><dl><dt><span class="sect2"><a href="#components">1.1. Browser Component Overview</a></span></dt></dl></dd><dt><span class="sect1"><a href="#DesignRequirements">2. Design Requirements and Philosophy</a></span></dt><dd><dl><dt><span class="sect2"><a href="#security">2.1. Security Requirements</a></span></dt><dt><span class="sect2"><a href="#privacy">2.2. Privacy Requirements</a></span></dt><dt><span class="sect2"><a href="#philosophy">2.3. Philosophy</a></span></dt></dl></dd><dt><span class="sect1"><a href="#adversary">3. Adversary Model</a></span></dt><dd><dl><dt><span class="sect2"><a href="#adversary-goals">3.1. Adversary Goals</a></span></dt><dt><span class="sect2"><a href="#adversary-positioning">3.2. Adversary Capabilities - Positioning</a></span></dt><dt><span class="sect2"><a href="#attacks">3.3. Adversary Capabilities - Attacks</a></span></dt></dl></dd><dt><span class="sect1"><a href="#Implementation">4. Implementation</a></span></dt><dd><dl><dt><span class="sect2"><a href="#proxy-obedience">4.1. Proxy Obedience</a></span></dt><dt><span class="sect2"><a href="#state-separation">4.2. State Separation</a></span></dt><dt><span class="sect2"><a href="#disk-avoidance">4.3. Disk Avoidance</a></span></dt><dt><span class="sect2"><a href="#app-data-isolation">4.4. Application Data Isolation</a></span></dt><dt><span class="sect2"><a href="#identifier-linkability">4.5. Cross-Origin Identifier Unlinkability</a></span></dt><dt><span class="sect2"><a href="#fingerprinting-linkability">4.6. Cross-Origin Fingerprinting Unlinkability</a></span></dt><dt><span class="sect2"><a href="#new-identity">4.7. Long-Term Unlinkability via "New Identity" button</a></span></dt><dt><span class="sect2"><a href="#other-security">4.8. Other Security Measures</a></span></dt></dl></dd><dt><span class="sect1"><a href="#BuildSecurity">5. Build Security and Package Integrity</a></span></dt><dd><dl><dt><span class="sect2"><a href="#idm1144">5.1. Achieving Binary Reproducibility</a></span></dt><dt><span class="sect2"><a href="#idm1176">5.2. Package Signatures and Verification</a></span></dt><dt><span class="sect2"><a href="#idm1183">5.3. Anonymous Verification</a></span></dt><dt><span class="sect2"><a href="#update-safety">5.4. Update Safety</a></span></dt></dl></dd><dt><span class="appendix"><a href="#Transparency">A. Towards Transparency in Navigation Tracking</a></span></dt><dd><dl><dt><span class="sect1"><a href="#deprecate">A.1. Deprecation Wishlist</a></span></dt><dt><span class="sect1"><a href="#idm1226">A.2. Promising Standards</a></span></dt></dl></dd></dl></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm29"></a>1. Introduction</h2></div></div></div><p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>The Design and Implementation of the Tor Browser [DRAFT]</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1" /></head><body><div class="article"><div class="titlepage"><div><div><h2 class="title"><a id="design"></a>The Design and Implementation of the Tor Browser [DRAFT]</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Mike</span> <span class="surname">Perry</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:mikeperry#torproject org">mikeperry#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Erinn</span> <span class="surname">Clark</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:erinn#torproject org">erinn#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Steven</span> <span class="surname">Murdoch</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:sjmurdoch#torproject org">sjmurdoch#torproject org</a>&gt;</code></p></div></div></div></div><div><div class="author"><h3 class="author"><span class="firstname">Georg</span> <span class="surname">Koppen</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:gk#torproject org">gk#torproject org</a>&gt;</code></p></div></div></div></div><div><p class="pubdate">February 19th, 2018</p></div></div><hr /></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="sect1"><a href="#idm29">1. Introduction</a></span></dt><dd><dl><dt><span class="sect2"><a href="#components">1.1. Browser Component Overview</a></span></dt></dl></dd><dt><span class="sect1"><a href="#DesignRequirements">2. Design Requirements and Philosophy</a></span></dt><dd><dl><dt><span class="sect2"><a href="#security">2.1. Security Requirements</a></span></dt><dt><span class="sect2"><a href="#privacy">2.2. Privacy Requirements</a></span></dt><dt><span class="sect2"><a href="#philosophy">2.3. Philosophy</a></span></dt></dl></dd><dt><span class="sect1"><a href="#adversary">3. Adversary Model</a></span></dt><dd><dl><dt><span class="sect2"><a href="#adversary-goals">3.1. Adversary Goals</a></span></dt><dt><span class="sect2"><a href="#adversary-positioning">3.2. Adversary Capabilities - Positioning</a></span></dt><dt><span class="sect2"><a href="#attacks">3.3. Adversary Capabilities - Attacks</a></span></dt></dl></dd><dt><span class="sect1"><a href="#Implementation">4. Implementation</a></span></dt><dd><dl><dt><span class="sect2"><a href="#proxy-obedience">4.1. Proxy Obedience</a></span></dt><dt><span class="sect2"><a href="#state-separation">4.2. State Separation</a></span></dt><dt><span class="sect2"><a href="#disk-avoidance">4.3. Disk Avoidance</a></span></dt><dt><span class="sect2"><a href="#app-data-isolation">4.4. Application Data Isolation</a></span></dt><dt><span class="sect2"><a href="#identifier-linkability">4.5. Cross-Origin Identifier Unlinkability</a></span></dt><dt><span class="sect2"><a href="#fingerprinting-linkability">4.6. Cross-Origin Fingerprinting Unlinkability</a></span></dt><dt><span class="sect2"><a href="#new-identity">4.7. Long-Term Unlinkability via "New Identity" button</a></span></dt><dt><span class="sect2"><a href="#other-security">4.8. Other Security Measures</a></span></dt></dl></dd><dt><span class="sect1"><a href="#BuildSecurity">5. Build Security and Package Integrity</a></span></dt><dd><dl><dt><span class="sect2"><a href="#idm1164">5.1. Achieving Binary Reproducibility</a></span></dt><dt><span class="sect2"><a href="#idm1196">5.2. Package Signatures and Verification</a></span></dt><dt><span class="sect2"><a href="#idm1203">5.3. Anonymous Verification</a></span></dt><dt><span class="sect2"><a href="#update-safety">5.4. Update Safety</a></span></dt></dl></dd><dt><span class="appendix"><a href="#Transparency">A. Towards Transparency in Navigation Tracking</a></span></dt><dd><dl><dt><span class="sect1"><a href="#deprecate">A.1. Deprecation Wishlist</a></span></dt><dt><span class="sect1"><a href="#idm1246">A.2. Promising Standards</a></span></dt></dl></dd></dl></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm29"></a>1. Introduction</h2></div></div></div><p>
 
 This document describes the <a class="link" href="#adversary" title="3. Adversary Model">adversary model</a>,
 <a class="link" href="#DesignRequirements" title="2. Design Requirements and Philosophy">design requirements</a>, and <a class="link" href="#Implementation" title="4. Implementation">implementation</a>  of the Tor Browser. It is current as of Tor Browser
@@ -439,7 +439,7 @@ about the user agent.
 Also, JavaScript can be used to query the user's timezone via the
 <code class="function">Date()</code> object, <a class="ulink" href="https://www.khronos.org/registry/webgl/specs/1.0/#5.13" target="_top">WebGL</a> can
 reveal information about the video card in use, and high precision timing
-information can be used to <a class="ulink" href="https://cseweb.ucsd.edu/~hovav/dist/jspriv.pdf" target="_top">fingerprint the cpu and
+information can be used to <a class="ulink" href="https://cseweb.ucsd.edu/~hovav/dist/jspriv.pdf" target="_top">fingerprint the CPU and
 interpreter speed</a>. JavaScript features such as
 <a class="ulink" href="https://www.w3.org/TR/resource-timing/" target="_top">Resource Timing</a>
 may leak an unknown amount of network timing related information. And, moreover,
@@ -707,7 +707,7 @@ a helper application.
 
 Furthermore, we ship a <a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=d75b79f6fa920e6a1e3043005dfd50060ea70e57" target="_top">patch for Linux users</a> that makes
 sure sftp:// and smb:// URLs are not passed along to the operating system as this
-can lead to proxy bypasses on systems that have GIO/GnomeVS support. And proxy
+can lead to proxy bypasses on systems that have GIO/GnomeVFS support. And proxy
 bypass risks due to file:// URLs should be mitigated for macOS and Linux users
 by <a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=8db44df10d1d82850e8b4cfe81ac3b5fce32a663" target="_top">
 two</a> <a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=a8e1fcc8678aa1583f73ef231c99f77cf17196d9" target="_top">
@@ -715,7 +715,7 @@ further patches</a>.
 
   </p><p>
 
-Additionally, modern desktops now pre-emptively fetch any URLs in Drag and
+Additionally, modern desktops now preemptively fetch any URLs in Drag and
 Drop events as soon as the drag is initiated. This download happens
 independent of the browser's Tor settings, and can be triggered by something
 as simple as holding the mouse button down for slightly too long while
@@ -835,7 +835,7 @@ and no other browser vendor or standards body had invested the effort to
 enumerate or otherwise deal with these vectors for third party tracking. As
 such, we have had to enumerate and isolate these identifier sources on a
 piecemeal basis. This has gotten better lately with Mozilla stepping up and
-helping us with uplifting our patches, and with contributing own ones where we
+helping us with uplifting our patches, and with contributing their own patches where we
 lacked proper fixes. However, we are not done yet with our unlinkability defense
 as new identifier sources are still getting added to the web platform. Here is
 the list that we have discovered and dealt with to date:
@@ -863,11 +863,19 @@ We isolate the content and image cache to the URL bar domain by setting
 <span class="command"><strong>privacy.firstparty.isolate</strong></span> to <span class="command"><strong>true</strong></span>.
 
       </p><p>
-Furthermore there is the Cache API (CacheStorage). That one is currently not
-available in Tor Browser as we do not allow third party cookies and are in
-Private Browsing Mode by default.
+Furthermore there is the <a class="ulink" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage" target="_top">
+CacheStorage API</a>. That one is currently not available in Tor Browser as
+we do not allow third party cookies and are in Private Browsing Mode by default.
+As the cache entries are written to disk the CacheStorage API
+<a class="ulink" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1173467" target="_top">got disabled</a>
+in that mode in Firefox, similar to how IndexedDB is handled. There are
+<a class="ulink" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1117808" target="_top">thoughts</a>
+about enabling it by providing a memory-only database but that is still work
+in progress. But even if users are leaving the Private Browsing Mode and are
+enabling third party cookies the storage is isolated to the URL bar domain by
+<span class="command"><strong>privacy.firstparty.isolate</strong></span> set to <span class="command"><strong>true</strong></span>.
       </p><p>
-Finally, we have the asm.js cache. The cache entry of the sript is (among
+Finally, we have the asm.js cache. The cache entry of the script is (among
 others things, like type of CPU, build ID, source characters of the asm.js
 module etc.) keyed <a class="ulink" href="https://blog.mozilla.org/luke/2014/01/14/asm-js-aot-compilation-and-startup-performance/" target="_top">to the origin of the script</a>.
 Lacking a good solution for binding it to the URL bar domain instead we decided
@@ -887,6 +895,19 @@ third party tracking identifiers</a>. To prevent this, we set
 DOM storage for third party domains MUST be isolated to the URL bar domain,
 to prevent linkability between sites. We achieve this by setting
 <span class="command"><strong>privacy.firstparty.isolate</strong></span> to <span class="command"><strong>true</strong></span>.
+
+      </p></li><li class="listitem"><span class="command"><strong>IndexedDB Storage</strong></span><p>
+
+IndexedDB storage for third party domains MUST be isolated to the URL bar
+domain, to prevent linkability between sites. By default
+<a class="ulink" href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API" target="_top">
+IndexedDB storage</a> is disabled as Tor Browser is using Firefox's Private
+Browsing Mode and does not allow third party cookies. There are
+<a class="ulink" href="https://bugzilla.mozilla.org/show_bug.cgi?id=781982" target="_top">thoughts</a>
+about enabling this API in Private Browsing Mode as well but that is still work
+in progress. However, if users are leaving this mode and are enabling third
+party cookies, isolation to the URL bar is achieved, though, by
+<span class="command"><strong>privacy.firstparty.isolate</strong></span> set to <span class="command"><strong>true</strong></span>.
 
       </p></li><li class="listitem"><span class="command"><strong>Flash cookies</strong></span><p><span class="command"><strong>Design Goal:</strong></span>
 
@@ -1077,7 +1098,7 @@ We provide the isolation in Tor Browser by setting
 
       </p></li><li class="listitem"><span class="command"><strong>OCSP</strong></span><p>
 
-OCSP requests go to Certfication Authorities (CAs) to check for revoked
+OCSP requests go to Certificate Authorities (CAs) to check for revoked
 certificates. They are sent once the browser is visiting a website via HTTPS and
 no cached results are available. Thus, to avoid information leaks, e.g. to exit
 relays, OCSP requests MUST go over the same circuit as the HTTPS request causing
@@ -1092,7 +1113,7 @@ When visiting a website its favicon is fetched via a request originating from
 the browser itself (similar to the OCSP mechanism mentioned in the previous
 section). Those requests MUST be isolated to the URL bar domain.
 
-      </p><p><span class="command"><strong>Implemetation Status:</strong></span>
+      </p><p><span class="command"><strong>Implementation Status:</strong></span>
 
 Favicon requests are isolated to the URL bar domain by setting
 <span class="command"><strong>privacy.firstparty.isolate</strong></span> to <span class="command"><strong>true</strong></span>.
@@ -1144,7 +1165,7 @@ We allow these requests to proceed, but we isolate them.
 
 The Permissions API allows a website to query the status of different
 permissions. Although permissions are keyed to the origin, that is not enough to
-alleviate cross-linkabilility concerns: the combined permission state could work
+alleviate cross-linkability concerns: the combined permission state could work
 like an identifier given more and more permissions and their state being
 accessible under this API.
 
@@ -1270,7 +1291,14 @@ most of our fingerprinting defenses serve to differentiate Tor Browser users
 from normal Firefox users. Because of this, any study that lumps browser vendor
 and version differences into its analysis of the fingerprintability of a
 population is largely useless for evaluating either attacks or defenses.
-Unfortunately, this includes popular large-scale studies such as <a class="ulink" href="https://panopticlick.eff.org/" target="_top">Panopticlick</a> and <a class="ulink" href="https://amiunique.org/" target="_top">Am I Unique</a>.
+Unfortunately, this includes popular large-scale studies such as <a class="ulink" href="https://panopticlick.eff.org/" target="_top">Panopticlick</a> and <a class="ulink" href="https://amiunique.org/" target="_top">Am I Unique</a>. To gather usable data about
+Tor Browser's fingerprinting defenses we launched a Google Summer of Code
+project in 2016, called <a class="ulink" href="https://github.com/plaperdr/fp-central" target="_top">
+FPCentral</a>, with the aim to provide us an own testbed. We set this up
+during 2017 and <a class="ulink" href="https://fpcentral.tbb.torproject.org/" target="_top">have it
+available now</a> for further integration into our quality assurance efforts
+and possible research into improving our fingerprinting defenses and measuring
+their effectiveness.
 
       </p></li></ol></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="fingerprinting-defenses-general"></a>General Fingerprinting Defenses</h4></div></div></div><p>
 
@@ -1333,7 +1361,7 @@ narrow domain or use case, or when there are alternate ways of accomplishing
 the same task, these features and/or certain aspects of their functionality
 may be simply removed.
 
-   </p></li></ol></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm646"></a>Strategies for Defense: Randomization versus Uniformity</h4></div></div></div><p>
+   </p></li></ol></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm660"></a>Strategies for Defense: Randomization versus Uniformity</h4></div></div></div><p>
 
 When applying a form of defense to a specific fingerprinting vector or source,
 there are two general strategies available: either the implementation for all
@@ -1357,7 +1385,9 @@ implementation that strives for uniformity is very simple to evaluate. Despite
 their current flaws, a properly designed version of <a class="ulink" href="https://panopticlick.eff.org/" target="_top">Panopticlick</a> or <a class="ulink" href="https://amiunique.org/" target="_top">Am I Unique</a> could report the entropy and
 uniqueness rates for all users of a single user agent version, without the
 need for complicated statistics about the variance of the measured behaviors.
-
+<a class="ulink" href="https://fpcentral.tbb.torproject.org/fp" target="_top">FPCentral</a> is trying
+to achieve that for Tor Browser by providing feedback on acceptable browser
+properties and giving guidance on possible improvements.
       </p><p>
 
 Randomization (especially incomplete randomization) may also provide a false
@@ -1583,7 +1613,7 @@ use those fonts exclusively. In addition to that we set the <span class="command
 is always displayed with the same font. This is not guaranteed even if we bundle
 all the fonts Tor Browser uses as it can happen that fonts are loaded in a
 different order on different systems. Setting the above mentioned preferences
-works around this issue by specifying the font to use explicitely.
+works around this issue by specifying the font to use explicitly.
 
      </p><p>
 
@@ -1725,7 +1755,7 @@ SpeechRecognition (Asynchronous Speech Recognition). The latter is still
 disabled in Firefox. However, the former is enabled by default and there is the
 risk that <span class="command"><strong>speechSynthesis.getVoices()</strong></span> has access to
 computer-specific speech packages making them available in an enumerable
-fashion. Morevover, there are callbacks that would allow JavaScript to time how
+fashion. Moreover, there are callbacks that would allow JavaScript to time how
 long a phrase takes to be "uttered". To prevent both we set
 <span class="command"><strong>media.webspeech.synth.enabled</strong></span> to <span class="command"><strong>false</strong></span>.
 
@@ -1739,6 +1769,7 @@ the Touch API by setting <span class="command"><strong>dom.w3c_touch_events.enab
 have this API available we patched the code to give content-window related
 coordinates back. Furthermore, we made sure that the touch area described by
 <span class="command"><strong>Touch.radiusX</strong></span>, <span class="command"><strong>Touch.radiusY</strong></span>, and
+
 <span class="command"><strong>Touch.rotationAngle</strong></span> does not leak further information and
 <span class="command"><strong>Touch.force</strong></span> does not reveal how much pressure a user applied
 to the surface. That is achieved by a direct
@@ -1757,7 +1788,7 @@ still after that got fixed (and on other platforms where the precision was just
 two significant digits anyway) the risk for tracking users remained as combined
 with the <span class="command"><strong>chargingTime</strong></span> and <span class="command"><strong>dischargingTime</strong></span>
 the possible values <a class="ulink" href="https://senglehardt.com/papers/iwpe17_battery_status_case_study.pdf" target="_top">
-got estimated to be in the millons</a> under normal conditions. We avoid all
+got estimated to be in the millions</a> under normal conditions. We avoid all
 those possible issues with disabling the Battery Status API by setting
 <span class="command"><strong>dom.battery.enabled</strong></span> to <span class="command"><strong>false</strong></span>.
 
@@ -1765,7 +1796,14 @@ those possible issues with disabling the Battery Status API by setting
 
 It is possible to get the system uptime of a Tor Browser user by querying the
 <span class="command"><strong>Event.timestamp</strong></span> property. We avoid this by setting <span class="command"><strong>
-dom.event.highrestimestamp.enabled</strong></span> to <span class="command"><strong>true</strong></span>.
+dom.event.highrestimestamp.enabled</strong></span> to <span class="command"><strong>true</strong></span>. This
+might seem to be counterintuitive at first glance but the effect of setting
+that preference to <code class="code">true</code> is a
+<a class="ulink" href="https://trac.torproject.org/projects/tor/ticket/17046#comment:8" target="_top">
+normalization</a> of <code class="code">evt.timestamp</code> and
+<code class="code">new Event('').timeStamp</code>. Together with clamping the timer
+resolution to 100ms this provides an effective means against system uptime
+fingerprinting.
 
       </p></li><li class="listitem"><span class="command"><strong>Keyboard Layout Fingerprinting</strong></span><p>
 
@@ -1795,6 +1833,18 @@ are currently returning an empty <span class="command"><strong>KeyboardEvent.cod
 <span class="command"><strong>KeyboardEvent.keyCode</strong></span> of <span class="command"><strong>0</strong></span>. Moreover,
 neither <span class="command"><strong>Alt</strong></span> or <span class="command"><strong>Shift</strong></span>, or
 <span class="command"><strong>AltGr</strong></span> keyboard events are reported to content.
+
+      </p><p>
+
+We are currently not taking the actually deployed browser locale or the locale
+indicated by a loaded document into account when spoofing the keyboard layout.
+We think that would be the right thing to do in the longer run, to mitigate
+possible usability issues and broken functionality on websites. Similarily to
+how users of non-english Tor Browser bundles right now can choose between
+keeping the Accept header spoofed or not they would then be able to keep a
+spoofed english keyboard or a spoofed one depending on the actual Tor Browser
+locale or language of the document.
+
       </p></li><li class="listitem"><span class="command"><strong>User Agent and HTTP Headers</strong></span><p><span class="command"><strong>Design Goal:</strong></span>
 
 All Tor Browser users MUST provide websites with an identical user agent and
@@ -1853,7 +1903,7 @@ and <span class="command"><strong>document.timeline.currentTime</strong></span>.
 
       </p><p>
 
-While clamping the clock resolution to 100ms is a step towards neutering the
+While clamping the clock resolution to 100ms is a step towards mitigating
 timing-based side channel fingerprinting, it is by no means sufficient. It turns
 out that it is possible to subvert our clamping of explicit clocks by using
 <a class="ulink" href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_kohlbrenner.pdf" target="_top">
@@ -1884,7 +1934,7 @@ out of a Tor Browser user by deploying resource:// and/or chrome:// URIs. Until
 this is fixed in Firefox <a class="ulink" href="https://gitweb.torproject.org/torbutton.git/tree/src/components/content-policy.js" target="_top">
 we filter</a> resource:// and chrome:// requests done
 by web content denying them by default. We need a whitelist of resource:// and
-chrome:// URIs, though, to avoid breaking parts of Firefox. Those more than a
+chrome:// URIs, though, to avoid breaking parts of Firefox. There are more than a
 dozen Firefox resources do not aid in fingerprinting Tor Browser users as they
 are not different on the platforms and in the locales we support.
 
@@ -1903,7 +1953,7 @@ We set the fallback character set to set to windows-1252 for all locales, via
 to instruct the JS engine to use en-US as its internal C locale for all Date,
 Math, and exception handling. Additionally, we provide a patch to use an
 <a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=d144738fedeeb23746d7a9f16067bd985b0d59aa" target="_top">
-en-US label for the <span class="command"><strong>isindex</strong></span> HTML element</a> instead of
+en-US label for the <span class="command"><strong>isindex</strong></span>HTML element</a> instead of
 letting the label leak the browser's UI locale.
      </p></li><li class="listitem"><span class="command"><strong>Timezone and Clock Offset</strong></span><p>
 
@@ -1984,8 +2034,9 @@ We clamp keyboard event resolution to 100ms with a <a class="ulink" href="https:
 
      </p></li><li class="listitem"><span class="command"><strong>Amount of Processor Cores (hardwareConcurrency)</strong></span><p>
 
-Modern computers have multiple physical processor cores in their CPU available.
-One core typically allows to run more than one thread at a time and
+Modern computers have multiple physical processor cores available in their
+CPU.  For optimum performance, native code typically attempts to run as many
+threads as there are cores, and
 <span class="command"><strong>navigator.hardwareConcurrency</strong></span> makes the number of those
 threads (i.e. logical processors) available to web content.
 
@@ -1998,7 +2049,7 @@ the amount of logical processors available.
 
 We set <span class="command"><strong>dom.maxHardwareConcurrency</strong></span> to <span class="command"><strong>1</strong></span> to
 report the same amount of logical processors for everyone. However, there are
-<a class="ulink" href="https://github.com/oftn/core-estimator" target="_top">probablistic ways of
+<a class="ulink" href="https://github.com/oftn/core-estimator" target="_top">probabilistic ways of
 determining the same information available</a> which we are not defending
 against currently. Moreover, we might even want to think about a more elaborate
 approach defending against this fingerprinting technique by not making all users
@@ -2010,7 +2061,7 @@ size exfiltration.
 
 The <a class="ulink" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API" target="_top">
 Web Audio API</a> provides several means to aid in fingerprinting users.
-At the simplest level it allows differentiating between users having the API
+At the simplest level it allows differentiating between users who have the API
 available and those who don't by checking for an <span class="command"><strong>AudioContext</strong></span>
 or <span class="command"><strong>OscillatorNode</strong></span> object. However, there are more bits of
 information that the Web Audio API reveals if audio signals generated with an
@@ -2052,7 +2103,9 @@ is a Firefox feature to view web pages clutter-free and easily adjusted to
 own needs and preferences. To avoid fingerprintability risks we make Tor Browser
 users uniform by setting <span class="command"><strong>reader.parse-on-load.enabled</strong></span> to
 <span class="command"><strong>false</strong></span> and <span class="command"><strong>browser.reader.detectedFirstArticle</strong></span>
-to <span class="command"><strong>true</strong></span>.
+to <span class="command"><strong>true</strong></span>. This makes sure that documents are not parsed on
+load as this is disabled on some devices due to memory consumption and we
+pretend that everybody has already been using that feature in the past.
 
      </p></li><li class="listitem"><span class="command"><strong>Contacting Mozilla Services</strong></span><p>
 
@@ -2063,8 +2116,8 @@ This is often implemented by contacting Mozilla services, be it for displaying
 further information about a new feature or by
 <a class="ulink" href="https://wiki.mozilla.org/Telemetry" target="_top">sending (aggregated) data back
 for analysis</a>. While some of those mechanisms are disabled by default on
-release channels (gathering telemetry data comes to mind) others are not. We
-make sure that non of those Mozilla services is contacted to avoid possible
+release channels (such as telemetry data) others are not. We
+make sure that none of those Mozilla services are contacted to avoid possible
 fingerprinting risks.
 
       </p><p>
@@ -2152,11 +2205,11 @@ In order to avoid long-term linkability, we provide a "New Identity" context
 menu option in Torbutton. This context menu option is active if Torbutton can
 read the environment variables $TOR_CONTROL_PASSWD and $TOR_CONTROL_PORT.
 
-   </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1048"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote">
+   </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1068"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote">
 
 All linkable identifiers and browser state MUST be cleared by this feature.
 
-    </blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1051"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
+    </blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1071"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
 
 First, Torbutton disables JavaScript in all open tabs and windows by using
 both the <a class="ulink" href="https://developer.mozilla.org/en-US/docs/XPCOM_Interface_Reference/nsIDocShell#Attributes" target="_top">browser.docShell.allowJavaScript</a>
@@ -2175,10 +2228,10 @@ After closing all tabs, we then clear the searchbox and findbox text and emit
 state). Then we manually clear the following state: HTTP auth, SSL state,
 crypto tokens, OCSP state, site-specific content preferences (including HSTS
 state), the undo tab history, content and image cache, offline and memory cache,
-offline storage, IndexedDB storage, asm.js cache, cookies, DOM storage, the
-safe browsing key, the Google wifi geolocation token (if it exists), and the
-domain isolator state. We also clear NoScript's site and temporary permissions,
-and all other browser site permissions.
+offline storage, Cache storage, IndexedDB storage, asm.js cache, cookies,
+DOM storage, the safe browsing key, the Google wifi geolocation token (if it
+exists), and the domain isolator state. We also clear NoScript's site and
+temporary permissions, and all other browser site permissions.
 
      </p><p>
 
@@ -2261,7 +2314,7 @@ images (<span class="command"><strong>svg.in-content.enabled</strong></span>).
 Fingerprinting</a> is a statistical attack to attempt to recognize specific
 encrypted website activity.
 
-     </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1109"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
+     </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1129"></a>Design Goal:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
 
 We want to deploy a mechanism that reduces the accuracy of <a class="ulink" href="https://en.wikipedia.org/wiki/Feature_selection" target="_top">useful features</a> available
 for classification. This mechanism would either impact the true and false
@@ -2283,7 +2336,7 @@ Congestion-Sensitive BUFLO</a>. It may be also possible to <a class="ulink" href
 defenses</a> such that they only use existing spare Guard bandwidth capacity in the Tor
 network, making them also effectively no-overhead.
 
-     </p></blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1121"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
+     </p></blockquote></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a id="idm1141"></a>Implementation Status:</h4></div></div></div><div class="blockquote"><blockquote class="blockquote"><p>
 Currently, we patch Firefox to <a class="ulink" href="https://gitweb.torproject.org/tor-browser.git/commit/?h=tor-browser-52.5.2esr-7.0-2&amp;id=b9fa77472aa67e26bd46a5ca889b20ce3448f9d1" target="_top">randomize
 pipeline order and depth</a>. Unfortunately, pipelining is very fragile.
 Many sites do not support it, and even sites that advertise support for
@@ -2348,7 +2401,7 @@ contend with. For this reason, we have deployed a build system
 that allows anyone to use our source code to reproduce byte-for-byte identical
 binary packages to the ones that we distribute.
 
-  </p><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1144"></a>5.1. Achieving Binary Reproducibility</h3></div></div></div><p>
+  </p><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1164"></a>5.1. Achieving Binary Reproducibility</h3></div></div></div><p>
 
 The GNU toolchain has been working on providing reproducible builds for some
 time, however a large software project such as Firefox typically ends up
@@ -2456,7 +2509,7 @@ particular: libgmp) attempt to detect the current CPU to determine which
 optimizations to compile in. This CPU type is uniform on our KVM instances,
 but differs under LXC.
 
-   </p></li></ol></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1176"></a>5.2. Package Signatures and Verification</h3></div></div></div><p>
+   </p></li></ol></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1196"></a>5.2. Package Signatures and Verification</h3></div></div></div><p>
 
 The build process generates a single sha256sums-unsigned-build.txt file that
 contains a sorted list of the SHA-256 hashes of every package produced for that
@@ -2489,7 +2542,7 @@ In order to verify package integrity, the signature must be stripped off using
 the osslsigncode tool, as described on the <a class="ulink" href="https://www.torproject.org/docs/verifying-signatures.html.en#BuildVerification" target="_top">Signature
 Verification</a> page.
 
-    </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1183"></a>5.3. Anonymous Verification</h3></div></div></div><p>
+    </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a id="idm1203"></a>5.3. Anonymous Verification</h3></div></div></div><p>
 
 Due to the fact that bit-identical packages can be produced by anyone, the
 security of this build system extends beyond the security of the official
@@ -2625,7 +2678,7 @@ possible for us to <a class="ulink" href="https://trac.torproject.org/projects/t
 ourselves</a>, as they are comparatively rare and can be handled with site
 permissions.
 
-   </p></li></ol></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm1226"></a>A.2. Promising Standards</h2></div></div></div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><a class="ulink" href="https://web.archive.org/web/20130213034335/http://web-send.org:80/" target="_top">Web-Send Introducer</a><p>
+   </p></li></ol></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm1246"></a>A.2. Promising Standards</h2></div></div></div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><a class="ulink" href="https://web.archive.org/web/20130213034335/http://web-send.org:80/" target="_top">Web-Send Introducer</a><p>
 
 Web-Send is a browser-based link sharing and federated login widget that is
 designed to operate without relying on third-party tracking or abusing other
