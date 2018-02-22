@@ -1,0 +1,81 @@
+## translation metadata
+# Revision: $Revision: 25666 $
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (executive administrator)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+
+
+<h2>Internet Freedom Nonprofit Seeks Executive Director</h2>
+
+<p>
+The Tor Project, Inc., is a 501(c)(3) organization headquartered in Seattle that provides the technical infrastructure for privacy protection over the Internet, helping millions of activists, journalists and others around the world communicate securely. With paid staff and contractors of around 35 engineers and operational support people, plus many volunteers all over the world who contribute to our work, the Tor Project is funded in part by government grants and contracts, as well as by individual, foundation, and corporate donations. Our mission is &quot;To advance human rights and freedoms by creating and deploying free and open anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.&quot;
+</p>
+
+<p>
+We are currently seeking an Executive Director to lead the organization into our next phase of growth and sustainability. This position can be based anywhere, as our work is international in scope. This person must be able to communicate regularly with the staff working on the ground at our organizational headquarters in Seattle. This position reports directly to the Tor Project Board of Directors.
+</p>
+
+<p>
+The Executive Director sets the tone for the organization, thinks strategically, and provides leadership and guidance in the day-to-day operations. The Tor Project does open source software development, and the Executive Director must be able to engage with various different stakeholders in managing the organization. Some of the key attributes of this person should be:
+</p>
+
+<ul>
+  <li>A strong public commitment to privacy, and a good understanding of related debates.</li>
+	<li>A good understanding of open source development culture, and a commitment to transparent organizations.</li>
+	<li>A strong commitment to creating and maintaining a healthy and safe working environment, including for remote participants.</li>
+	<li>A talent for consensus and community building.</li>
+	<li>An ability to effectively support and collaborate with diverse groups of people.</li>
+	<li>A willingness to share responsibility and leadership of the organization with a leadership team.</li>
+	<li>An enthusiasm for coaching and developing emerging leaders.</li>
+	<li>A natural leadership ability that encourages and empowers others to do their best work.</li>
+	<li>Strong written and verbal communications skills.</li>
+</ul>
+
+<p>
+Some of the key requirements of this position are at least five years or equivalent experience in each of the following areas:
+</p>
+
+<ul>
+	<li>Nonprofit fundraising, including raising money from government contracts and grants, foundations, corporations and individual contributions;</li>
+	<li>Talking to and working with the press, including being active and visible in promoting organizational goals and enhancing the organization’s image;</li>
+	<li>Solid, hands-on, budget management skills, including budget preparation, analysis, decision-making and reporting;</li>
+	<li>Human resource administration, including working with a leadership team and hiring and firing experience;</li>
+	<li>Working closely with a board of directors;</li>
+	<li>Non-profit operations, including managing an office and planning events, ideally remotely; and</li>
+	<li>Running a corporation of at least $3 million in yearly revenue, including an ability to recognize when outside professional assistance is required.</li>
+</ul>
+
+<p>
+The successful candidate will have a global perspective on privacy and censorship issues and an ability to balance &quot;survival issues&quot; (like next year’s funding) with &quot;mission issues&quot; (like making sure we’re actually moving our programs in a good direction). This person will have the ability to work remotely and work with remote workers. To this end, this person must be willing to adapt to daily use of privacy enhancing technologies used to communicate with others. Prior experience working with software development or internet people is a plus.
+</p>
+
+<p>
+The Tor Project has made a commitment to being a safe, fair, and diverse workplace.  Our new Executive Director must be committed to these values and to continuing to foster a welcoming work environment.
+</p>
+
+<p>
+Salary is commensurate with experience and other qualifications. The Tor Project has a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; flexible work schedule; and occasional travel opportunities. The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+</p>
+
+<p>
+This is a full-time position working either out of our office in Seattle or remotely. To apply, send a cover letter explaining why you believe you should be our next Executive Director, along with your resume, to edsearch@torproject.org with &quot;Executive Director - [Your First and Last Name]&quot; in the subject line.  No phone calls please!
+</p>
+
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
+
