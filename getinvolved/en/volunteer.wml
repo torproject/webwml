@@ -519,6 +519,11 @@ meetings around the world.</li>
     Tor.
     </p>
 
+    <p>
+    <b>Project Ideas:</b><br />
+    <i><a href="#pythonTorClient">Python Tor Client</a></i>
+    </p>
+
     <a id="project-txtorcon"></a>
     <h3><a href="https://txtorcon.readthedocs.io/en/latest/">Txtorcon</a> (<a
     href="https://github.com/meejah/txtorcon">code</a>, <a
@@ -730,6 +735,37 @@ meetings around the world.</li>
     <ol>
 
 	#Keep old ids in case of incoming links.
+    <a id="pythonTorClient"></a><a id="pythonTorClient"></a>
+    <li>
+    <b>Python Tor Client</b>
+    <br>
+    Language: <i>Python</i>
+    <br>
+    Likely Mentors: <i>Damian (atagar), Tim (teor)</i>
+    <br><br>
+    <p>
+<b><a href="https://stem.torproject.org/">Stem</a></b> is our Python implementation of Tor's varous protocols. Traditionally this included <a href="https://stem.torproject.org/tutorials/the_little_relay_that_could.html">stem.control</a> for Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/control-spec.txt">ControlPort</a> and <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html">stem.descriptor</a> to download from Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt">DirPort</a>. But recently we added a third to this family, <b><a href="https://lists.torproject.org/pipermail/tor-dev/2018-February/012905.html">stem.client</a></b>, that speaks Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ORPort protocol</a>: the relay protocol for usage of the Tor network itself.
+    </p>
+
+    <p>
+This opens interesting opportunities we've never had before such as...
+    </p>
+
+    <ul>
+      <li>Construct a full three-hop circuit that can make GET requests and DNS lookups. If done right this might allow simple usage of the Tor network without even having Tor installed!</li>
+      <li>Expand <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#where-can-i-get-the-current-descriptors">descriptor downloading</a> to use Tor's ORPort as an optional alternative for the DirPort. Following this we could adjust Tor so <a href="https://trac.torproject.org/projects/tor/ticket/19129">Fallback Directories no longer require a DirPort</a>.</li>
+      <li>Add protocol level integration test of Tor's ORPort, for instance exercising edge cases in circuit construction and extension.</li>
+    </ul>
+
+    <p>
+And more! Applicants are encouraged to get a decent understanding of <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">Tor's ORPort protocol</a> and come up with ideas of their own for neat directions that we can take this. To be clear this is <b>not</b> a particularly easy beginner project as it involves expanding stem.client to support more of Tor's ORPort protocol and crypto.
+    </p>
+
+    <p>
+<b>As part of applying for this project please get your hands wet with the codebase by contributing some patches for <a href="https://stem.torproject.org/faq.html#how-do-i-get-started">Stem</a>!</b>
+    </p>
+    </li>
+
     <a id="improveOnionServices"></a><a id="improveHiddenServices"></a>
     <li>
     <b>Help improve Tor onion services</b>
