@@ -754,6 +754,8 @@ This opens interesting opportunities we've never had before such as...
     <ul>
       <li>Construct a full three-hop circuit that can make GET requests and DNS lookups. If done right this might allow simple usage of the Tor network without even having Tor installed!</li>
       <li>Expand <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html#where-can-i-get-the-current-descriptors">descriptor downloading</a> to use Tor's ORPort as an optional alternative for the DirPort. Following this we could adjust Tor so <a href="https://trac.torproject.org/projects/tor/ticket/19129">Fallback Directories no longer require a DirPort</a>.</li>
+      <li>Download hidden service descriptors. Unlike relays, the descriptors for hidden services are only available over the ORPort. Once <a href="https://trac.torproject.org/projects/tor/ticket/17945">ticket 17945</a> is merged v3 HS descriptor downloads will require a multi-hop circuit. This requires an understanding of Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/rend-spec-v3.txt">hidden service</a> specifications, particularly the HSDir hash ring.</li>
+      <li>Authenticate our ORPort connection, checking that ORPorts we connect to have the right key fingerprint.</li>
       <li>Add protocol level integration test of Tor's ORPort, for instance exercising edge cases in circuit construction and extension.</li>
     </ul>
 
