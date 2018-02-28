@@ -757,6 +757,7 @@ This opens interesting opportunities we've never had before such as...
       <li>Download hidden service descriptors. Unlike relays, the descriptors for hidden services are only available over the ORPort. Once <a href="https://trac.torproject.org/projects/tor/ticket/17945">ticket 17945</a> is merged v3 HS descriptor downloads will require a multi-hop circuit. This requires an understanding of Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/rend-spec-v3.txt">hidden service</a> specifications, particularly the HSDir hash ring.</li>
       <li>Authenticate our ORPort connection, checking that ORPorts we connect to have the right key fingerprint.</li>
       <li>Add protocol level integration test of Tor's ORPort, for instance exercising edge cases in circuit construction and extension.</li>
+      <li>Connect to a hidden service to check if it's up or not.</li>
     </ul>
 
     <p>
