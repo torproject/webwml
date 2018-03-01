@@ -745,7 +745,8 @@ meetings around the world.</li>
     users around the world. We are looking for a programmer fluent in JS
     and C++ to implement new features to work closely with the Tor Browser
     team.
-
+    </p>
+    <p>
     Image files, especially photos taken by smartphones,
     often carry hidden privacy-violating metadata, typically specified by
     the EXIF format. Such metadata can include the user's geolocation and
@@ -756,10 +757,11 @@ meetings around the world.</li>
     implement this feature for both desktop and mobile Tor Browser. If
     there is time, we can envision sanitizing other kinds of uploaded
     files, including movies, audio, PDFs and Office documents.
-
     </p>
     <p>
     For more information <a href="https://trac.torproject.org/projects/tor/ticket/24965">see its ticket</a>.
+    Please also see <a href="https://mat.boum.org">the Metadata Anonymisation Toolkit (MAT)</a> for a
+    similar project that could serve as inspiration.
     </p>
     </li>
 
