@@ -735,6 +735,34 @@ meetings around the world.</li>
     <ol>
 
 	#Keep old ids in case of incoming links.
+    <a id="metadataremoval"></a>
+    <li>
+    <b>Remove metadata from Tor Browser uploads</b>
+    <br>
+    Likely Mentors: <i>Arthur D. Edelstein (arthuredelstein)</i>
+    <p>
+    Tor Browser is a privacy-preserving web browser used by millions of
+    users around the world. We are looking for a programmer fluent in JS
+    and C++ to implement new features to work closely with the Tor Browser
+    team.
+
+    Image files, especially photos taken by smartphones,
+    often carry hidden privacy-violating metadata, typically specified by
+    the EXIF format. Such metadata can include the user's geolocation and
+    various unique identifiers. In order to protect the user's identity,
+    we would like the intern to modify the file-upload feature in Tor
+    Browser such that metadata in image files is automatically removed
+    before the image is uploaded to a server. Ideally, the  summer intern would
+    implement this feature for both desktop and mobile Tor Browser. If
+    there is time, we can envision sanitizing other kinds of uploaded
+    files, including movies, audio, PDFs and Office documents.
+
+    </p>
+    <p>
+    For more information <a href="https://trac.torproject.org/projects/tor/ticket/24965">see its ticket</a>.
+    </p>
+    </li>
+
     <a id="pythonTorClient"></a><a id="pythonTorClient"></a>
     <li>
     <b>Python Tor Client</b>
