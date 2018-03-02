@@ -860,7 +860,7 @@ understand how our mocking system works, and what the challenges are,
 before you apply for this one.
     </p>
     </li>
-<!--
+
     <a id="relayCryptoParallelism"></a>
     <li>
     <b>Relay crypto parallelism</b>
@@ -887,7 +887,7 @@ one.
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/1749">see its ticket</a>.
     </p>
     </li>
--->
+
     <a id="anonymousLocalCountStatistics"></a>
     <li>
     <b>Anonymous local count statistics</b>
@@ -926,7 +926,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/12
     </p>
     </li>
 
-<!--
+
 	#Keep old ids in case of incoming links.
     <a id="onionServiceCryptoParallelism"></a><a id="hiddenServiceCryptoParallelism"></a>
     <li>
@@ -971,7 +971,7 @@ this, but it might need some clean-up.
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/7829">see its ticket</a>.
     </p>
     </li>
--->
+
     <a id="improveIpv6Support"></a>
     <li>
     <b>Improve IPv6 support</b>
