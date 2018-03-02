@@ -798,7 +798,7 @@ And more! Applicants are encouraged to get a decent understanding of <a href="ht
 <b>As part of applying for this project please get your hands wet with the codebase by contributing some patches for <a href="https://stem.torproject.org/faq.html#how-do-i-get-started">Stem</a>!</b>
     </p>
     </li>
-
+<!--
     <a id="improveOnionServices"></a><a id="improveHiddenServices"></a>
     <li>
     <b>Help improve Tor onion services</b>
@@ -835,7 +835,7 @@ href="https://lists.torproject.org/pipermail/tor-dev/2016-October/011514.html">v
 ideas.
     </p>
     </li>
-
+-->
     <a id="torFuzzing"></a>
     <li>
     <b>Fuzzing coverage of Tor</b>
@@ -860,7 +860,7 @@ understand how our mocking system works, and what the challenges are,
 before you apply for this one.
     </p>
     </li>
-
+<!--
     <a id="relayCryptoParallelism"></a>
     <li>
     <b>Relay crypto parallelism</b>
@@ -887,7 +887,7 @@ one.
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/1749">see its ticket</a>.
     </p>
     </li>
-
+-->
     <a id="anonymousLocalCountStatistics"></a>
     <li>
     <b>Anonymous local count statistics</b>
@@ -911,7 +911,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/75
     <li>
     <b>Improved SOCKS5 variant</b>
     <br>
-    Likely Mentors: <i>Nick (nickm), David Goulet (dgoulet)</i>
+    Likely Mentors: <i>Nick (nickm), David Goulet (dgoulet), meejah</i>
     <br><br>
     <p>
 In proposal 229, we describe a bunch of additional SOCKS extensions
@@ -926,6 +926,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/12
     </p>
     </li>
 
+<!--
 	#Keep old ids in case of incoming links.
     <a id="onionServiceCryptoParallelism"></a><a id="hiddenServiceCryptoParallelism"></a>
     <li>
@@ -970,7 +971,7 @@ this, but it might need some clean-up.
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/7829">see its ticket</a>.
     </p>
     </li>
-
+-->
     <a id="improveIpv6Support"></a>
     <li>
     <b>Improve IPv6 support</b>
@@ -996,7 +997,7 @@ network: are you up for it?
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/17811">see its ticket</a>.
     </p>
     </li>
-
+<!--
     <a id="feedbackExtension"></a>
     <li>
     <b>Feedback Extension for Tor Browser</b>
@@ -1020,36 +1021,12 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     feedback process.
     </p>
     </li>
-
-    <a id="torBrowserCrashReport"></a>
-    <li>
-    <b>Crash Reporter for Tor Browser</b>
-    <br>
-    Likely Mentors: <i>Tom Ritter (tjr)</i>, <i>Georg (GeKo)</i>
-    <p>
-    Currently Tor Browser disables the Crash Reporter. We would like to
-    build it reproducible, enable it, and configure it to report crashes
-    containing non-detailed and impersonal information to Tor, on a .onion
-    submission platform that would allow us to view and explore the
-    crashes.
-    </p>
-
-    <p>
-    The project will entail enabling the Crash Report on Tor Browser and
-    creating a backend to receive reports from it. Once created, the crash
-    reporter data will be analyzed and modified to fit Tor's requirements
-    for personal data collection. As time permits, we will update the
-    build system to ensure the crash reporter is built reproducibly and
-    add data analysis tools for the crash report database to visualize top
-    crashers and similar statistics.
-    </p>
-    </li>
-
+-->
     <a id="fasterTorBrowser"></a>
     <li>
     <b>Make Tor Browser Faster</b>
     <br>
-    Likely Mentors: <i>Tom Ritter (tjr)</i>, <i>Georg (GeKo)</i>
+    Likely Mentors: <i>Tom Ritter (tjr)</i>, <i>Georg (GeKo)</i>, <i>Arthur Edelstein (arthuredelstein)</i>
     <p>
     This project will enable and take advantage of HTTP/2, the Alt-Srv
     header, and tor's new single hop .onion mode to enable websites to
@@ -1089,37 +1066,6 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     search itself works without client-side JavaScript.
     </p>
 
-    <p>
-    There are several possible directions for this project, including...
-    </p>
-
-    <ol>
-      <li>Automate blacklisting (very important)<br />
-        <ul>
-          <li>Fetch a list of child abuse media sites</li>
-          <li>Remove these sites from the search results</li>
-        </ul>
-      </li>
-      <li>Add onion services function (very important)<br />
-        <ul>
-          <li>You can add onions using HTML form</li>
-          <li>Call the crawler immidiately when a new site is added</li>
-        </ul>
-      </li>
-      <li>Elasticsearch<br />
-        <ul>
-          <li>Must be updated to 5.X.X sooner or later</li>
-          <li>Adjust the settings</li>
-          <li>Automatically remove data older than, for instance, 90 days</li>
-        </ul>
-      </li>
-      <li>Maintainance<br />
-        <ul>
-          <li>Update all software dependencies</li>
-          <li>Automate crash recovery for Tor, Elasticsearch and crawler</li>
-        </ul>
-      </li>
-    </ol>
     </li>
 
 <!--
