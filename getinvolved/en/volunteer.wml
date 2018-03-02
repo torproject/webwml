@@ -771,7 +771,7 @@ meetings around the world.</li>
     <br>
     Language: <i>Python</i>
     <br>
-    Likely Mentors: <i>Damian (atagar), Tim (teor)</i>
+    Likely Mentors: <i>Damian (atagar), teor</i>
     <br><br>
     <p>
 <b><a href="https://stem.torproject.org/">Stem</a></b> is our Python implementation of Tor's varous protocols. Traditionally this included <a href="https://stem.torproject.org/tutorials/the_little_relay_that_could.html">stem.control</a> for Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/control-spec.txt">ControlPort</a> and <a href="https://stem.torproject.org/tutorials/mirror_mirror_on_the_wall.html">stem.descriptor</a> to download from Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt">DirPort</a>. But recently we added a third to this family, <b><a href="https://lists.torproject.org/pipermail/tor-dev/2018-February/012905.html">stem.client</a></b>, that speaks Tor's <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ORPort protocol</a>: the relay protocol for usage of the Tor network itself.
