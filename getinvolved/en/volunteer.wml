@@ -358,7 +358,8 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#improveOnionServices">Help improve Tor onion services</a></i><br />
+  #  <i><a href="#improveOnionServices">Help improve Tor onion services</a></i><br />
+    <i><a href="#pythonTorClient">Python Tor Client</a></i><br />
     <i><a href="#torFuzzing">Fuzzing coverage of Tor</a></i><br />
     <i><a href="#relayCryptoParallelism">Relay crypto parallelism</a></i><br />
     <i><a href="#anonymousLocalCountStatistics">Anonymous local count statistics</a></i><br />
@@ -384,8 +385,7 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#feedbackExtension">Feedback Extension for Tor Browser</a></i><br />
-    <i><a href="#torBrowserCrashReport">Crash Reporter for Tor Browser</a></i><br />
+    <i><a href="#metadataremoval">Remove metadata from Tor Browser uploads</a></i><br />
     <i><a href="#fasterTorBrowser">Make Tor Browser Faster</a></i>
     </p>
 
