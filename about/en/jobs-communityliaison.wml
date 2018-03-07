@@ -2,7 +2,7 @@
 # Revision: $Revision: 25666 $
 # Translation-Priority: 3-low
 
-#include "head.wmi" TITLE="Tor Project: Jobs (community liason)" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Tor Project: Jobs (community liaison)" CHARSET="UTF-8"
 <div id="content" class="clearfix">
   <div id="breadcrumbs">
     <a href="<page index>">Home &raquo; </a>
@@ -11,7 +11,7 @@
   </div>
   <div id="maincol">
 
-    <h1>Community Liason</h1>
+    <h1>Community Liaison</h1>
     <h2>March 7, 2018</h2>
     <p>Are you passionate about helping people all over the world access the Internet freely and safely? Are you an advocate who wants to help build a network of communities that can use and improve privacy software?</p>
     <p>The Tor Project is looking for an outgoing and engaging Community Liaison to help advance our Global South outreach and training efforts. This will be a part-time position, approximately 20 hours/wk.</p>
