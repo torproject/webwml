@@ -398,6 +398,7 @@
     <td>
       <a id="kat5"></a>
       <div class="photo"><img src="$(IMGROOT)/people/kat5.png" alt="kat5" /></div>
+      <div class="icon"><a href="../keys/kat.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#kat5">Kat</a></div>
       <div class="field"><b>IRC:</b> kat5</div>
       <div class="description">Volunteer on the Community Team. Helps with t-shirts for relay operators and other odds and ends.</div>
