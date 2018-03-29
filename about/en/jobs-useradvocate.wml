@@ -1,0 +1,117 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (User Advocate)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+
+<h1>User Advocate (Mozilla Fellowship)</h1>
+
+<h2>March 29, 2018</h2>
+
+<p>
+As an organization dedicated to safeguarding the
+open internet, the Tor Project is participating in the <a
+href="https://advocacy.mozilla.org/en-US/open-web-fellows/overview">Mozilla
+Open Web fellow</a> program as a host.  Through this fellowship,
+we're seeking to host a User Advocate to bridge the gap between Tor
+users and Tor developers. If you're passionate about internet freedom
+and improving software to make it more user-friendly, this might be the
+perfect job for you.
+</p>
+
+<p>
+Tor is widely considered the strongest internet privacy software,
+and we want to make it the most user-friendly. Millions of people use
+Tor every day to protect their privacy, safety, and freedom of expression
+on the internet. Because Tor's users are distributed across the globe
+and have varying levels of technical skill, we are looking for someone
+who can gather data from this diverse group of people to help us make
+usability improvements.
+</p>
+
+<p>
+Your job will be to identify common user problems: where people
+get stuck setting up or using Tor, and what we can do to address those
+issues. After identifying and documenting the common problems, you will
+coordinate with our teams to ensure the problems are addressed.
+</p>
+
+<p>
+The ideal candidate will be someone skilled at working with developers
+to understand the root causes of user issues while still maintaining
+a broad, user-centric view of the problems and areas where Tor can
+improve. Previous experience working in a supportive role is a huge
+plus.
+</p>
+
+<h2>The ideal candidate will have the following:</h2>
+
+<ul>
+<li>Experience with public interest technology and commitment to
+addressing issues like privacy, security, and inclusion online</li>
+<li>Familiarity with the ins and outs of Tor Browser, the Tor network,
+and the various applications that integrate Tor's privacy and security
+protections</li>
+<li>Exceptional patience and willingness to talk through issues and
+problems with people across many cultures - the more detail you can get
+from affected users, the better!</li>
+<li>Be detail-oriented in filing comprehensive bug reports (Trac is
+the primary tool Tor developers use to discuss and deploy new features
+and bug-fixes)</li>
+<li>Capability of keeping the big picture in mind without becoming overly
+distracted by any single area</li>
+<li>Excitement for being a user advocate and for getting common user
+issues prioritized in the development roadmaps for each team</li>
+<li>Willingness and ability to travel internationally during the term
+of this fellowship</li>
+<li>Fluency in languages other than English is also a major plus.</li>
+</ul>
+
+<p>
+The fellow will receive a $60,000 stipend, paid in monthly installments,
+as well as supplements for childcare and health insurance. This is a
+full-time fellowship, either working from our Seattle office or remotely.
+</p>
+
+<h2>How to apply:</h2>
+
+<p>
+To apply, visit <a
+href="https://foundation.mozilla.org/fellowships/apply/">Mozilla's
+application page</a>, create an account, and select “Open Web.” The
+deadline for applications is April 20, 2018 at 5pm EDT.
+</p>
+
+<h2>About Tor:</h2>
+
+<p>
+The Tor Project, Inc., is a 501(c)(3) organization headquartered
+in Seattle that provides the technical infrastructure for privacy
+protection over the Internet, helping millions of activists, journalists
+and others around the world communicate securely. With paid staff and
+contractors of around 35 engineers and operational support people,
+plus many volunteers all over the world who contribute to our work. Our
+mission is to advance human rights and freedoms by creating and deploying
+free and open anonymity and privacy technologies, supporting their
+unrestricted availability and use, and furthering their scientific and
+popular understanding.
+</p>
+
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
+
