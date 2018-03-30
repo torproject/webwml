@@ -25,8 +25,9 @@
 </p>
 <div style="text-align:center;">
 
-<video width="500" height="281" controls preload="none" poster="$(IMGROOT)/tor-animation.jpg">
+<video width="500" height="281" controls poster="$(IMGROOT)/tor-animation.jpg">
 	<source src="https://media.torproject.org/video/2015-03-animation/HQ/Tor_Animation_en.mp4" type="video/mp4">
+       Your browser does not support the video tag.
 </video>
 </div>
 
