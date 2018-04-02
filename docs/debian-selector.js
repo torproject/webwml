@@ -132,7 +132,7 @@ function update() {
                 package = package.split(' ')[0];
                 source_install = true;
             }
-            txt += "http://deb.torproject.org/torproject.org";
+            txt += "https://deb.torproject.org/torproject.org";
             txt += " ";
             txt += keys[i];
             txt += " main";
@@ -140,7 +140,7 @@ function update() {
             target = keys[i];
             txt = "deb " + txt + "\ndeb-src " + txt;
             if (version != 'stable') {
-                txt2 = "http://deb.torproject.org/torproject.org";
+                txt2 = "https://deb.torproject.org/torproject.org";
                 txt2 += " ";
                 txt2 += package;
                 txt2 += "-";
