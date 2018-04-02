@@ -131,6 +131,11 @@
 
         <pre>pkg_add tor-browser</pre>
 
+	<p>Sometimes the most recent version of Tor Browser on OpenBSD is behind the current release. The available version of TB on OpenBSD should be checked with:
+
+	<pre>pkg_info -Q tor-browser</pre>
+
+	<p>If provided version is not the current Tor Browser version, it is not recommended.</p>
    
         <p>To install the Tor Browser port from an updated ports tree, run:</p>
 
