@@ -52,8 +52,8 @@ and security fixes.
 </p>
 
 <p>
-<b>Raspbian is not Debian.</b> These packages will be confusingly broken
-for Raspbian users, since Raspbian called their architecture armhf but
+<b>Raspbian is not Debian.</b> Tor might run fine on the Raspberry Pi 2 / 3 but not the first generation Pi.
+These packages might be confusingly broken for Raspbian users, since Raspbian called their architecture armhf but
 Debian already has an armhf. See <a
 href="http://tor.stackexchange.com/questions/242/how-to-run-tor-on-raspbian-on-the-raspberry-pi">this
 post</a> for details.
