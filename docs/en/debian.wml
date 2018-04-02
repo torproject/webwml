@@ -93,7 +93,7 @@ version
 </pre></blockquote>
 </div>
 
-<p>Please not that the <a href="https://packages.debian.org/stretch/apt-transport-https">apt-transport-https package</a> is required to enable the usage of 'deb https://foo distro main' lines in the /etc/apt/sources.list so that all package managers using the libapt-pkg library can access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure).</p>
+<p>Please note that the <a href="https://packages.debian.org/stretch/apt-transport-https">apt-transport-https package</a> is required to enable the usage of 'deb https://foo distro main' lines in the /etc/apt/sources.list so that all package managers using the libapt-pkg library can access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure).</p>
 
 <div id="sig">
 <p>Then add the gpg key used to sign the packages by running the following commands at your command prompt:</p>
