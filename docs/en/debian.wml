@@ -63,7 +63,7 @@ post</a> for details.
 You'll need to set up our package repository before you can fetch
 Tor. First, you need to figure out the name of your distribution. A
 quick command to run is <tt>lsb_release -c</tt> or <tt>cat /etc/debian_version</tt>.
-If in doubt about your Debian version, check <a href="http://www.debian.org/releases/">the Debian website</a>.
+If in doubt about your Debian version, check <a href="https://www.debian.org/releases/">the Debian website</a>.
 For Ubuntu, ask <a href="https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Table_of_versions">Wikipedia</a>.
 </p>
 
@@ -89,9 +89,11 @@ version
 <div id="apt-source">
 <p>You need to add the following entry in <code>/etc/apt/sources.list</code> or a new file in <code>/etc/apt/sources.list.d/</code>:</p>
 
-<blockquote><pre id="sources">deb http://deb.torproject.org/torproject.org jessie main
+<blockquote><pre id="sources">deb https://deb.torproject.org/torproject.org stretch main
 </pre></blockquote>
 </div>
+
+<p>Please not that the <a href="https://packages.debian.org/stretch/apt-transport-https">apt-transport-https package</a> is required to enable the usage of 'deb https://foo distro main' lines in the /etc/apt/sources.list so that all package managers using the libapt-pkg library can access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure).</p>
 
 <div id="sig">
 <p>Then add the gpg key used to sign the packages by running the following commands at your command prompt:</p>
