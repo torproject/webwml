@@ -25,10 +25,10 @@ If you're using Debian, just run
 as root.
 </p>
 
-<p>
-Note that this might not always give you the latest stable Tor version, but
-you will receive important security fixes. To make sure that you're running
-the latest stable version of Tor, see option two below.
+<p>Debian provides the <a href="https://packages.debian.org/stretch/tor">LTS</a>
+version of Tor. Note that this might not always give you the latest stable
+Tor version, but you will receive important security fixes. To make sure
+that you're running the latest stable version of Tor, see option two below.
 </p>
 
 <p>
