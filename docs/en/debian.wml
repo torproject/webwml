@@ -191,10 +191,10 @@ access it you might try to use the name of one of its part instead.  Try
 <code>tor.mirror.youam.de</code>.
 </p>
 
-<p><code>deb.torproject.org</code> is also served through now also served via THS:
-<a href="http://sdscoq7snqtznauu.onion">​http://sdscoq7snqtznauu.onion/</a>.
+<p><code>deb.torproject.org</code> is also served through now also served via onion service:
+<a href="http://sdscoq7snqtznauu.onion">http://sdscoq7snqtznauu.onion/</a>.
 <br />
-See ​<a href="https://onion.torproject.org/">https://onion.torproject.org</a> for all
+See <a href="https://onion.torproject.org/">https://onion.torproject.org</a> for all
 torproject.org onion addresses.</p>
 
 <hr />
