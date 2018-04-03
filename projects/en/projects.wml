@@ -43,15 +43,6 @@ interested in detailed statistics about Tor.</p>
 </div></div>
 
 <div class="projectbox">
-<a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger"><img class="icon"
-src="$(IMGROOT)/icon-TorMessenger.png" height="80px" alt="" width="75"></a>
-<div class="projectdesc"><div class="name"><a
-href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a></div>
-<p>Tor Messenger is a cross-platform chat program that aims to be secure by
-default and sends all of its traffic over Tor.</p>
-</div></div>
-
-<div class="projectbox">
 <a href="<page docs/pluggable-transports>"><img class="icon"
 src="$(IMGROOT)/icon-Obfsproxy.jpg" height="80px" alt="" width="78"></a>
 <div class="projectdesc"><div class="name"><a
