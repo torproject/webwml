@@ -386,7 +386,6 @@ meetings around the world.</li>
     <p>
     <b>Project Ideas:</b><br />
     <i><a href="#metadataremoval">Remove metadata from Tor Browser uploads</a></i><br />
-    <i><a href="#fasterTorBrowser">Make Tor Browser Faster</a></i>
     </p>
 
     <a id="project-httpseverywhere"></a>
@@ -1022,20 +1021,6 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     </p>
     </li>
 -->
-    <a id="fasterTorBrowser"></a>
-    <li>
-    <b>Make Tor Browser Faster</b>
-    <br>
-    Likely Mentors: <i>Tom Ritter (tjr)</i>, <i>Georg (GeKo)</i>, <i>Arthur Edelstein (arthuredelstein)</i>
-    <p>
-    This project will enable and take advantage of HTTP/2, the Alt-Srv
-    header, and tor's new single hop .onion mode to enable websites to
-    transparently move their traffic to a .onion address. In addition to
-    improvements in security, we will benchmark page load and paint times
-    under normal HTTP/1.1, HTTP/2, and when taking advantage of features
-    such as Server Push.
-    </p>
-    </li>
 
     <a id="ahmiaSearch"></a>
     <li>
