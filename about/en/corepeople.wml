@@ -437,7 +437,6 @@
     <td>
       <a id="ln5"></a>
       <div class="photo"><img src="$(IMGROOT)/people/ln5.png" alt="ln5" /></div>
-      <div class="icon"><a href="https://twitter.com/ln4711"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=8C4CD511095E982EB0EFBFA21E8BF34923291265"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#ln5">Linus Nordberg</a></div>
       <div class="field"><b>IRC:</b> ln5</div>
