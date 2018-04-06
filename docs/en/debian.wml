@@ -136,7 +136,7 @@ Then add this line to your
 <tt>/etc/apt/sources.list</tt>
 file:<br />
 <pre style="margin: 1.5em 0 1.5em 2em">
-deb     http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 </pre>
 where you put the codename of your distribution (i.e. stretch, buster, sid
 or whatever it is)
@@ -209,8 +209,8 @@ download/download-unix>#packagediff">development branch</a> of Tor instead
 (more features and more bugs), you need to add a different set of lines
 to your <tt>/etc/apt/sources.list</tt> file:<br />
 <pre style="margin: 1.5em 0 1.5em 2em">
-deb     http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb     http://deb.torproject.org/torproject.org tor-experimental-0.3.3.x-&lt;DISTRIBUTION&gt; main
+deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.3.x-&lt;DISTRIBUTION&gt; main
 </pre>
 where you again substitute the name of your distro (stretch, buster,
 sid, xenial, ...) in place of
@@ -244,11 +244,11 @@ If you want to build your own debs from source you must first add an
 appropriate <tt>deb-src</tt> line to <tt>sources.list</tt>.
 <pre style="margin: 1.5em 0 1.5em 2em">
 # For the stable version.
-deb-src http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb-src https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 
 # For the unstable version.
-deb-src http://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb-src http://deb.torproject.org/torproject.org tor-experimental-0.3.3.x-&lt;DISTRIBUTION&gt; main
+deb-src https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb-src https://deb.torproject.org/torproject.org tor-experimental-0.3.3.x-&lt;DISTRIBUTION&gt; main
 </pre>
 Substitute the name of your distro (stretch, buster, sid, xenial, ...) in place of &lt;DISTRIBUTION&gt;. Now refresh your sources by running (as root):
 <pre style="margin: 1.5em 0 1.5em 2em">
