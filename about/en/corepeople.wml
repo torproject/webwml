@@ -560,7 +560,7 @@
     <td>
       <a id="boklm"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
-      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=C9B8CAC3318B9A9E488359612067001B1B678A63"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
+      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=6AB6AEE9776E782723C8ACE83E39CEABFC69F6F7"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#boklm">Nicolas Vigier</a></div>
       <div class="field"><b>IRC:</b> boklm</div>
       <div class="description">Works on Tor Browser.</div>
