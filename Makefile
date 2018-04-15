@@ -15,7 +15,7 @@
 # website component, and set it to needs_review.
 
 export STABLETAG=tor-0.3.2.10
-export DEVTAG=tor-0.3.3.4-alpha
+export DEVTAG=tor-0.3.3.5-rc
 
 WMLBASE=.
 SUBDIRS=docs eff projects press about download getinvolved donate docs/torbutton
