@@ -27,7 +27,7 @@
     <h3><a class="anchor" href="#support">Support</a></h3>
 
     <!--
-     <p><i>help@rt.torproject.org</i> is the address to use for
+    <p><i>help@rt.torproject.org</i> is the address to use for
     questions about all things Tor, volunteering, and offering
     resources. This is best effort service with no guarantees. We
     generally respond within 48 hours. For support in other languages,
@@ -84,49 +84,49 @@
     <a id="twitter"></a>
     <h3><a class="anchor" href="#twitter">Twitter</a></h3>
     <p>Follow us on Twitter:
-	<ul>
-	  <li>English account: <a href="https://twitter.com/TorProject">@TorProject</a></li>
-    	  <li>Farsi (Persian) account: <a href="https://twitter.com/torproject_fa">@TorProject_fa</a></li>
-	</ul>
+    <ul>
+      <li>English account: <a href="https://twitter.com/TorProject">@TorProject</a></li>
+      <li>Farsi (Persian) account: <a href="https://twitter.com/torproject_fa">@TorProject_fa</a></li>
+    </ul>
     </p>
 
-	<a id="bugs"></a>
-	<h3><a class="anchor" href="#bugs">Bug Tracker</a></h3>
-	<p>You can report bugs other than <a href="#security">security 
-	issues</a> using our <a href="https://trac.torproject.org/projects/tor"
-	>bug tracker</a>. Our 
-	<a href="<page getinvolved/volunteer>">volunteer page</a> has 
-	convenient links to <a href="<page getinvolved/volunteer>#Projects"> 
-	project-related queries</a>.</p>
-    
-	<a id="security"></a>
-	<h3><a class="anchor" href="#security">Security Issues</a></h3>
-	<p>If you've found a security issue in one of our projects or in our
-	infrastructure, please email tor-security@lists.torproject.org. 
-	You can get the GPG public key for the list by contacting 
-	tor-security-sendkey@lists.torproject.org or from 
-	pool.sks-keyservers.net. Here is the fingerprint:
-	<blockquote><pre>
-	gpg --fingerprint tor-security@lists.torproject.org
-	pub   4096R/1A7BF184 2017-03-13
-	      Key fingerprint = 8B90 4624 C5A2 8654 E453  9BC2 E135 A8B4 1A7B F184
-	uid                  tor-security@lists.torproject.org <tor-security@lists.torproject.org>
-	uid                  tor-security@lists.torproject.org <tor-security-owner@lists.torproject.org>
-	uid                  tor-security@lists.torproject.org <tor-security-request@lists.torproject.org>
-	sub   4096R/C00942E4 2017-03-13
-	</pre></blockquote>
-	</p>
+    <a id="bugs"></a>
+    <h3><a class="anchor" href="#bugs">Bug Tracker</a></h3>
+    <p>You can report bugs other than <a href="#security">security
+    issues</a> using our <a href="https://trac.torproject.org/projects/tor"
+    >bug tracker</a>. Our
+    <a href="<page getinvolved/volunteer>">volunteer page</a> has
+    convenient links to <a href="<page getinvolved/volunteer>#Projects">
+    project-related queries</a>.</p>
 
-	<a id="badrelays"></a>
-	<h3><a class="anchor" href="#badrelays">Report Bad Relays</a></h3>
-	<p>If you find a relay that you think is malicious, misconfigured, 
-	or otherwise broken, please check out our 
-	<a href="https://trac.torproject.org/projects/tor/wiki/doc/ReportingBadRelays">
-	wiki page</a> and <a href="https://blog.torproject.org/how-report-bad-relays"
-	>blog post</a> on how to report it.</p>
+    <a id="security"></a>
+    <h3><a class="anchor" href="#security">Security Issues</a></h3>
+    <p>If you've found a security issue in one of our projects or in our
+    infrastructure, please email tor-security@lists.torproject.org.
+    You can get the GPG public key for the list by contacting
+    tor-security-sendkey@lists.torproject.org or from
+    pool.sks-keyservers.net. Here is the fingerprint:
+<blockquote><pre>
+gpg --fingerprint tor-security@lists.torproject.org
+pub   4096R/1A7BF184 2017-03-13
+      Key fingerprint = 8B90 4624 C5A2 8654 E453  9BC2 E135 A8B4 1A7B F184
+uid                  tor-security@lists.torproject.org <tor-security@lists.torproject.org>
+uid                  tor-security@lists.torproject.org <tor-security-owner@lists.torproject.org>
+uid                  tor-security@lists.torproject.org <tor-security-request@lists.torproject.org>
+sub   4096R/C00942E4 2017-03-13
+</pre></blockquote>
+    </p>
+
+    <a id="badrelays"></a>
+    <h3><a class="anchor" href="#badrelays">Report Bad Relays</a></h3>
+    <p>If you find a relay that you think is malicious, misconfigured,
+    or otherwise broken, please check out our
+    <a href="https://trac.torproject.org/projects/tor/wiki/doc/ReportingBadRelays">
+    wiki page</a> and <a href="https://blog.torproject.org/how-report-bad-relays"
+    >blog post</a> on how to report it.</p>
 
 
-	<a id="email"></a>
+    <a id="email"></a>
     <h3><a class="anchor" href="#email">Email</a></h3>
     <p>If you have Tor questions, please try to help yourself via the
     above support venues. Please don't use this contact address
