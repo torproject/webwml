@@ -109,9 +109,9 @@ meetings around the world.</li>
       <tr>
         <td><a href="#project-tor">Tor</a></td>
         <td>Core</td>
-        <td>C</td>
+        <td>C, Rust</td>
         <td>Heavy</td>
-        <td>nickm, athena, arma, dgoulet, asn, teor</td>
+        <td>nickm, arma, dgoulet, asn, teor</td>
       </tr>
 
       <tr>
