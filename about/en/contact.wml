@@ -83,12 +83,11 @@
 
     <a id="twitter"></a>
     <h3><a class="anchor" href="#twitter">Twitter</a></h3>
-    <p>Follow us on Twitter:
+    <p>Follow us on Twitter:</p>
     <ul>
       <li>English account: <a href="https://twitter.com/TorProject">@TorProject</a></li>
       <li>Farsi (Persian) account: <a href="https://twitter.com/torproject_fa">@TorProject_fa</a></li>
     </ul>
-    </p>
 
     <a id="bugs"></a>
     <h3><a class="anchor" href="#bugs">Bug Tracker</a></h3>
