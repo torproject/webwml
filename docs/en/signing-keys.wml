@@ -16,7 +16,8 @@
     <ul>
     <li>The Tor Browser Developers (0x93298290),
     Mike Perry (0x0E3A92E4), Georg Koppen (0x4B7C3223),
-    Nicolas Vigier (0xD0220E4B) and Linus Nordberg (0x23291265)
+    Nicolas Vigier (0xD0220E4B), Linus Nordberg (0x23291265)
+    and Arthur Edelstein (0xD752F538C0D38C3A)
     sign the Tor Browser releases.</li>
     <li>Roger Dingledine (0x28988BF5 and 0x19F78451) or Nick Mathewson
      (0xFE43009C4607B1FB with signing key 0x6AFEE6D49E92B601)
@@ -119,6 +120,11 @@
     pub   4096R/D0220E4B 2014-03-19
           Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
     uid                      Nicolas Vigier (TBB Builds Signing Key) &lt;boklm@torproject.org&gt;
+
+    pub   2048R/D752F538C0D38C3A 2014-12-10
+    Key fingerprint = 20B2 4CEF E6AF D615 0B6A  6F18 D752 F538 C0D3 8C3A
+    uid               [  full  ] Arthur Edelstein <arthuredelstein@gmail.com>
+    sub   2048R/3306E88D27211E0B 2014-12-10
 
     pub   4096R/FA7F0E44D487F03F 2014-06-27 [expires: 2024-06-24]
           Key fingerprint = D6A9 48CF 297F 7539 30B4  756A FA7F 0E44 D487 F03F
