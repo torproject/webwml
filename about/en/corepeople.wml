@@ -439,7 +439,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=FA0AC9BE2881B3479F4FC0D7BE70F8265ED28FA2"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#linda">Linda Lee</a></div>
       <div class="field"><b>IRC:</b> linda</div>
-      <div class="description">UX team lead.</div>
+      <div class="description">Former UX team lead.</div>
     </td>
   </tr>
 
