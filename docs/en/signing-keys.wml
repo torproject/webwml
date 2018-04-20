@@ -30,7 +30,7 @@
     <li>David Goulet (0x42E86A2A11F48D36) signs Torsocks releases.</li>
     <li>Sukhbir Singh (0xB01C8B006DA77FAA) signs Tor Messenger and TorBirdy releases.</li>
     <li>Other developers include Peter Palfrader (0xC82E0039, or its
-    subkey 0xE1DEC577) and Jacob Appelbaum (0xFA7F0E44D487F03F).</li>
+    subkey 0xE1DEC577).</li>
     </ul>
 
     The fingerprints for the keys should be:
@@ -125,12 +125,6 @@
     Key fingerprint = 20B2 4CEF E6AF D615 0B6A  6F18 D752 F538 C0D3 8C3A
     uid               [  full  ] Arthur Edelstein <arthuredelstein@gmail.com>
     sub   2048R/3306E88D27211E0B 2014-12-10
-
-    pub   4096R/FA7F0E44D487F03F 2014-06-27 [expires: 2024-06-24]
-          Key fingerprint = D6A9 48CF 297F 7539 30B4  756A FA7F 0E44 D487 F03F
-    uid                          Jacob Appelbaum &lt;jacob@torproject.org&gt;
-    sub   3072R/36A3F38A 2015-07-01 [expires: 2016-06-30]
-    sub   3072R/45EDE84B 2015-07-01 [expires: 2016-06-30]
 
     pub   4096R/0x4E2C6E8793298290 2014-12-15 [expires: 2020-08-24]
           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
