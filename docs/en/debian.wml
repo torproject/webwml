@@ -78,6 +78,7 @@ I run
 <option value="trusty">Ubuntu Trusty Tahr (14.04 LTS)</option>
 <option value="xenial">Ubuntu Xenial Xerus (16.04 LTS)</option>
 <option value="artful">Ubuntu Artful Aardvark (17.10)</option>
+<option value="bionic">Ubuntu Bionic Beaver (18.04 LTS)</option>
 </select>
 and want
 <select id="package"></select>
