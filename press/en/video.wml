@@ -26,8 +26,8 @@
 <div style="text-align:center;">
 
 <video width="500" height="281" controls preload="none" poster="$(IMGROOT)/tor-animation.jpg">
-	<source src="https://extra.torproject.org/media/video/Tor_Animation_en.mp4" type="video/mp4">
-	<track label="English" kind="captions" src="https://extra.torproject.org/media/video/subs/vtt/en.vtt" srclang="en" default>
+	<source src="https://www.torproject.org/videos/Tor_Animation_en.mp4" type="video/mp4">
+	<track label="English" kind="captions" src="https://www.torproject.org/videos/en.vtt" srclang="en" default>
 </video>
 </div>
 
