@@ -44,7 +44,8 @@ body {
 
 	h1#logo a,
 	h1#logo a:visited {
-		background: url(../images/tor-logo.png) left top no-repeat;
+	    background: url(../images/tor-logo.png) left top no-repeat;
+	    background-size: 150px 97px;
 		text-indent: -9999px;
 		overflow: hidden;
 		width: 150px;

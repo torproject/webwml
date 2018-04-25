@@ -10,8 +10,11 @@ table.people tr td:first-child {
 }
 
 .photo {
-  width: 145px;
+  width: 128px;
   float: left;
+  border-radius: 10%;
+  overflow: hidden;
+  margin-right: 10px;
 }
 
 .icon {
