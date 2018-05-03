@@ -128,7 +128,7 @@
 
     pub   2048R/D752F538C0D38C3A 2014-12-10
     Key fingerprint = 20B2 4CEF E6AF D615 0B6A  6F18 D752 F538 C0D3 8C3A
-    uid               [  full  ] Arthur Edelstein <arthuredelstein@gmail.com>
+    uid               [  full  ] Arthur Edelstein &lt;arthuredelstein@gmail.com&gt;
     sub   2048R/3306E88D27211E0B 2014-12-10
 
     pub   4096R/0x4E2C6E8793298290 2014-12-15 [expires: 2020-08-24]
@@ -152,7 +152,7 @@
 
     pub   4096R/58ACD84F 2015-01-18 [expires: 2017-01-11]
           Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
-    uid                  Tails developers <tails@boum.org>
+    uid                  Tails developers &lt;tails@boum.org&gt;
     sub   4096R/752A3DB6 2015-01-18 [expires: 2017-01-11]
     sub   4096R/2F699C56 2015-01-18 [expires: 2017-01-11]
     </pre>
