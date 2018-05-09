@@ -117,10 +117,6 @@
     sub   rsa4096/0x5778071EE2DE675B 2017-09-11 [expires: 2018-09-11]
     sub   rsa4096/0x72E841BB93148AD2 2017-09-11 [expires: 2018-09-11]
 
-    pub   4096R/D0220E4B 2014-03-19
-          Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
-    uid                      Nicolas Vigier (TBB Builds Signing Key) &lt;boklm@torproject.org&gt;
-
     pub   4096R/3E39CEABFC69F6F7 2015-09-24
           Key fingerprint = 6AB6 AEE9 776E 7827 23C8  ACE8 3E39 CEAB FC69 F6F7
     uid               [ unknown] Nicolas Vigier (boklm) &lt;boklm@torproject.org&gt;
