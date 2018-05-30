@@ -156,7 +156,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=726824BE9D8D5CF009C5F039FF9D1C57779FB883"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#Phoul">Colin Childs</a></div>
       <div class="field"><b>IRC:</b> Phoul</div>
-      <div class="description">Support and translation coordinator, GSoC administrator, member of the community team and a director of <a href="https://www.coldhak.ca">Coldhak</a>.</div>
+      <div class="description">Relay advocate, Outreachy mentor, member of the community team and a director of <a href="https://www.coldhak.ca/">Coldhak</a>.</div>
     </td>
   </tr>
 
