@@ -14,7 +14,7 @@
 
     <p>The signing keys we use are:</p>
     <ul>
-    <li>The Tor Browser Developers (0x93298290),
+    <li>The Tor Browser Developers (0x4E2C6E8793298290),
     Mike Perry (0x0E3A92E4), Georg Koppen (0x4B7C3223),
     Nicolas Vigier (0xD0220E4B), Linus Nordberg (0x23291265)
     and Arthur Edelstein (0xD752F538C0D38C3A)
@@ -130,9 +130,8 @@
     pub   4096R/0x4E2C6E8793298290 2014-12-15 [expires: 2020-08-24]
           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
     uid   Tor Browser Developers (signing key) &lt;torbrowser@torproject.org&gt;
-    sub   4096R/0x2E1AC68ED40814E0 2014-12-15 [expires: 2017-08-25]
-    sub   4096R/0x7017ADCEF65C2036 2014-12-15 [expires: 2017-08-25]
     sub   4096R/0xD1483FA6C3C07136 2016-08-24 [expires: 2018-08-24]
+    sub   4096R/0xEB774491D9FF06E2 2018-05-26 [expires: 2020-09-12]
 
     pub   2048R/0x42E86A2A11F48D36 2011-05-11 [expires: 2017-05-09]
           Key fingerprint = B744 17ED DF22 AC9F 9E90  F491 42E8 6A2A 11F4 8D36
