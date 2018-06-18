@@ -1,0 +1,64 @@
+#include "head.wmi" TITLE="Tor Project: Jobs (project manager network)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+  <div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+  <div id="maincol">
+    <h1>Internet Freedom Nonprofit Seeks Experienced Project Manager for Network Projects</h1>
+    <h2>(Posted June 18, 2018)</h2>
+
+    <p>The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Project Manager to help coordinate the projects of our Network, Metrics, and Anti-Censorship teams, as well as our network interference observatory team known as OONI.</p>
+
+    <p>The ideal candidate has experience leading an open source project. Tor is developed and maintained collaboratively through the contributions of a diverse, global community. We work hard to choose communications tools that encourage participation, where every contributor is heard and respected. The person in this job must be a team player with excellent communication skills.</p>
+
+    <p>Our Network Projects PM understands that inter-team collaboration makes each team stronger, and will focus on helping teams work together effectively. This person will be responsible for ensuring a productive, healthy work environment so all team members are able to contribute effectively and to the best of their abilities. All teams are distributed globally across multiple time zones, so the ability to organize and communicate via chats, email, etc., is crucial. This person will also be the link between the teams, volunteers, and sponsors (funders), and thus must have strong organizational skills and the ability to communicate in writing to diverse audiences.</p>
+
+    <p>You will be helping the teams roadmap, identify projects for grant proposals, manage project execution, and write progress reports to our sponsors. You are an experienced professional who is capable of building processes and best practices for the teams, regardless of the tools being used.</p>
+
+    <p>This position will work closely with other team leads and project managers. This position reports directly to the Executive Director.</p>
+
+    <h2>Responsibilities:</h2>
+    <ul>
+	<li>Provide advice to teams where needed and point them in the right direction; help them understand what is expected of them</li>
+	<li>Coordinate the transfer of information to and between the teams, sponsors, and greater Tor community</li>
+	<li>Organize team meetings, help your teams plan their roadmaps, and show the teams how to improve their processes</li>
+	<li>Work with the Tor Project’s Fundraising Director and Grant Writer on grant proposals by providing them with your teams’ ideas for projects and the personnel needed for execution</li>
+	<li>Manage risks and issues that might occur while executing a project</li>
+	<li>Manage execution of roadmap and monitor the progress of your teams’ projects</li>
+    </ul>
+
+    <h2>Qualifications:</h2>
+    <ul>
+      <li>Solid knowledge of internet technologies and security tools</li>
+      <li>Super organized</li>
+      <li>Know-how to build great processes no matter what tools teams are using</li>
+      <li>Great facilitator</li>
+      <li>Excellent written and verbal communication skills</li>
+      <li>Experience managing people</li>
+      <li>Knowledge of and experience with software development life-cycle process</li>
+      <li>Experience with Free and Open Source Software culture</li>
+      <li>Comfortable with transparency</li>
+      <li>Excellent attention to detail</li>
+      <li>Prior experience working on U.S. government grants and contracts a plus!</li>
+      <li>Willingness to travel to internationally at least twice a year</li>
+    </ul>
+
+    <p>The Tor Project's workforce is smart and committed. Experience working with open source communities and/or a dedication to Internet freedom are added pluses. The Tor Project currently has a paid and contract staff of around 35 developers and operational support staff, plus many thousands of volunteers who contribute to our work. The ideal candidate will be energetic, unflappable and flexible, and will thrive in a highly-technical collaborative environment.</p>
+
+    <p>This is a full-time, hands-on position, which can be done remotely or in our office in Seattle, WA. Flexible salary, depending on experience. The Tor Project has a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; flexible work schedule; and occasional travel opportunities.</p>
+
+    <p>To apply, send a cover letter and your resume to hr at torproject dot org with the subject "Project Manager - Network." Tell us why you think you're the right person for this job. No phone calls please!</p>
+
+    <p>The Tor Project, Inc., is an equal opportunity, affirmative action employer.</p>
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+    #include "side.wmi"
+    #include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
