@@ -340,9 +340,9 @@
       <div class="photo"><img src="$(IMGROOT)/people/isis.png" alt="isis" /></div>
       <div class="icon"><a href="https://twitter.com/isislovecruft"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
       <div class="icon"><a href="https://fyb.patternsinthevoid.net/isis.html"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
-      <div class="name"><a href="#isis">Isis Lovecruft</a></div>
+      <div class="name"><a href="#isis">Isis Agora Lovecruft</a></div>
       <div class="field"><b>IRC:</b> isis</div>
-      <div class="description">Tor developer working on censorship circumvention, <a href="https://gitweb.torproject.org/bridgedb.git">BridgeDB</a>, and cryptographic research, design, and implementations.</div>
+      <div class="description">isis works as a C and Rust developer on the Tor network daemon. They tend to focus on security, censorship circumvention, and cryptographic research and implementation.</div>
     </td>
   </tr>
 
