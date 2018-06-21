@@ -146,7 +146,7 @@
       <div class="photo"><img src="$(IMGROOT)/people/cindy.png" alt="cindy" /></div>
       <div class="icon"><a href="https://www.eff.org/files/key_cindy.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#cindy">Cindy Cohn</a></div>
-      <div class="description">Tor Board member and <a href="https://www.eff.org/about/staff/cindy-cohn">Executive Director of the EFF</a>. Lawyer by training, <a href="https://blog.torproject.org/blog/tor-heart-notes-board-member">my focus</a> is on making sure Tor stays available and that Tor users stay safe.</div>
+      <div class="description">Tor Board member and <a href="https://www.eff.org/about/staff/cindy-cohn">Executive Director of the EFF</a>. Lawyer by training, <a href="https://blog.torproject.org/blog/tor-heart-notes-board-member">her focus</a> is on making sure Tor stays available and that Tor users stay safe.</div>
     </td>
 
     <td>
