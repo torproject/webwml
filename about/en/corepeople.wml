@@ -31,6 +31,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=FDB16F45A477B314E87432EC61A208E16E7CB435"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#ahf">Alexander Færøy</a></div>
       <div class="field"><b>IRC:</b> ahf</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Works on core Tor development.</div>
     </td>
   </tr>
@@ -43,6 +44,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=FBF0E7DB1433018EE52D0DDA9FC34089CBE83CA3"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#flexlibris">Alison Macrina</a></div>
       <div class="field"><b>IRC:</b> flexlibris</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Leads the <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam">Community Team</a> and <a href="https://libraryfreedomproject.org">Library Freedom Project</a>. Works on support, outreach, and training.</div>
     </td>
 
@@ -146,6 +148,7 @@
       <div class="photo"><img src="$(IMGROOT)/people/cindy.png" alt="cindy" /></div>
       <div class="icon"><a href="https://www.eff.org/files/key_cindy.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#cindy">Cindy Cohn</a></div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Tor Board member and <a href="https://www.eff.org/about/staff/cindy-cohn">Executive Director of the EFF</a>. Lawyer by training, <a href="https://blog.torproject.org/blog/tor-heart-notes-board-member">her focus</a> is on making sure Tor stays available and that Tor users stay safe.</div>
     </td>
 
@@ -167,6 +170,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=68278CC5DD2D1E85C4E45AD90445B7AB9ABBEEC6"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#atagar">Damian Johnson</a></div>
       <div class="field"><b>IRC:</b> atagar</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Author of the <a href="https://stem.torproject.org/">Stem</a> python controller library and <a href="https://nyx.torproject.org/">Nyx</a> relay monitor.</div>
     </td>
 
@@ -300,6 +304,7 @@
       <div class="photo"><img src="$(IMGROOT)/people/ian.png" alt="ian" /></div>
       <div class="icon"><a href="../keys/ian.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#ian">Ian Goldberg</a></div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description"><a href="https://cs.uwaterloo.ca/~iang/">Professor of CS</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>, developing <a href="https://otr.cypherpunks.ca/">Off-the-Record Messaging</a> among other things.</div>
     </td>
   </tr>
@@ -320,6 +325,7 @@
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="icon"><a href="https://gaffer.ptitcanardnoir.org/intrigeri/contact/"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#intrigeri">intrigeri</a></div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">He is one of our main interfaces with the <a href="https://tails.boum.org/">Tails</a> project.</div>
     </td>
   </tr>
@@ -342,6 +348,7 @@
       <div class="icon"><a href="https://fyb.patternsinthevoid.net/isis.html"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#isis">Isis Agora Lovecruft</a></div>
       <div class="field"><b>IRC:</b> isis</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/they/them">they</a></div>
       <div class="description">isis works as a C and Rust developer on the Tor network daemon. They tend to focus on security, censorship circumvention, and cryptographic research and implementation.</div>
     </td>
   </tr>
@@ -433,6 +440,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=0CC8157C2578EEE92B0745D64EFD4FDC3F46D41E"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#karsten">Karsten Loesing</a></div>
       <div class="field"><b>IRC:</b> karsten</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Primary researcher and developer into <a href="https://metrics.torproject.org/">anonymous metrics</a> which started as a National Science Foundation grant.</div>
     </td>
 
@@ -442,6 +450,7 @@
       <div class="icon"><a href="../keys/kat.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#kat5">Kat</a></div>
       <div class="field"><b>IRC:</b> kat5</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Volunteer on the Community Team. Helps with t-shirts for relay operators and other odds and ends.</div>
     </td>
   </tr>
@@ -482,6 +491,7 @@
       <div class="icon"><a href="../keys/agrabeli.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#agrabeli">Maria Xynou</a></div>
       <div class="field"><b>IRC:</b> agrabeli</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Maria manages OONI's Partnership Program and writes research reports on internet censorship around the world.</div>
     </td>
   </tr>
@@ -493,6 +503,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=2602B0DD0EB238CCE037196A0E36124F8E990F6E"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#mcs">Mark Smith</a></div>
       <div class="field"><b>IRC:</b> mcs</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Developer on the Tor Browser team.</div>
     </td>
 
@@ -583,6 +594,7 @@
       <div class="photo"><img src="$(IMGROOT)/people/nickhopper.png" alt="nickhopper" /></div>
       <div class="name"><a href="#nickhopper">Nick Hopper</a></div>
       <div class="field"><b>IRC:</b> nickhopper</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description"><a href="https://www-users.cs.umn.edu/~hopper/">Researcher</a> interested in improving Tor's performance and resistance to traffic analysis. Some of my work is described <a href="https://www-users.cs.umn.edu/~hopper/research.html">here</a>.</div>
     </td>
   </tr>
@@ -595,6 +607,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=2133BC600AB133E1D826D173FE43009C4607B1FB"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#nickm">Nick Mathewson</a></div>
       <div class="field"><b>IRC:</b> nickm</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">One of the three original designers of Tor - does a lot of the ongoing design work, and coordinates and leads ongoing development.</div>
     </td>
 
@@ -604,6 +617,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=6AB6AEE9776E782723C8ACE83E39CEABFC69F6F7"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#boklm">Nicolas Vigier</a></div>
       <div class="field"><b>IRC:</b> boklm</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Works on Tor Browser.</div>
     </td>
   </tr>
@@ -745,6 +759,7 @@
       <div class="icon"><a href="../keys/ssteele.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#ssteele">Shari Steele</a></div>
       <div class="field"><b>IRC:</b> ssteele</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Executive Director of the Tor Project, Inc.</div>
     </td>
   </tr>
@@ -788,6 +803,7 @@
       <div class="icon"><a href="https://twitter.com/sjmurdoch"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
       <div class="name"><a href="#sjmurdoch">Steven Murdoch</a></div>
       <div class="field"><b>IRC:</b> sjmurdoch</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description"><a href=""http://murdoch.is/"">Principal Research Fellow</a> at University College London. He is the original creator of the <a href=""https://www.torproject.org/projects/torbrowser.html.en"">Tor Browser</a>.</div>
     </td>
   </tr>
@@ -821,6 +837,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=2C732B1C0DBEF678AB3AF606A32F17FD0055C305"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#catalyst">Taylor Yu</a></div>
       <div class="field"><b>IRC:</b> catalyst</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/they/them">they</a></div>
       <div class="description">Software archaeologist and keeper of C language arcana. Works with applied cryptography, protocol design, software security, and technical debt restructuring.</div>
     </td>
 
@@ -830,6 +847,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=C8556CED5D90A0C529F64D43450CBA7F968F094B"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#teor">teor</a></div>
       <div class="field"><b>IRC:</b> teor</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/they/them">they</a></div>
       <div class="description">Tor developer and chutney maintainer. Currently working on onion services, directory documents, and statistics.</div>
     </td>
   </tr>
@@ -842,6 +860,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=8ACD146EA94CEB12E4EA691566A109189B79658F"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#tjr">Tom Ritter</a></div>
       <div class="field"><b>IRC:</b> tjr</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Maintains <a href="https://consensus-health.torproject.org/">Consensus Health </a>, runs one of the bandwidth authorities, and contributes to Tor Browser.</div>
     </td>
 
@@ -874,6 +893,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=4263006A4506740FAD871430BAEBA2D7456CAD51"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#wseltzer">Wendy Seltzer</a></div>
       <div class="field"><b>IRC:</b> wseltzer</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description"><a href="https://wendy.seltzer.org/">Techie lawyer</a> and former Tor board member. She works on legal and policy support for private and secure communications.</div>
     </td>
   </tr>
