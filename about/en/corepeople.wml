@@ -349,11 +349,10 @@
   <tr>
     <td>
       <a id="ilv"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/ilv.png" alt="ilv" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=53927C25AAF14FBBCAFABDA3A456E2CE540BFC0E"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
-      <div class="name"><a href="#ilv">Israel Leiva</a></div>
-      <div class="field"><b>IRC:</b> ilv</div>
-      <div class="description">Rewrote the <a href="https://gettor.torproject.org">GetTor</a> service. Volunteer on the <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam">Community Team</a>, focused on Latin America. Works in <a href="https://www.derechosdigitales.org">Derechos Digitales</a>.</div>
+      <div class="name"><a href="#ilv">isra</a></div>
+      <div class="description">Rewrote the <a href="https://gettor.torproject.org">GetTor</a> service.</div>
     </td>
 
     <td>
