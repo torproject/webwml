@@ -292,6 +292,7 @@
     <td>
       <a id="nyinz"></a>
       <div class="photo"><img src="$(IMGROOT)/people/nyinz.png" alt="nyinz" /></div>
+      <div class="icon"><a href="../keys/nyinz.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#nyinz">Helen Nyinakiiza</a></div>
       <div class="field"><b>IRC:</b> nyinz</div>
       <div class="description">I am very excited and honored to contribute to the Tor project on its mission to provide usable technologies to the global south.</div>
