@@ -305,6 +305,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=A8F7BA5041E133339CBA169676D58093F540ABCD"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#irl">Iain Learmonth</a></div>
       <div class="field"><b>IRC:</b> irl</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description"><a href="https://metrics.torproject.org">Metrics team member</a> and maintainer of <a href="https://metrics.torproject.org/rs.html">Relay Search</a>.</div>
     </td>
   </tr>
@@ -737,6 +738,7 @@
       <div class="photo"><img src="$(IMGROOT)/people/sajolida.png" alt="sajolida" /></div>
       <div class="icon"><a href="../keys/sajolida.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#sajolida">sajolida</a></div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Technical writing, UX, and fundraising for Tails.</div>
     </td>
   </tr>
@@ -802,6 +804,7 @@
       <div class="icon"><a href="../keys/stephw.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#stephw">Stephanie A. Whited</a></div>
       <div class="field"><b>IRC:</b> stephw</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Directs communications.</div>
     </td>
   </tr>
