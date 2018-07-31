@@ -1,0 +1,77 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (Bookkeeper/Payroll Specialist)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+<h1>Internet Freedom Nonprofit Seeks Experienced Bookkeeper/Payroll Specialist</h1>
+<h2>(Posted July 31, 2018)</h2>
+
+<p>
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced non-profit QuickBooks Bookkeeper/Payroll Specialist.
+</p>
+
+<p>
+The ideal candidate will have at least five years of experience in bookkeeping for non-profit organizations, as well as multiple years of experience in domestic and international payroll implementation and processing. This position reports to our CFO and will work closely with the Grants Manager.
+</p>
+
+<h2>Tasks include, but are not limited to:</h2>
+
+<ul>
+<li>Processing accounts payable and receivable</li>
+<li>Reconciling bank accounts and credit card accounts</li>
+<li>Reconciling expense reports, processing reimbursements, and tracking receipts</li>
+<li>Processing domestic and foreign payrolls using multiple payroll platforms, including compliance with international, federal, and state requirements</li>
+<li>Onboarding employees into the payroll systems</li>
+<li>Integrating data from multiple software platforms</li>
+<li>Assisting in the preparation of materials for annual 990 tax returns and audit</li>
+<li>Tracking 1099 vendors and creating annual 1099s</li>
+<li>Preparing annual 401K census reports</li>
+<li>Creating general ledger entries</li>
+<li>Assisting in the preparation of workers compensation audits</li>
+<li>Willingness to do other miscellaneous bookkeeping-related tasks as needed</li>
+</ul>
+
+<h2>The person we seek should have the following qualities, skills, and abilities:</h2>
+
+<ul>
+<li>At least 5+ years non-profit bookkeeping experience; Bachelor’s degree preferred</li>
+<li>Highly competent in QuickBooks</li>
+<li>Advanced working knowledge of Excel spreadsheets, specifically including complex formulas</li>
+<li>Must be comfortable working in a paperless office</li>
+<li>Proficient understanding of and ability to use technology; willingness and ability to learn and use new technologies</li>
+<li>Conscientious, hard working, and highly organized with superior attention to detail</li>
+<li>Must be a self-starter who thrives on working independently but who is also comfortable helping other staff members</li>
+<li>Must be comfortable asking staff members for information, such as expense reports and required reporting data</li>
+<li>Willingness to seek additional assistance when new challenges present themselves</li>
+<li>Willingness to travel to international meetings at least twice a year</li>
+</ul>
+
+<p>
+The Tor Project's workforce is smart, passionate, and dedicated. Experience working with open source communities and/or a commitment to Internet civil liberties are added pluses for any candidate applying for this position.
+</p>
+<p>
+Flexible salary, depending on experience. The Tor Project has a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; and flexible work schedule.
+ </p>
+ <p>
+This is a full-time, hands-on position, which can be done remotely or in our office in Seattle, WA. To apply, send a cover letter and your resume to hr at torproject dot org with “Bookkeeper/Payroll Specialist” in the subject line. Tell us why you think you’re the right person for this job and why you want to work at Tor Project. No phone calls please! </p>
+
+<p>
+The Tor Project, Inc., is an equal opportunity, affirmative action
+employer.</p>
+ </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>

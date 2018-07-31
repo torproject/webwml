@@ -1,0 +1,72 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Jobs (Grant Writer)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+	<div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+	<div id="maincol">
+<h1>Internet Freedom Nonprofit Seeks Grant Writer</h1>
+<h2>(Posted July 31, 2018)</h2>
+
+<p>
+The Tor Project, Inc., a 501(c)(3) nonprofit organization that provides technical infrastructure for privacy protection over the Internet, is seeking a strong grant writer to help us develop and write winning grant proposals designed to secure funding from public institutions, private foundations, corporations and other grant-making entities. The ideal candidate will be familiar with issues involving high-tech freedom and can make a compelling case about why our work is so important to current and potential funders. This person must be able to write clearly and provide context for the Tor Project’s complicated technology and activism projects. The ability to explain technical concepts to non-technical audiences is essential.
+</p>
+
+<p>
+The grant writer is responsible for researching grant opportunities, sending out letters of inquiry and proposals, keeping track of dates and deadlines, and submitting reports at the end of the grant periods. The Tor Project consists of several teams that each own multiple sub-projects with different needs and priorities. The grant writer will need to build a grant proposal pipeline by organizing our ideas and needs into a database that can be accessed as opportunities present themselves while coordinating prioritization with our leadership team.
+</p>
+
+<p>
+This person is also responsible for additional fundraising writing projects that might come up, such as updating the "one-pagers" we distribute at conferences. The Tor Project works on Internet freedom issues, and in many ways our grant proposals and reports are more like activism pieces than traditional pleas for funding, so a background in writing about these issues would be ideal.
+</p>
+
+<h2>Qualifications:</h2>
+
+<ul>
+<li>At least 3 years of grant writing experience with private foundations, federal government contracts, and corporations.</li>
+<li>Must be a strong writer with proven ability to create clear, structured, articulate, and persuasive proposals.</li>
+<li>Comfortable with highly technical topics and able to explain them clearly and accurately to non-technical audiences.</li>
+<li>Knowledge of and appreciation for the free and open source software movement.</li>
+<li>Strong generalist understanding of the basic mechanics of how the Internet works, as well as issues related to privacy, security, censorship, and surveillance.</li>
+<li>Experience with, or willingness to learn how to use, communications and collaboration technologies such as PGP, IRC, Jitsi, WordPress, and etherpads.</li>
+<li>Hard-working and highly organized with superior attention to detail.</li>
+<li>Highly collaborative with experience working with and as part of remote teams.</li>
+<li>Self-starter who thrives on working independently with a dispersed workforce.</li>
+<li>Experience working or living outside the United States is a plus.</li>
+<li>Willingness to travel to international meetings twice a year.</li>
+<li>Excellent social skills and a sense of humor.</li>
+</ul>
+
+<p>
+The ideal candidate will be energetic, unflappable and flexible, and will thrive in a highly-technical collaborative environment.
+</p>
+
+<p>
+The Tor Project's workforce is smart and committed. Experience working with open source communities and/or a dedication to Internet freedom are added pluses. The Tor Project currently has a paid and contract staff of around 35 developers and operational support staff, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation and corporate donations.
+</p>
+<p>
+Flexible salary, depending on experience. The Tor Project has a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; flexible work schedule; and occasional travel opportunities.
+</p>
+<p>
+This is a full-time position. The Tor Project’s main office is in Seattle, and we’d be delighted to supply a desk for this position there, however, this job can be done remotely.
+</p>
+<p>
+To apply, send a cover letter and your resume to hr at torproject dot org with the subject “Grant Writer." Tell us why you think you're the right person for this job, why you want to work at Tor Project, and please include links to writing samples. No phone calls please!
+</p>
+<p>
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.</p>
+ </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
