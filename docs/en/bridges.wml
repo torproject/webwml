@@ -96,7 +96,7 @@
 
     <p>Sadly, pluggable transports are not immune to detection, if a censor
     is given enough time. In the past, we promoted obfs and obfs2 as safe
-    transports. These are now deprecated and were replaced by obfs3,
+    transports. These are now deprecated and were replaced by obfs4,
     scramblesuit, fte, and obfs4.</p>
 
     <p>Bridges which support pluggable transports can be used with Tor Browser
@@ -131,13 +131,13 @@
     <p>
     If your bridge line looks like this:
     <pre><samp>
-    obfs3 141.201.27.48:420 4352e58420e68f5e40bf7c74faddccd9d1349413
+    obfs4 141.201.27.48:420 4352e58420e68f5e40bf7c74faddccd9d1349413
     </samp>
     </pre>
 
     The first element is the name of the pluggable transport
     technology used by the bridge. For example, in the case above, the
-    bridge is using the <i>obfs3</i> pluggable transport.
+    bridge is using the <i>obfs4</i> pluggable transport.
     </p>
 
     <a id="UsingBridges"></a>
@@ -189,7 +189,7 @@
     <img src="$(IMGROOT)/tb-tor-launcher-bridges-options.png" alt="Tor Browser's Bridge Configuration page">
     <br><br><br>
     <h3>5a) If you want to use one of the provided bridges, then choose the
-    transport type you want to use. obfs3 is currently the recommend
+    transport type you want to use. obfs4 is currently the recommend
     type, but depending on where you are located another type may work better
     for you. If you have any questions, please <a href="<page about/contact>#support">contact
     us.</a></h3>
@@ -239,7 +239,7 @@
     <img src="$(IMGROOT)/tb-bridges-options-from-browser.png" alt="Tor Browser's TorButton Menu">
     <br><br><br>
     <h3>5a) If you want to use one of the provided bridges, then choose the
-    transport type you want to use. obfs3 is currently the recommend
+    transport type you want to use. obfs4 is currently the recommend
     type, but depending on where you are located another type may work better
     for you. If you have any questions, please <a href="<page about/contact>#support">contact
     us.</a></h3>
@@ -291,18 +291,18 @@
     <p>
     Similarly, if you need bridges with a specific pluggable transport, the
     process is just as easy. First, decide which type you want. Currently we
-    provide obfs2, obfs3, scramblesuit, and fte. If you don't know which one
-    you should choose, then obfs3 is usually a good choice. Send an email to
-    bridges@bridges.torproject.org with "get transport obfs3" by itself in
-    the body of the email (replace "obfs3" with whichever pluggable transport
+    provide obfs2, obfs3, obfs4, scramblesuit, and fte. If you don't know which one
+    you should choose, then obfs4 is usually a good choice. Send an email to
+    bridges@bridges.torproject.org with "get transport obfs4" by itself in
+    the body of the email (replace "obfs4" with whichever pluggable transport
     you want to use). You should receive an email like this:
     </p>
     <pre>
     Here are your bridges:
 
-      obfs3 60.16.182.53:9001 cc8ca10a63aae8176a52ca5129ce816d011523f5
-      obfs3 87.237.118.139:444 0ed110497858f784dfd32d448dc8c0b93fee20ca
-      obfs3 60.63.97.221:443 daa5e435819275f88d695cb7fce73ed986878cf3
+      obfs4 60.16.182.53:9001 cc8ca10a63aae8176a52ca5129ce816d011523f5
+      obfs4 87.237.118.139:444 0ed110497858f784dfd32d448dc8c0b93fee20ca
+      obfs4 60.63.97.221:443 daa5e435819275f88d695cb7fce73ed986878cf3
     </pre>
     <p>
     Once you've received the email with bridge information, you can
