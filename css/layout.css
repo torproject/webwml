@@ -396,6 +396,10 @@ body {
 
 /* TABLE ------------*/
 
+#press tr:nth-child(even) {
+	background-color: #e5e5e5;
+}
+
 table { width: 100%; }
 
 td { padding: 12px; }
@@ -674,7 +678,7 @@ table tr img {
 	background-origin: padding-box;
 	background-position: 0% 0%;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;	
+	background-size: 100% 100%;
 }
 
 .easy .package h2,
@@ -1199,7 +1203,7 @@ div.blogFirstRow {
 	height: 22px;
 	background: url(../images/table-head.jpg) left top repeat-x #885ca4;
 	}
-	
+
 .blogRow:hover {
 	background: #f6ffd5;
 	}
@@ -1227,7 +1231,7 @@ p.blogAuthor {
 	text-align: right;
 	margin-top: -20px;
 	}
-	
+
 p.blogAuthor em{
 	color: #4e6a20;
 	text-align: right;
@@ -1237,7 +1241,7 @@ p.blogAuthor em{
 p.blogDate {
 	color: #000000;
 	}
-	
+
 .blogFeed h2 {
 	font-size: 1.467em;
 	margin: 0;
@@ -1272,7 +1276,7 @@ p.blogDate {
         left: 0;
     }
 
-    .projectbox .projectdesc {
+    .projectbox .projecesc {
         margin-left: 100px;
     }
 /* END */
