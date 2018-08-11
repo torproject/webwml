@@ -13,7 +13,7 @@ var software = {
                      'artful':  [ 'artful'],
                      'bionic':  [ 'bionic'],
                      },
-         'experimental-0.3.3.x': {
+         'experimental-0.3.4.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'buster':  [ 'buster' ],
@@ -45,7 +45,7 @@ var software = {
                      'artful':  [ 'artful'],
                      'bionic':  [ 'bionic'],
                      },
-         'experimental-0.3.3.x': {
+         'experimental-0.3.4.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'buster':  [ 'buster' ],
