@@ -96,7 +96,7 @@
 
     <p>Sadly, pluggable transports are not immune to detection, if a censor
     is given enough time. In the past, we promoted obfs and obfs2 as safe
-    transports. These are now deprecated and were replaced by obfs4,
+    transports. These are now deprecated and were replaced by obfs3,
     scramblesuit, fte, and obfs4.</p>
 
     <p>Bridges which support pluggable transports can be used with Tor Browser
