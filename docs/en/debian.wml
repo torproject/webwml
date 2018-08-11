@@ -87,19 +87,26 @@ version
 
 
 <div id="apt-source">
-<p>You need to add the following entry in <code>/etc/apt/sources.list</code> or a new file in <code>/etc/apt/sources.list.d/</code>:</p>
+<p>You need to add the following entries to <code>/etc/apt/sources.list</code> or a new file in
+<code>/etc/apt/sources.list.d/</code>:</p>
 
 <blockquote><pre id="sources">deb https://deb.torproject.org/torproject.org jessie main
 </pre></blockquote>
 </div>
 
-<p>Note: To use this source line in <i>/etc/apt/sources.list</i> The <a
+<p>Note: To use source lines with https:// in <i>/etc/apt/sources.list</i> the <a
 href="https://packages.debian.org/stretch/apt-transport-https">apt-transport-https
 package</a> is required. Install it with
 <blockquote><pre>
 apt install apt-transport-https
 </pre></blockquote>
 to enable the usage of 'deb https://foo distro main' lines in the /etc/apt/sources.list so that all package managers using the libapt-pkg library can access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure).</p>
+
+<p>To use Apt with Tor later replace <tt>https://</tt> with <tt>tor://</tt> and run
+<blockquote><pre>
+apt install apt-transport-tor
+</pre></blockquote>
+</p>
 
 <div id="sig">
 <p>Then add the gpg key used to sign the packages by running the following commands at your command prompt:</p>
@@ -112,15 +119,13 @@ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 
 <div id="apt-get">
 <p>You can install it with the following commands:</p>
-<blockquote><pre>$ apt update
-<span id="regular-install">$ apt install <span id="apt-package">tor</span> deb.torproject.org-keyring</span>
+<blockquote><pre>apt update
+<span id="regular-install">apt install <span id="apt-package">tor</span> deb.torproject.org-keyring</span>
 <span id="source-install">$ apt install build-essential fakeroot devscripts
 $ apt build-dep tor deb.torproject.org-keyring</span></pre></blockquote>
 
 <div id="source-install2">
-<p>
-Then you can build Tor in ~/debian-packages:
-</p>
+<p>Then you can build Tor in ~/debian-packages:</p>
 <blockquote><pre>
 $ mkdir ~/debian-packages; cd ~/debian-packages
 $ apt source tor
@@ -150,6 +155,30 @@ in place of &lt;DISTRIBUTION&gt;.
 </p>
 
 <p>
+If you want to use the <a href="<page download/download-unix>#packagediff">development branch</a> of Tor 
+instead (more features and more bugs), you need add a different set of lines to your 
+<i>/etc/apt/sources.list</i> file:<br />
+<pre style="margin: 1.5em 0 1.5em 2em">
+deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;DISTRIBUTION&gt; main
+</pre>
+</p>
+
+<p>Note: To use source lines with <tt>https://</tt> in <i>/etc/apt/sources.list</i> the <a
+href="https://packages.debian.org/stretch/apt-transport-https">apt-transport-https
+package</a> is required. Install it with
+<blockquote><pre>
+apt install apt-transport-https
+</pre></blockquote>
+to enable the usage of 'deb https://foo distro main' lines in the /etc/apt/sources.list so that all package managers using the libapt-pkg library can access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure).</p>
+
+<p>To use Apt with Tor later replace <tt>https://</tt> with <tt>tor://</tt> and run 
+<blockquote><pre>
+apt install apt-transport-tor
+</pre></blockquote>
+</p>
+
+<p>
 Then add the gpg key used to sign the packages by running the following
 commands at your command prompt:
 <pre style="margin: 1.5em 0 1.5em 2em">
@@ -166,16 +195,9 @@ If there are no errors you're good to continue.
 
 <p>
 We provide a Debian package to help you keep our signing key current.  It is
-recommended you use it.  Install it using
+recommended you use it.  Install it along with tor using
 <pre style="margin: 1.5em 0 1.5em 2em">
-apt install deb.torproject.org-keyring
-</pre>
-</p>
-
-<p>
-To finally install Tor just run:
-<pre style="margin: 1.5em 0 1.5em 2em">
-apt install tor
+apt install tor deb.torproject.org-keyring
 </pre>
 </p>
 
@@ -187,7 +209,6 @@ docs/tor-doc-unix>#using">step two</a> of the "Tor on Linux/Unix"
 instructions.
 </p>
 
-<noscript>
 <p style="font-size: small">
 The DNS name <code>deb.torproject.org</code> is actually a set of independent
 servers in a DNS round robin configuration.  If you for some reason cannot
@@ -198,46 +219,20 @@ access it you might try to use the name of one of its part instead.  Try
 </p>
 
 <p><code>deb.torproject.org</code> is also served through now also served via onion service:
-<a href="http://sdscoq7snqtznauu.onion">http://sdscoq7snqtznauu.onion/</a>.
+<a href="http://sdscoq7snqtznauu.onion">http://sdscoq7snqtznauu.onion/</a> To use the onion service with 
+apt, replace the address in the previously added lines:
+<pre style="margin: 1.5em 0 1.5em 2em">.
+# For the stable version.
+deb tor://sdscoq7snqtznauu.onion/torproject.org buster main
+
+# For the unstable version.
+deb tor://sdscoq7snqtznauu.onion/torproject.org tor-nightly-master-&lt;DISTRIBUTION&gt; main
+</pre>
 <br />
 See <a href="https://onion.torproject.org/">https://onion.torproject.org</a> for all
 torproject.org onion addresses.</p>
 
-<hr />
-
-<a id="development"></a>
-<h2><a class="anchor" href="#development">Option three: Using the
-development branch of Tor on Debian or Ubuntu</a></h2>
-<br />
-
-<p>If you want to use the <a href="<page
-download/download-unix>#packagediff">development branch</a> of Tor instead
-(more features and more bugs), you need to add a different set of lines
-to your <tt>/etc/apt/sources.list</tt> file:<br />
-<pre style="margin: 1.5em 0 1.5em 2em">
-deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;DISTRIBUTION&gt; main
-</pre>
-where you again substitute the name of your distro (stretch, buster,
-sid, xenial, ...) in place of
-&lt;DISTRIBUTION&gt;.
-</p>
-
-<p>
-Then run the following commands at your command prompt:
-<pre style="margin: 1.5em 0 1.5em 2em">
-gpg --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
-gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-apt update
-apt install tor deb.torproject.org-keyring
-</pre>
-</p>
-
-<p>
-Now Tor is installed and running. Move on to <a href="<page
-docs/tor-doc-unix>#using">step two</a> of the "Tor on Linux/Unix"
-instructions.
-</p>
+<noscript>
 
 <hr />
 
