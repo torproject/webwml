@@ -110,12 +110,13 @@
     <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --fingerprint 0x4E2C6E8793298290</pre>
     <p>You should see:</p>
     <pre>
-    pub   4096R/93298290 2014-12-15
-          Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                  Tor Browser Developers (signing key) <torbrowser@torproject.org>
-    sub   4096R/F65C2036 2014-12-15
-    sub   4096R/D40814E0 2014-12-15
-    sub   4096R/C3C07136 2016-08-24
+pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
+      Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
+      Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
+sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
+      Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 </pre>
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
@@ -168,12 +169,14 @@
 
     <p>You should see:</p>
     <pre>
-    pub   4096R/93298290 2014-12-15
-          Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                  Tor Browser Developers (signing key) <torbrowser@torproject.org>
-    sub   4096R/F65C2036 2014-12-15
-    sub   4096R/D40814E0 2014-12-15
-    sub   4096R/C3C07136 2016-08-24</pre>
+pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
+      Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
+      Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
+sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
+      Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
+    </pre>
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
     package and its signature to your Downloads folder, run:</p>
