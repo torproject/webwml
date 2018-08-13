@@ -99,15 +99,12 @@
     <p>Once it's installed, use GnuPG to import the key that signed your
     package. In order to verify the signature you will need to type a few commands
     in windows command-line, <i>cmd.exe</i>.
-    <p>Unless you edit your PATH environment variable, you will need to tell Windows
-    the full path to the GnuPG program. If you installed GnuPG with the default values, the path should be
-    something like this: <i>C:\Program Files\Gnu\GnuPg\gpg.exe</i>.</p>
     <p>The Tor Browser team signs Tor Browser releases. Import its key
     (0x4E2C6E8793298290) by starting <i>cmd.exe</i> and typing:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
+    <pre>gpg.exe --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
     <p>After importing the key, you can verify that the fingerprint
     is correct:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --fingerprint 0x4E2C6E8793298290</pre>
+    <pre>gpg.exe --fingerprint 0x4E2C6E8793298290</pre>
     <p>You should see:</p>
     <pre>
 pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
@@ -121,8 +118,7 @@ sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
     package and its signature to your Desktop, run:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --verify \
-    C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc</pre>
+    <pre>gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc</pre>
     <p>Please substitute "Alice" with your own username.</p>
     <p>The output should say "Good signature": </p>
     <pre>
