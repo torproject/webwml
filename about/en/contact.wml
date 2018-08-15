@@ -62,13 +62,19 @@
 
     <a id="irc"></a>
     <h3><a class="anchor" href="#irc">IRC</a></h3>
-    <p>Tor users and developers can also be found in the following channels on <a
-    href="https://www.oftc.net/">OFTC</a>:</p>
+    <p>Tor users and developers can also be found in the following
+    channels on <a href="https://www.oftc.net/">OFTC</a>
+    (<a href="https://www.oftc.net/Tor/">join via Tor</a>):</p>
 
     <ul>
-      <li><i>#tor</i> - For questions about using Tor (as a client, as
-      a relay, as an onion service). Having trouble running Tor or have
-      a question for other Tor users? Then this is the spot for you.</li>
+      <li><i>#tor</i> - For questions about using Tor (as a client,
+      or as an onion service). Having trouble running Tor or have a
+      question for other Tor users? Then this is the spot for you.</li>
+      <li><i>#tor-relays</i> - The Tor network is made of relays, if
+      you are interested in running one yourself, join here and make sure
+      to read this
+      <a href="https://blog.torproject.org/get-help-running-your-relay-our-new-advocate">blog post</a>
+      on how to get help running a relay.</li>
       <li><i>#tor-dev</i> - Channel for people who want to do development.
       Discussions about Tor-related coding, protocols, and <a href="<page
       getinvolved/volunteer>">project ideas</a> are all welcome.</li>
