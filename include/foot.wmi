@@ -2,10 +2,14 @@
 #use "functions.wmi"
 
     <div id="footer">
-    	<div class="onion"><img src="$(IMGROOT)/onion.jpg" alt="Tor"></div>
+      <div class="onion"><img src="$(IMGROOT)/onion.jpg" alt="Tor"></div>
       <div class="about">
     <p>Trademark, copyright notices, and rules for use by third parties can be found
     <a href="<page docs/trademark-faq>">in our FAQ</a>.</p>
+    <p>We offer an <a href="https://www.torproject.org/docs/hidden-services">onion service</a>
+       for this site: <a href="http://expyuzz4wqqyqhjn.onion/">expyuzz4wqqyqhjn.onion/</a>.<br/>
+       See <a href="https://onion.torproject.org">https://onion.torproject.org</a> for all
+       torproject.org onion addresses.</p>
 <!--
         # This will grab the date from svn info/git
         # REQUIRES svn or git for this to work
@@ -30,7 +34,7 @@
       </div>
       <!-- END ABOUT -->
       <div class="col first">
-      	<h4>About Tor</h4>
+       <h4>About Tor</h4>
         <ul>
           <li><a href="<page about/overview>">What Tor Does</a></li>
           <li><a href="<page about/torusers>">Users of Tor</a></li>
@@ -41,7 +45,7 @@
       </div>
       <!-- END COL -->
       <div class="col">
-      	<h4>Get Involved</h4>
+        <h4>Get Involved</h4>
         <ul>
           <li><a href="<page donate/donate-foot>">Donate</a></li>
           <li><a href="<page docs/documentation>#MailingLists">Mailing Lists</a></li>
@@ -52,7 +56,7 @@
       </div>
       <!-- END COL -->
       <div class="col">
-      	<h4>Documentation</h4>
+        <h4>Documentation</h4>
         <ul>
           <li><a href="<page docs/tor-manual>">Manuals</a></li>
           <li><a href="<page docs/documentation>">Installation Guides</a></li>
