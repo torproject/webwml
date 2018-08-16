@@ -109,8 +109,8 @@ and Tor</a> together, however.
 Tor tries to prevent attackers from learning what destination websites you
 connect to. However, by default, it does not prevent somebody watching your Internet
 traffic from learning that you're using Tor. If this matters to you, you can
-reduce this risk by configuring Tor to use a <a href="<page docs/bridges>">Tor
-bridge relay</a> rather than connecting directly to the public Tor network.
+reduce this risk by configuring Tor to use a <a href="<page docs/bridges>#PluggableTransports">
+Pluggable Transport</a> rather than connecting directly to the public Tor network.
 Ultimately the best protection is a social approach: the more Tor
 users there are near you and the more
 <a href="<page about/torusers>">diverse</a> their interests, the less
