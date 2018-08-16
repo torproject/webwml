@@ -3567,8 +3567,7 @@ Restricting your entry nodes may also help against attackers who want
 to run a few Tor nodes and easily enumerate all of the Tor user IP
 addresses. (Even though they can't learn what destinations the users
 are talking to, they still might be able to do bad things with just a
-list of users.) However, that feature won't really become useful until
-we move to a "directory guard" design as well.
+list of users.) 
 </p>
 
     <hr>
