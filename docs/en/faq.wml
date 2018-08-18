@@ -136,6 +136,7 @@ country)
     different computer than my applications.</a></li>
     <li><a href="#ServerClient">Can I install Tor on a central server, and
     have my clients connect to it?</a></li>
+    <li><a href="#IPv6">How do I use Tor from an IPv6 only host/computer?</a><li>
     </ul>
 
     <a id="relay"></a>
@@ -2099,6 +2100,14 @@ If you are interested in forcing all outgoing data through the central Tor
 client/relay, instead of the server only being an optional proxy, you may find
 the program iptables (for *nix) useful.
     </p>
+
+    <a id="IPv6"></a>
+    <h3><a class="anchor" href="#IPv6">How do I use Tor from an IPv6 only host/computer?</a></h3>
+    <p>IPv6 is supported since Tor version 0.2.8.x or newer. To activate it add the following two entries into your torrc file:
+    <pre>
+  ClientUseIPv4 0
+  ClientUseIPv6 1
+    </pre>
 
     <hr>
 
