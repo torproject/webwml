@@ -121,8 +121,7 @@ unsafe?</a></li>
     <li><a href="#DoesntWork">Tor is running, but it's not working
     correctly.</a></li>
     <li><a href="#TorCrash">My Tor keeps crashing.</a></li>
-    <li><a href="#ChooseEntryExit">Can I control which nodes (or
-country)
+    <li><a href="#ChooseEntryExit">Can I control which nodes (or country)
     are used for entry/exit?</a></li>
     <li><a href="#FirewallPorts">My firewall only allows a few outgoing
     ports.</a></li>
@@ -136,7 +135,7 @@ country)
     different computer than my applications.</a></li>
     <li><a href="#ServerClient">Can I install Tor on a central server, and
     have my clients connect to it?</a></li>
-    <li><a href="#IPv6">How do I use Tor from an IPv6 only host/computer?</a><li>
+    <li><a href="#IPv6">How do I use Tor from an IPv6 only host/computer?</a></li>
     </ul>
 
     <a id="relay"></a>
