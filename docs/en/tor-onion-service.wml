@@ -11,7 +11,8 @@
   </div>
   <div id="maincol">
     <h1>Configuring Onion Services for <a href="<page index>">Tor</a></h1>
-    <hr>
+
+    <hr />
 
     <p>Tor allows clients and relays to offer onion services. That is,
     you can offer a web server, SSH server, etc., without revealing your
@@ -32,6 +33,15 @@
     </p>
 
     <hr>
+    <ul>
+      <li><a href="#zero">Step Zero: Get Tor working</a></li>
+      <li><a href="#one">Step One: Install a web server locally</a></li>
+      <li><a href="#two">Step Two: Configure your onion service</a></li>
+      <li><a href="#three">Step Three: More advanced tips</a></li>
+      <li><a href="#four">Step Four: Set up next-gen (v3) onions</a></li>
+    </ul>
+    <hr>
+
     <a id="zero"></a>
     <h2><a class="anchor" href="#zero">Step Zero: Get Tor working</a></h2>
     <br>
