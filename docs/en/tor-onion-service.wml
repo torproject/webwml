@@ -56,9 +56,11 @@
     <br>
 
     <p>
-    First, you need to set up a web server locally. Setting up a web
-    server can be complex. We're not going to cover how to set up a web
-    server here. If you get stuck or want to do more, find a friend who
+    First, you need to set up a web server locally, for example nginx or
+    lighttpd (apache is not the best option for anomymity, see
+    <a href="#three">Step Three</a> below).
+    Setting up a web server can be complex. We're not going to cover how to set
+    up a web server here. If you get stuck or want to do more, find a friend who
     can help you. We recommend you install a new separate web server for
     your onion service, since even if you already have one installed,
     you may be using it (or want to use it later) for a normal website.
