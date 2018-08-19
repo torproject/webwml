@@ -2102,11 +2102,18 @@ the program iptables (for *nix) useful.
 
     <a id="IPv6"></a>
     <h3><a class="anchor" href="#IPv6">How do I use Tor from an IPv6 only host/computer?</a></h3>
-    <p>IPv6 is supported since Tor version 0.2.8.x or newer. To activate it add the following two entries into your torrc file:
+    <p>
+    IPv6 is supported since Tor version 0.2.8.x or newer. To activate it add
+    the following two entries into your torrc file:
+    </p>
     <pre>
   ClientUseIPv4 0
   ClientUseIPv6 1
     </pre>
+    <p>
+    Note that as of 2018 there aren't many IPv6 users, or IPv6 guards, so
+    Tor over IPv6 is less anonymous than Tor over IPv4.
+    </p>
 
     <hr>
 
