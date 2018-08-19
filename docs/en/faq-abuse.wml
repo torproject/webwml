@@ -20,17 +20,19 @@
     <li><a href="#WhatAboutSpammers">What about spammers?</a></li>
     <li><a href="#HowMuchAbuse">Does Tor get much abuse?</a></li>
     <li><a href="#TypicalAbuses">So what should I expect if I run an exit relay?</a></li>
+    <li><a href="#RespondISP">How do I respond to my ISP about my exit relay?</a></li>
     <li><a href="#IrcBans">Tor is banned from the IRC network I want to use.</a></li>
     <li><a href="#SMTPBans">Your nodes are banned from the mail server I want to use.</a></li>
     <li><a href="#Bans">I want to ban the Tor network from my service.</a></li>
     <li><a href="#TracingUsers">I have a compelling reason to trace a Tor user. Can you help?</a></li>
-    <li><a href="#RemoveContent">I want some content removed from a
-.onion address.</a></li>
-    <li><a href="#AbuseOpinion">Where does Tor Project stand on abusers
-using technology?</a></li>
+    <li><a href="#RemoveContent">I want some content removed from a .onion address.</a></li>
+    <li><a href="#AbuseOpinion">Where does Tor Project stand on abusers using technology?</a></li>
     <li><a href="#LegalQuestions">I have legal questions about Tor abuse.</a></li>
+    <li><a href="#HelpPoliceOrLawyers">I have questions about a Tor IP address for a legal case.</a></li>
     </ul>
-    <hr>
+
+    <a id="abuse"></a>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#abuse">Abuse:</a></h4>
 
     <a id="WhatAboutCriminals"></a>
     <h3><a class="anchor" href="#WhatAboutCriminals">Doesn't Tor enable criminals to do bad things?</a></h3>
@@ -61,10 +63,6 @@ using technology?</a></li>
     world will stop them from doing their bad things. At the same time, Tor
     and other privacy measures can <em>fight</em> identity theft, physical
     crimes like stalking, and so on. </p>
-
-    #<a id="Pervasive"></a>
-    #<h3><a class="anchor" href="#Pervasive">If the whole world starts using
-    #Tor, won't civilization collapse?</a></h3>
 
     <a id="DDoS"></a>
     <h3><a class="anchor" href="#DDoS">What about distributed denial of service attacks?</a></h3>
@@ -111,9 +109,7 @@ using technology?</a></li>
     <a id="ExitPolicies"></a>
     <h3><a class="anchor" href="#ExitPolicies">How do Tor exit policies work?</a></h3>
 
-    <p>
-    <a href="<page docs/faq>#ExitPolicies">See the main FAQ</a>
-    </p>
+    <p><a href="<page docs/faq>#ExitPolicies">See the main FAQ</a></p>
 
     <a id="HowMuchAbuse"></a>
     <h3><a class="anchor" href="#HowMuchAbuse">Does Tor get much abuse?</a></h3>
@@ -174,6 +170,12 @@ using technology?</a></li>
     exit policies. (If you have a spare IP not used for other activities, you
     might consider running your Tor relay on it.) In general, it's advisable
     not to use your home internet connection to provide a Tor relay.</p>
+
+    <a id="RespondISP"></a>
+    <h3><a class="anchor" href="#RespondISP">How do I respond to my ISP about my exit relay?</a></h3>
+
+    <p>A collection of templates for successfully responding to ISPs is <a
+    href="<wiki>doc/TorAbuseTemplates">collected here</a>.</p>
 
     <a id="IrcBans"></a>
     <h3><a class="anchor" href="#IrcBans">Tor is banned from the IRC network I want to use.</a></h3>
@@ -417,6 +419,26 @@ about Tor abuse.</a></h3>
     <p>Please take a look at the
     <a href="<page eff/tor-legal-faq>">Tor Legal FAQ</a>,
     and contact EFF directly if you have any further legal questions. </p>
+
+   <a id="HelpPoliceOrLawyers"></a>
+   <h3><a class="anchor" href="#HelpPoliceOrLawyers">I have questions about
+   a Tor IP address for a legal case.</a></h3>
+
+   <p>
+   Please read the <a
+   href="https://www.torproject.org/eff/tor-legal-faq">legal FAQ written
+   by EFF lawyers</a>. There's a growing <a
+   href="https://blog.torproject.org/blog/start-tor-legal-support-directory">legal
+   directory</a> of people who may be able to help you.
+   </p>
+
+   <p>
+   If you need to check if a certain IP address was acting as a Tor exit
+   node at a certain date and time, you can use the <a
+   href="https://exonerator.torproject.org/">ExoneraTor tool</a> to query the
+   historic Tor relay lists and get an answer.
+   </p>
+
   </div>
   <!-- END MAINCOL -->
   <div id = "sidecol">
