@@ -172,8 +172,6 @@ be?</a></li>
     Why did that happen?</a></li>
     <li><a href="#MyRelayRecentlyGotTheGuardFlagAndTrafficDroppedByHalf">My
     relay recently got the Guard flag and traffic dropped by half.</a></li>
-    <li><a href="#JoinTheNetwork">So I can just configure a nickname and
-    ORPort and join the network?</a></li>
     <li><a href="#RelayOrBridge">Should I be a normal relay or bridge
     relay?</a></li>
     <li><a href="#UpgradeOrMove">I want to upgrade/move my relay. How do I
