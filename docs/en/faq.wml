@@ -2111,8 +2111,11 @@ the program iptables (for *nix) useful.
   ClientUseIPv6 1
     </pre>
     <p>
-    Note that as of 2018 there aren't many IPv6 users, or IPv6 guards, so
-    Tor over IPv6 is less anonymous than Tor over IPv4.
+    Note that as of 2018 there aren't many IPv6 users, or IPv6 guards, so Tor over IPv6
+    is less anonymous than Tor over IPv4. You can review the IPv6 implemetation status at our
+    <a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Tor/IPv6Features">IPv6Features</a>
+    wiki page, known issues can be found with the
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~ipv6">ipv6 keyword</a>.
     </p>
 
     <hr>
