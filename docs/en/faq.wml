@@ -262,6 +262,8 @@ packets,
     so people can't block the exits.</a></li>
     <li><a href="#ChoosePathLength">You should let people choose their path
     length.</a></li>
+    <li><a href="#ChoosePathCountries">You should change path selection to avoid
+    entering and exiting from the same country.</a></li>
     <li><a href="#SplitEachConnection">You should split each connection over
     many paths.</a></li>
     <li><a href="#MigrateApplicationStreamsAcrossCircuits">You should migrate
@@ -4061,7 +4063,34 @@ best way to attack Tor is to attack the endpoints and ignore the middle
 
     <hr>
 
-<a id="SplitEachConnection"></a>
+    <a id="ChoosePathCountries"></a>
+    <h3><a class="anchor" href="#ChoosePathCountries">You should change path
+    selection to avoid entering and exiting from the same country.</a></h3>
+
+    <p>
+    It is better to not manually change the path. This could have unforeseen
+    consquences and you'll probably screw it up, we don't understand it very
+    well either.
+    </p>
+
+    <p>
+    There are many attacks and adversaries that Tor is trying to defend against
+    at once, and constraining paths has surprising trickle-down effects on the
+    other attacks (e.g. if I see where you exit then I know where you *didn't*
+    enter, thus reducing your entropy, sometimes by a surprising amount
+    depending on what path constraints are choosen).
+    </p>
+
+    <p>
+    In general, changing Tor's path selection makes your client look different
+    from other clients. Picking your entry and exit in different countries is
+    not a good defence, because it only defends against adversaries that are
+    unable to rent servers in other countries.
+    </p>
+
+    <hr>
+
+    <a id="SplitEachConnection"></a>
     <h3><a class="anchor" href="#SplitEachConnection">You should split
     each connection over many paths.</a></h3>
 
