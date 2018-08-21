@@ -4112,13 +4112,8 @@ receive a fixed number of cells. This approach is more well-understood in
 the context of high-latency systems. See e.g.
 <a href="http://freehaven.net/anonbib/#pet05-serjantov">
 Message Splitting Against the Partial Adversary by Andrei Serjantov and
-Steven J. Murdoch</a>.
-    </p>
-    <p>
-But since we don't currently understand what network and padding
-parameters, if any, could provide increased end-to-end security, our
-current strategy is to minimize the number of places that the adversary
-could possibly see.
+Steven J. Murdoch</a>. Also see our <a href="SendPadding">update on netflow
+    padding below</a>.
     </p>
 
     <hr>
@@ -4279,6 +4274,26 @@ only solution is to have no opinion.
     use for padding, and it would definitely be a serious usability problem.
     We hope that one day somebody will prove us wrong, but we are not
     optimistic.
+    </p>
+
+    <p>
+    We did however since
+    <a href="https://gitweb.torproject.org/torspec.git/tree/proposals/251-netflow-padding.txt">
+    implement netflow padding</a> to collapse netflow records for improved
+    security. Now padding is sent between a client's Tor connection and its guard
+    bidirectionally at a random interval that we control from the consensus,
+    with a default of 4 to 14 seconds if the connection is idle. This has the
+    goal of stymying some of the potential traffic analysis attacks out there --
+    website fingerprinting, end-to-end correlation, and the things in between.
+    </p>
+
+    <p>For details see the
+    <a href="https://blog.torproject.org/blog/network-team-hackfest-wilmington-watch">
+    blog post</a> by the Tor network team, the
+    <a href="https://lists.torproject.org/pipermail/tor-dev/2015-August/009326.html">
+    announcement</a> on the tor-dev mailinglist or read further
+    <a href="https://www.freehaven.net/anonbib/bibtex.html">publications</a> on
+    padding.
     </p>
 
     <hr>
