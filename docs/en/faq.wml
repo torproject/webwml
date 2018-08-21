@@ -119,6 +119,7 @@
     <ul>
     <li><a href="#torrc">I'm supposed to "edit my torrc". What does
     that mean?</a></li>
+    <li><a href="#datadir">Where's tor's data directory?</a></li>
     <li><a href="#Logs">How do I set up logging, or see Tor's
     logs?</a></li>
     <li><a href="#LogLevel">What log level should I use?</a></li>
@@ -1067,7 +1068,7 @@
     idea. Tor Browser aims to provide sufficient privacy that additional add-ons
     to stop ads and trackers are not necessary. Using add-ons like these may
     cause some sites to break, which
-    <a href="https://www.torproject.org/projects/torbrowser/design/#philosophy">
+    <a href="/projects/torbrowser/design/#philosophy">
     we don't want to do</a>. Additionally, maintaining a list of "bad" sites
     that should be black-listed provides another opportunity to uniquely
     fingerprint users.
@@ -1417,15 +1418,15 @@
     </p>
 
     <p>
-    First (best option), if you're on Linux, you can install the system
-    Tor package (e.g. apt-get install tor) and then set it up to be a relay
-    (<a href="https://www.torproject.org/docs/tor-relay-debian">
-    instructions</a>). You can then use TBB independent of that.
+    First (best option), if you're on Linux, you can install the
+    <a href="<page download/download-unix>">system Tor package</a>
+    (e.g. apt-get install tor) and then set it up to be a relay
+    (<a href="https://www.torproject.org/docs/tor-relay-debian">instructions</a>).
+    You can then use TBB independent of that.
     </p>
 
-
     <p>
-    Second (complex option), you can edit your torrc file (in Data/Tor/torrc)
+    Second (complex option), you can edit your <a href="#torrc">torrc file</a>
     directly to add the following lines:
     </p>
 
@@ -1468,7 +1469,8 @@
     README file</a> for the build instructions.
     There is also some informations in the
     <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking">
-    Tor Browser Hacking Guide</a>.
+    Tor Browser Hacking Guide</a>. Also see our
+    <a href="<page docs/verifying-signatures>">fingerprint verification guide</a>.
     </p>
 
     <hr>
@@ -1476,9 +1478,9 @@
     <a id="AdvancedTorUsage"></a>
     <h2><a class="anchor" href="#AdvancedTorUsage">Advanced Tor usage:</a></h2>
 
-    <a id="torrc"></a>
+    <a id="torrc"></a><a id="datadir"></a>
     <h3><a class="anchor" href="#torrc">I'm supposed to "edit my torrc".
-    What does that mean?</a></h3>
+    What does that mean? Where's tor's data directory?</a></h3>
 
     <p>
     Tor uses a text file called torrc that contains configuration
@@ -1487,26 +1489,47 @@
     </p>
 
     <p>
-    If you installed Tor Browser on Windows or Linux, look for
-    <code>Browser/TorBrowser/Data/Tor/torrc</code> inside your Tor Browser
-    directory.
-    If you're on macOS, the torrc is in
+    If you installed Tor Browser on Windows or Linux, torrc is in the data
+    directory, which is <code>Browser/TorBrowser/Data/Tor</code> inside your
+    Tor Browser directory. For the tor service on Windows see
+    <a href="#NTService">Windows NT</a>.
+    </p>
+
+    <p>
+    If you're on macOS, the torrc is in the data directory at
     <code>~/Library/Application Support/TorBrowser-Data/Tor</code>.
     To get to it, press cmd-shift-g while in Finder and copy/paste that
     directory into the box that appears.
     </p>
 
     <p>
-    Otherwise, if you are using Tor without Tor Browser, it looks for the
-    torrc file in <code>/usr/local/etc/tor/torrc</code> if you compiled tor
-    from source, and <code>/etc/tor/torrc</code> or <code>/etc/torrc</code>
-    if you installed a pre-built package.
+    Otherwise, if you are using Tor without Tor Browser, it looks for torrc at
+    differentt possible locations:
     </p>
+    <ul>
+    <li>
+    <code>/usr/local/etc/tor/torrc</code> if you compiled tor from source
+    </li>
+    <li>
+    <code>/etc/tor/torrc</code> or <code>/etc/torrc</code> if you installed a
+    pre-built package. The data directory usually is
+    <code>/var/lib/tor/</code>, if not defined otherwise with
+    <code>DataDirectory</code> in torrc.
+    </li>
+    <li><code>$HOME/.torrc</code>: fallback location if above file is not found.
+    </li>
+    <li>
+    You can define a different location for torrc with <code>-f FILE</code> and
+    set another data directory with <code>--DataDirectory DIR</code> as options
+    to tor.
+    </li>
+    </ul>
 
     <p>
-    Once you've created or changed your torrc file, you will need to restart
-    tor for the changes to take effect. (For advanced users, note that
-    you actually only need to send Tor a HUP signal, not actually restart it.)
+    Once you've created or changed your torrc file, you will need to restart or
+    reload tor for the changes to take effect. On Debian use
+    <code>system tor reload</code>. (For advanced users, note that you
+    actually only need to send Tor a HUP signal, not actually restart it.)
     </p>
 
     <p>
@@ -1533,7 +1556,7 @@
       <li>On OS X, Debian, Red Hat, etc, the logs are in /var/log/tor/
       </li>
       <li>On Windows, there are no default log files currently. If you enable
-      logs in your torrc file, they default to <code>\username\Application
+      logs in your <a href="#torrc">torrc</a> file, they default to <code>\username\Application
       Data\tor\log\</code> or <code>\Application Data\tor\log\</code>
       </li>
       <li>If you compiled Tor from source, by default your Tor logs to
@@ -1718,7 +1741,7 @@
     If you don't find any good hints, you should consider running Tor in the
     foreground (from a shell) so you can see how it dies. Warning: if you
     switch to running Tor in the foreground, you might start using a different
-    torrc file, with a different default Data Directory; see the
+    <a href="#torrc">torrc</a> file, with a different default Data Directory; see the
     <a href="#UpgradeOrMove">relay-upgrade FAQ entry</a>
     for details.
     </li>
@@ -1755,8 +1778,8 @@
     <p>
     Yes. You can set preferred entry and exit nodes as well as
     inform Tor which nodes you do not want to use.
-    The following options can be added to your config file <a
-    href="#torrc">"torrc"</a> or specified on the command line:
+    The following options can be added to your config file
+    <a href="#torrc">torrc</a> or specified on the command line:
     </p>
     <dl>
       <dt><tt>EntryNodes $fingerprint,$fingerprint,...</tt></dt>
@@ -1818,7 +1841,7 @@ versions.
     If your firewall works by blocking ports, then you can tell Tor to only
     use the ports when you start your Tor Browser. Or you can add the ports
     that your firewall permits by adding "FascistFirewall 1" to your
-    <a href="<page docs/faq>#torrc">torrc configuration file</a>.
+    <a href="#torrc">torrc configuration file</a>.
     By default, when you set this Tor assumes that your firewall allows only
     port 80 and port 443 (HTTP and HTTPS respectively). You can select a
     different set of ports with the FirewallPorts torrc option.
@@ -1841,9 +1864,11 @@ versions.
     ports?</a></h3>
     <p>
     The default open ports are listed below but keep in mind that, any port or
-    ports can be opened by the relay operator by configuring it in torrc or
-    modifying the source code. But the default according to src/or/policies.c
-    from the source code release tor-0.2.4.16-rc is:
+    ports can be opened by the relay operator by configuring it in
+    <a href="#torrc">torrc</a> or modifying the source code.
+    <!-- TODO should we update this? -->
+    The default according to src/or/policies.c from the source code release
+    tor-0.2.4.16-rc:
     </p>
     <pre>
   reject 0.0.0.0/8
@@ -1934,7 +1959,7 @@ versions.
     with tor-resolve, then pass the IPs to your applications, you'll be fine.
     (Tor will still give the warning, but now you know what it means.) </li>
 
-    <!-- I'm not sure if this project is still maintained or not
+    <!-- TODO I'm not sure if this project is still maintained or not
     <li>You can use TorDNS as a local DNS server to rectify the DNS leakage.
     See the Torify HOWTO for info on how to run particular applications
     anonymously.</li>
@@ -1993,7 +2018,7 @@ versions.
     By default, your Tor client only listens for applications that
     connect from localhost. Connections from other computers are
     refused. If you want to torify applications on different computers
-    than the Tor client, you should edit your torrc to define
+    than the Tor client, you should edit your <a href="#torrc">torrc</a> to define
     SocksListenAddress 0.0.0.0 and then restart (or hup) Tor. If you
     want to get more advanced, you can configure your Tor client on a
     firewall to bind to your internal IP but not your external IP.
@@ -2019,7 +2044,7 @@ versions.
      key all around.
     </p>
     <p>
-    Configuration is simple, editing your torrc file's SocksListenAddress
+    Configuration is simple, editing your <a href="#torrc">torrc</a> file's SocksListenAddress
     according to the following examples:
     </p>
 
@@ -2130,8 +2155,8 @@ versions.
     using a dynamic IP address?</a></h3>
 
     <p>
-    Tor can handle relays with dynamic IP addresses just fine. Just leave
-    the "Address" line in your torrc blank, and Tor will guess.
+    Tor can handle relays with dynamic IP addresses just fine. Just leave the
+    "Address" line in your <a href="#torrc">torrc</a> blank, and Tor will guess.
     </p>
 
     <hr>
@@ -2143,9 +2168,9 @@ versions.
     Tor has <a href="<wiki>org/roadmaps/Tor/IPv6Features">partial</a> support
     for IPv6 and we encourage every relay operator to
     <a href="<wiki>TorRelayGuide#IPv6">enable IPv6 functionality</a> in their
-    torrc configuration files when IPv6 connectivity is available.
-    For the time being Tor will require IPv4 addresses on relays, you can not
-    run a Tor relay on a host with IPv6 addresses only.
+    <a href="#torrc">torrc</a> configuration files when IPv6 connectivity is
+    available. For the time being Tor will require IPv4 addresses on relays,
+    you can not run a Tor relay on a host with IPv6 addresses only.
     </p>
 
     <hr>
@@ -2244,7 +2269,7 @@ versions.
     options are available to Tor relays?</a></h3>
 
     <p>
-    There are two options you can add to your torrc file:
+    There are two options you can add to your <a href="#torrc">torrc</a> file:
     </p>
     <ul>
     <li>
@@ -2298,7 +2323,7 @@ versions.
     <h3><a class="anchor" href="#LimitTotalBandwidth">How can I limit the
     total amount of bandwidth used by my Tor relay?</a></h3>
     <p>
-    The accounting options in the torrc file allow you to specify the maximum
+    The accounting options in the <a href="#torrc">torrc</a> file allow you to specify the maximum
     amount of bytes your relay uses for a time period.
     </p>
     <pre>
@@ -2394,7 +2419,7 @@ versions.
     working relay setup) is as follows:</p>
 
     <ul>
-        <li>In the relay Tor torrc file, simply set the SocksPort to 0.</li>
+        <li>In the relay Tor <a href="#torrc">torrc</a> file, simply set the SocksPort to 0.</li>
         <li>Create a new client torrc file from the torrc.sample and ensure
         it uses a different log file from the relay. One naming convention
         may be torrc.client and torrc.relay.</li>
@@ -2574,7 +2599,7 @@ don't want to deal with abuse issues.</a></h3>
 
     <p>
     This means that if you're upgrading your Tor relay and you keep the same
-    torrc and the same DataDirectory, then the upgrade should just work and
+    <a href="#torrc">torrc and the same DataDirectory</a>, then the upgrade should just work and
     your relay will keep using the same key. If you need to pick a new
     DataDirectory, be sure to copy your old
     keys/ed25519_master_id_secret_key and keys/secret_id_key over.
@@ -2615,7 +2640,7 @@ don't want to deal with abuse issues.</a></h3>
     and confirms that the medium term signing key is valid for a certain
     period of time. The default validity is 30 days, but this can be
     customized by setting "SigningKeyLifetime N days|weeks|months" in
-    torrc.</li>
+    <a href="#torrc">torrc</a>.</li>
     <li>there is also a master public key named
     "ed25519_master_id_public_key, which is the actual identity of the relay
     advertised in the network. This one is not sensitive and can be easily
@@ -2681,7 +2706,7 @@ don't want to deal with abuse issues.</a></h3>
     <p>
     Optionally, you can specify additional options for the Tor service using
     the -options argument. For example, if you want Tor to use C:\tor\torrc,
-    instead of the default torrc, and open a control port on port 9151, you
+    instead of the default <a href="#torrc">torrc</a>, and open a control port on port 9151, you
     would run:
     </p>
 
@@ -3119,9 +3144,10 @@ href="https://www.noisebridge.net/wiki/Noisebridge_Tor">Noisebridge</a>
     tool for configuring, controlling and running tests on a
     testing Tor network. It requires that you have Tor and Python (2.5 or
     later) installed on your system. You can use Chutney to create a testing
-    network by generating Tor configuration files (torrc) and necssary keys
-    (for the directory authorities). Then you can let Chutney start your Tor
-    authorities, relays and clients and wait for the network to bootstrap.
+    network by generating Tor configuration files (<a href="#torrc">torrc</a>)
+    and necessary keys (for the directory authorities). Then you can let
+    Chutney start your Tor authorities, relays and clients and wait for the
+    network to bootstrap.
     Finally, you can have Chutney run tests on your network to see which
     things work and which do not. Chutney is typically used for running a
     testing network with about 10 instances of Tor. Every instance of Tor
@@ -3265,7 +3291,7 @@ href="https://www.noisebridge.net/wiki/Noisebridge_Tor">Noisebridge</a>
     a series of proxies. Your communication is encrypted in multiple layers
     and routed via multiple hops through the Tor network to the final
     receiver. More details on this process can be found in the <a
-    href="https://www.torproject.org/about/overview">Tor overview</a>.
+    href="<page about/overview>">Tor overview</a>.
     Note that all your local ISP can observe now is that you are
     communicating with Tor nodes. Similarly, servers in the Internet just
     see that they are being contacted by Tor nodes.
@@ -3371,7 +3397,7 @@ href="https://www.noisebridge.net/wiki/Noisebridge_Tor">Noisebridge</a>
     identity leaks, Tor Browser also includes browser extensions like
     NoScript and Torbutton, as well as patches to the Firefox source
     code. The full design of Tor Browser can be read <a
-    href="https://www.torproject.org/projects/torbrowser/design/">here</a>.
+    href="/projects/torbrowser/design/index.html.en">here</a>.
     In designing a safe, secure solution for browsing the web with Tor,
     we've discovered that configuring <a href="#TBBOtherBrowser">other
     browsers</a> to use Tor is unsafe.
@@ -3386,7 +3412,7 @@ href="https://www.noisebridge.net/wiki/Noisebridge_Tor">Noisebridge</a>
 
     <p>
     Tor is a work in progress. There is still <a
-    href="https://www.torproject.org/getinvolved/volunteer">plenty of work
+    href="<page getinvolved/volunteer>">plenty of work
     left to do</a> for a strong, secure, and complete solution.
     </p>
 
@@ -3649,7 +3675,7 @@ href="https://www.noisebridge.net/wiki/Noisebridge_Tor">Noisebridge</a>
     anonymity solution</a>.</b>
     If you're looking for a trusted entry into the Tor network, or if you want
     to obscure the fact that you're using Tor,
-    <a href="https://www.torproject.org/docs/bridges#RunningABridge">setting up
+    <a href="<page docs/bridges>#RunningABridge">setting up
     a private server as a bridge</a> works quite well.
     </p>
 
@@ -3796,7 +3822,7 @@ Perhaps even run separate Tor clients for these applications.
     First, we need to make Tor stable as a relay on all common operating
     systems. The main remaining platform is Windows, and we're mostly there.
     See Section 4.1 of
-    <a href="https://www.torproject.org/press/2008-12-19-roadmap-press-release">
+    <a href="<page press/2008-12-19-roadmap-press-release>">
     our development roadmap</a>.
     </p>
 
@@ -4248,7 +4274,7 @@ Perhaps even run separate Tor clients for these applications.
 
    <p>
    Please read the
-   <a href="https://www.torproject.org/eff/tor-legal-faq">legal FAQ written
+   <a href="<page eff/tor-legal-faq>">legal FAQ written
    by EFF lawyers</a>. There's a growing
    <a href="https://blog.torproject.org/blog/start-tor-legal-support-directory">
    legal directory</a> of people who may be able to help you.
