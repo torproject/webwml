@@ -1557,6 +1557,12 @@ it.)
 </p>
 
 <p>
+If you are looking for Tor's data directory: for TBB it's <var>Data/Tor/</var>,
+and for most system packages it's <var>/var/lib/tor/</var>. Run as user tor
+stores things in <var>$HOME/.tor</var> on Unix.
+</p>
+
+<p>
 For other configuration options you can use, see the <a href="<page
 docs/tor-manual>">Tor manual page</a>. Have a look at <a
 href="https://gitweb.torproject.org/tor.git/tree/src/config/torrc.sample.in">
