@@ -48,12 +48,15 @@
     <a id="Advocacy"></a>
     <h2><a class="anchor" href="#Advocacy">Advocacy</a></h2>
     <ol>
-    <li>Monitor some of our <a
+    <li>The tor community uses <a
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo">public mailing
-    lists</a>, like <a
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk">tor-talk</a>, <a
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays">tor-relays</a>, <a
-    href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev">tor-dev</a>, or <a
+    lists</a> and IRC channels (<a href="https://www.oftc.net/Tor/">join via Tor</a>), like
+    <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk">tor-talk</a>
+    (<a href="irc://irc.oftc.net/tor">#tor on irc.oftc.net</a>),
+    <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays">tor-relays</a>
+    (<a href="irc://irc.oftc.net/tor-relays">#tor-relays</a>),
+    <a href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev">tor-dev</a>
+    (<a href="irc://irc.oftc.net/tor-dev">#tor-dev</a>), or <a
     href="https://lists.torproject.org/cgi-bin/mailman/listinfo/tbb-dev">tbb-dev</a>,
     and summarize noteworthy changes into articles for our blog and <a
     href="https://newsletter.torproject.org/">newsletter</a>.</li>

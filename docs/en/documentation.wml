@@ -53,13 +53,16 @@
     file</a>. We also provide a <a href="<page docs/tor-manual-dev>">manual for
     the development version of Tor</a>.</li>
 
-    <li>If you have questions, we have an IRC channel (for users, relay
-    operators, and developers)
-    at <a href="irc://irc.oftc.net/tor">#tor on irc.oftc.net</a>. If
-    you have a bug, especially a crash bug, read <a
-    href="<wikifaq>#MyTorkeepscrashing.">how
-    to report a Tor bug</a> first and then tell us as much information
-    about it as you can in
+    <li>If you have questions, we have an IRC channel at
+    <a href="irc://irc.oftc.net/tor">#tor on irc.oftc.net</a> (you can
+    <a href="https://www.oftc.net/Tor/">join via Tor</a> as well). Developers work
+    in <a href="irc://irc.oftc.net/tor-dev">#tor-dev</a> and relay operators
+    help each other in <a href="irc://irc.oftc.net/tor-relays">#tor-relays</a>,
+    read this fine article by
+    <a href="https://blog.torproject.org/get-help-running-your-relay-our-new-advocate">
+    Tor's Relay Advocate</a>. If you have a bug, especially a crash bug, read
+    <a href="<wikifaq>#MyTorkeepscrashing.">how to report a Tor bug</a>
+    first and then tell us as much information about it as you can in
     <a href="https://bugs.torproject.org/tor">our bugtracker</a>.
     (If your bug is
     with your browser or some other application, please don't put

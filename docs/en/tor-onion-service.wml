@@ -11,7 +11,8 @@
   </div>
   <div id="maincol">
     <h1>Configuring Onion Services for <a href="<page index>">Tor</a></h1>
-    <hr>
+
+    <hr />
 
     <p>Tor allows clients and relays to offer onion services. That is,
     you can offer a web server, SSH server, etc., without revealing your
@@ -32,6 +33,15 @@
     </p>
 
     <hr>
+    <ul>
+      <li><a href="#zero">Step Zero: Get Tor working</a></li>
+      <li><a href="#one">Step One: Install a web server locally</a></li>
+      <li><a href="#two">Step Two: Configure your onion service</a></li>
+      <li><a href="#three">Step Three: More advanced tips</a></li>
+      <li><a href="#four">Step Four: Set up next-gen (v3) onions</a></li>
+    </ul>
+    <hr>
+
     <a id="zero"></a>
     <h2><a class="anchor" href="#zero">Step Zero: Get Tor working</a></h2>
     <br>
@@ -56,9 +66,11 @@
     <br>
 
     <p>
-    First, you need to set up a web server locally. Setting up a web
-    server can be complex. We're not going to cover how to set up a web
-    server here. If you get stuck or want to do more, find a friend who
+    First, you need to set up a web server locally, for example nginx or
+    lighttpd (apache is not the best option for anomymity, see
+    <a href="#three">Step Three</a> below).
+    Setting up a web server can be complex. We're not going to cover how to set
+    up a web server here. If you get stuck or want to do more, find a friend who
     can help you. We recommend you install a new separate web server for
     your onion service, since even if you already have one installed,
     you may be using it (or want to use it later) for a normal website.
@@ -134,8 +146,9 @@
 	<pre> HiddenServiceDir C:\Users\username\Documents\tor\hidden_service
 	HiddenServicePort 80 127.0.0.1:8080 </pre>
 
-    <p>Note that since 0.2.6, both <var>SocksPort</var> and <var>HiddenServicePort</var> support Unix sockets. 
-    This means that you can point the <var>HiddenServicePort</var> to a Unix socket:</p>
+    <p>Note that since 0.2.6, both <var>SocksPort</var> and <var>HiddenServicePort</var>
+    support Unix sockets. This means that you can point the <var>HiddenServicePort</var>
+    to a Unix socket:</p>
     <pre>
     HiddenServiceDir /Library/Tor/var/lib/tor/hidden_service/
     HiddenServicePort 80 unix:/path/to/socket
@@ -199,8 +212,8 @@
     service, just add more <var>HiddenServicePort</var> lines.
     If you want to run multiple onion services from the same Tor
     client, just add another <var>HiddenServiceDir</var> line. All the following
-    <var>HiddenServicePort</var> lines refer to this <var>HiddenServiceDir</var> line, until
-    you add another <var>HiddenServiceDir</var> line:
+    <var>HiddenServicePort</var> lines refer to this <var>HiddenServiceDir</var>
+    line, until you add another <var>HiddenServiceDir</var> line:
     </p>
 
     <pre>
@@ -212,13 +225,16 @@
     HiddenServicePort 22 127.0.0.1:22
     </pre>
 
-    <p>Onion services operators need to practice proper operational security
-    and system administration to maintain security. For some security
-    suggestions please make sure you read over Riseup's <a
-	href="https://help.riseup.net/en/security/network-security/tor/onionservices-best-practices">"Tor
-	Hidden (Onion) Services Best Practices" document</a>. Also, here are some
-	more anonymity issues you should keep in mind:
+    To set up an onion service on Raspbian have a look at Alec Muffett's
+    <a href="https://github.com/alecmuffett/eotk">Enterprise Onion Toolkit</a>.
 
+    <p>Onion services operators need to practice proper
+    <a href="https://trac.torproject.org/projects/tor/wiki/doc/OperationalSecurity">
+    operational security</a> and system administration to maintain security.
+    For some security suggestions please make sure you read over Riseup's
+    <a href="https://help.riseup.net/en/security/network-security/tor/onionservices-best-practices">
+    "Tor Hidden (Onion) Services Best Practices" document</a>.
+    Also, here are some more anonymity issues you should keep in mind:
     </p>
     <ul>
     <li>As mentioned above, be careful of letting your web server reveal
@@ -238,13 +254,112 @@
 
     <p>Another common issue is whether to use HTTPS on your relay or
     not. Have a look at this <a
-    href="https://blog.torproject.org/blog/facebook-hidden-services-and-https-certs">post</a> on the Tor Blog to learn more about these issues.
+    href="https://blog.torproject.org/blog/facebook-hidden-services-and-https-certs">post</a>
+    on the Tor Blog to learn more about these issues.
+    </p>
+
+    <p>You can use <a href="https://stem.torproject.org">stem</a> to
+    <a href="https://stem.torproject.org/tutorials/over_the_river.html">
+    automate the management of your onion services</a>.
     </p>
 
     <p>Finally, feel free to use the <a
     href="https://lists.torproject.org/pipermail/tor-onions/">[tor-onions]
     mailing list</a> to discuss the secure administration and operation of
     Tor onion services.</p>
+
+    <hr>
+    <a id="four"></a>
+    <h2><a class="anchor" href="#four">Step Four: Set up next-gen (v3) onions</a></h2>
+    <br>
+
+    <p>Since Tor 0.3.2 and
+    <a href="https://blog.torproject.org/tor-browser-75a5-released">Tor Browser
+    7.5.a5</a> 56 bit long v3 onion addresses are supported and should be used
+    instead. This newer version of onion services ("v3") features many
+    improvements over the legacy system:
+    </p>
+    <ul>
+      <li>Better crypto (replaced SHA1/DH/RSA1024 with SHA3/ed25519/curve25519)</li>
+      <li>Improved directory protocol, leaking much less information to directory servers.</li>
+      <li>Improved directory protocol, with smaller surface for targeted attacks.</li>
+      <li>Better onion address security against impersonation.</li>
+      <li>More extensible introduction/rendezvous protocol.</li>
+      <li>A cleaner and more modular codebase.</li>
+    </ul>
+    <p>For details see
+    <a href="https://trac.torproject.org/projects/tor/wiki/doc/HiddenServiceNames">
+    Why are v3 onions better?</a>. You can identify a next-generation onion
+    address by its length: they are 56 characters long, as in
+    <var>4acth47i6kxnvkewtm6q7ib2s3ufpo5sqbsnzjpbi7utijcltosqemad.onion</a>.
+
+    The specification for next gen onion services can be found
+    <a href="https://gitweb.torproject.org/torspec.git/tree/rend-spec-v3.txt">
+    here</a>.
+    </p>
+
+    <h3>How to setup your own prop224 service</h3>
+
+    <p>It's easy! Just use your <a href"#two">regular onion service</a> torrc
+    and add <var>HiddenServiceVersion 3</var> in your onion service torrc block.
+    Here is an example torrc designed for testing:
+    </p>
+    <pre>
+SocksPort auto
+
+HiddenServiceDir /home/user/tmp/hsv3
+HiddenServiceVersion 3
+HiddenServicePort 6667 127.0.0.1:6667
+    </pre>
+    <p>Then your onion address is in <var>/home/user/tmp/hsv3/hostname</var>.
+    To host both a v2 and a v3 service using two onion service torrc blocks:
+    </p>
+    <pre>
+HiddenServiceDir /home/user/tmp/hsv2
+HiddenServicePort 6667 127.0.0.1:6667
+
+HiddenServiceDir /home/user/tmp/hsv3
+HiddenServiceVersion 3
+HiddenServicePort 6668 127.0.0.1:6667
+    </pre>
+
+    <p>Please note that tor is strict about directory permissions and does not
+    like to share its files. Make sure to restrict read and write access to the
+    onion services directory before restarting tor. For most linux based systems you can use:
+    </p>
+    <pre>chmod 700 -R /var/lib/tor</pre>
+
+    <p>To restart tor it's safer to not use SIGHUP directly (see bug
+    <a href="https://trac.torproject.org/projects/tor/ticket/21818">#21818</a>),
+    but to check the validity of the config first. On Debian based systems the
+    services management tool does this for you:</p>
+    <pre>
+    service tor restart
+    </pre>
+
+    <h3>How to help the next-gen onion development</h3>
+
+    <p>Please let us know if you find any bugs!
+    We are still in testing & development stage so things are very liquid and
+    in active development. If you want to help with development, check out the list of
+    <a href="https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~prop224&order=priority">
+    open prop224 bugs</a>.
+    </p>
+
+    <p>For researchers our wiki page
+    <a href="https://trac.torproject.org/projects/tor/wiki/doc/OnionServiceNamingSystems">
+    Onion Service Naming Systems</a> could be of value. If you are more of the bug
+    hunting type, please check our code and spec for errors and inaccuracies.
+    We would be thrilled to know about them!
+    </p>
+
+    <p>For debugging and to send us more helpful log files, turn on info logging:
+    </p>
+    <pre>
+SafeLogging 0
+Log notice file /home/user/tmp/hs/hs.log
+Log info file /home/user/tmp/hs/hsinfo.log
+    </pre>
 
   </div>
   <!-- END MAINCOL -->

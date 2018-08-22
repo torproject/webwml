@@ -62,7 +62,7 @@
 <tr>
 <td align="center"><img src="$(IMGROOT)/distros/openbsd.png" alt="OpenBSD"></td>
 <td>OpenBSD</td>
-<td colspan="2"><kbd>cd /usr/ports/net/tor &amp;&amp; make &amp;&amp; make install</kbd></td>
+<td colspan="2"><kbd>pkg_add tor</kbd></td>
 <td>
 <a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a><br>
 <a href="<wiki>doc/OpenbsdChrootedTor">Guide to chrooting Tor in OpenBSD</a>

@@ -1,0 +1,12 @@
+# https://www.torproject.org/about/contact#security
+Contact: tor-security@lists.torproject.org
+Encryption: openpgp4fpr:8B904624C5A28654E4539BC2E135A8B41A7BF184
+Acknowledgments: https://trac.torproject.org/projects/tor/wiki/org/teams/NetworkTeam/SecurityPolicy
+
+Policy: https://trac.torproject.org/projects/tor/wiki/org/teams/NetworkTeam/SecurityPolicy
+Hiring: https://www.torproject.org/about/jobs
+
+Permission: None
+
+# RFC-URL: https://tools.ietf.org/html/draft-foudil-securitytxt-04
+Signature: https://torproject.org/.well-known/security.txt.sig

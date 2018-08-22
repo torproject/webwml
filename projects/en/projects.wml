@@ -14,6 +14,16 @@
 experience safer and better.</p>
 
 <div class="projectbox">
+<a href="<page docs/documentation>"><img class="icon" src="$(IMGROOT)/icon-Tor.jpg"
+alt="Tor Icon" width="75" height="75"></a>
+<div class="projectdesc"><div class="name"><a href="<page
+docs/documentation>">Tor</a></div> <p>Tor is free software and an open network
+that helps you defend against traffic analysis, a form of network
+surveillance that threatens personal freedom and privacy, confidential
+business activities and relationships, and state security.</p>
+</div></div>
+
+<div class="projectbox">
 <a href="<page projects/torbrowser>"><img class="icon"
 src="$(IMGROOT)/icon-TorBrowser.jpg" alt="TorBrowser Icon" width="75"
 height="75"></a>
