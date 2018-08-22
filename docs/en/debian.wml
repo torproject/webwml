@@ -155,9 +155,7 @@ in place of &lt;DISTRIBUTION&gt;.
 </p>
 
 <p>
-If you want to use the <a href="<page download/download-unix>#packagediff">development branch</a> of Tor 
-instead (more features and more bugs), you need add a different set of lines to your 
-<i>/etc/apt/sources.list</i> file:<br />
+If you want to use the <a href="<page download/download-unix>#packagediff">development branch</a> of Tor instead (more features and more bugs), you need add a different set of lines to your <i>/etc/apt/sources.list</i> file:<br />
 <pre style="margin: 1.5em 0 1.5em 2em">
 deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;DISTRIBUTION&gt; main
@@ -172,8 +170,7 @@ apt install apt-transport-https
 </pre></blockquote>
 to enable the usage of 'deb https://foo distro main' lines in the /etc/apt/sources.list so that all package managers using the libapt-pkg library can access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure).</p>
 
-<p>To use Apt with Tor later replace <tt>https://</tt> with <tt>tor://</tt> and run 
-<blockquote><pre>
+<p>To use Apt with Tor later replace <tt>https://</tt> with <tt>tor://</tt> and run <blockquote><pre>
 apt install apt-transport-tor
 </pre></blockquote>
 </p>
@@ -219,8 +216,7 @@ access it you might try to use the name of one of its part instead.  Try
 </p>
 
 <p><code>deb.torproject.org</code> is also served through now also served via onion service:
-<a href="http://sdscoq7snqtznauu.onion">http://sdscoq7snqtznauu.onion/</a> To use the onion service with 
-apt, replace the address in the previously added lines:
+<a href="http://sdscoq7snqtznauu.onion">http://sdscoq7snqtznauu.onion/</a> To use the onion service with apt, replace the address in the previously added lines:
 <pre style="margin: 1.5em 0 1.5em 2em">.
 # For the stable version.
 deb tor://sdscoq7snqtznauu.onion/torproject.org buster main
