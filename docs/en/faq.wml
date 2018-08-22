@@ -3539,7 +3539,7 @@ href="https://www.noisebridge.net/wiki/Noisebridge_Tor">Noisebridge</a>
     <p>
     You can read more at <a href="http://freehaven.net/anonbib/#wright02">
     An Analysis of the Degradation of Anonymous Protocols</a>,
-    <a href="http://freehaven.net/anonbib/#wright03">Defending Anonymous 
+    <a href="http://freehaven.net/anonbib/#wright03">Defending Anonymous
     Communication Against Passive Logging Attacks</a>, and especially
     <a href="http://freehaven.net/anonbib/#hs-attack06">
     Locating Hidden Servers</a>.
@@ -3980,7 +3980,6 @@ Perhaps even run separate Tor clients for these applications.
     spend rethinking their overall approach to privacy and anonymity.
     </li>
     </ol>
->>>>>>> faq-datadir
 
     <hr>
 
