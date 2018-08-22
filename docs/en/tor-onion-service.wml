@@ -273,7 +273,7 @@
     <h2><a class="anchor" href="#four">Step Four: Set up next-gen (v3) onions</a></h2>
     <br>
 
-​    <p>Since Tor 0.3.2 and
+    <p>Since Tor 0.3.2 and
     <a href="https://blog.torproject.org/tor-browser-75a5-released">Tor Browser
     7.5.a5</a> 56 bit long v3 onion addresses are supported and should be used
     instead. This newer version of onion services ("v3") features many
@@ -292,7 +292,7 @@
     Why are v3 onions better?</a>. You can identify a next-generation onion
     address by its length: they are 56 characters long, as in
     <var>4acth47i6kxnvkewtm6q7ib2s3ufpo5sqbsnzjpbi7utijcltosqemad.onion</a>.
-    
+
     The specification for next gen onion services can be found
     <a href="https://gitweb.torproject.org/torspec.git/tree/rend-spec-v3.txt">
     here</a>.
@@ -300,7 +300,7 @@
 
     <h3>How to setup your own prop224 service</h3>
 
-    <p>It's easy! Just use your ​<a href"#two">regular onion service</a> torrc
+    <p>It's easy! Just use your <a href"#two">regular onion service</a> torrc
     and add <var>HiddenServiceVersion 3</var> in your onion service torrc block.
     Here is an example torrc designed for testing:
     </p>
