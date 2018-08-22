@@ -210,6 +210,7 @@
     <td>
       <a id="emmapeel"></a>
       <div class="photo"><img src="$(IMGROOT)/people/emmapeel.png" alt="emmapeel" /></div>
+      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=B885D8DCE0173B42A402021F364E1DEA2C4F8835"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#emmapeel">emmapeel</a></div>
       <div class="field"><b>IRC:</b> emmapeel</div>
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
