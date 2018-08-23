@@ -226,11 +226,17 @@
     </pre>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     To set up an onion service on Raspbian have a look at Alec Muffett's
     <a href="https://github.com/alecmuffett/eotk">Enterprise Onion Toolkit</a>.
 
 =======
 >>>>>>> 0e7b0b7
+=======
+    To set up an onion service on Raspbian have a look at Alec Muffett's
+    <a href="https://github.com/alecmuffett/eotk">Enterprise Onion Toolkit</a>.
+
+>>>>>>> c47b250
     <p>Onion services operators need to practice proper
     <a href="https://trac.torproject.org/projects/tor/wiki/doc/OperationalSecurity">
     operational security</a> and system administration to maintain security.
