@@ -4079,7 +4079,7 @@ receive a fixed number of cells. This approach is more well-understood in
 the context of high-latency systems. See e.g.
 <a href="http://freehaven.net/anonbib/#pet05-serjantov">
 Message Splitting Against the Partial Adversary by Andrei Serjantov and
-Steven J. Murdoch</a>. Also see our <a href="SendPadding">update on netflow
+Steven J. Murdoch</a>. Also see our <a href="#SendPadding">update on netflow
     padding below</a>.
     </p>
 
@@ -4250,7 +4250,7 @@ only solution is to have no opinion.
     security. Now padding is sent between a client's Tor connection and its guard
     bidirectionally at a random interval that we control from the consensus,
     with a default of 4 to 14 seconds if the connection is idle. This has the
-    goal of stymying some of the potential traffic analysis attacks out there --
+    goal of defending against some potential traffic analysis attacks out there --
     website fingerprinting, end-to-end correlation, and the things in between.
     </p>
 
