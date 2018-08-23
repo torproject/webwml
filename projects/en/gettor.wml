@@ -24,7 +24,8 @@ Currently, the best known email address to do this is gettor@torproject.org.
 This should be the most current and stable GetTor robot as it is operated
 by Tor Project itself.</p>
 
-<p>To ask for Tor Browser, a user should send an email to GetTor robot with
+<p>To ask for Tor Browser, send a plaintext email (at best disable HTML
+mails in your email client completely) to the GetTor robot with
 one of the following options in the body of the message:</p>
 
 <ul>

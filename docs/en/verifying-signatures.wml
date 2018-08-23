@@ -99,38 +99,37 @@
     <p>Once it's installed, use GnuPG to import the key that signed your
     package. In order to verify the signature you will need to type a few commands
     in windows command-line, <i>cmd.exe</i>.
-    <p>Unless you edit your PATH environment variable, you will need to tell Windows
-    the full path to the GnuPG program. If you installed GnuPG with the default values, the path should be
-    something like this: <i>C:\Program Files\Gnu\GnuPg\gpg.exe</i>.</p>
     <p>The Tor Browser team signs Tor Browser releases. Import its key
     (0x4E2C6E8793298290) by starting <i>cmd.exe</i> and typing:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
+    <pre>gpg.exe --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290</pre>
     <p>After importing the key, you can verify that the fingerprint
     is correct:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --fingerprint 0x4E2C6E8793298290</pre>
+    <pre>gpg.exe --fingerprint 0x4E2C6E8793298290</pre>
     <p>You should see:</p>
     <pre>
-    pub   4096R/93298290 2014-12-15
-          Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                  Tor Browser Developers (signing key) <torbrowser@torproject.org>
-    sub   4096R/F65C2036 2014-12-15
-    sub   4096R/D40814E0 2014-12-15
-    sub   4096R/C3C07136 2016-08-24
+pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
+      Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
+      Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
+sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
+      Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 </pre>
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
     package and its signature to your Desktop, run:</p>
-    <pre>"C:\Program Files\Gnu\GnuPg\gpg.exe" --verify \
-    C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc \
-    C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe</pre>
+    <pre>gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-<version-torbrowserbundle>_en-US.exe.asc</pre>
     <p>Please substitute "Alice" with your own username.</p>
     <p>The output should say "Good signature": </p>
     <pre>
-    gpg: Signature made Tue 24 Jan 2015 09:29:09 AM CET using RSA key ID D40814E0
-    gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
-    gpg: WARNING: This key is not certified with a trusted signature!
-    gpg:          There is no indication that the signature belongs to the owner.
-    Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290</pre>
+gpg: assuming signed data in 'torbrowser-install-<version-torbrowserbundle>_en-US.exe'
+gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET
+gpg:                using RSA key 0xD1483FA6C3C07136
+gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+     Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
     <p>Currently valid subkey fingerprints are:
     <pre>
     5242 013F 02AF C851 B1C7  36B8 7017 ADCE F65C 2036
@@ -168,12 +167,14 @@
 
     <p>You should see:</p>
     <pre>
-    pub   4096R/93298290 2014-12-15
-          Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                  Tor Browser Developers (signing key) <torbrowser@torproject.org>
-    sub   4096R/F65C2036 2014-12-15
-    sub   4096R/D40814E0 2014-12-15
-    sub   4096R/C3C07136 2016-08-24</pre>
+pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
+      Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
+      Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
+sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
+      Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
+    </pre>
     <p>To verify the signature of the package you downloaded, you will need
     to download the ".asc" file as well. Assuming you downloaded the
     package and its signature to your Downloads folder, run:</p>
@@ -182,17 +183,21 @@
     <pre>gpg --verify ~/Downloads/TorBrowser-<version-torbrowserbundleosx64>-osx64_en-US.dmg{.asc*,}</pre>
 
     <strong>For Linux users</strong> (change 64 to 32 if you have the 32-bit package):<br />
-    <pre>gpg --verify tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz.asc \
-    tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz</pre>
+    <pre>gpg --verify tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz.asc</pre>
 
     <p>The output should say "Good signature":</p>
 
     <pre>
-    gpg: Signature made Tue 24 Jan 2015 09:29:09 AM CET using RSA key ID D40814E0
-    gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
-    gpg: WARNING: This key is not certified with a trusted signature!
-    gpg:          There is no indication that the signature belongs to the owner.
-    Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290</pre> <p> Currently valid subkey fingerprints are:
+gpg: assuming signed data in 'tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz'
+gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET
+gpg:                using RSA key 0xD1483FA6C3C07136
+gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+     Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
+    </pre>
+    <p> Currently valid subkey fingerprints are:
     <pre>
     5242 013F 02AF C851 B1C7  36B8 7017 ADCE F65C 2036
     BA1E E421 BBB4 5263 180E  1FC7 2E1A C68E D408 14E0

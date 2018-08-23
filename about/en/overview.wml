@@ -27,7 +27,21 @@
 
     <a name="overview"></a>
     <h3><a class="anchor" href="#overview">Overview</a></h3>
-
+    <p>
+	A two-minute video explaining what Tor is and how it works.
+	This video is available for <a href="https://media.torproject
+	.org/video/2015-03-animation/">download</a> and streaming
+	both on Tor Project <a href="https://blog.torproject.org/blog/
+	releasing-tor-animation">website</a> and via <a href="https://www
+	.youtube.com/playlist?list=PLwyU2dZ3LJErtu3GGElIa7VyORE2B6H1H">
+	YouTube</a> in many different languages.
+    </p>
+    <div style="text-align:center;">
+    <video width="500" height="281" controls preload="none" poster="../images/tor-animation.jpg">
+	<source src="https://www.torproject.org/videos/Tor_Animation_en.mp4" type="video/mp4">
+	<track label="English" kind="captions" src="https://www.torproject.org/videos/en.vtt" srclang="en" default>
+    </video>
+    </div>
     <p>
     The Tor network is a group of <a href="<page
     getinvolved/volunteer>">volunteer</a>-operated servers that allows people
