@@ -14,7 +14,7 @@
 experience safer and better.</p>
 
 <div class="projectbox">
-<a href="<page docs/documentation>"><img class="icon" src="$(IMGROOT)/icon-Tor.jpg"
+<a href="<page docs/documentation>"><img class="icon" src="$(IMGROOT)/onion.jpg"
 alt="Tor Icon" width="75" height="75"></a>
 <div class="projectdesc"><div class="name"><a href="<page
 docs/documentation>">Tor</a></div> <p>Tor is free software and an open network
