@@ -273,9 +273,9 @@
     <h2><a class="anchor" href="#four">Step Four: Set up next-gen (v3) onions</a></h2>
     <br>
 
-    <p>Since Tor 0.3.2 and
+​    <p>Since Tor 0.3.2 and
     <a href="https://blog.torproject.org/tor-browser-75a5-released">Tor Browser
-    7.5.a5</a> 56 bit long v3 onion addresses are supported and should be used
+    7.5.a5</a> 56-character long v3 onion addresses are supported and should be used
     instead. This newer version of onion services ("v3") features many
     improvements over the legacy system:
     </p>
@@ -291,8 +291,7 @@
     <a href="https://trac.torproject.org/projects/tor/wiki/doc/HiddenServiceNames">
     Why are v3 onions better?</a>. You can identify a next-generation onion
     address by its length: they are 56 characters long, as in
-    <var>4acth47i6kxnvkewtm6q7ib2s3ufpo5sqbsnzjpbi7utijcltosqemad.onion</a>.
-
+    <var>4acth47i6kxnvkewtm6q7ib2s3ufpo5sqbsnzjpbi7utijcltosqemad.onion</var>.
     The specification for next gen onion services can be found
     <a href="https://gitweb.torproject.org/torspec.git/tree/rend-spec-v3.txt">
     here</a>.
@@ -300,8 +299,9 @@
 
     <h3>How to setup your own prop224 service</h3>
 
-    <p>It's easy! Just use your <a href"#two">regular onion service</a> torrc
-    and add <var>HiddenServiceVersion 3</var> in your onion service torrc block.
+    <p>It's easy! Just use your <a href"#two">regular onion service</a>
+    <a href="<page docs/faq>#torrc">torrc</a> and add
+    <var>HiddenServiceVersion 3</var> in your onion service torrc block.
     Here is an example torrc designed for testing:
     </p>
     <pre>
@@ -325,9 +325,9 @@ HiddenServicePort 6668 127.0.0.1:6667
 
     <p>Please note that tor is strict about directory permissions and does not
     like to share its files. Make sure to restrict read and write access to the
-    onion services directory before restarting tor. For most linux based systems you can use:
+    onion services directory before restarting tor. For most linux based systems
+    <pre>chmod 700 -R /var/lib/tor</pre> should be intended.
     </p>
-    <pre>chmod 700 -R /var/lib/tor</pre>
 
     <p>To restart tor it's safer to not use SIGHUP directly (see bug
     <a href="https://trac.torproject.org/projects/tor/ticket/21818">#21818</a>),
