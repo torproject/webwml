@@ -71,6 +71,14 @@ the root password of your system.
 </p>
 
 <p>
+<b>GPG</b>:
+<a href="https://gnupg.org/">GNU Privacy Guard</a> version 2.1 is needed for
+this guide. If you are using an older version, consider upgrading to gnupg2
+or replace 'gpg2' below with <code>gpg --keyserver hkp://pool.sks-keyservers.net</code>
+since the keyserver option was mandatory for older versions.
+</p>
+
+<p>
 <b>apt-transport-tor</b>:
 To use source lines with <tt>https://</tt> in <i>/etc/apt/sources.list</i> the
 <a href="https://packages.debian.org/stretch/apt-transport-https">apt-transport-https package</a>
@@ -125,8 +133,8 @@ deb https://deb.torproject.org/torproject.org jessie main
 <p>Then add the gpg key used to sign the packages by running the following
 commands at your command prompt:
 <blockquote><pre>
-&num; gpg --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
-&num; gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
+&num; gpg2 --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+&num; gpg2 --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 </pre></blockquote></p>
 </div>
 
@@ -182,8 +190,8 @@ deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;D
 Then add the gpg key used to sign the packages by running the following
 commands at your command prompt:
 <blockquote><pre>
-&num; gpg --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
-&num; gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
+&num; gpg2 --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+&num; gpg2 --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 </pre></blockquote>
 Now refresh your sources, running the following command (as root) at your
 command prompt:
