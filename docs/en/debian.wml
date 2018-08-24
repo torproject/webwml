@@ -162,7 +162,7 @@ $ cd ..
 Then add this line to your <tt>/etc/apt/sources.list</tt> file:<br />
 <blockquote><pre>
 deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-/pre></blockquote>
+</pre></blockquote>
 where you put the codename of your distribution (i.e. stretch, buster, sid
 or whatever it is) in place of &lt;DISTRIBUTION&gt;.
 </p>
