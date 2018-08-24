@@ -219,6 +219,12 @@ custom configurations. All an apt-get or yum install away.</p>
 	    <div class="sig">
 	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
+            <!--
+	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable)</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+            -->
 	  </div>
 
 	  <h2>Source Tarball</h2>
