@@ -1,0 +1,228 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#<!-- ATTENTION TRANSLATOR -->
+#<!-- You MUST copy '/include/lang.wmi' along with this file! -->
+
+#<!-- TBB DEFAULT LANGUAGE: Change 'en-US' below to your language code (if package exists)-->
+#<!-- IMPORTANT: You MUST also change the default selection in 'lang.wmi' -->
+<define-tag lang>en-US</define-tag>
+
+#<!-- Download button text for language enabled packages -->
+<define-tag button-win-tbb32>Tor Browser</define-tag>
+<define-tag button-win-tbb64>Currently Unused</define-tag>
+<define-tag button-osx-tbb64>Tor Browser</define-tag>
+#<!-- Comment out until it's available again. -EC <define-tag button-osx-tbb64>64-bit</define-tag> -->
+<define-tag button-lin-tbb32>Tor Browser (32-Bit)</define-tag>
+<define-tag button-lin-tbb64>Tor Browser (64-Bit)</define-tag>
+
+#include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
+
+<div id="content" class="clearfix">
+  <div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a></div>
+  <div id="maincol-left">
+<!-- BEGIN TEASER WARNING -->
+    <div class="warning-top">
+      <h2>Want Tor to really work?</h2>
+	<p>You need to change some of your habits, as some things won't work exactly as
+you are used to. Please read the <a href="#warning">full list of warnings</a> for details.
+	</p>
+      </div>
+<!-- END TEASER WARNING -->
+<!-- START DOWNLOADS -->
+<!-- BEGIN SOURCE -->
+      <div class="accordionButton on">
+	<span class="sourcecode24">Source Code</span></div>
+      <div class="accordionContent">
+	<div class="fauxhead"></div>
+	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
+	  <div class="downloads">
+	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-stable>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable)</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+	  </div>
+
+	  <h2>Source Tarball</h2>
+	  <p>Configure with: <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code></p>
+	  <p>The current stable version of Tor is <version-stable>. Its <a href="<gitblob>ReleaseNotes<cgitstable>">release notes</a> are available.</p>
+	  <p>The current unstable/alpha version of Tor is <version-alpha>. Its <a href="<gitblob>ChangeLog">Changelog</a> is available.</p>
+	</div>
+      </div>
+      <div class="expander"><a href="javascript:void(0)" class="switch">Expand All</a></div>
+<!-- END SOURCE -->
+<!-- END DOWNLOADS -->
+<br>
+<!-- BEGIN WARNING -->
+<div class="warning">
+<a name="warning"></a>
+<a name="Warning"></a>
+<h2><a class="anchor" href="#warning">Want Tor to really work?</a></h2>
+	<p>You need to change some of your habits, as some things won't work exactly as
+you are used to.</p>
+
+<ol>
+<li><b>Use Tor Browser</b>
+
+<p>
+
+Tor does not protect all of your computer's Internet traffic when you
+run it. Tor only protects your applications that are properly configured to
+send their Internet traffic through Tor. To avoid problems with Tor
+configuration, we strongly recommend you use the
+<a href="<page projects/torbrowser>">Tor Browser</a>. It is pre-configured to protect
+your privacy and anonymity on the web as long as you're browsing with Tor
+Browser itself. Almost any other web browser configuration is likely to be
+unsafe to use with Tor.
+
+</p>
+
+</li>
+
+<li><b>Don't torrent over Tor</b>
+<p>
+Torrent file-sharing applications have been observed to ignore proxy 
+settings and make direct connections even when they are told to use Tor. 
+Even if your torrent application connects only through Tor, you will 
+often send out your real IP address in the tracker GET request, 
+because that's how torrents work. Not only do you <a 
+href="https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea">
+deanonymize your torrent traffic and your other simultaneous Tor web 
+traffic</a> this way, you also slow down the entire Tor network for everyone else. 
+</p>
+</li>
+
+<li><b>Don't enable or install browser plugins</b>
+
+<p>
+
+Tor Browser will block browser plugins such as Flash, RealPlayer,
+Quicktime, and others: they can be manipulated into revealing your IP address.
+Similarly, we do not recommend installing additional addons or plugins into
+Tor Browser, as these may bypass Tor or otherwise harm your anonymity and
+privacy.
+
+</p>
+
+</li>
+
+<li><b>Use HTTPS versions of websites</b>
+
+<p>
+
+Tor will encrypt your traffic
+<a href="<page about/overview>#thesolution">to and
+within the Tor network</a>, but the encryption of your traffic to the final
+destination website depends upon on that website. To help ensure private
+encryption to websites, Tor Browser includes <a
+href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> to force the
+use of HTTPS encryption with major websites that support it. However, you
+should still watch the browser URL bar to ensure that websites you provide
+sensitive information to display a
+<a href="https://support.mozilla.com/en-US/kb/Site%20Identity%20Button">blue or
+green URL bar button</a>, include <b>https://</b> in the URL, and display the
+proper expected name for the website. Also see EFF's interactive page
+explaining <a href="https://www.eff.org/pages/tor-and-https">how Tor
+and HTTPS relate</a>.
+
+</p>
+
+</li>
+
+<li><b>Don't open documents downloaded through Tor while online</b>
+
+<p>
+
+Tor Browser will warn you before automatically opening documents that are
+handled by external applications. <b>DO NOT IGNORE THIS WARNING</b>.  You
+should be very careful when downloading documents via Tor (especially DOC and
+PDF files, unless you use the PDF viewer that's built into Tor Browser) as
+these documents can contain Internet resources that will be downloaded outside
+of Tor by the application that opens them. This will reveal your non-Tor IP
+address. If you must work with DOC and/or PDF files, we strongly recommend
+either using a disconnected computer,
+downloading the free <a href="https://www.virtualbox.org/">VirtualBox</a> and
+using it with a <a href="http://virtualboxes.org/">virtual machine image</a>
+with networking disabled, or using <a href="https://tails.boum.org/">Tails</a>.
+Under no circumstances is it safe to use
+<a href="https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea">BitTorrent
+and Tor</a> together, however.
+
+</p>
+
+</li>
+
+<li><b>Use bridges and/or find company</b>
+
+<p>
+
+Tor tries to prevent attackers from learning what destination websites you
+connect to. However, by default, it does not prevent somebody watching your Internet
+traffic from learning that you're using Tor. If this matters to you, you can
+reduce this risk by configuring Tor to use a <a href="<page docs/bridges>">Tor
+bridge relay</a> rather than connecting directly to the public Tor network.
+Ultimately the best protection is a social approach: the more Tor
+users there are near you and the more
+<a href="<page about/torusers>">diverse</a> their interests, the less
+dangerous it will be that you are one of them. Convince other people to use
+Tor, too!
+
+</p>
+
+</li>
+
+</ol>
+<br>
+<p>
+Be smart and learn more. Understand what Tor does and does not offer.
+This list of pitfalls isn't complete, and we need your
+help <a href="<page getinvolved/volunteer>#Documentation">identifying and documenting
+all the issues</a>.
+</p>
+</div>
+<!-- END WARNING -->
+</div>
+<!-- END MAINCOL -->
+<!-- START SIDECOL -->
+<div id="sidecol-right">
+<div class="img-shadow sidenav">
+<div class="sidenav-sub">
+<h2>Jump To:</h2>
+<ul>
+<li class="dropdown"><a href="<page
+download/download>#windows">Microsoft Windows</a></li>
+<li class="dropdown"><a href="<page download/download>#apple">Apple OS
+X</a></li>
+<li class="dropdown"><a href="<page
+download/download>#linux">Linux/Unix</a></li>
+<li class="dropdown"><a href="<page
+download/download>#smartphone">Smartphones</a></li>
+<li class="dropdown"><a href="<page download/download>#source">Source
+Code</a></li>
+</ul>
+</div>
+</div>
+<!-- START DONATION WIDGET -->
+<a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
+<!-- END DONATION WIDGET -->
+<!-- START INFO -->
+<div class="img-shadow">
+<div class="sidenav-sub">
+<h2>Having Trouble?</h2>
+<ul>
+<li class="dropdown"><a href="<page docs/documentation>">Read the fine manuals</a></li>
+</ul>
+</div>
+</div>
+<!-- END INFO -->
+</div>
+<!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+
+#include <foot.wmi>
