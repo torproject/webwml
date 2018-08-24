@@ -167,19 +167,20 @@ custom configurations. All an apt-get or yum install away.</p>
       </div>
 <!-- END UNIX -->
 <!-- START SMARTPHONES -->
-      <div id="smartphone" class="accordionButton on">
-	<span class="smartphone24"><a name="smartphone">Tor for Smartphones</a></span></div>
+<!-- START ANDROID -->
+      <!--<div id="android" class="accordionButton on">
+        <span class="android24">Android</span>
+      </div>
       <div class="accordionContent">
         <div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
           <form class="downloads">
-            <a class="button" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <a class="button" href="../dist/torbrowser/mobile/1.0a1/tor-browser-android-arm-1.0a1.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
             <div class="sig">
-              (<a class="android-tbb-sig" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)
-              <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+              (<a class="android-tbb-sig" href="../dist/torbrowser/mobile/1.0a1/TorBrowser-1.0a1.asc">sig</a>)
+              <a class="siginfo" href="../docs/verifying-signatures.html.en">What's This?</a>
             </div>
           </form>
-
 	  <h2>Tor Browser</h2>
           <p>
           Introducing Tor Browser for Android, the mobile browser with the
@@ -202,16 +203,24 @@ custom configurations. All an apt-get or yum install away.</p>
        </div>
      </div>-->
 <!-- END ANDROID -->
-<!-- START SMARTPHONE -->
-<!-- END SMARTPHONE -->
+<!-- START IOS -->
       <div id="smartphone" class="accordionButton on">
-	<span class="smartphone24">Smartphone</span>
-      </div>
+	<span class="smartphone24">Smartphones</span></div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
-	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
-        </div>
-     </div>
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+          <h2>iOS</h2>
+          <p>
+          Unfortunately we do not have the capacity to offer a version of
+          Tor Browser for IOS at the moment, but
+          <a href="https://support.torproject.org/#tormobile-3">
+          we recommend Onion Browser</a>. See also
+          <a href="https://prism-break.org/en/categories/ios">IOS | prism-break</a>.
+          </p>
+	</div>
+      </div>
+<!-- END IOS -->
+<!-- END SMARTPHONES -->
 <!-- BEGIN SOURCE -->
       <div id="source" class="accordionButton on">
 	<span class="sourcecode24"><a name="source">Source Code</a></span></div>
@@ -236,7 +245,8 @@ custom configurations. All an apt-get or yum install away.</p>
 	  </div>
 
 	  <h2>Source Tarball</h2>
-	  <p> Configure with: <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code></p>
+	  <p>Configure with: <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code></p>
+          <p>There are also <a href="<page download/download-unix>">packaged version of tor</a>.</p>
 	  <p>The current stable version of Tor is <version-stable>. Its <a href="<gitblob>ReleaseNotes<cgitstable>">release notes</a> are available.</p>
 	  <p>The current unstable/alpha version of Tor is <version-alpha>. Its <a href="<gitblob>ChangeLog">Changelog</a> is available.</p>
 	</div>
