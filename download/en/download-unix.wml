@@ -53,13 +53,22 @@
 </tr>
 
 <tr class="beige">
+<td align="center"><img height="40" src="$(IMGROOT)/distros/slackware.png" alt="Slackware"></td>
+<td>Slackware</td>
+<td colspan="2"><a href="https://slackbuilds.org/repository/14.2/network/tor/">SlackBuilds.org</a></td>
+<td>
+<a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a><br>
+</td>
+</tr>
+
+<tr>
 <td align="center"><img src="$(IMGROOT)/distros/freebsd.png" alt="FreeBSD"></td>
 <td>FreeBSD</td>
 <td colspan="2"><kbd>pkg install tor</kbd></td>
 <td><a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a></td>
 </tr>
 
-<tr>
+<tr class="beige">
 <td align="center"><img src="$(IMGROOT)/distros/openbsd.png" alt="OpenBSD"></td>
 <td>OpenBSD</td>
 <td colspan="2"><kbd>pkg_add tor</kbd></td>
@@ -69,14 +78,14 @@
 </td>
 </tr>
 
-<tr class="beige">
+<tr>
 <td align="center"><img src="$(IMGROOT)/distros/netbsd.png" alt="NetBSD"></td>
 <td>NetBSD</td>
 <td colspan="2"><kbd>cd /usr/pkgsrc/net/tor &amp;&amp; make install</kbd></td>
 <td><a href="<page docs/tor-doc-unix>">Linux/BSD/Unix</a></td>
 </tr>
 
-<tr>
+<tr class="beige">
 <td align="center"><img src="$(IMGROOT)/distros/terminal.png" alt="Source code"></td>
 <td>Source tarballs</td>
 <td>
