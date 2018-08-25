@@ -19,50 +19,55 @@
 
 #include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
 
-<div id="content" class="clearfix">
+<div id="content" class="clearfix" style="border-bottom: 1px solid #888888;">
   <div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a> &raquo; <a href="<page download/tor>">Tor</a></div>
   <div id="maincol-left">
 <!-- BEGIN TEASER WARNING -->
     <div class="warning-top">
       <h2>Want Tor to really work?</h2>
-	<p>You need to change some of your habits, as some things won't work exactly as
+      <p>You need to change some of your habits, as some things won't work exactly as
 you are used to. Please read the <a href="#warning">full list of warnings</a> for details.
-	</p>
-      </div>
+      </p>
+    </div>
 <!-- END TEASER WARNING -->
 <!-- START DOWNLOADS -->
-	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
-          <p class="all-dl"><a href="<page download/download>">What is Tor</a>? Looking for <a href="<page download/download>">Tor Browser</a>,
-            <a href="<page download/download-unix>">Tor packages</a>  or <a href="<page download/download>">other downloads</a>? <a href="<page projects/projects>">All projects</a></p>
-	  <div class="downloads">
-	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Stable)</span></a>
+	<div -class="package" style="padding-top: 35px;">
+	  <div -class="downloads">
+           <h1 style="text-align: center">Tor Source Tarballs</h1>
+           <p style="text-align:center">Build and run with: <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code><br/>
+             See the <a href="<gitblob>ChangeLog">Changelog</a> for what's new.</p>
+           <div id="stable" style="margin-left:75px; float: left;">
+            <h2 style="text-align: center">Stable</h2>
+	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Stable</span><span class="normal">Version <version-stable></span></a>
 	    <div class="sig">
-	      (<a href="../dist/tor-<version-stable>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+              <p>
+	      <a href="<gitblob>ReleaseNotes<cgitstable>">Release notes</a> &#x2012; <a href="../dist/tor-<version-stable>.tar.gz.asc">signature</a> &#x2012; <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+              </p>
 	    </div>
-	    <a class="button" href="../dist/tor-<version-oldstable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Oldstable)</span></a>
+	    <a class="button" href="../dist/tor-<version-oldstable>.tar.gz"><span class="strong">Oldstable</span><span class="normal">Version <version-oldstable></span></a>
 	    <div class="sig">
-	      (<a href="../dist/tor-<version-oldstable>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+              <p>
+              <a href="<gitblob>ReleaseNotes<cgitoldstable>">Release notes</a> &#x2012; <a href="../dist/tor-<version-oldstable>.tar.gz.asc">signature</a> &#x2012; <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+              </p>
 	    </div>
-	    <a class="button" href="../dist/tor-<version-testing>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Testing)</span></a>
+           </div>
+           <div id="unstable" style="margin-left:75px; float: left;">
+            <h2 style="text-align: center">Unstable</h2>
+	    <a class="button" href="../dist/tor-<version-testing>.tar.gz"><span class="strong">Unstable</span><span class="normal">Version <version-testing></span></a>
 	    <div class="sig">
-	      (<a href="../dist/tor-<version-testing>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    <a class="button" href="../dist/tor-<version-beta>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable - beta)</span></a>
-	    <div class="sig">
-	      (<a href="../dist/tor-<version-beta>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable - alpha)</span></a>
-	    <div class="sig">
-	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	      <a href="../dist/tor-<version-testing>.tar.gz.asc">signature</a> &#x2012; <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
-	  </div>
-
-	  <h2>Source Tarball</h2>
-	  <p>Configure with:<br/>
-            <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code>
-          </p>
-	  <p>The current stable version of Tor is <version-stable>. Its <a href="<gitblob>ReleaseNotes<cgitstable>">release notes</a> are available.</p>
-	  <p>The current unstable/alpha version of Tor is <version-alpha>. Its <a href="<gitblob>ChangeLog">Changelog</a> is available.</p>
-
+	    <a class="button" href="../dist/tor-<version-beta>.tar.gz"><span class="strong">Unstable</span><span class="normal">Version <version-beta></span></a>
+	    <div class="sig">
+	      <a href="../dist/tor-<version-beta>.tar.gz.asc">signature</a> &#x2012; <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Unstable</span><span class="normal">Version <version-alpha></span></a>
+	    <div class="sig">
+	      <a href="../dist/tor-<version-alpha>.tar.gz.asc">signature</a> &#x2012; <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+           </div>
 	</div>
+   </div>
 </div>
 <!-- END DOWNLOADS -->
 <!-- START DONATION WIDGET -->
@@ -70,20 +75,21 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 <!-- END DONATION WIDGET -->
 <!-- START SIDECOL -->
 <div id="sidecol-right">
-<div class="img-shadow sidenav">
+<div class="img-shadow">
 <div class="sidenav-sub">
-<h2>Jump To:</h2>
+<h2>What is Tor?</h2>
 <ul>
-<li class="dropdown"><a href="<page
-download/download>#windows">Microsoft Windows</a></li>
-<li class="dropdown"><a href="<page download/download>#apple">Apple OS
-X</a></li>
-<li class="dropdown"><a href="<page
-download/download>#linux">Linux/Unix</a></li>
-<li class="dropdown"><a href="<page
-download/download>#smartphone">Smartphones</a></li>
-<li class="dropdown"><a href="<page download/download>#source">Source
-Code</a></li>
+<li class="dropdown"><a href="<page about/overview>">Take the tour</a></li>
+</ul>
+</div>
+</div>
+<div class="img-shadow">
+<div class="sidenav-sub">
+<h2><a href="<page download/download>">Other Downloads</a></h2>
+<ul>
+<li class="dropdown"><a href="<page download/download-unix>">Tor packages</a></li>
+<li class="dropdown"><a href="<page download/download-easy>">Tor Browser</a></li>
+<li class="dropdown"><a href="<page projects/projects>">All projects</a></li>
 </ul>
 </div>
 </div>
@@ -102,7 +108,6 @@ Code</a></li>
 <div id="maincol-left">
 <!-- BEGIN WARNING -->
 <div class="warning">
-<a name="warning"></a>
 <a name="Warning"></a>
 <h2><a class="anchor" href="#warning">Want Tor to really work?</a></h2>
 	<p>You need to change some of your habits, as some things won't work exactly as
