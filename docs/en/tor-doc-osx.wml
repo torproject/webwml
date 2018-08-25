@@ -106,12 +106,16 @@
     <br>
 
     <p>Change your application proxy settings back to their original
-    values.  If you just want to stop using Tor, you can end at this
+    values. If you just want to stop using Tor, you can end at this
     point.</p>
 
     <p>If you want to completely remove Tor, type into a Terminal window:</p>
 
     <pre>sudo port uninstall tor</pre>
+
+    <p>Also see
+    <a href="<page docs/faq>#HowUninstallTor">How to uninstall Tor?</a>
+    </p>
 
   </div>
   <!-- END MAINCOL -->
