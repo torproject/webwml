@@ -35,11 +35,21 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
           <p class="all-dl"><a href="<page download/download>">What is Tor</a>? Looking for <a href="<page download/download>">Tor Browser</a>,
             <a href="<page download/download-unix>">Tor packages</a>  or <a href="<page download/download>">other downloads</a>? <a href="<page projects/projects>">All projects</a></p>
 	  <div class="downloads">
-	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code</span></a>
+	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Stable)</span></a>
 	    <div class="sig">
 	      (<a href="../dist/tor-<version-stable>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
-	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable)</span></a>
+	    <a class="button" href="../dist/tor-<version-oldstable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Oldstable)</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-oldstable>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    </div>
+	    <a class="button" href="../dist/tor-<version-testing>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Testing)</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-testing>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    <a class="button" href="../dist/tor-<version-beta>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable - beta)</span></a>
+	    <div class="sig">
+	      (<a href="../dist/tor-<version-beta>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable - alpha)</span></a>
 	    <div class="sig">
 	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>

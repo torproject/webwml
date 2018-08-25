@@ -1,6 +1,11 @@
+# Tor
+<define-tag version-oldstable whitespace=delete>0.2.9.16</define-tag>
 <define-tag version-stable whitespace=delete>0.3.3.9</define-tag>
+<define-tag version-testing whitespace=delete>0.3.4.5-rc</define-tag>
+<define-tag version-beta whitespace=delete>0.3.4.6-rc</define-tag>
 <define-tag version-alpha whitespace=delete>0.3.4.7-rc</define-tag>
 
+# Tor Browser - development branch
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.5</define-tag>
 
 # *** tor browser stable ***
@@ -42,8 +47,15 @@
 <let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
 
+# Tor files
+<define-tag file-source-oldstable whitespace=delete>tor-<version-oldstable>.tar.gz</define-tag>
+<define-tag package-source-oldstable whitespace=delete>../dist/<file-source-oldstable></define-tag>
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
 <define-tag package-source-stable whitespace=delete>../dist/<file-source-stable></define-tag>
+<define-tag file-source-testing whitespace=delete>tor-<version-testing>.tar.gz</define-tag>
+<define-tag package-source-testing whitespace=delete>../dist/<file-source-testing></define-tag>
+<define-tag file-source-beta whitespace=delete>tor-<version-beta>.tar.gz</define-tag>
+<define-tag package-source-beta whitespace=delete>../dist/<file-source-beta></define-tag>
 <define-tag file-source-alpha whitespace=delete>tor-<version-alpha>.tar.gz</define-tag>
 <define-tag package-source-alpha whitespace=delete>../dist/<file-source-alpha></define-tag>
 
