@@ -20,7 +20,7 @@
 #include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
 
 <div id="content" class="clearfix">
-  <div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a></div>
+  <div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a> &raquo; <a href="<page download/tor>">Tor</a></div>
   <div id="maincol-left">
 <!-- BEGIN TEASER WARNING -->
     <div class="warning-top">
@@ -31,12 +31,9 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
       </div>
 <!-- END TEASER WARNING -->
 <!-- START DOWNLOADS -->
-<!-- BEGIN SOURCE -->
-      <div class="accordionButton on">
-	<span class="sourcecode24">Source Code</span></div>
-      <div class="accordionContent">
-	<div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
+          <p class="all-dl"><a href="<page download/download>">What is Tor</a>? Looking for <a href="<page download/download>">Tor Browser</a>,
+            <a href="<page download/download-unix>">Tor packages</a>  or <a href="<page download/download>">other downloads</a>? <a href="<page projects/projects>">All projects</a></p>
 	  <div class="downloads">
 	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code</span></a>
 	    <div class="sig">
@@ -49,15 +46,50 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	  </div>
 
 	  <h2>Source Tarball</h2>
-	  <p>Configure with: <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code></p>
+	  <p>Configure with:<br/>
+            <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code>
+          </p>
 	  <p>The current stable version of Tor is <version-stable>. Its <a href="<gitblob>ReleaseNotes<cgitstable>">release notes</a> are available.</p>
 	  <p>The current unstable/alpha version of Tor is <version-alpha>. Its <a href="<gitblob>ChangeLog">Changelog</a> is available.</p>
+
 	</div>
-      </div>
-      <div class="expander"><a href="javascript:void(0)" class="switch">Expand All</a></div>
-<!-- END SOURCE -->
+</div>
 <!-- END DOWNLOADS -->
-<br>
+<!-- START DONATION WIDGET -->
+<a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
+<!-- END DONATION WIDGET -->
+<!-- START SIDECOL -->
+<div id="sidecol-right">
+<div class="img-shadow sidenav">
+<div class="sidenav-sub">
+<h2>Jump To:</h2>
+<ul>
+<li class="dropdown"><a href="<page
+download/download>#windows">Microsoft Windows</a></li>
+<li class="dropdown"><a href="<page download/download>#apple">Apple OS
+X</a></li>
+<li class="dropdown"><a href="<page
+download/download>#linux">Linux/Unix</a></li>
+<li class="dropdown"><a href="<page
+download/download>#smartphone">Smartphones</a></li>
+<li class="dropdown"><a href="<page download/download>#source">Source
+Code</a></li>
+</ul>
+</div>
+</div>
+<!-- START INFO -->
+<div class="img-shadow">
+<div class="sidenav-sub">
+<h2>Having Trouble?</h2>
+<ul>
+<li class="dropdown"><a href="<page docs/documentation>">Read the fine manuals</a></li>
+</ul>
+</div>
+</div>
+<!-- END INFO -->
+</div>
+<!-- END SIDECOL -->
+<div id="maincol-left">
 <!-- BEGIN WARNING -->
 <div class="warning">
 <a name="warning"></a>
@@ -188,40 +220,6 @@ all the issues</a>.
 <!-- END WARNING -->
 </div>
 <!-- END MAINCOL -->
-<!-- START SIDECOL -->
-<div id="sidecol-right">
-<div class="img-shadow sidenav">
-<div class="sidenav-sub">
-<h2>Jump To:</h2>
-<ul>
-<li class="dropdown"><a href="<page
-download/download>#windows">Microsoft Windows</a></li>
-<li class="dropdown"><a href="<page download/download>#apple">Apple OS
-X</a></li>
-<li class="dropdown"><a href="<page
-download/download>#linux">Linux/Unix</a></li>
-<li class="dropdown"><a href="<page
-download/download>#smartphone">Smartphones</a></li>
-<li class="dropdown"><a href="<page download/download>#source">Source
-Code</a></li>
-</ul>
-</div>
-</div>
-<!-- START DONATION WIDGET -->
-<a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
-<!-- END DONATION WIDGET -->
-<!-- START INFO -->
-<div class="img-shadow">
-<div class="sidenav-sub">
-<h2>Having Trouble?</h2>
-<ul>
-<li class="dropdown"><a href="<page docs/documentation>">Read the fine manuals</a></li>
-</ul>
-</div>
-</div>
-<!-- END INFO -->
-</div>
-<!-- END SIDECOL -->
 </div>
 <!-- END CONTENT -->
 
