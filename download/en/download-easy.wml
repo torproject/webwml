@@ -30,6 +30,9 @@
 		<!-- START DOWNLOADS -->
 		<!-- START WINDOWS -->
 
+  <div id="tor" style="padding: 15px">
+    Are you looking for the <a href="<page download/tor>">source tarball</a> of Tor?
+  </div>
 
 
 <div id="dow-don-left">
