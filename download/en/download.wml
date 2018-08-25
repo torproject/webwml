@@ -227,29 +227,9 @@ custom configurations. All an apt-get or yum install away.</p>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
-	  <div class="downloads">
-	    <a class="button" href="../dist/tor-<version-stable>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code</span></a>
-	    <div class="sig">
-	      (<a href="../dist/tor-<version-stable>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable)</span></a>
-	    <div class="sig">
-	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-            <!--
-	    <a class="button" href="../dist/tor-<version-alpha>.tar.gz"><span class="strong">Download</span><span class="normal">Source Code (Unstable)</span></a>
-	    <div class="sig">
-	      (<a href="../dist/tor-<version-alpha>.tar.gz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-            -->
-	  </div>
-
-	  <h2>Source Tarball</h2>
-	  <p>Configure with: <code style="color: #666666;">./configure &amp;&amp; make &amp;&amp; src/or/tor</code></p>
-          <p>There are also <a href="<page download/download-unix>">packaged version of tor</a>.</p>
-	  <p>The current stable version of Tor is <version-stable>. Its <a href="<gitblob>ReleaseNotes<cgitstable>">release notes</a> are available.</p>
-	  <p>The current unstable/alpha version of Tor is <version-alpha>. Its <a href="<gitblob>ChangeLog">Changelog</a> is available.</p>
-	</div>
+          <p>Want to build <a href="<page download/tor>">Tor</a> or Tor Browser from source? Read
+          <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking">The Tor Browser Hacking Guide</a></p>
+        </div>
       </div>
       <div class="expander"><a href="javascript:void(0)" class="switch">Expand All</a></div>
 <!-- END SOURCE -->
