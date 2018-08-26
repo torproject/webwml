@@ -112,6 +112,7 @@ For Ubuntu, ask
 <option value="xenial">Ubuntu Xenial Xerus (16.04 LTS)</option>
 <option value="artful">Ubuntu Artful Aardvark (17.10)</option>
 <option value="bionic">Ubuntu Bionic Beaver (18.04 LTS)</option>
+<option value="cosmic">Ubuntu Cosmic Cuttlefish (18.10)</option>
 </select>
 and want
 <select id="package"></select>
