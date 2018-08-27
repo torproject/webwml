@@ -15,7 +15,7 @@
   </div>
   <div id="maincol">
 <a id="debian"></a>
-<h2><a class="anchor" href="#debian">Option one: Tor on Debian Stretch - 
+<h2><a class="anchor" href="#debian">Option one: Tor on Debian Stretch -
 stable, Debian Buster - testing, or Debian Sid - unstable</a></h2>
 <br />
 
@@ -32,7 +32,7 @@ that you're running the latest stable version of Tor, see option two below.
 </p>
 
 <p>
-When Tor is installed and running move on to 
+When Tor is installed and running move on to
 <a href="<page docs/tor-doc-unix>#using">step two</a> of the
 "<a href="<page docs/tor-doc-unix>">Tor on Linux/Unix</a>" instructions.
 </p>
@@ -41,7 +41,7 @@ When Tor is installed and running move on to
 
 <a id="ubuntu"></a>
 <a id="packages"></a>
-<h2><a class="anchor" href="#ubuntu">Option two: Tor on Ubuntu or 
+<h2><a class="anchor" href="#ubuntu">Option two: Tor on Ubuntu or
 Debian</a></h2>
 
 <p>
@@ -53,7 +53,7 @@ and security fixes.
 <p>
 <b>Raspbian is not Debian.</b> Tor might run fine on the Raspberry Pi 2 / 3
 but not the first generation Pi.
-These packages might be confusingly broken for Raspbian users, since Raspbian 
+These packages might be confusingly broken for Raspbian users, since Raspbian
 called their architecture armhf but Debian already has an armhf. See <a
 href="http://tor.stackexchange.com/questions/242/how-to-run-tor-on-raspbian-on-the-raspberry-pi">this
 post</a> for details.
