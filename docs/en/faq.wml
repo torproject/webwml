@@ -2077,6 +2077,8 @@ versions.
     find the program iptables (for *nix) useful.
     </p>
 
+    <hr>
+
     <a id="IPv6"></a>
     <h3><a class="anchor" href="#IPv6">How do I use Tor from an IPv6 only host/computer?</a></h3>
     <p>
@@ -2089,7 +2091,7 @@ versions.
     </pre>
     <p>
     Note that as of 2018 there aren't many IPv6 users, or IPv6 guards, so Tor over IPv6
-    is less anonymous than Tor over IPv4. You can review the IPv6 implemetation status at our
+    is less anonymous than Tor over IPv4. If you are interested in developing you can review the IPv6 implemetation status at our
     <a href="https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Tor/IPv6Features">IPv6Features</a>
     wiki page, known issues can be found with the
     <a href="https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~ipv6">ipv6 keyword</a>.
