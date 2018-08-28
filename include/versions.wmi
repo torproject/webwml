@@ -18,6 +18,8 @@
 <let releasedate-torbrowserbundlelinux64=releasedate-torbrowserbundle-all />
 <let version-torbrowserbundleosx64=version-torbrowserbundle-all />
 <let releasedate-torbrowserbundleosx64=releasedate-torbrowserbundle-all />
+<let version-torbrowserbundleandroid=version-torbrowserbundle-all />
+<let releasedate-torbrowserbundleandroid=releasedate-torbrowserbundle-all />
 
 <define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundle>/tor-win32-<version-win32-stable>.zip</define-tag>
 
@@ -37,7 +39,6 @@
 <let releasedate-torbrowserbundlelinux64beta=releasedate-torbrowserbundlebeta-all />
 <let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
-
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
 <define-tag package-source-stable whitespace=delete>../dist/<file-source-stable></define-tag>
