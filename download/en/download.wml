@@ -157,9 +157,9 @@ custom configurations. All an apt-get or yum install away.</p>
         <div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
           <form class="downloads">
-            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <a class="button" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
             <div class="sig">
-              (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)
+              (<a class="android-tbb-sig" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)
               <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
             </div>
           </form>
@@ -180,8 +180,8 @@ custom configurations. All an apt-get or yum install away.</p>
           </p>
           <p>
           Known issue: Our Security Slider is now under ‘Security Settings,
-          but because of a small issue, it’s only showing up after you restart 
-          the app. We plan on fixing it for the next release.
+          but because of a small issue, it’s only showing up after you restart
+	  the app. We plan on fixing it for the next release.
           </p>
        </div>
      </div>
@@ -195,7 +195,6 @@ custom configurations. All an apt-get or yum install away.</p>
 	<div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
         </div>
-     
      </div>
 <!-- BEGIN SOURCE -->
       <div id="source" class="accordionButton on">
