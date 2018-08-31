@@ -45,3 +45,5 @@
 <define-tag file-source-alpha whitespace=delete>tor-<version-alpha>.tar.gz</define-tag>
 <define-tag package-source-alpha whitespace=delete>../dist/<file-source-alpha></define-tag>
 
+# *** tor browser android ***
+<define-tag version-torbrowserbundleandroid whitespace=delete>1.0a1</define-tag>
