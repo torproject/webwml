@@ -59,6 +59,8 @@ You should now be able to point your browser at the locally generated site...
 
     file:///home/atagar/Desktop/tor/webwml/getinvolved/volunteer.html.en
 
+For details on WML see
+http://www.shlomifish.org/open-source/projects/website-meta-language/
 
 ### Troubleshooting the build
 
