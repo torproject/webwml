@@ -149,24 +149,56 @@ custom configurations. All an apt-get or yum install away.</p>
 	</div>
       </div>
 <!-- END UNIX -->
-<!-- START SMARTPHONES -->
+<!-- START ANDROID -->
+      <div id="android" class="accordionButton on">
+        <span class="android24">Android</span>
+      </div>
+      <div class="accordionContent">
+        <div class="fauxhead"></div>
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+          <form class="downloads">
+            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <div class="sig">
+              (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)
+              <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+            </div>
+          </form>
+
+	  <h2>Tor Browser</h2>
+          <p>
+          Introducing Tor Browser for Android, the mobile browser with the
+          highest privacy protections ever available and on par with Tor
+          Browser for desktop. You can download the alpha release on
+          <a href="https://play.google.com/store/apps/details?id=org.torproject.android">GooglePlay</a>
+          or <a href="">FDroid</a>, or you can get the apk by clicking on the
+          button bellow.
+          </p>
+          <p>
+          Note: For this release, <b>you also need to install Orbot</b>, you can
+          learn more about it
+          <a href="/docs/android.html.en">here</a>.
+          </p>
+          <p>
+          Known issue: Our Security Slider is now under ‘Security Settings,
+          but because of a small issue, it’s only showing up after you restart 
+          the app. We plan on fixing it for the next release.
+          </p>
+       </div>
+     </div>
+<!-- END ANDROID -->
+<!-- START SMARTPHONE -->
+<!-- END SMARTPHONE -->
       <div id="smartphone" class="accordionButton on">
-	<span class="smartphone24">Tor for Smartphones</span></div>
+	<span class="smartphone24">Smartphone</span>
+      </div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
-<!-- ANDROID -->
-	<div class="package" style="padding-top: 13px; border-top: 0px;">
-	  <div class="downloads">
-	      <a class="additional" href="<page docs/android>">Installation Instructions</a>
-	  </div>
-
-	  <h2>Android Bundle</h2>
-	  <p>Our software is available for Android-based phones, tablets, and computers from the <a href="https://guardianproject.info/">Guardian Project</a> in their <a href= "https://guardianproject.info/2012/03/15/our-new-f-droid-app-repository/">F-Droid Repository</a> or the <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play Store</a>.</p>
-	</div>
-      </div>
-<!-- END SMARTPHONES -->
+	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
+        </div>
+     
+     </div>
 <!-- BEGIN SOURCE -->
-      <div class="accordionButton on">
+      <div id="source" class="accordionButton on">
 	<span class="sourcecode24">Source Code</span></div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
