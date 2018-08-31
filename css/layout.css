@@ -499,11 +499,11 @@ table tr img {
   }
 
 .android24 {
-/* Icon from the Crystal set
- * author: Everaldo Coelho
- * source: http://www.everaldo.com/crystal/
- * license: LGPL v2 */
-  background: url("../images/icon-android24.png") no-repeat scroll left center transparent;
+/* author: Google - Android Logo
+ * source: http://www.android.com/branding.html 
+ * license:  Creative Commons Atribución 3.0 Unported */
+    background: url("../images/icon-android24.png") no-repeat scroll left center transparent;
+    background-size: 24px;
   }
 
 .smartphone24 {
