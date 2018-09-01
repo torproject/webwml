@@ -1,15 +1,15 @@
 #!/usr/bin/env wml
 <p>The signing keys we use are:</p>
 <ul>
-<li>The Tor Browser Developers (0x4E2C6E8793298290), Mike Perry (0x0E3A92E4), Georg Koppen (0x4B7C3223), Nicolas Vigier (0xD0220E4B), Linus Nordberg (0x23291265), Arthur Edelstein (0xD752F538C0D38C3A) sign <strong>Tor Browser releases</strong></li>
+<li>The Tor Browser Developers (0x4E2C6E8793298290), Mike Perry (0x29846B3C683686CC), Georg Koppen (0x4B7C3223), Nicolas Vigier (0xE5B81856D0220E4B), Linus Nordberg (0x23291265), Arthur Edelstein (0xD752F538C0D38C3A) sign <strong>Tor Browser releases</strong></li>
 <li>Roger Dingledine (0x28988BF5 and 0x19F78451), Nick Mathewson (0x165733EA with its signing key 0x8D29319A) sign <strong>Tor source tarballs</strong></li>
 <li>Nick Mathewson (0x165733EA with its signing key 0x8D29319A) signed <strong>older Tor tarballs</strong></li>
-<li>Tor Project Archive (0x886DDD89) signs <strong>deb.torproject.org repositories and archives</strong></li>
+<li>Tor Project Archive (0xEE8CBC9E886DDD89) signs <strong>deb.torproject.org repositories and archives</strong></li>
 <li>Damian Johnson (0x9ABBEEC6) signs <strong>Arm releases</strong></li>
-<li>The Tails team (0x58ACD84F) signs <strong>Tails live system releases</strong></li>
+<li>The Tails team (0xDBB802B258ACD84F) signs <strong>Tails live system releases</strong></li>
 <li>David Goulet (0x42E86A2A11F48D36) signs <strong>Torsocks releases</strong></li>
 <li>Sukhbir Singh (0xB01C8B006DA77FAA) signs <strong>TorBirdy releases</strong></li>
-<li>Other developers include Peter Palfrader (0xC82E0039 with its subkey 0xE1DEC577).</li>
+<li>Other developers include Peter Palfrader (0x62AF4031C82E0039).</li>
 </ul>
 <h2>Fingerprints</h2>
 <p>The fingerprints for the keys are:</p>
@@ -179,9 +179,5 @@ uid                   [ unknown] Peter Palfrader &lt;weasel#debian.org&gt;
 uid                   [ unknown] Peter Palfrader &lt;peter#palfrader.org&gt;
 sub   rsa2048/0x8602C8203872331F 2014-05-04 [S] [expires: 2020-09-01]
 sub   rsa2048/0xE377AED938E4E080 2014-05-04 [E] [expires: 2020-09-01]
-
-pub   rsa4096/0x7675B62DC82E0039 2014-06-16 [SCEA] [revoked: 2016-08-16]
-      Key fingerprint = A110 43D3 C8A6 395D DDD0  EE85 7675 B62D C82E 0039
-uid                   [ revoked] Peter Palfrader
 
 </pre>
