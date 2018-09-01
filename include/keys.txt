@@ -1,0 +1,32 @@
+[Tor Browser releases]
+The Tor Browser Developers: 0x4E2C6E8793298290
+Mike Perry: 0x0E3A92E4
+Georg Koppen: 0x4B7C3223
+Nicolas Vigier: 0xD0220E4B
+Linus Nordberg: 0x23291265
+Arthur Edelstein: 0xD752F538C0D38C3A
+
+[Tor source tarballs]
+Roger Dingledine: 0x28988BF5, 0x19F78451
+Nick Mathewson: 0xFE43009C4607B1FB, 0x6AFEE6D49E92B601(signing key)
+
+[older Tor tarballs]
+Nick Mathewson: 0x165733EA, 0x8D29319A(signing key)
+
+[deb.torproject.org repositories and archives]
+Tor Project Archive: 0x886DDD89
+
+[Arm releases]
+Damian Johnson: 0x9ABBEEC6
+
+[Tails live system releases]
+The Tails team: 0x58ACD84F
+
+[Torsocks releases]
+David Goulet: 0x42E86A2A11F48D36
+
+[TorBirdy releases]
+Sukhbir Singh: 0xB01C8B006DA77FAA
+
+[other]
+Peter Palfrader: 0xC82E0039, 0xE1DEC577(subkey)
