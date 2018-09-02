@@ -147,7 +147,7 @@
     this one. See the
     <a href="<svnprojects>design-paper/tor-design.pdf">Tor design paper</a>
     for an in-depth design description and the
-    <a href="<specblob>rend-spec.txt">rendezvous specification</a>
+    <a href="<specblob>rend-spec-v3.txt">rendezvous specification</a>
     for the message formats.
     </p>
   </div>

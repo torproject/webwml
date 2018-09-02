@@ -198,8 +198,9 @@
     specification)</li>
     <li><a href="<specblob>control-spec.txt">Tor control protocol
     specification</a></li>
-    <li><a href="<specblob>rend-spec.txt">Tor rendezvous
-    specification</a></li>
+    <li>Tor rendezvous specification: <a
+    href="<specblob>rend-spec-v2.txt">version 2</a> and <a
+    href="<specblob>rend-spec-v3.txt">version 3</a></li>
     <li><a href="<specblob>path-spec.txt">Tor path selection
     specification</a></li>
     <li><a href="<specblob>address-spec.txt">Special hostnames in
