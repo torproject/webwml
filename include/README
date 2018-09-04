@@ -2,8 +2,8 @@ Here's a brief overview of how our wml set-up works.
 ----------------------------------------------------
 
 Here's a typical wml file:
-http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/docs/en/bridges.wml
-https://gitweb.torproject.org/project/web/webwml.git/docs/en/bridges.wml
+https://gitweb.torproject.org/project/web/webwml.git/tree/docs/en/bridges.wml
+http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/tree/docs/en/bridges.wml
 
 The top of the file has:
 
@@ -26,13 +26,16 @@ and the middle is standard html, plus a few extra tags like
 pages when they exist. So that wml page produces this html page:
 https://www.torproject.org/bridges aka
 https://www.torproject.org/bridges.html.en
+https://www.torproject.org/docs/bridges
 http://expyuzz4wqqyqhjn.onion/docs/bridges
 
 Then head.wmi and foot.wmi are just other mostly-html files you import
 to handle the repeat parts of each page (well, that plus some embedded
 perl scripts to generate some of the static content).
-http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/include/head.wmi
-http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/include/foot.wmi
+https://gitweb.torproject.org/project/web/webwml.git/tree/include/head.wmi
+http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/tree/include/head.wmi
+https://gitweb.torproject.org/project/web/webwml.git/tree/include/foot.wmi
+http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/tree/include/foot.wmi
 
 You can basically ignore the wml part of them, and to a first
 approximation just think of them as more html.
@@ -42,12 +45,13 @@ So in summary, wml is like html with a bit more markup.
 ----------------------------------------------------
 
 Where it gets interesting is the download page:
-http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/download/en/download-easy.wml
+https://gitweb.torproject.org/project/web/webwml.git/tree/download/en/download-easy.wml
+http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/tree/download/en/download-easy.wml
 
 It has the standard header and footer section, but in the body of the page
 it includes links like <a href="<package-osx-bundle-stable>". Rather than
 putting URLs and Tor versions into every wml page, and then requiring
 the translators to update their page whenever we bump a version number,
 we instead define each URL and version as a new wml element:
-http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/include/versions.wmi
-
+https://gitweb.torproject.org/project/web/webwml.git/tree/include/versions.wmi
+http://jqs44zhtxl2uo6gk.onion/project/web/webwml.git/tree/include/versions.wmi
