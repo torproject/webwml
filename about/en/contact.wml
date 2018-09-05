@@ -121,7 +121,8 @@ uid                  tor-security@lists.torproject.org <tor-security-owner@lists
 uid                  tor-security@lists.torproject.org <tor-security-request@lists.torproject.org>
 sub   4096R/C00942E4 2017-03-13
 </pre></blockquote>
-    Find links to <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/NetworkTeam/SecurityPolicy">acknowledgments and our security policy</a> in machine readable form at <a href="">https://torproject.org/.well-known/security.txt</a>.
+    Find links to acknowledgments and our security policy in machine readable
+    form <a href="https://www.torproject.org/.well-known/security.txt">here</a>.
     </p>
 
     <a id="badrelays"></a>
