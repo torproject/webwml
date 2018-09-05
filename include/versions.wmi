@@ -12,6 +12,8 @@
 # version-torbrowserbundle-all and releasedate-torbrowserbundle-all
 <let version-torbrowserbundle=version-torbrowserbundle-all />
 <let releasedate-torbrowserbundle=releasedate-torbrowserbundle-all />
+<let version-torbrowserbundlewin64=version-torbrowserbundle-all />
+<let releasedate-torbrowserbundlewin64=releasedate-torbrowserbundle-all />
 <let version-torbrowserbundlelinux32=version-torbrowserbundle-all />
 <let releasedate-torbrowserbundlelinux32=releasedate-torbrowserbundle-all />
 <let version-torbrowserbundlelinux64=version-torbrowserbundle-all />
