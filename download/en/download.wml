@@ -21,6 +21,15 @@
 
 <div id="content" class="clearfix">
   <div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a></div>
+<!-- START TOC -->
+    <div style="float:right; widht:100px; text-align: right;">
+      <a href="#windows">Microsoft Windows</a><br />
+      <a href="#osx">Apple OS X</a><br />
+      <a href="#linux">Linux</a><br />
+      <a href="#smartphone">Smartphones</a><br />
+      <a href="#source">Source</a>
+    </div>
+<!-- END TOC -->
   <div id="maincol-left">
 <!-- BEGIN TEASER WARNING -->
     <div class="warning-top">
@@ -33,7 +42,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 <!-- START DOWNLOADS -->
 <!-- START WINDOWS -->
       <div id="windows" style="border-top: 0px;" class="accordionButton on">
-	<span class="windows24">Microsoft Windows</span>
+	<span class="windows24"><a name="windows">Microsoft Windows</a></span>
       </div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
@@ -82,7 +91,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 <!-- END WINDOWS -->
 <!-- START OS X -->
       <div id="apple" class="accordionButton on">
-	<span class="mac24">Apple OS X</span></div>
+	<span class="mac24"><a name="osx">Apple OS X</a></span></div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
 <!-- TOR BROWSER BUNDLE -->
@@ -108,7 +117,7 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
  <!-- END OS X -->
  <!-- START UNIX -->
       <div id="linux" class="accordionButton on">
-	<span class="linux24">Linux</span></div>
+	<span class="linux24"><a name="linux">Linux</a></span></div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
   <!-- TOR BROWSER BUNDLE -->
@@ -157,10 +166,9 @@ custom configurations. All an apt-get or yum install away.</p>
 	</div>
       </div>
 <!-- END UNIX -->
-<!-- START ANDROID -->
-      <!--<div id="android" class="accordionButton on">
-        <span class="android24">Android</span>
-      </div>
+<!-- START SMARTPHONES -->
+      <div id="smartphone" class="accordionButton on">
+	<span class="smartphone24"><a name="smartphone">Tor for Smartphones</a></span></div>
       <div class="accordionContent">
         <div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
@@ -206,7 +214,7 @@ custom configurations. All an apt-get or yum install away.</p>
      </div>
 <!-- BEGIN SOURCE -->
       <div id="source" class="accordionButton on">
-	<span class="sourcecode24">Source Code</span></div>
+	<span class="sourcecode24"><a name="source">Source Code</a></span></div>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
