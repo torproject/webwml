@@ -9,7 +9,6 @@ body {
 
 #wrap {
 	width: 960px;
-        max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -225,7 +224,6 @@ body {
 
 #content {
 	width: 960px;
-	max-width: 100%;
 }
 
 	#content img { max-width: 710px; }
@@ -241,7 +239,6 @@ body {
 	#maincol {
 		float: right;
 		width: 710px;
-                max-width: 75%;
 		margin-bottom: 20px;
 	}
 
