@@ -7,17 +7,26 @@
 
 	      <option value="en-US" selected="selected">English</option>
 	      <option value="ar">&#x0627;&#x0644;&#x0639;&#x0631;&#x0628;&#x064a;&#x0629;</option>
+	      <option value="ca">Català</option>
+	      <option value="da">Dansk</option>
 	      <option value="de">Deutsch</option>
 	      <option value="es-ES">espa&ntilde;ol</option>
 	      <option value="fa">&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;</option>
 	      <option value="fr">&#x0046;&#x0072;&#x0061;&#x006e;&#x00e7;&#x0061;&#x0069;&#x0073;</option>
+	      <option value="ga-IE">Gaeilge (Irish)</option>
+	      <option value="he">&#x5e2;&#x5d1;&#x5e8;&#x5d9;&#x5ea;</option>
+	      <option value="id">bahasa Indonesia</option>
+	      <option value="is">íslenska</option>
 	      <option value="it">Italiano</option>
               <option value="ja">&#26085;&#26412;&#35486;</option>
 	      <option value="ko">Korean</option>
+	      <option value="nb-NO">Norsk bokmå&#x0345;l</option>
 	      <option value="nl">Nederlands</option>
 	      <option value="pl">Polish</option>
 	      <option value="pt-BR">&#x0050;&#x006f;&#x0072;&#x0074;&#x0075;&#x0067;&#x0075;&#x00ea;&#x0073;</option>
 	      <option value="ru">&#x0420;&#x0443;&#x0441;&#x0441;&#x043a;&#x0438;&#x0439;</option>
+	      <option value="sv-SE">Svenska</option>
 	      <option value="tr">T&#252;rk&#231;e</option>
 	      <option value="vi">Vietnamese</option>
 	      <option value="zh-CN">&#x7b80;&#x4f53;&#x5b57;</option>
+	      <option value="zh-TW">&#x6b63;&#x9ad4;&#x5b57</option>
