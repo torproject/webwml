@@ -227,8 +227,10 @@ custom configurations. All an apt-get or yum install away.</p>
       <div class="accordionContent">
 	<div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
-          <p>Want to build <a href="<page download/tor>">Tor</a> or Tor Browser from source? Read
-          <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking">The Tor Browser Hacking Guide</a></p>
+          <p>Want to build <a href="<page download/tor>">Tor</a> or
+          <a href="<page projects/torbrowser>">Tor Browser</a> from source?
+          Read the <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking">
+          Tor Browser Hacking Guide</a></p>
         </div>
       </div>
       <div class="expander"><a href="javascript:void(0)" class="switch">Expand All</a></div>
