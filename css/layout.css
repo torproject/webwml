@@ -241,6 +241,7 @@ body {
 		width: 710px;
 		margin-bottom: 20px;
 	}
+        .tb#maincol { max-width: 100%; }
 
 	#dow-don-left,
 	#maincol-left {
