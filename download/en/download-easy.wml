@@ -146,21 +146,21 @@
   <div id="openbsd" class="easy bsd">
     <div class="package" style="padding-top: 13px; border-top: 0px;">
       <div class="desc">
-        <h2>Running Tor on OpenBSD</h2>
-	<p>These are installation instructions for running Tor Browser in a OpenBSD environment.</p>
-	<p>To install from OpenBSD's packages, run:</p>
-
-
+        <h2>Tor Browser OpenBSD</h2>
+	<p>
+        To install Tor Browser on OpenBSD, run:</p>
         <pre>pkg_add tor-browser</pre>
 
-	<p>Sometimes the most recent version of Tor Browser on OpenBSD is behind the current release. The available version of TB on OpenBSD should be checked with:
-
+	<p>
+        Sometimes the most recent version of Tor Browser on OpenBSD is
+        behind the current release.<br/>
+        The available version of TB on OpenBSD should be checked with:
+        </p>
 	<pre>pkg_info -Q tor-browser</pre>
-
-	<p>If provided version is not the current Tor Browser version, it is not recommended.</p>
-   
-        <p>To install the Tor Browser port from an updated ports tree, run:</p>
-
+	<p>
+        If provided version is not the current Tor Browser version, it is
+        not recommended. To install the Tor Browser port from an updated ports
+        tree, run:</p>
         <pre>cd /usr/ports/meta/tor-browser && make install</pre>
       </div>
     </div>
