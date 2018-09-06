@@ -170,6 +170,8 @@
     <div class="package" style="padding-top: 13px; border-top: 0px;">
       <div class="desc">
 	  <h2>Tor Browser for Android</h2>
+          <p>Tor Browser for Android hasn't been released yet.</p>
+<!--
           <p>
           Introducing Tor Browser for Android, the mobile browser with the
           highest privacy protections ever available and on par with Tor
@@ -195,9 +197,11 @@
               <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
             </div>
           </form>
+-->
       </div>
     </div>
   </div>
+<!-- END ANDROID -->
       <p class="all-dl">Looking For Something Else? <a href="<page download/download>">View All Downloads</a></p>
 <!-- END DOWNLOADS --><br>
 </div> <!-- END dow-don-left -->
