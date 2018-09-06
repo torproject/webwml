@@ -49,4 +49,4 @@
 
 # *** tor browser android ***
 <define-tag version-torbrowserbundleandroid whitespace=delete>1.0a1</define-tag>
-<define-tag releasedate-torbrowserbundleandroid whitespace=delete>2018-08-31</define-tag>
+<define-tag releasedate-torbrowserbundleandroid whitespace=delete>2018-09-06</define-tag>

@@ -158,7 +158,7 @@
 	<pre>pkg_info -Q tor-browser</pre>
 
 	<p>If provided version is not the current Tor Browser version, it is not recommended.</p>
-   
+
         <p>To install the Tor Browser port from an updated ports tree, run:</p>
 
         <pre>cd /usr/ports/meta/tor-browser && make install</pre>
@@ -170,7 +170,10 @@
     <div class="package" style="padding-top: 13px; border-top: 0px;">
       <div class="desc">
 	  <h2>Tor Browser for Android</h2>
-          <p>Tor Browser for Android hasn't been released yet.</p>
+          <p>Tor Browser for Android has only be released in alpha-version. <br />
+					You can download the alpha release on <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a> or from
+					our <a href="https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha">alpha download list</a>.
+					</p>
 <!--
           <p>
           Introducing Tor Browser for Android, the mobile browser with the
@@ -187,7 +190,7 @@
           </p>
           <p>
           Known issue: Our Security Slider is now under ‘Security Settings,
-          but because of a small issue, it’s only showing up after you restart 
+          but because of a small issue, it’s only showing up after you restart
           the app. We plan on fixing it for the next release.
           </p>
           <form class="downloads">

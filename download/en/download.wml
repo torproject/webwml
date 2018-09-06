@@ -10,8 +10,8 @@
 <define-tag lang>en-US</define-tag>
 
 #<!-- Download button text for language enabled packages -->
-<define-tag button-win-tbb32>Tor Browser (32-bit)</define-tag>
-<define-tag button-win-tbb64>Tor Browser (64-bit)</define-tag>
+<define-tag button-win-tbb32>Tor Browser</define-tag>
+<define-tag button-win-tbb64>Currently Unused</define-tag>
 <define-tag button-osx-tbb64>Tor Browser</define-tag>
 #<!-- Comment out until it's available again. -EC <define-tag button-osx-tbb64>64-bit</define-tag> -->
 <define-tag button-lin-tbb32>Tor Browser (32-Bit)</define-tag>
@@ -41,15 +41,6 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 #<!-- NOTE - change language enabled button text at the top of this page -->
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <form class="downloads">
-	    <a class="button win-tbb64" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe"><span class="strong">Download</span><span class="normal"><button-win-tbb64></span></a>
-	    <select name="language" id="win-tbb64" class="lang">
-#include <lang.wmi>
-	    </select>
-	    <div class="sig">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="win-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	    <a class="additional" href="<page projects/torbrowser>#downloads-alpha">Download Unstable</a><br />
 	    <a class="button win-tbb" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe"><span class="strong">Download</span><span class="normal"><button-win-tbb32></span></a>
 	    <select name="language" id="win-tbb" class="lang">
 #include <lang.wmi>
@@ -58,11 +49,12 @@ you are used to. Please read the <a href="#warning">full list of warnings</a> fo
 	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
 	      (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
 	    </div>
+	    <a class="additional" href="<page projects/torbrowser>#downloads-alpha">Download Unstable</a><br />
 <!--	    <a class="additional" href="../dist/torbrowser/<version-torbrowserbundlealpha>/tor-browser-<version-torbrowserbundlealpha>_en-US.exe">Download Unstable</a> (<a href="../dist/torbrowser/<version-torbrowserbundlealpha>/tor-browser-<version-torbrowserbundlealpha>_en-US.exe.asc">sig</a>)-->
 	  </form>
 
 	  <h2>Tor Browser</h2>
-	  <em>Version <version-torbrowserbundle> (<releasedate-torbrowserbundle>) - Windows 10, 8, and 7</em>
+	  <em>Version <version-torbrowserbundle> (<releasedate-torbrowserbundle>) - Windows 10, 8, 7, Vista, and XP</em>
 	  <p>Everything you need to safely browse the Internet. <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
 	</div>
 <!-- EXPERT BUNDLE -->
@@ -158,7 +150,7 @@ custom configurations. All an apt-get or yum install away.</p>
       </div>
 <!-- END UNIX -->
 <!-- START ANDROID -->
-      <div id="android" class="accordionButton on">
+      <!--<div id="android" class="accordionButton on">
         <span class="android24">Android</span>
       </div>
       <div class="accordionContent">
@@ -177,7 +169,7 @@ custom configurations. All an apt-get or yum install away.</p>
           Introducing Tor Browser for Android, the mobile browser with the
           highest privacy protections ever available and on par with Tor
           Browser for desktop. You can download the alpha release on
-          <a href="https://play.google.com/store/apps/details?id=org.torproject.android">GooglePlay</a>
+          <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a>
           or <a href="">FDroid</a>, or you can get the apk by clicking on the
           button bellow.
           </p>
@@ -192,7 +184,7 @@ custom configurations. All an apt-get or yum install away.</p>
 	  the app. We plan on fixing it for the next release.
           </p>
        </div>
-     </div>
+     </div>-->
 <!-- END ANDROID -->
 <!-- START SMARTPHONE -->
 <!-- END SMARTPHONE -->
@@ -259,14 +251,14 @@ unsafe to use with Tor.
 
 <li><b>Don't torrent over Tor</b>
 <p>
-Torrent file-sharing applications have been observed to ignore proxy 
-settings and make direct connections even when they are told to use Tor. 
-Even if your torrent application connects only through Tor, you will 
-often send out your real IP address in the tracker GET request, 
-because that's how torrents work. Not only do you <a 
+Torrent file-sharing applications have been observed to ignore proxy
+settings and make direct connections even when they are told to use Tor.
+Even if your torrent application connects only through Tor, you will
+often send out your real IP address in the tracker GET request,
+because that's how torrents work. Not only do you <a
 href="https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea">
-deanonymize your torrent traffic and your other simultaneous Tor web 
-traffic</a> this way, you also slow down the entire Tor network for everyone else. 
+deanonymize your torrent traffic and your other simultaneous Tor web
+traffic</a> this way, you also slow down the entire Tor network for everyone else.
 </p>
 </li>
 
