@@ -45,6 +45,7 @@ function updateLang() {
   var rootDir = '../dist/torbrowser/' + '/';
   var bundles = {
     'win-tbb' : rootDir + versions.torbrowserbundle + '/torbrowser-install-' + versions.torbrowserbundle + '_' + lang + '.exe',
+    'win-tbb64' : rootDir + versions.torbrowserbundle + '/torbrowser-install-win64-' + versions.torbrowserbundle + '_' + lang + '.exe',
     'osx-tbb' : rootDir + versions.torbrowserbundleosx64 + '/TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang +'.dmg',
     'osx-tbb64' : rootDir + versions.torbrowserbundleosx64 + '/TorBrowser-' + versions.torbrowserbundleosx64 + '-osx64_' + lang + '.dmg',
     'lin-tbb32' : rootDir + versions.torbrowserbundlelinux32 + '/tor-browser-linux32-' + versions.torbrowserbundlelinux32 + '_' + lang + '.tar.xz',
