@@ -363,35 +363,33 @@ all the issues</a>.
 <!-- END MAINCOL -->
 <!-- START SIDECOL -->
 <div id="sidecol-right">
-<div class="img-shadow sidenav">
-<div class="sidenav-sub">
-<h2>Jump To:</h2>
-<ul>
-<li class="dropdown"><a href="<page
+ <div class="img-shadow sidenav-ez">
+  <div class="sidenav-sub">
+   <ul>
+    <li class="dropdown"><a href="<page
 download/download>#windows">Microsoft Windows</a></li>
-<li class="dropdown"><a href="<page download/download>#apple">Apple OS
-X</a></li>
-<li class="dropdown"><a href="<page
-download/download>#linux">Linux/Unix</a></li>
-<li class="dropdown"><a href="<page
-download/download>#smartphone">Smartphones</a></li>
-<li class="dropdown"><a href="<page download/download>#source">Source
+    <li class="dropdown"><a href="<page download/download>#apple">Apple OS X</a></li>
+    <li class="dropdown"><a href="<page download/download>#linux">Linux/Unix</a></li>
+    <li class="dropdown"><a href="<page download/download>#openbsd">OpenBSD</a></li>
+    <li class="dropdown"><a href="#android">Android</a></li>
+    <li class="dropdown"><a href="<page download/download>#smartphone">Smartphones</a></li>
+    <li class="dropdown"><a href="<page download/download>#source">Source
 Code</a></li>
-</ul>
-</div>
-</div>
+   </ul>
+  </div>
+ </div>
 <!-- START DONATION WIDGET -->
-<a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
+ <a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
 <!-- END DONATION WIDGET -->
 <!-- START INFO -->
-<div class="img-shadow">
-<div class="sidenav-sub">
-<h2>Having Trouble?</h2>
-<ul>
-<li class="dropdown"><a href="<page docs/documentation>">Read the fine manuals</a></li>
-</ul>
-</div>
-</div>
+ <div class="img-shadow">
+  <div class="sidenav-sub">
+   <h2>Having Trouble?</h2>
+   <ul>
+    <li class="dropdown"><a href="<page docs/documentation>">Read the fine manuals</a></li>
+   </ul>
+  </div>
+ </div>
 <!-- END INFO -->
 </div>
 <!-- END SIDECOL -->
