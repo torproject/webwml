@@ -158,7 +158,7 @@ custom configurations. All an apt-get or yum install away.</p>
       </div>
 <!-- END UNIX -->
 <!-- START ANDROID -->
-      <!--<div id="android" class="accordionButton on">
+      <div id="android" class="accordionButton on">
         <span class="android24">Android</span>
       </div>
       <div class="accordionContent">
@@ -192,7 +192,7 @@ custom configurations. All an apt-get or yum install away.</p>
 	  the app. We plan on fixing it for the next release.
           </p>
        </div>
-     </div>-->
+     </div>
 <!-- END ANDROID -->
 <!-- START SMARTPHONE -->
 <!-- END SMARTPHONE -->
