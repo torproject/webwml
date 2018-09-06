@@ -532,7 +532,7 @@
           &bull; <a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_en-US.tar.xz">64-bit</a>
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_en-US.tar.xz.asc">sig</a>)</em></td>
           <td><a href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk">Android</a>
-          <em>(<a href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)</em></td> 
+          <em>(<a href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk.asc">sig</a>)</em></td>
         </tr>
         <tr class="alt">
           <td>&#x0627;&#x0644;&#x0639;&#x0631;&#x0628;&#x064a;&#x0629; (ar)</td>
