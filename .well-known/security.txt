@@ -2,6 +2,10 @@
 Contact: tor-security@lists.torproject.org
 Encryption: openpgp4fpr:8B904624C5A28654E4539BC2E135A8B41A7BF184
 Acknowledgments: (in progress) https://torprojects.org/projects/tor/ticket/27458 / http://ea5faa5po25cf7fb.onion/projects/tor/ticket/27458
-Policy: (in progress) https://torprojects.org/projects/tor/ticket/27421 / http://ea5faa5po25cf7fb.onion/projects/tor/ticket/27421
+Policy: For tor (the network daemon) see
+        https://trac.torproject.org/projects/tor/wiki/org/teams/NetworkTeam/SecurityPolicy
+        Other projects may have their own policies, see also
+        https://torprojects.org/projects/tor/ticket/27421
+        http://ea5faa5po25cf7fb.onion/projects/tor/ticket/27421
 Permission: none
 # RFC-URL: https://tools.ietf.org/html/draft-foudil-securitytxt-04
