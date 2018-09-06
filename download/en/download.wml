@@ -150,7 +150,7 @@ custom configurations. All an apt-get or yum install away.</p>
       </div>
 <!-- END UNIX -->
 <!-- START ANDROID -->
-      <!--<div id="android" class="accordionButton on">
+      <div id="android" class="accordionButton on">
         <span class="android24">Android</span>
       </div>
       <div class="accordionContent">
@@ -169,14 +169,12 @@ custom configurations. All an apt-get or yum install away.</p>
           Introducing Tor Browser for Android, the mobile browser with the
           highest privacy protections ever available and on par with Tor
           Browser for desktop. You can download the alpha release on
-          <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a>
-          or <a href="">FDroid</a>, or you can get the apk by clicking on the
-          button bellow.
+          <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a>,
+          or you can get the apk by clicking on the button bellow.
           </p>
           <p>
           Note: For this release, <b>you also need to install Orbot</b>, you can
-          learn more about it
-          <a href="/docs/android.html.en">here</a>.
+          learn more about it <a href="https://guardianproject.info/apps/orbot">here</a>.
           </p>
           <p>
           Known issue: Our Security Slider is now under ‘Security Settings,
@@ -184,10 +182,9 @@ custom configurations. All an apt-get or yum install away.</p>
 	  the app. We plan on fixing it for the next release.
           </p>
        </div>
-     </div>-->
+     </div>
 <!-- END ANDROID -->
-<!-- START SMARTPHONE -->
-<!-- END SMARTPHONE -->
+<!-- START SMARTPHONE
       <div id="smartphone" class="accordionButton on">
 	<span class="smartphone24">Smartphone</span>
       </div>
@@ -196,6 +193,7 @@ custom configurations. All an apt-get or yum install away.</p>
 	<div class="package" style="padding-top: 13px; border-top: 0px; border-bottom: 1px solid #888888;">
         </div>
      </div>
+END SMARTPHONE -->
 <!-- BEGIN SOURCE -->
       <div id="source" class="accordionButton on">
 	<span class="sourcecode24">Source Code</span></div>
