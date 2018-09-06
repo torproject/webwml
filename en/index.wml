@@ -18,7 +18,7 @@
           <p class="desc">Protect your privacy. Defend yourself against network surveillance and traffic analysis.</p>
 
       <div id="download">
-        <a href="<page download/download-easy>">
+        <a href="<page download/tor>">
           <span class="download-tor">Download Tor</span></a>
       </div>
       </div>
