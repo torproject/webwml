@@ -8,22 +8,22 @@
     <a href="<page index>">Home &raquo; </a>
     <a href="<page docs/documentation>">Documentation &raquo; </a>
     <a href="<page docs/tor-doc-unix>">Linux Client</a>
-  </div> 
-  <div id="maincol"> 
+  </div>
+  <div id="maincol">
     <h1>Running the <a href="<page index>">Tor</a> client on Linux</h1>
     <br>
-    
+
     <h2>Note that these are the installation instructions for running a
     Tor client. The easiest way to do this is to simply download <a
     href="<page projects/torbrowser>">Tor Browser</a> and you are
     done.
     </h2>
-    
+
     <hr>
     <a id="installing"></a>
     <h2><a class="anchor" href="#installing">Step One: Download and Install Tor</a></h2>
     <br>
-    
+
     <p>
     The latest release of Tor can be found on the <a
     href="<page download/download>">download</a> page. We have packages for Debian,
@@ -31,7 +31,7 @@
     using Ubuntu, don't use the default packages: use <a
     href="<page docs/debian>#ubuntu">our deb repository</a> instead.
     </p>
-    
+
     <p>If you're building from source, first install <a
     href="http://www.monkey.org/~provos/libevent/">libevent</a>, and
     make sure you have openssl and zlib (including the -devel packages if
@@ -44,17 +44,17 @@
     (as root if necessary) to install it into /usr/local/, and then you can
     start it just by running <tt>tor</tt>.
     </p>
-    
+
     <p>Tor comes configured as a client by default. It uses a built-in
     default configuration file, and most people won't need to change any of
     the settings. Tor is now installed.
     </p>
-    
+
     <hr>
     <a id="using"></a>
     <h2><a class="anchor" href="#using">Step Two: Configure your applications to use Tor</a></h2>
     <br>
-    
+
     <p>
     If you want to use Tor for anonymous web browsing, please use <a
     href="<page projects/torbrowser>">Tor Browser</a>. It comes with
@@ -66,11 +66,11 @@
     that support neither SOCKS nor HTTP, take a look at <a href="https://code.google.com/p/torsocks/">torsocks</a>
     or <a href="http://www.dest-unreach.org/socat/">socat</a>.
     </p>
-    
+
     <p>For information on how to Torify other applications, check out the
     <a href="<wiki>doc/TorifyHOWTO">Torify HOWTO</a>.
     </p>
-    
+
     <p>If you have a personal firewall that limits your computer's ability
     to connect to itself (this includes something like SELinux on Fedora
     Core 4), be sure to allow connections from your local applications to
@@ -83,23 +83,23 @@
     and insert "allow_ypbind=1".  Restart your machine for this change
     to take effect.
     </p>
-    
+
     <p>If it's still not working, look at <a
     href="<page docs/faq>#DoesntWork">this
     FAQ entry</a> for hints.</p>
-    
+
     <hr>
     <a id="server"></a>
     <a id="relay"></a>
     <h2><a class="anchor" href="#relay">Step Three: Configure it as a relay</a></h2>
     <br>
-    
+
     <p>The Tor network relies on volunteers to donate bandwidth. If you
     want to help <strong>make the Tor network faster</strong>, please
     consider <a href="<page docs/tor-doc-relay>">running a relay</a>.</p>
-    
+
     <hr>
-    
+
     <p>If you have suggestions for improving this document, please <a
     href="<page about/contact>">send them to us</a>. Thanks!</p>
   </div>
@@ -111,4 +111,4 @@
   <!-- END SIDECOL -->
 </div>
 <!-- END CONTENT -->
-#include <foot.wmi>  
+#include <foot.wmi>
