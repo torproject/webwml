@@ -38,7 +38,9 @@
     applicable). Then run:<br>
     <tt>tar xzf tor-<version-stable>.tar.gz; cd tor-<version-stable></tt><br>
     <tt>./configure &amp;&amp; make</tt><br>
-    Now you can run tor as <tt>src/or/tor</tt>, or you can run <tt>make install</tt>
+    Now you can run tor as either <tt>src/or/tor</tt> (before 0.3.5.x)
+    or <tt>src/app/tor</tt> (0.3.5.x and later), or you can run <tt>make
+    install</tt>
     (as root if necessary) to install it into /usr/local/, and then you can
     start it just by running <tt>tor</tt>.
     </p>
