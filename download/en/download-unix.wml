@@ -87,7 +87,7 @@
 <a href="<package-source-alpha>"><version-alpha></a>
  (<a href="<package-source-alpha>.asc">sig</a>)
 </td>
-<td><kbd>./configure &amp;&amp; make &amp;&amp; src/or/tor</kbd></td>
+<td><kbd>./configure &amp;&amp; make &amp;&amp; src/or/tor</kbd> (or src/app/tor starting in 0.3.5.x)</td>
 </tr>
 
 </table>
