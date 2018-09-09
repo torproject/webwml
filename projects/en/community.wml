@@ -237,23 +237,6 @@ the Tor network to accomplish this.
 </p>
 </div></div>
 
-<!-- tor-ramdisk -->
-<div class="projectbox">
-<!--<a href="https://en.wikipedia.org/wiki/Tor-ramdisk"><img class="Tor-ramdisk icon"
-src="$(IMGROOT)/icon-.png" alt="Tor-ramdisk Logo" width="80"
-height="75"></a>-->
-<div class="projectdesc"><div class="name">
-<a href="https://en.wikipedia.org/wiki/Tor-ramdisk">Tor-ramdisk</a></div>
-<p>
-Tor-ramdisk is an i686 uClibc-based micro Linux distribution whose only purpose
-is to host a Tor server in an environment that maximizes security and privacy.
-Tor is a network of virtual tunnels that allows people and groups to improve
-their privacy and security on the Internet. Security is enhanced in Tor-ramdisk
-by employing a monolithically compiled GRSEC/PaX patched kernel and hardened
-system tools.
-</p>
-</div></div>
-
 <!-- OnionBalance -->
 <div class="projectbox">
 <!--<a href="https://onionbalance.readthedocs.io/en/latest/"><img class="icon"
@@ -276,19 +259,33 @@ was
 </div>
 </div>
 
-<!-- OnionTip -->
-<div class="projectbox">
-<!--<a href="https://github.com/DonnchaC/oniontip"><img class="icon"
-src="$(IMGROOT)/icon-oniontip.png" alt="OnionTip Icon" width="75"></a>-->
-<div class="projectdesc">
-<div class="name"><a
-href="https://github.com/DonnchaC/oniontip">OnionTip</a></div>
+<!-- for developers -->
+
+<div id="outdated" class="projectbox">
+<h1>Deprecated Community Projects</h1>
 <p>
-OnionTip is a web app which parses Tor relay data to allow users to tip
-volunteers for running relay in a fair and open way. https://oniontip.com
+Following projects have been useful in the past but are no longer maintained
+and may have security issues.<br/>
+They can still be interesting for developers.
 </p>
 </div>
-</div>
+
+<!-- tor-ramdisk -->
+<div class="projectbox">
+<!--<a href="https://en.wikipedia.org/wiki/Tor-ramdisk"><img class="Tor-ramdisk icon"
+src="$(IMGROOT)/icon-.png" alt="Tor-ramdisk Logo" width="80"
+height="75"></a>-->
+<div class="projectdesc"><div class="name">
+<a href="https://en.wikipedia.org/wiki/Tor-ramdisk">Tor-ramdisk</a></div>
+<p>
+Tor-ramdisk is an i686 uClibc-based micro Linux distribution whose only purpose
+is to host a Tor server in an environment that maximizes security and privacy.
+Tor is a network of virtual tunnels that allows people and groups to improve
+their privacy and security on the Internet. Security is enhanced in Tor-ramdisk
+by employing a monolithically compiled GRSEC/PaX patched kernel and hardened
+system tools.
+</p>
+</div></div>
 
 <!-- Roster -->
 <div class="projectbox">
@@ -300,6 +297,20 @@ href="https://github.com/seansaito/Roster">Roster</a></div>
 <p>
 Roster is a Tor project that awards points and badges to relay operators based
 on the performance of their families
+</p>
+</div>
+</div>
+
+<!-- OnionTip -->
+<div class="projectbox">
+<!--<a href="https://github.com/DonnchaC/oniontip"><img class="icon"
+src="$(IMGROOT)/icon-oniontip.png" alt="OnionTip Icon" width="75"></a>-->
+<div class="projectdesc">
+<div class="name"><a
+href="https://github.com/DonnchaC/oniontip">OnionTip</a></div>
+<p>
+OnionTip is a web app which parses Tor relay data to allow users to tip
+volunteers for running relay in a fair and open way. https://oniontip.com
 </p>
 </div>
 </div>
@@ -317,9 +328,6 @@ extension for Chrome and Firefox
 </p>
 </div></div>
 
-
-</table>
-<!-- END TABLE -->
 </div>
 <!-- END MAINCOL -->
 <div id = "sidecol">
