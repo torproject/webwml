@@ -190,14 +190,30 @@ pre-emptive blocking approach prevents exploitation of security vulnerabilities
 
 <!-- for operators -->
 
+<!-- bine -->
+<div class="projectbox">
+<!--<a href="https://github.com/cretz/bine"><img class="icon"
+src="$(IMGROOT)/icon-carml.png" alt="carml icon" width="75"
+height="75"></a>-->
+<div class="projectdesc">
+<div class="name"><a
+href="https://github.com/cretz/bine">bine</a></div>
+<p>
+bine is a
+<a href="https://stem.torproject.org/faq.html#are-there-any-other-controller-libraries">Tor controller</a>
+written in Go. Its README has an example config to set up an onion service.
+</p>
+</div>
+</div>
+
 <!-- carml -->
 <div class="projectbox">
-<a href="​https://meejah.ca/projects/carml"><img class="icon"
+<a href="https://meejah.ca/projects/carml"><img class="icon"
 src="$(IMGROOT)/icon-carml.png" alt="carml icon" width="75"
 height="75"></a>
 <div class="projectdesc">
 <div class="name"><a
-href="​https://meejah.ca/projects/carml">carml</a></div>
+href="https://meejah.ca/projects/carml">carml</a></div>
 <p>
 carml is a command-line collection of utilities to query and manipulate a
 running Tor. It does terminal colours, plays nicely with grep, pipes and so
