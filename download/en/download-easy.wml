@@ -19,20 +19,18 @@
 #include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
 
 <div id="content" class="clearfix">
-	<div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a></div>
-	<!-- BEGIN TEASER WARNING -->
-	<div class="warning-top">
-		<h2>Want Tor to really work?</h2>
-		<p>You need to change some of your habits, as some things won't work exactly as you are used to. Please read the <a href="#warning">full list of warnings</a> for details.</p>
-	</div>
-	<!-- END TEASER WARNING -->
-	<div id="download-donate" class="clearfix">
-		<!-- START DOWNLOADS -->
-		<!-- START WINDOWS -->
+ <div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a></div>
+  <div id="maincol-left">
+<!-- BEGIN TEASER WARNING -->
+   <div class="warning-top">
+    <h2>Want Tor to really work?</h2>
+    <p>You need to change some of your habits, as some things won't work exactly as you are used to. Please read the <a href="#warning">full list of warnings</a> for details.</p>
+   </div>
+<!-- END TEASER WARNING -->
 
-
-
-<div id="dow-don-left">
+<!-- START DOWNLOADS -->
+   <div id="dow-don-left">
+<!-- START WINDOWS -->
 <!-- START WINDOWS 64-Bit -->
       <div id="windows" class="easy windows">
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
@@ -207,19 +205,9 @@
 <!-- END ANDROID -->
       <p class="all-dl">Looking For Something Else? <a href="<page download/download>">View All Downloads</a></p>
 <!-- END DOWNLOADS --><br>
-</div> <!-- END dow-don-left -->
+</div>
+<!-- END dow-don-left -->
 
-
-
-
-<div id="dow-don-right">
-<a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
-</div> <!-- END dow-don-right -->
-
-
-
-	</div> <!-- END download-donate -->
-	<div id="maincol-left">
 <!-- BEGIN WARNING -->
 <div class="warning">
 <a name="warning"></a>
@@ -329,32 +317,43 @@ are blocked.</p>
 <!-- END WARNING -->
 </div>
 <!-- END MAINCOL -->
+
+<!-- START dow-don-right -->
+<div id="dow-don-right">
 <!-- START SIDECOL -->
-<div id="sidecol-right">
-<div class="img-shadow sidenav-ez">
-<div class="sidenav-sub">
-<ul>
-<li class="dropdown"><a href="#windows">Microsoft Windows</a></li>
-<li class="dropdown"><a href="#mac">Apple OS X</a></li>
-<li class="dropdown"><a href="#linux">Linux</a></li>
-<li class="dropdown"><a href="#openbsd">OpenBSD</a></li>
-<li class="dropdown"><a href="#android">Android</a></li>
-<li class="dropdown"><a href="<page download/download>">All Downloads</a></li>
-</ul>
-</div>
-</div>
+  <div id="sidecol-right">
+   <div class="img-shadow sidenav-ez">
+    <div class="sidenav-sub">
+     <ul>
+      <li class="dropdown"><a href="#windows">Microsoft Windows</a></li>
+      <li class="dropdown"><a href="#mac">Apple OS X</a></li>
+      <li class="dropdown"><a href="#linux">Linux</a></li>
+      <li class="dropdown"><a href="#openbsd">OpenBSD</a></li>
+      <li class="dropdown"><a href="#android">Android</a></li>
+      <li class="dropdown"><a href="<page download/download>">All Downloads</a></li>
+     </ul>
+    </div>
+   </div>
+<!-- START DONATE -->
+   <div id="download-donate">
+    <a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
+   </div>
+<!-- END DONATE -->
 <!-- START INFO -->
-<div class="img-shadow">
-<div class="sidenav-sub">
-<h2>Having Trouble?</h2>
-<ul>
-<li class="dropdown"><a href="<page docs/documentation>">Read the fine manuals</a></li>
-</ul>
-</div>
-</div>
+   <div class="img-shadow">
+    <div class="sidenav-sub">
+     <h2>Having Trouble?</h2>
+     <ul>
+      <li class="dropdown"><a href="<page docs/documentation>">Read the fine manuals</a></li>
+     </ul>
+    </div>
+   </div>
 <!-- END INFO -->
-</div>
+  </div>
 <!-- END SIDECOL -->
+</div>
+<!-- END dow-don-right -->
+
 </div>
 <!-- END CONTENT -->
 

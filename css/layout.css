@@ -281,7 +281,7 @@ body {
 	float: right;
 	width: 230px;
 	margin-left: 20px;
-        padding-top: 100px;
+        -padding-top: 100px;
 }
 
 	#torusers { margin: 0 0 27px; }
