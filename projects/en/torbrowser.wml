@@ -10,7 +10,7 @@
     <a href="<page projects/projects>">Projects &raquo; </a>
     <a href="<page projects/torbrowser>">TorBrowser</a>
   </div>
-    <div id="maincol">
+    <div id="maincol" class="tb">
 
     <!-- PUT CONTENT AFTER THIS TAG -->
     <div class="tbbcol">
