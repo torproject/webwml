@@ -87,7 +87,9 @@ meetings around the world.</li>
     of these (or you have a project idea of your own), then please <a
     href="<page about/contact>#irc">join us in #tor-dev</a>. Don't be shy
     to ask questions, and don't hesitate to ask even if the main contributors
-    aren't active at that moment.
+    aren't active at that moment. In case you find issues, see our
+    <a href="https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback">
+    bug reporting guidelines</a>.g
     </p>
 
     <p>

@@ -99,7 +99,9 @@
     <h3><a class="anchor" href="#bugs">Bug Tracker</a></h3>
     <p>You can report bugs other than <a href="#security">security
     issues</a> using our <a href="https://trac.torproject.org/projects/tor"
-    >bug tracker</a>. Our
+    >bug tracker</a>. Please check the
+    <a href="https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback">
+    bug reporting guidelines</a> first. Our
     <a href="<page getinvolved/volunteer>">volunteer page</a> has
     convenient links to <a href="<page getinvolved/volunteer>#Projects">
     project-related queries</a>.</p>
