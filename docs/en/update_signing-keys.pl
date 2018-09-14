@@ -53,7 +53,10 @@ if (-f $wmifile && qx/[ $wmifile -nt $keysfile ]/) {
 
 open my $out, '>', "$wmifile"
   or die "Could not write to $wmifile; $!\n";
-print $out "#!/usr/bin/env wml\n<p>The signing keys we use are:</p>\n<ul>\n";
+print $out "#!/usr/bin/env wml\n<p>
+This page is automatically generated from
+<a href='/include/keys.txt'>keys.txt</a>.
+The signing keys we use are:\n</p>\n<ul>\n";
 my %fingerprints;
 foreach my $project (@projects) {
   my $owners = '';
@@ -96,11 +99,12 @@ foreach my $project (@projects) {
     $suf = 'ed' if ($project =~ /older/);
     print $out "<li>$owners sign$suf <strong>$project</strong></li>\n";
   }
-  my $keyids = join (' ', @keysinproject);
-  # update keys form keyserver pool
-  if ($forcekeyupdates or not $skipkeyupdates) {
-    print "Fetching $keyids from keyserver:\n";
-    qx/gpg --recv-key $keyids/;
+  foreach my $key (@keysinproject) {
+    # update keys form keyserver pool
+    if ($forcekeyupdates or not $skipkeyupdates) {
+      print "Fetching $key from keyserver:\n";
+      qx/gpg --recv-key $key/ or die "Failed to fetch $key;
+    }
   }
   # save gpg output for later
   my $str = qx/gpg --list-keys --keyid-format 0xlong --with-fingerprint $keyids/;
