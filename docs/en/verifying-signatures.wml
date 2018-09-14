@@ -109,7 +109,7 @@
     <pre>
 pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
       Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbrowser&at;torproject.org&gt;
 sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
       Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
 sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
@@ -125,15 +125,15 @@ sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
 gpg: assuming signed data in 'torbrowser-install-<version-torbrowserbundle>_en-US.exe'
 gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET
 gpg:                using RSA key 0xD1483FA6C3C07136
-gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
+gpg: Good signature from "Tor Browser Developers (signing key) &lt;torbrowser&at;torproject.org&gt;" [unknown]
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
      Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
-    <p>Currently valid subkey fingerprints are:
+    <p>Currently valid subkey fingerprints are:</p>
     <pre>
 #include "subkey_fingerprints.wmi" TITLE="Tor Project: Subkey Fingerprints" CHARSET="UTF-8"
-    </pre></p>
+    </pre>
     <p>
     Notice that there is a warning because you haven't assigned a trust
     index to this person. This means that GnuPG verified that the key made
@@ -168,7 +168,7 @@ Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
     <pre>
 pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
       Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbrowser&at;torproject.org&gt;
 sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
       Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
 sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
@@ -190,16 +190,16 @@ sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
 gpg: assuming signed data in 'tor-browser-linux64-<version-torbrowserbundlelinux64>_en-US.tar.xz'
 gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET
 gpg:                using RSA key 0xD1483FA6C3C07136
-gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
+gpg: Good signature from "Tor Browser Developers (signing key) &lt;torbrowser&at;torproject.org&gt;" [unknown]
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
      Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
     </pre>
-    <p> Currently valid subkey fingerprints are:
+    <p>Currently valid subkey fingerprints are:</p>
     <pre>
 #include "subkey_fingerprints.wmi" TITLE="Tor Project: Subkey Fingerprints" CHARSET="UTF-8"
-    </pre></p>
+    </pre>
     <p>
     Notice that there is a warning because you haven't assigned a trust
     index to this person. This means that GnuPG verified that the key made

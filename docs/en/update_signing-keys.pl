@@ -2,8 +2,10 @@
 use strict;
 use warnings;
 
+# This script automatically updates the .wmi file with gpg as per:
 my $keysfile = "include/keys.txt";
 my $wmifile = 'include/keys.wmi';
+my $fpfile = 'include/subkey_fingerprints.wmi';
 my $forcekeyupdates = 0;
 my $skipkeyupdates = 0;
 
@@ -21,7 +23,7 @@ open my $kf, '<', "$keysfile" # read keys
 
 my %sections; # project => key owners
 my %owners; # key owner => string with all keys
-my @projects; # save sections in order of appearance
+my @apps; # save sections in order of appearance
 my $section;
 foreach (<$kf>) {
   # filters comment and empty lines
@@ -31,7 +33,7 @@ foreach (<$kf>) {
   } elsif (/^\[(.+)\]$/) {
     $section = "$1";
     $sections{"$section"} = ();
-    push (@projects, $section);
+    push (@apps, $section);
   # key owner with list of key id(s)
   } elsif (/^([^:]+):(.+)$/) {
     my $owner = "$1";
@@ -43,7 +45,7 @@ foreach (<$kf>) {
 }
 close $kf;
 my @owners = keys %owners;
-print "Loaded $keysfile. Found $#owners key owners in $#projects projects.\n";
+print "Loaded $keysfile. Found $#owners key owners for $#apps applications.\n";
 
 # If the keysfile did not change since the last run, we will not update them.
 # To update all keys anyway, set $forcekeyupdates = 1 above, or comment:
@@ -51,38 +53,36 @@ if (-f $wmifile && qx/[ $wmifile -nt $keysfile ]/) {
   $forcekeyupdates or $skipkeyupdates++;
 }
 
-open my $out, '>', "$wmifile"
-  or die "Could not write to $wmifile; $!\n";
-print $out "#!/usr/bin/env wml\n<p>
-This page is automatically generated from
-<a href='/include/keys.txt'>keys.txt</a>.
-The signing keys we use are:\n</p>\n<ul>\n";
+my $buffer = ''; # project overview string
 my %fingerprints;
-foreach my $project (@projects) {
-  my $owners = '';
-  my $suf = 's';
-  my @keysinproject;
+foreach my $app (@apps) {
+  print "\nUpdating keys for '$app':\n";
+  my ($keys, $subkey_fingerprints, $owners, $suf) = ('', '', '', 's');
+  my @keysforapp;
   # we grab the key owners for each project and iterate over their keys
-  foreach my $owner (@{$sections{"$project"}}) { # iterate over owners
+  foreach my $owner (@{$sections{"$app"}}) { # iterate over owners
     my $keys = $owners{"$owner"};
     # example for $keys: 0x165733EA, 0x8D29319A(signing key)
-    my $inbrackets = '';
+    my ($inbrackets, $inbrackets_html) = ('', '');
     $suf = '' if ($owners ne '');
     my @keys = split (',', $keys); 
     foreach my $key (@keys) { # iterate over keys
       # validate key format. all regexp are beautiful.
       if ($key =~ /^\s?(0x[^\(]+)(\(([^\)]+)\))?/) {
         my $key = $1; 
-        push (@keysinproject, $key);
+        my $keylink = "<a href='https://pgp.mit.edu/pks/lookup?search=$key&op=vindex&exact=on'>$key</a>";
+        push (@keysforapp, $key);
         # named alternative key
         if ($2) {
           $inbrackets .= " with its $3 $key";
         # first key
         } elsif ($inbrackets eq '') {
           $inbrackets = "$key";
+          $inbrackets_html = "$keylink";
         # second key
         } else {
-          $inbrackets .= " and $key";
+          $inbrackets = " and $key";
+          $inbrackets_html .= " and $keylink";
         }
       } else { # tell if the format is wrong
         print "Unrecognized key format: $key\n";
@@ -90,31 +90,81 @@ foreach my $project (@projects) {
     }
     my $sep = ($owners eq '') ? '' : ', ';
     # Add owner to the list
-    $owners .= "$sep$owner ($inbrackets)";
-    print " - $owner ($inbrackets) [$project]\n";
+    $owners .= "$sep$owner ($inbrackets_html)";
+    print " - $owner ($inbrackets)\n";
   }
-  if ($project eq 'other') {
-    print $out "<li>Other developers include $owners.</li>\n";
+  if ($app eq 'other') {
+    $buffer .= "<li>Other developers include $owners.</li>\n";
   } else {
-    $suf = 'ed' if ($project =~ /older/);
-    print $out "<li>$owners sign$suf <strong>$project</strong></li>\n";
+    $suf = 'ed' if ($app =~ /older/);
+    $buffer .= "<li>$owners sign$suf <strong>$app</strong></li>\n";
   }
-  foreach my $key (@keysinproject) {
-    # update keys form keyserver pool
+
+  # we update collected keys for this application and create a string of them
+  my $gpgcmd = "gpg --keyid-format 0xlong --fingerprint --with-subkey-fingerprints";
+  foreach my $key (@keysforapp) {
+    # update keys
     if ($forcekeyupdates or not $skipkeyupdates) {
-      print "Fetching $key from keyserver:\n";
-      qx/gpg --recv-key $key/ or die "Failed to fetch $key;
+      print "\nFetching $key\n";
+      my $gpgresult;
+      do { $gpgresult = system "gpg --recv-key $key"; sleep 1; }
+      while ($gpgresult != 0);
     }
+
+    # add output to key string
+    my $str = qx/$gpgcmd $key/;
+    # replace html codes
+    $str =~ s/</&lt;/g; $str =~ s/>/&gt;/g; $str =~ s/@/#/g; $str =~ s/@/&at;/g;
+    $keys .= "$str";
   }
-  # save gpg output for later
-  my $str = qx/gpg --list-keys --keyid-format 0xlong --with-fingerprint $keyids/;
-  $str =~ s/</&lt;/g; $str =~ s/>/&gt;/g; $str =~ s/@/#/g; # replace html codes
-  $fingerprints{"$project"} = "<pre>\n$str</pre>\n";
+  # save formatted string for project
+  $fingerprints{"$app"} = "<pre>\n$keys</pre>\n";
+
+  if ($app eq "Tor Browser releases") {
+    my $owner = "The Tor Browser Developers";
+    die "Did not findTor Browser signing key.\n" if ($owners{$owner} eq '');
+    # save Tor Browser signing key subkey fingerprints to $fpfile
+    my @fp = qx/$gpgcmd $owners{$owner}|grep "Key fingerprint"/;
+    shift @fp; # remove primary key fingerprint
+    $subkey_fingerprints .= join ('', map { s/^\s+Key fingerprint = //; "$_" } @fp);
+    if (open my $fpout, '>', "$fpfile.temp") {
+      print $fpout "#!/usr/bin/env wml\n$subkey_fingerprints";
+      close $fpout;
+      # check that the written file is not empty
+      my $written_lines = qx/wc -l "$fpfile.temp"|wc -l/;
+      if ($written_lines gt 0) {
+        rename "$fpfile.temp", "$fpfile" and
+          print "\nWrote following subkey fingerprints to $fpfile:\n$subkey_fingerprints"
+          or die "Could not overwrite $fpfile: $!\n";
+      } else { die "Created $fpfile.temp but it is empty.\n"; }
+    } else { die "Could not create temporary file $fpfile.temp.\n"; }
+  }
 }
+my @date = localtime;
+my $date = "$date[4]/$date[5]"; # Month/Year
 
 # print keys for each project to file
-print $out "</ul>\n<h2>Fingerprints</h2>\n<p>The fingerprints for the keys are:</p>\n";
-foreach my $project (@projects) {
-  print $out "<h3>$project</h3>\n". $fingerprints{"$project"};
+open my $html, '>', "$wmifile"
+  or die "Could not write to $wmifile; $!\n";
+
+print $html "#!/usr/bin/env wml
+<p>
+This page was automatically generated page from
+<a href='/include/keys.txt'>this file listing the gpg keys of our release teams</a>.
+To learn how to verify signatures, see <a href=\"<page docs/signing-keys>\">
+our manual</a>.
+</p>
+<p>
+As of $date the signing keys we use are:
+</p>
+
+<ul>
+$buffer
+</ul>
+<h2>Fingerprints</h2>\n<p>The fingerprints for the keys are:</p>\n";
+
+foreach my $app (@apps) {
+  print $html "<h3>$app</h3>\n". $fingerprints{"$app"};
 }
-close $out; print "Wrote $wmifile.\n"; exit 0;
+close $html;
+print "\nWrote $wmifile.\n";
