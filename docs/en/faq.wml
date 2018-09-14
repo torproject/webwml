@@ -93,6 +93,10 @@
     run another application through Tor.</a></li>
     <li><a href="#CantSetProxy">What should I do if I can't set a proxy
     with my application?</a></li>
+    <li><a href="#TBBUseOtherTor">How do I make Tor Browser use the tor that is
+    already running on the system?</a></li>
+    <li><a href="#TBBEnvVar">Which environment variables does Tor Launcher
+    respect?</a></li>
     </ul>
 
     <a id="tbb-3plus"></a>
@@ -1410,7 +1414,7 @@
     First (best option), if you're on Linux, you can install the
     <a href="<page download/download-unix>">system Tor package</a>
     (e.g. apt-get install tor) and then set it up to be a relay
-    (<a href="https://www.torproject.org/docs/tor-relay-debian">instructions</a>).
+    (<a href="/docs/tor-relay-debian">instructions</a>).
     You can then use TBB independent of that.
     </p>
 
@@ -1426,6 +1430,172 @@
     </pre>
 
     <hr>
+
+    <a id="TBBUseOtherTor"></a>
+    <h3><a class="anchor" href="#TBBUseOtherTor">
+    How do I make Tor Browser use the tor that is already running on the system?
+    </a></h3>
+
+    <p>
+    Are you sure you want to do this? The Tor Browser runs tor using different
+    ports so it can co-exist happily with the tor process already running on
+    your system. Furthermore if you are running a relay, it may be better to
+    run another tor instance for all of your personal Tor usage.
+    </p>
+
+    <p><strong>
+    Note: Using Tor Browser in this manner is <tt>NOT OFFICIALLY SUPPORTED</tt>.
+    <br/>
+    If this does not work or randomly clobbers your torrc, you are on your own.
+    </strong></p>
+
+    <p>
+    If you are using the Tor Project's
+    <a href="<page docs/debian>">Debian/Ubuntu packages</a>
+    (You ran <tt>apt-get install tor</tt> at some point):
+    </p>
+
+    <p>
+    Add the user you will be running Tor Browser as to the debian-tor group.
+    Set the following environment variables:
+    </p>
+
+    <pre>
+    export TOR_SKIP_LAUNCH=1
+    export TOR_SOCKS_PORT=9050
+    export TOR_CONTROL_PORT=9051
+    export TOR_CONTROL_COOKIE_AUTH_FILE=/var/run/tor/control.authcookie
+    </pre>
+
+    <p>
+    Start Tor Browser.
+    </p>
+
+    <pre>
+    $ ./start-tor-browser.sh
+    </pre>
+
+    <p>
+    If you wish to use password authentication for the control port,
+    you will need to wait till #9936 is fixed.
+    </p>
+
+    <hr/>
+
+    <a id="TBBEnvVar"></a>
+    <h3><a class="anchor" href="#TBBEnvVar">
+    Which environment variables does Tor Launcher respect?
+    </a></h3>
+
+    <p>
+    Following settings can be changed but be aware that this is
+    <strong>not recommended</strong> and can harm your anonymity.
+    </p>
+
+    <p>
+    In the default situation (without <tt>TOR_CONFIGURE_ONLY</tt> and without
+    <tt>TOR_SKIP_LAUNCH</tt>), Tor Launcher starts tor and then issues a
+    TAKEOWNERSHIP command via tor's control port so that the tor process will
+    automatically exit when Tor Launcher's control port connection is closed.
+    That way we have a much lower risk of an old tor process hanging around if
+    the browser is killed or if it crashes. But when <tt>TOR_CONFIGURE_ONLY=1</tt>
+    and <tt>TOR_SKIP_LAUNCH=1</tt> are set, Tor Launcher does not TAKEOWNERSHIP
+    (the assumption being that if Tor Launcher did not start the tor process,
+    it is someone else's problem to control its life cycle).
+    </p>
+
+    <ul>
+      <li>
+        <tt>TOR_SKIP_LAUNCH</tt>:
+        if set to 1, do not start a tor process, and, unless
+        <tt>TOR_CONFIGURE_ONLY</tt> is set to 1, do to not try to configure Tor
+        (that is, do not make a control port connection).
+        Values other than 1 have no effect
+        <br/>(default: false)
+      </li>
+      <li>
+        <tt>TOR_CONFIGURE_ONLY</tt>:
+        if set to 1, do not start Tor but try to connect via the control
+        port to configure Tor. Tor Launcher will not try to become the primary
+        controller. Values other than 1 have no effect.
+        <br/>(default: false)
+      </li>
+      <li>
+        <tt>TOR_FORCE_NET_CONFIG</tt>:
+        if set to 1, display the Tor Network Settings wizard at startup
+        (the value of the extensions.torlauncher.prompt_at_startup hidden
+        preference is ignored). Values other than 1 have no effect.
+        Used by Tails.
+        <br/>(default: false)
+      </li>
+      <li>
+        <tt>TOR_TRANSPROXY</tt>:
+        if set to 1, enables Torbutton's transparent proxy mode, which is
+        used if you have a Tor Router or some other set up that does not
+        require that the browser connect to Tor via a SOCKS proxy.
+        <br/>(default: false)
+      </li>
+      <li>
+        <tt>TOR_CONTROL_PASSWD</tt>:
+        if this is not set or if it is an empty string, Tor Launcher will
+        generate a random password.
+        <br/>(default: empty)
+      </li>
+      <li>
+        <tt>TOR_CONTROL_COOKIE_AUTH_FILE</tt>:
+        if <tt>TOR_CONTROL_PASSWD</tt> is set, its value is used as the password.
+        If <tt>TOR_CONTROL_PASSWD</tt> is not set but
+        <tt>TOR_CONTROL_COOKIE_AUTH_FILE</tt> is, then the cookie contained in
+        the file that <tt>TOR_CONTROL_COOKIE_AUTH_FILE</tt> points to is used
+        to authenticate to tor. If neither one is set, a random password is
+        generated and used.
+        <br/>(default: empty)
+      </li>
+      <li>
+        <tt>TOR_CONTROL_HOST</tt>:
+        if set, it becomes part of the CONTROLPORT setting.
+        <br/>(default: 127.0.0.1)
+      </li>
+      <li>
+        <tt>TOR_CONTROL_PORT</tt>:
+        if set, it replaces the default CONTROLPORT.
+        <br/>(default: 9151)
+      </li>
+      <li>
+        <tt>TOR_SOCKS_HOST</tt>:
+        if set, it becomes part of the SOCKSPORT setting
+        <br/>(default: empty)
+      </li>
+      <li>
+        <tt>TOR_SOCKS_PORT</tt>:
+        if set, it replaces the default SOCKSPORT
+        <br/>(default: 9050)
+      </li>
+    </ul>
+
+    <p>
+    There are Firefox preferences that correspond to some of the environment
+    variables. If an env variable is set the equivalent preference setting is
+    overwritten:
+    </p>
+
+    <ul>
+      <li><tt>TOR_SKIP_LAUNCH=1</tt>:
+      extensions.torlauncher.start_tor=false (default: true)
+      </li>
+      <li><tt>TOR_CONFIGURE_ONLY=1</tt>:
+      extensions.torlauncher.only_configure_tor=true (default: false)
+      </li>
+      <li><tt>TOR_FORCE_NET_CONFIG=1</tt>:
+      extensions.torlauncher.prompt_at_startup=true (The default value of
+      <tt>extensions.torlauncher.prompt_at_startup</tt> is true but Tor Launcher
+      automatically changes it to false after a successful Tor bootstrap, and
+      automatically changes it to false after a failed bootstrap. So this one
+      is not useful to set manually.)
+      </li>
+    </ul>
+
+    <hr/>
 
     <a id="Timestamps"></a>
     <h3><a class="anchor" href="#Timestamps">Why are the file timestamps
