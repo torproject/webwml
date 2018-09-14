@@ -1,7 +1,12 @@
 #!/usr/bin/env wml
-<p>The signing keys we use are:</p>
+<p>
+This page is automatically generated from
+<a href='/include/keys.txt'>keys.txt</a>.
+The signing keys we use are:
+</p>
+
 <ul>
-<li>The Tor Browser Developers (0x4E2C6E8793298290), Mike Perry (0x29846B3C683686CC), Georg Koppen (0x4B7C3223), Nicolas Vigier (0xE5B81856D0220E4B), Linus Nordberg (0x23291265), Arthur Edelstein (0xD752F538C0D38C3A) sign <strong>Tor Browser releases</strong></li>
+<li>The Tor Browser Developers (0x4E2C6E8793298290), Mike Perry (0x29846B3C683686CC), Georg Koppen (0xD1483FA6C3C07136), Nicolas Vigier (0xE5B81856D0220E4B), Arthur Edelstein (0xD752F538C0D38C3A) sign <strong>Tor Browser releases</strong></li>
 <li>Roger Dingledine (0x28988BF5 and 0x19F78451), Nick Mathewson (0x165733EA with its signing key 0x8D29319A) sign <strong>Tor source tarballs</strong></li>
 <li>Nick Mathewson (0x165733EA with its signing key 0x8D29319A) signed <strong>older Tor tarballs</strong></li>
 <li>Tor Project Archive (0xEE8CBC9E886DDD89) signs <strong>deb.torproject.org repositories and archives</strong></li>
@@ -29,36 +34,14 @@ uid                   [ unknown] Mike Perry (Regular use key) &lt;mikeperry#torp
 sub   rsa4096/0x004AD1045BA0FE28 2017-10-31 [S] [expires: 2018-10-31]
 sub   rsa4096/0xEEC50E9938F9F4E9 2017-10-31 [E] [expires: 2018-10-31]
 
-pub   rsa4096/0x4FEA46574B7C3223 2014-06-16 [SCEA] [revoked: 2016-08-16]
-      Key fingerprint = DFE0 2163 0B44 5B24 DE2D  CDAC 4FEA 4657 4B7C 3223
-uid                   [ revoked] Georg Koppen &lt;georg#getfoxyproxy.org&gt;
-
-pub   rsa4096/0x94373AA94B7C3223 2013-07-30 [SC]
-      Key fingerprint = 35CD 74C2 4A9B 15A1 9E1A  81A1 9437 3AA9 4B7C 3223
-uid                   [ unknown] Georg Koppen &lt;gk#torproject.org&gt;
-uid                   [ unknown] Georg Koppen &lt;groeg#vfemail.net&gt;
-uid                   [ unknown] Georg Koppen &lt;georg#getfoxyproxy.org&gt;
-sub   rsa4096/0x5778071EE2DE675B 2017-09-11 [E] [expires: 2018-09-11]
-sub   rsa4096/0x72E841BB93148AD2 2017-09-11 [S] [expires: 2018-09-11]
+pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
+      Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
+uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbrowser#torproject.org&gt;
+sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
 
 pub   rsa4096/0xE5B81856D0220E4B 2014-03-19 [SC]
       Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
 uid                   [ unknown] Nicolas Vigier (TBB Builds Signing Key) &lt;boklm#torproject.org&gt;
-
-pub   rsa4096/0x1E8BF34923291265 2010-05-07 [SC]
-      Key fingerprint = 8C4C D511 095E 982E B0EF  BFA2 1E8B F349 2329 1265
-uid                   [ unknown] Linus Nordberg &lt;linus#nordberg.se&gt;
-uid                   [ unknown] Linus Nordberg &lt;linus#dfri.se&gt;
-uid                   [ unknown] Linus Nordberg &lt;linus#sunet.se&gt;
-uid                   [ unknown] Linus Nordberg &lt;linus#nordu.net&gt;
-uid                   [ unknown] Linus Nordberg &lt;linus#torproject.org&gt;
-uid                   [ unknown] [jpeg image of size 2906]
-sub   rsa4096/0xC1788C2B0B3120D3 2018-02-17 [A]
-sub   rsa4096/0x9DC3E9C66DDABD48 2018-04-11 [E] [expires: 2019-04-11]
-
-pub   rsa4096/0xAADF069E23291265 2014-06-16 [SCEA] [revoked: 2016-08-16]
-      Key fingerprint = 43D1 9E7B DB63 A474 0B0C  B555 AADF 069E 2329 1265
-uid                   [ revoked] Linus Nordberg &lt;linus#nordberg.se&gt;
 
 pub   rsa2048/0xD752F538C0D38C3A 2014-12-10 [SC]
       Key fingerprint = 20B2 4CEF E6AF D615 0B6A  6F18 D752 F538 C0D3 8C3A
@@ -101,12 +84,30 @@ uid                   [ unknown] [jpeg image of size 3369]
 sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
 sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
 
+pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
+      Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
+uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
+uid                   [ unknown] [jpeg image of size 3369]
+sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
+sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
+
 </pre>
 <h3>older Tor tarballs</h3>
 <pre>
 pub   rsa1024/0xD50624EC165733EA 2014-06-16 [SCEA] [revoked: 2016-08-16]
       Key fingerprint = 33DC 81DC C099 4E0A 10D8  048B D506 24EC 1657 33EA
 uid                   [ revoked] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
+
+pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
+      Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
+uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
+uid                   [ unknown] [jpeg image of size 3369]
+sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
+sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
 
 pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
       Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
@@ -142,13 +143,14 @@ sub   elg2048/0x04F1B63D146276B2 2009-06-17 [E]
 </pre>
 <h3>Tails live system releases</h3>
 <pre>
-pub   rsa4096/0xDBB802B258ACD84F 2015-01-18 [C] [expires: 2019-01-11]
+pub   rsa4096/0xDBB802B258ACD84F 2015-01-18 [C] [expires: 2020-01-11]
       Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
-uid                   [ unknown] Tails developers &lt;tails#boum.org&gt;
 uid                   [ unknown] Tails developers (offline long-term identity key) &lt;tails#boum.org&gt;
-sub   ed25519/0x90B2B4BD7AED235F 2017-08-28 [S] [expires: 2019-01-11]
-sub   rsa4096/0xD21DAD38AF281C0B 2017-08-28 [S] [expires: 2019-01-11]
-sub   rsa4096/0x3020A7A9C2B72733 2017-08-28 [S] [expires: 2019-01-11]
+uid                   [ unknown] Tails developers &lt;tails#boum.org&gt;
+sub   ed25519/0x90B2B4BD7AED235F 2017-08-28 [S] [expires: 2020-01-11]
+sub   rsa4096/0xD21DAD38AF281C0B 2017-08-28 [S] [expires: 2020-01-11]
+sub   rsa4096/0x3020A7A9C2B72733 2017-08-28 [S] [expires: 2020-01-11]
+sub   rsa4096/0xA8B0F4E45B1B50E2 2018-08-30 [S] [expires: 2020-01-11]
 
 </pre>
 <h3>Torsocks releases</h3>
