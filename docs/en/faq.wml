@@ -214,6 +214,8 @@
     <li><a href="#AccessOnionServices">How do I access onion services?</a></li>
     <li><a href="#ProvideAnOnionService">How do I provide an onion service?
     </a></li>
+    <li><a href="#CookieAuthOnionService">How do I set up cookie authentication
+    for an onion service?
     </ul>
 
     <a id="dev"></a>
@@ -3086,6 +3088,17 @@ href="https://www.noisebridge.net/wiki/Noisebridge_Tor">Noisebridge</a>
     <p>
     See the <a href="<page docs/tor-onion-service>">
     official onion service configuration instructions</a>.
+    </p>
+
+    <hr>
+
+    <a id="CookieAuthOnionService"></a>
+    <h3><a class="anchor" href="#CookieAuthOnionService">How do set up cookie
+    authentication for an onion service?</a></h3>
+
+    <p>
+    See the <a href="<page docs/tor-onion-service>#CookieAuthentication">
+    "Cookie authentication" in the official onion service configuration instructions</a>.
     </p>
 
     <hr>
