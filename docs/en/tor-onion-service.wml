@@ -225,8 +225,38 @@
     HiddenServicePort 22 127.0.0.1:22
     </pre>
 
+    <p>
     To set up an onion service on Raspbian have a look at Alec Muffett's
     <a href="https://github.com/alecmuffett/eotk">Enterprise Onion Toolkit</a>.
+    </p>
+
+    <h3><a name="CookieAuthentication">Cookie authentication</a></h3>
+
+    <p>To set up cookie authentication add following lines to your
+    <a href="<page docs/faq>#torrc">torrc</a> as specified for
+    <a href="<page docs/tor-manual>#HidServAuth">HidServAuth</a> and
+    <a href="<page docs/tor-manual>#HiddenServiceAuthorizeClient">
+    HiddenServiceAuthorizeClient</a> in the manual.
+    First add following line to the torrc file of your onion service:
+    </p>
+    <pre>
+    HiddenServiceAuthorizeClient [auth-type] [service-name]
+    </pre>
+    <p>
+    Then restart/reload tor and read the cookie from the hostname file of your
+    onion service, for example in
+    <tt>/var/lib/tor/hidden_service_path/hostname</tt>.
+    To access it with another tor service add following line to torrc
+    and (re)start/reload it:
+    </p>
+    <pre>
+    HidServAuth [onion-address] [auth-cookie] [service-name]
+    </pre>
+    <p>
+    You are now able to browse to the onion service address.
+    </p>
+
+    <h3><a name="OpSec">Operational security</a></h3>
 
     <p>Onion services operators need to practice proper
     <a href="https://trac.torproject.org/projects/tor/wiki/doc/OperationalSecurity">
