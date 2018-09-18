@@ -1,0 +1,340 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 3-low
+
+#include "head.wmi" TITLE="Tor Project: Community Projects Overview" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+<div id="breadcrumbs">
+<a href="<page index>">Home &raquo; </a>
+<a href="<page projects/projects>">Projects Overview &raquo; </a>
+<a href="<page projects/community>">Community</a>
+</div>
+<div id="maincol">
+<h1>Tor Community Projects</h1>
+<p>The Tor community of software and services aims to make your Internet
+experience safer and better.</p>
+
+<!-- for users -->
+
+<!-- Onionshare -->
+<div class="projectbox">
+<a href="https://onionshare.org"><img src="$(IMGROOT)/icon-onionshare.png"
+alt="Onionshare icon" width="80"></a>
+<div class="projectdesc"><div class="name">
+<a href="https://onionshare.org">Onionshare</a></div>
+<p>
+OnionShare is an open source tool that lets you securely and anonymously share
+a file of any size.
+</p>
+</div>
+</div>
+
+<!-- SecureDrop -->
+<div class="projectbox">
+<a href="https://securedrop.org/"><img class="icon"
+src="$(IMGROOT)/icon-securedrop.png" alt="SecureDrop icon" width="80"></a>
+<div class="projectdesc"><div class="name">
+<a href="https://securedrop.org/">SecureDrop</a>
+</div>
+<p>
+SecureDrop (<a href="http://secrdrop5wyphb5x.onion">secrdrop5wyphb5x.onion</a>) is an open source whistleblower submission system that media
+organizations can install to securely accept documents from anonymous sources.
+It was originally coded by the late Aaron Swartz and is now managed by
+<a href="https://freedom.press/">Freedom of the Press Foundation</a>.
+</p>
+</div></div>
+
+<!-- Globaleaks -->
+<div class="projectbox">
+<a href="https://www.globaleaks.org/"><img class="icon"
+src="$(IMGROOT)/icon-globaleaks.png" alt="Globaleaks icon" width="80"></a>
+<div class="projectdesc"><div class="name">
+<a href="https://www.globaleaks.org/">Globalleaks</a></div> <p>
+GlobaLeaks is an open-source, free software intended to enable secure and
+anonymous whistleblowing initiatives. The software is developed by the
+<a href="https://www.hermescenter.org/">Hermes Center for Transparency and
+Digital Human Rights</a>.
+</p>
+</div></div>
+
+<!-- ChatSecure -->
+<div class="projectbox">
+<a href="https://chatsecure.org/"><img class="ChatSecure icon"
+src="$(IMGROOT)/icon-chatsecure.png" width="80"></a>
+<div class="projectdesc"><div class="name">
+<a href="https://chatsecure.org/">ChatSecure</a></div>
+<p>
+ChatSecure is a messaging application for iOS which allows OTR and OMEMO
+encryption for the XMPP protocol. ChatSecure is free and open source software
+available under the GNU General Public License. ChatSecure also features
+built-in support for anonymous communication on the Tor network.
+</p>
+</div>
+</div>
+
+<!-- Cwtch -->
+<div class="projectbox">
+<a href="https://cwtch.im/"><img class="icon" src="$(IMGROOT)/cwtch-logo.png"
+alt="Cwtch icon" width="80"></a>
+<div class="projectdesc"><div class="name">
+<a href="https://cwtch.im/">Cwtch</a>
+</div>
+<p>Cwtch is an extension of the metadata resistant protocol Ricochet to support
+asynchronous, multi-peer group communications through the use of discardable,
+untrusted, anonymous infrastructure.
+</p>
+<p>
+<strong>Warning:</strong> Cwtch is an experimental prototype. Please do not use
+it for anything where security, privacy, or anonymity is critical.
+</p>
+</div></div>
+
+<!-- Ricochet -->
+<div class="projectbox">
+<a href="https://Ricochet.im"><img class="icon" src="$(IMGROOT)/ricochet.png"
+alt="Ricochet icon" width="80"></a>
+<div class="projectdesc"><div class="name">
+<a href="https://Ricochet.im">Ricochet</a>
+</div>
+<p>Ricochet IM is an open-source, decentralized instant messenger project that
+utilities the Tor network by design. It starts a Tor onion service on the users
+local system and facilitates communication with other Ricochet users who are
+also running their own Ricochet-created Tor onion service, providing End-to-End
+encryption by never allowing the connection to leave the Tor network.
+</p>
+<p>
+<strong>Warning:</strong> On some operating systems, Ricochet ships with
+Tor 0.2.8.9. Tor 0.2.8.9 has several known onion service security issues,
+including TROVE-2016-12-002 and later. Tor 0.2.8 has not been supported since
+1 January 2018. Please update to a supported tor version before launching
+Ricochet. Development stalled in November 2016, though it has been relatively
+stable in the time since.
+</p>
+<p>
+See also our wiki page
+<a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/InstantMessaging">
+Torify HOWTO / Instant Messaging</a>
+</p>
+</div></div>
+
+<!-- Ahmia -->
+<div class="projectbox">
+<a href="https://ahmia.fi/"><img class="icon"
+src="$(IMGROOT)/ahmialogo.png" alt="Ahmia Icon" width="80"></a>
+<div class="projectdesc">
+<div class="name"><a
+href="https://ahmia.fi/">Ahmia - Onion Service Search</a></div>
+<p>
+Ahmia (<a href="http://msydqstlz2kzerdg.onion/">msydqstlz2kzerdg.onion</a>)
+is open-source search engine software that indexes, searches, and catalogs
+content published on Tor Onion Services. Furthermore, it is an environment to
+share meaningful insights, statistics, insights, and news about the Tor network
+itself. In this context, there is a lot of work to do.
+</p>
+<p>
+The Ahmia web service is written using the Django web framework. As a result,
+the server-side language is Python. On the client-side, most of the pages are
+plain HTML. There are some pages that require JavaScript, but the search itself
+works without client-side JavaScript.
+</p>
+</div>
+</div>
+
+<!-- Orchid -->
+<div class="projectbox">
+<a href="https://github.com/mhatta/Orchid"><img class="icon"
+src="$(IMGROOT)/icon-orchid.png" alt="OONI Icon" width="80"></a>
+<div class="projectdesc">
+<div class="name"><a href="https://github.com/mhatta/Orchid">Orchid</a></div>
+<p>
+Orchid is a Tor client implementation and library written in pure Java.
+Orchid runs on Java 5+ and the Android devices. It can be used to Tor-ify Java
+and JVM applications with near transparency. In a basic use case, running
+Orchid will open a SOCKS5 listener which can be used as a standalone client
+where Tor would otherwise be used.
+</p>
+<p>
+See our list of
+<a href="http://trac.torproject.org/projects/tor/wiki/doc/ListOfTorImplementations">
+other Tor implementations</a>
+</p>
+</div>
+</div>
+
+<!-- HTTPS Everywhere -->
+<div class="projectbox">
+<a href="https://www.eff.org/https-everywhere"><img class="icon"
+src="$(IMGROOT)/icon-https-everywhere.png" alt="HTTPS Everywhere icon" width="80"></a>
+<div class="projectdesc"><div class="name"><a
+href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></div>
+<p>HTTPS Everywhere is a Firefox and Chrome extension that encrypts your
+communications with many major websites, making your browsing more secure.
+</p>
+</div></div>
+
+<!-- NoScript -->
+<div class="projectbox">
+<a href="https://noscript.net"><img class="icon"
+src="$(IMGROOT)/icon-noscript.png" alt="NoScript Icon" width="75"
+height="75"></a>
+<div class="projectdesc"><div class="name"><a
+href="https://noscript.net">NoScript</a></div>
+<p>
+NoScript allows JavaScript, Flash (and other plugins) only for trusted domains
+of your choice (e.g. your home-banking web site). This whitelist based
+pre-emptive blocking approach prevents exploitation of security vulnerabilities
+(known and even unknown).
+</p>
+</div></div>
+
+
+<!-- for operators -->
+
+<!-- bine -->
+<div class="projectbox">
+<!--<a href="https://github.com/cretz/bine"><img class="icon"
+src="$(IMGROOT)/icon-carml.png" alt="carml icon" width="75"
+height="75"></a>-->
+<div class="projectdesc">
+<div class="name"><a
+href="https://github.com/cretz/bine">bine</a></div>
+<p>
+bine is a
+<a href="https://stem.torproject.org/faq.html#are-there-any-other-controller-libraries">Tor controller</a>
+written in Go. Its README has an example config to set up an onion service.
+</p>
+</div>
+</div>
+
+<!-- carml -->
+<div class="projectbox">
+<a href="https://meejah.ca/projects/carml"><img class="icon"
+src="$(IMGROOT)/icon-carml.png" alt="carml icon" width="75"
+height="75"></a>
+<div class="projectdesc">
+<div class="name"><a
+href="https://meejah.ca/projects/carml">carml</a></div>
+<p>
+carml is a command-line collection of utilities to query and manipulate a
+running Tor. It does terminal colours, plays nicely with grep, pipes and so
+forth and is easily extensible.
+</p>
+</div>
+</div>
+
+<!-- Whonix -->
+<div class="projectbox">
+<a href="https://www.whonix.org/"><img class="icon"
+src="$(IMGROOT)/icon-whonix.png" alt="Whonix Icon" width="80"></a>
+<div class="projectdesc"><div class="name"><a
+href="https://www.whonix.org/">Whonix</a></div>
+<p>
+Whonix is a Debian GNU/Linux based security-focused Linux distribution.
+It aims to provide privacy, security and anonymity on the internet.
+The operating system consists of two virtual machines, a "Workstation" and a
+Tor "Gateway", running Debian GNU/Linux. All communications are forced through
+the Tor network to accomplish this.
+</p>
+</div></div>
+
+<!-- OnionBalance -->
+<div class="projectbox">
+<!--<a href="https://onionbalance.readthedocs.io/en/latest/"><img class="icon"
+src="$(IMGROOT)/icon-onionbalance.png" alt="OnionBalance Icon" width="80"></a>-->
+<div class="projectdesc">
+<div class="name">
+<a href="https://onionbalance.readthedocs.io/en/latest/">OnionBalance</a></div>
+<p>
+OnionBalance provides load-balancing and redundancy for Tor hidden services by
+distributing requests to multiple backend Tor instances.
+<a href="https://github.com/DonnchaC/onionbalance">source</a>
+</p>
+<p>
+As of September 2018 support for
+<a href="http://trac.torproject.org/projects/tor/wiki/doc/NextGenOnions">
+Next-Generation Onion Services</a>
+was
+<a href="https://github.com/DonnchaC/onionbalance/issues/69">in development</a>.
+</p>
+</div>
+</div>
+
+<!-- for developers -->
+
+<div id="outdated" class="projectbox">
+<h1>Deprecated Community Projects</h1>
+<p>
+Following projects have been useful in the past but are no longer maintained
+and may have security issues.<br/>
+They can still be interesting for developers.
+</p>
+</div>
+
+<!-- tor-ramdisk -->
+<div class="projectbox">
+<!--<a href="https://en.wikipedia.org/wiki/Tor-ramdisk"><img class="Tor-ramdisk icon"
+src="$(IMGROOT)/icon-.png" alt="Tor-ramdisk Logo" width="80"
+height="75"></a>-->
+<div class="projectdesc"><div class="name">
+<a href="https://en.wikipedia.org/wiki/Tor-ramdisk">Tor-ramdisk</a></div>
+<p>
+Tor-ramdisk is an i686 uClibc-based micro Linux distribution whose only purpose
+is to host a Tor server in an environment that maximizes security and privacy.
+Tor is a network of virtual tunnels that allows people and groups to improve
+their privacy and security on the Internet. Security is enhanced in Tor-ramdisk
+by employing a monolithically compiled GRSEC/PaX patched kernel and hardened
+system tools.
+</p>
+</div></div>
+
+<!-- Roster -->
+<div class="projectbox">
+<!--<a href="https://github.com/seansaito/Roster"><img class="icon"
+src="$(IMGROOT)/icon-roster.png" alt="Roster Icon" height="80"></a>-->
+<div class="projectdesc">
+<div class="name"><a
+href="https://github.com/seansaito/Roster">Roster</a></div>
+<p>
+Roster is a Tor project that awards points and badges to relay operators based
+on the performance of their families
+</p>
+</div>
+</div>
+
+<!-- OnionTip -->
+<div class="projectbox">
+<!--<a href="https://github.com/DonnchaC/oniontip"><img class="icon"
+src="$(IMGROOT)/icon-oniontip.png" alt="OnionTip Icon" width="75"></a>-->
+<div class="projectdesc">
+<div class="name"><a
+href="https://github.com/DonnchaC/oniontip">OnionTip</a></div>
+<p>
+OnionTip is a web app which parses Tor relay data to allow users to tip
+volunteers for running relay in a fair and open way. https://oniontip.com
+</p>
+</div>
+</div>
+
+<!-- Cupcake -->
+<div class="projectbox">
+<!--<a href="https://github.com/glamrock/cupcake"><img class="icon"
+src="$(IMGROOT)/icon-Cupcake.jpg" alt="Cupcake Icon" width="75"
+height="75"></a>-->
+<div class="projectdesc"><div class="name"><a
+href="https://github.com/glamrock/cupcake">Cupcake</a></div>
+<p>
+Cupcake Bridge helps users making bridges automagically with a browser
+extension for Chrome and Firefox
+</p>
+</div></div>
+
+</div>
+<!-- END MAINCOL -->
+<div id = "sidecol">
+#include "side.wmi"
+#include "info.wmi"
+</div>
+<!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
