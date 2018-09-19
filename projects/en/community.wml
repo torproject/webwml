@@ -256,17 +256,6 @@ was
 </div>
 </div>
 
-<!-- for developers -->
-
-<div id="outdated" class="projectbox">
-<h1>Deprecated Community Projects</h1>
-<p>
-Following projects have been useful in the past but are no longer maintained
-and may have security issues.<br/>
-They can still be interesting for developers.
-</p>
-</div>
-
 <!-- tor-ramdisk -->
 <div class="projectbox">
 <!--<a href="https://en.wikipedia.org/wiki/Tor-ramdisk"><img class="Tor-ramdisk icon"
@@ -283,6 +272,17 @@ by employing a monolithically compiled GRSEC/PaX patched kernel and hardened
 system tools.
 </p>
 </div></div>
+
+<!-- for developers -->
+
+<div id="outdated" class="projectbox">
+<h1>Deprecated Community Projects</h1>
+<p>
+Following projects have been useful in the past but are no longer maintained
+and may have security issues.<br/>
+They can still be interesting for developers.
+</p>
+</div>
 
 <!-- Roster -->
 <div class="projectbox">
