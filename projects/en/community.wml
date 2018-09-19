@@ -175,8 +175,7 @@ communications with many major websites, making your browsing more secure.
 <!-- NoScript -->
 <div class="projectbox">
 <a href="https://noscript.net"><img class="icon"
-src="$(IMGROOT)/icon-noscript.png" alt="NoScript Icon" width="75"
-height="75"></a>
+src="$(IMGROOT)/icon-noscript.png" alt="NoScript Icon" width="80"></a>
 <div class="projectdesc"><div class="name"><a
 href="https://noscript.net">NoScript</a></div>
 <p>
@@ -192,9 +191,8 @@ pre-emptive blocking approach prevents exploitation of security vulnerabilities
 
 <!-- bine -->
 <div class="projectbox">
-<!--<a href="https://github.com/cretz/bine"><img class="icon"
-src="$(IMGROOT)/icon-carml.png" alt="carml icon" width="75"
-height="75"></a>-->
+<a href="https://github.com/cretz/bine"><img class="icon"
+src="$(IMGROOT)/icon-bine.png" alt="carml icon" width="80"></a>
 <div class="projectdesc">
 <div class="name"><a
 href="https://github.com/cretz/bine">bine</a></div>
@@ -209,8 +207,7 @@ written in Go. Its README has an example config to set up an onion service.
 <!-- carml -->
 <div class="projectbox">
 <a href="https://meejah.ca/projects/carml"><img class="icon"
-src="$(IMGROOT)/icon-carml.png" alt="carml icon" width="75"
-height="75"></a>
+src="$(IMGROOT)/icon-carml.png" alt="carml icon" width="80"></a>
 <div class="projectdesc">
 <div class="name"><a
 href="https://meejah.ca/projects/carml">carml</a></div>
