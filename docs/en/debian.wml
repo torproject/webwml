@@ -183,7 +183,7 @@ of Tor instead (more features and more bugs), you need add a different set of
 lines to your <i>/etc/apt/sources.list</i> file:<br />
 <blockquote><pre>
 deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;DISTRIBUTION&gt; main
+deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.5.x-&lt;DISTRIBUTION&gt; main
 </pre></blockquote>
 </p>
 
@@ -228,7 +228,7 @@ deb-src https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 
 &num; For the unstable version.
 deb-src https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb-src https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;DISTRIBUTION&gt; main
+deb-src https://deb.torproject.org/torproject.org tor-experimental-0.3.5.x-&lt;DISTRIBUTION&gt; main
 </pre></blockquote>
 <p>
 Substitute the name of your distro (stretch, buster, sid, xenial, ...) in
