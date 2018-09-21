@@ -11,8 +11,32 @@
 </div>
 <div id="maincol">
 <h1>Tor Community Projects</h1>
-<p>The Tor community of software and services aims to make your Internet
-experience safer and better.</p>
+<p>
+The Tor <a href="https://lists.torproject.org/pipermail/tor-community-team/">
+community</a> is more than software. It consists of
+<a href="<page getinvolved/mirrors>">mirror</a>
+and <a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">
+relay operators</a> <a href="<page getinvolved/volunteer>">
+like you</a>. Many work on <a href="https://newsletter.torproject.org">
+outreach</a> and
+<a href="https://media.torproject.org">media</a> presentations,
+<a href="<page eff/tor-legal-faq>">advocacy</a>,
+<a href="https://lists.torproject.org/pipermail/tor-teachers/">teaching</a>,
+<a href="https://survey.torproject.org">collecting feedback</a>,
+answering <a href="https://support.torproject.org">support</a> questions,
+writing <a href="https://tb-manual.torproject.org">manuals</a>,
+maintaining <a href="https://onion.torproject.org/">websites and services</a>,
+providing <a href="https://metrics.torproject.org">stats</a>
+about the <a href="https://consensus-health.torproject.org">
+health</a> of the network and
+<a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam#Projects">
+a lot  more</a>. Also make sure to check out our
+<a href="https://blog.torproject.org/tor-heart-pets-and-privacy-research-community">
+research community</a>.
+
+<!-- Software -->
+<p>We recommend following software projects and services by the Tor community
+that aim to make your internet experience safer and better.</p>
 
 <!-- for users -->
 
