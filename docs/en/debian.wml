@@ -315,6 +315,11 @@ Now refresh your sources and try if it's still possible to install tor:
 &num; apt install tor
 </pre></blockquote>
 <p>
+The <a href="https://salsa.debian.org/apt-team/apt-transport-tor/raw/master/README.md">
+README</a> of apt-transport-tor has more information for example how to use
+another SocksPort.
+</p>
+<p>
 See <a href="https://onion.torproject.org/">onion.torproject.org</a>
 for all torproject.org onion addresses.</p>
 </p>
