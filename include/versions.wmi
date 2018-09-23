@@ -1,5 +1,7 @@
 <define-tag version-stable whitespace=delete>0.3.4.8</define-tag>
 <define-tag version-alpha whitespace=delete>0.3.5.3-alpha</define-tag>
+<define-tag development-branch whitespace=delete>0.3.5.x</define-tag>
+# If you change the development branch, please also update docs/debian-selector.js
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.5</define-tag>
 
