@@ -9,6 +9,10 @@
     <a href="<page getinvolved/volunteer>">Volunteer</a>
   </div>
   <div id="maincol">
+    <div class="joblink">
+      <a href="<page about/jobs>">We're hiring! &raquo;</a>
+    </div>
+
     <!-- PUT CONTENT AFTER THIS TAG -->
     <h1>A few things everyone can do now:</h1>
     <ol>
