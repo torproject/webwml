@@ -2,7 +2,7 @@
 The Tor Browser Developers: 0x4E2C6E8793298290
 Mike Perry: 0x29846B3C683686CC
 Georg Koppen: 0xD1483FA6C3C07136
-Nicolas Vigier: 0xE5B81856D0220E4B
+Nicolas Vigier: 0x3E39CEABFC69F6F7
 Arthur Edelstein: 0xD752F538C0D38C3A
 
 [Tor source tarballs]

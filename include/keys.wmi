@@ -10,7 +10,7 @@ As of 8/118 the signing keys we use are:
 </p>
 
 <ul>
-<li>The Tor Browser Developers (<a href='https://pgp.mit.edu/pks/lookup?search=0x4E2C6E8793298290&op=vindex&exact=on'>0x4E2C6E8793298290</a>), Mike Perry (<a href='https://pgp.mit.edu/pks/lookup?search=0x29846B3C683686CC&op=vindex&exact=on'>0x29846B3C683686CC</a>), Georg Koppen (<a href='https://pgp.mit.edu/pks/lookup?search=0xD1483FA6C3C07136&op=vindex&exact=on'>0xD1483FA6C3C07136</a>), Nicolas Vigier (<a href='https://pgp.mit.edu/pks/lookup?search=0xE5B81856D0220E4B&op=vindex&exact=on'>0xE5B81856D0220E4B</a>), Arthur Edelstein (<a href='https://pgp.mit.edu/pks/lookup?search=0xD752F538C0D38C3A&op=vindex&exact=on'>0xD752F538C0D38C3A</a>) sign <strong>Tor Browser releases</strong></li>
+<li>The Tor Browser Developers (<a href='https://pgp.mit.edu/pks/lookup?search=0x4E2C6E8793298290&op=vindex&exact=on'>0x4E2C6E8793298290</a>), Mike Perry (<a href='https://pgp.mit.edu/pks/lookup?search=0x29846B3C683686CC&op=vindex&exact=on'>0x29846B3C683686CC</a>), Georg Koppen (<a href='https://pgp.mit.edu/pks/lookup?search=0xD1483FA6C3C07136&op=vindex&exact=on'>0xD1483FA6C3C07136</a>), Nicolas Vigier (<a href='https://pgp.mit.edu/pks/lookup?search=0x3E39CEABFC69F6F7&op=vindex&exact=on'>0x3E39CEABFC69F6F7</a>), Arthur Edelstein (<a href='https://pgp.mit.edu/pks/lookup?search=0xD752F538C0D38C3A&op=vindex&exact=on'>0xD752F538C0D38C3A</a>) sign <strong>Tor Browser releases</strong></li>
 <li>Roger Dingledine (<a href='https://pgp.mit.edu/pks/lookup?search=0x28988BF5&op=vindex&exact=on'>0x28988BF5</a> and <a href='https://pgp.mit.edu/pks/lookup?search=0x19F78451&op=vindex&exact=on'>0x19F78451</a>), Nick Mathewson (<a href='https://pgp.mit.edu/pks/lookup?search=0x165733EA&op=vindex&exact=on'>0x165733EA</a>) sign <strong>Tor source tarballs</strong></li>
 <li>Nick Mathewson (<a href='https://pgp.mit.edu/pks/lookup?search=0x165733EA&op=vindex&exact=on'>0x165733EA</a>) signed <strong>older Tor tarballs</strong></li>
 <li>Tor Project Archive (<a href='https://pgp.mit.edu/pks/lookup?search=0xEE8CBC9E886DDD89&op=vindex&exact=on'>0xEE8CBC9E886DDD89</a>) signs <strong>deb.torproject.org repositories and archives</strong></li>
@@ -48,9 +48,16 @@ uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbro
 sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
       Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
-pub   rsa4096/0xE5B81856D0220E4B 2014-03-19 [SC]
-      Key fingerprint = 4A90 646C 0BAE D9D4 56AB  3111 E5B8 1856 D022 0E4B
-uid                   [ unknown] Nicolas Vigier (TBB Builds Signing Key) &lt;boklm#torproject.org&gt;
+pub   rsa4096/0x3E39CEABFC69F6F7 2015-09-24 [SC]
+      Key fingerprint = 6AB6 AEE9 776E 7827 23C8  ACE8 3E39 CEAB FC69 F6F7
+uid                   [ unknown] Nicolas Vigier (boklm) &lt;boklm#torproject.org&gt;
+uid                   [ unknown] Nicolas Vigier (boklm) &lt;boklm#mars-attacks.org&gt;
+sub   rsa4096/0xA0312B06D9535729 2016-04-23 [A]
+      Key fingerprint = 1315 2F30 FFFE 0EC8 DF58  94FB A031 2B06 D953 5729
+sub   rsa4096/0x07B7CFD7A0FBA062 2017-01-25 [S] [expires: 2019-01-22]
+      Key fingerprint = 5B09 BD89 3213 7126 BCDB  F77D 07B7 CFD7 A0FB A062
+sub   rsa4096/0x6DB4024DAA111CE4 2017-01-25 [E] [expires: 2019-01-22]
+      Key fingerprint = B995 3CFA C0C7 A2ED C780  24ED 6DB4 024D AA11 1CE4
 
 pub   rsa2048/0xD752F538C0D38C3A 2014-12-10 [SC]
       Key fingerprint = 20B2 4CEF E6AF D615 0B6A  6F18 D752 F538 C0D3 8C3A
