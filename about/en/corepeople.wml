@@ -230,12 +230,12 @@
   <tr>
     <td>
       <a id="gaba"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
+      <div class="photo"><img src="$(IMGROOT)/people/gaba.png" alt="gaba" /></div>
       <div class="icon"><a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x180DB06C59CABD19"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#gaba">Gaba</a></div>
       <div class="field"><b>IRC:</b> gaba</div>
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
-      <div class="description">Project Manager for the Network, Metrics and Censorship teams.</div>
+      <div class="description">Coordinates Network, Metrics and Anti-censorship teams.</div>
     </td>
 
     <td>
