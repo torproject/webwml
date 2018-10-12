@@ -1493,3 +1493,91 @@ p.blogDate {
 mark {
   background: cyan;
 }
+
+/*
+** accordion
+**
+** hides content and shows it on click on a label
+** source: https://tympanus.net/codrops/2012/02/21/accordion-with-css3/
+** used for docs/en/verifying-signatures.wml
+*/
+.accordion {
+  margin: 10px auto 30px auto;
+}
+.accordion pre {
+  padding: 15px;
+  line-height: 150%;
+}
+.accordion .hint {
+  color: grey;
+  font-size: 90%;
+}
+.accordion input {
+  display: none;
+}
+.accordion label:hover,
+.accordion input:checked + label,
+.accordion input:checked + label:hover{
+  text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+}
+.accordion label{
+  padding: 5px 0px;
+  position: relative;
+  z-index: 19;
+  display: block;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+  background: linear-gradient(top, #ffffff 1%,#bda5cc 100%);
+}
+.accordion label a {
+  color: #66a516;
+}
+.accordion div.nav {
+  right: 50px;
+}
+.accordion .nav {
+  float: right;
+  max-width: 400px;
+  text-decoration: none;
+}
+.accordion .nav ul {
+  list-style: none;
+  text-align: right;
+}
+.accordion .nav hint {
+  font-size: -50%;
+}
+.accordion article {
+  height: 0px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  transition:
+    height 0.3s ease-in-out,
+    box-shadow 0.6s linear;
+}
+
+.accordion .ac-box input:checked ~ label p a {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+}
+.accordion input:checked ~ article {
+  height: 100%;
+  transition:
+    height 0.5s ease-in-out,
+    box-shadow 0.1s linear;
+}
+.accordion input:checked ~ article.ac-box {
+  -background: grey;
+  border: solid 1px #66a516;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.accordion article h4 {
+  margin: 15px;
+}
+.accordion article.ac-box label,
+.accordion article.ac-box label h4 {
+  display: inline;
+}
