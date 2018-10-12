@@ -54,6 +54,8 @@ GetOptions(
   "help"          => sub { &print_help }
 ) or die "Error parsing arguments. Please try again.\n";
 
+my (@columns, @torfiles, %randomtorfiles, %failures);
+
 # Functions
 
 sub DateString {
@@ -114,7 +116,7 @@ sub ExtractDate {
     };
 
     if ($date && $date->epoch > 0) {
-        print "\tExtractDate: ". DateString($date) ."\n";
+        print "\tExtractDate:\t". DateString($date) ."\n";
         return $date;
     } else {
         warn "\tExtractDate: strptime returned empty date for: $string\n";
@@ -133,7 +135,7 @@ sub FindVersion {
     my ($content, $url) = @_;
     # TODO Parsing the webpage is an unstable solution (#21222).
     foreach (split "\n", $content) {
-      if (/<em>Version (.+) -/) { return $1; }
+      if (/<em>Version ([\d\.]+) /) { return $1; }
     }
     return undef;
 }
@@ -147,30 +149,16 @@ sub Fetch {
     my $result = $ua->request($request);
     my $code = $result->code();
     print "$code\n";
+    my $last_modified;
+    if ($result->header('Last-Modified')) {
+        $last_modified = $result->header('Last-Modified');
+        print "\tLast-Modified:\t$last_modified\n";
+    }
 
     if ($result->is_success && $code eq "200") {
         my $content = $result->content;
         if ($content) {
-            if ($content =~ /301 Moved Permanently/) {
-                print "\tFetch: Received '301 Moved Permanently'\n";
-                return -301;
-            } elsif ($content =~ /403 Forbidden/) {
-                print "\tFetch: Received '403 Forbidden'\n";
-                return -403;
-            } elsif ($code eq "404") {
-              print "\tFetch: Received '404 Not Found'\n";
-              return -404;
-            } elsif ($sub) { return $sub->($content, $url, $ua);
-            } else {
-              # We are probably asked to return a time object for a mirror without trace URL.
-              # Check header - https://metacpan.org/pod/HTTP::Headers
-              if ($result->header('Last-Modified')) {
-                return ExtractDate( $result->header('Last-Modified') );
-              } else {
-                # In this case the mirror is probably up but doesn't tell when it was updated last.
-                warn "\tFetch: Found no Last-Modified header.\n";
-              }
-            }
+            return $sub->($content, $url, $ua);
        } else {
           print "\tFetch: Empty content, no mirror here.\n";
           return -1;
@@ -184,6 +172,11 @@ sub Fetch {
     } elsif ($code eq "404") {
       #print "\tFetch: Received '404 Not Found'\n";
       return -404;
+    } else {
+      my $error = $result->message;
+      $error =~ s/^.+\(([^)]+)\).*$/$1/;
+      print "\t$code $error\n";
+      push (@{$failures{$error}}, $url);
     }
     return undef;
 }
@@ -222,11 +215,10 @@ sub DumpMirrors {
     print $csvfh join(", ", @$columns) . "\n";
     print "\nSaving mirrors that responded since ". DateString($time_barrier) ." (". $time_barrier->epoch .").\n";
     foreach my $server(@m) {
-        # Drop mirrors that weren't reachable for some time
-        next if (! $server->{updateDate} || $server->{updateDate} < $time_barrier);
         next unless ($server->{httpWebsiteMirror} || $server->{httpsWebsiteMirror} || $server->{ftpWebsiteMirror} || $server->{httpDistMirror} || $server->{httpsDistMirror} || $server->{hiddenServiceMirror});
-
-	$server->{updateDate} = gmtime($server->{updateDate}) if ($server->{updateDate});
+        if ($opts{'remove_missing'}) {
+            next if (! $server->{updateDate} || $server->{updateDate} < $time_barrier);
+        }
         print $csvfh join(", ", map($server->{$_}, @$columns));
 	print $csvfh "\n";
     }
@@ -266,7 +258,6 @@ die "Could not find 'include' - are we in the webwml directory?.\n" unless (-d '
 my $secperday = 86400;
 my $trace_path = 'project/trace/www-master.torproject.org';
 my $download_path = 'download/download.html.en';
-my (@columns, @torfiles, %randomtorfiles, %failures);
 my @m = LoadMirrors(\@columns);
 
 # Init LWP
@@ -298,10 +289,15 @@ print "\nDetermine current TB version:";
 my $tb_version = (Fetch($lua, "http://expyuzz4wqqyqhjn.onion/$download_path", \&FindVersion)
   or Fetch($lua, "https://www.torproject.org/$download_path", \&FindVersion))
   or die "Can't extract tb version from tpo. Are we or they offline?\n";
-if ($tb_version && $tb_version =~ /^\d+\.\d+/) { print "Tor Browser stable: $tb_version.\n"; }
+if ($tb_version) { print "Tor Browser stable: $tb_version\n"; }
 else { die "Found no Tor Browser version on the download page, this script needs an update ($tb_version).\n"; }
 
 # nit: There's virtually no risk to receive a 403 above but it could cause a bug.
+
+# Save hash of current checksum file to verify dist mirrors later
+my $sumfile = "/torbrowser/$tb_version/sha256sums-signed-build.txt";
+$randomtorfiles{$sumfile} = Fetch($lua, CleanUrl("https://dist.torproject.org/$sumfile"), \&ExtractSig);
+die "Couldn't extract signature of $sumfile." unless ($randomtorfiles{$sumfile} || $randomtorfiles{$sumfile} >0);
 
 if ($opts{'verify_files'}) {
     # it is not optimal that we crawl dist, but it might be necessary if we
@@ -325,83 +321,91 @@ for my $server (@m) {
         }
     }
 
-    foreach my $serverType('httpWebsiteMirror', 'httpsWebsiteMirror', 'ftpWebsiteMirror', 'httpDistMirror', 'httpsDistMirror', 'hiddenServiceMirror') {
-        if ($server->{$serverType}) {
+    foreach my $serverType ('httpWebsiteMirror', 'httpsWebsiteMirror', 'ftpWebsiteMirror', 'httpDistMirror', 'httpsDistMirror', 'hiddenServiceMirror') {
+        next unless ($server->{$serverType});
 
-            my $url = CleanUrl("$server->{$serverType}/");
-            if ($url ne "$server->{$serverType}") { # silently correct URL
-              $server->{$serverType} = $url;
-            }
+        my $url = CleanUrl("$server->{$serverType}/");
+        if ($url ne "$server->{$serverType}") { # silently correct URL
+            $server->{$serverType} = $url;
+        }
 
-            # Retrieve trace URL as most reliable source for the mirror age
+        # There are several mirror types and we want to find out if each is up to date
+        if ($serverType =~ /httpWebsiteMirror|httpsWebsiteMirror|ftpWebsiteMirror|hiddenServiceMirror/) {
             my $updateDate = Fetch($lua, CleanUrl("$url$trace_path"), \&ExtractDate);
 
-            if (! $updateDate || defined $updateDate && $updateDate == -404) { # unreachable or date in bad shape
-                # We keep a list of mirrors without trace URL and try to use
-                # the Last-Modified header of the base URL instead.
-                $updateDate = Fetch($lua, CleanUrl($url));
-                push (@{$failures{'No trace URL'}}, "$url ($server->{'adminContact'})");
-            }
-
-            if (not defined $updateDate) { # two attempts to extract the date failed
-                push (@{$failures{'No Last-Modified header'}}, "$url ($server->{'adminContact'})");
-                warn "\t$url ($server->{'adminContact'}) has issues but without --remove-failing we keep it.\n";
+            if (not defined $updateDate) {
+                if ($opts{'remove_failing'}) {
+                  print "\tRemoving $url\n";
+                  $server->{$serverType} = '';
+                  next;
+                }
+                #push (@{$failures{'No trace URL'}}, "$url ($server->{'adminContact'})");
+                #print "\t$url ($server->{'adminContact'}) has issues but without --remove-failing we keep it.\n";
 
             } elsif ($updateDate < 0) { # We received a clear error.
-                print "\tRemoving server $url.\n";
+                print "\tRemoving $url\n";
                 $server->{$serverType} = '';
 
-            # Check offered TB version and (optionally) verify files
             } elsif ($updateDate) {
                 $server->{updateDate} = $updateDate;
 
-                # Compare tor browser version
-                if ($serverType =~ /httpWebsiteMirror|httpsWebsiteMirror|hiddenServiceMirror/) {
-                    my $version = Fetch($lua, CleanUrl("$url$download_path"), \&FindVersion);
-                    unless ($version) {
-                        print "\tFound no Tor Browser version.\n";
-                        push (@{$failures{'No download version.'}}, "$url ($server->{'adminContact'})");
-                    } elsif ($tb_version ne $version) {
-                        print "\tMirror offers an old Tor Browser version: $version\n";
-                        push (@{$failures{'Wrong download version.'}}, "$url ($server->{'adminContact'})");
-                    }
+                # Check offered TB version
+                my $version = Fetch($lua, CleanUrl("$url$download_path"), \&FindVersion);
+                my $errors;
+                unless ($version) {
+                    print "\tFound no Tor Browser version.\n";
+                    push (@{$failures{'No download version'}}, "$url ($server->{'adminContact'})");
+                    $errors++;
+                } elsif ($tb_version ne $version) {
+                    print "\tMirror offers an old Tor Browser version: $version\n";
+                    push (@{$failures{'Wrong download version'}}, "$url ($server->{'adminContact'})");
+                    $errors++;
+                } else { print "\tTor Browser stable: $version\n"; }
+                if ($errors && $opts{'remove_failing'}) {
+                    print "\tRemoving $url\n";
+                    $server->{$serverType} = '';
+                    next;
                 }
-
-                # #22182: "The current way how the script is checking
-                #   the mirror sites, isn't the best (it is looking for
-                #   existing .xpi, .dmg, .exe, .tar.gz files)"
-                # Skipping if not requested with --verify-files
-                next unless ($opts{'verify_files'});
-		$server->{sigMatched} = 1;
-                foreach my $randomtorfile(keys %randomtorfiles) {
-                    my $sig = Fetch($lua, CleanUrl("$url$randomtorfile"), \&ExtractSig);
-            	    if (!$sig) {
-                        push (@{$failures{'No signature.'}}, "$url ($server->{'adminContact'})");
-                        $server->{sigMatched} = 0;
-                        last;
-		    } elsif ($sig ne $randomtorfiles{$randomtorfile}) {
-                        push (@{$failures{'Signature mismatch.'}}, "$url ($server->{'adminContact'})");
-                        $server->{sigMatched} = 0;
-                        last;
-            	    }
-		}
             }
-        }
+
+        } elsif ($serverType =~ /httpDistMirror|httpsDistMirror/) {
+
+            $server->{sigMatched} = 1;
+            foreach my $randomtorfile(keys %randomtorfiles) {
+                my $sig = Fetch($lua, CleanUrl("$url$randomtorfile"), \&ExtractSig);
+                if (!$sig) {
+                    $server->{sigMatched} = 0;
+                    last;
+                } elsif ($sig ne $randomtorfiles{$randomtorfile}) {
+                    push (@{$failures{'Signature mismatch'}}, "$url ($server->{'adminContact'})");
+                    $server->{sigMatched} = 0;
+                    last;
+                } else {
+                    # TODO how do we find out the update time without another request
+                    # If we do not update the time only-dist mirrors are discriminated.
+                    # Alternatively setting the current time may be misleading.
+                    # Using $tortime assuming everything is fine passing the checksum test.
+                    $server->{updateDate} = DateString($tortime);
+                }
+            }
+        } else { die "Unrecognized server type: $serverType\n"; }
     }
 }
 
 # TODO we could also check rsync
 
 # show f of mirrors without trace URL
-my $errors;
-foreach my $error (keys %failures) {
-    if (@{$failures{$error}} > 0) { $errors++;
-        print "\n$error:\n";
-        map { print "\t$_\n" } @{$failures{$error}};
-        # TODO we could tweak this to show a sample mail to the mirror admin
+if (!$opts{'remove_failing'}) {
+    my $errors;
+    foreach my $error (keys %failures) {
+        if (@{$failures{$error}} > 0) { $errors++;
+            print "\n$error:\n";
+            map { print "\t$_\n" } @{$failures{$error}};
+            # TODO we could tweak this to show a sample mail to the mirror admin
+        }
     }
+    print "Use --remove-failing to remove them from the list.\n" if ($errors);
 }
-print "Use --remove-failing to remove them from the list.\n" if ($errors);
 
 # open wmi for writing
 open (my $wmifh, '>', $opts{'wmifile'}) or die "Can't write $opts{'wmifile'}: $!";
@@ -418,6 +422,7 @@ __END__
 
 Possible improvements:
 - above code has several TODOs
+- code is repeated in the server test loop
 - the various server types are repeated at a few places and should be centralized in a hash
 - be less verbose per default
 - use consistent variable/function names
