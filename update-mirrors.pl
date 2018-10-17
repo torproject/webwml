@@ -54,7 +54,7 @@ GetOptions(
   "help"          => sub { &print_help }
 ) or die "Error parsing arguments. Please try again.\n";
 
-my (@columns, @torfiles, %randomtorfiles, %failures);
+my (@columns, @torfiles, %randomtorfiles, %failures, %regions);
 
 # Functions
 
@@ -143,7 +143,6 @@ sub FindVersion {
 sub Fetch {
     my ($ua, $url, $sub) = @_;
     if (! $url || $url eq '') { die "Fetch: called with empty URL.\n"; }
-    STDOUT->autoflush(1); # unbuffer stdout to show progress
     print "\nGET $url: ";
     my $request = new HTTP::Request GET => "$url";
     my $result = $ua->request($request);
@@ -228,26 +227,29 @@ sub DumpMirrors {
 
 sub PrintServer {
      my ($server, $fh) = @_;
-     print $fh "\n<tr>\n
-         <td>$server->{isoCC}</td>\n
-         <td>$server->{orgName}</td>\n
-         <td>Up to date</td>\n";
+     print $fh "\n<tr>\n\t<td>$server->{orgName}</td>\n\t<td><small>$server->{updateDate}</small></td>\n";
 
-     my %prettyNames = ( # TODO make this accessible
+     my %web = (
                         httpWebsiteMirror => "http",
                         httpsWebsiteMirror => "https",
                         ftpWebsiteMirror => "ftp",
                         rsyncWebsiteMirror => "rsync",
+                        hiddenServiceMirror => "onion");
+     my %dist = (
                         httpDistMirror => "http",
                         httpsDistMirror => "https",
-                        rsyncDistMirror => "rsync",
-                        hiddenServiceMirror => "onion");
+                        rsyncDistMirror => "rsync");
 
-     foreach my $precious ( sort keys %prettyNames ) {
-        if ($server->{$precious}) {
-            print $fh "    <td><a href=\"" . $server->{$precious} . "\">" .
-                      "$prettyNames{$precious}</a></td>\n";
-        } else { print $fh "    <td> - </td>\n"; }
+     foreach my $type (\%web, \%dist) {
+         print $fh "\t<td>\n";
+         foreach my $protocol ( sort keys %$type ) {
+             if ($server->{$protocol}) {
+                 my $url = $server->{$protocol};
+                 my $tag = $type->{$protocol};
+                 print $fh "\t\t<a href=\"$url\">$tag</a>\n";
+             }
+         }
+         print $fh "\t</td>\n";
      }
      print $fh "</tr>\n";
 }
@@ -258,6 +260,7 @@ die "Could not find 'include' - are we in the webwml directory?.\n" unless (-d '
 my $secperday = 86400;
 my $trace_path = 'project/trace/www-master.torproject.org';
 my $download_path = 'download/download.html.en';
+STDOUT->autoflush(1); # unbuffer stdout to show progress
 my @m = LoadMirrors(\@columns);
 
 # Init LWP
@@ -314,7 +317,6 @@ if ($opts{'verify_files'}) {
 }
 
 for my $server (@m) {
-
     foreach my $field (qw/ipv4 ipv6 loadBalanced/) { # unify boolean values
         unless ($server->{$field} =~ /TRUE|FALSE/) {
             $server->{$field} = ($server->{$field} =~ /yes|true|1/i) ? 'TRUE' : 'FALSE';
@@ -390,6 +392,7 @@ for my $server (@m) {
             }
         } else { die "Unrecognized server type: $serverType\n"; }
     }
+    push (@{$regions{ $server->{region} }{ $server->{subRegion} } }, $server);
 }
 
 # TODO we could also check rsync
@@ -409,10 +412,29 @@ if (!$opts{'remove_failing'}) {
 
 # open wmi for writing
 open (my $wmifh, '>', $opts{'wmifile'}) or die "Can't write $opts{'wmifile'}: $!";
-
+$wmifh->autoflush(1); # unbuffer stdout to show progress
 # Print server list sorted from last known recent update to unknown update times
-foreach my $server ( sort { $b->{updateDate} <=> $a->{updateDate} } grep {$_->{updateDate} && $_->{updateDate} > $tortime && $_->{sigMatched}} @m ) {
-    PrintServer($server, $wmifh);
+# TODO We want to have this sorted by region https://bugs.torproject.org/28083
+
+print $wmifh "<ul>\n";
+foreach my $region (sort keys %regions) {
+    print $wmifh "<li><strong><a href='#$region'>$region</a></strong>: ";
+    foreach my $subregion (sort keys %{$regions{$region}}) {
+        print $wmifh "<a href='#$subregion'>$subregion</a> <small>(". @{$regions{$region}{$subregion}} .")</small> ";
+    }
+    print $wmifh "</li>\n";
+}
+print $wmifh "</ul>\n";
+
+foreach my $region (sort keys %regions) {
+    print $wmifh "<tr><td colspan=5><h3 id='$region'>$region</h3></td></tr>\n";
+    foreach my $subregion (sort keys %{$regions{$region}}) {
+    print $wmifh "<tr><td colspan=5><h4 id='$subregion'>$subregion</h4></td></tr>\n";
+#        foreach my $server ( sort { $b->{updateDate} <=> $a->{updateDate} } grep {$_->{updateDate} && $_->{updateDate} > $tortime } @{$regions{$region}{$subregion}} ) {
+        foreach my $server ( sort { $b->{updateDate} <=> $a->{updateDate} } @{$regions{$region}{$subregion}} ) {
+           PrintServer($server, $wmifh);
+        }
+    }
 }
 DumpMirrors(\@columns, $tortime - 31*$secperday, @m);
 close($wmifh);

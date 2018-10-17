@@ -22,19 +22,15 @@
     If you would like to run a mirror, please <a href="<page docs/running-a-mirror>">read
     our instructions for running a mirror</a>.
     </p>
+
+    <p>Note: The update time only reflects when the mirror has been checked last.</p>
     
     <table class="mirrors">
     <tr>
-      <th>Country</th>
-      <th>Organisation</th>
-      <th>Status</th>
-      <th>ftp</th>
-      <th>http dist/</th>
-      <th>http website</th>
-      <th>https dist/</th>
-      <th>https website</th>
-      <th>rsync dist/</th>
-      <th>rsync website</th>
+      <th> </th>
+      <th>Updated</th>
+      <th>web</th>
+      <th>dist</th>
     </tr>
 #include "mirrors-table.wmi"
     </table>

@@ -1,34 +1,577 @@
+<ul>
+<li><strong><a href='#.global'>.global</a></strong>: <a href='#worldwide'>worldwide</a> <small>(1)</small> </li>
+<li><strong><a href='#Asia'>Asia</a></strong>: <a href='#Taiwan'>Taiwan</a> <small>(1)</small> <a href='#Vietnam'>Vietnam</a> <small>(1)</small> </li>
+<li><strong><a href='#Europe'>Europe</a></strong>: <a href='#Austria'>Austria</a> <small>(1)</small> <a href='#France'>France</a> <small>(5)</small> <a href='#Germany'>Germany</a> <small>(15)</small> <a href='#Iceland'>Iceland</a> <small>(2)</small> <a href='#Netherlands'>Netherlands</a> <small>(3)</small> <a href='#Norway'>Norway</a> <small>(2)</small> <a href='#Spain'>Spain</a> <small>(1)</small> <a href='#Switzerland'>Switzerland</a> <small>(1)</small> <a href='#Ukraine'>Ukraine</a> <small>(1)</small> </li>
+<li><strong><a href='#North America'>North America</a></strong>: <a href='#Canada'>Canada</a> <small>(3)</small> <a href='#United States'>United States</a> <small>(6)</small> </li>
+<li><strong><a href='#Oceania'>Oceania</a></strong>: <a href='#Australia and New Zealand'>Australia and New Zealand</a> <small>(1)</small> </li>
+</ul>
+<tr><td colspan=5><h3 id='.global'>.global</h3></td></tr>
+<tr><td colspan=5><h4 id='worldwide'>worldwide</h4></td></tr>
 
 <tr>
+	<td>TvdW</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor-exit.network/">http</a>
+	</td>
+	<td>
+		<a href="http://tor-exit.network/dist/">http</a>
+	</td>
+</tr>
+<tr><td colspan=5><h3 id='Asia'>Asia</h3></td></tr>
+<tr><td colspan=5><h4 id='Taiwan'>Taiwan</h4></td></tr>
 
-         <td>CA</td>
+<tr>
+	<td>Department of CSE. Yuan Ze University</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="ftp://ftp.yzu.edu.tw/torproject.org/">ftp</a>
+		<a href="http://ftp.yzu.edu.tw/torproject.org/">http</a>
+		<a href="https://ftp.yzu.edu.tw/torproject.org/">https</a>
+		<a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/">rsync</a>
+	</td>
+	<td>
+		<a href="http://ftp.yzu.edu.tw/torproject.org/dist/">http</a>
+		<a href="https://ftp.yzu.edu.tw/torproject.org/dist/">https</a>
+		<a href="rsync://ftp.yzu.edu.tw/pub/torproject.org/dist/">rsync</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Vietnam'>Vietnam</h4></td></tr>
 
-         <td>razx</td>
+<tr>
+	<td>Freedif</td>
+	<td><small>Tue Oct  9 16:46:15 2018</small></td>
+	<td>
+		<a href="https://mirror.freedif.org/TorProject/">https</a>
+	</td>
+	<td>
+		<a href="https://mirror.freedif.org/TorProject/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h3 id='Europe'>Europe</h3></td></tr>
+<tr><td colspan=5><h4 id='Austria'>Austria</h4></td></tr>
 
-         <td>Up to date</td>
-    <td> - </td>
-    <td><a href="http://rsqiscyvxt4qgaiw.onion/torproject.org/">onion</a></td>
-    <td><a href="http://tcejorprot.razx.cloud/dist/">http</a></td>
-    <td><a href="http://tcejorprot.razx.cloud/">http</a></td>
-    <td><a href="https://tcejorprot.razx.cloud/dist/">https</a></td>
-    <td><a href="https://tcejorprot.razx.cloud/">https</a></td>
-    <td> - </td>
-    <td> - </td>
+<tr>
+	<td>ph3x</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://torproject.ph3x.at/">http</a>
+		<a href="https://torproject.ph3x.at/">https</a>
+	</td>
+	<td>
+		<a href="http://torproject.ph3x.at/dist/">http</a>
+		<a href="https://torproject.ph3x.at/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='France'>France</h4></td></tr>
+
+<tr>
+	<td>stalkr.net</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="https://tor.stalkr.net/">https</a>
+	</td>
+	<td>
+		<a href="https://tor.stalkr.net/dist/">https</a>
+	</td>
 </tr>
 
 <tr>
+	<td>wardsback.org</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://alliumcepa.wardsback.org/">http</a>
+	</td>
+	<td>
+		<a href="http://alliumcepa.wardsback.org/dist/">http</a>
+	</td>
+</tr>
 
-         <td>NO</td>
+<tr>
+	<td>Michael Armbruster</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.armbrust.me/">http</a>
+		<a href="https://tor.armbrust.me/">https</a>
+		<a href="rsync://tor.armbrust.me/tor">rsync</a>
+	</td>
+	<td>
+		<a href="http://tor.armbrust.me/dist/">http</a>
+		<a href="https://tor.armbrust.me/dist/">https</a>
+		<a href="rsync://tor.armbrust.me/tor-dist">rsync</a>
+	</td>
+</tr>
 
-         <td>nortor.no</td>
+<tr>
+	<td>Standalone Installer Software</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://mirrors.standaloneinstaller.com/torproject/">http</a>
+		<a href="rsync://mirrors.standaloneinstaller.com/torproject/">rsync</a>
+	</td>
+	<td>
+		<a href="http://mirrors.standaloneinstaller.com/torproject/dist/">http</a>
+		<a href="rsync://mirrors.standaloneinstaller.com/torproject/dist">rsync</a>
+	</td>
+</tr>
 
-         <td>Up to date</td>
-    <td> - </td>
-    <td><a href="http://t6phizbufdw7fqgy.onion/">onion</a></td>
-    <td><a href="http://mirror.nortor.no/dist/">http</a></td>
-    <td><a href="http://mirror.nortor.no/">http</a></td>
-    <td><a href="https://mirror.nortor.no/dist/">https</a></td>
-    <td><a href="https://mirror.nortor.no/">https</a></td>
-    <td> - </td>
-    <td> - </td>
+<tr>
+	<td>Tor Supporter</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://oldsqlcbr3aykyta.onion/tor/">onion</a>
+		<a href="http://mirror.oldsql.cc/tor/">http</a>
+		<a href="https://mirror.oldsql.cc/tor/">https</a>
+	</td>
+	<td>
+		<a href="http://mirror.oldsql.cc/tor/dist/">http</a>
+		<a href="https://mirror.oldsql.cc/tor/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Germany'>Germany</h4></td></tr>
+
+<tr>
+	<td>NetCologne GmbH</td>
+	<td><small>Tue Oct 16 23:14:59 2018</small></td>
+	<td>
+		<a href="ftp://mirror.netcologne.de/torproject.org/">ftp</a>
+		<a href="http://mirror.netcologne.de/torproject.org/">http</a>
+		<a href="rsync://mirror.netcologne.de/torproject.org">rsync</a>
+	</td>
+	<td>
+		<a href="rsync://mirror.netcologne.de/torproject.org/dist">rsync</a>
+	</td>
+</tr>
+
+<tr>
+	<td>spline</td>
+	<td><small>Tue Oct 16 23:14:59 2018</small></td>
+	<td>
+		<a href="ftp://ftp.spline.de/pub/tor/">ftp</a>
+		<a href="http://tor.spline.de/">http</a>
+		<a href="https://tor.spline.inf.fu-berlin.de/">https</a>
+		<a href="rsync://ftp.spline.de/tor">rsync</a>
+	</td>
+	<td>
+		<a href="rsync://ftp.spline.de/tor/dist">rsync</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Funkfreunde Landshut e.V.</td>
+	<td><small>Tue Oct 16 23:14:59 2018</small></td>
+	<td>
+		<a href="http://44.225.40.254/torproject.org/dist/">onion</a>
+		<a href="http://mirror.funkfreundelandshut.de/torproject.org/">http</a>
+	</td>
+	<td>
+	</td>
+</tr>
+
+<tr>
+	<td>TB-ITF</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tormirror.tb-itf-tor.de/">http</a>
+		<a href="https://tormirror.tb-itf-tor.de/">https</a>
+	</td>
+	<td>
+		<a href="http://tormirror.tb-itf-tor.de/dist/">http</a>
+		<a href="https://tormirror.tb-itf-tor.de/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>torservers</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://hbpvnydyyjbmhx6b.onion/mirrors/torproject.org/">onion</a>
+		<a href="https://www.torservers.net/mirrors/torproject.org/">https</a>
+	</td>
+	<td>
+		<a href="https://www.torservers.net/mirrors/torproject.org/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>cYbergueRrilLa AnonyMous NeXus</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="https://tor-mirror.cyberguerrilla.org/">https</a>
+	</td>
+	<td>
+		<a href="https://tor-mirror.cyberguerrilla.org/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Tor Supporter</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="https://mirror.velcommuta.de/tor/">https</a>
+	</td>
+	<td>
+		<a href="https://mirror.velcommuta.de/tor/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Tor Supporter</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.ybti.net/">http</a>
+		<a href="https://tor.ybti.net/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.ybti.net/dist/">http</a>
+		<a href="https://tor.ybti.net/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>0x3d.lu</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.0x3d.lu/">http</a>
+		<a href="https://tor.0x3d.lu/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.0x3d.lu/dist/">http</a>
+		<a href="https://tor.0x3d.lu/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>sela Internet</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="https://sela.io/mirrors/torproject.org/">https</a>
+	</td>
+	<td>
+		<a href="https://sela.io/mirrors/torproject.org/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Chaos Computer Club</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.ccc.de/">http</a>
+		<a href="https://tor.ccc.de/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.ccc.de/dist/">http</a>
+		<a href="https://tor.ccc.de/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>tormirror</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="https://tormirror.snydernet.net/">http</a>
+	</td>
+	<td>
+		<a href="https://tormirror.snydernet.net/dist/">http</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Tor Supporter</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://torproject.mirror.metalgamer.eu/">http</a>
+		<a href="https://torproject.mirror.metalgamer.eu/">https</a>
+	</td>
+	<td>
+		<a href="http://torproject.mirror.metalgamer.eu/dist/">http</a>
+		<a href="https://torproject.mirror.metalgamer.eu/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>TB-ITF</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="ftp://tormirror.tb-itf-tor.de/">ftp</a>
+		<a href="http://tormirror.tb-itf-tor.de/">http</a>
+		<a href="https://tormirror.tb-itf-tor.de/">https</a>
+	</td>
+	<td>
+		<a href="http://tormirror.tb-itf-tor.de/dist/">http</a>
+		<a href="https://tormirror.tb-itf-tor.de/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Tor World (torworld.org)</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://mirror.torworld.org/">http</a>
+		<a href="https://mirror.torworld.org/">https</a>
+	</td>
+	<td>
+		<a href="http://mirror.torworld.org/dist/">http</a>
+		<a href="https://mirror.torworld.org/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Iceland'>Iceland</h4></td></tr>
+
+<tr>
+	<td>Frenn vun der Enn A.S.B.L.</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://btn6gqzqevlhoryd.onion/">onion</a>
+		<a href="http://torproject.lu/">http</a>
+	</td>
+	<td>
+		<a href="http://torproject.lu/dist/">http</a>
+	</td>
+</tr>
+
+<tr>
+	<td>TheOnionRouter</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://www.theonionrouter.com/">http</a>
+	</td>
+	<td>
+		<a href="http://www.theonionrouter.com/dist/">http</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Netherlands'>Netherlands</h4></td></tr>
+
+<tr>
+	<td>Serverius Connectivity</td>
+	<td><small>Tue Oct 16 23:14:59 2018</small></td>
+	<td>
+		<a href="https://mirror.serverius.net/torproject/">https</a>
+		<a href="rsync://mirror.serverius.net/torproject">rsync</a>
+	</td>
+	<td>
+		<a href="rsync://mirror.serverius.net/dist">rsync</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Hackerspace Istanbul</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.hackerspace.ist/">http</a>
+		<a href="https://tor.hackerspace.ist/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.hackerspace.ist/dist/">http</a>
+		<a href="https://tor.hackerspace.ist/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Ozgurlesin.org (hs.ist)</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.ozgurlesin.org/">http</a>
+		<a href="https://tor.ozgurlesin.org/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.ozgurlesin.org/dist/">http</a>
+		<a href="https://tor.ozgurlesin.org/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Norway'>Norway</h4></td></tr>
+
+<tr>
+	<td>nortor.no</td>
+	<td><small>Tue Oct 16 23:14:59 2018</small></td>
+	<td>
+		<a href="http://t6phizbufdw7fqgy.onion/">onion</a>
+		<a href="http://mirror.nortor.no/">http</a>
+		<a href="https://mirror.nortor.no/">https</a>
+	</td>
+	<td>
+		<a href="http://mirror.nortor.no/dist/">http</a>
+		<a href="https://mirror.nortor.no/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>MultiNet AS</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.multinet.no/">http</a>
+	</td>
+	<td>
+		<a href="http://tor.multinet.no/dist/">http</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Spain'>Spain</h4></td></tr>
+
+<tr>
+	<td>Tor Supporter</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.zilog.es/">http</a>
+		<a href="https://tor.zilog.es/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.zilog.es/dist/">http</a>
+		<a href="https://tor.zilog.es/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Switzerland'>Switzerland</h4></td></tr>
+
+<tr>
+	<td>urown.net</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://torprowdd64ytmyk.onion/">onion</a>
+		<a href="http://torproject.urown.net/">http</a>
+		<a href="https://torproject.urown.net/">https</a>
+	</td>
+	<td>
+		<a href="http://torproject.urown.net/dist/">http</a>
+		<a href="https://torproject.urown.net/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='Ukraine'>Ukraine</h4></td></tr>
+
+<tr>
+	<td>IP-Connect LLC</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="ftp://torproject.ip-connect.vn.ua/mirror/torproject/">ftp</a>
+		<a href="http://torproject.ip-connect.vn.ua/">http</a>
+		<a href="rsync://torproject.ip-connect.vn.ua/torproject">rsync</a>
+	</td>
+	<td>
+		<a href="http://torproject.ip-connect.vn.ua/dist/">http</a>
+		<a href="rsync://torproject.ip-connect.vn.ua/torproject/dist">rsync</a>
+	</td>
+</tr>
+<tr><td colspan=5><h3 id='North America'>North America</h3></td></tr>
+<tr><td colspan=5><h4 id='Canada'>Canada</h4></td></tr>
+
+<tr>
+	<td>tor@les.net</td>
+	<td><small>Tue Oct 16 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.les.net/">http</a>
+	</td>
+	<td>
+	</td>
+</tr>
+
+<tr>
+	<td>razx</td>
+	<td><small>Tue Oct 16 23:14:59 2018</small></td>
+	<td>
+		<a href="http://rsqiscyvxt4qgaiw.onion/torproject.org/">onion</a>
+		<a href="http://tcejorprot.razx.cloud/">http</a>
+		<a href="https://tcejorprot.razx.cloud/">https</a>
+	</td>
+	<td>
+		<a href="http://tcejorprot.razx.cloud/dist/">http</a>
+		<a href="https://tcejorprot.razx.cloud/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>The Free Mirror Project</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://mirror1.freemirror.org/tor/torproject.org/">http</a>
+		<a href="https://mirror1.freemirror.org/tor/torproject.org/">https</a>
+		<a href="rsync://mirror1.freemirror.org/tor-www">rsync</a>
+	</td>
+	<td>
+		<a href="http://mirror1.freemirror.org/tor/dist/">http</a>
+		<a href="https://mirror1.freemirror.org/tor/dist/">https</a>
+		<a href="rsync://mirror1.freemirror.org/tor-dist">rsync</a>
+	</td>
+</tr>
+<tr><td colspan=5><h4 id='United States'>United States</h4></td></tr>
+
+<tr>
+	<td>AskApache</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+	</td>
+	<td>
+		<a href="http://tor.askapache.com/dist/">http</a>
+	</td>
+</tr>
+
+<tr>
+	<td>EFF</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="https://tor.eff.org/">https</a>
+	</td>
+	<td>
+		<a href="https://tor.eff.org/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>Setec Administrator</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.nuclear-weapons.net/">http</a>
+		<a href="https://tor.nuclear-weapons.net/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.nuclear-weapons.net/dist/">http</a>
+		<a href="https://tor.nuclear-weapons.net/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>intfxdx.com</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://108.248.87.242/">http</a>
+		<a href="https://108.248.87.242/">https</a>
+	</td>
+	<td>
+		<a href="http://108.248.87.242/dist/">http</a>
+		<a href="https://108.248.87.242/dist/">https</a>
+	</td>
+</tr>
+
+<tr>
+	<td>EPRCI</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tor.eprci.net/">http</a>
+	</td>
+	<td>
+		<a href="http://tor.eprci.net/dist/">http</a>
+	</td>
+</tr>
+
+<tr>
+	<td>The Calyx Institute</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://tmdrhl4e4anhsjc5.onion/">onion</a>
+		<a href="http://tor.calyxinstitute.org/">http</a>
+		<a href="https://tor.calyxinstitute.org/">https</a>
+	</td>
+	<td>
+		<a href="http://tor.calyxinstitute.org/dist/">http</a>
+		<a href="https://tor.calyxinstitute.org/dist/">https</a>
+	</td>
+</tr>
+<tr><td colspan=5><h3 id='Oceania'>Oceania</h3></td></tr>
+<tr><td colspan=5><h4 id='Australia and New Zealand'>Australia and New Zealand</h4></td></tr>
+
+<tr>
+	<td>CoffsWiFi</td>
+	<td><small>Sun Oct 14 23:14:59 2018</small></td>
+	<td>
+		<a href="http://torproject.coffswifi.net/">http</a>
+	</td>
+	<td>
+		<a href="http://torproject.coffswifi.net/dist/">http</a>
+	</td>
 </tr>
