@@ -1,0 +1,25 @@
+# depends: pip install html2text
+# https://github.com/Alir3z4/html2text/blob/master/docs/usage.md
+
+# step 0: build html files
+make
+
+# step 1: generate markdown files
+for html in $(find -name '*.html.en')
+do
+  md=$(echo $html|sed -E "s/\.html\.en/.md/")
+  echo -ne "\rConverting $html to $md"
+  html2text $html > $md
+done
+
+# step 2: sanitize
+
+# step 3: add files to git
+find -name '*.md' -exec git add {} +
+
+# step 4: commit - will ask for a message
+git commit -m "Convert .html.en to markdown"
+git commit --amend
+
+# step 5: verify result
+find -name '*.md' -exec less {} +
