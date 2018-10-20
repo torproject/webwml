@@ -63,8 +63,8 @@
     </ul>
 
     <a id="tbb"></a>
-    <h4 style="margin-bottom: 18px"><a class="anchor" href="#tbb">Tor Browser
-    (general):</a></h4>
+    <h4 style="margin-bottom: 18px"><a class="anchor" href="#tbb">Tor Browser:
+    </a></h4>
     <ul>
 
     <li><a href="#TBBFlash">Why can't I view videos on YouTube and other
@@ -93,13 +93,6 @@
     run another application through Tor.</a></li>
     <li><a href="#CantSetProxy">What should I do if I can't set a proxy
     with my application?</a></li>
-    </ul>
-
-    <a id="tbb-3plus"></a>
-    <h4 style="margin-bottom: 18px"><a class="anchor" href="#tbb-3plus">Tor
-    Browser (3.x and later):</a></h4>
-
-    <ul>
     <li><a href="#DisableJS">How do I disable JavaScript?</a></li>
     <li><a href="#VerifyDownload">How do I verify the download
     (sha256sums.txt)?</a></li>
@@ -964,7 +957,7 @@
     <hr>
 
     <a id="TBBGeneral"></a>
-    <h2><a class="anchor" href="#TBBGeneral">Tor Browser (general):</a></h2>
+    <h2><a class="anchor" href="#TBBGeneral">Tor Browser:</a></h2>
 
     <a id="TBBFlash"></a>
     <h3><a class="anchor" href="#TBBFlash">Why can't I view videos on some
@@ -1097,11 +1090,9 @@
     Ultimately, we want the default Tor bundles to use a combination of
     firewalls (like the iptables rules in
     <a href="https://tails.boum.org/">Tails</a>) and
-    <a href="https://trac.torproject.org/projects/tor/ticket/7680">sandboxes</a>
-    to make JavaScript not so scary. In the shorter term, TBB 3.0 will hopefully
-    <a href="https://trac.torproject.org/projects/tor/ticket/9387">allow users
-    to choose their JavaScript settings more easily</a> &mdash; but the
-    partitioning concern will remain.
+    <a href="https://trac.torproject.org/projects/tor/ticket/4522">sandboxes</a>
+    to make JavaScript not so scary. For the time being the security slider
+    offers three sets of feature filters to minimize partitioning between users.
     </p>
 
     <p>
@@ -1325,9 +1316,7 @@
 
     <hr>
 
-    <a id="TBB3.x"></a>
-    <h2><a class="anchor" href="#TBB3.x">Tor Browser (3.x and later):</a></h2>
-    <a id="WhereDidVidaliaGo"></a>
+    <a id="TBB3.x"></a><a id="WhereDidVidaliaGo"></a>
     <h3><a class="anchor" href="#WhereDidVidaliaGo">Where did the world map
     (Vidalia) go?</a></h3>
 
@@ -1431,7 +1420,7 @@
     <h3><a class="anchor" href="#Timestamps">Why are the file timestamps
     from 2000?</a></h3>
 
-    <p>One of the huge new features in TBB 3.x is the "deterministic build"
+    <p>Since TBB 3.x we use a "deterministic build"
     process, which allows many people to build Tor Browser and verify that they
     all make exactly the same package. See Mike's
     <a href="https://blog.torproject.org/blog/deterministic-builds-part-one-cyberwar-and-global-compromise">
