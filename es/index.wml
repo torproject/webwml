@@ -3,6 +3,9 @@
 # Translation-Priority: 1-high
 #include "banner.wmi"
 #include "head.wmi" TITLE="Tor Project | Privacy Online" CHARSET="UTF-8"
+
+<define-tag lang>es-ES</define-tag>
+
 <div id="home">
     <div id="content" class="clearfix">
     	<div id="maincol">

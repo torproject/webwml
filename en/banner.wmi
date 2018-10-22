@@ -1,0 +1,16 @@
+<div class="eoy-background">
+  <div class="eoy-artwork">
+  </div>
+  <div class="eoy-message">
+    <div class="tor-strength-in-num">
+      <p>Tor: strength in numbers</p>
+    </div>
+    <div class="keep-tor-strong-giv">
+      <p>Keep Tor strong.</p>
+      <span>Give today, and Mozilla will match your donation.</span>
+    </div>
+    <div class="eoy-btn-container">
+      <a class="eoy-btn count-me-in">Count me in</a>
+    </div>
+  </div>
+</div>
