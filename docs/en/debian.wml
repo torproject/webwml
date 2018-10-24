@@ -178,8 +178,8 @@ or whatever it is) in place of &lt;DISTRIBUTION&gt;.
 
 <p>
 If you want to use the
-<a href="<page download/download-unix>#packagediff">development branch</a>
-of Tor instead (more features and more bugs), you need add a different set of
+<a href="<page download/download>#packagediff">development branch</a>
+of Tor instead (more features and more bugs), you need to add a different set of
 lines to your <i>/etc/apt/sources.list</i> file:<br />
 <blockquote><pre>
 deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main

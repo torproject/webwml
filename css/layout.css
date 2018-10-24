@@ -9,6 +9,7 @@ body {
 
 #wrap {
 	width: 960px;
+        max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -224,6 +225,7 @@ body {
 
 #content {
 	width: 960px;
+	max-width: 100%;
 }
 
 	#content img { max-width: 710px; }
@@ -239,8 +241,10 @@ body {
 	#maincol {
 		float: right;
 		width: 710px;
+                max-width: 75%;
 		margin-bottom: 20px;
 	}
+        .tb#maincol { max-width: 100%; }
 
 	#dow-don-left,
 	#maincol-left {
@@ -281,7 +285,7 @@ body {
 	float: right;
 	width: 230px;
 	margin-left: 20px;
-        padding-top: 100px;
+        -padding-top: 100px;
 }
 
 	#torusers { margin: 0 0 27px; }
@@ -478,7 +482,7 @@ table tr img {
 	width: auto;
 }
 
-/* DL PAGE ------------*/
+/* DOWNLOAD ------------*/
 
 .windows24 {
  /* Open Icon Library - Webpage Icons Package
@@ -556,73 +560,15 @@ table tr img {
   width: 680px;
   }
 
-  .accordionButton:hover {
-    background: url("../images/table-title-hover.jpg") repeat-x left bottom #885CA4;
-    text-shadow: 1px 1px 0px rgba(17, 17, 17, 1);
-    }
-
-.on:before,
-.off:before {
-  position: absolute;
-  content: '';
-  height: 0px;
-  width: 0px;
-  font-size:0px;
-  line-height:0px;
-  }
-
-.on:before {
-  top: 14px;
-  left: 10px;
-  border-left:7px solid transparent;
-  border-right:7px solid transparent;
-  border-top:7px solid #FFFFFF;
-  }
-
-.off:before {
-  top: 9px;
-  left: 14px;
-  border-bottom:7px solid transparent;  /* left arrow slant */
-  border-top:7px solid transparent; /* right arrow slant */
-  border-left:7px solid #FFFFFF; /* bottom, add background color here */
-  }
-
-  .accordionContent {
-  width: 708px;
-  float: left;
-  _float: none;  /* Float works in all browsers but IE6 */
-  background: #FFFFFF;
-  display: block;
-  }
-
-.accordionContent .fauxhead {
-  width: 710px;
-  }
-
-.package {
-  float: left;
-  height: 280px;
-  margin: 0px;
-  padding: 25px 20px 20px 20px;
-  border-top: 1px solid #888888;
-  }
-
-  .package h2 {
-    margin-bottom: 3px;
-    }
-
-  .package p {
-    margin-top: 16px;
-    padding-left: 10px;
-    }
+.accordionButton:hover {
+  background: url("../images/table-title-hover.jpg") repeat-x left bottom #885CA4;
+  text-shadow: 1px 1px 0px rgba(17, 17, 17, 1);
+}
 
 .downloads {
-  display: block;
-  float: left;
-  width: 238px;
   padding: 0 16px 0 0;
   text-align: center;
-  }
+}
 
 .lang {
   float: right;
@@ -640,7 +586,7 @@ table tr img {
   -moz-border-radius-bottomright: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  }
+}
 
 .button {
   text-align: center;
@@ -654,29 +600,22 @@ table tr img {
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
-  }
+}
 
 .button .strong {
   display: block;
   padding: 10px 0 0 57px;
-  }
+}
 
 .button .normal {
   padding: 5px 0 0 57px;
   display: block;
-  }
+}
 
 .sig {
   display: block;
   margin: 3px 0px 20px 0px;
-  }
-
-/* DOWNLOAD-EASY ---*/
-
-.easy {
-	width: 712px;
-	margin-bottom: 10px;
-	padding-bottom: 8px;
+  margin-bottom: 5px
 }
 
 #download-donate {
@@ -690,31 +629,41 @@ table tr img {
 	background-size: 100% 100%;
 }
 
-.easy .package h2,
-.easy .package em {
+.package {
+  display: block;
+  float: left;
+  width: 250px;
+  margin: 0px;
+  padding: 20px 20px 20px 20px;
+}
+
+.package h2,
+.package em {
   display: block;
   width: 100%;
   text-align: left;
-  }
+}
 
-.easy .package h2 {
+.package h2 {
   padding-top: 10px;
   padding-bottom: 5px;
-  }
+  margin-bottom: 3px;
+}
 
-.easy .package em {
-  font-size: 1.2em;
+.package em {
+  font-size: 1.0em;
   padding-top: 8px;
   padding-bottom: 4px;
-  }
+}
 
-.easy .package p {
+.package p {
   padding-left: 0px;
   font-size: 15px;
   text-align: justify;
-  }
+  margin-top: 16px;
+}
 
-.easy .package p.alt-dl {
+.package p.alt-dl {
   text-align: left;
   text-indent: 0px;
   padding-left: 0px;
@@ -727,20 +676,6 @@ table tr img {
   width: 100%;
   font-size: 15px;
 }
-
-.all-dl a{
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.all-dl a:hover{
-  text-decoration: underline;
-}
-
-.easy .package {
-  float: none;
-  padding: 0 8px 0 12px ;
-  }
 
 .open {
   display: block;
@@ -812,14 +747,14 @@ table tr img {
     margin-bottom: 0px;
     }
 
-.warning {
+.note {
   float: left;
   _float: none;  /* Float works in all browsers but IE6 */
   padding: 25px 25px;
   margin-top: 4px;
   }
 
-  .warning p {
+  .note p {
     padding-left: 10px;
     }
 
@@ -1493,3 +1428,165 @@ p.blogDate {
 mark {
   background: cyan;
 }
+
+/*
+** accordion
+**
+** hides content and shows it on click on a label
+** source: https://tympanus.net/codrops/2012/02/21/accordion-with-css3/
+** used for docs/en/verifying-signatures.wml
+*/
+.accordion {
+  margin: 10px auto 30px auto;
+}
+.accordion pre {
+  padding: 15px;
+  line-height: 150%;
+}
+.accordion .hint {
+  color: grey;
+  font-size: 90%;
+}
+.accordion input {
+  display: none;
+}
+.accordion label:hover,
+.accordion input:checked + label,
+.accordion input:checked + label:hover{
+  text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+}
+.accordion label{
+  padding: 5px 0px;
+  position: relative;
+  z-index: 19;
+  display: block;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+  background: linear-gradient(top, #ffffff 1%,#bda5cc 100%);
+}
+.accordion label a {
+  color: #66a516;
+}
+.accordion div.nav {
+  right: 50px;
+}
+.accordion .nav {
+  float: right;
+  max-width: 400px;
+  text-decoration: none;
+}
+.accordion .nav ul {
+  list-style: none;
+  text-align: right;
+}
+.accordion .nav hint {
+  font-size: -50%;
+}
+.accordion article {
+  height: 0px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  transition:
+    height 0.3s ease-in-out,
+    box-shadow 0.6s linear;
+}
+.accordion .ac-box input:active ~ label p a,
+.accordion .ac-box input:checked ~ label p a {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+}
+.accordion div:hover ~ article,
+.accordion div:active ~ article,
+.accordion input:checked ~ article {
+  height: 100%;
+  transition:
+    height 0.5s ease-in-out,
+    box-shadow 0.1s linear;
+}
+.accordion input:active ~ article.ac-box
+.accordion input:checked ~ article.ac-box {
+  -background: grey;
+  border: solid 1px #66a516;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.accordion article h4 {
+  margin: 15px;
+}
+.accordion article.ac-box label,
+.accordion article.ac-box label h4 {
+  display: inline;
+}
+
+/* Accordion for download page  */
+.dlcontent {
+  margin: 25px;
+  font-family: sans-serif;
+}
+.dlcontent h1 {
+  padding: 25px;
+  text-align: center;
+  margin: 10px 50px;
+}
+
+.dlcontent section > p {
+  margin-left: 50px;
+}
+
+.tor-source,
+.dlcontent .nav {
+  float: left;
+}
+.dlcontent .nav ul {
+  list-style: none;
+  margin: 0px;
+}
+.dlcontent .nav li {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+  font-weight: bold;
+  height: 33px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 250px;
+  background: url("../images/table-title.jpg") repeat-x left bottom #885ca4;
+}
+.dlcontent .nav li a {
+  color: #fff;
+}
+
+.accordion.download label {
+  margin-left: 25px;
+  padding-left: 30px;
+}
+
+.accordion.download input:checked ~ article {
+  padding:20px;
+  border: solid 1px #66a516;
+}
+.dltor,
+section#torbrowser .os,
+section#torbrowser .lang {
+  clear: both;
+}
+
+table#packages th {
+  padding: 10px;
+}
+
+.tblang th {
+  text-align: center;
+  font-weight: bold;
+}
+.accordion.download article h2 {
+  font-family: sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: 25px;
+}
+
+/* END ACCORDION */

@@ -1,7 +1,7 @@
 #!/usr/bin/wml
 
 ## translation metadata
-# Revision: $Revision: 22069 $
+# Revision: $Revision$
 # Translation-Priority: 1-high
 
 <:
@@ -21,8 +21,8 @@
         'about/contact'               , 'Contact',
     );
     my @calltoaction = (
-        'download/download-easy'           , 'Download',
-        'getinvolved/volunteer'            , 'Get Involved',
+        'download/download'           , 'Download',
+        'getinvolved/volunteer'            , 'Volunteer',
         'donate/donate-button'             , 'Donate',
     );
 
