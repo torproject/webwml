@@ -15,11 +15,12 @@ use Try::Tiny;
 
 # Set Defaults
 my %opts = (
-  'max-age' => 2,
+  'max_age' => 2,
   'socks_proxy' => '127.0.0.1:9050',
   'disable_proxy' => 0,
   'verify_files' => 0,
   'remove_failing' => 0,
+  'skip_tests' => 0,
   'csvfile' => 'include/tor-mirrors.csv',
   'wmifile' => 'include/mirrors-table.wmi');
 
@@ -30,12 +31,13 @@ $opts{'wmifile'} which is included in getinvolved/en/mirrors.wml and appears at
 https://www.torproject.org/getinvolved/mirrors
 
 Usage: $0 [options]
-\t--max-age\t\tChange acceptable age for mirrors in days (Default: $opts{'max-age'})
+\t--max-age\t\tChange acceptable age for mirrors in days (Default: $opts{'max_age'})
 \t--socks-proxy\t\tDefine SOCKS proxy to access mirrors (Default: $opts{'socks_proxy'})
 \t--no-proxy\t\tDirectly connect to mirrors.
 \t--verify-files\t\tDownload random files and verify their signature
 \t\t\t\t(depending on connection speed this can take a bit)
 \t--remove-failing\tRemove unreachable mirrors from the list
+\t--skip-tests\t\tjust regenerate table (after minor changes or for debugging)
 \t--csv\t\t\tDefine alternative csv file (Default: $opts{'csvfile'})
 \t--wmi\t\t\tDefine alternative wmi file (Default: $opts{'wmifile'})
 \t--help\t\t\tShow this help\n";
@@ -44,40 +46,59 @@ Usage: $0 [options]
 
 # Parse Options
 GetOptions(
-  "max-age=n"     => \$opts{'max-age'},
+  "max-age=n"     => \$opts{'max_age'},
   "socks-proxy=s" => \$opts{'socks_proxy'},
   "no-proxy"      => \$opts{'no_proxy'},
   "verify-files"  => \$opts{'verify_files'},
-  "remove-failing"  => \$opts{'remove_failing'},
+  "remove-failing" => \$opts{'remove_failing'},
+  "skip-tests"      => \$opts{'skip_tests'},
   "csv=s"         => \$opts{'csvfile'},
   "wmi=s"         => \$opts{'wmifile'},
   "help"          => sub { &print_help }
 ) or die "Error parsing arguments. Please try again.\n";
 
+# TODO Make global variables unnecessary
 my (@columns, @torfiles, %randomtorfiles, %failures, %regions);
 
 # Functions
 
+# Returns a date string for a given date object
 sub DateString {
-  my $date_object = shift;
+  my ($date_object) = @_;
   return $date_object->strftime("%a %b %e %T %Y");
 }
 
-sub SanitizeContent { # remove letters, numbers and other characters
-    my $taintedData = shift;
+# Returns seconds since epoch [string]
+sub GetTime {
+  my ($string) = @_;
+  try {
+      # usually the string looks like: Sun Oct 21 21:18:56 2018
+      my $date    = Time::Piece->strptime($string, "%a %b  %d %T %Y");
+      return $date->epoch;
+  } catch {
+      warn "\tGetTime: Failed to parse: $string\n";
+      return 0;
+  };
+}
+
+# Strips special characters [string]
+sub SanitizeContent {
+    my ($taintedData) = @_;
     my $whitelist = '-a-zA-Z0-9: +';
     # clean the data, return cleaned data
     $taintedData =~ s/[^$whitelist]//go;
     return $taintedData;
 }
 
-sub CleanUrl { # remove potential double slash
-    my $url = shift;
+# Removes potential double slash at end of an URL [string]
+sub CleanUrl {
+    my ($url) = @_;
     die "CleanUrl: called without argument.\n" unless ($url);
     $url =~ s/([^:])\/\//$1\//g;
     return $url;
 }
 
+# Returns array of files [string, string, object]
 sub ExtractLinks {
     my ($content, $url, $ua) = @_;
     unless ($content) { die "ExtractLinks: Called with empty content.\n"; }
@@ -98,8 +119,9 @@ sub ExtractLinks {
     return @links;
 }
 
+# Prints date string [string]
 sub ExtractDate {
-    my $string = shift;
+    my ($string) = @_;
     die "\tExtractDate: called with empty string.\n" unless ($string);
     my @lines = split "\n", $string;
     warn "\tExtractDate: empty string after split by newlines.\n" unless ($lines[0]);
@@ -124,6 +146,7 @@ sub ExtractDate {
     return undef;
 }
 
+# Prints signature [string, string]
 sub ExtractSig {
     my ($content, $url) = @_;
     my $sig = sha256_hex($content);
@@ -131,6 +154,7 @@ sub ExtractSig {
     return $sig;
 }
 
+# Returns version strin [string, string]
 sub FindVersion {
     my ($content, $url) = @_;
     # TODO Parsing the webpage is an unstable solution (#21222).
@@ -140,6 +164,7 @@ sub FindVersion {
     return undef;
 }
 
+# Calls subrouting or print / saves error [ua object, string, subroutine]
 sub Fetch {
     my ($ua, $url, $sub) = @_;
     if (! $url || $url eq '') { die "Fetch: called with empty URL.\n"; }
@@ -175,13 +200,14 @@ sub Fetch {
       my $error = $result->message;
       $error =~ s/^.+\(([^)]+)\).*$/$1/;
       print "\t$code $error\n";
-      push (@{$failures{$error}}, $url);
+      push (@{$failures{"$code $error"}}, $url);
     }
     return undef;
 }
 
+# Returns array of mirrors [string]
 sub LoadMirrors {
-    my $columns = shift;
+    my ($columns) = @_;
     open(my $fh, "<", $opts{'csvfile'}) or die "Cannot open '$opts{'csvfile'}': $!";
     my $line = <$fh>;
     chomp($line);
@@ -208,6 +234,7 @@ sub LoadMirrors {
     return @mirrors;
 }
 
+# Writes mirrors to file [string, int, array]
 sub DumpMirrors {
     my ($columns, $time_barrier, @m) = @_;
     open(my $csvfh, ">", $opts{'csvfile'}) or die "Cannot open '$opts{'csvfile'}': $!";
@@ -216,7 +243,7 @@ sub DumpMirrors {
     foreach my $server(@m) {
         next unless ($server->{httpWebsiteMirror} || $server->{httpsWebsiteMirror} || $server->{ftpWebsiteMirror} || $server->{httpDistMirror} || $server->{httpsDistMirror} || $server->{hiddenServiceMirror});
         if ($opts{'remove_missing'}) {
-            next if (! $server->{updateDate} || $server->{updateDate} < $time_barrier);
+            next unless ($server->{updateDate} && $server->{updateDate} > $time_barrier);
         }
         print $csvfh join(", ", map($server->{$_}, @$columns));
 	print $csvfh "\n";
@@ -225,9 +252,10 @@ sub DumpMirrors {
     print "Updated $opts{'csvfile'}.\n";
 }
 
+# Returns html for a given server [string]
 sub PrintServer {
-     my ($server, $fh) = @_;
-     print $fh "\n<tr>\n\t<td>$server->{orgName}</td>\n\t<td><small>$server->{updateDate}</small></td>\n";
+     my ($server) = @_;
+     my $return = "\n<tr>\n\t<td>$server->{orgName}</td>\n\t<td><small>$server->{updateDate}</small></td>\n";
 
      my %web = (
                         httpWebsiteMirror => "http",
@@ -241,31 +269,35 @@ sub PrintServer {
                         rsyncDistMirror => "rsync");
 
      foreach my $type (\%web, \%dist) {
-         print $fh "\t<td>\n";
+         $return .= "\t<td>\n";
          foreach my $protocol ( sort keys %$type ) {
              if ($server->{$protocol}) {
                  my $url = $server->{$protocol};
                  my $tag = $type->{$protocol};
-                 print $fh "\t\t<a href=\"$url\">$tag</a>\n";
+                 $return .= "\t\t<a href=\"$url\">$tag</a>\n";
              }
          }
-         print $fh "\t</td>\n";
+         $return .= "\t</td>\n";
      }
-     print $fh "</tr>\n";
+     $return .= "</tr>\n";
+     return $return;
 }
 
 # Start
 chdir dirname($0);
 die "Could not find 'include' - are we in the webwml directory?.\n" unless (-d 'include');
-my $secperday = 86400;
+my $tortime = localtime;
+my ($secperday, $lua, $tb_version) = (86400);
 my $trace_path = 'project/trace/www-master.torproject.org';
 my $download_path = 'download/download.html.en';
 STDOUT->autoflush(1); # unbuffer stdout to show progress
 my @m = LoadMirrors(\@columns);
 
+unless ($opts{'skip_tests'}) {
+
 # Init LWP
 print "=============== Testing mirrors with LWP UserAgent $LWP::VERSION ===============\n";
-my $lua = LWP::UserAgent->new(
+$lua = LWP::UserAgent->new(
     max_redirect => 0,
     keep_alive => 1,
     timeout => 30,
@@ -281,15 +313,14 @@ unless ($opts{'no_proxy'}) {
 
 # Test proxy with tpo
 print "\nRetrieve current time from tpo:";
-my $tortime  = (Fetch($lua, "http://expyuzz4wqqyqhjn.onion/$trace_path", \&ExtractDate)
+$tortime  = (Fetch($lua, "http://expyuzz4wqqyqhjn.onion/$trace_path", \&ExtractDate)
   or Fetch($lua, "https://www.torproject.org/$trace_path", \&ExtractDate))
   or die "Can't extract time from tpo. Are we or they offline?\n";
 die "Failed to parse date returned by tpo ($tortime).\n" if ($tortime < 0);
-$tortime -= $opts{'max-age'} * $secperday;
 print "The time barrier for mirrors to be listed is ". DateString($tortime) ." (". $tortime->epoch .").\n";
 
 print "\nDetermine current TB version:";
-my $tb_version = (Fetch($lua, "http://expyuzz4wqqyqhjn.onion/$download_path", \&FindVersion)
+$tb_version = (Fetch($lua, "http://expyuzz4wqqyqhjn.onion/$download_path", \&FindVersion)
   or Fetch($lua, "https://www.torproject.org/$download_path", \&FindVersion))
   or die "Can't extract tb version from tpo. Are we or they offline?\n";
 if ($tb_version) { print "Tor Browser stable: $tb_version\n"; }
@@ -316,6 +347,8 @@ if ($opts{'verify_files'}) {
     print "Using these files for sig matching:\n". join("\n", keys %randomtorfiles) ."\n";
 }
 
+} # / skip_tests
+$tortime -= $opts{'max_age'} * $secperday;
 for my $server (@m) {
     foreach my $field (qw/ipv4 ipv6 loadBalanced/) { # unify boolean values
         unless ($server->{$field} =~ /TRUE|FALSE/) {
@@ -333,6 +366,7 @@ for my $server (@m) {
 
         # There are several mirror types and we want to find out if each is up to date
         if ($serverType =~ /httpWebsiteMirror|httpsWebsiteMirror|ftpWebsiteMirror|hiddenServiceMirror/) {
+            next if ($opts{skip_tests});
             my $updateDate = Fetch($lua, CleanUrl("$url$trace_path"), \&ExtractDate);
 
             if (not defined $updateDate) {
@@ -341,7 +375,7 @@ for my $server (@m) {
                   $server->{$serverType} = '';
                   next;
                 }
-                #push (@{$failures{'No trace URL'}}, "$url ($server->{'adminContact'})");
+                push (@{$failures{'No trace URL'}}, $url);
                 #print "\t$url ($server->{'adminContact'}) has issues but without --remove-failing we keep it.\n";
 
             } elsif ($updateDate < 0) { # We received a clear error.
@@ -356,11 +390,11 @@ for my $server (@m) {
                 my $errors;
                 unless ($version) {
                     print "\tFound no Tor Browser version.\n";
-                    push (@{$failures{'No download version'}}, "$url ($server->{'adminContact'})");
+                    push (@{$failures{'No download version'}}, $url);
                     $errors++;
                 } elsif ($tb_version ne $version) {
                     print "\tMirror offers an old Tor Browser version: $version\n";
-                    push (@{$failures{'Wrong download version'}}, "$url ($server->{'adminContact'})");
+                    push (@{$failures{'Wrong download version'}}, $url);
                     $errors++;
                 } else { print "\tTor Browser stable: $version\n"; }
                 if ($errors && $opts{'remove_failing'}) {
@@ -371,7 +405,7 @@ for my $server (@m) {
             }
 
         } elsif ($serverType =~ /httpDistMirror|httpsDistMirror/) {
-
+            next if ($opts{skip_tests});
             $server->{sigMatched} = 1;
             foreach my $randomtorfile(keys %randomtorfiles) {
                 my $sig = Fetch($lua, CleanUrl("$url$randomtorfile"), \&ExtractSig);
@@ -379,7 +413,7 @@ for my $server (@m) {
                     $server->{sigMatched} = 0;
                     last;
                 } elsif ($sig ne $randomtorfiles{$randomtorfile}) {
-                    push (@{$failures{'Signature mismatch'}}, "$url ($server->{'adminContact'})");
+                    push (@{$failures{'Signature mismatch'}}, $url);
                     $server->{sigMatched} = 0;
                     last;
                 } else {
@@ -392,30 +426,29 @@ for my $server (@m) {
             }
         } else { die "Unrecognized server type: $serverType\n"; }
     }
-    push (@{$regions{ $server->{region} }{ $server->{subRegion} } }, $server);
+    if ($server->{updateDate} &&  &GetTime($server->{updateDate}) > $tortime->epoch) {
+        push (@{$regions{ $server->{region} }{ $server->{subRegion} } }, $server);
+    } else { push (@{$failures{'Outdated'}}, "<a name='$server->{'orgName'}'></a><a href='#$server->{'orgName'}' title='Last update: ". ($server->{updateDate} || '') ."'>$server->{'orgName'}</a>"); }
+    # TODO We could generate a mail to admins with failing mirrors
 }
 
 # TODO we could also check rsync
 
-# show f of mirrors without trace URL
+# show mirror issues
+my $failing_mirrors;
 if (!$opts{'remove_failing'}) {
-    my $errors;
-    foreach my $error (keys %failures) {
-        if (@{$failures{$error}} > 0) { $errors++;
-            print "\n$error:\n";
-            map { print "\t$_\n" } @{$failures{$error}};
-            # TODO we could tweak this to show a sample mail to the mirror admin
-        }
+    foreach my $error (sort keys %failures) {
+        next unless (@{$failures{$error}} > 0);
+        my $failing = join ', ', @{$failures{$error}};
+        $failing_mirrors .= "<tr><td colspan='5'><h4 id='$error'><a href='#$error'>$error</a></h4></td></tr>\n<tr><td colspan='5'><small>$failing</small></td>";
     }
-    print "Use --remove-failing to remove them from the list.\n" if ($errors);
 }
 
 # open wmi for writing
 open (my $wmifh, '>', $opts{'wmifile'}) or die "Can't write $opts{'wmifile'}: $!";
 $wmifh->autoflush(1); # unbuffer stdout to show progress
-# Print server list sorted from last known recent update to unknown update times
-# TODO We want to have this sorted by region https://bugs.torproject.org/28083
 
+# Print server list sorted by region
 print $wmifh "<ul>\n";
 foreach my $region (sort keys %regions) {
     print $wmifh "<li><strong><a href='#$region'>$region</a></strong>: ";
@@ -427,24 +460,28 @@ foreach my $region (sort keys %regions) {
 print $wmifh "</ul>\n";
 
 foreach my $region (sort keys %regions) {
-    print $wmifh "<tr><td colspan=5><h3 id='$region'>$region</h3></td></tr>\n";
+    my $subregions;
     foreach my $subregion (sort keys %{$regions{$region}}) {
-    print $wmifh "<tr><td colspan=5><h4 id='$subregion'>$subregion</h4></td></tr>\n";
-#        foreach my $server ( sort { $b->{updateDate} <=> $a->{updateDate} } grep {$_->{updateDate} && $_->{updateDate} > $tortime } @{$regions{$region}{$subregion}} ) {
-        foreach my $server ( sort { $b->{updateDate} <=> $a->{updateDate} } @{$regions{$region}{$subregion}} ) {
-           PrintServer($server, $wmifh);
+        my $servers;
+        foreach my $server (
+          sort { &GetTime($b->{updateDate}) <=> &GetTime($a->{updateDate}) }
+          @{$regions{$region}{$subregion}} ) {
+            $servers .= PrintServer($server);
         }
+        $subregions .= "<tr><td colspan=5><h4 id='$subregion'>$subregion</h4></td></tr>\n$servers" if ($servers);
     }
+    print $wmifh "<tr><td colspan=5><h3 id='$region'>$region</h3></td></tr>\n$subregions" if ($subregions);
 }
-DumpMirrors(\@columns, $tortime - 31*$secperday, @m);
+print $wmifh "<tr><td colspan=\"5\"><h3 id='failing'><a href='#failing'>Why is my mirror not listed above?</a></h3></td></tr>\n$failing_mirrors" if ($failing_mirrors);
 close($wmifh);
+
+DumpMirrors(\@columns, $tortime - 31*$secperday, @m);
 print "Updated $opts{'wmifile'}.\nWe are done here, enjoy your day!\n";
 
 __END__
 
 Possible improvements:
 - above code has several TODOs
-- code is repeated in the server test loop
 - the various server types are repeated at a few places and should be centralized in a hash
 - be less verbose per default
 - use consistent variable/function names
