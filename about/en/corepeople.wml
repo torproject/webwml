@@ -504,6 +504,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=8C4CD511095E982EB0EFBFA21E8BF34923291265"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#ln5">Linus Nordberg</a></div>
       <div class="field"><b>IRC:</b> ln5</div>
+      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Software developer, sysadmin and co-founder of the Swedish Torservers.net partner :DFRI. Member of the sysadmin team. Runs one of the directory authorities.</a></div>
     </td>
 
