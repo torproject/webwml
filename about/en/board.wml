@@ -24,22 +24,6 @@
             secure systems, and public policy.
           </p>
         </td>
-        <td class="beige" style="width:50%;">
-          <div class="name">Linus Nordberg</div>
-          <div class="caps">Director</div>
-          <p>
-            Linus is a longtime internet and privacy activist who has been
-            involved with Tor since 2009. Linus is a software developer who
-            specializes in network security and operating internet services.
-            Since his start at Tor he's developed code, run services, and
-            advocated for the Tor Project. He's one of the founders of the
-            Swedish digital rights organization DFRI (Digitala Fri- och
-            Rättigheter) and through that involved in the European umbrella
-            public policy organization EDRi (European Digital Rights).
-          </p>
-        </td>
-      </tr>
-      <tr>
         <td class="beige">
           <div class="name">Cindy Cohn</div>
           <div class="caps">Board Treasurer</div>
@@ -60,6 +44,8 @@
             surveillance.
           </p>
         </td>
+      </tr>
+      <tr>
         <td>
           <div class="name">Megan Price</div>
           <div class="caps">Director</div>
@@ -79,8 +65,6 @@
             International Association for Official Statistics (IAOS).
           </p>
         </td>
-      </tr>
-      <tr>
         <td>
           <div class="name">Gabriella Coleman</div>
           <div class="caps">Board Clerk</div>
@@ -98,6 +82,8 @@
             Review, Huffington Post, and the Atlantic.
           </p>
         </td>
+      </tr>
+      <tr>
         <td class="beige">
           <div class="name">Bruce Schneier</div>
           <div class="caps">Director</div>
@@ -114,8 +100,6 @@
             and the Chief Technology Officer of Resilient.
           </p>
         </td>
-      </tr>
-      <tr>
         <td class="beige">
           <div class="name">Ramy Raoof</div>
           <div class="caps">Director</div>
@@ -123,6 +107,8 @@
             Ramy is a technologist and privacy and security researcher with a passion for free/open culture. He has provided and developed digital security plans and strategies for NGOs and members of the media, emergency response in cases of physical threats, support on publishing sensitive materials, secure systems for managing sensitive information, and operational plans for human rights emergency response teams, in Egypt and the MENA region. Most recently, Ramy has been volunteering with different NGOs and civil liberty groups in Central & South America, to enhance their privacy and security through means of behavioral change based on understanding surveillance and threat models in their own contexts and environments. Among different hats, Ramy is Senior Research Technologist at the Egyptian Initiative for Personal Rights (EIPR), Research Fellow with Citizen Lab, and currently a volunteer visitor with Fundación Acceso assisting collectives and networks in Central America around infosec and activism. He is also an Internet Freedom Festival Fellow on security and privacy best practices. Ramy has received multiple international awards for his important work. Most recently, Ramy received the 2017 Heroes of Human Rights and Communications Surveillance from Access Now. 
           </p>
         </td>
+      </tr>
+      <tr>
         <td>
           <div class="name">Julius Mittenzwei</div>
           <div class="caps">Director</div>
