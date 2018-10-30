@@ -61,7 +61,10 @@ RewriteRule ^contact(.*) /about/contact$1 [R=301,L]
 # Download websites
 RewriteRule ^download/$ /download/download [R=301,L]
 RewriteRule ^download.html(.*) /download/download.html$1 [R=301,L]
-RewriteRule ^easy-download(.*) /download/download-easy$1 [R=301,L]
+RewriteRule ^easy-download(.*) /download/download$1 [R=301,L]
+RewriteRule ^download-easy(.*) /download/download$1 [R=301,L]
+RewriteRule ^download-unix(.*) /download/download$1 [R=301,L]
+RewriteRule ^tor(.*) /download/download [R=301,L]
 
 # Relays
 RewriteRule ^relays(.*) /getinvolved/relays [R=301,L]

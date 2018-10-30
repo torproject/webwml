@@ -813,7 +813,7 @@
     it sends. Tor Browser tries to keep application-level data,
     like the user-agent string, uniform for all users. Tor Browser can't
     do anything about text that you type into forms, though. <a
-    href="<page download/download-easy>#warning">Be
+    href="<page download/download>#warning">Be
     careful and be smart.</a>
     </p>
 
@@ -1408,7 +1408,7 @@
 
     <p>
     First (best option), if you're on Linux, you can install the
-    <a href="<page download/download-unix>">system Tor package</a>
+    <a href="<page download/download>#tor-package">system Tor package</a>
     (e.g. apt-get install tor) and then set it up to be a relay
     (<a href="https://www.torproject.org/docs/tor-relay-debian">instructions</a>).
     You can then use TBB independent of that.

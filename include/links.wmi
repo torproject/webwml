@@ -1,7 +1,8 @@
 #!wml
 
 <define-tag gitblob whitespace=delete>https://gitweb.torproject.org/tor.git/plain/</define-tag>
-<define-tag cgitstable whitespace=delete>?id=tor-<version-stable></define-tag> 
+<define-tag cgitstable whitespace=delete>?id=tor-<version-stable></define-tag>
+<define-tag cgitoldstable whitespace=delete>?id=tor-<version-oldstable></define-tag>
 <define-tag gittree whitespace=delete>https://gitweb.torproject.org/tor.git?a=tree;hb=HEAD;f=</define-tag>
 <define-tag gitrepo whitespace=delete>https://gitweb.torproject.org/tor.git?a=tree;hb=HEAD</define-tag>
 <define-tag svnwebsite whitespace=delete>https://svn.torproject.org/svn/website/trunk/</define-tag>
