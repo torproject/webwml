@@ -1,0 +1,202 @@
+## translation metadata
+# Revision: $Revision$
+# Translation-Priority: 1-high
+#include "banner.wmi"
+#include "head.wmi" TITLE="Tor Project | Privacy Online" CHARSET="UTF-8"
+<define-tag lang>es-ES</define-tag>
+<div id="home">
+    <div id="content" class="clearfix">
+    	<div id="maincol">
+      	<div id="banner">
+        	<ul>
+          	<li>Tor prevents people from learning your location or browsing habits.</li>
+            <li>Tor is for web browsers, instant messaging clients, and more.</li>
+            <li>Tor is free and open source for Windows, Mac, Linux/Unix, and Android</li>
+          </ul>
+        	<h1 class="headline">Anonymity Online</h1>
+          <p class="desc">Protect your privacy. Defend yourself against network surveillance and traffic analysis.</p>
+
+      <div id="download">
+        <a href="<page download/download-easy>">
+          <span class="download-tor">Download Tor</span></a>
+      </div>
+      </div>
+        <div class="subcol-container clearfix">
+          <div class="subcol first">
+            <h2>What is Tor?</h2> <p>Tor is free software and an open
+            network that helps you defend against traffic analysis,
+            a form of network surveillance that
+            threatens personal freedom and privacy, confidential business
+            activities and relationships, and state security.<br>
+            <span class="continue"><a href="<page about/overview>">Learn
+            more about Tor &raquo;</a></span></p>
+          </div>
+          <!-- END SUBCOL -->
+          <div class="subcol">
+          <h2>Why Anonymity Matters</h2>
+          <p>Tor protects you by bouncing your communications around a
+          distributed network of relays run by volunteers all around
+          the world: it prevents somebody watching your Internet
+          connection from learning what sites you visit, and it prevents
+          the sites you visit from learning your physical location.<br>
+          <span class="continue"><a href="<page
+          getinvolved/volunteer>">Get involved with Tor
+          &raquo;</a></span></p>
+          </div>
+        </div>
+        <!-- END SUBCOL -->
+        <div id="home-our-projects" class="clearfix">
+          <h2>Our Projects</h2>
+          <div class="fauxhead"></div>
+          <table style="table-layout: fixed;">
+            <tr>
+              <!-- Icon from the Crystal set
+                author: Everaldo Coelho
+                source: http://www.everaldo.com/crystal/
+                license: LGPL v2
+              -->
+              <td>
+                <div class="project">
+                <a href="<page projects/torbrowser>"><img
+                src="$(IMGROOT)/icon-TorBrowser.jpg" alt="TorBrowser Icon"></a>
+                <h3><a href="<page projects/torbrowser>">Tor
+                Browser</a></h3>
+                <p>Tor Browser contains everything you need to safely
+                browse the Internet.</p>
+                </div>
+              </td>
+              <td>
+                <div class="project">
+                <a href="https://guardianproject.info/apps/orbot/"><img
+                src="$(IMGROOT)/icon-Orbot.jpg" alt="Orbot Icon"></a>
+                <h3><a href="https://guardianproject.info/apps/orbot/">Orbot</a></h3>
+                <p>Tor for Google Android devices.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="project">
+                <a href="https://tails.boum.org/"><img src="$(IMGROOT)/tails_logo.png" alt="Tails Logo"></a>
+                <h3><a href="https://tails.boum.org/">Tails</a></h3>
+                <p>Live CD/USB operating system preconfigured to use
+                Tor safely.</p>
+                </div>
+              </td>
+              <!-- Icon from the Crystal set
+              author: Everaldo Coelho
+              source: http://www.everaldo.com/crystal/
+              license: LGPL v2
+              -->
+              <td>
+                <div class="project">
+                <a href="https://nyx.torproject.org/"><img
+                src="$(IMGROOT)/icon-Nyx.jpg" alt="Nyx Icon"></a>
+                <h3><a href="https://nyx.torproject.org/">Nyx</a></h3>
+                <p>Terminal (command line) application for monitoring
+                and configuring Tor.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+                <!-- Icon from the NuoveXT 2 set
+                author: Alexandre Moore
+                source: http://nuovext.pwsp.net/
+                license: LGPL v3
+                -->
+	      <td>
+              <div class="project">
+                <a href="https://metrics.torproject.org/rs.html"><img
+                src="$(IMGROOT)/icon-TorStatus.jpg" alt="Atlas Icon"></a>
+                <h3><a href="https://metrics.torproject.org/rs.html">Relay
+                Search</a></h3>
+                <p>Site providing an overview of the Tor network.</p>
+                </div>
+              </td>
+                <!-- Obfsproxy Icon
+                author: Constantinos Crystallidis
+                license: Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
+                -->
+              <td>
+                <div class="project">
+                <a href="<page docs/pluggable-transports>"><img
+                src="$(IMGROOT)/icon-Obfsproxy.jpg" alt="Pluggable Transports Icon"></a>
+                <h3><a href="<page docs/pluggable-transports>">Pluggable Transports</a></h3>
+                <p>Pluggable transports help you circumvent censorship.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+               <div class="project">
+              <a href="https://stem.torproject.org/"><img
+              src="$(IMGROOT)/icon-stem.jpg" alt="Stem Icon"></a>
+              <h3><a href="https://stem.torproject.org/">Stem</a></h3>
+              <p>Library for writing scripts and applications that interact
+              with Tor.</p>
+                </div>
+              </td>
+              <td>
+               <div class="project">
+              <a href="https://ooni.torproject.org/"><img
+              src="$(IMGROOT)/icon-OONI.png" alt="OONI"></a>
+               <h3><a href="https://ooni.torproject.org/">OONI</a></h3>
+               <p>Global observatory monitoring for network censorship.</p>
+               </div>
+               </td>
+            </tr>
+          </table>
+	  <span class="continue"><a href="<page projects/projects>">Learn more about our projects &raquo;</a></span>
+      	</div>
+        <!-- END TABLE -->
+      </div>
+      <!-- END MAINCOL -->
+      <div id="sidecol">
+        <div class="joblink">
+          <a href="<page about/jobs>">We're hiring! &raquo;</a>
+        </div>
+      <!-- BLOG WIDGET -->
+#include <blog-recent.wmi>
+      <!-- END BLOG WIDGET -->
+      	<div id="home-users">
+          <h2>Who Uses Tor?</h2>
+	  <div class="fauxhead"></div>
+          <div class="user">
+            <h3>
+              <a href="<page about/torusers>#normalusers"><img src="$(IMGROOT)/family.jpg" alt="Normal People">Family &amp; Friends</a>
+            </h3>
+            <p>People like you and your family use Tor to protect themselves, their children, and their dignity while using the Internet.</p>
+          </div>
+          <div class="user">
+            <h3>
+              <a href="<page about/torusers>#executives"><img src="$(IMGROOT)/consumers.jpg" alt="Businesses">Businesses</a>
+            </h3>
+            <p>Businesses use Tor to research competition, keep business strategies confidential, and facilitate internal accountability.</p>
+          </div>
+          <div class="user">
+            <h3>
+              <a href="<page about/torusers>#activists"><img src="$(IMGROOT)/activists.jpg" alt="Activists &amp; Whistleblowers">Activists</a>
+            </h3>
+            <p>Activists use Tor to anonymously report abuses from danger zones.  Whistleblowers use Tor to safely report on corruption.</p>
+          </div>
+          <div class="user">
+            <h3>
+              <a href="<page about/torusers>#journalist"><img src="$(IMGROOT)/media.jpg" alt="Journalists and the Media">Media</a>
+            </h3>
+            <p>Journalists and the media use Tor to protect their research and sources online.</p>
+          </div>
+          <div class="user">
+            <h3>
+              <a href="<page about/torusers>#military"><img src="$(IMGROOT)/military.jpg" alt="Military and Law Enforcement">Military &amp; Law Enforcement</a>
+            </h3>
+            <p>Militaries and law enforcement use Tor to protect their communications, investigations, and intelligence gathering online.</p>
+          </div>
+        </div>
+        <!-- END TABLE -->
+      </div>
+      <!-- END SIDECOL -->
+    </div>
+    <!-- END CONTENT -->
+  </div>
+  <!-- END HOME -->
+#include <foot.wmi>
