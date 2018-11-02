@@ -1,0 +1,111 @@
+#include "head.wmi" TITLE="Tor Project: Jobs (software developer)" CHARSET="UTF-8"
+<div id="content" class="clearfix">
+  <div id="breadcrumbs">
+    <a href="<page index>">Home &raquo; </a>
+    <a href="<page about/overview>">About &raquo; </a>
+    <a href="<page about/jobs>">Jobs</a>
+  </div>
+  <div id="maincol">
+    <h1>
+    Internet Freedom Nonprofit Seeks Metrics Data Architect
+    </h1>
+    <h2>(Posted November 2, 2018)</h2>
+
+    <p>
+    The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced Data Architect to take our metrics work to the next level.
+    </p>
+    <p>
+    Tor is for everyone, and we are actively working to build a team that represents people from all over the world — people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. Racial minorities, non-gender-binary people, women, and people from any group that is generally underrepresented in tech are encouraged to apply.
+    </p>
+    <p>
+    The team:
+    </p>
+    <p>
+    Our Metrics Team has been collecting data since 2004 to help improve the tools we build and learn more about the Tor network. For example, we monitor the number of relays and clients in the network, their respective capabilities, the number of clients connecting via bridges, fluctuations in network speed, etc. Gathering this data results in huge data archives, so we are also working to develop tools to process this data and make it available to everyone.
+    </p>
+    <p>
+    How we achieve our goals:
+    </p>
+    <ul>
+      <li>Robustness (We want to avoid bugs and/or bad design decision that cause us to miss data)</li>
+      <li>Timeliness (users need up-to-date network status information)</li>
+	    <li>Scalability (as the network grows, so does our data)</li>
+      <li>Transparency (our community rightly wants to know what data we're collecting)</li>
+    </ul>
+    <p>
+    The Tor Metrics team presently consists of two full-time developers; this position will be the third. Our team works asynchronously on each person’s own schedule, but we sync regularly via Git, Trac, IRC, e-mail, and an occasional video chat.
+    </p>
+    <p>
+    The most interesting challenge for the Metrics team is how to gather data on an anonymity system without de-anonymizing users.
+    </p>
+    <p>
+    The job:
+    </p>
+    <p>
+    The person in this position will work directly with helping us design and refine systems for gathering and analyzing data. The bulk of our code is written in Java, but smaller portions are written in R, Python, PostgreSQL, and JavaScript. Part of this job will be to analyze and fix bugs in our current code and review patches. We will also be migrating parts of our code from Java to Python, and the person in this position will help with that.
+    </p>
+    <p>
+    Our main five codebases:
+    </p>
+    <ul>
+      <li>Collector (<a href="https://gitweb.torproject.org/collector.git/">https://gitweb.torproject.org/collector.git/</a> )</li>
+      <li>metrics-lib (<a href="https://gitweb.torproject.org/metrics-lib.git/">https://gitweb.torproject.org/metrics-lib.git/</a> )</li>
+	    <li>Onionoo (<a href="https://gitweb.torproject.org/onionoo.git/">https://gitweb.torproject.org/onionoo.git/</a> )</li>
+      <li>Exonerator (<a href="https://gitweb.torproject.org/exonerator.git/">https://gitweb.torproject.org/exonerator.git/</a> )</li>
+      <li>metrics-web (<a href="https://gitweb.torproject.org/metrics-web.git/">https://gitweb.torproject.org/metrics-web.git/</a> )</li>
+    </ul>
+    <p>
+    Requirements:
+    </p>
+    <p>
+    Technical abilities/experience:
+    </p>
+    <ul>
+      <li>Have experience finding your way into existing Java/Python/R/PostgreSQL code bases and the ability to review patches and make changes to fix bugs/smaller enhancements.</li>
+      <li>Able to identify shortcomings in our data pipeline and suggest improvements to reduce complexity and future maintenance efforts.</li>
+      <li>Experience working with Git and Trac or similar issue tracking tools.</li>
+      <li>Ability to learn quickly and can adapt to our current processes; are able to improve future processes for releasing software and operating services.</li>
+      <li>Understanding of the inherent privacy implications of gathering data in an anonymity system, the security implications of gathering metrics data from semi-trusted relays in the Tor network, and the challenges of processing large amounts of data per day (specifically performance and scalability challenges).</li>
+    </ul>
+    <p>
+    Collaborative requirements:
+    </p>
+    <ul>
+      <li>Ability to work remotely 90% of the time, as most team synchronization happening via email and/or IRC.
+      <li>Participation in weekly IRC meetings and monthly team video chats.
+      <li>Willingness and ability to travel internationally up to four times per year, to semi-annual Tor meeting plus up to two team-internal meetings.
+      <li>Language: write and speak fluent English.
+      <li>Comfortable posting to a public mailing list or speaking up in a public IRC channel to ask questions, even when you think the question might be obvious or silly.
+    </ul>
+
+    <p>Bonus skills:</p>
+    <ul>
+      <li>Data analysis: Ability to make sense of data sets and use data analysis tools to find and visualize interesting patterns.
+      <li>Open source attitude: You're accustomed to a pattern of early and frequent releases without attempting to finalize things on your own and have contributed to open source projects before.
+      <li>Scientific writing: Experience writing technical reports about data findings.
+      <li>Mathematics: Knowledge of basic statistics.
+      <li>Networking background: Experience working with networks and measurements in the past.
+      <li>You support Internet Freedom!
+    </ul>
+    <p>
+    This is a full-time position that can be done remotely/internationally or in our office in Seattle, WA. To apply, send a cover letter that includes a statement about why you want to work at the Tor Project, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. All documents should be in PDF format labeled with your name. Please send to job-metrics at torproject dot org with “Metrics Data Architect” in the subject line. No phone calls please!
+    </p>
+    <p>
+    Flexible salary, depending on experience. The Tor Project has a highly competitive benefits package, including a generous PTO policy; paid holidays (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; 401(k); and flexible work schedule. (Please note that benefits package specifics can vary slightly from country to country, but we aim to treat everyone equally.)
+    </p>
+    <p>
+    The Tor Project's workforce is smart and committed. The Tor Project currently has a paid and contract staff of around 47 developers and operational support staff, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation and corporate donations. If you’re new to the Tor Project scene, are curious what our workplace culture is like, or just want to read about how fun our semi-annual meetings are, hear what our new Development Director had to say about all of it: https://blog.torproject.org/reflections-tor-meeting-newbie
+    </p>
+    <p>
+    The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+    </p>
+  </div>
+  <!-- END MAINCOL -->
+  <div id = "sidecol">
+    #include "side.wmi"
+    #include "info.wmi"
+  </div>
+  <!-- END SIDECOL -->
+</div>
+<!-- END CONTENT -->
+#include <foot.wmi>
