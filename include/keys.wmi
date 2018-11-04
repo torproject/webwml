@@ -1,35 +1,32 @@
 #!/usr/bin/env wml
 <p>
-This page was automatically generated page from
-<a href='/include/keys.txt'>this file listing the gpg keys of our release teams</a>.
+This page lists <a href='../include/keys.txt'>GPG signing keys of our release
+teams</a> as of November 2018.<br/>
 To learn how to verify signatures, see <a href="<page docs/signing-keys>">
 our manual</a>.
 </p>
-<p>
-As of 8/118 the signing keys we use are:
-</p>
 
 <ul>
-<li>The Tor Browser Developers (<a href='https://pgp.mit.edu/pks/lookup?search=0x4E2C6E8793298290&op=vindex&exact=on'>0x4E2C6E8793298290</a>), Mike Perry (<a href='https://pgp.mit.edu/pks/lookup?search=0x29846B3C683686CC&op=vindex&exact=on'>0x29846B3C683686CC</a>), Georg Koppen (<a href='https://pgp.mit.edu/pks/lookup?search=0xD1483FA6C3C07136&op=vindex&exact=on'>0xD1483FA6C3C07136</a>), Nicolas Vigier (<a href='https://pgp.mit.edu/pks/lookup?search=0x3E39CEABFC69F6F7&op=vindex&exact=on'>0x3E39CEABFC69F6F7</a>), Arthur Edelstein (<a href='https://pgp.mit.edu/pks/lookup?search=0xD752F538C0D38C3A&op=vindex&exact=on'>0xD752F538C0D38C3A</a>) sign <strong>Tor Browser releases</strong></li>
-<li>Roger Dingledine (<a href='https://pgp.mit.edu/pks/lookup?search=0x28988BF5&op=vindex&exact=on'>0x28988BF5</a> and <a href='https://pgp.mit.edu/pks/lookup?search=0x19F78451&op=vindex&exact=on'>0x19F78451</a>), Nick Mathewson (<a href='https://pgp.mit.edu/pks/lookup?search=0x165733EA&op=vindex&exact=on'>0x165733EA</a>) sign <strong>Tor source tarballs</strong></li>
-<li>Nick Mathewson (<a href='https://pgp.mit.edu/pks/lookup?search=0x165733EA&op=vindex&exact=on'>0x165733EA</a>) signed <strong>older Tor tarballs</strong></li>
-<li>Tor Project Archive (<a href='https://pgp.mit.edu/pks/lookup?search=0xEE8CBC9E886DDD89&op=vindex&exact=on'>0xEE8CBC9E886DDD89</a>) signs <strong>deb.torproject.org repositories and archives</strong></li>
-<li>Damian Johnson (<a href='https://pgp.mit.edu/pks/lookup?search=0x9ABBEEC6&op=vindex&exact=on'>0x9ABBEEC6</a>) signs <strong>Arm releases</strong></li>
-<li>The Tails team (<a href='https://pgp.mit.edu/pks/lookup?search=0xDBB802B258ACD84F&op=vindex&exact=on'>0xDBB802B258ACD84F</a>) signs <strong>Tails live system releases</strong></li>
-<li>David Goulet (<a href='https://pgp.mit.edu/pks/lookup?search=0x42E86A2A11F48D36&op=vindex&exact=on'>0x42E86A2A11F48D36</a>) signs <strong>Torsocks releases</strong></li>
-<li>Sukhbir Singh (<a href='https://pgp.mit.edu/pks/lookup?search=0xB01C8B006DA77FAA&op=vindex&exact=on'>0xB01C8B006DA77FAA</a>) signs <strong>TorBirdy releases</strong></li>
-<li>Other developers include Peter Palfrader (<a href='https://pgp.mit.edu/pks/lookup?search=0x62AF4031C82E0039&op=vindex&exact=on'>0x62AF4031C82E0039</a>).</li>
+<li><strong>Tor Browser releases</strong>: The Tor Browser Developers (<a href='https://pgp.mit.edu/pks/lookup?search=0x4E2C6E8793298290&op=vindex&exact=on'>0x4E2C6E8793298290</a>), Mike Perry (<a href='https://pgp.mit.edu/pks/lookup?search=0x29846B3C683686CC&op=vindex&exact=on'>0x29846B3C683686CC</a>), Georg Koppen (<a href='https://pgp.mit.edu/pks/lookup?search=0xD1483FA6C3C07136&op=vindex&exact=on'>0xD1483FA6C3C07136</a>), Nicolas Vigier (<a href='https://pgp.mit.edu/pks/lookup?search=0x3E39CEABFC69F6F7&op=vindex&exact=on'>0x3E39CEABFC69F6F7</a>), Arthur Edelstein (<a href='https://pgp.mit.edu/pks/lookup?search=0xD752F538C0D38C3A&op=vindex&exact=on'>0xD752F538C0D38C3A</a>)</li>
+<li><strong>Tor source tarballs</strong>: Roger Dingledine (<a href='https://pgp.mit.edu/pks/lookup?search=0x28988BF5&op=vindex&exact=on'>0x28988BF5</a> and <a href='https://pgp.mit.edu/pks/lookup?search=0x19F78451&op=vindex&exact=on'>0x19F78451</a>), Nick Mathewson (<a href='https://pgp.mit.edu/pks/lookup?search=0xFE43009C4607B1FB&op=vindex&exact=on'>0xFE43009C4607B1FB</a>)</li>
+<li><strong>older Tor tarballs</strong>: Nick Mathewson (<a href='https://pgp.mit.edu/pks/lookup?search=0x165733EA&op=vindex&exact=on'>0x165733EA</a> and <a href='https://pgp.mit.edu/pks/lookup?search=0x8D29319A&op=vindex&exact=on'>0x8D29319A</a>)</li>
+<li><strong>deb.torproject.org repositories and archives</strong>: Tor Project Archive (<a href='https://pgp.mit.edu/pks/lookup?search=0xEE8CBC9E886DDD89&op=vindex&exact=on'>0xEE8CBC9E886DDD89</a>)</li>
+<li><strong>Arm releases</strong>: Damian Johnson (<a href='https://pgp.mit.edu/pks/lookup?search=0x9ABBEEC6&op=vindex&exact=on'>0x9ABBEEC6</a>)</li>
+<li><strong>Tails live system releases</strong>: The Tails team (<a href='https://pgp.mit.edu/pks/lookup?search=0xDBB802B258ACD84F&op=vindex&exact=on'>0xDBB802B258ACD84F</a>)</li>
+<li><strong>Torsocks releases</strong>: David Goulet (<a href='https://pgp.mit.edu/pks/lookup?search=0x42E86A2A11F48D36&op=vindex&exact=on'>0x42E86A2A11F48D36</a>)</li>
+<li><strong>TorBirdy releases</strong>: Sukhbir Singh (<a href='https://pgp.mit.edu/pks/lookup?search=0xB01C8B006DA77FAA&op=vindex&exact=on'>0xB01C8B006DA77FAA</a>)</li>
+<li><strong>other</strong>: Peter Palfrader (<a href='https://pgp.mit.edu/pks/lookup?search=0x62AF4031C82E0039&op=vindex&exact=on'>0x62AF4031C82E0039</a>)</li>
 
 </ul>
-<h2>Fingerprints</h2>
-<p>The fingerprints for the keys are:</p>
 <h3>Tor Browser releases</h3>
 <pre>
+
 pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
       Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
 uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbrowser#torproject.org&gt;
 sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
       Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
+
 
 pub   rsa8192/0x29846B3C683686CC 2013-09-11 [SC]
       Key fingerprint = C963 C21D 6356 4E2B 10BB  335B 2984 6B3C 6836 86CC
@@ -37,16 +34,14 @@ uid                   [ unknown] Mike Perry &lt;mikeperry#endarken.info&gt;
 uid                   [ unknown] Mike Perry &lt;mikeperry#unencrypted.info&gt;
 uid                   [ unknown] Mike Perry (Regular use key) &lt;mikeperry#fscked.org&gt;
 uid                   [ unknown] Mike Perry (Regular use key) &lt;mikeperry#torproject.org&gt;
-sub   rsa4096/0x004AD1045BA0FE28 2017-10-31 [S] [expires: 2018-10-31]
-      Key fingerprint = 7AB6 A050 C544 CB16 60A9  F1E9 004A D104 5BA0 FE28
-sub   rsa4096/0xEEC50E9938F9F4E9 2017-10-31 [E] [expires: 2018-10-31]
-      Key fingerprint = B403 E911 BA38 63DB ED82  C57C EEC5 0E99 38F9 F4E9
+
 
 pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
       Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
 uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbrowser#torproject.org&gt;
 sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
       Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
+
 
 pub   rsa4096/0x3E39CEABFC69F6F7 2015-09-24 [SC]
       Key fingerprint = 6AB6 AEE9 776E 7827 23C8  ACE8 3E39 CEAB FC69 F6F7
@@ -59,6 +54,7 @@ sub   rsa4096/0x07B7CFD7A0FBA062 2017-01-25 [S] [expires: 2019-01-22]
 sub   rsa4096/0x6DB4024DAA111CE4 2017-01-25 [E] [expires: 2019-01-22]
       Key fingerprint = B995 3CFA C0C7 A2ED C780  24ED 6DB4 024D AA11 1CE4
 
+
 pub   rsa2048/0xD752F538C0D38C3A 2014-12-10 [SC]
       Key fingerprint = 20B2 4CEF E6AF D615 0B6A  6F18 D752 F538 C0D3 8C3A
 uid                   [ unknown] Arthur Edelstein &lt;arthuredelstein#gmail.com&gt;
@@ -68,6 +64,7 @@ sub   rsa2048/0x3306E88D27211E0B 2014-12-10 [E]
 </pre>
 <h3>Tor source tarballs</h3>
 <pre>
+
 pub   dsa1024/0xEB5A896A28988BF5 2000-02-27 [SCA]
       Key fingerprint = B117 2656 DFF9 83C3 042B  C699 EB5A 896A 2898 8BF5
 uid                   [ unknown] Roger Dingledine &lt;arma#mit.edu&gt;
@@ -77,6 +74,7 @@ sub   elg2048/0x147FF421788AFDCE 2000-02-27 [E]
 pub   rsa1024/0x9C01813428988BF5 2014-06-16 [SCEA] [revoked: 2016-08-16]
       Key fingerprint = 2629 5471 A26A B9F9 6C0C  45BB 9C01 8134 2898 8BF5
 uid                   [ revoked] Roger Dingledine &lt;arma#mit.edu&gt;
+
 
 pub   rsa4096/0xC218525819F78451 2010-05-07 [SC]
       Key fingerprint = F65C E37F 04BA 5B36 0AE6  EE17 C218 5258 19F7 8451
@@ -90,35 +88,18 @@ pub   rsa4096/0x468FAE2919F78451 2014-06-16 [SCEA] [revoked: 2016-08-16]
       Key fingerprint = 9C95 0D05 FC80 2DFA 79C3  7629 468F AE29 19F7 8451
 uid                   [ revoked] Roger Dingledine &lt;arma#mit.edu&gt;
 
-pub   rsa1024/0xD50624EC165733EA 2014-06-16 [SCEA] [revoked: 2016-08-16]
-      Key fingerprint = 33DC 81DC C099 4E0A 10D8  048B D506 24EC 1657 33EA
-uid                   [ revoked] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
 
-pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
-      Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
+pub   rsa4096/0xFE43009C4607B1FB 2016-09-21 [C] [expires: 2019-09-21]
+      Key fingerprint = 2133 BC60 0AB1 33E1 D826  D173 FE43 009C 4607 B1FB
 uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
 uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
 uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
-uid                   [ unknown] [jpeg image of size 3369]
-sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
-      Key fingerprint = EF00 F369 1387 FCC5 8CD6  8E13 9103 97D8 8D29 319A
-sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
-      Key fingerprint = 11F2 E464 48C8 0F44 8F64  FC54 D2CA 27F3 F25B 8E5E
-
-pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
-      Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
-uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
-uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
-uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
-uid                   [ unknown] [jpeg image of size 3369]
-sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
-      Key fingerprint = EF00 F369 1387 FCC5 8CD6  8E13 9103 97D8 8D29 319A
-sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
-      Key fingerprint = 11F2 E464 48C8 0F44 8F64  FC54 D2CA 27F3 F25B 8E5E
+uid                   [ unknown] Nick Mathewson &lt;nickm#torproject.org&gt;
 
 </pre>
 <h3>older Tor tarballs</h3>
 <pre>
+
 pub   rsa1024/0xD50624EC165733EA 2014-06-16 [SCEA] [revoked: 2016-08-16]
       Key fingerprint = 33DC 81DC C099 4E0A 10D8  048B D506 24EC 1657 33EA
 uid                   [ revoked] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
@@ -133,6 +114,7 @@ sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
       Key fingerprint = EF00 F369 1387 FCC5 8CD6  8E13 9103 97D8 8D29 319A
 sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
       Key fingerprint = 11F2 E464 48C8 0F44 8F64  FC54 D2CA 27F3 F25B 8E5E
+
 
 pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
       Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
@@ -148,6 +130,7 @@ sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
 </pre>
 <h3>deb.torproject.org repositories and archives</h3>
 <pre>
+
 pub   rsa2048/0xEE8CBC9E886DDD89 2009-09-04 [SC] [expires: 2022-08-05]
       Key fingerprint = A3C4 F0F9 79CA A22C DBA8  F512 EE8C BC9E 886D DD89
 uid                   [ unknown] deb.torproject.org archive signing key
@@ -157,6 +140,7 @@ sub   rsa2048/0x74A941BA219EC810 2009-09-04 [S] [expires: 2020-11-23]
 </pre>
 <h3>Arm releases</h3>
 <pre>
+
 pub   rsa1024/0xF94ABB509ABBEEC6 2014-06-16 [SCEA] [revoked: 2016-08-16]
       Key fingerprint = D8AA CF11 9067 89E8 91DD  2C27 F94A BB50 9ABB EEC6
 uid                   [ revoked] Damian Johnson (www.atagar.com) &lt;atagar1#gmail.com&gt;
@@ -173,6 +157,7 @@ sub   elg2048/0x04F1B63D146276B2 2009-06-17 [E]
 </pre>
 <h3>Tails live system releases</h3>
 <pre>
+
 pub   rsa4096/0xDBB802B258ACD84F 2015-01-18 [C] [expires: 2020-01-11]
       Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
 uid                   [ unknown] Tails developers (offline long-term identity key) &lt;tails#boum.org&gt;
@@ -189,6 +174,7 @@ sub   rsa4096/0xA8B0F4E45B1B50E2 2018-08-30 [S] [expires: 2020-01-11]
 </pre>
 <h3>Torsocks releases</h3>
 <pre>
+
 pub   rsa2048/0x42E86A2A11F48D36 2011-05-11 [SC] [expires: 2019-05-01]
       Key fingerprint = B744 17ED DF22 AC9F 9E90  F491 42E8 6A2A 11F4 8D36
 uid                   [ unknown] David Goulet &lt;dgoulet#ev0ke.net&gt;
@@ -200,6 +186,7 @@ sub   rsa4096/0x2AC6036C93CC198D 2013-09-10 [E] [expires: 2019-08-17]
 </pre>
 <h3>TorBirdy releases</h3>
 <pre>
+
 pub   rsa4096/0xB01C8B006DA77FAA 2016-02-25 [SC] [expires: 2020-02-24]
       Key fingerprint = E4AC D397 5427 A5BA 8450  A1BE B01C 8B00 6DA7 7FAA
 uid                   [ unknown] Sukhbir Singh &lt;azadi#riseup.net&gt;
@@ -210,6 +197,7 @@ sub   rsa4096/0x1AF20C043D9F9289 2016-02-25 [E] [expires: 2020-02-24]
 </pre>
 <h3>other</h3>
 <pre>
+
 pub   rsa4096/0x62AF4031C82E0039 2003-03-24 [SC] [expires: 2024-08-28]
       Key fingerprint = 25FC 1614 B8F8 7B52 FF2F  99B9 62AF 4031 C82E 0039
 uid                   [ unknown] Peter Palfrader
