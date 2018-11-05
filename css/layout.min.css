@@ -131,6 +131,6 @@ mark {
   text-align: center;
   width: 100%;
   align-content: center;
-  font-size-adjust: 1;
-  line-height: 3em;
+  font-size-adjust: 0.7;
+  line-height: 1.5em;
 }

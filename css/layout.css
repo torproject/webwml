@@ -1399,7 +1399,7 @@ p.blogDate {
   background-color: #F8F9FA;
   width: 100%;
   height: 300px;
-	margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .eoy-wrap {
@@ -1417,7 +1417,7 @@ p.blogDate {
 }
 
 .eoy-message {
-	width: 55%;
+  width: 55%;
   float: right;
 	padding-left: 35px;
 }
@@ -1449,7 +1449,7 @@ p.blogDate {
   text-align: left;
 }
 
-.tor-strength-in-num > p.title {
+.tor-strength-in-num > p {
 	text-transform: uppercase;
 }
 
@@ -1477,8 +1477,8 @@ p.blogDate {
   width: 120px;
   height: 35px;
 	padding: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .count-me-in {
@@ -1488,6 +1488,7 @@ p.blogDate {
   font-weight: 600;
   line-height: 17px;
   text-align: center;
+  text-decoration: none;
 }
 
 mark {
@@ -1499,10 +1500,32 @@ mark {
   width: 100%;
   height: 300px;
 	margin-bottom: 35px;
+  text-align: center;
+}
+
+.green {
+  color: green;
+}
+
+.white {
+  color: white;
+}
+
+.bggreen {
+  background-color: green;
 }
 
 .eoy-message-2 {
 	width: 90%;
 	margin:auto;
 	padding:auto;
+  text-align: center;
+}
+
+.align-center {
+  text-align: center;
+  width: 100%;
+  align-content: center;
+  font-size-adjust: 0.7;
+  line-height: 1.5em;
 }
