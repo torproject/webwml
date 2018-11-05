@@ -71,10 +71,7 @@
 	font-size: 60%;
 }
 
-.eoy-btn-container{
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
+.eoy-btn-container{ padding: 3% 0;}
 
 .eoy-btn {
   background-color: #420C5D;
