@@ -230,23 +230,24 @@
     <a href="https://github.com/alecmuffett/eotk">Enterprise Onion Toolkit</a>.
     </p>
 
-    <h3><a name="CookieAuthentication">Cookie authentication</a></h3>
+    <a name="CookieAuthentication"></a><a name="ClientAuthorization"></a>
+    <h3><a href="#ClientAuthorization">Client Authorization</a></h3>
 
-    <p>To set up cookie authentication add following lines to your
-    <a href="<page docs/faq>#torrc">torrc</a> as specified for
+    <p>To set up Cookie Authentication for <strong>v2</strong> services
+    see the entries for the
     <a href="<page docs/tor-manual>#HidServAuth">HidServAuth</a> and
     <a href="<page docs/tor-manual>#HiddenServiceAuthorizeClient">
-    HiddenServiceAuthorizeClient</a> in the manual.
-    First add following line to the torrc file of your onion service:
+    HiddenServiceAuthorizeClient</a> options in the manual.
+    First add following line to the <a href="<page docs/faq>#torrc">torrc</a> file of your onion service:
     </p>
     <pre>
     HiddenServiceAuthorizeClient [auth-type] [service-name]
     </pre>
     <p>
-    Then restart/reload tor and read the cookie from the hostname file of your
-    onion service, for example in
-    <tt>/var/lib/tor/hidden_service_path/hostname</tt>.
-    To access it with another tor service add following line to torrc
+    Restart/reload tor and read the cookie from the hostname file of your
+    onion service, for example in<br/>
+    <tt>/var/lib/tor/hidden_service_path/hostname</tt>.<br/>
+    To access it with a tor client add following line to torrc
     and (re)start/reload it:
     </p>
     <pre>
@@ -256,7 +257,41 @@
     You are now able to browse to the onion service address.
     </p>
 
-    <h3><a name="OpSec">Operational security</a></h3>
+    <p>To set up Client Authorization for <strong>v3</strong>
+    (<a href="#four">"next-gen"</a>) services as specified in
+    <a href="https://gitweb.torproject.org/torspec.git/tree/rend-spec-v3.txt#n615">
+    rend-spec-v3.txt</a> for the tor service running the onion follow the
+    instructions in
+    <a href="<page docs/tor-manual-dev>#_client_authorization">
+    Client Authorization</a>.
+    Note that to revoke clients you need to restart the tor service
+    (see <a href="https://trac.torproject.org/projects/tor/ticket/28275">#28275</a>).
+    At the moment you need to create the keys yourself with a script
+    (like these written in
+    <a href="https://gist.github.com/mtigas/9c2386adf65345be34045dace134140b">bash</a>
+    or <a href="https://github.com/haxxpop/torkeygen">rust</a>).
+    </p>
+    <p>
+    To access it with a tor client make sure you have
+    <a href="<page docs/tor-manual-dev>#ClientOnionAuthDir">
+    ClientOnionAuthDir</a> set in torrc.
+    In the &lt;ClientOnionAuthDir&gt; directory, create an
+    <i>.auth_private</i> file for the onion service corresponding to this key
+    (i.e. 'bob_onion.auth_private').<br/>
+    The contents of the
+    <tt>&lt;ClientOnionAuthDir&gt;/&lt;user&gt;.auth_private</tt>
+    file should look like:
+    <pre>
+    &lt;56-char-onion-addr-without-.onion-part&gt;:descriptor:x25519:BBBEAUAO3PIFAH7SBGBI6A2QFAZBXG2NVN7HMBXFCZENJVF6C5AQ
+    </pre>
+    Then (re)start/reload it and you should be able to browse to the onion
+    service address.
+    </p>
+
+    <hr/>
+
+    <a name="OpSec"></a>
+    <h3><a href="#OpSec">Operational security</a></h3>
 
     <p>Onion services operators need to practice proper
     <a href="https://trac.torproject.org/projects/tor/wiki/doc/OperationalSecurity">
@@ -329,7 +364,7 @@
     </p>
 
     <h3>How to setup your own prop224 service</h3>
-    <p>It's easy! Just use your ​<a href"#two">regular onion service</a> torrc
+    <p>It's easy! Just use your ​<a href="#two">regular onion service</a> torrc
     and add <var>HiddenServiceVersion 3</var> in your onion service torrc block.
 
 `   Here is an example torrc designed for testing:
@@ -370,7 +405,7 @@ HiddenServicePort 6668 127.0.0.1:6667
     <h3>How to help the next-gen onion development</h3>
 
     <p>Please let us know if you find any bugs!
-    We are still in testing & development stage so things are very liquid and
+    We are still in testing &amp; development stage so things are very liquid and
     in active development. If you want to help with development, check out the list of
     <a href="https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~prop224&order=priority">
     open prop224 bugs</a>.
