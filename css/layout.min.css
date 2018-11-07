@@ -130,7 +130,7 @@ mark {
   width: 100%;
   align-content: center;
   font-size-adjust: 0.7;
-  line-height: 1.5em;
+  line-height: 1.0em;
 }
 
 /* Checkbox Hack */
@@ -149,8 +149,9 @@ label {
   color: white;
   float: right;
   font-weight: bold;
-  padding-right: 5px;
-  padding-top: 5px;
+  padding-right: 15px;
+  padding-top: 15px;
+  font-size: 20px;
 }
 
 #eoy-banner {
