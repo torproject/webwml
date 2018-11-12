@@ -41,7 +41,7 @@
    # end WML to generate css/js paths
 </head>
 <body>
-#include "banner2.wmi"
+#include "banner.wmi"
 #include "head-index.wmi" TITLE="Tor Project | Privacy Online" CHARSET="UTF-8"
 <define-tag lang>es-ES</define-tag>
 <div id="home">

@@ -1564,3 +1564,7 @@ input[type=checkbox]:checked ~ div#eoy-banner {
    visibility: hidden;
    display: none;
 }
+
+.black {
+  color: black;
+}
