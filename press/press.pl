@@ -1,50 +1,29 @@
 #!/usr/bin/env perl
 # Returns html rows based on csv lines
-# Usage: /path/to/script /path/to/csv/file > file
 use strict;
 use warnings;
+use Time::Piece;
 #use HTML::Escape qw/escape_html/;
 
-my $str; # append all strings here
+my %pub; # save all publications
 
-sub print_rows {
-  my $string = shift;
-
-  # define where to output to:
-  #  1) STDOUT
-  print "$string";
-
-  #  2) press.html
-  #open my $out, '>>', 'press.html';
-  #print $out $string;
-  #  3) escaped htmlfile (install module above: cpan -i HTML::Escape
-  #print $out escape_html($string);
-  #close $out;
-}
-sub add_row {
-  $str .= shift;
-}
 sub parse_line {
   my $str = shift;
   if ($str =~ /(\d+\/\d+\/\d+),([^,]+),(.+),(.+)/) { # magic regex :)
-      chomp(my $date = qx/LANG=en_US.UTF-8 date -d "$1" "+%Y %B %d"/);
+      my $time = Time::Piece->strptime($1, "%m/%d/%y"); # given format: MM/DD/YY
+      my $date = $time->strftime("%Y %b %d");
       chomp(my $source = $2);
-      my $name = $3;
-      my $url = $4;
-      my $string = "
-<tr>
-<td>$date</td>
-<td>$source</td>
-<td><a href=\"$url\">$name</a></td>
-</tr>
-";
-    add_row $string;
+      $pub{$time->epoch} = "<tr>\n<td>$date</td>\n<td>$source</td>\n<td><a href='$4'>\n$3</a></td>\n</tr>\n\n";
   }
 }
 
+unless (@ARGV) { print "Usage: $0 /path/to/csv/file > file\n"; exit 1; }
+
+# parse all arguments (hopefully existing files)
 foreach my $arg (@ARGV) {
   chomp($arg);
   if (-f $arg) {
+    # we are lucky, this looks like a file
     open my $fh, '<', $arg
       or warn "Can't open '$arg': $!\n" and next;
     foreach (<$fh>) {
@@ -52,8 +31,13 @@ foreach my $arg (@ARGV) {
     }
     close $fh;
   } else {
+    # this is no file, let's assume we got piped a string to parse
     parse_line $arg;
   }
 }
-if ($str) { print_rows $str; }
+
+# share our treasure with the world
+my $str = join '', map { $pub{$_} } reverse sort keys %pub;
+if ($str) { print $str; }
 else { print "Nothing found.\n"; exit 1; }
+# TODO one day i want to able to update press/en/press.wml directly
