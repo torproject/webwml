@@ -19,148 +19,140 @@
 #include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
 
 <div id="content" class="clearfix">
-	<div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a></div>
-	<!-- BEGIN TEASER WARNING -->
-	<div class="warning-top">
-		<h2>Want Tor to really work?</h2>
-		<p>You need to change some of your habits, as some things won't work exactly as you are used to. Please read the <a href="#warning">full list of warnings</a> for details.</p>
-	</div>
-	<!-- END TEASER WARNING -->
-	<div id="download-donate" class="clearfix">
-		<!-- START DOWNLOADS -->
-		<!-- START WINDOWS -->
+  <div id="breadcrumbs"><a href="<page index>">Home &raquo; </a><a href="<page download/download>">Download</a></div>
+  <!-- BEGIN TEASER WARNING -->
+  <div class="warning-top">
+    <h2>Want Tor to really work?</h2>
+    <p>You need to change some of your habits, as some things won't work exactly as you are used to. Please read the <a href="#warning">full list of warnings</a> for details.</p>
+  </div>
+  <!-- END TEASER WARNING -->
+  <div id="download-donate" class="clearfix">
+    <!-- START DOWNLOADS -->
+    <!-- START WINDOWS -->
 
 
 
 <div id="dow-don-left">
 <!-- START WINDOWS 64-Bit -->
       <div id="windows" class="easy windows">
-	<div class="package" style="padding-top: 13px; border-top: 0px;">
-	  <div class="desc">
-	    <h2>Tor Browser for Windows (64 bit)</h2>
-	    <em>Version <version-torbrowserbundle> - Windows 10, 8, and 7</em>
-	    <p>Everything you need to safely browse the Internet. <br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
-	  </div>
-	  <form class="downloads">
-	    <a class="button win-tbb64" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe"><span
+  <div class="package" style="padding-top: 13px; border-top: 0px;">
+    <div class="desc">
+      <h2>Tor Browser for Windows (64 bit)</h2>
+      <em>Version <version-torbrowserbundle> - Windows 10, 8, and 7</em>
+      <p>Everything you need to safely browse the Internet. <br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
+    </div>
+    <form class="downloads">
+      <a class="button win-tbb64" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe"><span
             class="strong">Download</span><span class="normal"><button-win-tbb64></span></a>
-	    <select name="language" id="win-tbb64" class="lang">
+      <select name="language" id="win-tbb64" class="lang">
 #include <lang.wmi>
-	    </select>
-	    <div class="sig" style="margin-bottom: 5px;">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="win-tbb64-sig"
+      </select>
+      <div class="sig" style="margin-bottom: 5px;">
+        <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
+        (<a class="win-tbb64-sig"
                href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	  </form>
-	  <p class="alt-dl">Not Using Windows?<br />Download for <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
-	</div>
+      </div>
+    </form>
+    <p class="alt-dl">Not Using Windows?<br />Download for <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
+  </div>
       </div>
 <!-- START WINDOWS 32-Bit -->
       <div id="windows" class="easy windows">
-	<div class="package" style="padding-top: 13px; border-top: 0px;">
-	  <div class="desc">
-	    <h2>Tor Browser for Windows</h2>
-	    <em>Version <version-torbrowserbundle> - Windows 10, 8, and 7</em>
-	    <p>Everything you need to safely browse the Internet. <br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
-	  </div>
-	  <form class="downloads">
-	    <a class="button win-tbb" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe"><span class="strong">Download</span><span class="normal"><button-win-tbb32></span></a>
-	    <select name="language" id="win-tbb" class="lang">
+  <div class="package" style="padding-top: 13px; border-top: 0px;">
+    <div class="desc">
+      <h2>Tor Browser for Windows (32 bit)</h2>
+      <em>Version <version-torbrowserbundle> - Windows 10, 8, and 7</em>
+      <p>Everything you need to safely browse the Internet. <br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
+    </div>
+    <form class="downloads">
+      <a class="button win-tbb" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe"><span class="strong">Download</span><span class="normal"><button-win-tbb32></span></a>
+      <select name="language" id="win-tbb" class="lang">
 #include <lang.wmi>
-	    </select>
-	    <div class="sig" style="margin-bottom: 5px;">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	  </form>
-	  <p class="alt-dl">Not Using Windows?<br />Download for <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
-	</div>
+      </select>
+      <div class="sig" style="margin-bottom: 5px;">
+        <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
+        (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+      </div>
+    </form>
+    <p class="alt-dl">Not Using Windows?<br />Download for <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
+  </div>
       </div>
 <!-- START MAC -->
       <div id="mac" class="easy mac">
-	<div class="package" style="padding-top: 13px; border-top: 0px;">
-	  <div class="desc">
-	    <h2>Tor Browser for Mac</h2>
-	    <em>Version <version-torbrowserbundleosx64> - OS X (10.9+)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
-	    <p>Everything you need to safely browse the Internet.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
-	  </div>
-	  <form class="downloads">
-	    <a class="button osx-tbb" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg"><span class="strong">Download</span><span class="normal"><button-osx-tbb64></span></a>
-	    <select name="language" id="osx-tbb" class="lang">
+  <div class="package" style="padding-top: 13px; border-top: 0px;">
+    <div class="desc">
+      <h2>Tor Browser for Mac</h2>
+      <em>Version <version-torbrowserbundleosx64> - OS X (10.9+)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
+      <p>Everything you need to safely browse the Internet.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
+    </div>
+    <form class="downloads">
+      <a class="button osx-tbb" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg"><span class="strong">Download</span><span class="normal"><button-osx-tbb64></span></a>
+      <select name="language" id="osx-tbb" class="lang">
 #include <lang.wmi>
-	    </select>
-	    <div class="sig" style="margin-bottom: 5px;">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="osx-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	  </form>
-	  <p class="alt-dl">Not Using Mac? Download for <a href="#windows">Windows</a> or <a href="#linux">Linux</a></p>
+      </select>
+      <div class="sig" style="margin-bottom: 5px;">
+        <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
+        (<a class="osx-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleosx64>/TorBrowser-<version-torbrowserbundleosx64>-osx64_<lang>.dmg.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+      </div>
+    </form>
+    <p class="alt-dl">Not Using Mac? Download for <a href="#windows">Windows</a> or <a href="#linux">Linux</a></p>
         </div>
       </div>
 <!-- START LINUX 64-Bit -->
       <div id="linux" class="easy linux">
-	<div class="package" style="padding-top: 13px; border-top: 0px;">
-	  <div class="desc">
-	    <h2>Tor Browser for Linux (64-Bit)</h2>
-	    <em>Version <version-torbrowserbundlelinux64> - Linux (64-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
-	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
-	  </div>
-	  <form class="downloads">
-	    <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>
-	    <select name="language" id="lin-tbb64" class="lang">
+  <div class="package" style="padding-top: 13px; border-top: 0px;">
+    <div class="desc">
+      <h2>Tor Browser for Linux (64-Bit)</h2>
+      <em>Version <version-torbrowserbundlelinux64> - Linux (64-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
+      <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br /><a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
+    </div>
+    <form class="downloads">
+      <a class="button lin-tbb64" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb64></span></a>
+      <select name="language" id="lin-tbb64" class="lang">
 #include <lang.wmi>
-	    </select>
-	    <div class="sig" style="margin-bottom: 5px;">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	  </form>
-	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
-	</div>
+      </select>
+      <div class="sig" style="margin-bottom: 5px;">
+        <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
+        (<a class="lin-tbb64-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux64>/tor-browser-linux64-<version-torbrowserbundlelinux64>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
       </div>
-<!-- START LINUX -->
+    </form>
+    <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
+  </div>
+      </div>
+<!-- START LINUX 32-Bit -->
       <div class="easy linux">
-	<div class="package" style="padding-top: 13px; border-top: 0px;">
-	  <div class="desc">
-	    <h2>Tor Browser for Linux (32-Bit)</h2>
-	    <em>Version <version-torbrowserbundlelinux32> - Linux (32-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
-	    <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br />
-	    <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
-	  </div>
-	  <form class="downloads">
-	    <a class="button lin-tbb32" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb32></span></a>
-	    <select name="language" id="lin-tbb32" class="lang">
+  <div class="package" style="padding-top: 13px; border-top: 0px;">
+    <div class="desc">
+      <h2>Tor Browser for Linux (32-Bit)</h2>
+      <em>Version <version-torbrowserbundlelinux32> - Linux (32-Bit)</em> <a href="https://blog.torproject.org/category/tags/tbb">Read the release announcements!</a>
+      <p>Everything you need to safely browse the Internet. This package requires no installation. Just extract it and run.<br />
+      <a href="<page projects/torbrowser>">Learn more &raquo;</a></p>
+    </div>
+    <form class="downloads">
+      <a class="button lin-tbb32" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz"><span class="strong">Download</span><span class="normal"><button-lin-tbb32></span></a>
+      <select name="language" id="lin-tbb32" class="lang">
 #include <lang.wmi>
-	    </select>
-	    <div class="sig" style="margin-bottom: 5px;">
-	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
-	      (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
-	    </div>
-	  </form>
-	  <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
-	</div>
+      </select>
+      <div class="sig" style="margin-bottom: 5px;">
+        <a class="lang-alt" href="<page projects/torbrowser>#downloads">Other Languages</a>
+        (<a class="lin-tbb32-sig" href="../dist/torbrowser/<version-torbrowserbundlelinux32>/tor-browser-linux32-<version-torbrowserbundlelinux32>_<lang>.tar.xz.asc">sig</a>) <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+      </div>
+    </form>
+    <p class="alt-dl">Not Using Linux? Download for <a href="#mac">Mac</a> or <a href="#windows">Windows</a></p>
+  </div>
       </div>
 <!-- START BSD -->
-
   <div id="openbsd" class="easy bsd">
     <div class="package" style="padding-top: 13px; border-top: 0px;">
       <div class="desc">
         <h2>Running Tor on OpenBSD</h2>
-	<p>These are installation instructions for running Tor Browser in a OpenBSD environment.</p>
-	<p>To install from OpenBSD's packages, run:</p>
-
-
+        <p>These are installation instructions for running Tor Browser in a OpenBSD environment.</p>
+        <p>To install from OpenBSD's packages, run:</p>
         <pre>pkg_add tor-browser</pre>
-
-	<p>Sometimes the most recent version of Tor Browser on OpenBSD is behind the current release. The available version of TB on OpenBSD should be checked with:
-
-	<pre>pkg_info -Q tor-browser</pre>
-
-	<p>If provided version is not the current Tor Browser version, it is not recommended.</p>
-
+        <p>Sometimes the most recent version of Tor Browser on OpenBSD is behind the current release. The available version of TB on OpenBSD should be checked with:
+        <pre>pkg_info -Q tor-browser</pre>
+        <p>If provided version is not the current Tor Browser version, it is not recommended.</p>
         <p>To install the Tor Browser port from an updated ports tree, run:</p>
-
         <pre>cd /usr/ports/meta/tor-browser && make install</pre>
       </div>
     </div>
@@ -169,11 +161,11 @@
   <div id="android" class="easy android">
     <div class="package" style="padding-top: 13px; border-top: 0px;">
       <div class="desc">
-	  <h2>Tor Browser for Android</h2>
+          <h2>Tor Browser for Android</h2>
           <p>Tor Browser for Android has only be released in alpha-version. <br />
-					You can download the alpha release on <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a> or from
-					our <a href="https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha">alpha download list</a>.
-					</p>
+          You can download the alpha release on <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a> or from
+          our <a href="https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha">alpha download list</a>.
+          </p>
 <!--
           <p>
           Introducing Tor Browser for Android, the mobile browser with the
@@ -195,7 +187,7 @@
           </p>
           <form class="downloads">
             <a class="button" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
-	    <div class="sig">
+            <div class="sig">
               (<a class="android-tbb-sig" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)
               <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
             </div>
@@ -220,8 +212,8 @@ donation until 12/31!</p>
 
 
 
-	</div> <!-- END download-donate -->
-	<div id="maincol-left">
+  </div> <!-- END download-donate -->
+  <div id="maincol-left">
 <!-- BEGIN WARNING -->
 <div class="warning">
 <a name="warning"></a>
