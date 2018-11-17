@@ -34,12 +34,35 @@
 
 <div id="dow-don-left">
 
-
+<!-- START WINDOWS 64-Bit -->
       <div id="windows" class="easy windows">
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <div class="desc">
-	    <h2>Navegador Tor para windows</h2>
-	    <em>Versión <version-torbrowserbundle> - Windows 10, 8, 7, Vista, y XP</em>
+	    <h2>Navegador Tor para windows (64 bit)</h2>
+	    <em>Versión <version-torbrowserbundle> - Windows 10, 8, and 7</em>
+	    <p>Todo lo que necesitas para navegar de forma segura Internet. <br /><a href="<page projects/torbrowser>">Aprendé mas &raquo;</a></p>
+	  </div>
+	  <form class="downloads">
+	    <a class="button win-tbb64" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe"><span
+            class="strong">Descarga</span><span class="normal"><button-win-tbb64></span></a>
+	    <select name="language" id="win-tbb64" class="lang">
+#include <lang.wmi>
+	    </select>
+	    <div class="sig" style="margin-bottom: 5px;">
+	      <a class="lang-alt" href="<page projects/torbrowser>#downloads">Otros Lenguajes</a>
+	      (<a class="win-tbb64-sig"
+               href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Que es Esto?</a>
+	    </div>
+	  </form>
+	  <p class="alt-dl">¿No usas Windows?<br />Descargalo para <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
+	</div>
+      </div>
+<!-- START WINDOWS 32-Bit -->
+      <div id="windows" class="easy windows">
+	<div class="package" style="padding-top: 13px; border-top: 0px;">
+	  <div class="desc">
+	    <h2>Navegador Tor para windows (32 bit)</h2>
+	    <em>Versión <version-torbrowserbundle> - Windows 10, 8, and 7</em>
 	    <p>Todo lo que necesitas para navegar de forma segura Internet. <br /><a href="<page projects/torbrowser>">Aprendé mas &raquo;</a></p>
 	  </div>
 	  <form class="downloads">
@@ -52,7 +75,7 @@
 	      (<a class="win-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-<version-torbrowserbundle>_<lang>.exe.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Que es Esto?</a>
 	    </div>
 	  </form>
-	  <p class="alt-dl">¿No usas Windows?<br />Descargalo para <a href="#mac">Mac</a> o <a href="#linux">Linux</a></p>
+	  <p class="alt-dl">¿No usas Windows?<br />Descargalo para <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
 	</div>
       </div>
 <!-- START MAC -->
@@ -97,7 +120,7 @@
 	  <p class="alt-dl">¿No Usas Linux? Descargalo para <a href="#mac">Mac</a> o <a href="#windows">Windows</a></p>
 	</div>
       </div>
-<!-- START LINUX -->
+<!-- START LINUX 32-Bit -->
       <div class="easy linux">
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
 	  <div class="desc">
@@ -118,6 +141,62 @@
 	  <p class="alt-dl">¿No Usas Linux? Descargalo para<a href="#mac">Mac</a> o <a href="#windows">Windows</a></p>
 	</div>
       </div>
+<!-- START BSD -->
+  <div id="openbsd" class="easy bsd">
+    <div class="package" style="padding-top: 13px; border-top: 0px;">
+      <div class="desc">
+        <h2>Navegador Tor para OpenBSD</h2>
+        <p>These are installation instructions for running Tor Browser in a OpenBSD environment.</p>
+        <p>To install from OpenBSD's packages, run:</p>
+        <pre>pkg_add tor-browser</pre>
+        <p>Sometimes the most recent version of Tor Browser on OpenBSD is behind the current release. The available version of TB on OpenBSD should be checked with:
+        <pre>pkg_info -Q tor-browser</pre>
+        <p>If provided version is not the current Tor Browser version, it is not recommended.</p>
+        <p>To install the Tor Browser port from an updated ports tree, run:</p>
+        <pre>cd /usr/ports/meta/tor-browser && make install</pre>
+      </div>
+    </div>
+  </div>
+<!-- START ANDROID -->
+  <div id="android" class="easy android">
+    <div class="package" style="padding-top: 13px; border-top: 0px;">
+      <div class="desc">
+          <h2>Navegador Tor para Android</h2>
+          <p>Tor Browser for Android has only be released in alpha-version. <br />
+          You can download the alpha release on <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a> or from
+          our <a href="https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha">alpha download list</a>.
+          </p>
+<!--
+          <p>
+          Introducing Tor Browser for Android, the mobile browser with the
+          highest privacy protections ever available and on par with Tor
+          Browser for desktop. You can download the alpha release on
+          <a href="https://play.google.com/store/apps/details?id=org.torproject.android">GooglePlay</a>
+          or <a href="">FDroid</a>, or you can get the apk by clicking on the
+          button below.
+          </p>
+          <p>
+          Note: For this release, you also need to install Orbot, you can
+          learn more about it
+          <a href="https://www.torproject.org/docs/android.html.en">here</a>.
+          </p>
+          <p>
+          Known issue: Our Security Slider is now under ‘Security Settings,
+          but because of a small issue, it’s only showing up after you restart
+          the app. We plan on fixing it for the next release.
+          </p>
+          <form class="downloads">
+            <a class="button" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <div class="sig">
+              (<a class="android-tbb-sig" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)
+              <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+            </div>
+          </form>
+-->
+      </div>
+    </div>
+  </div>
+<!-- END ANDROID -->
 <!-- START Orbot -->
       <div id="android" class="easy android">
     <div class="package" style="padding-top: 13px; border-top: 0px;">
@@ -136,7 +215,7 @@
     </div>
       </div>
       <p class="all-dl">¿Buscando otra cosa? <a href="<page download/download>">Ver Todas Las Descargas </a></p>
-		<!-- END DOWNLOADS --><br>
+<!-- END DOWNLOADS --><br>
 </div> <!-- END dow-don-left -->
 
 
@@ -150,8 +229,8 @@ donation until 12/31!</p>
 
 
 
-	</div> <!-- END download-donate -->
-	<div id="maincol-left">
+</div> <!-- END download-donate -->
+<div id="maincol-left">
 <!-- BEGIN WARNING -->
 <div class="warning">
 <a name="warning"></a>
