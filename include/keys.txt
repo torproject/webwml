@@ -7,10 +7,10 @@ Arthur Edelstein: 0xD752F538C0D38C3A
 
 [Tor source tarballs]
 Roger Dingledine: 0x28988BF5, 0x19F78451
-Nick Mathewson: 0xFE43009C4607B1FB, 0x6AFEE6D49E92B601(signing key)
+Nick Mathewson: 0xFE43009C4607B1FB
 
 [older Tor tarballs]
-Nick Mathewson: 0x165733EA, 0x8D29319A(signing key)
+Nick Mathewson: 0x165733EA, 0x8D29319A
 
 [deb.torproject.org repositories and archives]
 Tor Project Archive: 0xEE8CBC9E886DDD89
