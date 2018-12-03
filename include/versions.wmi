@@ -41,12 +41,10 @@
 <let releasedate-torbrowserbundlelinux64beta=releasedate-torbrowserbundlebeta-all />
 <let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
+<let version-torbrowserbundleandroidbeta=version-torbrowserbundlebeta-all />
+<let releasedate-torbrowserbundleandroidbeta=releasedate-torbrowserbundlebeta-all />
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
 <define-tag package-source-stable whitespace=delete>../dist/<file-source-stable></define-tag>
 <define-tag file-source-alpha whitespace=delete>tor-<version-alpha>.tar.gz</define-tag>
 <define-tag package-source-alpha whitespace=delete>../dist/<file-source-alpha></define-tag>
-
-# *** tor browser android ***
-<define-tag version-torbrowserbundleandroid whitespace=delete>1.0a3</define-tag>
-<define-tag releasedate-torbrowserbundleandroid whitespace=delete>2018-10-31</define-tag>
