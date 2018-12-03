@@ -165,9 +165,9 @@ custom configurations. All an apt-get or yum install away.</p>
         <div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
           <form class="downloads">
-            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-android-<version-torbrowserbundleandroidbeta>-armv7.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
             <div class="sig">
-              (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-android-<version-torbrowserbundleandroidbeta>-armv7.apk.asc">sig</a>)
+              (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7.apk.asc">sig</a>)
               <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
             </div>
           </form>
