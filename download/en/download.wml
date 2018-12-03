@@ -181,10 +181,6 @@ custom configurations. All an apt-get or yum install away.</p>
           or you can get the apk by clicking on the button below.
           </p>
           <p>
-          Note: For this release, <b>you also need to install Orbot</b>, you can
-          learn more about it <a href="https://guardianproject.info/apps/orbot">here</a>.
-          </p>
-          <p>
           Known issue: Our Security Slider is now under ‘Security Settings,
           but because of a small issue, it’s only showing up after you restart
 	  the app. We plan on fixing it for the next release.

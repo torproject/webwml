@@ -184,11 +184,6 @@
           button below.
           </p>
           <p>
-          Note: For this release, you also need to install Orbot, you can
-          learn more about it
-          <a href="https://www.torproject.org/docs/android.html.en">here</a>.
-          </p>
-          <p>
           Known issue: Our Security Slider is now under ‘Security Settings,
           but because of a small issue, it’s only showing up after you restart
           the app. We plan on fixing it for the next release.
