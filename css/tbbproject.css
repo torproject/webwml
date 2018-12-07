@@ -237,7 +237,7 @@ h3{
   font-size:14px;
   border-bottom:1px solid #666666;
   font-weight:normal;}
-.dltable table tbody .alt td{
+.dltable table tbody tr:nth-child(even) td{
   background:#f6ffd5;}
 .dltable table tbody td:first-child{
   width:34%;

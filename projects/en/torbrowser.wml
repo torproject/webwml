@@ -568,6 +568,23 @@
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_ca.tar.xz.asc">sig</a>)</em></td>
           <td></td>
         </tr>
+        <tr class="alt">
+          <td>Čeština (cs)</td>
+          <td>
+                <a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_cs.exe">32/64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_cs.exe.asc">sig</a>)</em>
+                &bull;
+                <a href="../dist/torbrowser/<version-torbrowserbundlewin64beta>/torbrowser-install-win64-<version-torbrowserbundlewin64beta>_cs.exe">64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlewin64beta>/torbrowser-install-win64-<version-torbrowserbundlewin64beta>_cs.exe.asc">sig</a>)</em>
+          </td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_cs.dmg">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_cs.dmg.asc">sig</a>)</em>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_cs.tar.xz">32-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_cs.tar.xz.asc">sig</a>)</em>
+          &bull; <a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_cs.tar.xz">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_cs.tar.xz.asc">sig</a>)</em></td>
+          <td></td>
+        </tr>
         <tr>
           <td>Dansk (da)</td>
           <td>
@@ -600,6 +617,23 @@
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_de.tar.xz.asc">sig</a>)</em>
           &bull; <a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_de.tar.xz">64-bit</a>
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_de.tar.xz.asc">sig</a>)</em></td>
+          <td></td>
+        </tr>
+        <tr class="alt">
+          <td>&#x03B5;&#x03BB;&#x03BB;&#x03B7;&#x03BD;&#x03B9;&#x03BA;&#x03AC; (el)</td>
+          <td>
+                <a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_el.exe">32/64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_el.exe.asc">sig</a>)</em>
+                &bull;
+                <a href="../dist/torbrowser/<version-torbrowserbundlewin64beta>/torbrowser-install-win64-<version-torbrowserbundlewin64beta>_el.exe">64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlewin64beta>/torbrowser-install-win64-<version-torbrowserbundlewin64beta>_el.exe.asc">sig</a>)</em>
+          </td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_el.dmg">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_el.dmg.asc">sig</a>)</em>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_el.tar.xz">32-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_el.tar.xz.asc">sig</a>)</em>
+          &bull; <a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_el.tar.xz">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_el.tar.xz.asc">sig</a>)</em></td>
           <td></td>
         </tr>
         <tr class="alt">
@@ -688,6 +722,23 @@
           <td></td>
         </tr>
         <tr class="alt">
+          <td>Magyar (hu)</td>
+          <td>
+                <a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_hu.exe">32/64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_hu.exe.asc">sig</a>)</em>
+                &bull;
+                <a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-win64-<version-torbrowserbundlebeta>_hu.exe">64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-win64-<version-torbrowserbundlebeta>_hu.exe.asc">sig</a>)</em>
+          </td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_hu.dmg">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_hu.dmg.asc">sig</a>)</em>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_hu.tar.xz">32-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_hu.tar.xz.asc">sig</a>)</em>
+          &bull; <a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_hu.tar.xz">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_hu.tar.xz.asc">sig</a>)</em></td>
+          <td></td>
+        </tr>
+        <tr class="alt">
           <td>bahasa Indonesia (id)</td>
           <td>
                 <a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_id.exe">32/64-bit</a>
@@ -755,6 +806,23 @@
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_ja.tar.xz.asc">sig</a>)</em>
           &bull; <a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_ja.tar.xz">64-bit</a>
           <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_ja.tar.xz.asc">sig</a>)</em></td>
+          <td></td>
+        </tr>
+        <tr class="alt">
+          <td>&#x10E5;&#x10D0;&#x10E0;&#x10D7;&#x10E3;&#x10DA;&#x10D8; &#x10D4;&#x10DC;&#x10D0; (ka)</td>
+          <td>
+                <a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_ka.exe">32/64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlebeta>/torbrowser-install-<version-torbrowserbundlebeta>_ka.exe.asc">sig</a>)</em>
+                &bull;
+                <a href="../dist/torbrowser/<version-torbrowserbundlewin64beta>/torbrowser-install-win64-<version-torbrowserbundlewin64beta>_ka.exe">64-bit</a>
+                <em>(<a href="../dist/torbrowser/<version-torbrowserbundlewin64beta>/torbrowser-install-win64-<version-torbrowserbundlewin64beta>_ka.exe.asc">sig</a>)</em>
+          </td>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_ka.dmg">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundleosx64beta>/TorBrowser-<version-torbrowserbundleosx64beta>-osx64_ka.dmg.asc">sig</a>)</em>
+          <td><a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_ka.tar.xz">32-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux32beta>/tor-browser-linux32-<version-torbrowserbundlelinux32beta>_ka.tar.xz.asc">sig</a>)</em>
+          &bull; <a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_ka.tar.xz">64-bit</a>
+          <em>(<a href="../dist/torbrowser/<version-torbrowserbundlelinux64beta>/tor-browser-linux64-<version-torbrowserbundlelinux64beta>_ka.tar.xz.asc">sig</a>)</em></td>
           <td></td>
         </tr>
         <tr>
