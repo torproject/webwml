@@ -2,7 +2,7 @@
 # Revision: $Revision$
 # Status: obsolete
 
-#include "donatehead.wmi" TITLE="Redirecting" REDIRECT="https://donate.torproject.org/donor-faq"
+#include "head.wmi" TITLE="Redirecting" REDIRECT="https://donate.torproject.org/donor-faq"
 
-#include <donatefoot.wmi>
+#include <foot.wmi>
 
