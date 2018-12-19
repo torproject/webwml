@@ -6,38 +6,53 @@ use Time::Piece;
 #use HTML::Escape qw/escape_html/;
 
 my %pub; # save all publications
+my $debug = 0;
 
+sub debug {
+  my $msg = shift;
+  print "$msg\n" if $debug;
+}
 sub parse_line {
   my $str = shift;
+  debug "Parsing:\n$str";
   if ($str =~ /(\d+\/\d+\/\d+),([^,]+),(.+),(.+)/) { # magic regex :)
       my $time = Time::Piece->strptime($1, "%m/%d/%y"); # given format: MM/DD/YY
       my $date = $time->strftime("%Y %b %d");
       chomp(my $source = $2);
-      $pub{$time->epoch} = "<tr>\n<td>$date</td>\n<td>$source</td>\n<td><a href='$4'>\n$3</a></td>\n</tr>\n\n";
+      $pub{$time->epoch} .= "<tr>\n<td>$date</td>\n<td>$source</td>\n<td><a href='$4'>\n$3</a></td>\n</tr>\n\n";
+      # TODO use uniqe keys to avoid .=
+      debug "Added: $pub{$time->epoch}"
   }
 }
 
-unless (@ARGV) { print "Usage: $0 /path/to/csv/file > file\n"; exit 1; }
+unless (@ARGV) { print "Usage: $0 [-d] /path/to/csv/file > file\n"; exit 1; }
 
 # parse all arguments (hopefully existing files)
 foreach my $arg (@ARGV) {
   chomp($arg);
-  if (-f $arg) {
-    # we are lucky, this looks like a file
+  debug "arg: $arg";
+  if ($arg eq '-d') {
+    $debug++;
+    debug "Enabling debug output on request."
+  } elsif (-f "$arg") {
+    debug 'argument looks like a file.';
     open my $fh, '<', $arg
-      or warn "Can't open '$arg': $!\n" and next;
+      or die "Can't open '$arg': $!\n";
+    debug "Reading $arg.";
     foreach (<$fh>) {
-      parse_line $_;
+      # https://stackoverflow.com/questions/6373888/converting-newline-formatting-from-mac-to-windows
+      foreach my $line (split '\r', $_) {
+        parse_line $line;
+      }
     }
-    close $fh;
+    close $fh; debug "Finished reading $arg."
   } else {
-    # this is no file, let's assume we got piped a string to parse
+    debug 'argument is no file, assuming piped string.';
     parse_line $arg;
   }
 }
 
-# share our treasure with the world
 my $str = join '', map { $pub{$_} } reverse sort keys %pub;
-if ($str) { print $str; }
+debug "Generated final html string (". (scalar keys %pub) ." entries):";
+if ($str) { print "$str\nAdd above to press/en/press.wml.\n"; }
 else { print "Nothing found.\n"; exit 1; }
-# TODO one day i want to able to update press/en/press.wml directly
