@@ -27,27 +27,27 @@ As of 11/118 the signing keys we use are:
 <pre>
 pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
       Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-uid                   [  full  ] Tor Browser Developers (signing key) &lt;torbrowser#torproject.org&gt;
+uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbrowser#torproject.org&gt;
 sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
       Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
 pub   rsa8192/0x29846B3C683686CC 2013-09-11 [SC]
       Key fingerprint = C963 C21D 6356 4E2B 10BB  335B 2984 6B3C 6836 86CC
 uid                   [ unknown] Mike Perry &lt;mikeperry#endarken.info&gt;
-uid                   [ unknown] Mike Perry (Regular use key) &lt;mikeperry#torproject.org&gt;
 uid                   [ unknown] Mike Perry &lt;mikeperry#unencrypted.info&gt;
 uid                   [ unknown] Mike Perry (Regular use key) &lt;mikeperry#fscked.org&gt;
+uid                   [ unknown] Mike Perry (Regular use key) &lt;mikeperry#torproject.org&gt;
 
 pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
       Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-uid                   [  full  ] Tor Browser Developers (signing key) &lt;torbrowser#torproject.org&gt;
+uid                   [ unknown] Tor Browser Developers (signing key) &lt;torbrowser#torproject.org&gt;
 sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
       Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
 pub   rsa4096/0x3E39CEABFC69F6F7 2015-09-24 [SC]
       Key fingerprint = 6AB6 AEE9 776E 7827 23C8  ACE8 3E39 CEAB FC69 F6F7
-uid                   [  full  ] Nicolas Vigier (boklm) &lt;boklm#torproject.org&gt;
-uid                   [  full  ] Nicolas Vigier (boklm) &lt;boklm#mars-attacks.org&gt;
+uid                   [ unknown] Nicolas Vigier (boklm) &lt;boklm#torproject.org&gt;
+uid                   [ unknown] Nicolas Vigier (boklm) &lt;boklm#mars-attacks.org&gt;
 sub   rsa4096/0xA0312B06D9535729 2016-04-23 [A]
       Key fingerprint = 1315 2F30 FFFE 0EC8 DF58  94FB A031 2B06 D953 5729
 sub   rsa4096/0x07B7CFD7A0FBA062 2017-01-25 [S] [expires: 2019-01-22]
@@ -66,24 +66,24 @@ sub   rsa2048/0x3306E88D27211E0B 2014-12-10 [E]
 <pre>
 pub   dsa1024/0xEB5A896A28988BF5 2000-02-27 [SCA]
       Key fingerprint = B117 2656 DFF9 83C3 042B  C699 EB5A 896A 2898 8BF5
-uid                   [  full  ] Roger Dingledine &lt;arma#mit.edu&gt;
+uid                   [ unknown] Roger Dingledine &lt;arma#mit.edu&gt;
 sub   elg2048/0x147FF421788AFDCE 2000-02-27 [E]
       Key fingerprint = 08E6 A5BD CF81 D0A3 1BDE  9474 147F F421 788A FDCE
 
 pub   rsa4096/0xC218525819F78451 2010-05-07 [SC]
       Key fingerprint = F65C E37F 04BA 5B36 0AE6  EE17 C218 5258 19F7 8451
-uid                   [ultimate] Roger Dingledine &lt;arma#mit.edu&gt;
-uid                   [ultimate] Roger Dingledine &lt;arma#freehaven.net&gt;
-uid                   [ultimate] Roger Dingledine &lt;arma#torproject.org&gt;
+uid                   [ unknown] Roger Dingledine &lt;arma#mit.edu&gt;
+uid                   [ unknown] Roger Dingledine &lt;arma#freehaven.net&gt;
+uid                   [ unknown] Roger Dingledine &lt;arma#torproject.org&gt;
 sub   rsa4096/0x1A61312B4600E8BE 2018-06-03 [E] [expires: 2019-06-03]
       Key fingerprint = 6C8F F7D9 F789 52A1 8986  52B7 1A61 312B 4600 E8BE
 
 pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
       Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
-uid                   [  full  ] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#wangafu.net&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#freehaven.net&gt;
-uid                   [  full  ] [jpeg image of size 3369]
+uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
+uid                   [ unknown] [jpeg image of size 3369]
 sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
       Key fingerprint = EF00 F369 1387 FCC5 8CD6  8E13 9103 97D8 8D29 319A
 sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
@@ -91,10 +91,10 @@ sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
 
 pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
       Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
-uid                   [  full  ] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#wangafu.net&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#freehaven.net&gt;
-uid                   [  full  ] [jpeg image of size 3369]
+uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
+uid                   [ unknown] [jpeg image of size 3369]
 sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
       Key fingerprint = EF00 F369 1387 FCC5 8CD6  8E13 9103 97D8 8D29 319A
 sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
@@ -105,10 +105,10 @@ sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
 <pre>
 pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
       Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
-uid                   [  full  ] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#wangafu.net&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#freehaven.net&gt;
-uid                   [  full  ] [jpeg image of size 3369]
+uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
+uid                   [ unknown] [jpeg image of size 3369]
 sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
       Key fingerprint = EF00 F369 1387 FCC5 8CD6  8E13 9103 97D8 8D29 319A
 sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
@@ -116,10 +116,10 @@ sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
 
 pub   rsa3072/0x21194EBB165733EA 2004-07-03 [SC]
       Key fingerprint = B35B F85B F194 89D0 4E28  C33C 2119 4EBB 1657 33EA
-uid                   [  full  ] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#wangafu.net&gt;
-uid                   [  full  ] Nick Mathewson &lt;nickm#freehaven.net&gt;
-uid                   [  full  ] [jpeg image of size 3369]
+uid                   [ unknown] Nick Mathewson &lt;nickm#alum.mit.edu&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#wangafu.net&gt;
+uid                   [ unknown] Nick Mathewson &lt;nickm#freehaven.net&gt;
+uid                   [ unknown] [jpeg image of size 3369]
 sub   rsa3072/0x910397D88D29319A 2004-07-03 [S]
       Key fingerprint = EF00 F369 1387 FCC5 8CD6  8E13 9103 97D8 8D29 319A
 sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
@@ -130,7 +130,7 @@ sub   rsa3072/0xD2CA27F3F25B8E5E 2004-07-03 [E]
 <pre>
 pub   rsa2048/0xEE8CBC9E886DDD89 2009-09-04 [SC] [expires: 2022-08-05]
       Key fingerprint = A3C4 F0F9 79CA A22C DBA8  F512 EE8C BC9E 886D DD89
-uid                   [  full  ] deb.torproject.org archive signing key
+uid                   [ unknown] deb.torproject.org archive signing key
 sub   rsa2048/0x74A941BA219EC810 2009-09-04 [S] [expires: 2020-11-23]
       Key fingerprint = 2265 EB4C B2BF 88D9 00AE  8D1B 74A9 41BA 219E C810
 
@@ -139,7 +139,7 @@ sub   rsa2048/0x74A941BA219EC810 2009-09-04 [S] [expires: 2020-11-23]
 <pre>
 pub   dsa1024/0x0445B7AB9ABBEEC6 2009-06-17 [SC]
       Key fingerprint = 6827 8CC5 DD2D 1E85 C4E4  5AD9 0445 B7AB 9ABB EEC6
-uid                   [  undef ] Damian Johnson (www.atagar.com) &lt;atagar1#gmail.com&gt;
+uid                   [ unknown] Damian Johnson (www.atagar.com) &lt;atagar1#gmail.com&gt;
 uid                   [ unknown] Damian Johnson &lt;atagar#torproject.org&gt;
 sub   rsa2048/0x888404C187F30690 2010-08-07 [S]
       Key fingerprint = 2AE2 24F5 C424 990A E520  6C85 8884 04C1 87F3 0690
@@ -151,8 +151,8 @@ sub   elg2048/0x04F1B63D146276B2 2009-06-17 [E]
 <pre>
 pub   rsa4096/0xDBB802B258ACD84F 2015-01-18 [C] [expires: 2020-01-11]
       Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
-uid                   [  full  ] Tails developers (offline long-term identity key) &lt;tails#boum.org&gt;
-uid                   [  full  ] Tails developers &lt;tails#boum.org&gt;
+uid                   [ unknown] Tails developers (offline long-term identity key) &lt;tails#boum.org&gt;
+uid                   [ unknown] Tails developers &lt;tails#boum.org&gt;
 sub   ed25519/0x90B2B4BD7AED235F 2017-08-28 [S] [expires: 2020-01-11]
       Key fingerprint = CD4D 4351 AFA6 933F 574A  9AFB 90B2 B4BD 7AED 235F
 sub   rsa4096/0xD21DAD38AF281C0B 2017-08-28 [S] [expires: 2020-01-11]
@@ -167,9 +167,9 @@ sub   rsa4096/0xA8B0F4E45B1B50E2 2018-08-30 [S] [expires: 2020-01-11]
 <pre>
 pub   rsa2048/0x42E86A2A11F48D36 2011-05-11 [SC] [expires: 2019-05-01]
       Key fingerprint = B744 17ED DF22 AC9F 9E90  F491 42E8 6A2A 11F4 8D36
-uid                   [  full  ] David Goulet &lt;dgoulet#ev0ke.net&gt;
-uid                   [  full  ] David Goulet &lt;dgoulet#riseup.net&gt;
-uid                   [  full  ] David Goulet &lt;dgoulet#torproject.org&gt;
+uid                   [ unknown] David Goulet &lt;dgoulet#ev0ke.net&gt;
+uid                   [ unknown] David Goulet &lt;dgoulet#riseup.net&gt;
+uid                   [ unknown] David Goulet &lt;dgoulet#torproject.org&gt;
 sub   rsa4096/0x2AC6036C93CC198D 2013-09-10 [E] [expires: 2019-08-17]
       Key fingerprint = 0451 E51B 33B7 AC38 C57B  09F7 2AC6 036C 93CC 198D
 
@@ -178,8 +178,8 @@ sub   rsa4096/0x2AC6036C93CC198D 2013-09-10 [E] [expires: 2019-08-17]
 <pre>
 pub   rsa4096/0xB01C8B006DA77FAA 2016-02-25 [SC] [expires: 2020-02-24]
       Key fingerprint = E4AC D397 5427 A5BA 8450  A1BE B01C 8B00 6DA7 7FAA
-uid                   [  undef ] Sukhbir Singh &lt;azadi#riseup.net&gt;
-uid                   [  undef ] Sukhbir Singh &lt;sukhbir#torproject.org&gt;
+uid                   [ unknown] Sukhbir Singh &lt;azadi#riseup.net&gt;
+uid                   [ unknown] Sukhbir Singh &lt;sukhbir#torproject.org&gt;
 sub   rsa4096/0x1AF20C043D9F9289 2016-02-25 [E] [expires: 2020-02-24]
       Key fingerprint = 4403 733D 7141 9BF1 8617  4988 1AF2 0C04 3D9F 9289
 
@@ -188,9 +188,9 @@ sub   rsa4096/0x1AF20C043D9F9289 2016-02-25 [E] [expires: 2020-02-24]
 <pre>
 pub   rsa4096/0x62AF4031C82E0039 2003-03-24 [SC] [expires: 2024-08-28]
       Key fingerprint = 25FC 1614 B8F8 7B52 FF2F  99B9 62AF 4031 C82E 0039
-uid                   [  full  ] Peter Palfrader
-uid                   [  full  ] Peter Palfrader &lt;weasel#debian.org&gt;
-uid                   [  full  ] Peter Palfrader &lt;peter#palfrader.org&gt;
+uid                   [ unknown] Peter Palfrader
+uid                   [ unknown] Peter Palfrader &lt;weasel#debian.org&gt;
+uid                   [ unknown] Peter Palfrader &lt;peter#palfrader.org&gt;
 sub   rsa2048/0x8602C8203872331F 2014-05-04 [S] [expires: 2020-09-01]
       Key fingerprint = B383 D785 A8C9 2FDE BC06  0376 8602 C820 3872 331F
 sub   rsa2048/0xE377AED938E4E080 2014-05-04 [E] [expires: 2020-09-01]
