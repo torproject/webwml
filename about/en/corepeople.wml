@@ -391,7 +391,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=8F2AF9B6D4A14D03FDF1B2983224499415064C7B"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#isabela">Isabela Bagueros</a></div>
       <div class="field"><b>IRC:</b> isabela</div>
-      <div class="description">Coordinates Tor's development teams and roadmaps. Keeps track of priorities, and ensures Tor always thinks of the &quot;user first&quot;.</div>
+      <div class="description">Executive Director of the Tor Project.</div>
     </td>
   </tr>
 
