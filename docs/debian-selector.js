@@ -14,17 +14,6 @@ var software = {
                      'bionic':  [ 'bionic'],
                      'cosmic':  [ 'cosmic'],
                      },
-         'experimental-0.3.5.x': {
-                     'jessie':  [ 'jessie' ],
-                     'stretch': [ 'stretch' ],
-                     'buster':  [ 'buster' ],
-                     'sid':     [ 'sid' ],
-                     'trusty':  [ 'trusty'],
-                     'xenial':  [ 'xenial'],
-                     'artful':  [ 'artful'],
-                     'bionic':  [ 'bionic'],
-                     'cosmic':  [ 'cosmic'],
-                     },
          'nightly-master': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
@@ -39,17 +28,6 @@ var software = {
        },
 'tor (from source)': {
          '_stable': {
-                     'jessie':  [ 'jessie' ],
-                     'stretch': [ 'stretch' ],
-                     'buster':  [ 'buster' ],
-                     'sid':     [ 'sid' ],
-                     'trusty':  [ 'trusty'],
-                     'xenial':  [ 'xenial'],
-                     'artful':  [ 'artful'],
-                     'bionic':  [ 'bionic'],
-                     'cosmic':  [ 'cosmic'],
-                     },
-         'experimental-0.3.5.x': {
                      'jessie':  [ 'jessie' ],
                      'stretch': [ 'stretch' ],
                      'buster':  [ 'buster' ],

@@ -2,6 +2,14 @@
 # Revision: $Revision$
 # Translation-Priority: 3-low
 
+<:
+sub development_branch {
+  ($_) = "<alpha_version>";
+  s/\.\d$/.x/;
+  return $_;
+}
+:>
+
 #include "head.wmi" TITLE="Tor Project: Debian/Ubuntu Instructions" CHARSET="UTF-8"
 {#meta#:
 <script type="text/javascript" src="debian-selector.js"></script>
@@ -175,16 +183,6 @@ deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 where you put the codename of your distribution (i.e. stretch, buster, sid
 or whatever it is) in place of &lt;DISTRIBUTION&gt;.
 </p>
-<p>
-If you want to use the
-<a href="<page download/download-unix>#packagediff">development branch</a>
-of Tor instead (more features and more bugs), you need add a different set of
-lines to your <i>/etc/apt/sources.list</i> file:<br />
-<pre>
-deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb     https://deb.torproject.org/torproject.org tor-experimental-<development-branch>-&lt;DISTRIBUTION&gt; main
-</pre>
-</p>
 
 <p>
 Then add the gpg key used to sign the packages by running the following
@@ -210,6 +208,16 @@ recommended you use it. Install it together with tor:
 </p>
 
 </noscript>
+<p>
+If you want to use the
+<a href="<page download/download-unix>#packagediff">development branch</a>
+of Tor instead (more features and more bugs), you need add a different set of
+lines to your <i>/etc/apt/sources.list</i> file:<br />
+<pre>
+deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb     https://deb.torproject.org/torproject.org tor-experimental-<:= development_branch() :>-&lt;DISTRIBUTION&gt; main
+</pre>
+</p>
 <noscript>
 
 <hr />
@@ -227,7 +235,7 @@ deb-src https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 
 &num; For the unstable version.
 deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb-src https://deb.torproject.org/torproject.org tor-experimental-<development-branch>-&lt;DISTRIBUTION&gt; main
+deb-src https://deb.torproject.org/torproject.org tor-experimental-<:= development_branch() :>-&lt;DISTRIBUTION&gt; main
 </pre>
 
 <p>
