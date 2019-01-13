@@ -591,7 +591,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=CE1782624600EE98764C6D9CCB8FC772D1AA1D30"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#sysrqb">Matthew Finkel</a></div>
       <div class="field"><b>IRC:</b> sysrqb</div>
-      <div class="description">Worked on tor, torsocks, and many other projects. Helped maintain and develop BridgeDB.</div>
+      <div class="description">Works on tor, torsocks, and many other projects. Helps maintain and develop BridgeDB.</div>
     </td>
 
     <td>
