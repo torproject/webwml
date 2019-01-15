@@ -4,7 +4,6 @@
 
 #include "head.wmi" TITLE="Tor Project: Bridges" CHARSET="UTF-8"
 
-<!-- TODO: update screenshots -->
 <!-- TODO: rewrite "running a bridge" section -->
 <!-- TODO: add obfs4 how-tos -->
 
@@ -151,7 +150,8 @@
     </ul>
 
     <a id="AddTorNotWorks"></a>
-    <h3><a href="#AddTorNotWorks">Adding bridges in Tor Browser when Tor <em>does not</em> work:</a></h3>
+    <h3><a href="#AddTorNotWorks">Adding bridges in Tor Browser when Tor
+    <em>does not</em> work:</a></h3>
     <hr>
 
     <p>First, you should read <a href="<page docs/faq>#DoesntWork">the
@@ -164,44 +164,59 @@
         "Configure" button.
     </h3>
     <br/>
-    <img src="$(IMGROOT)/tb-tor-launcher-startup.png" alt="Tor Browser's Initial Configuration page">
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-startup.png"
+      alt="Tor Browser's Initial Configuration page">
     <br><br><br>
-    <h3>2) If you must configure a proxy then select "Yes" and enter the
-        details on the following page.
-        <br/>If you do not use a proxy then select "No" and click "Next".
-        <br/>If you do not know if you must configure a proxy then you likely
-        do not need to do it.
+    <h3>2) Proxy and Censorship prevention settings are now on one page. If
+        your Internet Service Provider (ISP) blocks or otherwise censors
+        connections to the Tor Network, tick this checkbox.
     </h3>
     <br/>
-    <img src="$(IMGROOT)/tb-tor-launcher-no-proxy.png" alt="Tor Browser's Proxy page">
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-network-settings.png"
+       alt="Tor Browser's Network settings page">
     <br><br><br>
-    <h3>3) After you configure a proxy or skip over that configuration page,
-        the following page asks "Does your Internet Service Provider (ISP)
-        block or otherwise censor connections to the Tor Network?". Select
-        "Yes" and then click "Next".</h3>
-    <br/>
-    <img src="$(IMGROOT)/tb-tor-launcher-isp-interference.png" alt="Tor Browser's Bridge page">
-    <br><br><br>
-    <h3>4) Now you have two configuration options. You can use bridges which are
-        preconfigured and provided with Tor Browser, or you can specify your
-        own bridge(s).</h3>
-    <br/>
-    <img src="$(IMGROOT)/tb-tor-launcher-bridges-options.png" alt="Tor Browser's Bridge Configuration page">
-    <br><br><br>
-    <h3>5a) If you want to use one of the provided bridges, then choose the
-    transport type you want to use. obfs4 is currently the recommend
-    type, but depending on where you are located another type may work better
-    for you. If you have any questions, please <a href="<page about/contact>#support">contact
-    us.</a></h3>
-    <br/>
-    <img src="$(IMGROOT)/tb-tor-launcher-bridges-provided.png" alt="Tor Browser's Bridge Configuration page - provided bridges">
-    <br><br><br>
-    <h3>5b) Alternatively, if you want to use a <a href="#FindingMore">custom
-    bridge</a>, then select "Enter custom bridges" and copy-and-paste the
-    bridge information into the textbox.
+    <h3>3) If you must configure a proxy then, activate the second checkbox and enter the details.
     </h3>
     <br/>
-    <img src="$(IMGROOT)/tb-tor-launcher-bridges-custom.png" alt="Tor Browser's Bridge Configuration page - provided bridges">
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-proxy.png"
+      alt="Tor Browser's Proxy settings">
+    <br><br><br>
+    <h3>4) Now you have three configuration options. You can use bridges which are
+        preconfigured and provided with Tor Browser, you can specify your own bridge(s), or request bridges.</h3>
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-bridges.png"
+      alt="Tor Browser's Bridge Configuration page">
+    <br><br><br>
+    <h3>5a) If you want to use one of the provided bridges, then choose one of
+        the offered transport types. obfs4 is currently recommend, but
+        depending on where you are located another one may work better for you.
+        If you have any questions, please
+        <a href="https://support.torproject.org/#censorship">contact us</a>.</h3>
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-bridges-provided.png"
+      alt="Tor Browser's Bridge Configuration page - provided bridges">
+    <br><br><br>
+    <h3>5b) If none of the provided bridges works for you, try to request one:
+    </h3>
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges.png"
+      alt="Tor Browser's Bridge Configuration page - request bridges">
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges-connect.png"
+      alt="Tor Browser's Bridge Configuration page - connect to request bridges">
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges-captcha.png"
+      alt="Tor Browser's Bridge Configuration page - enter captcha to request bridges">
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges-success.png"
+      alt="Tor Browser's Bridge Configuration page - received bridges">
+    <br><br><br>
+    <h3>5c) To use a <a href="#FindingMore">custom bridge</a> select
+        "Provide a bridge I know".
+    </h3>
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-provide-bridge.png"
+      alt="Tor Browser's Bridge Configuration page - provide bridges">
     <br><br><br>
     <h3>6) After you decide which bridges you want to use, click "Connect".
     Tor should now be able to load successfully and the browser window
@@ -209,6 +224,28 @@
     <br/>
     <img src="$(IMGROOT)/tb-frontpage.png" alt="Tor Browser's Front Page">
     <br><br><br><br>
+
+    <a id="Troubleshooting"></a>
+    <h2><a class="anchor" href="#Troubleshooting">Troubleshooting</a></h2>
+    <hr>
+    <br><br>
+    <h3>Sometimes the bootstrapping gets stuck at some point, for example when
+        a bridge went offline, the connection is blocked, or when the
+        Pluggable Transport is hit by a bug.
+    </h3>
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-bootstrap.png"
+      alt="Tor Browser's Bootstrapping">
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-bootstrap-failed.png"
+      alt="Tor Browser's Bootstrapping">
+
+    <p>
+    Ideally it works after some tries, using a different bridge, or
+    restarting the browser. If not, remove the Tor Browser folder and extract
+    the archive again. It should work now.
+    If it still fails, we want to
+    <a href="https://support.torproject.org/#censorship">hear from you</a>!
+    </p>
 
     <a id="AddTorWorks"></a>
     <h3><a href="#AddTorWorks">Adding bridges in Tor Browser when Tor <em>does</em> work:</a></h3>
@@ -228,30 +265,52 @@
     <br>
     <img src="$(IMGROOT)/tb-tor-button-menu.png" alt="Tor Browser's TorButton Menu">
     <br><br><br>
-    <h3>3) Select "My Internet Service Provider (ISP) blocks connections to the Tor network":</h3>
+    <h3>3) Select "My Internet Service Provider (ISP) blocks connections to the 
+        Tor network":</h3>
     <br>
-    <img src="$(IMGROOT)/tb-bridge-networksettings.png" alt="Tor Browser's Network Settings page">
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-bridges.png"
+      alt="Tor Browser's Network settings" />
     <br><br><br>
-    <h3>4) Now you have two configuration options. You can use bridges which are
-        preconfigured and provided with Tor Browser, or you can specify your
-        own bridge(s).</h3>
+    <h3>4) Now you have three configuration options. You can use bridges which
+        are preconfigured and provided with Tor Browser, you can request new
+        bridges, or specify your own bridge(s).</h3>
     <br>
-    <img src="$(IMGROOT)/tb-bridges-options-from-browser.png" alt="Tor Browser's TorButton Menu">
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-bridges.png"
+      alt="Tor Browser's Bridge Configuration page">
     <br><br><br>
-    <h3>5a) If you want to use one of the provided bridges, then choose the
-    transport type you want to use. obfs4 is currently the recommend
-    type, but depending on where you are located another type may work better
-    for you. If you have any questions, please <a href="<page about/contact>#support">contact
-    us.</a></h3>
-    <br>
-    <img src="$(IMGROOT)/tb-bridges-provided-from-browser.png" alt="My Internet Service Provider (ISP) blocks connections to the Tor network">
+    <h3>5a) If you want to use one of the provided bridges, then choose one of
+        the offered transport types. obfs4 is currently recommend, but
+        depending on where you are located another one may work better for you.
+        If you have any questions, please
+        <a href="https://support.torproject.org/#censorship">contact us</a>.</h3>
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-bridges-provided.png"
+      alt="Tor Browser's Bridge Configuration page - provided bridges">
+    <img src="$(IMGROOT)/tb-tor-launcher-provide-bridge.png"
+      alt="Tor Browser's Bridge Configuration page - custom bridges">
     <br><br><br>
-    <h3>5b) Alternatively, if you want to use a <a href="#FindingMore">custom
-    bridge</a>, then select "Enter custom bridges" and copy-and-paste the
-    bridge information into the textbox.
+    <h3>5b) If none of the provided bridges works for you, try
+        "Request a bridge from torproject.org"
     </h3>
-    <br>
-    <img src="$(IMGROOT)/tb-bridges-custom-from-browser.png" alt="Add bridges in the custom bridges textbox">
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges.png"
+      alt="Tor Browser's Bridge Configuration page - request bridges">
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges-connect.png"
+      alt="Tor Browser's Bridge Configuration page - connect to request bridges">
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges-captcha.png"
+      alt="Tor Browser's Bridge Configuration page - enter captcha to request bridges">
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-request-bridges-success.png"
+      alt="Tor Browser's Bridge Configuration page - received bridges">
+    <br><br><br>
+    <h3>5c) To use a <a href="#FindingMore">custom bridge</a> select
+        "Provide a bridge I know".
+    </h3>
+    <br/>
+    <img src="$(IMGROOT)/bridges/tb-tor-launcher-provide-bridge.png"
+      alt="Tor Browser's Bridge Configuration page - provide bridges">
     <br><br><br>
 
     <p>
@@ -260,7 +319,6 @@
     unavailable.
     </p>
     <br><br>
-
 
     <a id="FindingMore"></a>
     <h2><a class="anchor" href="#FindingMore">Finding more bridges for Tor</a></h2>
