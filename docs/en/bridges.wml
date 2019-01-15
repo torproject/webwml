@@ -191,7 +191,7 @@
         the offered transport types. obfs4 is currently recommend, but
         depending on where you are located another one may work better for you.
         If you have any questions, please
-        <a href="<page about/contact>#support">contact us</a>.</h3>
+        <a href="https://support.torproject.org/#censorship">contact us</a>.</h3>
     <br/>
     <img src="$(IMGROOT)/bridges/tb-tor-launcher-bridges-provided.png"
       alt="Tor Browser's Bridge Configuration page - provided bridges">
@@ -244,7 +244,7 @@
     restarting the browser. If not, remove the Tor Browser folder and extract
     the archive again. It should work now.
     If it still fails, we want to
-    <a href="<page about/contact>#support">hear from you</a>!
+    <a href="https://support.torproject.org/#censorship">hear from you</a>!
     </p>
 
     <a id="AddTorWorks"></a>
@@ -282,7 +282,7 @@
         the offered transport types. obfs4 is currently recommend, but
         depending on where you are located another one may work better for you.
         If you have any questions, please
-        <a href="<page about/contact>#support">contact us</a>.</h3>
+        <a href="https://support.torproject.org/#censorship">contact us</a>.</h3>
     <br/>
     <img src="$(IMGROOT)/bridges/tb-tor-launcher-bridges-provided.png"
       alt="Tor Browser's Bridge Configuration page - provided bridges">
