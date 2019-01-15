@@ -76,7 +76,7 @@ It was originally coded by the late Aaron Swartz and is now managed by
 <a href="https://www.globaleaks.org/"><img class="icon"
 src="$(IMGROOT)/icon-globaleaks.png" alt="Globaleaks icon" width="80"></a>
 <div class="projectdesc"><div class="name">
-<a href="https://www.globaleaks.org/">Globalleaks</a></div> <p>
+<a href="https://www.globaleaks.org/">Globaleaks</a></div> <p>
 GlobaLeaks is an open-source, free software intended to enable secure and
 anonymous whistleblowing initiatives. The software is developed by the
 <a href="https://www.hermescenter.org/">Hermes Center for Transparency and
