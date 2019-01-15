@@ -157,8 +157,26 @@ world.
 </div>
 </div>
 
+<div class="projectbox">
+<!--<a href="https://trac.torproject.org/projects/tor/wiki/doc/torsocks/">
+<img class="icon" src="$(IMGROOT)/icon-OONI.png" alt="OONI Icon"
+width="80"></a>-->
+<div class="projectdesc">
+<div class="name"><a
+href="https://trac.torproject.org/projects/tor/wiki/doc/torsocks">
+Torsocks</a></div>
 <p>
-Also see our list of <a href="<page projects/community>">community projects</a>.
+Torsocks is a torifying wrapper that is primarily used to redirect all
+network traffic of individual SOCKS-friendly applications through the Tor
+network. It also ensures DNS queries are handled correctly and explicitly
+blocks all UDP traffic from the application in question.
+</p>
+</div>
+</div>
+
+<p>
+Also see our list of <a href="<page projects/community>">
+community projects</a>.
 </p>
 
 
