@@ -165,9 +165,9 @@ custom configurations. All an apt-get or yum install away.</p>
         <div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
           <form class="downloads">
-            <a class="button" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7-multi.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
             <div class="sig">
-              (<a class="android-tbb-sig" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk.asc">sig</a>)
+              (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7-multi.apk.asc">sig</a>)
               <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
             </div>
           </form>
@@ -179,10 +179,6 @@ custom configurations. All an apt-get or yum install away.</p>
           Browser for desktop. You can download the alpha release on
           <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">GooglePlay</a>,
           or you can get the apk by clicking on the button below.
-          </p>
-          <p>
-          Note: For this release, <b>you also need to install Orbot</b>, you can
-          learn more about it <a href="https://guardianproject.info/apps/orbot">here</a>.
           </p>
           <p>
           Known issue: Our Security Slider is now under ‘Security Settings,

@@ -1,12 +1,12 @@
-<define-tag version-stable whitespace=delete>0.3.4.9</define-tag>
-<define-tag version-alpha whitespace=delete>0.3.5.3-alpha</define-tag>
+<define-tag version-stable whitespace=delete>0.3.5.7</define-tag>
+<define-tag version-alpha whitespace=delete>0.3.5.7</define-tag>
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.5</define-tag>
 
 # *** tor browser stable ***
-<define-tag version-torbrowserbundle-all whitespace=delete>8.0.3</define-tag>
-<define-tag releasedate-torbrowserbundle-all whitespace=delete>2018-10-23</define-tag>
-<define-tag version-win32-stable whitespace=delete>0.3.4.8</define-tag>
+<define-tag version-torbrowserbundle-all whitespace=delete>8.0.4</define-tag>
+<define-tag releasedate-torbrowserbundle-all whitespace=delete>2018-11-17</define-tag>
+<define-tag version-win32-stable whitespace=delete>0.3.4.9</define-tag>
 
 # If all platforms are on the same version, you only need to update
 # version-torbrowserbundle-all and releasedate-torbrowserbundle-all
@@ -26,8 +26,8 @@
 <define-tag package-win32-stable whitespace=delete>../dist/torbrowser/<version-torbrowserbundle>/tor-win32-<version-win32-stable>.zip</define-tag>
 
 # *** tor browser beta/alpha ***
-<define-tag version-torbrowserbundlebeta-all whitespace=delete>8.5a4</define-tag>
-<define-tag releasedate-torbrowserbundlebeta-all whitespace=delete>2018-10-23</define-tag>
+<define-tag version-torbrowserbundlebeta-all whitespace=delete>8.5a6</define-tag>
+<define-tag releasedate-torbrowserbundlebeta-all whitespace=delete>2018-12-11</define-tag>
 
 # If all platforms are on the same version, you only need to update
 # version-torbrowserbundlebeta-all and releasedate-torbrowserbundlebeta-all
@@ -41,12 +41,10 @@
 <let releasedate-torbrowserbundlelinux64beta=releasedate-torbrowserbundlebeta-all />
 <let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
+<let version-torbrowserbundleandroidbeta=version-torbrowserbundlebeta-all />
+<let releasedate-torbrowserbundleandroidbeta=releasedate-torbrowserbundlebeta-all />
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
 <define-tag package-source-stable whitespace=delete>../dist/<file-source-stable></define-tag>
 <define-tag file-source-alpha whitespace=delete>tor-<version-alpha>.tar.gz</define-tag>
 <define-tag package-source-alpha whitespace=delete>../dist/<file-source-alpha></define-tag>
-
-# *** tor browser android ***
-<define-tag version-torbrowserbundleandroid whitespace=delete>1.0a3</define-tag>
-<define-tag releasedate-torbrowserbundleandroid whitespace=delete>2018-10-31</define-tag>

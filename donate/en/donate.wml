@@ -2,6 +2,6 @@
 # Revision: $Revision$
 # Status: obsolete
 
-#include "head.wmi" TITLE="Redirecting" REDIRECT="https://donate.torproject.org"
+#include "head.wmi" TITLE="Redirecting" REDIRECT="https://donate.torproject.org/"
 
 #include <foot.wmi>

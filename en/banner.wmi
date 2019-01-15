@@ -1,3 +1,5 @@
+<label class="black" for="toggle-1">x</label>
+<input type="checkbox" id="toggle-1">
 <div class="eoy-background">
   <div class="eoy-wrap">
     <div class="eoy-artwork">
