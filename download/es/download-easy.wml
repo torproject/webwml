@@ -54,7 +54,7 @@
                href="../dist/torbrowser/<version-torbrowserbundle>/torbrowser-install-win64-<version-torbrowserbundle>_<lang>.exe.asc">firma</a>) <a class="siginfo" href="<page docs/verifying-signatures>">¿Que es Esto?</a>
       </div>
     </form>
-    <p class="alt-dl">¿No usas Windows?<br />Descargalo para <a href="#mac">Mac</a> or <a href="#linux">Linux</a></p>
+    <p class="alt-dl">¿No usas Windows?<br />Descargalo para <a href="#mac">Mac</a> o <a href="#linux">Linux</a></p>
   </div>
       </div>
 <!-- START WINDOWS 32-Bit -->
