@@ -25,18 +25,6 @@
     </td>
 
     <td>
-      <a id="alsmith"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/alsmith.png" alt="alsmith" /></div>
-      <div class="icon"><a href="../keys/alsmith.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
-      <div class="name"><a href="#alsmith">Al Smith</a></div>
-      <div class="field"><b>IRC:</b> alsmith</div>
-      <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/they">they</a></div>
-      <div class="description">Writes grants and fundraising proposals.</div>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
       <a id="ahf"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
       <div class="icon"><a href="https://twitter.com/ahfaeroey"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -46,7 +34,9 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Works on core Tor development.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="flexlibris"></a>
       <div class="photo"><img src="$(IMGROOT)/people/flexlibris.png" alt="flexlibris" title="Photo taken by Nima Fatemi" /></div>
@@ -57,9 +47,7 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Leads the <a href="https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam">Community Team</a> and <a href="https://libraryfreedomproject.org">Library Freedom Project</a>. Works on support, outreach, and training.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="gunner"></a>
       <div class="photo"><img src="$(IMGROOT)/people/gunner.png" alt="gunner" /></div>
@@ -69,7 +57,9 @@
       <div class="field"><b>IRC:</b> gunner</div>
       <div class="description"><a href="https://aspirationtech.org/about/people/gunner">Executive Director of Aspiration</a>, where he works with NGOs, activists, and human rights groups. Meeting facilitator and member of Tor's Community Council.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="amoghbl1"></a>
       <div class="photo"><img src="$(IMGROOT)/people/amoghbl1.png" alt="amoghbl1" /></div>
@@ -78,9 +68,7 @@
       <div class="field"><b>IRC:</b> amoghbl1</div>
       <div class="description"><a href="http://amoghbl1.com/">Lead developer</a> of Orfox and contributor to Orbot.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="andreas"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -88,7 +76,9 @@
       <div class="name"><a href="#andreas">Andreas Lehner</a></div>
       <div class="description">Works at the intersection of security, privacy, data integrity and anonymity both in politics and technology.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="antonela"></a>
       <div class="photo"><img src="$(IMGROOT)/people/antonela.png" alt="antonela" /></div>
@@ -98,9 +88,7 @@
       <div class="field"><b>IRC:</b> antonela</div>
       <div class="description">Designer working with the UX team. Making Tor usable for everyone.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="arlolra"></a>
       <div class="photo"><img src="$(IMGROOT)/people/arlolra.png" alt="arlolra" /></div>
@@ -110,7 +98,9 @@
       <div class="field"><b>IRC:</b> arlolra</div>
       <div class="description">Developer for Snowflake, Tor Messenger, and Check.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="arthuredelstein"></a>
       <div class="photo"><img src="$(IMGROOT)/people/arthuredelstein.png" alt="arthuredelstein" /></div>
@@ -119,9 +109,7 @@
       <div class="field"><b>IRC:</b> arthuredelstein</div>
       <div class="description">Works on Tor Browser.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="hellais"></a>
       <div class="photo"><img src="$(IMGROOT)/people/hellais.png" alt="hellais" /></div>
@@ -131,7 +119,9 @@
       <div class="field"><b>IRC:</b> hellais</div>
       <div class="description">Project leader for <a href="https://ooni.torproject.org/">OONI</a>, has helped with <a href="http://tor2web.org/">tor2web</a>, wrote Atlas which later became <a href="https://metrics.torproject.org/rs.html">Relay Search</a>, and helps improve security.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="bdavila"></a>
       <div class="photo"><img src="$(IMGROOT)/people/bdavila.png" alt="bdavila" /></div>
@@ -140,9 +130,7 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Grants Manager.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="brade"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -151,7 +139,9 @@
       <div class="field"><b>IRC:</b> brade</div>
       <div class="description">Developer on the Tor Browser team.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="komlo"></a>
       <div class="photo"><img src="$(IMGROOT)/people/komlo.png" alt="komlo" /></div>
@@ -161,9 +151,7 @@
       <div class="field"><b>IRC:</b> komlo</div>
       <div class="description">Chelsea is a software/security engineer and contributes to core tor.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="cindy"></a>
       <div class="photo"><img src="$(IMGROOT)/people/cindy.png" alt="cindy" /></div>
@@ -172,7 +160,9 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Tor Board member and <a href="https://www.eff.org/about/staff/cindy-cohn">Executive Director of the EFF</a>. Lawyer by training, <a href="https://blog.torproject.org/blog/tor-heart-notes-board-member">her focus</a> is on making sure Tor stays available and that Tor users stay safe.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="Phoul"></a>
       <div class="photo"><img src="$(IMGROOT)/people/phoul.png" alt="phoul" /></div>
@@ -182,9 +172,7 @@
       <div class="field"><b>IRC:</b> Phoul</div>
       <div class="description">Relay advocate, Outreachy mentor, and a member of the community team. He is also a director of the Canadian Torservers.net partner <a href="https://www.coldhak.ca/">Coldhak</a>.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="atagar"></a>
       <div class="photo"><img src="$(IMGROOT)/people/atagar.png" alt="atagar" /></div>
@@ -194,7 +182,9 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/he">he</a></div>
       <div class="description">Author of the <a href="https://stem.torproject.org/">Stem</a> python controller library and <a href="https://nyx.torproject.org/">Nyx</a> relay monitor.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="dgoulet"></a>
       <div class="photo"><img src="$(IMGROOT)/people/dgoulet.png" alt="dgoulet" /></div>
@@ -203,9 +193,7 @@
       <div class="field"><b>IRC:</b> dgoulet</div>
       <div class="description">Tor development team focusing on onion services and our torsocks maintainer.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="dawuud"></a>
       <div class="photo"><img src="$(IMGROOT)/people/dawuud.png" alt="dawuud" /></div>
@@ -215,7 +203,9 @@
       <div class="field"><b>IRC:</b> dawuud</div>
       <div class="description"><a href="https://github.com/david415/">Author of roflcoptor and honeybadger</a>. Researches mixnets and contributes to txtorcon.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="DonnchaC"></a>
       <div class="photo"><img src="$(IMGROOT)/people/donnchac.png" alt="donnchac" /></div>
@@ -225,9 +215,7 @@
       <div class="field"><b>IRC:</b> DonnchaC</div>
       <div class="description">Onion services developer, OnionBalance developer, hunter of bad relays.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="emmapeel"></a>
       <div class="photo"><img src="$(IMGROOT)/people/emmapeel.png" alt="emmapeel" /></div>
@@ -237,7 +225,9 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">emmapeel coordinates the localization (translations) of the different Tor software.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="ewyatt"></a>
       <div class="photo"><img src="$(IMGROOT)/people/ewyatt.png" alt="ewyatt" /></div>
@@ -246,9 +236,7 @@
       <div class="field"><b>IRC:</b> ewyatt</div>
       <div class="description">Non-technical switchboard for people-related things: recruiting, onboarding, benefits, contracts, TPI policy questions, and baked goods.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="gaba"></a>
       <div class="photo"><img src="$(IMGROOT)/people/gaba.png" alt="gaba" /></div>
@@ -258,7 +246,9 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description">Coordinates Network, Metrics and Anti-censorship teams.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="biella"></a>
       <div class="photo"><img src="$(IMGROOT)/people/biella.png" alt="biella" /></div>
@@ -268,9 +258,7 @@
       <div class="field"><b>IRC:</b> biella</div>
       <div class="description"><a href="http://gabriellacoleman.org/">Anthropologist</a> and Wolfe Chair in Scientific and Technological Literacy at McGill University.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="gman999"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -278,7 +266,9 @@
       <div class="field"><b>IRC:</b> gman999</div>
       <div class="description">Tor BSD Diversity Project member, long-time relay operator, trainer.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="GeKo"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -287,9 +277,7 @@
       <div class="field"><b>IRC:</b> GeKo</div>
       <div class="description">Currently lead of the Tor Browser team.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="asn"></a>
       <div class="photo"><img src="$(IMGROOT)/people/asn.png" alt="asn" /></div>
@@ -298,7 +286,9 @@
       <div class="field"><b>IRC:</b> asn</div>
       <div class="description">Onion services. Security analysis. Used to obfsproxy. Follower of the onion.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="saint"></a>
       <div class="photo"><img src="$(IMGROOT)/people/saint.png" alt="saint" /></div>
@@ -308,9 +298,7 @@
       <div class="field"><b>IRC:</b> saint</div>
       <div class="description">Tamper-resistant software distribution, censorship detection, <a href="https://github.com/glamrock/cupcake">Cupcake</a>, and security training of activists and domestic violence survivors.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="ggus"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
@@ -318,16 +306,6 @@
       <div class="name"><a href="#ggus">Gustavo Gus</a></div>
       <div class="field"><b>IRC:</b> ggus</div>
       <div class="description">Works as Community Liaison in Global South. Trainer, relay operator and Tor advocate. CryptoRave organizer.</div>
-    </td>
-
-    <td>
-      <a id="hc"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/hc.png" alt="hc" /></div>
-      <div class="icon"><a href="https://twitter.com/hansstatus"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
-      <div class="icon"><a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE9E28DEA00AA5556"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
-      <div class="name"><a href="#hc">Hans-Christoph Steiner</a></div>
-      <div class="field"><b>IRC:</b> _hc</div>
-      <div class="description">Works on Orbot, NetCipher, and integrating Tor everywhere possible, especially in Debian and Android.  Also deeply mixed into Guardian Project.</div>
     </td>
   </tr>
 
@@ -391,7 +369,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=8F2AF9B6D4A14D03FDF1B2983224499415064C7B"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#isabela">Isabela Bagueros</a></div>
       <div class="field"><b>IRC:</b> isabela</div>
-      <div class="description">Executive Director of the Tor Project.</div>
+      <div class="description">Coordinates Tor's development teams and roadmaps. Keeps track of priorities, and ensures Tor always thinks of the &quot;user first&quot;.</div>
     </td>
   </tr>
 
@@ -591,7 +569,7 @@
       <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=CE1782624600EE98764C6D9CCB8FC772D1AA1D30"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#sysrqb">Matthew Finkel</a></div>
       <div class="field"><b>IRC:</b> sysrqb</div>
-      <div class="description">Works on tor, torsocks, and many other projects. Helps maintain and develop BridgeDB.</div>
+      <div class="description">Worked on tor, torsocks, and many other projects. Helped maintain and develop BridgeDB.</div>
     </td>
 
     <td>
@@ -850,7 +828,7 @@
       <div class="name"><a href="#ssteele">Shari Steele</a></div>
       <div class="field"><b>IRC:</b> ssteele</div>
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
-      <div class="description">Shari Steele is on the board of directors for the Tor Project.</div>
+      <div class="description">Executive Director of the Tor Project, Inc.</div>
     </td>
   </tr>
 

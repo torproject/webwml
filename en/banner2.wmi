@@ -1,6 +1,4 @@
-<label for="toggle-1">x</label>
-<input type="checkbox" id="toggle-1">
-<div id="eoy-banner" class="eoy-background-2 align-center">
+<div class="eoy-background-2 align-center">
   <div class="eoy-wrap align-center">
     <div class="eoy-message-2 align-center">
       <div class="tor-strength-in-num green align-center">

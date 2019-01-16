@@ -1531,40 +1531,5 @@ mark {
   width: 100%;
   align-content: center;
   font-size-adjust: 0.7;
-  line-height: 1.0em;
-}
-
-/* Checkbox Hack */
-
-input[type=checkbox] {
-   position: absolute;
-   top: -9999px;
-   left: -9999px;
-}
-
-label {
-  -webkit-appearance: push-button;
-  -moz-appearance: button;
-  display: inline-block;
-  cursor: pointer;
-  color: white;
-  float: right;
-  font-weight: bold;
-  padding-right: 15px;
-  padding-top: 15px;
-  font-size: 20px;
-}
-
-#eoy-banner {
-  visibility: visible;
-}
-
-/* Toggled State */
-input[type=checkbox]:checked ~ div#eoy-banner {
-   visibility: hidden;
-   display: none;
-}
-
-.black {
-  color: black;
+  line-height: 1.5em;
 }

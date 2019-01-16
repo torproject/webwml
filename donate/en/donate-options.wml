@@ -154,8 +154,8 @@ form#makeDonation {
      <div class="dbox donate">
        <h3>Donate via Check or Money Order</h3>
        <h4>You can send checks or money orders to:</h4>
-       <p>The Tor Project<br>
-        217 First Avenue South #4903<br>
+       <p>The Tor Project, Inc.<br>
+        P.O. Box 4903<br>
         Seattle, WA 98194 USA</p>
     </div>
   </div>

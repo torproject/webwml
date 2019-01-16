@@ -184,14 +184,19 @@
           button below.
           </p>
           <p>
+          Note: For this release, you also need to install Orbot, you can
+          learn more about it
+          <a href="https://www.torproject.org/docs/android.html.en">here</a>.
+          </p>
+          <p>
           Known issue: Our Security Slider is now under ‘Security Settings,
           but because of a small issue, it’s only showing up after you restart
           the app. We plan on fixing it for the next release.
           </p>
           <form class="downloads">
-            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7-multi.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <a class="button" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/tor-browser-android-arm-<version-torbrowserbundleandroid>.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
 	    <div class="sig">
-              (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7-multi.apk.asc">sig</a>)
+              (<a class="android-tbb-sig" href="../dist/torbrowser/mobile/<version-torbrowserbundleandroid>/TorBrowser-<version-torbrowserbundleandroid>.asc">sig</a>)
               <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
             </div>
           </form>
@@ -209,6 +214,8 @@
 
 <div id="dow-don-right">
 <a href="<page donate/donate-download>"><img src="../images/btn_donateCC_LG.gif"></a>
+<p>Mozilla will match your <br />
+donation until 12/31!</p>
 </div> <!-- END dow-don-right -->
 
 
