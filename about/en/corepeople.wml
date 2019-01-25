@@ -956,18 +956,6 @@
     </td>
 
     <td>
-      <a id="t0mmy"></a>
-      <div class="photo"><img src="$(IMGROOT)/people/t0mmy.png" alt="t0mmy" /></div>
-      <div class="icon"><a href="https://twitter.com/tommycollison"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
-      <div class="icon"><a href="../keys/t0mmy.txt"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
-      <div class="name"><a href="#t0mmy">Tommy Collison</a></div>
-      <div class="field"><b>IRC:</b> t0mmy</div>
-      <div class="description">Writes and edits grant proposals, one-pagers, blogposts, etc.</div>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
       <a id="egypcio"></a>
       <div class="photo"><img src="$(IMGROOT)/people/egypcio.png" alt="egypcio" /></div>
       <div class="icon"><a href="https://twitter.com/egypcio"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
@@ -976,7 +964,9 @@
       <div class="field"><b>IRC:</b> egypcio</div>
       <div class="description">TorBSD Diversity Project (TDP); IPv6 Enthusiast, BSD Systems Evangelist, and Bridges/Relays Operator.</div>
     </td>
+  </tr>
 
+  <tr>
     <td>
       <a id="wseltzer"></a>
       <div class="photo"><img src="$(IMGROOT)/people/wseltzer.png" alt="wseltzer" /></div>
@@ -987,9 +977,7 @@
       <div class="field"><b>Pronoun:</b> <a href="http://pronoun.is/she">she</a></div>
       <div class="description"><a href="https://wendy.seltzer.org/">Techie lawyer</a> and former Tor board member. She works on legal and policy support for private and secure communications.</div>
     </td>
-  </tr>
 
-  <tr>
     <td>
       <a id="yawning"></a>
       <div class="photo"><img src="$(IMGROOT)/people/no_photo.png" alt="no photo" /></div>
