@@ -4,9 +4,9 @@
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-7.5</define-tag>
 
 # *** tor browser stable ***
-<define-tag version-torbrowserbundle-all whitespace=delete>8.0.4</define-tag>
-<define-tag releasedate-torbrowserbundle-all whitespace=delete>2018-11-17</define-tag>
-<define-tag version-win32-stable whitespace=delete>0.3.4.9</define-tag>
+<define-tag version-torbrowserbundle-all whitespace=delete>8.0.5</define-tag>
+<define-tag releasedate-torbrowserbundle-all whitespace=delete>2019-01-29</define-tag>
+<define-tag version-win32-stable whitespace=delete>0.3.5.7</define-tag>
 
 # If all platforms are on the same version, you only need to update
 # version-torbrowserbundle-all and releasedate-torbrowserbundle-all
