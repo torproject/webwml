@@ -74,7 +74,7 @@ the root password of your system.
 <b>GPG</b>:
 <a href="https://gnupg.org/">GNU Privacy Guard</a> version 2.1 is needed for
 this guide. If you are using an older version, consider upgrading to gnupg2
-or replace 'gpg2' below with <code>gpg --keyserver hkp://pool.sks-keyservers.net</code>
+or replace 'gpg2' below with <code>gpg --keyserver pgp.surfnet.nl</code>
 since the keyserver option was mandatory for older versions.
 </p>
 
@@ -134,7 +134,7 @@ deb https://deb.torproject.org/torproject.org jessie main
 <p>Then add the gpg key used to sign the packages by running the following
 commands at your command prompt:
 <blockquote><pre>
-&num; gpg2 --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+&num; gpg2 --keyserver pgp.surfnet.nl --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 &num; gpg2 --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 </pre></blockquote></p>
 </div>
@@ -191,7 +191,7 @@ deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;D
 Then add the gpg key used to sign the packages by running the following
 commands at your command prompt:
 <blockquote><pre>
-&num; gpg2 --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+&num; gpg2 --keyserver pgp.surfnet.nl --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
 &num; gpg2 --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 </pre></blockquote>
 Now refresh your sources, running the following command (as root) at your
