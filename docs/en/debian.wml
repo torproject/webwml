@@ -71,14 +71,6 @@ the root password of your system.
 </p>
 
 <p>
-<b>GPG</b>:
-<a href="https://gnupg.org/">GNU Privacy Guard</a> version 2.1 is needed for
-this guide. If you are using an older version, consider upgrading to gnupg2
-or replace 'gpg2' below with <code>gpg --keyserver pgp.surfnet.nl</code>
-since the keyserver option was mandatory for older versions.
-</p>
-
-<p>
 <b>apt-transport-tor</b>:
 To use source lines with <tt>https://</tt> in <i>/etc/apt/sources.list</i> the
 <a href="https://packages.debian.org/stretch/apt-transport-https">apt-transport-https package</a>
