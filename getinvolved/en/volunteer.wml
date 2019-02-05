@@ -1134,12 +1134,13 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     <li>
     <b>Salmon as a Bridge Distribution Mechanism</b>
     <br>
-    Likely Mentors: <i>ahf, cohosh</i>
+    Likely Mentors: <i>ahf, Cecylia (cohosh)</i>
     <br><br>
-    <p>
-    This project entails building a different bridge distribution mechanism than what we have today with BridgeDB where reputation and social contacts gives you access to "better" bridges and adds a penalty for when a bridge is censored.
-    </p>
 
+    <p> Many users rely on bridges, or anti-censorship proxies, to connect to the Tor network. We need a way of distributing bridge information to users so that they are able to connect. However, when censors learn this information the bridges quickly become blocked and can no longer be used. Our goal is to distribute bridges to users in censored regions when they need the, while also limiting the amount of bridge information that is leaked to censors.</p>
+
+    <p>This project entails implementing Salmon, a bridge distribution mechanism that partitions and distributes bridges using reputation and social contacts to give well-behaved users access to "better" bridges and add a penalty when their bridges get censored.
+    </p>
     <p>
     For more information on Salmon, <a href="https://www.freehaven.net/anonbib/cache/salmon-pets2016.pdf">see the related paper</a> and <a href="https://github.com/SalmonProject">source code</a>.
     </p>
