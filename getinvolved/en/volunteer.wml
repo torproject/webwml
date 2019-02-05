@@ -741,6 +741,7 @@ meetings around the world.</li>
     <ol>
 
 	#Keep old ids in case of incoming links.
+<!--
     <a id="metadataremoval"></a>
     <li>
     <b>Remove metadata from Tor Browser uploads</b>
@@ -770,7 +771,7 @@ meetings around the world.</li>
     similar project that could serve as inspiration.
     </p>
     </li>
-
+-->
     <a id="pythonTorClient"></a><a id="pythonTorClient"></a>
     <li>
     <b>Python Tor Client</b>
@@ -842,6 +843,8 @@ ideas.
     </p>
     </li>
 -->
+
+<!--
     <a id="torFuzzing"></a>
     <li>
     <b>Fuzzing coverage of Tor</b>
@@ -866,7 +869,8 @@ understand how our mocking system works, and what the challenges are,
 before you apply for this one.
     </p>
     </li>
-
+-->
+<!--
     <a id="relayCryptoParallelism"></a>
     <li>
     <b>Relay crypto parallelism</b>
@@ -893,7 +897,8 @@ one.
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/1749">see its ticket</a>.
     </p>
     </li>
-
+-->
+<!--
     <a id="anonymousLocalCountStatistics"></a>
     <li>
     <b>Anonymous local count statistics</b>
@@ -912,6 +917,7 @@ already anonymous, before we ever summarize it.  Interested?
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/7532">see its ticket</a>.
     </p>
     </li>
+-->
 
     <a id="improveSocks5Variant"></a>
     <li>
@@ -959,6 +965,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/13
     </p>
     </li>
 
+<!--
     <a id="supportAllDNS"></a>
     <li>
     <b>Support all kinds of DNS in Tor</b>
@@ -977,7 +984,9 @@ this, but it might need some clean-up.
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/7829">see its ticket</a>.
     </p>
     </li>
+-->
 
+<!--
     <a id="improveIpv6Support"></a>
     <li>
     <b>Improve IPv6 support</b>
@@ -1003,6 +1012,8 @@ network: are you up for it?
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/17811">see its ticket</a>.
     </p>
     </li>
+-->
+
 <!--
     <a id="feedbackExtension"></a>
     <li>
@@ -1028,7 +1039,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     </p>
     </li>
 -->
-
+<!--
     <a id="ahmiaSearch"></a>
     <li>
     <b>Ahmia - Onion Service Search</b>
@@ -1056,6 +1067,81 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     result, the server-side language is Python. On the client-side, most of the
     pages are plain HTML. There are some pages that require JavaScript, but the
     search itself works without client-side JavaScript.
+    </p>
+
+    </li>
+-->
+    <a id="v3-onion-services"></a>
+    <li>
+    <b>v3 Onion Services</b>
+    <br>
+    Language: <i>C</i>
+    <br>
+    Likely Mentors: <i>George (asn)</i>
+    <br><br>
+    <p>
+    The onion services team is interested in mentoring projects related to v3 onion services. Anything from designing and implementing a <a href="https://trac.torproject.org/projects/tor/ticket/28841">HS health measurer</a>, refactoring and improving the already existing code, or designing <a href="https://trac.torproject.org/projects/tor/query?status=!closed&keywords=~tor-hs">new features and improvements</a>.
+    </p>
+
+    <p>
+    This is a relatively difficult project which will require candidates to have a good understanding of the <a href="https://www.torproject.org/docs/onion-services.html.en">onion service protocol</a> and in particular the <a href="https://gitweb.torproject.org/torspec.git/tree/rend-spec-v3.txt">v3 spec</a>.
+    </p>
+    </li>
+
+    <a id="tor-browser-crash-reporter"></a>
+    <li>
+    <b>Tor Browser Crash Reporter</b>
+    <br>
+    Language: <i>Python</i>
+    <br>
+    Likely Mentors: <i>Tom (tjr)</i>
+    <br><br>
+    <p>
+    This project involves modifying the Firefox Crash Reporter to submit less privacy sensitive data; and to submit this to an onion address of a service running a dump collection server.
+    </p>
+
+    <p>
+    This project was <a href="https://trac.torproject.org/projects/tor/wiki/doc/crashreporter">previously worked on in 2017</a> as part of GSoC - the project got close; but the major outstanding issue was that the crash reporter program wasn’t submitting over Tor like we thought it was; and we need to pass the SOCKS information to it somehow.
+    </p>
+    </li>
+
+    <a id="ooni-probe-tests"></a>
+    <li>
+    <b>OONI Probe test development</b>
+    <br>
+    Language: <i>C++</i>
+    <br>
+    Likely Mentors: Arturo Filastò() & Simone Basso()</i>
+    <br><br>
+    <p>
+    The <a href="https://ooni.torproject.org/">Open Observatory of Network Interference (OONI)</a> has a series of network tests which measure different forms of internet censorship. Every month, these tests (available via the <a href="https://ooni.torproject.org/install/">ONI Probe apps</a>) are run by human rights defenders in <a href="https://api.ooni.io/stats">more than 200 countries</a>, in an attempt to collect network measurement data that can serve as evidence of internet censorship.
+    </p>
+    <p>
+    <a href="https://ooni.torproject.org/install/">OONI Probe</a> currently includes tests for some instant messaging apps (WhatsApp, Facebook Messenger & Telegram) and it would be great to have a new test developed for the Signal IM app. Support on improving upon existing <a href="https://ooni.torproject.org/nettest/">OONI Probe tests</a> would also be appreciated.
+    </p>
+
+    <p>
+    As part of this project new Signal tests would be integrated into the OONI Probe mobile app. This would enable human rights defenders to test the accessibility of the Signal app around the world, and to openly share relevant network measurement data.
+    </p>
+
+    <p>
+    You can find out more on our github repositories: <a href="https://github.com/ooni">https://github.com/ooni</a> and <a href="https://github.com/measurement-kit">https://github.com/measurement-kit</a>.
+    </p>
+
+    </li>
+
+    <a id="salmon-bridge-distribution"></a>
+    <li>
+    <b>Salmon as a Bridge Distribution Mechanism</b>
+    <br>
+    Likely Mentors: <i>ahf, cohosh</i>
+    <br><br>
+    <p>
+    This project entails building a different bridge distribution mechanism than what we have today with BridgeDB where reputation and social contacts gives you access to "better" bridges and adds a penalty for when a bridge is censored.
+    </p>
+
+    <p>
+    For more information on Salmon, <a href="https://www.freehaven.net/anonbib/cache/salmon-pets2016.pdf">see the related paper</a> and <a href="https://github.com/SalmonProject">source code</a>.
     </p>
 
     </li>
