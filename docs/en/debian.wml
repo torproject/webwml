@@ -282,7 +282,7 @@ access it you might try to use the name of one of its part instead. Try
 </p>
 
 <p>
-To use Apt with Tor the according apt transport needs to be installed:
+To use Apt with Tor, the apt transport needs to be installed:
 </p>
 <blockquote><pre>
 &num; apt install apt-transport-tor
