@@ -183,8 +183,8 @@ deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;D
 Then add the gpg key used to sign the packages by running the following
 commands at your command prompt:
 <blockquote><pre>
-&num; gpg2 --keyserver pgp.surfnet.nl --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
-&num; gpg2 --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
+&num; curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --import
+&num; gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 </pre></blockquote>
 Now refresh your sources, running the following command (as root) at your
 command prompt:
