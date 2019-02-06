@@ -1161,7 +1161,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     Likely Mentors: <i>ahf, Cecylia (cohosh)</i>
     <br><br>
 
-    <p> Many users rely on bridges, or anti-censorship proxies, to connect to the Tor network. We need a way of distributing bridge information to users so that they are able to connect. However, when censors learn this information the bridges quickly become blocked and can no longer be used. Our goal is to distribute bridges to users in censored regions when they need the, while also limiting the amount of bridge information that is leaked to censors.</p>
+    <p> Many users rely on bridges, or anti-censorship proxies, to connect to the Tor network. We need a way of distributing bridge information to users so that they are able to connect. However, when censors learn this information the bridges quickly become blocked and can no longer be used. Our goal is to distribute bridges to users in censored regions when they need them, while also limiting the amount of bridge information that is leaked to censors.</p>
 
     <p>This project entails implementing Salmon, a bridge distribution mechanism that partitions and distributes bridges using reputation and social contacts to give well-behaved users access to "better" bridges and add a penalty when their bridges get censored.
     </p>
