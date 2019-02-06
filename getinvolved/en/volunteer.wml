@@ -1130,6 +1130,30 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
 
     </li>
 
+    <a id="ooni-js-encore"></a>
+    <li>
+    <b>OONI Javascript Encore style test</b>
+    <br>
+    Language: <i>Javascript, HTML and ideally React</i>
+    <br>
+    Likely Mentors: <i>Arturo Filastò(hellais) & Simone Basso(sbs)</i>
+    <br><br>
+    <p>
+    The <a href="https://ooni.torproject.org/">Open Observatory of Network Interference (OONI)</a> has a series of network tests which measure different forms of internet censorship. Every month, these tests (available via the <a href="https://ooni.torproject.org/install/">ONI Probe apps</a>) are run by human rights defenders in <a href="https://api.ooni.io/stats">more than 200 countries</a>, in an attempt to collect network measurement data that can serve as evidence of internet censorship.
+    </p>
+
+    <p>
+    All of these tests rely on people installing specialised software on their machine. The idea behind this project is that the student would be working on researching and implementing a test based on the Encore paper: <a href="https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p653.pdf">https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p653.pdf</a>. This test runs inside of a regular browser (without the need of a plugin) and is able to check reachability of websites. While the testing is not as precise as the rest of OONI Probe test it can be very useful to coordinate testing campaigns where getting a lot of less precise data quickly is essential.
+    </p>
+
+    <p>
+    Part of the work will about integrating the OONI informed consent procedure into this form of testing too and ensuring that the measurements are collected in an ethical way.
+    </p>
+    <p>
+    Please see the relevant github issue for more details: <a href="https://github.com/ooni/run/issues/19">https://github.com/ooni/run/issues/19</a>
+    </p>
+    </li>
+
     <a id="salmon-bridge-distribution"></a>
     <li>
     <b>Salmon as a Bridge Distribution Mechanism</b>
