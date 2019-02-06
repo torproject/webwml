@@ -1111,7 +1111,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/17
     <br>
     Language: <i>C++</i>
     <br>
-    Likely Mentors: Arturo Filastò() & Simone Basso()</i>
+    Likely Mentors: <i>Arturo Filastò(hellais) & Simone Basso(sbs)</i>
     <br><br>
     <p>
     The <a href="https://ooni.torproject.org/">Open Observatory of Network Interference (OONI)</a> has a series of network tests which measure different forms of internet censorship. Every month, these tests (available via the <a href="https://ooni.torproject.org/install/">ONI Probe apps</a>) are run by human rights defenders in <a href="https://api.ooni.io/stats">more than 200 countries</a>, in an attempt to collect network measurement data that can serve as evidence of internet censorship.
