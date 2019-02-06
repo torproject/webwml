@@ -367,13 +367,14 @@ meetings around the world.</li>
     <b>Project Ideas:</b><br />
   #  <i><a href="#improveOnionServices">Help improve Tor onion services</a></i><br />
     <i><a href="#pythonTorClient">Python Tor Client</a></i><br />
-    <i><a href="#torFuzzing">Fuzzing coverage of Tor</a></i><br />
-    <i><a href="#relayCryptoParallelism">Relay crypto parallelism</a></i><br />
-    <i><a href="#anonymousLocalCountStatistics">Anonymous local count statistics</a></i><br />
-    <i><a href="#improveSocks5Variant">Improved SOCKS5 variant</a></i><br />
-    <i><a href="#onionServiceCryptoParallelism">Onion service crypto parallelism</a></i><br />
-    <i><a href="#supportAllDNS">Support all kinds of DNS in Tor</a></i><br />
-    <i><a href="#improveIpv6Support">Improve IPv6 support</a></i>
+  #  <i><a href="#torFuzzing">Fuzzing coverage of Tor</a></i><br />
+  #  <i><a href="#relayCryptoParallelism">Relay crypto parallelism</a></i><br />
+  #  <i><a href="#anonymousLocalCountStatistics">Anonymous local count statistics</a></i><br />
+  #  <i><a href="#improveSocks5Variant">Improved SOCKS5 variant</a></i><br />
+  #  <i><a href="#onionServiceCryptoParallelism">Onion service crypto parallelism</a></i><br />
+  #  <i><a href="#supportAllDNS">Support all kinds of DNS in Tor</a></i><br />
+  #  <i><a href="#improveIpv6Support">Improve IPv6 support</a></i>
+    <i><a href="#v3-onion-services">v3 Onion Services</a></i>
     </p>
 
     <a id="project-torbrowser"></a>
@@ -392,7 +393,8 @@ meetings around the world.</li>
 
     <p>
     <b>Project Ideas:</b><br />
-    <i><a href="#metadataremoval">Remove metadata from Tor Browser uploads</a></i><br />
+    #<i><a href="#metadataremoval">Remove metadata from Tor Browser uploads</a></i><br />
+    <i><a href="#tor-browser-crash-reporter">Tor Browser Crash Reporter</a></i><br />
     </p>
 
     <a id="project-httpseverywhere"></a>
