@@ -918,7 +918,7 @@ For more information <a href="https://trac.torproject.org/projects/tor/ticket/75
     </p>
     </li>
 -->
-
+<!--
     <a id="improveSocks5Variant"></a>
     <li>
     <b>Improved SOCKS5 variant</b>
@@ -937,8 +937,8 @@ or more applications.  Or maybe to torsocks?
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/12456">see its ticket</a>.
     </p>
     </li>
-
-
+-->
+<!--
 	#Keep old ids in case of incoming links.
     <a id="onionServiceCryptoParallelism"></a><a id="hiddenServiceCryptoParallelism"></a>
     <li>
@@ -964,7 +964,7 @@ state.  It could help onion services operate much more efficiently.
 For more information <a href="https://trac.torproject.org/projects/tor/ticket/13738">see its ticket</a>.
     </p>
     </li>
-
+-->
 <!--
     <a id="supportAllDNS"></a>
     <li>
