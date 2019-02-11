@@ -2,14 +2,14 @@
 # Revision: $Revision$
 # Translation-Priority: 4-optional
 
-#include "head.wmi" TITLE="Tor: Google Summer of Code" CHARSET="UTF-8"
+#include "head.wmi" TITLE="Tor: Google Summer of Code 2019" CHARSET="UTF-8"
 <div id="content" class="clearfix">
   <div id="breadcrumbs">
     <a href="<page index>">Home &raquo; </a>
     <a href="<page about/gsoc>">Google Summer of Code</a>
   </div>
   <div id="maincol"> 
-    <h2>Tor: Google Summer of Code</h2>
+    <h2>Tor: Google Summer of Code 2019</h2>
     <hr>
 
     <br /><br />
@@ -17,13 +17,20 @@
     <p>
     The Tor Project, in collaboration with <a href="https://www.eff.org/">The
     Electronic Frontier Foundation</a>, have taken part in Google Summer of Code
-    for 2007 through 2017, mentoring a total of 68 students.
+    for 2007 through 2016, mentoring the total of 64 students. We have applied
+    to <a href="https://summerofcode.withgoogle.com/">GSoC 2019</a>, and
+    should know by the end of February whether we are in this year.
+    <!--
+    Now google has
+    announced that we'll be taking part again for <a
+    href="https://summerofcode.withgoogle.com/">Google Summer of Code 2019</a>!
+    -->
     </p>
     
     <p>
     You must be self-motivated and able to work independently. We have
     a thriving community of interested developers on the IRC channel and
-    mailing lists, and we're eager to work with you, brainstorm about design,
+    mailing lists. We're eager to work with you, brainstorm about design,
     and so on, but you need to be able to manage your own time, and you
     need to already be somewhat familiar with how free software development on the
     Internet works.
