@@ -41,12 +41,8 @@
 <let releasedate-torbrowserbundlelinux64beta=releasedate-torbrowserbundlebeta-all />
 <let version-torbrowserbundleosx64beta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleosx64beta=releasedate-torbrowserbundlebeta-all />
-<!--
 <let version-torbrowserbundleandroidbeta=version-torbrowserbundlebeta-all />
 <let releasedate-torbrowserbundleandroidbeta=releasedate-torbrowserbundlebeta-all />
--->
-<define-tag version-torbrowserbundleandroidbeta whitespace=delete>8.5a7</define-tag>
-<define-tag releasedate-torbrowserbundleandroidbeta whitespace=delete>2019-01-30</define-tag>
 
 <define-tag file-source-stable whitespace=delete>tor-<version-stable>.tar.gz</define-tag>
 <define-tag package-source-stable whitespace=delete>../dist/<file-source-stable></define-tag>
