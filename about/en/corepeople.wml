@@ -492,7 +492,7 @@
       <a id="ailanthus"></a>
       <div class="photo"><img src="$(IMGROOT)/people/ailanthus.png" alt="ailanthus" /></div>
       <div class="icon"><a href="https://twitter.com/aidspol"><img src="$(IMGROOT)/twitter-small.png" alt="twitter" /></a></div>
-      <div class="icon"><a href="https://db.torproject.org/fetchkey.cgi?fingerprint=7C91C7C864A1CA45350E026ECD3AAD80EBBEF554"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
+      <div class="icon"><a href="https://keys.mailvelope.com/pks/lookup?op=get&search=0xCF243AB5AA03788F"><img src="$(IMGROOT)/pgp-key.png" alt="pgp key" /></a></div>
       <div class="name"><a href="#ailanthus">Kate Krauss</a></div>
       <div class="field"><b>IRC:</b> ailanthus</div>
       <div class="description">Writes about Tor in mainstream and technical publications and conducts community workshops to teach people about Tor.</div>
