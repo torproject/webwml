@@ -16,6 +16,7 @@ form#makeDonation {
   <p><b>Note: if you wish to donate to The Tor Project by <a href="<page donate/donate>">credit card or PayPal, please click here</a>.</b></p>
   <p>The Tor Project also offers the following alternative donation methods (If you would like to receive a Thank-You Gift after making a donation with one of the methods below, please email giving@torproject.org.):</p>
   <ul class="hlist">
+    <li><a href="#cryptocurrency">Cryptocurrency</a></li>
     <li><a href="#bitcoin">Bitcoin</a></li>
     <li><a href="<page donate/donate-amazon>">Amazon Payments</a></li>
     <li><a href="https://smile.amazon.com/ch/20-8096820">Amazon Smile</a></li>
@@ -27,6 +28,11 @@ form#makeDonation {
   <div class="hundred toptwenty">
 <!-- END AMAZON -->
 <!-- BEGIN BITCOIN -->
+   <a id="cryptocurrency"></a>
+   <div class="hundred toptwenty">
+     <h3>Donate cryptocurrency</h3>
+     <p>Click <a href="https://donate.torproject.org/cryptocurrency">here</a> for the wallet addresses for Augur (REP), Bitcoin (XBT), Bitcoin Cash (BCH), Dash (DASH), Ether (ETH), Litecoin (LTC), Monero (XMR), Stellar Lumen (XLM), and Zcash (ZEC).</p>
+   </div>
    <a id="bitcoin"></a>
    <div class="hundred toptwenty">
     <div class="dbox donate">
@@ -191,4 +197,3 @@ form#makeDonation {
 </div>
 </div>
 #include <donatefoot.wmi>
-
