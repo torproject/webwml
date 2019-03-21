@@ -16,6 +16,8 @@
 #<!-- Comment out until it's available again. -EC <define-tag button-osx-tbb64>64-bit</define-tag> -->
 <define-tag button-lin-tbb32>Tor Browser (32-Bit)</define-tag>
 <define-tag button-lin-tbb64>Tor Browser (64-Bit)</define-tag>
+<define-tag button-android-arm>Android (arm)</define-tag>
+<define-tag button-android-x86>Android (x86)</define-tag>
 
 #include "dlhead.wmi" TITLE="Download Tor" CHARSET="UTF-8"
 
@@ -165,9 +167,15 @@ custom configurations. All an apt-get or yum install away.</p>
         <div class="fauxhead"></div>
 	<div class="package" style="padding-top: 13px; border-top: 0px;">
           <form class="downloads">
-            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7-multi.apk"><span class="strong">Download</span><span class="normal">Android</span></a>
+            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7-multi.apk"><span class="strong">Download</span><span class="normal"><button-android-arm></span></a>
             <div class="sig">
               (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-armv7-multi.apk.asc">sig</a>)
+              <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
+            </div>
+
+            <a class="button" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-x86-multi.apk"><span class="strong">Download</span><span class="normal"><button-android-x86></span></a>
+            <div class="sig">
+              (<a class="android-tbb-sig" href="../dist/torbrowser/<version-torbrowserbundleandroidbeta>/tor-browser-<version-torbrowserbundleandroidbeta>-android-x86-multi.apk.asc">sig</a>)
               <a class="siginfo" href="<page docs/verifying-signatures>">What's This?</a>
             </div>
           </form>
