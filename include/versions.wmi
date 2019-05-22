@@ -1,5 +1,5 @@
 <define-tag version-stable whitespace=delete>0.4.0.5</define-tag>
-<define-tag version-alpha whitespace=delete>0.4.0.5</define-tag>
+<define-tag version-alpha whitespace=delete>0.4.1.1-alpha</define-tag>
 
 <define-tag version-torbrowserdevelopbranch whitespace=delete>maint-8.0</define-tag>
 
