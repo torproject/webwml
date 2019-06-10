@@ -92,3 +92,8 @@ RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 # some external resources (the donate infrastructure in particular) and
 # getting it changed there is apparently hard or something.
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
+
+# Redirect download pages to the new website (bug #30808)
+RewriteRule ^projects/torbrowser.html.en$ https://www.torproject.org/download/ [R=301,L]
+RewriteRule ^download/download-easy.html.en$ https://www.torproject.org/download/ [R=301,L]
+RewriteRule ^download/download.html.en$ https://www.torproject.org/download/ [R=301,L]
