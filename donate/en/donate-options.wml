@@ -38,63 +38,12 @@ form#makeDonation {
     <div class="dbox donate">
     <h3>Donate Bitcoin</h3>
 <p>To donate Bitcoin to The Tor Project, please complete the form below. If you would like an acknowledgment from the Tor Project, please provide your email address. (Due to the current state of the Bitcoin market, our payment processor, Bitpay, will not allow us to accept donations of less than 5 USD. However, we can also accept donations, including smaller donations, through Bitcoin Cash. Send us a tip with <a href="https://twitter.com/tipprbot">@tipprbot</a> on Twitter!)</p>
-  <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
-        <input name="action" type="hidden" value="checkout">
-        <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
-          <ul style="list-style: none;">
-            <li id="orderID" class="control-group">
-                <label class="control-label" style="width: 80px">Email:</label>
-                <input name="orderID" type="email" class="input input-xlarge" placeholder="Email address (optional)" maxlength=50 autocapitalize=off autocorrect=off><br>
-            </li>
-            <li id="price" class="control-group">
-                <label class="control-label" style="width: 80px">Amount:</label>
-                <input name="price" type="number" class="noscroll" value="20" placeholder="Amount" maxlength="10" min="1" step="0.01" />
-                <select name="currency" value="" >
-                  <option value="USD" selected="selected">USD</option>
-                  <option value="BTC">BTC</option>
-                  <option value="EUR">EUR</option>
-                  <option value="GBP">GBP</option>
-                  <option value="AUD">AUD</option>
-                  <option value="BGN">BGN</option>
-                  <option value="BRL">BRL</option>
-                  <option value="CAD">CAD</option>
-                  <option value="CHF">CHF</option>
-                  <option value="CNY">CNY</option>
-                  <option value="CZK">CZK</option>
-                  <option value="DKK">DKK</option>
-                  <option value="HKD">HKD</option>
-                  <option value="HRK">HRK</option>
-                  <option value="HUF">HUF</option>
-                  <option value="IDR">IDR</option>
-                  <option value="ILS">ILS</option>
-                  <option value="INR">INR</option>
-                  <option value="JPY">JPY</option>
-                  <option value="KRW">KRW</option>
-                  <option value="LTL">LTL</option>
-                  <option value="LVL">LVL</option>
-                  <option value="MXN">MXN</option>
-                  <option value="MYR">MYR</option>
-                  <option value="NOK">NOK</option>
-                  <option value="NZD">NZD</option>
-                  <option value="PHP">PHP</option>
-                  <option value="PLN">PLN</option>
-                  <option value="RON">RON</option>
-                  <option value="RUB">RUB</option>
-                  <option value="SEK">SEK</option>
-                  <option value="SGD">SGD</option>
-                  <option value="THB">THB</option>
-                  <option value="TRY">TRY</option>
-                  <option value="ZAR">ZAR</option>
-                </select/>
-            </li>
-          </ul>
-          <br>
-          <input type="hidden" name="data" value="iH+sCoKQo5J52hkEzWcMi8+PRt78/89lcSU9GnapWfWL6thyubtDCahTUqa2JTlj6RQrQySkZAoFvK05yifMwfx5V87JJuoaDlHUsZR9ppzkklmzHpKJ4TG5M0zNVcKfNBfyopdfTFbzpOXM2FDppqmU7njsRUF1EZPa0K7SIxpv4lNKSPn1PyjVKVxjnpFE0AZ1Qa75VwZnS+rBNNfwxPsgSz+Oa2Twe226FmJJrLtPuBteFfHAIWh6QS5JnpOn4ScMFph0zjixutmunMAjKw==">
-          <div style="margin: auto; width: 100%; text-align: center">
-            <input name="submit" src="$(IMGROOT)/bitpay-donate-md.png" type="image" style="width: auto" alt="BitPay" border="0">
-          </div>
-        </fieldset>
-      </form>
+<form method="POST" action="https://fund.btcpayserver.org/api/v1/invoices" style="width:418px">
+  <input type="hidden" name="storeId" value="9Ac1k57DGMpL2QeYeqSiNcpq6tor6NAGgiuYYij3tPaE" />
+  <div style="text-align:center;display:inline;float:left;"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20" step="1"  value="10" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: 0 0; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
+  <input type="hidden" name="currency" value="USD" />
+  <input type="image" src="https://fund.btcpayserver.org/img/paybutton/pay.png" name="submit" style="width:209px" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+</form>
     </div>
    </div>
 <!-- END BITCOIN -->
