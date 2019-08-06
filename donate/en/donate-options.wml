@@ -36,14 +36,25 @@ form#makeDonation {
    <a id="bitcoin"></a>
    <div class="hundred toptwenty">
     <div class="dbox donate">
-    <h3>Donate Bitcoin</h3>
-<p>To donate Bitcoin to The Tor Project, please complete the form below. If you would like an acknowledgment from the Tor Project, please provide your email address. (Due to the current state of the Bitcoin market, our payment processor, Bitpay, will not allow us to accept donations of less than 5 USD. However, we can also accept donations, including smaller donations, through Bitcoin Cash. Send us a tip with <a href="https://twitter.com/tipprbot">@tipprbot</a> on Twitter!)</p>
+    <h3>Donate Bitcoin via BTCPayServer</h3>
 <form method="POST" action="https://fund.btcpayserver.org/api/v1/invoices" style="width:418px">
   <input type="hidden" name="storeId" value="9Ac1k57DGMpL2QeYeqSiNcpq6tor6NAGgiuYYij3tPaE" />
   <div style="text-align:center;display:inline;float:left;"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20" step="1"  value="10" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: 0 0; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
   <input type="hidden" name="currency" value="USD" />
   <input type="image" src="https://fund.btcpayserver.org/img/paybutton/pay.png" name="submit" style="width:209px" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
 </form>
+
+<br />
+
+<form method="POST" action=" sqgf7aihkpxwdtcb3zjf62jo63o5yqjckukioas3aropdmcay4ymepid.onion/apps/2xcGbmQoXHddtFPs5oYJJ79DCrFC/pos">
+  <input type="hidden" name="amount" value="100" />
+  <input type="hidden" name="email" value="customer@example.com" />
+  <input type="hidden" name="orderId" value="CustomOrderId" />
+  <input type="hidden" name="notificationUrl" value="https://example.com/callbacks" />
+  <input type="hidden" name="redirectUrl" value="https://example.com/thanksyou" />
+  <button type="submit">Donate via onion</button>
+</form>
+
     </div>
    </div>
 <!-- END BITCOIN -->
