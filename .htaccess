@@ -8,6 +8,9 @@ RewriteRule ^documentation(.*) /docs/documentation$1 [R=301,L]
 RewriteRule ^verifying-signatures(.*) /docs/verifying-signatures$1 [R=301,L]
 RewriteRule ^tor-manual(.*) /docs/tor-manual$1 [R=301,L]
 
+# docs
+RewriteRule ^docs/verifying-signatures(.*) to ​https://support.torproject.org/#how-to-verify-signature [R=302,L]
+
 # Torbutton
 RewriteRule ^torbutton/design(.*) /docs/torbutton/en/design$1 [R=301,L]
 RewriteRule ^torbutton/(.*) /docs/torbutton/$1 [R=301,L]
