@@ -8,6 +8,7 @@
     <a href="<page index>">Home &raquo; </a>
     <a href="<page docs/documentation>">Documentation</a>
   </div>
+#include "notice.wmi"
   <div id="maincol">
     <a id="RunningTor"></a>
     <a id="Support"></a>

@@ -3,7 +3,7 @@
 .eoy-background {
   background-color: #F8F9FA;
   width: 100%;
-  height: 300px;
+  height: 250px;
   margin-bottom: 35px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .eoy-message {
-  width: 55%;
+/*  width: 55%; */
   float: right;
 	padding-left: 35px;
 }
@@ -166,4 +166,8 @@ input[type=checkbox]:checked ~ div#eoy-banner {
 
 .black {
   color: black;
+}
+
+.notice-2019 a, a:link, a:visited {
+  text-decoration: none;
 }

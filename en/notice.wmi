@@ -1,0 +1,15 @@
+<label class="black" for="toggle-1">x</label>
+<input type="checkbox" id="toggle-1">
+<div class="eoy-background">
+  <div class="eoy-wrap">
+    <div class="eoy-message">
+      <div class="tor-strength-in-num">
+        <p>This website is an online archive and it's outdated!</p>
+      </div>
+      <div class="keep-tor-strong-giv">
+        <p class="advance-universal-hu">Some resources you will find here are <mark>outdated.</mark> We are currently working on a <a href="https://blog.torproject.org/meet-new-torprojectorg">new developer portal</a>.</p>
+        <p class="advance-universal-hu">You can find updated and maintained resources about <a href="https://tb-manual.torproject.org/">Tor Browser Manual</a>, <a href="https://support.torproject.org/">User Support</a>, <a href="https://community.torproject.org/relay">Relay Operations</a> and <a href="https://community.torproject.org/onion-services/">Onion Services</a>. If you have any questions or need help, please <a href="https://torproject.org/contact">contact us</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
