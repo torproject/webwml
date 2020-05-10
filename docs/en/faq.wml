@@ -838,27 +838,43 @@
     </a></h3>
 
     <p>
-    Tor Browser does not install itself in the classic sense of applications.
-    You just simply delete the folder or directory named "Tor Browser" and it
-    is removed from your system.
+    For <a href="<page download/download-easy>">Tor Browser</a> please have a look at
+    the uninstall section of our
+    <a href="https://tb-manual.torproject.org//en-US/uninstalling.html">Tor
+    Browser User Manual</a>.
+
+    <p>
+    How to uninstall Tor depends on how it was installed and which operating
+    system you have. In any case also make sure to remove the Tor's
+    <a href="#datadir">data directory</a> if you want to wipe all traces.
     </p>
 
     <p>
-    If this is not related to Tor Browser, uninstallation depends entirely on
-    how you installed it and which operating system you have. If you installed
-    a package, then hopefully your package has a way to uninstall itself.
-    The Windows packages include uninstallers.
+    If you <a href="<page download/download-unix>">installed Tor with a
+    package manage</a> (the recommended way), then it should provide an easy
+    way to remove as well (check the manpage if you are unfamiliar with it).
+    If you also want to remove traces of Tor, follow the link above to find
+    Tor's data directory and check that the package manager does not accumulate
+    logs (usually they do) exposing the former existence of Tor on this system
+    (for example in <code>/var/log/dpkg.log</code> on Debian based systems).
+    Tor itself does not create logs by default.
     </p>
 
     <p>
-    For Mac OS X, follow the
+    If you installed it from source, there is no easy uninstall method, but you
+    are on the bright side: By default it only creates files in
+    <code>/usr/local/</code> and it should be pretty easy to notice things
+    there.
+    </p>
+
+    <p>
+    The Windows packages include uninstallers. See below if you installed Tor
+    as a system service for example on <a href="#NTService">Windows NT</a>.
+    </p>
+
+    <p>
+    To remove Tor from Mac OS X, follow these
     <a href="<page docs/tor-doc-osx>#uninstall">uninstall directions</a>.
-    </p>
-
-    <p>
-    If you installed by source, I'm afraid there is no easy uninstall method.
-    But on the bright side, by default it only installs into /usr/local/ and it
-    should be pretty easy to notice things there.
     </p>
 
     <hr>
@@ -2753,6 +2769,7 @@ don't want to deal with abuse issues.</a></h3>
     be sure to run the service removal command (shown above) first before
     running the uninstaller from "Add/Remove Programs". The uninstaller is
     currently not capable of removing the active service.
+    Also see <a href="#HowUninstallTor">How to uninstall Tor?</a>
     </p>
 
     <hr>
