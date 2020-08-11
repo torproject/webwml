@@ -353,8 +353,8 @@ meetings around the world.</li>
     <br /><br />
 
     <a id="project-tor"></a>
-    <h3>Tor (<a href="https://gitweb.torproject.org/tor.git">code</a>, <a
-    href="https://trac.torproject.org/projects/tor/report/12">bug
+    <h3>Tor (<a href="https://gitweb.torproject.org/tor.git">code</a>,
+    <a href="https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Core+Tor%2FTor&or&status=accepted&status=assigned&status=needs_information&status=needs_review&status=needs_revision&status=new&status=reopened&component=Applications%2FTor+bundles%2Finstallation&group=milestone&col=id&col=summary&col=component&col=owner&col=type&col=priority&col=version&order=priority">bug
     tracker</a>)</h3>
 
     <p>
