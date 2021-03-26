@@ -115,12 +115,39 @@ server {
 text/html                             en html htm shtml;
 </pre>
     </tt>
-    <br/><br>
+    <p>
     Please ensure that you keep your mirror updated (we suggest automating this
     task with something like '<tt>cron</tt>'). Our website, source code and
     binary releases change often. An update frequency of six hours is recommended.  Tor users everywhere will thank you.
     </p>
     <br/>
+
+    <a name="nologging"></a>
+    <h2><a class="anchor" href="#nologging">Prevent logging of IP addresses</a></h2>
+    <p>
+    To protect the privacy of your users disable logging of IP addresses with
+    any of the following methods:
+    </p>
+    <ul>
+      <li><strong>Apache</strong>:
+      Install the module <i>libapache2-mod-removeip</i> or change the CustomLog
+      directive to log every user as <i>0.0.0.0</i> which makes it play nicely
+      with something like AWstats, or any other log-analysis software:
+      <pre>CustomLog /path/to/desired/log/location "0.0.0.0 %l %u %t \"%r\" %>s %b"</pre>
+      </li>
+      <li><strong>Nginx</strong>:
+      To suppress IP and user information while staying compatible with the
+      <a href="https://nginx.org/en/docs/http/ngx_http_log_module.html">Common Log Format</a>,
+      and drop the HTTP Referer and User-Agent fields use these lines in your
+      <i>nginx.conf</i> (adapt the second line if your log files are not in
+      <i>/var/log/nginx</i>):
+      <pre>
+log_format privacy '- - - [$time_local] "$request" $status $body_bytes_sent';
+access_log /var/log/nginx/access.log privacy;
+      </pre>
+      </li>
+    </ul>
+
     <a id="mirrorops"></a>
     <h2><a class="anchor" href="#mirrorops">Joining the mirror community</a></h2>
     <p>
@@ -137,13 +164,13 @@ text/html                             en html htm shtml;
     file</a> to the mirrors list. Your mirror will then be added manually
     if it passes availability testing and your provided information is
     confirmed. Some general pointers on mirrors are:
+    </p>
     <ol><li> Try not to run your mirror behind a content delivery network
     (such as Akamai, Cloudflare, Fastly, etc) as most of them block
     access from countries where the mirror is needed the most.</li>
     <li> Try not to redirect http to https. Many places in the world
     cannot use https due to local or national firewalls.</li>
     </ol>
-    </p>
   </div>
   <!-- END MAINCOL -->
   <div id = "sidecol">
