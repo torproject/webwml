@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+use File::Temp qw/tempdir/; # https://metacpan.org/pod/File::Temp
 
 # This script automatically updates the .wmi file with gpg as per:
 my $keysfile = "include/keys.txt";
@@ -17,6 +18,8 @@ my $skipkeyupdates = 0;
 $0 =~ /^(.+)\/[^\/]+$/;
 my $root = "$1/../..";
 chdir $root or die "Could not enter $root: $! (script path: $0)\n";
+
+my $gpghomedir = tempdir(CLEANUP => 1, chmod => 0700);
 
 open my $kf, '<', "$keysfile" # read keys
   or die "Could not open $keysfile: $!\n";
@@ -101,18 +104,19 @@ foreach my $app (@apps) {
   }
 
   # we update collected keys for this application and create a string of them
-  my $gpgcmd = "gpg --keyid-format 0xlong --fingerprint --with-subkey-fingerprints";
+  my $gpgcmd = "gpg2 --homedir $gpghomedir ";
+  my $gpgoptions = "--keyid-format 0xlong --fingerprint --with-subkey-fingerprints";
   foreach my $key (@keysforapp) {
     # update keys
     if ($forcekeyupdates or not $skipkeyupdates) {
       print "\nFetching $key\n";
       my $gpgresult;
-      do { $gpgresult = system "gpg --recv-key $key"; sleep 1; }
+      do { $gpgresult = system "$gpgcmd --recv-key $key"; sleep 1; }
       while ($gpgresult != 0);
     }
 
     # add output to key string
-    my $str = qx/$gpgcmd $key/;
+    my $str = qx/$gpgcmd $gpgoptions $key/;
     # replace html codes
     $str =~ s/</&lt;/g; $str =~ s/>/&gt;/g; $str =~ s/@/#/g; $str =~ s/@/&at;/g;
     $keys .= "$str";
@@ -124,7 +128,7 @@ foreach my $app (@apps) {
     my $owner = "The Tor Browser Developers";
     die "Did not findTor Browser signing key.\n" if ($owners{$owner} eq '');
     # save Tor Browser signing key subkey fingerprints to $fpfile
-    my @fp = qx/$gpgcmd $owners{$owner}|grep "Key fingerprint"/;
+    my @fp = qx/$gpgcmd $gpgoptions $owners{$owner}|grep "Key fingerprint"/;
     shift @fp; # remove primary key fingerprint
     $subkey_fingerprints .= join ('', map { s/^\s+Key fingerprint = //; "$_" } @fp);
     if (open my $fpout, '>', "$fpfile.temp") {
