@@ -2,6 +2,14 @@
 # Revision: $Revision$
 # Translation-Priority: 3-low
 
+<:
+sub development_branch {
+  ($_) = "<alpha_version>";
+  s/\.\d$/.x/;
+  return $_;
+}
+:>
+
 #include "head.wmi" TITLE="Tor Project: Debian/Ubuntu Instructions" CHARSET="UTF-8"
 {#meta#:
 <script type="text/javascript" src="debian-selector.js"></script>
@@ -161,22 +169,11 @@ $ cd ..
 <noscript>
 <p>
 Then add this line to your <tt>/etc/apt/sources.list</tt> file:<br />
-<blockquote><pre>
+<pre>
 deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-</pre></blockquote>
+</pre>
 where you put the codename of your distribution (i.e. stretch, buster, sid
 or whatever it is) in place of &lt;DISTRIBUTION&gt;.
-</p>
-
-<p>
-If you want to use the
-<a href="<page download/download-unix>#packagediff">development branch</a>
-of Tor instead (more features and more bugs), you need add a different set of
-lines to your <i>/etc/apt/sources.list</i> file:<br />
-<blockquote><pre>
-deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb     https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;DISTRIBUTION&gt; main
-</pre></blockquote>
 </p>
 
 <p>
@@ -203,6 +200,16 @@ recommended you use it. Install it together with tor:
 </p>
 
 </noscript>
+<p>
+If you want to use the
+<a href="<page download/download-unix>#packagediff">development branch</a>
+of Tor instead (more features and more bugs), you need add a different set of
+lines to your <i>/etc/apt/sources.list</i> file:<br />
+<pre>
+deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb     https://deb.torproject.org/torproject.org tor-experimental-<:= development_branch() :>-&lt;DISTRIBUTION&gt; main
+</pre>
+</p>
 <noscript>
 
 <hr />
@@ -214,14 +221,15 @@ recommended you use it. Install it together with tor:
 If you want to build your own debs from source you must first add an
 appropriate <tt>deb-src</tt> line to <tt>sources.list</tt>.
 </p>
-<blockquote><pre>
+<pre>
 &num; For the stable version.
 deb-src https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
 
 &num; For the unstable version.
-deb-src https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
-deb-src https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-&lt;DISTRIBUTION&gt; main
-</pre></blockquote>
+deb     https://deb.torproject.org/torproject.org &lt;DISTRIBUTION&gt; main
+deb-src https://deb.torproject.org/torproject.org tor-experimental-<:= development_branch() :>-&lt;DISTRIBUTION&gt; main
+</pre>
+
 <p>
 Substitute the name of your distro (stretch, buster, sid, xenial, ...) in
 place of &lt;DISTRIBUTION&gt;. Now refresh your sources by running (as root):
@@ -289,15 +297,16 @@ To use Apt with Tor, the apt transport needs to be installed:
 </pre></blockquote>
 
 <p>
-Then replace the address in the lines added before with, for example:
+Then you can use tor:// and tor+https:// with any address, for example:
 </p>
-<blockquote><pre>
+<pre>
 &num; For the stable version.
 deb tor://sdscoq7snqtznauu.onion/torproject.org &lt;DISTRIBUTION&gt; main
 
 &num; For the unstable version.
+deb tor://sdscoq7snqtznauu.onion/torproject.org &lt;DISTRIBUTION&gt; main
 deb tor://sdscoq7snqtznauu.onion/torproject.org tor-nightly-master-&lt;DISTRIBUTION&gt; main
-</pre></blockquote>
+</pre>
 <p>
 Now refresh your sources and try if it's still possible to install tor:
 </p>
@@ -305,6 +314,11 @@ Now refresh your sources and try if it's still possible to install tor:
 &num; apt update
 &num; apt install tor
 </pre></blockquote>
+<p>
+The <a href="https://salsa.debian.org/apt-team/apt-transport-tor/raw/master/README.md">
+README</a> of apt-transport-tor has more information for example how to use
+another SocksPort.
+</p>
 <p>
 See <a href="https://onion.torproject.org/">onion.torproject.org</a>
 for all torproject.org onion addresses.</p>
